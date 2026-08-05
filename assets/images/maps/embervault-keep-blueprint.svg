@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1000" viewBox="0 0 1600 1000">
+  <defs>
+    <filter id="glow"><feGaussianBlur stdDeviation="4" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+    <style>
+      .title{font:700 42px system-ui;fill:#f2ffff}.sub{font:20px system-ui;fill:#b8d5d5}.zone{fill:#172528;stroke:#7cb7ba;stroke-width:3}.floor2{fill:#20303b}.floor1{fill:#26302d}.basement{fill:#25232c}.zt{font:700 20px system-ui;fill:#f2ffff;text-anchor:middle}.tag{font:15px system-ui;fill:#b8d5d5;text-anchor:middle}.main{stroke:#00ffff;stroke-width:14;fill:none;stroke-linecap:round;opacity:.7}.alt{stroke:#ca6309;stroke-width:9;fill:none;stroke-linecap:round;opacity:.85}.crouch{stroke:#b8ff52;stroke-width:9;fill:none;stroke-dasharray:16 12}.locked{stroke:#ffd35a;stroke-width:9;fill:none;stroke-dasharray:4 12}.lift{stroke:#f2ffff;stroke-width:8;fill:none;stroke-dasharray:2 14}.boundary{fill:none;stroke:#5b6670;stroke-width:22}.anchor{fill:#00ffff;stroke:#f2ffff;stroke-width:3;filter:url(#glow)}.escape{fill:#ca6309;stroke:#ffd35a;stroke-width:3}.legend{font:18px system-ui;fill:#f2ffff}
+    </style>
+  </defs>
+  <rect width="1600" height="1000" fill="#0a1014"/>
+  <text x="70" y="70" class="title">Embervault Keep - gameplay blueprint</text>
+  <text x="70" y="105" class="sub">Ground routes only - floors connect by stairs, ramps, doors, and an interactable freight lift</text>
+  <rect x="55" y="135" width="1180" height="790" rx="90" class="boundary"/>
+
+  <path class="main" d="M630 795 L630 665 L630 480 L320 430"/>
+  <path class="alt" d="M630 795 L360 820"/>
+  <path class="main" d="M630 480 L980 420"/>
+  <path class="alt" d="M320 430 L390 610 L630 665"/>
+  <path class="alt" d="M630 665 L900 610 L980 420"/>
+  <path class="crouch" d="M390 610 L900 610"/>
+  <path class="alt" d="M630 480 L470 275"/>
+  <path class="alt" d="M630 480 L805 275"/>
+  <path class="alt" d="M470 275 L640 175 L805 275"/>
+  <path class="alt" d="M630 665 L360 820 L720 865"/>
+  <path class="lift" d="M630 665 L720 865"/>
+  <path class="locked" d="M720 865 L470 275"/>
+
+  <g transform="translate(640 175)"><rect x="-115" y="-48" width="230" height="96" rx="20" class="zone floor2"/><text y="-5" class="zt">Watch Chamber</text><text y="24" class="tag">task / evidence</text></g>
+  <g transform="translate(470 275)"><rect x="-120" y="-58" width="240" height="116" rx="20" class="zone floor2"/><text y="-10" class="zt">Library</text><text y="20" class="tag">evidence / NPC</text></g>
+  <g transform="translate(805 275)"><rect x="-120" y="-58" width="240" height="116" rx="20" class="zone floor2"/><text y="-10" class="zt">Alchemy Room</text><text y="20" class="tag">trap / magic trace</text></g>
+  <g transform="translate(320 430)"><rect x="-120" y="-65" width="240" height="130" rx="22" class="zone floor1"/><text y="-12" class="zt">Armory</text><text y="20" class="tag">loot / cover</text></g>
+  <g transform="translate(630 480)"><rect x="-145" y="-82" width="290" height="164" rx="28" class="zone floor1"/><text y="-20" class="zt">Great Hall</text><text y="14" class="tag">council / report / combat</text><circle cy="48" r="13" class="anchor"/></g>
+  <g transform="translate(980 420)"><rect x="-120" y="-65" width="240" height="130" rx="22" class="zone floor1"/><text y="-12" class="zt">Chapel</text><text y="20" class="tag">NPC / recovery</text></g>
+  <g transform="translate(390 610)"><rect x="-125" y="-55" width="250" height="110" rx="20" class="zone floor1"/><text y="-9" class="zt">Servants' Passage</text><text y="22" class="tag">crouch / hiding</text></g>
+  <g transform="translate(900 610)"><rect x="-125" y="-55" width="250" height="110" rx="20" class="zone floor1"/><text y="-9" class="zt">Kitchens</text><text y="22" class="tag">loot / trap / cover</text></g>
+  <g transform="translate(630 665)"><rect x="-115" y="-48" width="230" height="96" rx="20" class="zone floor1"/><text y="-5" class="zt">Foyer</text><text y="24" class="tag">spawn / lift</text></g>
+  <g transform="translate(630 795)"><rect x="-120" y="-52" width="240" height="104" rx="20" class="zone floor1"/><text y="-7" class="zt">Courtyard</text><text y="24" class="tag">spawn / escape</text><circle cx="88" cy="-25" r="12" class="escape"/></g>
+  <g transform="translate(360 820)"><rect x="-125" y="-62" width="250" height="124" rx="22" class="zone basement"/><text y="-12" class="zt">Dungeon</text><text y="20" class="tag">monster / trap / escape</text><circle cx="92" cy="-33" r="12" class="escape"/></g>
+  <g transform="translate(720 865)"><rect x="-125" y="-62" width="250" height="124" rx="22" class="zone basement"/><text y="-12" class="zt">Crypt</text><text y="20" class="tag">evidence / escape</text><circle cx="92" cy="-33" r="12" class="escape"/></g>
+
+  <g transform="translate(1280 175)">
+    <text class="zt" x="120" y="0">Route legend</text>
+    <line x1="0" y1="50" x2="95" y2="50" class="main"/><text x="120" y="58" class="legend">main ground route</text>
+    <line x1="0" y1="100" x2="95" y2="100" class="alt"/><text x="120" y="108" class="legend">alternate / stairs</text>
+    <line x1="0" y1="150" x2="95" y2="150" class="crouch"/><text x="120" y="158" class="legend">crouch passage</text>
+    <line x1="0" y1="200" x2="95" y2="200" class="locked"/><text x="120" y="208" class="legend">locked shortcut</text>
+    <line x1="0" y1="250" x2="95" y2="250" class="lift"/><text x="120" y="258" class="legend">interactable lift</text>
+    <circle cx="18" cy="310" r="13" class="anchor"/><text x="50" y="318" class="legend">council point</text>
+    <circle cx="18" cy="360" r="13" class="escape"/><text x="50" y="368" class="legend">escape objective</text>
+    <text x="0" y="440" class="legend">Hard boundaries:</text><text x="0" y="470" class="sub">cliffs / water / roofs / walls</text>
+    <text x="0" y="540" class="legend">Disabled everywhere:</text><text x="0" y="570" class="sub">climb / fly / swim / submerge</text>
+  </g>
+</svg>
