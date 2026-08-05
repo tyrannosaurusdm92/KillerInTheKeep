@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width,initial-scale=1,viewport-fit=cover" name="viewport"/>
+<meta content="#061216" name="theme-color"/>
+<meta content="Killer In The Keep — a fully playable cross-platform multiplayer fantasy murder mystery for four to eight players, with shared maps, controller support, tasks, evidence, councils, voting, and hidden killer actions." name="description"/>
+<title>Killer In The Keep</title>
+
+<link href="assets/json/manifest.webmanifest" rel="manifest"/>
+<link href="assets/css/app.css" rel="stylesheet"/>
+<link href="assets/css/cards.css" rel="stylesheet"/>
+<link href="assets/css/map.css" rel="stylesheet"/>
+<link href="assets/css/dice.css" rel="stylesheet"/>
+<link href="assets/icons/favicon-96.png" rel="icon" sizes="96x96" type="image/png"/><link href="assets/icons/favicon-48.png" rel="icon" sizes="48x48" type="image/png"/><link href="assets/icons/apple-touch-icon.png" rel="apple-touch-icon" sizes="180x180"/></head>
+<body>
+<noscript><div class="fatal">Killer In The Keep needs JavaScript enabled.</div></noscript>
+<div aria-live="polite" class="boot-screen" id="bootScreen">
+<div class="boot-card">
+<img alt="Original Killer In The Keep title artwork" src="assets/images/branding/killer-in-the-keep-banner.webp"/>
+<h1>Killer In The Keep</h1>
+<p id="bootMessage">Opening the gates…</p>
+<div class="progress"><span id="bootProgress"></span></div>
+</div>
+</div>
+<div class="app-shell" hidden="" id="app">
+<header class="topbar">
+<button aria-label="Open navigation" class="icon-button mobile-only" id="navToggle">☰</button>
+<div class="brand-block">
+<strong>Killer In The Keep</strong>
+<small id="modeLabel">Offline training</small>
+</div>
+<div class="session-strip">
+<span class="badge" id="phaseBadge">Lobby</span>
+<span class="badge badge-muted" id="gridDistance">1 square = 5 ft</span>
+<span class="badge badge-offline" id="connectionBadge">Offline</span>
+<span class="badge badge-muted" id="gamepadBadge">Controller: none</span></div>
+<div class="top-actions"><button class="small" hidden="" id="installAppButton">Install App</button>
+<button aria-label="Open dice roller" class="icon-button" data-action="open-dice">🎲</button>
+<button aria-label="Settings" class="icon-button" data-page="settings">⚙</button>
+<button aria-label="Open character sheet" class="profile-chip" data-page="character" id="profileButton">
+<img alt="Selected character portrait" id="topPortrait"/>
+<span id="topCharacterName">Character</span>
+</button>
+</div>
+</header>
+<aside aria-label="Primary navigation" class="sidebar" id="sidebar">
+<button class="nav-item active" data-page="home"><span>⌂</span> Keep Hub</button>
+<button class="nav-item" data-page="character"><span>♙</span> Character</button>
+<button class="nav-item" data-page="map"><span>⌖</span> Shared Map</button><button class="nav-item" data-page="multiplayer">⚡ Live Match</button>
+<button class="nav-item" data-page="cards"><span>▤</span> Digital Cards</button>
+<button class="nav-item" data-page="journal"><span>✦</span> Case Journal</button>
+<button class="nav-item" data-page="services"><span>◎</span> Online Services</button>
+<button class="nav-item" data-page="combat"><span>⚔</span> Combat &amp; Dice</button>
+<button class="nav-item host-nav" data-page="host"><span>♛</span> Host Console</button>
+<button class="nav-item" data-page="settings"><span>⚙</span> Controls &amp; Settings</button>
+<div class="sidebar-foot">
+<p>5e SRD-compatible</p>
+<p>Frontend v2.1.0 · 4–8 players</p>
+</div>
+</aside>
+<main class="main-content" id="main">
+<section class="page active" data-page-name="home" id="page-home">
+<div class="hero-panel">
+<div class="hero-copy">
+<p class="eyebrow">A fantasy murder mystery roleplaying game</p>
+<h1>Every witness is armed. Every corridor lies.</h1>
+<p id="premiseText"></p>
+<div class="hero-actions">
+<button class="primary" id="startOfflineButton">Start Offline Training Match</button>
+<button class="secondary" id="openConnectButton">Open Online Multiplayer Setup</button>
+</div>
+<div class="role-notice" hidden="" id="roleNotice"></div>
+</div>
+<div aria-hidden="true" class="hero-art"></div>
+</div>
+<div class="dashboard-grid">
+<article class="panel span-7">
+<header><h2>Choose Your Adventurer</h2><span id="characterCount"></span></header>
+<div class="character-picker" id="characterPicker"></div>
+</article>
+<article class="panel span-5">
+<header><h2>Match Setup</h2><span>4–8 players</span></header>
+<div class="form-grid">
+<label>Map<select id="homeMapSelect"></select></label>
+<label>Training party size<input id="partySize" max="8" min="4" type="number" value="8"/></label>
+<label>Starting level<input id="startingLevel" max="20" min="1" type="number" value="3"/></label>
+<label class="check"><input id="reducedMotionQuick" type="checkbox"/> Reduced motion</label>
+</div>
+<div class="rule-callout"><strong>Map contract:</strong> every visible grid square measures exactly 5 feet by 5 feet. Exploration is animated in real time; combat uses initiative and movement allowance.</div>
+</article>
+<article class="panel span-4 metric-panel"><strong id="metricPlayers">0</strong><span>Adventurers in session</span></article>
+<article class="panel span-4 metric-panel"><strong id="metricEvidence">0</strong><span>Evidence archived</span></article>
+<article class="panel span-4 metric-panel"><strong id="metricObjectives">0</strong><span>Objectives remaining</span></article>
+<article class="panel span-6">
+<header><h2>Current Party</h2><button class="small" data-page="map">Open map</button></header>
+<div class="party-list" id="partyPreview"></div>
+</article>
+<article class="panel span-6">
+<header><h2>Session Feed</h2><button class="small" id="clearFeed">Clear local feed</button></header>
+<div aria-live="polite" class="feed" id="sessionFeed"></div>
+</article>
+</div>
+</section>
+<section class="page" data-page-name="character" id="page-character">
+<div class="character-hero">
+<div class="portrait-frame"><img alt="Character portrait" id="characterPortrait"/><span class="level-seal">Level <b id="characterLevel">3</b></span></div>
+<div class="character-summary">
+<p class="eyebrow">Player-owned 5e SRD character</p>
+<h1 id="characterName"></h1>
+<p class="lead" id="characterSubtitle"></p>
+<div class="identity-grid" id="identityGrid"></div>
+<div class="xp-row"><div><strong id="xpText"></strong><div class="xp-bar"><span id="xpFill"></span></div></div><button class="small" id="addXpButton">Add 100 XP</button><button class="small" id="levelUpButton">Level up</button></div>
+</div>
+</div>
+<div class="sheet-tabs" role="tablist">
+<button class="active" data-sheet-tab="overview">Overview</button>
+<button data-sheet-tab="actions">Actions &amp; Spells</button>
+<button data-sheet-tab="inventory">Inventory</button>
+<button data-sheet-tab="dice">3D Dice</button>
+<button data-sheet-tab="map">Map Page</button>
+<button data-sheet-tab="gallery">Art Gallery</button>
+<button data-sheet-tab="notes">Notes</button>
+</div>
+<div class="sheet-section active" id="sheet-overview"></div>
+<div class="sheet-section" id="sheet-actions"></div>
+<div class="sheet-section" id="sheet-inventory"></div>
+<div class="sheet-section" id="sheet-dice">
+<div class="character-dice-shell" id="characterDiceShell">
+<div class="dice-character-banner"><img alt="" id="diceCharacterPortrait"/><span><strong id="diceCharacterName">Character Dice</strong><small>Physical 3D dice bound to this character sheet</small></span></div>
+<div aria-label="Interactive physical 3D dice table. Swipe or use the roll button." class="dice-stage" id="diceStage"></div>
+<div class="dice-controls">
+<div class="dice-controls-main"><input aria-label="Dice expression" id="characterDiceExpression" value="1d20+0"/><select id="characterDiceMode"><option value="normal">Normal</option><option value="advantage">Advantage</option><option value="disadvantage">Disadvantage</option></select><button class="primary" id="characterDiceRoll">Roll 3D Dice</button><button class="small" id="diceFullscreen">Full Screen</button></div>
+<div class="dice-quick-row"><button data-quick-3d="1d4">d4</button><button data-quick-3d="1d6">d6</button><button data-quick-3d="1d8">d8</button><button data-quick-3d="1d10">d10</button><button data-quick-3d="1d12">d12</button><button data-quick-3d="1d20">d20</button><button data-quick-3d="1d100">d100</button></div>
+<div aria-live="polite" class="dice-result" id="characterDiceResult">Choose a die, type a dice expression, or swipe across the table.</div>
+</div>
+</div>
+<p class="dice-source-note">This is the physical Three.js/Cannon.js dice engine from the supplied roleplaying-board package. Dice Bot code and bot assets are not included.</p>
+</div>
+<div class="sheet-section" id="sheet-map"><div class="embedded-map-note"><h2>Shared Character Map</h2><p>This is the same live map used by the full Map page. Other authorized player tokens update here as they move.</p><button class="primary" data-page="map">Open Full Shared Map</button></div><div class="mini-map" id="miniMapMount"></div></div>
+<div class="sheet-section" id="sheet-gallery"><section class="paper-panel"><h2 id="galleryTitle">Original Character Art</h2><p>The supplied artwork remains visually preserved and separate from the SRD rules conversion.</p><div class="gallery-grid" id="characterGallery"></div></section></div>
+<div class="sheet-section" id="sheet-notes"><label>Private character notes<textarea id="characterNotes" placeholder="Clues, plans, spell reminders, roleplay notes…" rows="16"></textarea></label><p class="muted">Private notes stay in this browser unless a future backend route is explicitly enabled.</p></div>
+</section>
+<section class="page map-page" data-page-name="map" id="page-map">
+<div class="map-toolbar">
+<label>Map<select id="mapSelect"></select></label>
+<label>Floor<select id="floorSelect"></select></label>
+<button class="small active" id="gridToggle">Grid</button>
+<button class="small" id="fogToggle">Player fog</button>
+<button class="small" id="centerMapButton">Center token</button>
+<button class="small" id="zoomOutButton">−</button>
+<span id="zoomLabel">100%</span>
+<button class="small" id="zoomInButton">+</button>
+<button class="small" id="combatModeToggle">Enter combat movement</button>
+</div>
+<div class="map-layout">
+<div aria-label="Shared grid map. Use movement controls to move your character." class="map-viewport" id="mapViewport" tabindex="0">
+<canvas height="1024" id="mapCanvas" width="1536"></canvas>
+<div class="map-loading" id="mapLoading">Loading map…</div>
+<div class="interaction-prompt" hidden="" id="interactionPrompt"><kbd>F</kbd> <span>Interact</span></div>
+<div class="map-hud">
+<div><strong id="positionReadout">—</strong><small>Grid position</small></div>
+<div><strong id="distanceReadout">0 ft</strong><small>Moved this turn</small></div>
+<div><strong id="facingReadout">North</strong><small>Facing</small></div>
+</div>
+<div aria-label="Touch movement controls" class="touch-controls" id="touchControls">
+<button aria-label="Move forward" data-touch="forward">▲</button>
+<button aria-label="Turn left" data-touch="left">◀</button>
+<button aria-label="Stop movement" data-touch="stop">■</button>
+<button aria-label="Turn right" data-touch="right">▶</button>
+<button aria-label="Move backward" data-touch="back">▼</button>
+<button aria-label="Interact" data-touch="interact">F</button>
+<button aria-label="Strafe left" data-touch="strafe-left">↖</button><button aria-label="Sprint forward" data-touch="sprint">⇧</button><button aria-label="Strafe right" data-touch="strafe-right">↗</button></div>
+</div>
+<aside class="map-side">
+<div class="panel compact"><header><h2>Visible Adventurers</h2><span id="visiblePlayerCount"></span></header><div class="party-list compact-list" id="mapPartyList"></div></div>
+<div class="panel compact"><header><h2>Movement</h2></header><div id="movementStatus"></div><p class="muted">W/S move, A/D turn, Q/E strafe, Shift sprint, Z crouch, N sneak, F interact. Arrow and NumPad alternatives are active.</p></div>
+<div class="panel compact"><header><h2>Nearby</h2></header><div class="list-stack" id="nearbyList"></div></div>
+</aside>
+</div>
+</section>
+<section class="page" data-page-name="cards" id="page-cards">
+<div class="page-heading"><div><p class="eyebrow">Original decks, rebuilt for digital play</p><h1>Digital Card Library</h1></div><div class="heading-actions"><input id="cardSearch" placeholder="Search cards" type="search"/><select id="deckSelect"></select></div></div>
+<div class="cards-layout">
+<div><div class="card-grid" id="cardGrid"></div></div>
+<aside class="case-sidebar">
+<div class="panel compact"><header><h2>Your Private Hand</h2><span id="handCount">0</span></header><div class="mini-card-list" id="handList"></div></div>
+<div class="panel compact"><header><h2>Archived Evidence</h2><span id="archiveCount">0</span></header><div class="mini-card-list" id="archiveList"></div></div>
+</aside>
+</div>
+</section>
+<section class="page" data-page-name="journal" id="page-journal">
+<div class="page-heading"><div><p class="eyebrow">Private case file</p><h1>Investigation Journal</h1></div><button class="primary" id="perceptionButton">Perception Pulse</button></div>
+<div class="dashboard-grid">
+<article class="panel span-6"><header><h2>Objectives</h2></header><div class="objective-list" id="objectiveList"></div></article>
+<article class="panel span-6"><header><h2>Evidence Timeline</h2></header><div class="feed" id="evidenceTimeline"></div></article>
+<article class="panel span-12 accusation-panel">
+<header><h2>Formal Accusation</h2><span>Suspect + weapon + location</span></header>
+<p>A correct accusation ends the standard investigation match. An incorrect accusation applies the host’s configured penalty.</p>
+<div class="accusation-grid"><label>Suspect<select id="accuseSuspect"></select></label><label>Weapon<select id="accuseWeapon"></select></label><label>Crime location<select id="accuseRoom"></select></label><button class="danger" id="submitAccusation">Submit Accusation</button></div>
+</article>
+</div>
+</section>
+<section class="page" data-page-name="combat" id="page-combat">
+<div class="page-heading"><div><p class="eyebrow">Initiative-based 5e encounters</p><h1>Combat &amp; Dice</h1></div><div class="heading-actions"><button class="primary" id="startCombatButton">Start Encounter</button><button class="secondary" id="endTurnButton">End Turn</button></div></div>
+<div class="combat-layout">
+<aside class="panel compact"><header><h2>Initiative</h2><span id="roundLabel">Round 0</span></header><div class="initiative-list" id="initiativeList"></div></aside>
+<div class="combat-main">
+<div class="panel"><header><h2>Character Actions</h2><span id="combatTurnLabel">No active encounter</span></header><div class="action-grid" id="combatActions"></div></div>
+<div class="panel dice-panel"><header><h2>Dice Tray</h2></header><div class="dice-row"><button data-die="4">d4</button><button data-die="6">d6</button><button data-die="8">d8</button><button data-die="10">d10</button><button data-die="12">d12</button><button data-die="20">d20</button><button data-die="100">d100</button></div><div class="dice-custom"><input aria-label="Dice expression" id="diceExpression" value="1d20+0"/><select id="rollMode"><option value="normal">Normal</option><option value="advantage">Advantage</option><option value="disadvantage">Disadvantage</option></select><button class="primary" id="rollDiceButton">Roll</button></div><div class="last-roll" id="lastRoll">Roll results appear here.</div></div>
+<div class="panel"><header><h2>Combat Log</h2><button class="small" id="clearCombatLog">Clear</button></header><div class="feed" id="combatLog"></div></div>
+</div>
+<aside class="panel compact"><header><h2>Encounter</h2><button class="small" id="addMonsterButton">Add monster</button></header><div class="list-stack" id="encounterList"></div></aside>
+</div>
+</section>
+<section class="page" data-page-name="host" id="page-host">
+<div class="page-heading"><div><p class="eyebrow">Server-authoritative controls when connected</p><h1>Host Console</h1></div><span class="badge badge-muted" id="hostAuthorityBadge">Offline host simulation</span></div>
+<div class="dashboard-grid">
+<article class="panel span-6"><header><h2>Match Flow</h2></header><div class="host-actions"><button data-phase="preparation">Preparation</button><button data-phase="exploration">Exploration</button><button data-phase="discussion">Discussion</button><button data-phase="voting">Voting</button><button data-phase="resolution">Resolution</button></div><div class="form-grid"><label>Discussion seconds<input id="discussionSeconds" max="600" min="15" type="number" value="75"/></label><label>Voting seconds<input id="votingSeconds" max="300" min="10" type="number" value="30"/></label></div></article>
+<article class="panel span-6"><header><h2>Hidden Seed</h2><span>Host view guarded</span></header><button class="danger" id="revealSeedButton">Reveal Offline Seed</button><div class="seed-display" hidden="" id="seedDisplay"></div></article>
+<article class="panel span-6"><header><h2>Spawn &amp; Encounters</h2></header><div class="host-actions"><button id="spawnEvidenceButton">Spawn evidence</button><button id="spawnTrapButton">Spawn trap</button><button id="spawnMonsterHostButton">Spawn monster</button><button id="spawnTreasureButton">Spawn treasure</button></div></article>
+<article class="panel span-6"><header><h2>Party Administration</h2></header><div class="party-list" id="hostPartyList"></div></article>
+<article class="panel span-12"><header><h2>Backend Boundary</h2></header><p>The deployed Apps Script must own hidden roles, the murder solution, movement plausibility, positions, evidence ownership, doors, traps, attacks, cooldowns, votes, objectives, escape state, rewards, and win conditions. Offline training is intentionally non-authoritative.</p></article>
+</div>
+</section>
+<section class="page" data-page-name="multiplayer" id="page-multiplayer">
+<div class="page-heading"><div><p class="eyebrow">Server-authoritative multiplayer</p><h1>Live Match</h1></div><div class="button-row"><button id="refreshMatchButton">Refresh</button><button class="primary" data-live-action="open-map">Open Shared Map</button><button class="danger ghost" id="leaveLiveMatchButton">Leave Match</button></div></div>
+<div class="winner-banner" hidden="" id="liveWinner"></div>
+<div class="live-status-grid">
+<div class="live-stat"><span>Connection</span><strong id="liveConnectionText">No active connected match</strong></div>
+<div class="live-stat"><span>Phase</span><strong id="livePhase">Lobby</strong></div>
+<div class="live-stat"><span>Phase timer</span><strong id="livePhaseTimer">—</strong></div>
+<div class="live-stat"><span>Private role</span><strong id="liveRole">Unknown</strong></div>
+<div class="live-stat"><span>Status</span><strong id="liveStatus">—</strong></div>
+<div class="live-stat"><span>Current room</span><strong id="liveLocation">—</strong></div>
+</div>
+<div class="dashboard-grid live-grid">
+<article class="panel span-6"><header><h2>Objectives</h2><span>Server timed</span></header><div class="live-list" id="liveTasks"></div></article>
+<article class="panel span-6"><header><h2>Evidence in This Room</h2><button class="small" id="compareEvidenceButton">Compare Selected</button></header><div class="live-list" id="liveEvidence"></div><div class="rule-callout" id="evidenceComparison">Collect at least two clues to compare reliability and possible source links.</div></article>
+<article class="panel span-6"><header><h2>Bodies &amp; Emergency Council</h2><button class="danger" data-live-action="emergency" id="emergencyButton">Call Emergency Council</button></header><div class="live-list" id="liveBodies"></div></article>
+<article class="panel span-6"><header><h2>Council &amp; Voting</h2><span>Living players only</span></header><div id="liveMeeting"></div></article>
+<article class="panel span-6 killer-panel" hidden="" id="killerActionsPanel"><header><h2>Hidden Killer Actions</h2><span>Private</span></header><h3>Targets in your room</h3><div class="button-grid" id="killerTargets"></div><h3>Sabotage</h3><div class="button-grid" id="sabotageActions"></div></article>
+<article class="panel span-6"><header><h2>Class Abilities</h2><span>15-second backend cooldown</span></header><label>Optional target<select id="abilityTarget"><option value="">No target</option></select></label><div class="button-grid" id="liveAbilities"></div></article>
+<article class="panel span-6"><header><h2>Monsters in This Room</h2><span>Backend combat</span></header><div class="live-list" id="liveMonsters"></div></article>
+<article class="panel span-12"><header><h2>Match Chat</h2><span>Living and ghost channels are enforced by the backend</span></header><div class="chat-messages" id="liveChatMessages"></div><form class="chat-form" id="liveChatForm"><select id="liveChatChannel"><option value="match">Match</option><option value="living">Living</option><option value="ghost">Ghost</option></select><input autocomplete="off" id="liveChatMessage" maxlength="500" placeholder="Type a message…"/><button class="primary" type="submit">Send</button></form></article>
+</div>
+</section>
+<section class="page" data-page-name="services" id="page-services">
+<div class="page-heading"><div><p class="eyebrow">Every connected version 1 backend service</p><h1>Online Services</h1><p id="servicesAccount">Open Settings to sign in.</p></div><div class="heading-actions"><span class="badge badge-muted" id="servicesStatus">Sign in required</span><button class="primary" id="refreshServicesButton">Synchronize</button></div></div>
+<div class="dashboard-grid services-grid">
+<article class="panel span-6"><header><h2>Player Profile</h2><span>Profile routes</span></header><div class="form-grid"><label>Display name<input id="profileDisplayName" maxlength="40"/></label><label>Region<select id="profileRegion"><option>NA-East</option><option>NA-West</option><option>EU</option><option>Asia</option><option>Oceania</option></select></label><label>Selected character<select id="profileClass"></select></label></div><label>Public bio<textarea id="profileBio" maxlength="600" rows="4"></textarea></label><button class="primary" id="profileSaveButton">Save Profile</button></article>
+<article class="panel span-6"><header><h2>Server Accessibility &amp; Communication</h2><span>Account settings route</span></header><div class="settings-list compact-settings"><label class="check"><input id="serverSubtitles" type="checkbox"/> Subtitles</label><label class="check"><input id="serverSpeechToText" type="checkbox"/> Speech to text</label><label class="check"><input id="serverTextToSpeech" type="checkbox"/> Text to speech</label><label class="check"><input id="serverReducedMotion" type="checkbox"/> Reduced motion</label><label class="check"><input id="serverVoiceChat" type="checkbox"/> Voice chat</label><label class="check"><input id="serverTextChat" type="checkbox"/> Text chat</label><label>Text size<select id="serverTextSize"><option>Small</option><option selected>Medium</option><option>Large</option><option>Extra Large</option></select></label><label>Colorblind mode<select id="serverColorblind"><option value="">Off</option><option>Deuteranopia</option><option>Protanopia</option><option>Tritanopia</option></select></label><label>Controller profile<input id="serverControlsProfile" value="standard" maxlength="40"/></label></div><button class="primary" id="serverSettingsSaveButton">Save Server Settings</button></article>
+<article class="panel span-6"><header><h2>Public Lobby Browser</h2><div class="button-row"><button id="publicLobbiesRefresh">Refresh</button><button class="primary" id="quickMatchButton">Quick Match · 8 Max</button></div></header><p class="muted">Rooms larger than eight are hidden and cannot be joined by this frontend.</p><div class="service-list" id="publicLobbyList"></div></article>
+<article class="panel span-6"><header><h2>Inventory</h2><span id="currencyBalance">0 crowns · 0 gems</span></header><div class="service-list scroll-list" id="inventoryList"></div></article>
+<article class="panel span-12"><header><h2>Cosmetic Shop</h2><span>Backend inventory and currency rules</span></header><div class="service-list shop-service-list" id="shopList"></div></article>
+<article class="panel span-6"><header><h2>Friends</h2><span>Request, respond, remove, block</span></header><div class="form-grid"><label>Player ID<input id="friendTargetId"/></label><div class="button-row align-end"><button id="friendLookupButton">Look Up</button><button class="primary" id="friendRequestButton">Request</button><button class="danger ghost" id="friendBlockButton">Block</button><button id="friendUnblockButton">Unblock</button></div></div><div id="friendLookupResult"></div><div class="service-list" id="friendsList"></div></article>
+<article class="panel span-6"><header><h2>Guilds</h2><div class="button-row"><button id="guildRefreshButton">Refresh</button><button class="danger ghost" id="guildLeaveButton">Leave</button></div></header><div class="form-grid"><label>Name<input id="guildName" maxlength="50"/></label><label>Visibility<select id="guildVisibility"><option value="public">Public</option><option value="private">Private</option></select></label><label class="span-two">Description<textarea id="guildDescription" maxlength="500" rows="3"></textarea></label><label>Current guild ID<input id="guildCurrentId"/></label><button class="primary align-end" id="guildCreateButton">Create Guild</button></div><div class="rule-callout" id="guildCurrent"><p class="muted">No guild opened.</p></div><div class="service-list" id="guildList"></div></article>
+<article class="panel span-6"><header><h2>Leaderboard</h2><label>Rank by<select id="leaderboardSort"><option value="wins">Wins</option><option value="matches">Matches</option><option value="killerWins">Killer wins</option><option value="investigatorWins">Investigator wins</option><option value="evidenceFound">Evidence found</option><option value="tasksCompleted">Tasks completed</option></select></label></header><div class="service-list scroll-list" id="leaderboardList"></div></article>
+<article class="panel span-6"><header><h2>Match History</h2><span>XP and reward results</span></header><div class="service-list scroll-list" id="matchHistoryList"></div></article>
+<article class="panel span-12"><header><h2>Safety Report</h2><span>Backend moderation queue</span></header><div class="form-grid"><label>Target player ID<input id="reportTargetId"/></label><label>Match ID<input id="reportMatchId"/></label><label>Category<input id="reportCategory" maxlength="60" placeholder="Harassment, cheating, safety…"/></label><label class="span-two">Description<textarea id="reportDescription" maxlength="1500" rows="4"></textarea></label><button class="danger align-end" id="moderationSubmit">Submit Report</button></div></article>
+<article class="panel span-12" hidden id="adminPanel"><header><h2>Role-Gated Administration</h2><div><span id="adminPermissionText"></span><button id="adminRefreshButton">Refresh</button></div></header><div class="admin-stats" id="adminStats"></div><div class="form-grid"><label>Target player ID<input id="adminTargetId"/></label><label>Ban until ISO date/time<input id="adminBanUntil" placeholder="Optional"/></label><label>Report status<select id="adminReportStatus"><option value="">All</option><option>open</option><option>resolved</option></select></label><label class="span-two">Reason<input id="adminBanReason" maxlength="500"/></label><div class="button-row align-end"><button class="danger" id="adminBanButton">Ban</button><button id="adminUnbanButton">Unban</button><button id="adminCleanupButton">Run Cleanup</button></div></div><div class="service-list" id="adminReports"></div></article>
+</div>
+</section>
+<section class="page" data-page-name="settings" id="page-settings">
+<div class="page-heading"><div><p class="eyebrow">Accessibility, input, and connection</p><h1>Controls &amp; Settings</h1></div><button class="danger ghost" id="resetLocalButton">Reset Local Save</button></div>
+<div class="dashboard-grid">
+<article class="panel span-4"><header><h2>Backend Connection</h2><span id="backendStatusText">Preconfigured</span></header><label>Apps Script Web App URL<input id="backendUrlInput" placeholder="Paste the /exec URL after deployment" readonly="" type="url" value="https://script.google.com/macros/s/AKfycbwhZd5JCiob49mDc8N3vmTW9YqUu0oelxTbGHu92k9m9uNYrDktauJBcMyvxnbO6wQi/exec"/></label><div class="button-row"><button class="primary" id="saveBackendButton">Restore Supplied URL</button><button class="secondary" id="testBackendButton">Test Connection</button></div><p class="muted">This frontend is already bound to the supplied version 1 Apps Script deployment. The backend source is not included or replaced in this package.</p></article>
+<article class="panel span-4"><header><h2>Player Account</h2><span id="accountStatusText">Signed out</span></header><div class="connection-stack"><label>Login email or username<input autocomplete="username" id="accountLogin"/></label><label>Registration email<input autocomplete="email" id="accountEmail" type="email"/></label><label>Username<input autocomplete="username" id="accountUsername"/></label><label>Display name<input id="accountDisplayName"/></label><label>Password<input autocomplete="current-password" id="accountPassword" minlength="10" type="password"/></label><label class="check"><input id="showPasswordToggle" type="checkbox"/> Show password</label></div><div class="button-row"><button class="primary" id="loginButton">Sign In</button><button class="secondary" id="registerButton">Register</button><button class="danger ghost" id="logoutButton">Sign Out</button></div></article>
+<article class="panel span-4"><header><h2>Live Lobby</h2><span id="lobbyStatusText">No lobby</span></header><div class="connection-stack"><label>Lobby name<input id="lobbyName" maxlength="60" value="Killer In The Keep"/></label><label>Visibility<select id="lobbyVisibility"><option value="public">Public</option><option value="private">Private room code</option><option value="friends_only">Friends only</option></select></label><label>Maximum players<select aria-describedby="maxPlayersNote" id="lobbyMaxPlayers"><option>4</option><option>6</option><option selected="">8</option></select></label><p class="muted" id="maxPlayersNote">Hard limit: eight connected players, matching the eight playable characters.</p><label>Room code<input autocapitalize="characters" id="lobbyRoomCode" maxlength="6"/></label></div><div class="button-row"><button class="primary" id="createLobbyButton">Create</button><button class="secondary" id="joinLobbyButton">Join</button><button id="readyLobbyButton">Ready</button><button id="startLiveMatchButton">Start Match</button><button class="danger ghost" id="leaveLobbyButton">Leave</button><button id="saveLobbySettingsButton">Save Lobby Settings</button></div></article>
+<article class="panel span-12"><header><h2>Connected Party</h2><span>Server-authoritative lobby and match state</span></header><div class="online-lobby-summary" id="onlineLobbySummary"><p class="muted">The supplied backend is configured. Sign in to create or join a four-to-eight-player lobby.</p></div></article>
+<article class="panel span-6"><header><h2>Accessibility</h2></header><div class="settings-list"><label class="check"><input id="settingReducedMotion" type="checkbox"/> Reduced motion</label><label class="check"><input id="settingHighContrast" type="checkbox"/> High contrast</label><label class="check"><input id="settingLargeText" type="checkbox"/> Larger text</label><label class="check"><input checked="" id="settingGridLabels" type="checkbox"/> Grid coordinate labels</label><label>Interface scale<input id="settingScale" max="130" min="90" type="range" value="100"/></label></div></article>
+<article class="panel span-6"><header><h2>Install &amp; Controller</h2><span id="controllerStatusText">No controller detected</span></header><div class="settings-list"><button class="primary" id="settingsInstallButton">Install Killer In The Keep</button><p class="muted">Install as an app on supported desktop, tablet, and mobile browsers. Pair a console controller through USB or Bluetooth, then press any controller button.</p><label>Analog deadzone <input id="controllerDeadzone" max="70" min="15" type="range" value="36"/></label><div class="rule-callout" id="controllerDetails">Keyboard, touch, and controller input can be used at the same time.</div></div></article><article class="panel span-12"><header><h2>Default Control Contract</h2><span>Remappable implementation layer</span></header><div id="controlsTableWrap"></div></article>
+<article class="panel span-12"><header><h2>Ground-Only Movement Contract</h2></header><p>Allowed: walk, backpedal, turn, strafe, jump, crouch, take cover, sneak, sprint, stop. Disabled: flight, climbing, swimming, submersion, hovering, wall crawling, rise/descend, and underwater travel. NumPad 1 and NumPad 7 remain unassigned.</p></article>
+</div>
+</section>
+</main>
+</div>
+<dialog class="dialog" id="connectDialog">
+<form method="dialog">
+<button aria-label="Close" class="dialog-close" value="cancel">×</button>
+<h2>Connect a Live Keep</h2>
+<p>Offline training is available immediately. The supplied version 1 Apps Script deployment is already configured. Register or sign in, then create, browse, quick-match, or join a room-code lobby.</p>
+<div class="button-row"><button class="secondary" value="cancel">Continue Offline</button><button class="primary" id="dialogGoSettings" value="settings">Open Settings</button></div>
+</form>
+</dialog>
+<dialog class="dialog card-dialog" id="cardDialog"><form method="dialog"><button aria-label="Close" class="dialog-close" value="cancel">×</button><div id="cardDialogBody"></div></form></dialog>
+<dialog class="dialog result-dialog" id="resultDialog"><form method="dialog"><div id="resultDialogBody"></div><button class="primary" value="close">Continue</button></form></dialog>
+<div aria-atomic="true" aria-live="polite" class="toast-region" id="toastRegion"></div>
+<script src="assets/js/vendor/three.min.js"></script>
+<script src="assets/js/vendor/cannon.min.js"></script>
+<script src="assets/js/vendor/teal.js"></script>
+<script src="assets/js/vendor/dice.js"></script>
+<script src="assets/js/app.js" type="module"></script>
+</body>
+</html>
