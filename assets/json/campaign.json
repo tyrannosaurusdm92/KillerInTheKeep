@@ -1,0 +1,87 @@
+{
+  "schema": "kitk.campaign.v1",
+  "title": "Killer In The Keep",
+  "system": "5e SRD-compatible fantasy roleplaying game",
+  "premise": "A storm isolates four to eight adventurers inside a dangerous fantasy estate. One player is secretly the killer. Investigators explore the Keep, complete objectives, question NPCs, gather evidence, survive monsters and traps, and identify the killer, murder weapon, and crime location before the killer completes a ritual or escapes with the relic.",
+  "playerRange": [
+    4,
+    8
+  ],
+  "phases": [
+    {
+      "id": "lobby",
+      "label": "Lobby",
+      "seconds": 0
+    },
+    {
+      "id": "preparation",
+      "label": "Preparation",
+      "seconds": 20
+    },
+    {
+      "id": "exploration",
+      "label": "Exploration",
+      "seconds": 300
+    },
+    {
+      "id": "incident",
+      "label": "Incident",
+      "seconds": 0
+    },
+    {
+      "id": "discussion",
+      "label": "Discussion",
+      "seconds": 75
+    },
+    {
+      "id": "voting",
+      "label": "Voting",
+      "seconds": 30
+    },
+    {
+      "id": "resolution",
+      "label": "Resolution",
+      "seconds": 15
+    }
+  ],
+  "dndMode": {
+    "exploration": "real-time ground movement snapped to 5-foot cells",
+    "combat": "initiative-based 5e turns",
+    "diagonalRule": "five feet per adjacent diagonal cell by default; host may enable alternating 5/10",
+    "startingLevel": 3,
+    "startingHpRule": "use character sheet calculated maximum",
+    "deathSaves": true,
+    "shortRestMinutes": 10,
+    "longRestSafeRoom": true
+  },
+  "starterLoadout": [
+    "lockpick",
+    "minor-healing-potion",
+    "major-healing-potion"
+  ],
+  "winConditions": {
+    "investigators": [
+      "correctly accuse the killer, weapon, and room",
+      "complete all major objectives before the ritual resolves"
+    ],
+    "killer": [
+      "control the vote by reducing investigators",
+      "complete the dark ritual",
+      "escape by a ground-accessible route with the relic"
+    ]
+  },
+  "accessibility": [
+    "adjustable text size",
+    "subtitles",
+    "reduced motion",
+    "high contrast",
+    "color-vision-safe token labels",
+    "keyboard",
+    "mouse",
+    "gamepad",
+    "touch controls",
+    "screen-reader labels"
+  ],
+  "maximumPlayers": 8,
+  "multiplayerMode": "Server-authoritative polling through the configured Google Apps Script deployment."
+}

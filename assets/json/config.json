@@ -1,0 +1,29 @@
+{
+  "schema": "kitk.frontend-config.v2",
+  "appName": "Killer In The Keep",
+  "backendUrl": "https://script.google.com/macros/s/AKfycbwhZd5JCiob49mDc8N3vmTW9YqUu0oelxTbGHu92k9m9uNYrDktauJBcMyvxnbO6wQi/exec",
+  "backendDeploymentStatus": "DEPLOYED",
+  "pollIntervalMs": 1200,
+  "offlineDemoEnabled": true,
+  "defaultMapId": "ravenwatch-keep",
+  "defaultCharacterId": "korbin",
+  "maxPlayers": 8,
+  "minPlayers": 4,
+  "gridCellFeet": 5,
+  "version": "2.1.0",
+  "backendLibraryUrl": "https://script.google.com/macros/library/d/18Ef5XWIucyO13RYSEcAKGiMcpwEmJepzl7XPX38Iznh17iaL88SRB1Ly/1",
+  "backendApiVersion": "1.0.0",
+  "controllerSupport": {
+    "api": "Gamepad API",
+    "profiles": [
+      "standard",
+      "Xbox-style",
+      "Nintendo-style",
+      "PlayStation-style",
+      "generic HID gamepad"
+    ],
+    "mobileBluetooth": true,
+    "uiNavigation": true,
+    "remappable": true
+  }
+}

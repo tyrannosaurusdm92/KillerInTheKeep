@@ -1,0 +1,800 @@
+{
+  "schema": "kitk.digital-cards.v1",
+  "title": "Killer In The Keep Digital Card Library",
+  "decks": {
+    "suspects": [
+      {
+        "id": "daltu",
+        "name": "Daltu",
+        "type": "suspect",
+        "art": "assets/images/characters/daltu.webp",
+        "className": "Fighter",
+        "ancestry": "Kobold",
+        "pronouns": "they/them",
+        "description": "Arcane-leaning front-line weapon specialist"
+      },
+      {
+        "id": "eilvyre",
+        "name": "Eilvyre Astath",
+        "type": "suspect",
+        "art": "assets/images/characters/eilvyre.webp",
+        "className": "Sorcerer",
+        "ancestry": "Elf",
+        "pronouns": "she/her",
+        "description": "Unpredictable lightning-and-ice arcane striker"
+      },
+      {
+        "id": "xun",
+        "name": "Githtoxundes “Xun” Fenwophyl",
+        "type": "suspect",
+        "art": "assets/images/characters/xun.webp",
+        "className": "Cleric",
+        "ancestry": "Dragonborn",
+        "pronouns": "she/her",
+        "description": "Armored divine healer and radiant battlefield anchor"
+      },
+      {
+        "id": "gunnus",
+        "name": "Gunnus",
+        "type": "suspect",
+        "art": "assets/images/characters/gunnus.webp",
+        "className": "Wizard",
+        "ancestry": "Minotaur",
+        "pronouns": "he/they",
+        "description": "Horned gravefire arcanist with necromancy-heavy spellbook"
+      },
+      {
+        "id": "joknos",
+        "name": "Joknos “Jock”",
+        "type": "suspect",
+        "art": "assets/images/characters/joknos.webp",
+        "className": "Bard",
+        "ancestry": "Gecko/Lizardfolk",
+        "pronouns": "any pronouns",
+        "description": "Storm-voiced performer, controller, and party support"
+      },
+      {
+        "id": "korbin",
+        "name": "Korbin Silverdew",
+        "type": "suspect",
+        "art": "assets/images/characters/korbin.webp",
+        "className": "Paladin",
+        "ancestry": "Halfling",
+        "pronouns": "he/him",
+        "description": "Armored protector, radiant striker, and party leader"
+      },
+      {
+        "id": "monk",
+        "name": "Monk",
+        "type": "suspect",
+        "art": "assets/images/characters/monk.webp",
+        "className": "Monk",
+        "ancestry": "Warforged",
+        "pronouns": "it/its",
+        "description": "Construct-like mobile martial controller"
+      },
+      {
+        "id": "noldrack",
+        "name": "Noldrack Goldblade",
+        "type": "suspect",
+        "art": "assets/images/characters/noldrack.webp",
+        "className": "Druid",
+        "ancestry": "Dwarf",
+        "pronouns": "he/him",
+        "description": "Stone-and-storm guardian of the wild"
+      }
+    ],
+    "weapons": [
+      {
+        "id": "battleaxe",
+        "name": "Battleaxe",
+        "type": "weapon",
+        "art": "assets/images/weapons/battleaxe.webp",
+        "damage": "1d8 slashing",
+        "properties": "Versatile 1d10",
+        "description": "A possible murder weapon and usable equipment card."
+      },
+      {
+        "id": "arrow",
+        "name": "Arrow",
+        "type": "weapon",
+        "art": "assets/images/weapons/arrow.webp",
+        "damage": "1d8 piercing",
+        "properties": "Ammunition for a bow or crossbow",
+        "description": "A possible murder weapon and usable equipment card."
+      },
+      {
+        "id": "rapier",
+        "name": "Rapier",
+        "type": "weapon",
+        "art": "assets/images/weapons/rapier.webp",
+        "damage": "1d8 piercing",
+        "properties": "Finesse",
+        "description": "A possible murder weapon and usable equipment card."
+      },
+      {
+        "id": "magical-staff",
+        "name": "Magical Staff",
+        "type": "weapon",
+        "art": "assets/images/weapons/magical-staff.webp",
+        "damage": "1d6 bludgeoning",
+        "properties": "Arcane focus; versatile 1d8",
+        "description": "A possible murder weapon and usable equipment card."
+      },
+      {
+        "id": "dagger",
+        "name": "Dagger",
+        "type": "weapon",
+        "art": "",
+        "damage": "1d4 piercing",
+        "properties": "Finesse, light, thrown 20/60",
+        "description": "A possible murder weapon and usable equipment card."
+      },
+      {
+        "id": "poison",
+        "name": "Poison",
+        "type": "weapon",
+        "art": "",
+        "damage": "1d6 poison",
+        "properties": "Applied to one eligible weapon attack",
+        "description": "A possible murder weapon and usable equipment card."
+      },
+      {
+        "id": "mace",
+        "name": "Mace",
+        "type": "weapon",
+        "art": "",
+        "damage": "1d6 bludgeoning",
+        "properties": "One-handed",
+        "description": "A possible murder weapon and usable equipment card."
+      },
+      {
+        "id": "wand",
+        "name": "Wand",
+        "type": "weapon",
+        "art": "",
+        "damage": "1d6 force",
+        "properties": "Arcane focus; 30-foot range",
+        "description": "A possible murder weapon and usable equipment card."
+      }
+    ],
+    "rooms": [
+      {
+        "id": "room_01",
+        "name": "Alchemist's Study",
+        "type": "room",
+        "art": "assets/images/rooms/alchemist-s-study.webp",
+        "tags": [
+          "crime-location",
+          "searchable"
+        ],
+        "description": "A possible crime location inside the Keep. Search Alchemist's Study for evidence, hazards, NPC testimony, and hidden routes."
+      },
+      {
+        "id": "room_02",
+        "name": "Armory",
+        "type": "room",
+        "art": "assets/images/rooms/armory.webp",
+        "tags": [
+          "crime-location",
+          "searchable"
+        ],
+        "description": "A possible crime location inside the Keep. Search Armory for evidence, hazards, NPC testimony, and hidden routes."
+      },
+      {
+        "id": "room_03",
+        "name": "Chapel",
+        "type": "room",
+        "art": "assets/images/rooms/chapel.webp",
+        "tags": [
+          "crime-location",
+          "searchable"
+        ],
+        "description": "A possible crime location inside the Keep. Search Chapel for evidence, hazards, NPC testimony, and hidden routes."
+      },
+      {
+        "id": "room_04",
+        "name": "Children's Room",
+        "type": "room",
+        "art": "assets/images/rooms/children-s-room.webp",
+        "tags": [
+          "crime-location",
+          "searchable"
+        ],
+        "description": "A possible crime location inside the Keep. Search Children's Room for evidence, hazards, NPC testimony, and hidden routes."
+      },
+      {
+        "id": "room_05",
+        "name": "Dining Room",
+        "type": "room",
+        "art": "assets/images/rooms/dining-room.webp",
+        "tags": [
+          "crime-location",
+          "searchable"
+        ],
+        "description": "A possible crime location inside the Keep. Search Dining Room for evidence, hazards, NPC testimony, and hidden routes."
+      },
+      {
+        "id": "room_06",
+        "name": "Foyer",
+        "type": "room",
+        "art": "assets/images/rooms/foyer.webp",
+        "tags": [
+          "crime-location",
+          "searchable"
+        ],
+        "description": "A possible crime location inside the Keep. Search Foyer for evidence, hazards, NPC testimony, and hidden routes."
+      },
+      {
+        "id": "room_07",
+        "name": "Gentlemen's Solar",
+        "type": "room",
+        "art": "assets/images/rooms/gentlemen-s-solar.webp",
+        "tags": [
+          "crime-location",
+          "searchable"
+        ],
+        "description": "A possible crime location inside the Keep. Search Gentlemen's Solar for evidence, hazards, NPC testimony, and hidden routes."
+      },
+      {
+        "id": "room_08",
+        "name": "Kitchen",
+        "type": "room",
+        "art": "assets/images/rooms/kitchen.webp",
+        "tags": [
+          "crime-location",
+          "searchable"
+        ],
+        "description": "A possible crime location inside the Keep. Search Kitchen for evidence, hazards, NPC testimony, and hidden routes."
+      },
+      {
+        "id": "room_09",
+        "name": "Ladies' Solar",
+        "type": "room",
+        "art": "assets/images/rooms/ladies-solar.webp",
+        "tags": [
+          "crime-location",
+          "searchable"
+        ],
+        "description": "A possible crime location inside the Keep. Search Ladies' Solar for evidence, hazards, NPC testimony, and hidden routes."
+      },
+      {
+        "id": "room_10",
+        "name": "Library",
+        "type": "room",
+        "art": "assets/images/rooms/library.webp",
+        "tags": [
+          "crime-location",
+          "searchable"
+        ],
+        "description": "A possible crime location inside the Keep. Search Library for evidence, hazards, NPC testimony, and hidden routes."
+      },
+      {
+        "id": "room_11",
+        "name": "Master Bedroom",
+        "type": "room",
+        "art": "assets/images/rooms/master-bedroom.webp",
+        "tags": [
+          "crime-location",
+          "searchable"
+        ],
+        "description": "A possible crime location inside the Keep. Search Master Bedroom for evidence, hazards, NPC testimony, and hidden routes."
+      },
+      {
+        "id": "room_12",
+        "name": "Music Room",
+        "type": "room",
+        "art": "assets/images/rooms/music-room.webp",
+        "tags": [
+          "crime-location",
+          "searchable"
+        ],
+        "description": "A possible crime location inside the Keep. Search Music Room for evidence, hazards, NPC testimony, and hidden routes."
+      },
+      {
+        "id": "room_13",
+        "name": "Pantry",
+        "type": "room",
+        "art": "assets/images/rooms/pantry.webp",
+        "tags": [
+          "crime-location",
+          "searchable"
+        ],
+        "description": "A possible crime location inside the Keep. Search Pantry for evidence, hazards, NPC testimony, and hidden routes."
+      },
+      {
+        "id": "room_14",
+        "name": "Privy",
+        "type": "room",
+        "art": "assets/images/rooms/privy.webp",
+        "tags": [
+          "crime-location",
+          "searchable"
+        ],
+        "description": "A possible crime location inside the Keep. Search Privy for evidence, hazards, NPC testimony, and hidden routes."
+      },
+      {
+        "id": "room_15",
+        "name": "Servants' Quarters",
+        "type": "room",
+        "art": "assets/images/rooms/servants-quarters.webp",
+        "tags": [
+          "crime-location",
+          "searchable"
+        ],
+        "description": "A possible crime location inside the Keep. Search Servants' Quarters for evidence, hazards, NPC testimony, and hidden routes."
+      },
+      {
+        "id": "room_16",
+        "name": "Sitting Room",
+        "type": "room",
+        "art": "assets/images/rooms/sitting-room.webp",
+        "tags": [
+          "crime-location",
+          "searchable"
+        ],
+        "description": "A possible crime location inside the Keep. Search Sitting Room for evidence, hazards, NPC testimony, and hidden routes."
+      }
+    ],
+    "traps": [
+      {
+        "id": "pit-trap",
+        "name": "Pit Trap",
+        "type": "trap",
+        "art": "assets/images/traps/pit-trap.webp",
+        "copies": 3,
+        "save": "Dexterity",
+        "dc": "DC 13",
+        "effect": "2d6 bludgeoning; restrained until escaped",
+        "description": "A digitalized hazard from the original physical trap deck."
+      },
+      {
+        "id": "duplicate-mirror",
+        "name": "Duplicate Mirror",
+        "type": "trap",
+        "art": "assets/images/traps/duplicate-mirror.webp",
+        "copies": 2,
+        "save": "Wisdom",
+        "dc": "DC 14",
+        "effect": "Creates a hostile echo of the triggering character",
+        "description": "A digitalized hazard from the original physical trap deck."
+      },
+      {
+        "id": "web-of-flames",
+        "name": "Web of Flames",
+        "type": "trap",
+        "art": "assets/images/traps/web-of-flames.webp",
+        "copies": 3,
+        "save": "Dexterity",
+        "dc": "DC 14",
+        "effect": "2d6 fire; restrained on failure",
+        "description": "A digitalized hazard from the original physical trap deck."
+      },
+      {
+        "id": "compactor",
+        "name": "The Compactor",
+        "type": "trap",
+        "art": "assets/images/traps/compactor.webp",
+        "copies": 1,
+        "save": "Strength",
+        "dc": "DC 15",
+        "effect": "3d6 bludgeoning and trapped",
+        "description": "A digitalized hazard from the original physical trap deck."
+      },
+      {
+        "id": "poison-needles",
+        "name": "Poison Needles",
+        "type": "trap",
+        "art": "assets/images/traps/poison-needles.webp",
+        "copies": 2,
+        "save": "Constitution",
+        "dc": "DC 13",
+        "effect": "1d6 piercing plus poisoned",
+        "description": "A digitalized hazard from the original physical trap deck."
+      },
+      {
+        "id": "brick-trap",
+        "name": "Brick Trap",
+        "type": "trap",
+        "art": "assets/images/traps/brick-trap.webp",
+        "copies": 3,
+        "save": "Dexterity",
+        "dc": "DC 12",
+        "effect": "1d8 bludgeoning",
+        "description": "A digitalized hazard from the original physical trap deck."
+      },
+      {
+        "id": "spear-trap",
+        "name": "Spear Trap",
+        "type": "trap",
+        "art": "assets/images/traps/spear-trap.webp",
+        "copies": 3,
+        "save": "Dexterity",
+        "dc": "DC 14",
+        "effect": "2d8 piercing",
+        "description": "A digitalized hazard from the original physical trap deck."
+      },
+      {
+        "id": "slime-trap",
+        "name": "Slime Trap",
+        "type": "trap",
+        "art": "assets/images/traps/slime-trap.webp",
+        "copies": 2,
+        "save": "Dexterity",
+        "dc": "DC 13",
+        "effect": "1d6 acid each round until cleaned",
+        "description": "A digitalized hazard from the original physical trap deck."
+      },
+      {
+        "id": "collapsing-roof",
+        "name": "Collapsing Roof",
+        "type": "trap",
+        "art": "assets/images/traps/collapsing-roof.webp",
+        "copies": 1,
+        "save": "Dexterity",
+        "dc": "DC 15",
+        "effect": "3d10 bludgeoning; area becomes difficult terrain",
+        "description": "A digitalized hazard from the original physical trap deck."
+      },
+      {
+        "id": "falling-net",
+        "name": "Falling Net",
+        "type": "trap",
+        "art": "assets/images/traps/falling-net.webp",
+        "copies": 2,
+        "save": "Dexterity",
+        "dc": "DC 12",
+        "effect": "Restrained until freed",
+        "description": "A digitalized hazard from the original physical trap deck."
+      }
+    ],
+    "monsters": [
+      {
+        "id": "small-spider",
+        "name": "Small Spider",
+        "type": "monster",
+        "art": "assets/images/monsters/small-spider.webp",
+        "copies": 10,
+        "hp": 5,
+        "ac": 12,
+        "speedFeet": 30,
+        "attackBonus": 2,
+        "damage": "1d4+1 piercing",
+        "xp": 25,
+        "description": "A Keep encounter drawn from the original monster deck. Server-controlled in online matches."
+      },
+      {
+        "id": "medium-spider",
+        "name": "Medium Spider",
+        "type": "monster",
+        "art": "assets/images/monsters/medium-spider.webp",
+        "copies": 8,
+        "hp": 11,
+        "ac": 13,
+        "speedFeet": 30,
+        "attackBonus": 3,
+        "damage": "1d6+2 piercing",
+        "xp": 55,
+        "description": "A Keep encounter drawn from the original monster deck. Server-controlled in online matches."
+      },
+      {
+        "id": "large-spider",
+        "name": "Large Spider",
+        "type": "monster",
+        "art": "assets/images/monsters/large-spider.webp",
+        "copies": 4,
+        "hp": 22,
+        "ac": 14,
+        "speedFeet": 30,
+        "attackBonus": 4,
+        "damage": "1d8+3 piercing",
+        "xp": 110,
+        "description": "A Keep encounter drawn from the original monster deck. Server-controlled in online matches."
+      },
+      {
+        "id": "gigantic-spider",
+        "name": "Gigantic Spider",
+        "type": "monster",
+        "art": "assets/images/monsters/gigantic-spider.webp",
+        "copies": 2,
+        "hp": 45,
+        "ac": 15,
+        "speedFeet": 30,
+        "attackBonus": 5,
+        "damage": "2d8+4 piercing",
+        "xp": 225,
+        "description": "A Keep encounter drawn from the original monster deck. Server-controlled in online matches."
+      },
+      {
+        "id": "horsefly-swarm",
+        "name": "Horsefly Swarm",
+        "type": "monster",
+        "art": "assets/images/monsters/horsefly-swarm.webp",
+        "copies": 10,
+        "hp": 18,
+        "ac": 12,
+        "speedFeet": 30,
+        "attackBonus": 2,
+        "damage": "2d6 piercing",
+        "xp": 90,
+        "description": "A Keep encounter drawn from the original monster deck. Server-controlled in online matches."
+      },
+      {
+        "id": "giant-tick",
+        "name": "Giant Tick",
+        "type": "monster",
+        "art": "assets/images/monsters/giant-tick.webp",
+        "copies": 8,
+        "hp": 16,
+        "ac": 13,
+        "speedFeet": 30,
+        "attackBonus": 3,
+        "damage": "1d8+2 piercing",
+        "xp": 80,
+        "description": "A Keep encounter drawn from the original monster deck. Server-controlled in online matches."
+      },
+      {
+        "id": "fire-ant-swarm",
+        "name": "Fire Ant Swarm",
+        "type": "monster",
+        "art": "assets/images/monsters/fire-ant-swarm.webp",
+        "copies": 8,
+        "hp": 22,
+        "ac": 13,
+        "speedFeet": 30,
+        "attackBonus": 3,
+        "damage": "2d6 fire/piercing",
+        "xp": 110,
+        "description": "A Keep encounter drawn from the original monster deck. Server-controlled in online matches."
+      },
+      {
+        "id": "mosquito-swarm",
+        "name": "Mosquito Swarm",
+        "type": "monster",
+        "art": "assets/images/monsters/mosquito-swarm.webp",
+        "copies": 10,
+        "hp": 18,
+        "ac": 12,
+        "speedFeet": 30,
+        "attackBonus": 2,
+        "damage": "2d6 piercing",
+        "xp": 90,
+        "description": "A Keep encounter drawn from the original monster deck. Server-controlled in online matches."
+      },
+      {
+        "id": "zombie",
+        "name": "Zombie",
+        "type": "monster",
+        "art": "assets/images/monsters/zombie.webp",
+        "copies": 10,
+        "hp": 22,
+        "ac": 8,
+        "speedFeet": 30,
+        "attackBonus": 2,
+        "damage": "1d6+1 bludgeoning",
+        "xp": 110,
+        "description": "A Keep encounter drawn from the original monster deck. Server-controlled in online matches."
+      },
+      {
+        "id": "skeleton",
+        "name": "Skeleton",
+        "type": "monster",
+        "art": "assets/images/monsters/skeleton.webp",
+        "copies": 10,
+        "hp": 13,
+        "ac": 13,
+        "speedFeet": 30,
+        "attackBonus": 3,
+        "damage": "1d6+2 piercing",
+        "xp": 65,
+        "description": "A Keep encounter drawn from the original monster deck. Server-controlled in online matches."
+      }
+    ],
+    "treasure": [
+      {
+        "id": "chest-1",
+        "name": "Locked Small Iron Chest",
+        "locked": true,
+        "trapped": false,
+        "valueGp": 68,
+        "contents": [
+          "50 gp",
+          "8 × flint and steel",
+          "riding saddle"
+        ],
+        "type": "treasure",
+        "description": "A digital treasure card. Value contributes to score; usable contents enter inventory."
+      },
+      {
+        "id": "chest-2",
+        "name": "Trapped Small Ornate Chest",
+        "locked": false,
+        "trapped": true,
+        "valueGp": 11430.1,
+        "contents": [
+          "400 gp 1 sp",
+          "golden pearl",
+          "moss agate",
+          "red-brown spinel",
+          "violet garnet",
+          "silver raven figurine",
+          "+1 small rapier",
+          "cognizance crystal",
+          "dorje of feat leech"
+        ],
+        "type": "treasure",
+        "description": "A digital treasure card. Value contributes to score; usable contents enter inventory."
+      },
+      {
+        "id": "chest-3",
+        "name": "Small Wooden Chest",
+        "locked": false,
+        "trapped": false,
+        "valueGp": 98.85,
+        "contents": [
+          "361 sp 5 cp",
+          "masterwork artisan tools",
+          "sling bullets",
+          "basket",
+          "common wine",
+          "rope net",
+          "sausages",
+          "spade"
+        ],
+        "type": "treasure",
+        "description": "A digital treasure card. Value contributes to score; usable contents enter inventory."
+      },
+      {
+        "id": "chest-4",
+        "name": "Medium Iron Chest",
+        "locked": false,
+        "trapped": false,
+        "valueGp": 73.25,
+        "contents": [
+          "467 sp 5 cp",
+          "salt",
+          "charcoal",
+          "tobacco",
+          "wheel of cheese"
+        ],
+        "type": "treasure",
+        "description": "A digital treasure card. Value contributes to score; usable contents enter inventory."
+      },
+      {
+        "id": "chest-5",
+        "name": "Trapped Medium Iron Chest",
+        "locked": false,
+        "trapped": true,
+        "valueGp": 530,
+        "contents": [
+          "480 gp",
+          "masterwork manacles"
+        ],
+        "type": "treasure",
+        "description": "A digital treasure card. Value contributes to score; usable contents enter inventory."
+      },
+      {
+        "id": "chest-6",
+        "name": "Locked Medium Wooden Chest",
+        "locked": true,
+        "trapped": false,
+        "valueGp": 1849,
+        "contents": [
+          "840 gp",
+          "lapis lazuli",
+          "rose quartz",
+          "altar",
+          "15 × backpacks",
+          "rug"
+        ],
+        "type": "treasure",
+        "description": "A digital treasure card. Value contributes to score; usable contents enter inventory."
+      },
+      {
+        "id": "chest-7",
+        "name": "Trapped Large Wooden Chest",
+        "locked": false,
+        "trapped": true,
+        "valueGp": 5599.75,
+        "contents": [
+          "180 pp 7 gp 7 sp 5 cp",
+          "linen",
+          "grappling hooks",
+          "mortar and pestle",
+          "portable ram",
+          "saddles",
+          "rope ladders",
+          "sacks",
+          "scroll cases",
+          "sewing needles",
+          "signet rings",
+          "lead box",
+          "holy symbols",
+          "wool cloak"
+        ],
+        "type": "treasure",
+        "description": "A digital treasure card. Value contributes to score; usable contents enter inventory."
+      },
+      {
+        "id": "chest-8",
+        "name": "Large Iron Chest",
+        "locked": false,
+        "trapped": false,
+        "valueGp": 1200,
+        "contents": [
+          "mixed coin cache",
+          "gems",
+          "salvage",
+          "one randomized uncommon item"
+        ],
+        "type": "treasure",
+        "description": "A digital treasure card. Value contributes to score; usable contents enter inventory."
+      }
+    ],
+    "items": [
+      {
+        "id": "lockpick",
+        "name": "Lockpick Tool",
+        "type": "item",
+        "charges": 1,
+        "check": "Dexterity (Thieves’ Tools) DC 14",
+        "description": "Use on a locked door or chest. A natural 1 breaks the tool."
+      },
+      {
+        "id": "minor-healing-potion",
+        "name": "Minor Healing Potion",
+        "type": "item",
+        "charges": 1,
+        "heal": "2",
+        "description": "Restores 2 HP."
+      },
+      {
+        "id": "major-healing-potion",
+        "name": "Major Healing Potion",
+        "type": "item",
+        "charges": 1,
+        "heal": "5",
+        "description": "Restores 5 HP."
+      }
+    ],
+    "statuses": [
+      {
+        "id": "poisoned",
+        "name": "Poisoned",
+        "type": "status",
+        "effect": "Disadvantage on attack rolls and ability checks."
+      },
+      {
+        "id": "restrained",
+        "name": "Restrained",
+        "type": "status",
+        "effect": "Speed 0; attacks against you have advantage; your attacks and Dexterity saves have disadvantage."
+      },
+      {
+        "id": "burning",
+        "name": "Burning",
+        "type": "status",
+        "effect": "Take ongoing fire damage until an action extinguishes the flames."
+      },
+      {
+        "id": "hidden",
+        "name": "Hidden",
+        "type": "status",
+        "effect": "Your token is obscured from enemies without line of sight."
+      },
+      {
+        "id": "concentrating",
+        "name": "Concentrating",
+        "type": "status",
+        "effect": "Taking damage may require a Constitution save to maintain a spell."
+      },
+      {
+        "id": "unconscious",
+        "name": "Unconscious",
+        "type": "status",
+        "effect": "Cannot act; begins death saves at 0 HP."
+      }
+    ]
+  },
+  "solutionRule": "One suspect, one weapon, and one room are selected server-side at match start. The solution is never stored in client-visible public state."
+}

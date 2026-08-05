@@ -1,0 +1,2971 @@
+{
+  "schema": "kitk.characters.v1",
+  "characters": [
+    {
+      "id": "daltu",
+      "name": "Daltu",
+      "shortName": "Daltu",
+      "gender": "Nonbinary",
+      "pronouns": "they/them",
+      "appearanceRace": "Kobold",
+      "rulesRace": "Forest Gnome rules package",
+      "size": "Small",
+      "className": "Fighter",
+      "subclass": "Champion",
+      "concept": "Arcane-leaning front-line weapon specialist",
+      "background": "Soldier",
+      "alignment": "Neutral Good",
+      "baseAbilities": {
+        "Strength": 18,
+        "Dexterity": 13,
+        "Constitution": 16,
+        "Intelligence": 15,
+        "Wisdom": 12,
+        "Charisma": 12
+      },
+      "asi": [
+        {
+          "level": 4,
+          "label": "+2 Intelligence",
+          "changes": {
+            "Intelligence": 2
+          }
+        },
+        {
+          "level": 6,
+          "label": "+2 Strength",
+          "changes": {
+            "Strength": 2
+          }
+        },
+        {
+          "level": 8,
+          "label": "+2 Constitution",
+          "changes": {
+            "Constitution": 2
+          }
+        },
+        {
+          "level": 12,
+          "label": "+1 Intelligence, +1 Wisdom",
+          "changes": {
+            "Intelligence": 1,
+            "Wisdom": 1
+          }
+        },
+        {
+          "level": 14,
+          "label": "+2 Wisdom",
+          "changes": {
+            "Wisdom": 2
+          }
+        },
+        {
+          "level": 16,
+          "label": "+2 Constitution",
+          "changes": {
+            "Constitution": 2
+          }
+        },
+        {
+          "level": 19,
+          "label": "+2 Charisma",
+          "changes": {
+            "Charisma": 2
+          }
+        }
+      ],
+      "hitDie": 10,
+      "hpBonusPerLevel": 0,
+      "saveProficiencies": [
+        "Strength",
+        "Constitution"
+      ],
+      "skillProficiencies": [
+        "Athletics",
+        "Arcana",
+        "Intimidation",
+        "Perception"
+      ],
+      "speed": 25,
+      "ac": 19,
+      "armor": "Plate armor",
+      "weaponAbility": "Strength",
+      "spellAbility": "Intelligence",
+      "caster": "none",
+      "attacks": [
+        {
+          "name": "Battleaxe",
+          "mode": "weapon",
+          "ability": "Strength",
+          "damage": "1d8 slashing (1d10 two-handed)",
+          "range": "5 ft.",
+          "notes": "Versatile; fixed bonded signature weapon."
+        },
+        {
+          "name": "Light Crossbow",
+          "mode": "weapon",
+          "ability": "Dexterity",
+          "damage": "1d8 piercing",
+          "range": "80/320 ft.",
+          "notes": "Loading, two-handed."
+        }
+      ],
+      "racialTraits": [
+        "Darkvision",
+        "Gnome Cunning",
+        "Natural Illusionist",
+        "Speak with Small Beasts"
+      ],
+      "features": [
+        {
+          "level": 1,
+          "name": "Fighting Style: Defense",
+          "summary": "Gain +1 AC while wearing armor."
+        },
+        {
+          "level": 1,
+          "name": "Second Wind",
+          "summary": "Bonus action healing once per short or long rest.",
+          "resource": {
+            "key": "secondWind",
+            "label": "Second Wind",
+            "max": "1",
+            "reset": "short"
+          }
+        },
+        {
+          "level": 2,
+          "name": "Action Surge",
+          "summary": "Take one additional action on your turn; two uses from level 17.",
+          "resource": {
+            "key": "actionSurge",
+            "label": "Action Surge",
+            "max": "level>=17?2:1",
+            "reset": "short"
+          }
+        },
+        {
+          "level": 3,
+          "name": "Improved Critical",
+          "summary": "Weapon attacks score a critical hit on a roll of 19 or 20."
+        },
+        {
+          "level": 1,
+          "name": "Natural Illusionist",
+          "summary": "Forest Gnome rules grant the Minor Illusion cantrip using Intelligence."
+        },
+        {
+          "level": 5,
+          "name": "Extra Attack",
+          "summary": "Attack twice when taking the Attack action; three attacks at 11 and four at 20."
+        },
+        {
+          "level": 7,
+          "name": "Remarkable Athlete",
+          "summary": "Add half proficiency to eligible Strength, Dexterity, and Constitution checks; longer running jumps."
+        },
+        {
+          "level": 9,
+          "name": "Indomitable",
+          "summary": "Reroll a failed saving throw; uses increase at levels 13 and 17.",
+          "resource": {
+            "key": "indomitable",
+            "label": "Indomitable",
+            "max": "level>=17?3:(level>=13?2:1)",
+            "reset": "long"
+          }
+        },
+        {
+          "level": 10,
+          "name": "Additional Fighting Style: Great Weapon Fighting",
+          "summary": "Reroll 1s and 2s on damage dice for a two-handed or versatile melee weapon used with two hands."
+        },
+        {
+          "level": 15,
+          "name": "Superior Critical",
+          "summary": "Weapon attacks score a critical hit on 18–20."
+        },
+        {
+          "level": 18,
+          "name": "Survivor",
+          "summary": "At the start of each turn, regain hit points while below half maximum and above 0."
+        },
+        {
+          "level": 20,
+          "name": "Extra Attack (3)",
+          "summary": "Attack four times whenever taking the Attack action."
+        }
+      ],
+      "spells": [
+        {
+          "id": "minor_illusion",
+          "spellLevel": 0,
+          "name": "Minor Illusion",
+          "summary": "Create a brief sound or a static image within range. A creature can investigate it against your spell save DC.",
+          "unlockAt": 1,
+          "source": "racial"
+        }
+      ],
+      "equipment": [
+        "Plate armor",
+        "Battleaxe",
+        "Light crossbow and 20 bolts",
+        "Explorer’s pack",
+        "Gaming set",
+        "Insignia of rank"
+      ],
+      "progressionNote": "Daltu keeps the kobold visual identity and magical-fighter theme. To remain wholly inside the supplied SRD/OGL material, the locked rules build uses the Small Forest Gnome rules package and Champion fighter progression. Natural Illusionist preserves a legal arcane touch without importing a non-SRD martial archetype or feat.",
+      "portrait": "assets/images/characters/daltu.webp",
+      "sourceSheet": "Daltu.html",
+      "token": "assets/images/characters/tokens/daltu.webp",
+      "gallery": [
+        "assets/images/characters/gallery/daltu/daltu-01.webp",
+        "assets/images/characters/gallery/daltu/daltu-02.webp",
+        "assets/images/characters/gallery/daltu/daltu-03.webp",
+        "assets/images/characters/gallery/daltu/daltu-04.webp",
+        "assets/images/characters/gallery/daltu/daltu-05.webp",
+        "assets/images/characters/gallery/daltu/daltu-06.webp",
+        "assets/images/characters/gallery/daltu/daltu-07.webp",
+        "assets/images/characters/gallery/daltu/daltu-08.webp",
+        "assets/images/characters/gallery/daltu/daltu-09.webp",
+        "assets/images/characters/gallery/daltu/daltu-10.webp",
+        "assets/images/characters/gallery/daltu/daltu-11.webp"
+      ],
+      "rulesLicense": "SRD 5.1 Open Game Content under OGL 1.0a; Killer In The Keep names, story, and supplied art remain Product Identity/original project material.",
+      "conversionNote": "Kobold appearance retained; Forest Gnome SRD rules package and Champion Fighter mechanics used.",
+      "backendClassId": "class_1",
+      "backendClassName": "Knight",
+      "backendRole": "Tank",
+      "backendAbilities": [
+        "Knight Ability A",
+        "Knight Ability B",
+        "Knight Ability C"
+      ]
+    },
+    {
+      "id": "eilvyre",
+      "name": "Eilvyre Astath",
+      "shortName": "Eilvyre",
+      "gender": "Cis-Female",
+      "pronouns": "she/her",
+      "appearanceRace": "Elf",
+      "rulesRace": "High Elf",
+      "size": "Medium",
+      "className": "Sorcerer",
+      "subclass": "Draconic Bloodline — Blue Dragon",
+      "concept": "Unpredictable lightning-and-ice arcane striker",
+      "background": "Entertainer",
+      "alignment": "Chaotic Neutral",
+      "baseAbilities": {
+        "Strength": 11,
+        "Dexterity": 13,
+        "Constitution": 15,
+        "Intelligence": 12,
+        "Wisdom": 12,
+        "Charisma": 16
+      },
+      "asi": [
+        {
+          "level": 4,
+          "label": "+2 Charisma",
+          "changes": {
+            "Charisma": 2
+          }
+        },
+        {
+          "level": 8,
+          "label": "+2 Charisma",
+          "changes": {
+            "Charisma": 2
+          }
+        },
+        {
+          "level": 12,
+          "label": "+2 Constitution",
+          "changes": {
+            "Constitution": 2
+          }
+        },
+        {
+          "level": 16,
+          "label": "+2 Dexterity",
+          "changes": {
+            "Dexterity": 2
+          }
+        },
+        {
+          "level": 19,
+          "label": "+2 Intelligence",
+          "changes": {
+            "Intelligence": 2
+          }
+        }
+      ],
+      "hitDie": 6,
+      "hpBonusPerLevel": 1,
+      "saveProficiencies": [
+        "Constitution",
+        "Charisma"
+      ],
+      "skillProficiencies": [
+        "Arcana",
+        "Deception",
+        "Performance",
+        "Persuasion"
+      ],
+      "speed": 30,
+      "ac": "draconic",
+      "armor": "Draconic Resilience (unarmored)",
+      "weaponAbility": "Dexterity",
+      "spellAbility": "Charisma",
+      "caster": "full",
+      "attacks": [
+        {
+          "name": "Dagger",
+          "mode": "weapon",
+          "ability": "Dexterity",
+          "damage": "1d4 piercing",
+          "range": "5 ft. or 20/60 ft.",
+          "notes": "Finesse, light, thrown."
+        },
+        {
+          "name": "Lightning Bolt",
+          "mode": "save",
+          "dcAbility": "Charisma",
+          "damage": "8d6 lightning at base level",
+          "range": "100-ft. line",
+          "notes": "Dexterity save; unlocked at sorcerer level 5."
+        }
+      ],
+      "racialTraits": [
+        "Darkvision",
+        "Keen Senses",
+        "Fey Ancestry",
+        "Trance",
+        "Elf Weapon Training",
+        "High Elf Cantrip"
+      ],
+      "features": [
+        {
+          "level": 1,
+          "name": "Draconic Resilience",
+          "summary": "Hit point maximum increases by 1 per sorcerer level; unarmored AC is 13 + Dexterity modifier."
+        },
+        {
+          "level": 1,
+          "name": "Dragon Ancestor: Blue",
+          "summary": "Lightning is the fixed draconic damage type; Draconic is known."
+        },
+        {
+          "level": 2,
+          "name": "Font of Magic",
+          "summary": "Sorcery points equal sorcerer level; convert points and spell slots.",
+          "resource": {
+            "key": "sorceryPoints",
+            "label": "Sorcery Points",
+            "max": "level",
+            "reset": "long"
+          }
+        },
+        {
+          "level": 3,
+          "name": "Metamagic: Quickened Spell and Twinned Spell",
+          "summary": "Spend sorcery points to cast faster or affect a second eligible target."
+        },
+        {
+          "level": 6,
+          "name": "Elemental Affinity",
+          "summary": "Add Charisma modifier to one lightning damage roll; spend 1 sorcery point for temporary lightning resistance."
+        },
+        {
+          "level": 10,
+          "name": "Metamagic: Heightened Spell",
+          "summary": "Spend sorcery points to impose disadvantage on one target’s first save."
+        },
+        {
+          "level": 14,
+          "name": "Dragon Wings",
+          "summary": "Manifest draconic wings for a flying speed equal to walking speed."
+        },
+        {
+          "level": 17,
+          "name": "Metamagic: Empowered Spell",
+          "summary": "Reroll a limited number of damage dice."
+        },
+        {
+          "level": 18,
+          "name": "Draconic Presence",
+          "summary": "Spend sorcery points to project awe or fear in a large aura."
+        },
+        {
+          "level": 20,
+          "name": "Sorcerous Restoration",
+          "summary": "Regain sorcery points when completing a short rest."
+        }
+      ],
+      "spells": [
+        {
+          "id": "light",
+          "spellLevel": 0,
+          "name": "Light",
+          "summary": "Make one touched object shed bright and dim light for up to 1 hour.",
+          "unlockAt": 1,
+          "source": "racial"
+        },
+        {
+          "id": "ray_of_frost",
+          "spellLevel": 0,
+          "name": "Ray of Frost",
+          "summary": "Ranged spell attack; cold damage and reduce the target’s speed by 10 feet until your next turn. Damage scales by tier.",
+          "unlockAt": 1,
+          "source": "fixed"
+        },
+        {
+          "id": "shocking_grasp",
+          "spellLevel": 0,
+          "name": "Shocking Grasp",
+          "summary": "Melee spell attack with advantage against a target wearing metal armor; lightning damage and no reactions until its next turn.",
+          "unlockAt": 1,
+          "source": "fixed"
+        },
+        {
+          "id": "mage_hand",
+          "spellLevel": 0,
+          "name": "Mage Hand",
+          "summary": "Create a spectral hand at range for simple object interaction. It cannot attack, activate magic items, or carry more than 10 pounds.",
+          "unlockAt": 1,
+          "source": "fixed"
+        },
+        {
+          "id": "minor_illusion",
+          "spellLevel": 0,
+          "name": "Minor Illusion",
+          "summary": "Create a brief sound or a static image within range. A creature can investigate it against your spell save DC.",
+          "unlockAt": 4,
+          "source": "fixed"
+        },
+        {
+          "id": "fire_bolt",
+          "spellLevel": 0,
+          "name": "Fire Bolt",
+          "summary": "Ranged spell attack that deals fire damage and can ignite an unattended flammable object. Damage scales by tier.",
+          "unlockAt": 10,
+          "source": "fixed"
+        },
+        {
+          "id": "burning_hands",
+          "spellLevel": 1,
+          "name": "Burning Hands",
+          "summary": "Dexterity save in a 15-foot cone; fire damage, half on a successful save.",
+          "unlockAt": 1,
+          "source": "fixed"
+        },
+        {
+          "id": "magic_missile",
+          "spellLevel": 1,
+          "name": "Magic Missile",
+          "summary": "Three darts automatically hit creatures you can see; each deals 1d4 + 1 force damage. Higher slots create more darts.",
+          "unlockAt": 1,
+          "source": "fixed"
+        },
+        {
+          "id": "shield",
+          "spellLevel": 1,
+          "name": "Shield",
+          "summary": "Reaction when hit or targeted by magic missile; gain +5 AC until your next turn and negate magic missile.",
+          "unlockAt": 2,
+          "source": "fixed"
+        },
+        {
+          "id": "misty_step",
+          "spellLevel": 2,
+          "name": "Misty Step",
+          "summary": "Bonus action teleport up to 30 feet to an unoccupied space you can see.",
+          "unlockAt": 3,
+          "source": "fixed"
+        },
+        {
+          "id": "shatter",
+          "spellLevel": 2,
+          "name": "Shatter",
+          "summary": "Constitution save in a 10-foot-radius sphere; thunder damage, with constructs disadvantaged on the save.",
+          "unlockAt": 4,
+          "source": "fixed"
+        },
+        {
+          "id": "lightning_bolt",
+          "spellLevel": 3,
+          "name": "Lightning Bolt",
+          "summary": "Dexterity save in a 100-foot line; lightning damage, half on a successful save.",
+          "unlockAt": 5,
+          "source": "fixed"
+        },
+        {
+          "id": "counterspell",
+          "spellLevel": 3,
+          "name": "Counterspell",
+          "summary": "Reaction; interrupt a spell. Spells of 3rd level or lower fail automatically; higher levels require a check.",
+          "unlockAt": 6,
+          "source": "fixed"
+        },
+        {
+          "id": "greater_invisibility",
+          "spellLevel": 4,
+          "name": "Greater Invisibility",
+          "summary": "Concentration; a creature stays invisible even while attacking or casting spells.",
+          "unlockAt": 7,
+          "source": "fixed"
+        },
+        {
+          "id": "dimension_door",
+          "spellLevel": 4,
+          "name": "Dimension Door",
+          "summary": "Teleport yourself and one willing creature up to 500 feet to a described destination.",
+          "unlockAt": 8,
+          "source": "fixed"
+        },
+        {
+          "id": "cone_of_cold",
+          "spellLevel": 5,
+          "name": "Cone of Cold",
+          "summary": "Constitution save in a 60-foot cone; cold damage, half on success.",
+          "unlockAt": 9,
+          "source": "fixed"
+        },
+        {
+          "id": "chain_lightning",
+          "spellLevel": 6,
+          "name": "Chain Lightning",
+          "summary": "Dexterity saves; lightning strikes one target and arcs to up to three additional targets.",
+          "unlockAt": 11,
+          "source": "fixed"
+        },
+        {
+          "id": "teleport",
+          "spellLevel": 7,
+          "name": "Teleport",
+          "summary": "Instantly transport creatures and objects to a known destination, with accuracy based on familiarity.",
+          "unlockAt": 13,
+          "source": "fixed"
+        },
+        {
+          "id": "dominate_monster",
+          "spellLevel": 8,
+          "name": "Dominate Monster",
+          "summary": "Concentration; Wisdom save or charm and control a creature, with repeat saves when damaged.",
+          "unlockAt": 15,
+          "source": "fixed"
+        },
+        {
+          "id": "power_word_stun",
+          "spellLevel": 8,
+          "name": "Power Word Stun",
+          "summary": "Stun one creature with 150 hit points or fewer; it repeats Constitution saves to end the effect.",
+          "unlockAt": 17,
+          "source": "fixed"
+        }
+      ],
+      "equipment": [
+        "Dagger",
+        "Arcane focus",
+        "Light crossbow and 20 bolts",
+        "Explorer’s pack",
+        "Entertainer’s instrument"
+      ],
+      "progressionNote": "Eilvyre’s volatile magic concept is preserved through a fixed lightning-heavy spell and Metamagic build. The locked subclass is the SRD Draconic Bloodline rather than a non-SRD origin; the original randomness becomes presentation and spell selection rather than unsupported mechanics.",
+      "portrait": "assets/images/characters/eilvyre.webp",
+      "sourceSheet": "Eilvyre_Astath.html",
+      "token": "assets/images/characters/tokens/eilvyre.webp",
+      "gallery": [
+        "assets/images/characters/gallery/eilvyre/eilvyre-01.webp",
+        "assets/images/characters/gallery/eilvyre/eilvyre-02.webp",
+        "assets/images/characters/gallery/eilvyre/eilvyre-03.webp",
+        "assets/images/characters/gallery/eilvyre/eilvyre-04.webp",
+        "assets/images/characters/gallery/eilvyre/eilvyre-05.webp",
+        "assets/images/characters/gallery/eilvyre/eilvyre-06.webp",
+        "assets/images/characters/gallery/eilvyre/eilvyre-07.webp",
+        "assets/images/characters/gallery/eilvyre/eilvyre-08.webp",
+        "assets/images/characters/gallery/eilvyre/eilvyre-09.webp"
+      ],
+      "rulesLicense": "SRD 5.1 Open Game Content under OGL 1.0a; Killer In The Keep names, story, and supplied art remain Product Identity/original project material.",
+      "conversionNote": "Original visual identity retained; High Elf and Draconic Bloodline Sorcerer SRD mechanics used.",
+      "backendClassId": "class_2",
+      "backendClassName": "Rogue",
+      "backendRole": "Damage",
+      "backendAbilities": [
+        "Rogue Ability A",
+        "Rogue Ability B",
+        "Rogue Ability C"
+      ]
+    },
+    {
+      "id": "xun",
+      "name": "Githtoxundes “Xun” Fenwophyl",
+      "shortName": "Xun",
+      "gender": "Trans-Female",
+      "pronouns": "she/her",
+      "appearanceRace": "Dragonborn",
+      "rulesRace": "Dragonborn",
+      "size": "Medium",
+      "className": "Cleric",
+      "subclass": "Life Domain",
+      "concept": "Armored divine healer and radiant battlefield anchor",
+      "background": "Acolyte",
+      "alignment": "Lawful Good",
+      "baseAbilities": {
+        "Strength": 15,
+        "Dexterity": 14,
+        "Constitution": 17,
+        "Intelligence": 16,
+        "Wisdom": 18,
+        "Charisma": 13
+      },
+      "asi": [
+        {
+          "level": 4,
+          "label": "+2 Wisdom",
+          "changes": {
+            "Wisdom": 2
+          }
+        },
+        {
+          "level": 8,
+          "label": "+1 Constitution, +1 Charisma",
+          "changes": {
+            "Constitution": 1,
+            "Charisma": 1
+          }
+        },
+        {
+          "level": 12,
+          "label": "+2 Constitution",
+          "changes": {
+            "Constitution": 2
+          }
+        },
+        {
+          "level": 16,
+          "label": "+2 Strength",
+          "changes": {
+            "Strength": 2
+          }
+        },
+        {
+          "level": 19,
+          "label": "+1 Strength, +1 Charisma",
+          "changes": {
+            "Strength": 1,
+            "Charisma": 1
+          }
+        }
+      ],
+      "hitDie": 8,
+      "hpBonusPerLevel": 0,
+      "saveProficiencies": [
+        "Wisdom",
+        "Charisma"
+      ],
+      "skillProficiencies": [
+        "Insight",
+        "Medicine",
+        "Persuasion",
+        "Religion"
+      ],
+      "speed": 30,
+      "ac": 19,
+      "armor": "Half plate and shield",
+      "weaponAbility": "Strength",
+      "spellAbility": "Wisdom",
+      "caster": "full",
+      "attacks": [
+        {
+          "name": "Mace",
+          "mode": "weapon",
+          "ability": "Strength",
+          "damage": "1d6 bludgeoning",
+          "range": "5 ft.",
+          "notes": "One-handed with shield."
+        },
+        {
+          "name": "Sacred Flame",
+          "mode": "save",
+          "dcAbility": "Wisdom",
+          "damage": "tier-scaled radiant",
+          "range": "60 ft.",
+          "notes": "Dexterity save; ignores cover bonuses."
+        },
+        {
+          "name": "Fire Breath",
+          "mode": "save",
+          "dcAbility": "Constitution",
+          "damage": "2d6 fire",
+          "range": "15-ft. cone",
+          "notes": "Dexterity save; one use per short or long rest."
+        }
+      ],
+      "racialTraits": [
+        "Draconic Ancestry: Fire",
+        "Breath Weapon",
+        "Fire Resistance"
+      ],
+      "features": [
+        {
+          "level": 1,
+          "name": "Disciple of Life",
+          "summary": "Healing spells of 1st level or higher restore additional hit points."
+        },
+        {
+          "level": 1,
+          "name": "Heavy Armor Proficiency",
+          "summary": "Life Domain grants heavy armor proficiency."
+        },
+        {
+          "level": 2,
+          "name": "Channel Divinity",
+          "summary": "Turn Undead or Preserve Life. Uses increase at levels 6 and 18.",
+          "resource": {
+            "key": "channelDivinity",
+            "label": "Channel Divinity",
+            "max": "level>=18?3:(level>=6?2:1)",
+            "reset": "short"
+          }
+        },
+        {
+          "level": 5,
+          "name": "Destroy Undead",
+          "summary": "Turn Undead destroys weaker undead; challenge threshold increases with level."
+        },
+        {
+          "level": 6,
+          "name": "Blessed Healer",
+          "summary": "Healing another creature with a spell also restores some of your hit points."
+        },
+        {
+          "level": 8,
+          "name": "Divine Strike",
+          "summary": "Once per turn, a weapon hit deals extra radiant damage; increases at level 14."
+        },
+        {
+          "level": 10,
+          "name": "Divine Intervention",
+          "summary": "Request divine aid; success chance equals cleric level, automatic at level 20.",
+          "resource": {
+            "key": "divineIntervention",
+            "label": "Divine Intervention",
+            "max": "1",
+            "reset": "long"
+          }
+        },
+        {
+          "level": 17,
+          "name": "Supreme Healing",
+          "summary": "Use maximum values instead of rolling dice for healing spells."
+        },
+        {
+          "level": 1,
+          "name": "Breath Weapon",
+          "summary": "Exhale fire in a 15-foot cone once per short or long rest.",
+          "resource": {
+            "key": "breathWeapon",
+            "label": "Breath Weapon",
+            "max": "1",
+            "reset": "short"
+          }
+        }
+      ],
+      "spells": [
+        {
+          "id": "guidance",
+          "spellLevel": 0,
+          "name": "Guidance",
+          "summary": "Concentration; a willing creature adds 1d4 to one ability check before the spell ends.",
+          "unlockAt": 1,
+          "source": "fixed"
+        },
+        {
+          "id": "sacred_flame",
+          "spellLevel": 0,
+          "name": "Sacred Flame",
+          "summary": "Dexterity save; radiant damage that ignores cover bonuses. Damage scales by tier.",
+          "unlockAt": 1,
+          "source": "fixed"
+        },
+        {
+          "id": "spare_the_dying",
+          "spellLevel": 0,
+          "name": "Spare the Dying",
+          "summary": "Touch a living creature at 0 hit points; it becomes stable.",
+          "unlockAt": 1,
+          "source": "fixed"
+        },
+        {
+          "id": "thaumaturgy",
+          "spellLevel": 0,
+          "name": "Thaumaturgy",
+          "summary": "Create one brief divine sign such as a louder voice, harmless tremor, altered flame, or opened door/window.",
+          "unlockAt": 1,
+          "source": "fixed"
+        },
+        {
+          "id": "bless",
+          "spellLevel": 1,
+          "name": "Bless",
+          "summary": "Concentration; up to three creatures add 1d4 to attack rolls and saving throws.",
+          "unlockAt": 1,
+          "source": "domain"
+        },
+        {
+          "id": "cure_wounds",
+          "spellLevel": 1,
+          "name": "Cure Wounds",
+          "summary": "Touch a creature to restore 1d8 + spellcasting modifier hit points; higher slots add 1d8.",
+          "unlockAt": 1,
+          "source": "domain"
+        },
+        {
+          "id": "healing_word",
+          "spellLevel": 1,
+          "name": "Healing Word",
+          "summary": "Bonus action ranged healing for 1d4 + spellcasting modifier; higher slots add 1d4.",
+          "unlockAt": 1,
+          "source": "fixed"
+        },
+        {
+          "id": "command",
+          "spellLevel": 1,
+          "name": "Command",
+          "summary": "One creature that fails a Wisdom save follows a one-word command on its next turn.",
+          "unlockAt": 1,
+          "source": "fixed"
+        },
+        {
+          "id": "aid",
+          "spellLevel": 2,
+          "name": "Aid",
+          "summary": "Increase the current and maximum hit points of up to three creatures for 8 hours.",
+          "unlockAt": 3,
+          "source": "domain"
+        },
+        {
+          "id": "lesser_restoration",
+          "spellLevel": 2,
+          "name": "Lesser Restoration",
+          "summary": "End one disease or one blinded, deafened, paralyzed, or poisoned condition on a creature.",
+          "unlockAt": 3,
+          "source": "domain"
+        },
+        {
+          "id": "spiritual_weapon",
+          "spellLevel": 2,
+          "name": "Spiritual Weapon",
+          "summary": "Bonus action; create a floating weapon that makes melee spell attacks without concentration.",
+          "unlockAt": 3,
+          "source": "domain"
+        },
+        {
+          "id": "mass_healing_word",
+          "spellLevel": 3,
+          "name": "Mass Healing Word",
+          "summary": "Bonus action ranged healing for up to six creatures.",
+          "unlockAt": 5,
+          "source": "fixed"
+        },
+        {
+          "id": "spirit_guardians",
+          "spellLevel": 3,
+          "name": "Spirit Guardians",
+          "summary": "Concentration; chosen creatures are unaffected while enemies entering or starting nearby make Wisdom saves against radiant or necrotic damage.",
+          "unlockAt": 5,
+          "source": "fixed"
+        },
+        {
+          "id": "revivify",
+          "spellLevel": 3,
+          "name": "Revivify",
+          "summary": "Return a creature that died within the last minute to life with 1 hit point; cannot restore missing body parts.",
+          "unlockAt": 5,
+          "source": "domain"
+        },
+        {
+          "id": "dispel_magic",
+          "spellLevel": 3,
+          "name": "Dispel Magic",
+          "summary": "End spells of 3rd level or lower automatically; higher-level spells require an ability check.",
+          "unlockAt": 5,
+          "source": "fixed"
+        },
+        {
+          "id": "remove_curse",
+          "spellLevel": 3,
+          "name": "Remove Curse",
+          "summary": "End all curses affecting one creature or object; breaks a cursed item’s attunement.",
+          "unlockAt": 5,
+          "source": "fixed"
+        },
+        {
+          "id": "death_ward",
+          "spellLevel": 4,
+          "name": "Death Ward",
+          "summary": "The first time a creature would drop to 0 hit points, it drops to 1 instead; also negates one instant-death effect.",
+          "unlockAt": 7,
+          "source": "domain"
+        },
+        {
+          "id": "guardian_of_faith",
+          "spellLevel": 4,
+          "name": "Guardian of Faith",
+          "summary": "Create a stationary guardian that deals radiant damage to hostile creatures entering its space.",
+          "unlockAt": 7,
+          "source": "domain"
+        },
+        {
+          "id": "freedom_of_movement",
+          "spellLevel": 4,
+          "name": "Freedom of Movement",
+          "summary": "A creature ignores difficult terrain and magical speed reduction, and can escape restraints more easily for 1 hour.",
+          "unlockAt": 7,
+          "source": "fixed"
+        },
+        {
+          "id": "greater_restoration",
+          "spellLevel": 5,
+          "name": "Greater Restoration",
+          "summary": "End one major debilitating effect such as a curse, petrification, or ability-score/maximum-hit-point reduction.",
+          "unlockAt": 9,
+          "source": "fixed"
+        },
+        {
+          "id": "mass_cure_wounds",
+          "spellLevel": 5,
+          "name": "Mass Cure Wounds",
+          "summary": "Restore hit points to up to six creatures in a 30-foot-radius sphere.",
+          "unlockAt": 9,
+          "source": "fixed"
+        },
+        {
+          "id": "heal",
+          "spellLevel": 6,
+          "name": "Heal",
+          "summary": "Restore 70 hit points and end blindness, deafness, and disease; higher slots restore more.",
+          "unlockAt": 11,
+          "source": "fixed"
+        },
+        {
+          "id": "heroes_feast",
+          "spellLevel": 6,
+          "name": "Heroes’ Feast",
+          "summary": "A feast grants immunity to poison and fear, cures disease and poison, improves Wisdom saves, and increases maximum hit points for 24 hours.",
+          "unlockAt": 11,
+          "source": "fixed"
+        },
+        {
+          "id": "regenerate",
+          "spellLevel": 7,
+          "name": "Regenerate",
+          "summary": "A creature regains hit points immediately and each turn; severed body parts can regrow.",
+          "unlockAt": 13,
+          "source": "fixed"
+        },
+        {
+          "id": "resurrection",
+          "spellLevel": 7,
+          "name": "Resurrection",
+          "summary": "Return a creature dead no more than a century to life, restoring missing body parts with significant recovery penalties.",
+          "unlockAt": 13,
+          "source": "fixed"
+        },
+        {
+          "id": "sunburst",
+          "spellLevel": 8,
+          "name": "Sunburst",
+          "summary": "Constitution save in a large radius; radiant damage and blindness, especially effective against undead and oozes.",
+          "unlockAt": 15,
+          "source": "fixed"
+        },
+        {
+          "id": "mass_heal",
+          "spellLevel": 9,
+          "name": "Mass Heal",
+          "summary": "Distribute 700 hit points of healing among creatures you can see and end blindness, deafness, and disease.",
+          "unlockAt": 17,
+          "source": "fixed"
+        }
+      ],
+      "equipment": [
+        "Half plate armor",
+        "Shield",
+        "Mace",
+        "Holy symbol",
+        "Priest’s pack",
+        "Healer’s kit"
+      ],
+      "progressionNote": "Xun’s original Dragonborn cleric concept is already supported by SRD 5.1. The sheet locks her into Life Domain healing, armor, fire breath, and a fixed prepared-spell order that never exposes other domains or character-building choices.",
+      "portrait": "assets/images/characters/xun.webp",
+      "sourceSheet": "Githtoxundes_Xun_Fenwophyl.html",
+      "token": "assets/images/characters/tokens/xun.webp",
+      "gallery": [
+        "assets/images/characters/gallery/xun/xun-01.webp",
+        "assets/images/characters/gallery/xun/xun-02.webp",
+        "assets/images/characters/gallery/xun/xun-03.webp",
+        "assets/images/characters/gallery/xun/xun-04.webp",
+        "assets/images/characters/gallery/xun/xun-05.webp",
+        "assets/images/characters/gallery/xun/xun-06.webp",
+        "assets/images/characters/gallery/xun/xun-07.webp",
+        "assets/images/characters/gallery/xun/xun-08.webp",
+        "assets/images/characters/gallery/xun/xun-09.webp"
+      ],
+      "rulesLicense": "SRD 5.1 Open Game Content under OGL 1.0a; Killer In The Keep names, story, and supplied art remain Product Identity/original project material.",
+      "conversionNote": "Original visual identity retained; Dragonborn and Life Domain Cleric SRD mechanics used.",
+      "backendClassId": "class_3",
+      "backendClassName": "Cleric",
+      "backendRole": "Support",
+      "backendAbilities": [
+        "Cleric Ability A",
+        "Cleric Ability B",
+        "Cleric Ability C"
+      ]
+    },
+    {
+      "id": "gunnus",
+      "name": "Gunnus",
+      "shortName": "Gunnus",
+      "gender": "Demi-Male",
+      "pronouns": "he/they",
+      "appearanceRace": "Minotaur",
+      "rulesRace": "Half-Orc rules package",
+      "size": "Medium",
+      "className": "Wizard",
+      "subclass": "School of Evocation",
+      "concept": "Horned gravefire arcanist with necromancy-heavy spellbook",
+      "background": "Sage",
+      "alignment": "Neutral",
+      "baseAbilities": {
+        "Strength": 15,
+        "Dexterity": 12,
+        "Constitution": 14,
+        "Intelligence": 16,
+        "Wisdom": 13,
+        "Charisma": 13
+      },
+      "asi": [
+        {
+          "level": 4,
+          "label": "+2 Intelligence",
+          "changes": {
+            "Intelligence": 2
+          }
+        },
+        {
+          "level": 8,
+          "label": "+2 Intelligence",
+          "changes": {
+            "Intelligence": 2
+          }
+        },
+        {
+          "level": 12,
+          "label": "+2 Constitution",
+          "changes": {
+            "Constitution": 2
+          }
+        },
+        {
+          "level": 16,
+          "label": "+2 Wisdom",
+          "changes": {
+            "Wisdom": 2
+          }
+        },
+        {
+          "level": 19,
+          "label": "+2 Strength",
+          "changes": {
+            "Strength": 2
+          }
+        }
+      ],
+      "hitDie": 6,
+      "hpBonusPerLevel": 0,
+      "saveProficiencies": [
+        "Intelligence",
+        "Wisdom"
+      ],
+      "skillProficiencies": [
+        "Arcana",
+        "History",
+        "Investigation",
+        "Religion"
+      ],
+      "speed": 30,
+      "ac": "mage",
+      "armor": "Mage Armor",
+      "weaponAbility": "Strength",
+      "spellAbility": "Intelligence",
+      "caster": "full",
+      "attacks": [
+        {
+          "name": "Horned Unarmed Strike",
+          "mode": "weapon",
+          "ability": "Strength",
+          "damage": "1 bludgeoning + Strength",
+          "range": "5 ft.",
+          "notes": "Visual signature; mechanically uses the standard unarmed-strike rule."
+        },
+        {
+          "name": "Sickle",
+          "mode": "weapon",
+          "ability": "Strength",
+          "damage": "1d4 slashing",
+          "range": "5 ft.",
+          "notes": "Light."
+        },
+        {
+          "name": "Chill Touch",
+          "mode": "spell",
+          "damage": "tier-scaled necrotic",
+          "range": "120 ft.",
+          "notes": "Prevents healing until your next turn."
+        }
+      ],
+      "racialTraits": [
+        "Darkvision",
+        "Menacing",
+        "Relentless Endurance",
+        "Savage Attacks"
+      ],
+      "features": [
+        {
+          "level": 1,
+          "name": "Arcane Recovery",
+          "summary": "Once per day after a short rest, recover spell slots with total levels up to half wizard level.",
+          "resource": {
+            "key": "arcaneRecovery",
+            "label": "Arcane Recovery",
+            "max": "1",
+            "reset": "long"
+          }
+        },
+        {
+          "level": 2,
+          "name": "Evocation Savant",
+          "summary": "Copy evocation spells into the spellbook more efficiently."
+        },
+        {
+          "level": 2,
+          "name": "Sculpt Spells",
+          "summary": "Protect chosen creatures from your evocation areas."
+        },
+        {
+          "level": 6,
+          "name": "Potent Cantrip",
+          "summary": "Creatures that succeed on saves against damaging cantrips still take half damage."
+        },
+        {
+          "level": 10,
+          "name": "Empowered Evocation",
+          "summary": "Add Intelligence modifier to one damage roll of a wizard evocation spell."
+        },
+        {
+          "level": 14,
+          "name": "Overchannel",
+          "summary": "Deal maximum damage with a low-level wizard damage spell; repeated use can harm you.",
+          "resource": {
+            "key": "overchannel",
+            "label": "Safe Overchannel",
+            "max": "1",
+            "reset": "long"
+          }
+        },
+        {
+          "level": 18,
+          "name": "Spell Mastery",
+          "summary": "Cast one fixed 1st-level and one fixed 2nd-level spell at will."
+        },
+        {
+          "level": 20,
+          "name": "Signature Spells",
+          "summary": "Two fixed 3rd-level spells are always prepared and each can be cast once without a slot per short rest.",
+          "resource": {
+            "key": "signatureSpells",
+            "label": "Signature Spells",
+            "max": "2",
+            "reset": "short"
+          }
+        }
+      ],
+      "spells": [
+        {
+          "id": "chill_touch",
+          "spellLevel": 0,
+          "name": "Chill Touch",
+          "summary": "Ranged spell attack; 1d8 necrotic damage and the target cannot regain hit points until your next turn. Damage scales at character levels 5, 11, and 17.",
+          "unlockAt": 1,
+          "source": "fixed"
+        },
+        {
+          "id": "poison_spray",
+          "spellLevel": 0,
+          "name": "Poison Spray",
+          "summary": "Constitution save at close range; poison damage that scales by tier.",
+          "unlockAt": 1,
+          "source": "fixed"
+        },
+        {
+          "id": "mage_hand",
+          "spellLevel": 0,
+          "name": "Mage Hand",
+          "summary": "Create a spectral hand at range for simple object interaction. It cannot attack, activate magic items, or carry more than 10 pounds.",
+          "unlockAt": 1,
+          "source": "fixed"
+        },
+        {
+          "id": "minor_illusion",
+          "spellLevel": 0,
+          "name": "Minor Illusion",
+          "summary": "Create a brief sound or a static image within range. A creature can investigate it against your spell save DC.",
+          "unlockAt": 1,
+          "source": "fixed"
+        },
+        {
+          "id": "false_life",
+          "spellLevel": 1,
+          "name": "False Life",
+          "summary": "Gain 1d4 + 4 temporary hit points for 1 hour; higher slots increase the temporary hit points.",
+          "unlockAt": 1,
+          "source": "fixed"
+        },
+        {
+          "id": "mage_armor",
+          "spellLevel": 1,
+          "name": "Mage Armor",
+          "summary": "A willing unarmored creature has base AC 13 + Dexterity modifier for 8 hours.",
+          "unlockAt": 1,
+          "source": "fixed"
+        },
+        {
+          "id": "shield",
+          "spellLevel": 1,
+          "name": "Shield",
+          "summary": "Reaction when hit or targeted by magic missile; gain +5 AC until your next turn and negate magic missile.",
+          "unlockAt": 1,
+          "source": "fixed"
+        },
+        {
+          "id": "magic_missile",
+          "spellLevel": 1,
+          "name": "Magic Missile",
+          "summary": "Three darts automatically hit creatures you can see; each deals 1d4 + 1 force damage. Higher slots create more darts.",
+          "unlockAt": 1,
+          "source": "fixed"
+        },
+        {
+          "id": "hideous_laughter",
+          "spellLevel": 1,
+          "name": "Hideous Laughter",
+          "summary": "Concentration; Wisdom save or fall prone and become incapacitated, with repeat saves.",
+          "unlockAt": 1,
+          "source": "fixed"
+        },
+        {
+          "id": "blindness_deafness",
+          "spellLevel": 2,
+          "name": "Blindness/Deafness",
+          "summary": "Constitution save; blind or deafen a creature, with repeat saves. No concentration.",
+          "unlockAt": 3,
+          "source": "fixed"
+        },
+        {
+          "id": "ray_of_enfeeblement",
+          "spellLevel": 2,
+          "name": "Ray of Enfeeblement",
+          "summary": "Concentration ranged spell attack; the target deals half damage with Strength-based weapon attacks.",
+          "unlockAt": 3,
+          "source": "fixed"
+        },
+        {
+          "id": "misty_step",
+          "spellLevel": 2,
+          "name": "Misty Step",
+          "summary": "Bonus action teleport up to 30 feet to an unoccupied space you can see.",
+          "unlockAt": 3,
+          "source": "fixed"
+        },
+        {
+          "id": "web",
+          "spellLevel": 2,
+          "name": "Web",
+          "summary": "Concentration; webs restrain creatures that fail a Dexterity save and create difficult terrain.",
+          "unlockAt": 3,
+          "source": "fixed"
+        },
+        {
+          "id": "animate_dead",
+          "spellLevel": 3,
+          "name": "Animate Dead",
+          "summary": "Create or reassert control over a skeleton or zombie from remains. Control must be renewed every 24 hours.",
+          "unlockAt": 5,
+          "source": "fixed"
+        },
+        {
+          "id": "vampiric_touch",
+          "spellLevel": 3,
+          "name": "Vampiric Touch",
+          "summary": "Concentration melee spell attack; necrotic damage and regain half the necrotic damage dealt.",
+          "unlockAt": 5,
+          "source": "fixed"
+        },
+        {
+          "id": "counterspell",
+          "spellLevel": 3,
+          "name": "Counterspell",
+          "summary": "Reaction; interrupt a spell. Spells of 3rd level or lower fail automatically; higher levels require a check.",
+          "unlockAt": 5,
+          "source": "fixed"
+        },
+        {
+          "id": "fireball",
+          "spellLevel": 3,
+          "name": "Fireball",
+          "summary": "Dexterity save in a 20-foot-radius sphere; fire damage, half on a successful save.",
+          "unlockAt": 5,
+          "source": "fixed"
+        },
+        {
+          "id": "fear",
+          "spellLevel": 3,
+          "name": "Fear",
+          "summary": "Concentration; creatures in a cone that fail a Wisdom save drop held items, become frightened, and flee.",
+          "unlockAt": 5,
+          "source": "fixed"
+        },
+        {
+          "id": "blight",
+          "spellLevel": 4,
+          "name": "Blight",
+          "summary": "Constitution save; heavy necrotic damage, with special effects against plants and no effect on undead or constructs.",
+          "unlockAt": 7,
+          "source": "fixed"
+        },
+        {
+          "id": "phantasmal_killer",
+          "spellLevel": 4,
+          "name": "Phantasmal Killer",
+          "summary": "Concentration; Wisdom save or frightened, then repeated Wisdom saves against psychic damage.",
+          "unlockAt": 7,
+          "source": "fixed"
+        },
+        {
+          "id": "cloudkill",
+          "spellLevel": 5,
+          "name": "Cloudkill",
+          "summary": "Concentration; a moving poisonous fog heavily obscures and deals poison damage.",
+          "unlockAt": 9,
+          "source": "fixed"
+        },
+        {
+          "id": "cone_of_cold",
+          "spellLevel": 5,
+          "name": "Cone of Cold",
+          "summary": "Constitution save in a 60-foot cone; cold damage, half on success.",
+          "unlockAt": 9,
+          "source": "fixed"
+        },
+        {
+          "id": "circle_of_death",
+          "spellLevel": 6,
+          "name": "Circle of Death",
+          "summary": "Constitution save in a very large sphere; necrotic damage, half on success.",
+          "unlockAt": 11,
+          "source": "fixed"
+        },
+        {
+          "id": "disintegrate",
+          "spellLevel": 6,
+          "name": "Disintegrate",
+          "summary": "Dexterity save; massive force damage. A creature reduced to 0 is disintegrated.",
+          "unlockAt": 11,
+          "source": "fixed"
+        },
+        {
+          "id": "finger_of_death",
+          "spellLevel": 7,
+          "name": "Finger of Death",
+          "summary": "Constitution save; heavy necrotic damage. A humanoid killed by it rises later as a zombie under your control.",
+          "unlockAt": 13,
+          "source": "fixed"
+        },
+        {
+          "id": "power_word_stun",
+          "spellLevel": 8,
+          "name": "Power Word Stun",
+          "summary": "Stun one creature with 150 hit points or fewer; it repeats Constitution saves to end the effect.",
+          "unlockAt": 15,
+          "source": "fixed"
+        },
+        {
+          "id": "power_word_kill",
+          "spellLevel": 9,
+          "name": "Power Word Kill",
+          "summary": "One creature with 100 hit points or fewer dies; otherwise the spell has no effect.",
+          "unlockAt": 17,
+          "source": "fixed"
+        }
+      ],
+      "equipment": [
+        "Spellbook",
+        "Arcane focus",
+        "Sickle",
+        "Scholar’s pack",
+        "Component pouch"
+      ],
+      "progressionNote": "Gunnus keeps the Minotaur art and necromancer identity as character Product Identity. The locked OGL mechanics use Half-Orc racial traits and the SRD School of Evocation; his spellbook remains heavily necromantic, while subclass mechanics stay wholly inside SRD 5.1.",
+      "portrait": "assets/images/characters/gunnus.webp",
+      "sourceSheet": "Gunnus.html",
+      "token": "assets/images/characters/tokens/gunnus.webp",
+      "gallery": [
+        "assets/images/characters/gallery/gunnus/gunnus-01.webp",
+        "assets/images/characters/gallery/gunnus/gunnus-02.webp",
+        "assets/images/characters/gallery/gunnus/gunnus-03.webp",
+        "assets/images/characters/gallery/gunnus/gunnus-04.webp",
+        "assets/images/characters/gallery/gunnus/gunnus-05.webp",
+        "assets/images/characters/gallery/gunnus/gunnus-06.webp",
+        "assets/images/characters/gallery/gunnus/gunnus-07.webp",
+        "assets/images/characters/gallery/gunnus/gunnus-08.webp",
+        "assets/images/characters/gallery/gunnus/gunnus-09.webp",
+        "assets/images/characters/gallery/gunnus/gunnus-10.webp",
+        "assets/images/characters/gallery/gunnus/gunnus-11.webp",
+        "assets/images/characters/gallery/gunnus/gunnus-12.webp"
+      ],
+      "rulesLicense": "SRD 5.1 Open Game Content under OGL 1.0a; Killer In The Keep names, story, and supplied art remain Product Identity/original project material.",
+      "conversionNote": "Minotaur appearance retained; Half-Orc rules package and Evocation Wizard SRD mechanics used.",
+      "backendClassId": "class_4",
+      "backendClassName": "Wizard",
+      "backendRole": "Utility",
+      "backendAbilities": [
+        "Wizard Ability A",
+        "Wizard Ability B",
+        "Wizard Ability C"
+      ]
+    },
+    {
+      "id": "joknos",
+      "name": "Joknos “Jock”",
+      "shortName": "Jock",
+      "gender": "Genderfluid",
+      "pronouns": "any pronouns",
+      "appearanceRace": "Gecko/Lizardfolk",
+      "rulesRace": "Dragonborn rules package",
+      "size": "Medium",
+      "className": "Bard",
+      "subclass": "College of Lore",
+      "concept": "Storm-voiced performer, controller, and party support",
+      "background": "Entertainer",
+      "alignment": "Chaotic Good",
+      "baseAbilities": {
+        "Strength": 12,
+        "Dexterity": 15,
+        "Constitution": 16,
+        "Intelligence": 13,
+        "Wisdom": 14,
+        "Charisma": 18
+      },
+      "asi": [
+        {
+          "level": 4,
+          "label": "+2 Charisma",
+          "changes": {
+            "Charisma": 2
+          }
+        },
+        {
+          "level": 8,
+          "label": "+1 Dexterity, +1 Intelligence",
+          "changes": {
+            "Dexterity": 1,
+            "Intelligence": 1
+          }
+        },
+        {
+          "level": 12,
+          "label": "+2 Constitution",
+          "changes": {
+            "Constitution": 2
+          }
+        },
+        {
+          "level": 16,
+          "label": "+2 Dexterity",
+          "changes": {
+            "Dexterity": 2
+          }
+        },
+        {
+          "level": 19,
+          "label": "+2 Wisdom",
+          "changes": {
+            "Wisdom": 2
+          }
+        }
+      ],
+      "hitDie": 8,
+      "hpBonusPerLevel": 0,
+      "saveProficiencies": [
+        "Dexterity",
+        "Charisma"
+      ],
+      "skillProficiencies": [
+        "Deception",
+        "Insight",
+        "Performance",
+        "Persuasion",
+        "Arcana",
+        "Perception"
+      ],
+      "expertise": [
+        "Performance",
+        "Persuasion",
+        "Deception",
+        "Insight"
+      ],
+      "speed": 30,
+      "ac": 15,
+      "armor": "Studded leather",
+      "weaponAbility": "Dexterity",
+      "spellAbility": "Charisma",
+      "caster": "full",
+      "attacks": [
+        {
+          "name": "Rapier",
+          "mode": "weapon",
+          "ability": "Dexterity",
+          "damage": "1d8 piercing",
+          "range": "5 ft.",
+          "notes": "Finesse."
+        },
+        {
+          "name": "Vicious Mockery",
+          "mode": "save",
+          "dcAbility": "Charisma",
+          "damage": "tier-scaled psychic",
+          "range": "60 ft.",
+          "notes": "Wisdom save; also hinders the next attack."
+        },
+        {
+          "name": "Lightning Breath",
+          "mode": "save",
+          "dcAbility": "Constitution",
+          "damage": "breath weapon dice",
+          "range": "5-by-30-ft. line",
+          "notes": "Dexterity save; one use per short or long rest."
+        }
+      ],
+      "racialTraits": [
+        "Draconic Ancestry: Lightning",
+        "Breath Weapon",
+        "Lightning Resistance"
+      ],
+      "features": [
+        {
+          "level": 1,
+          "name": "Breath Weapon",
+          "summary": "Exhale lightning in a 5-by-30-foot line once per short or long rest.",
+          "resource": {
+            "key": "breathWeapon",
+            "label": "Breath Weapon",
+            "max": "1",
+            "reset": "short"
+          }
+        },
+        {
+          "level": 1,
+          "name": "Bardic Inspiration",
+          "summary": "Bonus action inspiration die; uses equal Charisma modifier. Die scales with level and refreshes on short rests from level 5.",
+          "resource": {
+            "key": "bardicInspiration",
+            "label": "Bardic Inspiration",
+            "max": "chaMod",
+            "reset": "level>=5?'short':'long'"
+          }
+        },
+        {
+          "level": 2,
+          "name": "Jack of All Trades",
+          "summary": "Add half proficiency to ability checks that do not already include proficiency."
+        },
+        {
+          "level": 2,
+          "name": "Song of Rest",
+          "summary": "Allies who spend Hit Dice during a short rest regain extra hit points; die scales with level."
+        },
+        {
+          "level": 3,
+          "name": "Expertise",
+          "summary": "Double proficiency for fixed signature skills; expands at level 10."
+        },
+        {
+          "level": 3,
+          "name": "Bonus Proficiencies",
+          "summary": "Gain three additional fixed skill proficiencies."
+        },
+        {
+          "level": 3,
+          "name": "Cutting Words",
+          "summary": "Use Bardic Inspiration as a reaction to reduce an enemy’s attack roll, ability check, or damage roll."
+        },
+        {
+          "level": 5,
+          "name": "Font of Inspiration",
+          "summary": "Bardic Inspiration refreshes after a short or long rest."
+        },
+        {
+          "level": 6,
+          "name": "Countercharm",
+          "summary": "Use an action to help nearby allies resist frightened and charmed effects."
+        },
+        {
+          "level": 6,
+          "name": "Additional Magical Secrets",
+          "summary": "Fixed off-list spells: Lightning Bolt and Counterspell."
+        },
+        {
+          "level": 10,
+          "name": "Magical Secrets",
+          "summary": "Fixed additional spells from any class list."
+        },
+        {
+          "level": 14,
+          "name": "Peerless Skill",
+          "summary": "Spend Bardic Inspiration to improve your own ability check."
+        },
+        {
+          "level": 20,
+          "name": "Superior Inspiration",
+          "summary": "Regain one Bardic Inspiration when initiative begins and none remain."
+        }
+      ],
+      "spells": [
+        {
+          "id": "vicious_mockery",
+          "spellLevel": 0,
+          "name": "Vicious Mockery",
+          "summary": "Wisdom save; psychic damage and disadvantage on the target’s next attack roll before your next turn.",
+          "unlockAt": 1,
+          "source": "fixed"
+        },
+        {
+          "id": "thunderclap",
+          "spellLevel": 0,
+          "name": "Thunderclap",
+          "summary": "Constitution save by creatures within 5 feet; thunder damage that scales by tier.",
+          "unlockAt": 1,
+          "source": "fixed"
+        },
+        {
+          "id": "mage_hand",
+          "spellLevel": 0,
+          "name": "Mage Hand",
+          "summary": "Create a spectral hand at range for simple object interaction. It cannot attack, activate magic items, or carry more than 10 pounds.",
+          "unlockAt": 4,
+          "source": "fixed"
+        },
+        {
+          "id": "prestidigitation",
+          "spellLevel": 0,
+          "name": "Prestidigitation",
+          "summary": "Create one minor magical sensory or utility effect for roleplay and exploration.",
+          "unlockAt": 10,
+          "source": "fixed"
+        },
+        {
+          "id": "healing_word",
+          "spellLevel": 1,
+          "name": "Healing Word",
+          "summary": "Bonus action ranged healing for 1d4 + spellcasting modifier; higher slots add 1d4.",
+          "unlockAt": 1,
+          "source": "fixed"
+        },
+        {
+          "id": "hideous_laughter",
+          "spellLevel": 1,
+          "name": "Hideous Laughter",
+          "summary": "Concentration; Wisdom save or fall prone and become incapacitated, with repeat saves.",
+          "unlockAt": 1,
+          "source": "fixed"
+        },
+        {
+          "id": "bane",
+          "spellLevel": 1,
+          "name": "Bane",
+          "summary": "Concentration; up to three creatures subtract 1d4 from attack rolls and saving throws after a Charisma save.",
+          "unlockAt": 1,
+          "source": "fixed"
+        },
+        {
+          "id": "heroism",
+          "spellLevel": 1,
+          "name": "Heroism",
+          "summary": "Concentration; a willing creature is immune to frightened and gains temporary hit points each turn.",
+          "unlockAt": 2,
+          "source": "fixed"
+        },
+        {
+          "id": "suggestion",
+          "spellLevel": 2,
+          "name": "Suggestion",
+          "summary": "Concentration; a creature that fails a Wisdom save follows a reasonable course of action.",
+          "unlockAt": 3,
+          "source": "fixed"
+        },
+        {
+          "id": "invisibility",
+          "spellLevel": 2,
+          "name": "Invisibility",
+          "summary": "Concentration; a creature becomes invisible until it attacks, casts a spell, or the spell ends.",
+          "unlockAt": 3,
+          "source": "fixed"
+        },
+        {
+          "id": "shatter",
+          "spellLevel": 2,
+          "name": "Shatter",
+          "summary": "Constitution save in a 10-foot-radius sphere; thunder damage, with constructs disadvantaged on the save.",
+          "unlockAt": 4,
+          "source": "fixed"
+        },
+        {
+          "id": "hypnotic_pattern",
+          "spellLevel": 3,
+          "name": "Hypnotic Pattern",
+          "summary": "Concentration; Wisdom save or become charmed and incapacitated until damaged or awakened.",
+          "unlockAt": 5,
+          "source": "fixed"
+        },
+        {
+          "id": "lightning_bolt",
+          "spellLevel": 3,
+          "name": "Lightning Bolt",
+          "summary": "Dexterity save in a 100-foot line; lightning damage, half on a successful save.",
+          "unlockAt": 6,
+          "source": "magical secret"
+        },
+        {
+          "id": "counterspell",
+          "spellLevel": 3,
+          "name": "Counterspell",
+          "summary": "Reaction; interrupt a spell. Spells of 3rd level or lower fail automatically; higher levels require a check.",
+          "unlockAt": 6,
+          "source": "magical secret"
+        },
+        {
+          "id": "dispel_magic",
+          "spellLevel": 3,
+          "name": "Dispel Magic",
+          "summary": "End spells of 3rd level or lower automatically; higher-level spells require an ability check.",
+          "unlockAt": 9,
+          "source": "fixed"
+        },
+        {
+          "id": "dimension_door",
+          "spellLevel": 4,
+          "name": "Dimension Door",
+          "summary": "Teleport yourself and one willing creature up to 500 feet to a described destination.",
+          "unlockAt": 8,
+          "source": "fixed"
+        },
+        {
+          "id": "greater_invisibility",
+          "spellLevel": 4,
+          "name": "Greater Invisibility",
+          "summary": "Concentration; a creature stays invisible even while attacking or casting spells.",
+          "unlockAt": 9,
+          "source": "fixed"
+        },
+        {
+          "id": "animate_objects",
+          "spellLevel": 5,
+          "name": "Animate Objects",
+          "summary": "Concentration; animate up to ten nonmagical objects to fight under your commands.",
+          "unlockAt": 10,
+          "source": "fixed"
+        },
+        {
+          "id": "polymorph",
+          "spellLevel": 4,
+          "name": "Polymorph",
+          "summary": "Concentration; transform a creature into a beast whose challenge rating is limited by the target’s level.",
+          "unlockAt": 10,
+          "source": "fixed"
+        },
+        {
+          "id": "heroes_feast",
+          "spellLevel": 6,
+          "name": "Heroes’ Feast",
+          "summary": "A feast grants immunity to poison and fear, cures disease and poison, improves Wisdom saves, and increases maximum hit points for 24 hours.",
+          "unlockAt": 11,
+          "source": "magical secret"
+        },
+        {
+          "id": "teleport",
+          "spellLevel": 7,
+          "name": "Teleport",
+          "summary": "Instantly transport creatures and objects to a known destination, with accuracy based on familiarity.",
+          "unlockAt": 13,
+          "source": "fixed"
+        },
+        {
+          "id": "dominate_monster",
+          "spellLevel": 8,
+          "name": "Dominate Monster",
+          "summary": "Concentration; Wisdom save or charm and control a creature, with repeat saves when damaged.",
+          "unlockAt": 15,
+          "source": "fixed"
+        },
+        {
+          "id": "mass_heal",
+          "spellLevel": 9,
+          "name": "Mass Heal",
+          "summary": "Distribute 700 hit points of healing among creatures you can see and end blindness, deafness, and disease.",
+          "unlockAt": 18,
+          "source": "magical secret"
+        }
+      ],
+      "equipment": [
+        "Studded leather armor",
+        "Rapier",
+        "Lute",
+        "Dagger",
+        "Diplomat’s pack",
+        "Costume"
+      ],
+      "progressionNote": "Jock keeps the reptilian art and storm-performance identity. The locked rules package uses SRD Dragonborn traits and College of Lore, replacing non-SRD creation features with Cutting Words, Magical Secrets, and fixed thunder/lightning control spells.",
+      "portrait": "assets/images/characters/joknos.webp",
+      "sourceSheet": "Joknos_Jock.html",
+      "token": "assets/images/characters/tokens/joknos.webp",
+      "gallery": [
+        "assets/images/characters/gallery/joknos/joknos-01.webp",
+        "assets/images/characters/gallery/joknos/joknos-02.webp",
+        "assets/images/characters/gallery/joknos/joknos-03.webp",
+        "assets/images/characters/gallery/joknos/joknos-04.webp",
+        "assets/images/characters/gallery/joknos/joknos-05.webp",
+        "assets/images/characters/gallery/joknos/joknos-06.webp",
+        "assets/images/characters/gallery/joknos/joknos-07.webp",
+        "assets/images/characters/gallery/joknos/joknos-08.webp",
+        "assets/images/characters/gallery/joknos/joknos-09.webp",
+        "assets/images/characters/gallery/joknos/joknos-10.webp"
+      ],
+      "rulesLicense": "SRD 5.1 Open Game Content under OGL 1.0a; Killer In The Keep names, story, and supplied art remain Product Identity/original project material.",
+      "conversionNote": "Gecko/lizardfolk appearance retained; Dragonborn rules package and College of Lore Bard SRD mechanics used.",
+      "backendClassId": "class_5",
+      "backendClassName": "Ranger",
+      "backendRole": "Tank",
+      "backendAbilities": [
+        "Ranger Ability A",
+        "Ranger Ability B",
+        "Ranger Ability C"
+      ]
+    },
+    {
+      "id": "korbin",
+      "name": "Korbin Silverdew",
+      "shortName": "Korbin",
+      "gender": "Trans-Male",
+      "pronouns": "he/him",
+      "appearanceRace": "Halfling",
+      "rulesRace": "Lightfoot Halfling",
+      "size": "Small",
+      "className": "Paladin",
+      "subclass": "Oath of Devotion",
+      "concept": "Armored protector, radiant striker, and party leader",
+      "background": "Noble",
+      "alignment": "Lawful Good",
+      "baseAbilities": {
+        "Strength": 17,
+        "Dexterity": 13,
+        "Constitution": 16,
+        "Intelligence": 13,
+        "Wisdom": 12,
+        "Charisma": 18
+      },
+      "asi": [
+        {
+          "level": 4,
+          "label": "+2 Charisma",
+          "changes": {
+            "Charisma": 2
+          }
+        },
+        {
+          "level": 8,
+          "label": "+1 Strength, +1 Dexterity",
+          "changes": {
+            "Strength": 1,
+            "Dexterity": 1
+          }
+        },
+        {
+          "level": 12,
+          "label": "+2 Constitution",
+          "changes": {
+            "Constitution": 2
+          }
+        },
+        {
+          "level": 16,
+          "label": "+2 Strength",
+          "changes": {
+            "Strength": 2
+          }
+        },
+        {
+          "level": 19,
+          "label": "+2 Wisdom",
+          "changes": {
+            "Wisdom": 2
+          }
+        }
+      ],
+      "hitDie": 10,
+      "hpBonusPerLevel": 0,
+      "saveProficiencies": [
+        "Wisdom",
+        "Charisma"
+      ],
+      "skillProficiencies": [
+        "Athletics",
+        "Insight",
+        "Persuasion",
+        "Religion"
+      ],
+      "speed": 25,
+      "ac": 21,
+      "armor": "Plate armor, shield, Defense fighting style",
+      "weaponAbility": "Strength",
+      "spellAbility": "Charisma",
+      "caster": "half",
+      "attacks": [
+        {
+          "name": "Longsword",
+          "mode": "weapon",
+          "ability": "Strength",
+          "damage": "1d8 slashing (1d10 two-handed)",
+          "range": "5 ft.",
+          "notes": "Versatile; normally used one-handed with shield."
+        },
+        {
+          "name": "Light Crossbow",
+          "mode": "weapon",
+          "ability": "Dexterity",
+          "damage": "1d8 piercing",
+          "range": "80/320 ft.",
+          "notes": "Loading, two-handed."
+        }
+      ],
+      "racialTraits": [
+        "Lucky",
+        "Brave",
+        "Halfling Nimbleness",
+        "Naturally Stealthy"
+      ],
+      "features": [
+        {
+          "level": 1,
+          "name": "Divine Sense",
+          "summary": "Detect certain celestial, fiend, undead, consecrated, or desecrated presences a fixed number of times per long rest.",
+          "resource": {
+            "key": "divineSense",
+            "label": "Divine Sense",
+            "max": "1+chaMod",
+            "reset": "long"
+          }
+        },
+        {
+          "level": 1,
+          "name": "Lay on Hands",
+          "summary": "Healing pool equal to five times paladin level; also neutralizes poison or disease.",
+          "resource": {
+            "key": "layOnHands",
+            "label": "Lay on Hands",
+            "max": "level*5",
+            "reset": "long"
+          }
+        },
+        {
+          "level": 2,
+          "name": "Fighting Style: Defense",
+          "summary": "Gain +1 AC while wearing armor."
+        },
+        {
+          "level": 2,
+          "name": "Divine Smite",
+          "summary": "After a melee weapon hit, expend a spell slot for extra radiant damage."
+        },
+        {
+          "level": 3,
+          "name": "Divine Health",
+          "summary": "Immune to disease."
+        },
+        {
+          "level": 3,
+          "name": "Channel Divinity",
+          "summary": "Sacred Weapon or Turn the Unholy once per short or long rest.",
+          "resource": {
+            "key": "channelDivinity",
+            "label": "Channel Divinity",
+            "max": "1",
+            "reset": "short"
+          }
+        },
+        {
+          "level": 5,
+          "name": "Extra Attack",
+          "summary": "Attack twice whenever taking the Attack action."
+        },
+        {
+          "level": 6,
+          "name": "Aura of Protection",
+          "summary": "You and nearby allies add Charisma modifier to saving throws while you are conscious."
+        },
+        {
+          "level": 7,
+          "name": "Aura of Devotion",
+          "summary": "You and nearby allies cannot be charmed while you are conscious."
+        },
+        {
+          "level": 10,
+          "name": "Aura of Courage",
+          "summary": "You and nearby allies cannot be frightened while you are conscious."
+        },
+        {
+          "level": 11,
+          "name": "Improved Divine Smite",
+          "summary": "Melee weapon hits deal an extra 1d8 radiant damage."
+        },
+        {
+          "level": 14,
+          "name": "Cleansing Touch",
+          "summary": "End one spell on yourself or a willing creature several times per long rest.",
+          "resource": {
+            "key": "cleansingTouch",
+            "label": "Cleansing Touch",
+            "max": "chaMod",
+            "reset": "long"
+          }
+        },
+        {
+          "level": 15,
+          "name": "Purity of Spirit",
+          "summary": "Always under the effects of protection from evil and good."
+        },
+        {
+          "level": 18,
+          "name": "Improved Auras",
+          "summary": "Paladin aura ranges increase to 30 feet."
+        },
+        {
+          "level": 20,
+          "name": "Holy Nimbus",
+          "summary": "Radiant transformation once per long rest.",
+          "resource": {
+            "key": "holyNimbus",
+            "label": "Holy Nimbus",
+            "max": "1",
+            "reset": "long"
+          }
+        }
+      ],
+      "spells": [
+        {
+          "id": "bless",
+          "spellLevel": 1,
+          "name": "Bless",
+          "summary": "Concentration; up to three creatures add 1d4 to attack rolls and saving throws.",
+          "unlockAt": 2,
+          "source": "fixed"
+        },
+        {
+          "id": "heroism",
+          "spellLevel": 1,
+          "name": "Heroism",
+          "summary": "Concentration; a willing creature is immune to frightened and gains temporary hit points each turn.",
+          "unlockAt": 2,
+          "source": "fixed"
+        },
+        {
+          "id": "cure_wounds",
+          "spellLevel": 1,
+          "name": "Cure Wounds",
+          "summary": "Touch a creature to restore 1d8 + spellcasting modifier hit points; higher slots add 1d8.",
+          "unlockAt": 2,
+          "source": "fixed"
+        },
+        {
+          "id": "protection_from_evil_good",
+          "spellLevel": 1,
+          "name": "Protection from Evil and Good",
+          "summary": "Concentration; protect a creature from aberrations, celestials, elementals, fey, fiends, and undead, limiting attacks and certain conditions.",
+          "unlockAt": 3,
+          "source": "oath"
+        },
+        {
+          "id": "sanctuary",
+          "spellLevel": 1,
+          "name": "Sanctuary",
+          "summary": "Bonus action; a creature attacking the warded target must pass a Wisdom save or choose a new target. The ward ends if the target attacks or casts a harmful spell.",
+          "unlockAt": 3,
+          "source": "oath"
+        },
+        {
+          "id": "aid",
+          "spellLevel": 2,
+          "name": "Aid",
+          "summary": "Increase the current and maximum hit points of up to three creatures for 8 hours.",
+          "unlockAt": 5,
+          "source": "fixed"
+        },
+        {
+          "id": "lesser_restoration",
+          "spellLevel": 2,
+          "name": "Lesser Restoration",
+          "summary": "End one disease or one blinded, deafened, paralyzed, or poisoned condition on a creature.",
+          "unlockAt": 5,
+          "source": "oath"
+        },
+        {
+          "id": "zone_of_truth",
+          "spellLevel": 2,
+          "name": "Zone of Truth",
+          "summary": "Charisma save in a 15-foot-radius sphere; affected creatures cannot knowingly speak a lie.",
+          "unlockAt": 5,
+          "source": "oath"
+        },
+        {
+          "id": "beacon_of_hope",
+          "spellLevel": 3,
+          "name": "Beacon of Hope",
+          "summary": "Concentration; chosen creatures have advantage on Wisdom and death saves and receive maximum healing from all healing.",
+          "unlockAt": 9,
+          "source": "oath"
+        },
+        {
+          "id": "dispel_magic",
+          "spellLevel": 3,
+          "name": "Dispel Magic",
+          "summary": "End spells of 3rd level or lower automatically; higher-level spells require an ability check.",
+          "unlockAt": 9,
+          "source": "oath"
+        },
+        {
+          "id": "revivify",
+          "spellLevel": 3,
+          "name": "Revivify",
+          "summary": "Return a creature that died within the last minute to life with 1 hit point; cannot restore missing body parts.",
+          "unlockAt": 9,
+          "source": "fixed"
+        },
+        {
+          "id": "death_ward",
+          "spellLevel": 4,
+          "name": "Death Ward",
+          "summary": "The first time a creature would drop to 0 hit points, it drops to 1 instead; also negates one instant-death effect.",
+          "unlockAt": 13,
+          "source": "fixed"
+        },
+        {
+          "id": "freedom_of_movement",
+          "spellLevel": 4,
+          "name": "Freedom of Movement",
+          "summary": "A creature ignores difficult terrain and magical speed reduction, and can escape restraints more easily for 1 hour.",
+          "unlockAt": 13,
+          "source": "oath"
+        },
+        {
+          "id": "guardian_of_faith",
+          "spellLevel": 4,
+          "name": "Guardian of Faith",
+          "summary": "Create a stationary guardian that deals radiant damage to hostile creatures entering its space.",
+          "unlockAt": 13,
+          "source": "oath"
+        },
+        {
+          "id": "commune",
+          "spellLevel": 5,
+          "name": "Commune",
+          "summary": "Ritual; ask a divine power up to three yes-or-no questions.",
+          "unlockAt": 17,
+          "source": "oath"
+        },
+        {
+          "id": "flame_strike",
+          "spellLevel": 5,
+          "name": "Flame Strike",
+          "summary": "Dexterity save in a cylinder; fire and radiant damage, half on success.",
+          "unlockAt": 17,
+          "source": "oath"
+        },
+        {
+          "id": "raise_dead",
+          "spellLevel": 5,
+          "name": "Raise Dead",
+          "summary": "Return a creature dead no more than 10 days to life, with recovery penalties and no restoration of missing body parts.",
+          "unlockAt": 17,
+          "source": "fixed"
+        }
+      ],
+      "equipment": [
+        "Plate armor",
+        "Shield",
+        "Longsword",
+        "Light crossbow and 20 bolts",
+        "Holy symbol",
+        "Explorer’s pack"
+      ],
+      "progressionNote": "Korbin remains a fixed Lightfoot Halfling Oath of Devotion paladin. His former card effects are represented by legal paladin mechanics: Bless and Heroism for courage, Divine Smite for radiant bursts, Lay on Hands for healing, and a locked defensive ability-score path.",
+      "portrait": "assets/images/characters/korbin.webp",
+      "sourceSheet": "Korbin_Silverdew.html",
+      "token": "assets/images/characters/tokens/korbin.webp",
+      "gallery": [
+        "assets/images/characters/gallery/korbin/korbin-01.webp",
+        "assets/images/characters/gallery/korbin/korbin-02.webp",
+        "assets/images/characters/gallery/korbin/korbin-03.webp",
+        "assets/images/characters/gallery/korbin/korbin-04.webp",
+        "assets/images/characters/gallery/korbin/korbin-05.webp",
+        "assets/images/characters/gallery/korbin/korbin-06.webp",
+        "assets/images/characters/gallery/korbin/korbin-07.webp"
+      ],
+      "rulesLicense": "SRD 5.1 Open Game Content under OGL 1.0a; Killer In The Keep names, story, and supplied art remain Product Identity/original project material.",
+      "conversionNote": "Lightfoot Halfling and Oath of Devotion Paladin SRD mechanics used.",
+      "backendClassId": "class_6",
+      "backendClassName": "Bard",
+      "backendRole": "Damage",
+      "backendAbilities": [
+        "Bard Ability A",
+        "Bard Ability B",
+        "Bard Ability C"
+      ]
+    },
+    {
+      "id": "monk",
+      "name": "Monk",
+      "shortName": "Monk",
+      "gender": "Genderless",
+      "pronouns": "it/its",
+      "appearanceRace": "Warforged",
+      "rulesRace": "Human rules package",
+      "size": "Medium",
+      "className": "Monk",
+      "subclass": "Way of the Open Hand",
+      "concept": "Construct-like mobile martial controller",
+      "background": "Soldier",
+      "alignment": "True Neutral",
+      "baseAbilities": {
+        "Strength": 12,
+        "Dexterity": 16,
+        "Constitution": 15,
+        "Intelligence": 12,
+        "Wisdom": 16,
+        "Charisma": 11
+      },
+      "asi": [
+        {
+          "level": 4,
+          "label": "+2 Dexterity",
+          "changes": {
+            "Dexterity": 2
+          }
+        },
+        {
+          "level": 8,
+          "label": "+2 Dexterity",
+          "changes": {
+            "Dexterity": 2
+          }
+        },
+        {
+          "level": 12,
+          "label": "+2 Wisdom",
+          "changes": {
+            "Wisdom": 2
+          }
+        },
+        {
+          "level": 16,
+          "label": "+2 Wisdom",
+          "changes": {
+            "Wisdom": 2
+          }
+        },
+        {
+          "level": 19,
+          "label": "+2 Constitution",
+          "changes": {
+            "Constitution": 2
+          }
+        }
+      ],
+      "hitDie": 8,
+      "hpBonusPerLevel": 0,
+      "saveProficiencies": [
+        "Strength",
+        "Dexterity"
+      ],
+      "skillProficiencies": [
+        "Acrobatics",
+        "Athletics",
+        "Insight",
+        "Perception"
+      ],
+      "speed": 30,
+      "ac": "monk",
+      "armor": "Unarmored Defense",
+      "weaponAbility": "Dexterity",
+      "spellAbility": "Wisdom",
+      "caster": "none",
+      "attacks": [
+        {
+          "name": "Unarmed Strike",
+          "mode": "weapon",
+          "ability": "Dexterity",
+          "damage": "Martial Arts die + Dexterity",
+          "range": "5 ft.",
+          "notes": "Can use Dexterity; bonus-action strike after attacking."
+        },
+        {
+          "name": "Shortsword",
+          "mode": "weapon",
+          "ability": "Dexterity",
+          "damage": "1d6 piercing",
+          "range": "5 ft.",
+          "notes": "Finesse monk weapon."
+        }
+      ],
+      "racialTraits": [
+        "Ability Score Increase",
+        "Extra Language"
+      ],
+      "features": [
+        {
+          "level": 1,
+          "name": "Martial Arts",
+          "summary": "Use Dexterity for monk weapons/unarmed strikes, use Martial Arts damage die, and make a bonus-action unarmed strike."
+        },
+        {
+          "level": 1,
+          "name": "Unarmored Defense",
+          "summary": "AC equals 10 + Dexterity modifier + Wisdom modifier while unarmored and not using a shield."
+        },
+        {
+          "level": 2,
+          "name": "Ki",
+          "summary": "Ki points equal monk level and return on a short or long rest.",
+          "resource": {
+            "key": "ki",
+            "label": "Ki Points",
+            "max": "level",
+            "reset": "short"
+          }
+        },
+        {
+          "level": 2,
+          "name": "Unarmored Movement",
+          "summary": "Speed increases while unarmored; increase scales with monk level."
+        },
+        {
+          "level": 3,
+          "name": "Deflect Missiles",
+          "summary": "Reaction to reduce damage from a ranged weapon attack and possibly throw the missile back."
+        },
+        {
+          "level": 3,
+          "name": "Open Hand Technique",
+          "summary": "Flurry of Blows can knock prone, push, or remove reactions after a hit."
+        },
+        {
+          "level": 4,
+          "name": "Slow Fall",
+          "summary": "Reaction to reduce falling damage by five times monk level."
+        },
+        {
+          "level": 5,
+          "name": "Extra Attack and Stunning Strike",
+          "summary": "Attack twice and spend 1 Ki after a melee hit to force a Constitution save or stun."
+        },
+        {
+          "level": 6,
+          "name": "Ki-Empowered Strikes",
+          "summary": "Unarmed strikes count as magical for overcoming resistance and immunity."
+        },
+        {
+          "level": 6,
+          "name": "Wholeness of Body",
+          "summary": "Action to regain three times monk level hit points once per long rest.",
+          "resource": {
+            "key": "wholeness",
+            "label": "Wholeness of Body",
+            "max": "1",
+            "reset": "long"
+          }
+        },
+        {
+          "level": 7,
+          "name": "Evasion and Stillness of Mind",
+          "summary": "Improve Dexterity-save damage avoidance and end frightened or charmed on yourself."
+        },
+        {
+          "level": 10,
+          "name": "Purity of Body",
+          "summary": "Immune to disease and poison."
+        },
+        {
+          "level": 11,
+          "name": "Tranquility",
+          "summary": "Gain sanctuary-like protection after a long rest until you attack or cast."
+        },
+        {
+          "level": 13,
+          "name": "Tongue of the Sun and Moon",
+          "summary": "Understand all spoken languages and be understood by any creature that knows a language."
+        },
+        {
+          "level": 14,
+          "name": "Diamond Soul",
+          "summary": "Proficiency in all saving throws; spend Ki to reroll a failed save."
+        },
+        {
+          "level": 15,
+          "name": "Timeless Body",
+          "summary": "No frailty from old age and no need for food or water."
+        },
+        {
+          "level": 17,
+          "name": "Quivering Palm",
+          "summary": "Plant lethal vibrations and later trigger them with an action and Ki."
+        },
+        {
+          "level": 18,
+          "name": "Empty Body",
+          "summary": "Spend Ki to become invisible and resistant to most damage; can also project astrally."
+        },
+        {
+          "level": 20,
+          "name": "Perfect Self",
+          "summary": "Regain 4 Ki when initiative begins and none remain."
+        }
+      ],
+      "spells": [],
+      "equipment": [
+        "Shortsword",
+        "10 darts",
+        "Explorer’s pack",
+        "Artisan’s tools"
+      ],
+      "progressionNote": "Monk’s Warforged appearance remains locked as character identity and art. To avoid non-SRD ancestry mechanics, the sheet uses Human rules and the SRD Way of the Open Hand. Every former homebrew “chi” power is replaced by Ki, Open Hand Technique, Stunning Strike, Evasion, Diamond Soul, and Quivering Palm.",
+      "portrait": "assets/images/characters/monk.webp",
+      "sourceSheet": "Monk.html",
+      "token": "assets/images/characters/tokens/monk.webp",
+      "gallery": [
+        "assets/images/characters/gallery/monk/monk-01.webp",
+        "assets/images/characters/gallery/monk/monk-02.webp",
+        "assets/images/characters/gallery/monk/monk-03.webp",
+        "assets/images/characters/gallery/monk/monk-04.webp",
+        "assets/images/characters/gallery/monk/monk-05.webp",
+        "assets/images/characters/gallery/monk/monk-06.webp",
+        "assets/images/characters/gallery/monk/monk-07.webp",
+        "assets/images/characters/gallery/monk/monk-08.webp",
+        "assets/images/characters/gallery/monk/monk-09.webp",
+        "assets/images/characters/gallery/monk/monk-10.webp",
+        "assets/images/characters/gallery/monk/monk-11.webp"
+      ],
+      "rulesLicense": "SRD 5.1 Open Game Content under OGL 1.0a; Killer In The Keep names, story, and supplied art remain Product Identity/original project material.",
+      "conversionNote": "Warforged appearance retained; Human rules package and Way of the Open Hand Monk SRD mechanics used.",
+      "backendClassId": "class_7",
+      "backendClassName": "Alchemist",
+      "backendRole": "Support",
+      "backendAbilities": [
+        "Alchemist Ability A",
+        "Alchemist Ability B",
+        "Alchemist Ability C"
+      ]
+    },
+    {
+      "id": "noldrack",
+      "name": "Noldrack Goldblade",
+      "shortName": "Noldrack",
+      "gender": "Cis-Male",
+      "pronouns": "he/him",
+      "appearanceRace": "Dwarf",
+      "rulesRace": "Hill Dwarf",
+      "size": "Medium",
+      "className": "Druid",
+      "subclass": "Circle of the Land — Mountain",
+      "concept": "Stone-and-storm guardian of the wild",
+      "background": "Hermit",
+      "alignment": "Neutral Good",
+      "baseAbilities": {
+        "Strength": 14,
+        "Dexterity": 12,
+        "Constitution": 16,
+        "Intelligence": 14,
+        "Wisdom": 17,
+        "Charisma": 12
+      },
+      "asi": [
+        {
+          "level": 4,
+          "label": "+1 Wisdom, +1 Dexterity",
+          "changes": {
+            "Wisdom": 1,
+            "Dexterity": 1
+          }
+        },
+        {
+          "level": 8,
+          "label": "+2 Wisdom",
+          "changes": {
+            "Wisdom": 2
+          }
+        },
+        {
+          "level": 12,
+          "label": "+2 Constitution",
+          "changes": {
+            "Constitution": 2
+          }
+        },
+        {
+          "level": 16,
+          "label": "+2 Dexterity",
+          "changes": {
+            "Dexterity": 2
+          }
+        },
+        {
+          "level": 19,
+          "label": "+2 Intelligence",
+          "changes": {
+            "Intelligence": 2
+          }
+        }
+      ],
+      "hitDie": 8,
+      "hpBonusPerLevel": 1,
+      "saveProficiencies": [
+        "Intelligence",
+        "Wisdom"
+      ],
+      "skillProficiencies": [
+        "Animal Handling",
+        "Insight",
+        "Medicine",
+        "Nature",
+        "Perception"
+      ],
+      "speed": 25,
+      "ac": 15,
+      "armor": "Hide armor and wooden shield",
+      "weaponAbility": "Strength",
+      "spellAbility": "Wisdom",
+      "caster": "full",
+      "attacks": [
+        {
+          "name": "Mace",
+          "mode": "weapon",
+          "ability": "Strength",
+          "damage": "1d6 bludgeoning",
+          "range": "5 ft.",
+          "notes": "One-handed."
+        },
+        {
+          "name": "Produce Flame",
+          "mode": "spell",
+          "damage": "tier-scaled fire",
+          "range": "30 ft.",
+          "notes": "Ranged spell attack; also provides light."
+        }
+      ],
+      "racialTraits": [
+        "Darkvision",
+        "Dwarven Resilience",
+        "Dwarven Combat Training",
+        "Stonecunning",
+        "Dwarven Toughness"
+      ],
+      "features": [
+        {
+          "level": 1,
+          "name": "Druidic and Spellcasting",
+          "summary": "Use Wisdom for druid spells and speak the secret language of druids."
+        },
+        {
+          "level": 2,
+          "name": "Wild Shape",
+          "summary": "Transform into beasts twice per short or long rest; movement forms improve at levels 4 and 8.",
+          "resource": {
+            "key": "wildShape",
+            "label": "Wild Shape",
+            "max": "level>=20?999:2",
+            "reset": "short"
+          }
+        },
+        {
+          "level": 2,
+          "name": "Natural Recovery",
+          "summary": "Once per long rest, recover spell slots during a short rest with total levels up to half druid level.",
+          "resource": {
+            "key": "naturalRecovery",
+            "label": "Natural Recovery",
+            "max": "1",
+            "reset": "long"
+          }
+        },
+        {
+          "level": 3,
+          "name": "Mountain Circle Spells",
+          "summary": "Fixed circle spells are always prepared at the appropriate levels."
+        },
+        {
+          "level": 6,
+          "name": "Land’s Stride",
+          "summary": "Move through nonmagical difficult terrain and plants without penalty and resist magical plants."
+        },
+        {
+          "level": 10,
+          "name": "Nature’s Ward",
+          "summary": "Cannot be charmed or frightened by elementals or fey; immune to poison and disease."
+        },
+        {
+          "level": 14,
+          "name": "Nature’s Sanctuary",
+          "summary": "Beasts and plants must save before attacking you."
+        },
+        {
+          "level": 18,
+          "name": "Timeless Body and Beast Spells",
+          "summary": "Age slowly and cast many spells while using Wild Shape."
+        },
+        {
+          "level": 20,
+          "name": "Archdruid",
+          "summary": "Use Wild Shape without a normal use limit and ignore many spell components."
+        }
+      ],
+      "spells": [
+        {
+          "id": "guidance",
+          "spellLevel": 0,
+          "name": "Guidance",
+          "summary": "Concentration; a willing creature adds 1d4 to one ability check before the spell ends.",
+          "unlockAt": 1,
+          "source": "fixed"
+        },
+        {
+          "id": "produce_flame",
+          "spellLevel": 0,
+          "name": "Produce Flame",
+          "summary": "Create light in your hand or make a ranged spell attack for fire damage. Damage scales by tier.",
+          "unlockAt": 1,
+          "source": "fixed"
+        },
+        {
+          "id": "poison_spray",
+          "spellLevel": 0,
+          "name": "Poison Spray",
+          "summary": "Constitution save at close range; poison damage that scales by tier.",
+          "unlockAt": 1,
+          "source": "fixed"
+        },
+        {
+          "id": "thorn_whip",
+          "spellLevel": 0,
+          "name": "Thorn Whip",
+          "summary": "Melee spell attack at 30 feet; piercing damage and pull a Large or smaller creature up to 10 feet.",
+          "unlockAt": 4,
+          "source": "fixed"
+        },
+        {
+          "id": "entangle",
+          "spellLevel": 1,
+          "name": "Entangle",
+          "summary": "Concentration; plants restrain creatures that fail a Strength save in a 20-foot square.",
+          "unlockAt": 1,
+          "source": "fixed"
+        },
+        {
+          "id": "cure_wounds",
+          "spellLevel": 1,
+          "name": "Cure Wounds",
+          "summary": "Touch a creature to restore 1d8 + spellcasting modifier hit points; higher slots add 1d8.",
+          "unlockAt": 1,
+          "source": "fixed"
+        },
+        {
+          "id": "faerie_fire",
+          "spellLevel": 1,
+          "name": "Faerie Fire",
+          "summary": "Concentration; Dexterity save in a cube. Affected targets glow and attacks against them have advantage.",
+          "unlockAt": 1,
+          "source": "fixed"
+        },
+        {
+          "id": "thunderwave",
+          "spellLevel": 1,
+          "name": "Thunderwave",
+          "summary": "Constitution save in a 15-foot cube; thunder damage and push 10 feet on a failed save.",
+          "unlockAt": 1,
+          "source": "fixed"
+        },
+        {
+          "id": "flaming_sphere",
+          "spellLevel": 2,
+          "name": "Flaming Sphere",
+          "summary": "Concentration; create a movable sphere that burns nearby creatures and can ram a target as a bonus action.",
+          "unlockAt": 3,
+          "source": "fixed"
+        },
+        {
+          "id": "moonbeam",
+          "spellLevel": 2,
+          "name": "Moonbeam",
+          "summary": "Concentration; radiant damage in a movable cylinder when a creature enters or starts its turn there.",
+          "unlockAt": 3,
+          "source": "fixed"
+        },
+        {
+          "id": "pass_without_trace",
+          "spellLevel": 2,
+          "name": "Pass without Trace",
+          "summary": "Concentration; chosen creatures gain +10 Dexterity (Stealth) and leave no tracks.",
+          "unlockAt": 3,
+          "source": "fixed"
+        },
+        {
+          "id": "spider_climb",
+          "spellLevel": 2,
+          "name": "Spider Climb",
+          "summary": "Concentration; a willing creature can move across walls and ceilings while keeping its hands free.",
+          "unlockAt": 3,
+          "source": "circle"
+        },
+        {
+          "id": "spike_growth",
+          "spellLevel": 2,
+          "name": "Spike Growth",
+          "summary": "Concentration; camouflaged spikes make an area difficult terrain and damage creatures moving through it.",
+          "unlockAt": 3,
+          "source": "circle"
+        },
+        {
+          "id": "call_lightning",
+          "spellLevel": 3,
+          "name": "Call Lightning",
+          "summary": "Concentration; call bolts into a storm cloud, dealing lightning damage in a small area.",
+          "unlockAt": 5,
+          "source": "fixed"
+        },
+        {
+          "id": "dispel_magic",
+          "spellLevel": 3,
+          "name": "Dispel Magic",
+          "summary": "End spells of 3rd level or lower automatically; higher-level spells require an ability check.",
+          "unlockAt": 5,
+          "source": "fixed"
+        },
+        {
+          "id": "sleet_storm",
+          "spellLevel": 3,
+          "name": "Sleet Storm",
+          "summary": "Concentration; heavily obscure an area, extinguish flames, create difficult terrain, and disrupt concentration.",
+          "unlockAt": 5,
+          "source": "fixed"
+        },
+        {
+          "id": "lightning_bolt",
+          "spellLevel": 3,
+          "name": "Lightning Bolt",
+          "summary": "Dexterity save in a 100-foot line; lightning damage, half on a successful save.",
+          "unlockAt": 5,
+          "source": "circle"
+        },
+        {
+          "id": "meld_into_stone",
+          "spellLevel": 3,
+          "name": "Meld into Stone",
+          "summary": "Step into a stone surface or object for up to 8 hours, perceiving time while hidden within it.",
+          "unlockAt": 5,
+          "source": "circle"
+        },
+        {
+          "id": "blight",
+          "spellLevel": 4,
+          "name": "Blight",
+          "summary": "Constitution save; heavy necrotic damage, with special effects against plants and no effect on undead or constructs.",
+          "unlockAt": 7,
+          "source": "fixed"
+        },
+        {
+          "id": "ice_storm",
+          "spellLevel": 4,
+          "name": "Ice Storm",
+          "summary": "Dexterity save in a cylinder; bludgeoning plus cold damage and difficult terrain for one round.",
+          "unlockAt": 7,
+          "source": "fixed"
+        },
+        {
+          "id": "freedom_of_movement",
+          "spellLevel": 4,
+          "name": "Freedom of Movement",
+          "summary": "A creature ignores difficult terrain and magical speed reduction, and can escape restraints more easily for 1 hour.",
+          "unlockAt": 7,
+          "source": "fixed"
+        },
+        {
+          "id": "stone_shape",
+          "spellLevel": 4,
+          "name": "Stone Shape",
+          "summary": "Touch stone and form it into a chosen shape, including a simple opening or sealed passage.",
+          "unlockAt": 7,
+          "source": "circle"
+        },
+        {
+          "id": "stoneskin",
+          "spellLevel": 4,
+          "name": "Stoneskin",
+          "summary": "Concentration; grant resistance to nonmagical bludgeoning, piercing, and slashing damage.",
+          "unlockAt": 7,
+          "source": "circle"
+        },
+        {
+          "id": "passwall",
+          "spellLevel": 5,
+          "name": "Passwall",
+          "summary": "Create a temporary passage through wood, plaster, or stone.",
+          "unlockAt": 9,
+          "source": "circle"
+        },
+        {
+          "id": "wall_of_stone",
+          "spellLevel": 5,
+          "name": "Wall of Stone",
+          "summary": "Concentration; create stone panels that can become permanent if concentration lasts for the full duration.",
+          "unlockAt": 9,
+          "source": "circle"
+        },
+        {
+          "id": "greater_restoration",
+          "spellLevel": 5,
+          "name": "Greater Restoration",
+          "summary": "End one major debilitating effect such as a curse, petrification, or ability-score/maximum-hit-point reduction.",
+          "unlockAt": 9,
+          "source": "fixed"
+        },
+        {
+          "id": "mass_cure_wounds",
+          "spellLevel": 5,
+          "name": "Mass Cure Wounds",
+          "summary": "Restore hit points to up to six creatures in a 30-foot-radius sphere.",
+          "unlockAt": 9,
+          "source": "fixed"
+        },
+        {
+          "id": "heal",
+          "spellLevel": 6,
+          "name": "Heal",
+          "summary": "Restore 70 hit points and end blindness, deafness, and disease; higher slots restore more.",
+          "unlockAt": 11,
+          "source": "fixed"
+        },
+        {
+          "id": "wall_of_thorns",
+          "spellLevel": 6,
+          "name": "Wall of Thorns",
+          "summary": "Concentration; create a damaging wall that heavily obscures and costs extra movement.",
+          "unlockAt": 11,
+          "source": "fixed"
+        },
+        {
+          "id": "fire_storm",
+          "spellLevel": 7,
+          "name": "Fire Storm",
+          "summary": "Dexterity save in arranged cubes; fire damage, half on success, with selective vegetation ignition.",
+          "unlockAt": 13,
+          "source": "fixed"
+        },
+        {
+          "id": "regenerate",
+          "spellLevel": 7,
+          "name": "Regenerate",
+          "summary": "A creature regains hit points immediately and each turn; severed body parts can regrow.",
+          "unlockAt": 13,
+          "source": "fixed"
+        },
+        {
+          "id": "control_weather",
+          "spellLevel": 8,
+          "name": "Control Weather",
+          "summary": "Concentration; gradually alter precipitation, temperature, and wind in a large outdoor area.",
+          "unlockAt": 15,
+          "source": "fixed"
+        },
+        {
+          "id": "sunburst",
+          "spellLevel": 8,
+          "name": "Sunburst",
+          "summary": "Constitution save in a large radius; radiant damage and blindness, especially effective against undead and oozes.",
+          "unlockAt": 15,
+          "source": "fixed"
+        },
+        {
+          "id": "shapechange",
+          "spellLevel": 9,
+          "name": "Shapechange",
+          "summary": "Concentration; transform yourself into other creatures while retaining key mental and class features.",
+          "unlockAt": 17,
+          "source": "fixed"
+        },
+        {
+          "id": "storm_of_vengeance",
+          "spellLevel": 9,
+          "name": "Storm of Vengeance",
+          "summary": "Concentration; a vast storm produces escalating effects over multiple rounds.",
+          "unlockAt": 17,
+          "source": "fixed"
+        }
+      ],
+      "equipment": [
+        "Hide armor",
+        "Wooden shield",
+        "Mace",
+        "Druidic focus",
+        "Herbalism kit",
+        "Explorer’s pack"
+      ],
+      "progressionNote": "Noldrack already fits the SRD rules cleanly. His fixed Mountain circle and spell order emphasize stone, storms, survival, healing, and elemental control without retaining the legacy spell scaling.",
+      "portrait": "assets/images/characters/noldrack.webp",
+      "sourceSheet": "Noldrack_Goldblade.html",
+      "token": "assets/images/characters/tokens/noldrack.webp",
+      "gallery": [
+        "assets/images/characters/gallery/noldrack/noldrack-01.webp",
+        "assets/images/characters/gallery/noldrack/noldrack-02.webp",
+        "assets/images/characters/gallery/noldrack/noldrack-03.webp",
+        "assets/images/characters/gallery/noldrack/noldrack-04.webp",
+        "assets/images/characters/gallery/noldrack/noldrack-05.webp",
+        "assets/images/characters/gallery/noldrack/noldrack-06.webp",
+        "assets/images/characters/gallery/noldrack/noldrack-07.webp",
+        "assets/images/characters/gallery/noldrack/noldrack-08.webp",
+        "assets/images/characters/gallery/noldrack/noldrack-09.webp"
+      ],
+      "rulesLicense": "SRD 5.1 Open Game Content under OGL 1.0a; Killer In The Keep names, story, and supplied art remain Product Identity/original project material.",
+      "conversionNote": "Hill Dwarf and Circle of the Land (Mountain) Druid SRD mechanics used.",
+      "backendClassId": "class_8",
+      "backendClassName": "Paladin",
+      "backendRole": "Utility",
+      "backendAbilities": [
+        "Paladin Ability A",
+        "Paladin Ability B",
+        "Paladin Ability C"
+      ]
+    }
+  ],
+  "maximumPlayableCharacters": 8,
+  "backendClassContract": "The eight local characters occupy backend class_1 through class_8. Backend classes beyond class_8 are intentionally not exposed because the game has eight character slots."
+}

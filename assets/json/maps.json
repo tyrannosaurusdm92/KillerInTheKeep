@@ -1,0 +1,2388 @@
+{
+  "schemaVersion": "kitk.maps.v1",
+  "coordinateSystem": "normalized 0-100 overview coordinates; engine conversion required",
+  "controlContract": "../../02_controls/controls.json",
+  "playerRange": {
+    "min": 4,
+    "max": 8
+  },
+  "traversalContract": {
+    "allowed": [
+      "ground",
+      "stairs",
+      "ramps",
+      "solidBridges",
+      "normalDoors",
+      "interactableLifts",
+      "jumpInPlaceOrOverLowGroundObstacle",
+      "crouchPassages"
+    ],
+    "disabled": [
+      "flight",
+      "climbing",
+      "swimming",
+      "diving",
+      "submersion",
+      "hovering",
+      "wallCrawling",
+      "gapJumping",
+      "roofTraversal",
+      "abilityUnlockedVerticalMovement"
+    ],
+    "hardBoundaries": [
+      "deepWater",
+      "streamBanks",
+      "cliffs",
+      "chasms",
+      "roofs",
+      "walls",
+      "steepRubble",
+      "denseForest"
+    ]
+  },
+  "routeTypes": {
+    "main": "wide, always available ground route",
+    "alternate": "ordinary secondary ground route",
+    "stairs": "ordinary walkable stair route",
+    "ramps": "ordinary walkable ramp route",
+    "crouch": "ground-level route requiring crouch; never a climb shaft",
+    "locked": "ground route opened through interaction or skill check",
+    "lift": "interactable platform transition; riding does not grant a movement mode",
+    "escape": "ordinary ground route used by a match objective"
+  },
+  "maps": [
+    {
+      "id": "ravenwatch-keep",
+      "name": "Ravenwatch Keep",
+      "recommendedPlayerRange": [
+        4,
+        8
+      ],
+      "conceptArt": "../concept_art/01_embervault_keep.png",
+      "blueprint": "assets/images/maps/embervault-keep-blueprint.svg",
+      "floors": [
+        "B1",
+        "F1",
+        "F2"
+      ],
+      "councilAnchor": "great_hall_bell",
+      "zones": [
+        {
+          "id": "great-hall",
+          "name": "Great Hall",
+          "floor": "F2",
+          "position": [
+            24,
+            3
+          ],
+          "tags": [
+            "backendRoom",
+            "evidence",
+            "lockedDoor",
+            "task"
+          ],
+          "interactableObjects": [
+            "Chest",
+            "Bookshelf",
+            "Torch",
+            "Table",
+            "Statue"
+          ],
+          "possibleClues": [
+            "Bloody Footprint",
+            "Broken Seal",
+            "Torn Fabric",
+            "Arcane Residue",
+            "Poison Vial",
+            "Strange Symbol"
+          ]
+        },
+        {
+          "id": "armory",
+          "name": "Armory",
+          "floor": "F2",
+          "position": [
+            34,
+            22
+          ],
+          "tags": [
+            "backendRoom",
+            "evidence",
+            "npc",
+            "secretRoute"
+          ],
+          "interactableObjects": [
+            "Chest",
+            "Bookshelf",
+            "Torch",
+            "Table",
+            "Statue"
+          ],
+          "possibleClues": [
+            "Bloody Footprint",
+            "Broken Seal",
+            "Torn Fabric",
+            "Arcane Residue",
+            "Poison Vial",
+            "Strange Symbol"
+          ]
+        },
+        {
+          "id": "library",
+          "name": "Library",
+          "floor": "F2",
+          "position": [
+            31,
+            7
+          ],
+          "tags": [
+            "backendRoom",
+            "detectMagic",
+            "evidence",
+            "task",
+            "trap"
+          ],
+          "interactableObjects": [
+            "Chest",
+            "Bookshelf",
+            "Torch",
+            "Table",
+            "Statue"
+          ],
+          "possibleClues": [
+            "Bloody Footprint",
+            "Broken Seal",
+            "Torn Fabric",
+            "Arcane Residue",
+            "Poison Vial",
+            "Strange Symbol"
+          ]
+        },
+        {
+          "id": "alchemy-lab",
+          "name": "Alchemy Lab",
+          "floor": "F1",
+          "position": [
+            8,
+            12
+          ],
+          "tags": [
+            "backendRoom",
+            "combat",
+            "cover",
+            "loot"
+          ],
+          "interactableObjects": [
+            "Chest",
+            "Bookshelf",
+            "Torch",
+            "Table",
+            "Statue"
+          ],
+          "possibleClues": [
+            "Bloody Footprint",
+            "Broken Seal",
+            "Torn Fabric",
+            "Arcane Residue",
+            "Poison Vial",
+            "Strange Symbol"
+          ]
+        },
+        {
+          "id": "crypt",
+          "name": "Crypt",
+          "floor": "F1",
+          "position": [
+            24,
+            13
+          ],
+          "tags": [
+            "backendRoom",
+            "combat",
+            "council",
+            "cover",
+            "report"
+          ],
+          "interactableObjects": [
+            "Chest",
+            "Bookshelf",
+            "Torch",
+            "Table",
+            "Statue"
+          ],
+          "possibleClues": [
+            "Bloody Footprint",
+            "Broken Seal",
+            "Torn Fabric",
+            "Arcane Residue",
+            "Poison Vial",
+            "Strange Symbol"
+          ]
+        },
+        {
+          "id": "barracks",
+          "name": "Barracks",
+          "floor": "F1",
+          "position": [
+            39,
+            11
+          ],
+          "tags": [
+            "backendRoom",
+            "evidence",
+            "npc",
+            "safeRecovery"
+          ],
+          "interactableObjects": [
+            "Chest",
+            "Bookshelf",
+            "Torch",
+            "Table",
+            "Statue"
+          ],
+          "possibleClues": [
+            "Bloody Footprint",
+            "Broken Seal",
+            "Torn Fabric",
+            "Arcane Residue",
+            "Poison Vial",
+            "Strange Symbol"
+          ]
+        },
+        {
+          "id": "kitchen",
+          "name": "Kitchen",
+          "floor": "F1",
+          "position": [
+            14,
+            17
+          ],
+          "tags": [
+            "backendRoom",
+            "crouchRoute",
+            "evidence",
+            "hiding"
+          ],
+          "interactableObjects": [
+            "Chest",
+            "Bookshelf",
+            "Torch",
+            "Table",
+            "Statue"
+          ],
+          "possibleClues": [
+            "Bloody Footprint",
+            "Broken Seal",
+            "Torn Fabric",
+            "Arcane Residue",
+            "Poison Vial",
+            "Strange Symbol"
+          ]
+        },
+        {
+          "id": "throne-room",
+          "name": "Throne Room",
+          "floor": "F1",
+          "position": [
+            34,
+            17
+          ],
+          "tags": [
+            "backendRoom",
+            "cover",
+            "loot",
+            "npc",
+            "trap"
+          ],
+          "interactableObjects": [
+            "Chest",
+            "Bookshelf",
+            "Torch",
+            "Table",
+            "Statue"
+          ],
+          "possibleClues": [
+            "Bloody Footprint",
+            "Broken Seal",
+            "Torn Fabric",
+            "Arcane Residue",
+            "Poison Vial",
+            "Strange Symbol"
+          ]
+        },
+        {
+          "id": "dungeon",
+          "name": "Dungeon",
+          "floor": "F1",
+          "position": [
+            24,
+            20
+          ],
+          "tags": [
+            "backendRoom",
+            "doorControl",
+            "spawn",
+            "task"
+          ],
+          "interactableObjects": [
+            "Chest",
+            "Bookshelf",
+            "Torch",
+            "Table",
+            "Statue"
+          ],
+          "possibleClues": [
+            "Bloody Footprint",
+            "Broken Seal",
+            "Torn Fabric",
+            "Arcane Residue",
+            "Poison Vial",
+            "Strange Symbol"
+          ]
+        },
+        {
+          "id": "chapel",
+          "name": "Chapel",
+          "floor": "F1",
+          "position": [
+            24,
+            25
+          ],
+          "tags": [
+            "backendRoom",
+            "combat",
+            "escape",
+            "spawn"
+          ],
+          "interactableObjects": [
+            "Chest",
+            "Bookshelf",
+            "Torch",
+            "Table",
+            "Statue"
+          ],
+          "possibleClues": [
+            "Bloody Footprint",
+            "Broken Seal",
+            "Torn Fabric",
+            "Arcane Residue",
+            "Poison Vial",
+            "Strange Symbol"
+          ]
+        },
+        {
+          "id": "observatory",
+          "name": "Observatory",
+          "floor": "B1",
+          "position": [
+            14,
+            26
+          ],
+          "tags": [
+            "backendRoom",
+            "combat",
+            "escape",
+            "monsterDen",
+            "trap"
+          ],
+          "interactableObjects": [
+            "Chest",
+            "Bookshelf",
+            "Torch",
+            "Table",
+            "Statue"
+          ],
+          "possibleClues": [
+            "Bloody Footprint",
+            "Broken Seal",
+            "Torn Fabric",
+            "Arcane Residue",
+            "Poison Vial",
+            "Strange Symbol"
+          ]
+        },
+        {
+          "id": "treasury",
+          "name": "Treasury",
+          "floor": "B1",
+          "position": [
+            33,
+            26
+          ],
+          "tags": [
+            "backendRoom",
+            "detectMagic",
+            "escape",
+            "evidence",
+            "monsterDen",
+            "secretRoute"
+          ],
+          "interactableObjects": [
+            "Chest",
+            "Bookshelf",
+            "Torch",
+            "Table",
+            "Statue"
+          ],
+          "possibleClues": [
+            "Bloody Footprint",
+            "Broken Seal",
+            "Torn Fabric",
+            "Arcane Residue",
+            "Poison Vial",
+            "Strange Symbol"
+          ]
+        },
+        {
+          "id": "garden",
+          "name": "Garden",
+          "floor": "B1",
+          "position": [
+            4,
+            28
+          ],
+          "tags": [
+            "backendRoom",
+            "evidence",
+            "npc",
+            "task"
+          ],
+          "interactableObjects": [
+            "Chest",
+            "Bookshelf",
+            "Torch",
+            "Table",
+            "Statue"
+          ],
+          "possibleClues": [
+            "Bloody Footprint",
+            "Broken Seal",
+            "Torn Fabric",
+            "Arcane Residue",
+            "Poison Vial",
+            "Strange Symbol"
+          ]
+        },
+        {
+          "id": "hidden-passage",
+          "name": "Hidden Passage",
+          "floor": "F1",
+          "position": [
+            17,
+            28
+          ],
+          "tags": [
+            "backendRoom",
+            "evidence",
+            "npc",
+            "task"
+          ],
+          "interactableObjects": [
+            "Chest",
+            "Bookshelf",
+            "Torch",
+            "Table",
+            "Statue"
+          ],
+          "possibleClues": [
+            "Bloody Footprint",
+            "Broken Seal",
+            "Torn Fabric",
+            "Arcane Residue",
+            "Poison Vial",
+            "Strange Symbol"
+          ]
+        },
+        {
+          "id": "watchtower",
+          "name": "Watchtower",
+          "floor": "F2",
+          "position": [
+            30,
+            28
+          ],
+          "tags": [
+            "backendRoom",
+            "evidence",
+            "npc",
+            "task"
+          ],
+          "interactableObjects": [
+            "Chest",
+            "Bookshelf",
+            "Torch",
+            "Table",
+            "Statue"
+          ],
+          "possibleClues": [
+            "Bloody Footprint",
+            "Broken Seal",
+            "Torn Fabric",
+            "Arcane Residue",
+            "Poison Vial",
+            "Strange Symbol"
+          ]
+        }
+      ],
+      "routes": [
+        {
+          "from": "courtyard",
+          "to": "foyer",
+          "type": "main"
+        },
+        {
+          "from": "courtyard",
+          "to": "dungeon",
+          "type": "stairs"
+        },
+        {
+          "from": "foyer",
+          "to": "great_hall",
+          "type": "main"
+        },
+        {
+          "from": "great_hall",
+          "to": "armory",
+          "type": "main"
+        },
+        {
+          "from": "great_hall",
+          "to": "chapel",
+          "type": "main"
+        },
+        {
+          "from": "armory",
+          "to": "servants",
+          "type": "alternate"
+        },
+        {
+          "from": "servants",
+          "to": "foyer",
+          "type": "alternate"
+        },
+        {
+          "from": "foyer",
+          "to": "kitchens",
+          "type": "alternate"
+        },
+        {
+          "from": "kitchens",
+          "to": "chapel",
+          "type": "alternate"
+        },
+        {
+          "from": "servants",
+          "to": "kitchens",
+          "type": "crouch"
+        },
+        {
+          "from": "great_hall",
+          "to": "library",
+          "type": "stairs"
+        },
+        {
+          "from": "great_hall",
+          "to": "alchemy",
+          "type": "stairs"
+        },
+        {
+          "from": "library",
+          "to": "watch_chamber",
+          "type": "alternate"
+        },
+        {
+          "from": "alchemy",
+          "to": "watch_chamber",
+          "type": "alternate"
+        },
+        {
+          "from": "foyer",
+          "to": "dungeon",
+          "type": "stairs"
+        },
+        {
+          "from": "foyer",
+          "to": "crypt",
+          "type": "lift"
+        },
+        {
+          "from": "dungeon",
+          "to": "crypt",
+          "type": "alternate"
+        },
+        {
+          "from": "crypt",
+          "to": "library",
+          "type": "locked"
+        }
+      ],
+      "interactionAnchors": [
+        {
+          "id": "great_hall_bell",
+          "zone": "great_hall",
+          "action": "interact",
+          "purpose": "emergencyCouncil"
+        },
+        {
+          "id": "freight_lift",
+          "zone": "foyer",
+          "action": "interact",
+          "purpose": "groundAccessibleFloorTransition"
+        },
+        {
+          "id": "south_gate",
+          "zone": "courtyard",
+          "action": "interact",
+          "purpose": "escape"
+        },
+        {
+          "id": "sewer_grate",
+          "zone": "dungeon",
+          "action": "interact",
+          "purpose": "escape"
+        },
+        {
+          "id": "arcane_gate",
+          "zone": "crypt",
+          "action": "interact",
+          "purpose": "escape"
+        }
+      ],
+      "boundaries": [
+        "exteriorCliffs",
+        "deepExteriorWater",
+        "roofs",
+        "outerWalls",
+        "collapsedMasonry"
+      ],
+      "art": "assets/images/maps/embervault-keep.png",
+      "grid": {
+        "cellSizeFeet": 5,
+        "columns": 48,
+        "rows": 32,
+        "sourcePixelWidth": 1536,
+        "sourcePixelHeight": 1024,
+        "pixelsPerCell": 32,
+        "snapToCellCenters": true
+      },
+      "movementMode": "ground-only",
+      "playerTokenVisibility": "all authorized players on the same map/floor",
+      "spawnCells": [
+        [
+          24,
+          26
+        ],
+        [
+          22,
+          26
+        ],
+        [
+          26,
+          26
+        ],
+        [
+          20,
+          25
+        ],
+        [
+          28,
+          25
+        ],
+        [
+          18,
+          24
+        ],
+        [
+          30,
+          24
+        ],
+        [
+          16,
+          23
+        ]
+      ],
+      "walkableBounds": {
+        "minX": 1,
+        "maxX": 46,
+        "minY": 1,
+        "maxY": 30
+      },
+      "collisionMaskVersion": "prototype-v1-art-aligned-bounds",
+      "sourceArtworkName": "Embervault Keep",
+      "backendMapId": "ravenwatch-keep",
+      "backendSecretRooms": [
+        "Catacombs",
+        "Royal Vault",
+        "Forgotten Shrine"
+      ],
+      "backendEscapeRoutes": [
+        "Rooftop",
+        "Sewer Tunnel",
+        "Teleport Circle"
+      ],
+      "onlineEnabled": true
+    },
+    {
+      "id": "mooncrypt-fortress",
+      "name": "Mooncrypt Fortress",
+      "recommendedPlayerRange": [
+        4,
+        8
+      ],
+      "conceptArt": "../concept_art/03_mooncrypt_warrens.png",
+      "blueprint": "assets/images/maps/mooncrypt-warrens-blueprint.svg",
+      "floors": [
+        "Cavern",
+        "Lift Platform"
+      ],
+      "councilAnchor": "council_gong",
+      "zones": [
+        {
+          "id": "great-hall",
+          "name": "Great Hall",
+          "floor": "Cavern",
+          "position": [
+            20,
+            18
+          ],
+          "tags": [
+            "backendRoom",
+            "evidence",
+            "lockedDoor",
+            "npc"
+          ],
+          "interactableObjects": [
+            "Chest",
+            "Bookshelf",
+            "Torch",
+            "Table",
+            "Statue"
+          ],
+          "possibleClues": [
+            "Bloody Footprint",
+            "Broken Seal",
+            "Torn Fabric",
+            "Arcane Residue",
+            "Poison Vial",
+            "Strange Symbol"
+          ]
+        },
+        {
+          "id": "armory",
+          "name": "Armory",
+          "floor": "Cavern",
+          "position": [
+            46,
+            13
+          ],
+          "tags": [
+            "backendRoom",
+            "evidence",
+            "monsterDen",
+            "trap"
+          ],
+          "interactableObjects": [
+            "Chest",
+            "Bookshelf",
+            "Torch",
+            "Table",
+            "Statue"
+          ],
+          "possibleClues": [
+            "Bloody Footprint",
+            "Broken Seal",
+            "Torn Fabric",
+            "Arcane Residue",
+            "Poison Vial",
+            "Strange Symbol"
+          ]
+        },
+        {
+          "id": "library",
+          "name": "Library",
+          "floor": "Cavern",
+          "position": [
+            39,
+            6
+          ],
+          "tags": [
+            "backendRoom",
+            "loot",
+            "npc",
+            "vendor"
+          ],
+          "interactableObjects": [
+            "Chest",
+            "Bookshelf",
+            "Torch",
+            "Table",
+            "Statue"
+          ],
+          "possibleClues": [
+            "Bloody Footprint",
+            "Broken Seal",
+            "Torn Fabric",
+            "Arcane Residue",
+            "Poison Vial",
+            "Strange Symbol"
+          ]
+        },
+        {
+          "id": "alchemy-lab",
+          "name": "Alchemy Lab",
+          "floor": "Cavern",
+          "position": [
+            8,
+            14
+          ],
+          "tags": [
+            "backendRoom",
+            "detectMagic",
+            "evidence",
+            "monsterDen"
+          ],
+          "interactableObjects": [
+            "Chest",
+            "Bookshelf",
+            "Torch",
+            "Table",
+            "Statue"
+          ],
+          "possibleClues": [
+            "Bloody Footprint",
+            "Broken Seal",
+            "Torn Fabric",
+            "Arcane Residue",
+            "Poison Vial",
+            "Strange Symbol"
+          ]
+        },
+        {
+          "id": "crypt",
+          "name": "Crypt",
+          "floor": "Cavern",
+          "position": [
+            24,
+            15
+          ],
+          "tags": [
+            "backendRoom",
+            "combat",
+            "council",
+            "report"
+          ],
+          "interactableObjects": [
+            "Chest",
+            "Bookshelf",
+            "Torch",
+            "Table",
+            "Statue"
+          ],
+          "possibleClues": [
+            "Bloody Footprint",
+            "Broken Seal",
+            "Torn Fabric",
+            "Arcane Residue",
+            "Poison Vial",
+            "Strange Symbol"
+          ]
+        },
+        {
+          "id": "barracks",
+          "name": "Barracks",
+          "floor": "Cavern",
+          "position": [
+            39,
+            14
+          ],
+          "tags": [
+            "backendRoom",
+            "evidence",
+            "task",
+            "trap"
+          ],
+          "interactableObjects": [
+            "Chest",
+            "Bookshelf",
+            "Torch",
+            "Table",
+            "Statue"
+          ],
+          "possibleClues": [
+            "Bloody Footprint",
+            "Broken Seal",
+            "Torn Fabric",
+            "Arcane Residue",
+            "Poison Vial",
+            "Strange Symbol"
+          ]
+        },
+        {
+          "id": "kitchen",
+          "name": "Kitchen",
+          "floor": "Cavern",
+          "position": [
+            8,
+            24
+          ],
+          "tags": [
+            "backendRoom",
+            "escape",
+            "lift",
+            "loot"
+          ],
+          "interactableObjects": [
+            "Chest",
+            "Bookshelf",
+            "Torch",
+            "Table",
+            "Statue"
+          ],
+          "possibleClues": [
+            "Bloody Footprint",
+            "Broken Seal",
+            "Torn Fabric",
+            "Arcane Residue",
+            "Poison Vial",
+            "Strange Symbol"
+          ]
+        },
+        {
+          "id": "throne-room",
+          "name": "Throne Room",
+          "floor": "Cavern",
+          "position": [
+            20,
+            25
+          ],
+          "tags": [
+            "backendRoom",
+            "combat",
+            "cover",
+            "spawn"
+          ],
+          "interactableObjects": [
+            "Chest",
+            "Bookshelf",
+            "Torch",
+            "Table",
+            "Statue"
+          ],
+          "possibleClues": [
+            "Bloody Footprint",
+            "Broken Seal",
+            "Torn Fabric",
+            "Arcane Residue",
+            "Poison Vial",
+            "Strange Symbol"
+          ]
+        },
+        {
+          "id": "dungeon",
+          "name": "Dungeon",
+          "floor": "Cavern",
+          "position": [
+            33,
+            24
+          ],
+          "tags": [
+            "backendRoom",
+            "escape",
+            "lockedDoor",
+            "loot",
+            "trap"
+          ],
+          "interactableObjects": [
+            "Chest",
+            "Bookshelf",
+            "Torch",
+            "Table",
+            "Statue"
+          ],
+          "possibleClues": [
+            "Bloody Footprint",
+            "Broken Seal",
+            "Torn Fabric",
+            "Arcane Residue",
+            "Poison Vial",
+            "Strange Symbol"
+          ]
+        },
+        {
+          "id": "chapel",
+          "name": "Chapel",
+          "floor": "Cavern",
+          "position": [
+            43,
+            22
+          ],
+          "tags": [
+            "backendRoom",
+            "detectMagic",
+            "escape",
+            "safeRecovery"
+          ],
+          "interactableObjects": [
+            "Chest",
+            "Bookshelf",
+            "Torch",
+            "Table",
+            "Statue"
+          ],
+          "possibleClues": [
+            "Bloody Footprint",
+            "Broken Seal",
+            "Torn Fabric",
+            "Arcane Residue",
+            "Poison Vial",
+            "Strange Symbol"
+          ]
+        },
+        {
+          "id": "observatory",
+          "name": "Observatory",
+          "floor": "Cavern",
+          "position": [
+            30,
+            20
+          ],
+          "tags": [
+            "backendRoom",
+            "evidence",
+            "npc",
+            "task"
+          ],
+          "interactableObjects": [
+            "Chest",
+            "Bookshelf",
+            "Torch",
+            "Table",
+            "Statue"
+          ],
+          "possibleClues": [
+            "Bloody Footprint",
+            "Broken Seal",
+            "Torn Fabric",
+            "Arcane Residue",
+            "Poison Vial",
+            "Strange Symbol"
+          ]
+        },
+        {
+          "id": "treasury",
+          "name": "Treasury",
+          "floor": "Lift Platform",
+          "position": [
+            43,
+            20
+          ],
+          "tags": [
+            "backendRoom",
+            "evidence",
+            "npc",
+            "task"
+          ],
+          "interactableObjects": [
+            "Chest",
+            "Bookshelf",
+            "Torch",
+            "Table",
+            "Statue"
+          ],
+          "possibleClues": [
+            "Bloody Footprint",
+            "Broken Seal",
+            "Torn Fabric",
+            "Arcane Residue",
+            "Poison Vial",
+            "Strange Symbol"
+          ]
+        },
+        {
+          "id": "garden",
+          "name": "Garden",
+          "floor": "Cavern",
+          "position": [
+            4,
+            28
+          ],
+          "tags": [
+            "backendRoom",
+            "evidence",
+            "npc",
+            "task"
+          ],
+          "interactableObjects": [
+            "Chest",
+            "Bookshelf",
+            "Torch",
+            "Table",
+            "Statue"
+          ],
+          "possibleClues": [
+            "Bloody Footprint",
+            "Broken Seal",
+            "Torn Fabric",
+            "Arcane Residue",
+            "Poison Vial",
+            "Strange Symbol"
+          ]
+        },
+        {
+          "id": "hidden-passage",
+          "name": "Hidden Passage",
+          "floor": "Lift Platform",
+          "position": [
+            17,
+            28
+          ],
+          "tags": [
+            "backendRoom",
+            "evidence",
+            "npc",
+            "task"
+          ],
+          "interactableObjects": [
+            "Chest",
+            "Bookshelf",
+            "Torch",
+            "Table",
+            "Statue"
+          ],
+          "possibleClues": [
+            "Bloody Footprint",
+            "Broken Seal",
+            "Torn Fabric",
+            "Arcane Residue",
+            "Poison Vial",
+            "Strange Symbol"
+          ]
+        },
+        {
+          "id": "watchtower",
+          "name": "Watchtower",
+          "floor": "Cavern",
+          "position": [
+            30,
+            28
+          ],
+          "tags": [
+            "backendRoom",
+            "evidence",
+            "npc",
+            "task"
+          ],
+          "interactableObjects": [
+            "Chest",
+            "Bookshelf",
+            "Torch",
+            "Table",
+            "Statue"
+          ],
+          "possibleClues": [
+            "Bloody Footprint",
+            "Broken Seal",
+            "Torn Fabric",
+            "Arcane Residue",
+            "Poison Vial",
+            "Strange Symbol"
+          ]
+        }
+      ],
+      "routes": [
+        {
+          "from": "archive",
+          "to": "catacombs",
+          "type": "main"
+        },
+        {
+          "from": "catacombs",
+          "to": "mushroom_market",
+          "type": "main"
+        },
+        {
+          "from": "archive",
+          "to": "ossuary",
+          "type": "alternate"
+        },
+        {
+          "from": "ossuary",
+          "to": "council_rotunda",
+          "type": "main"
+        },
+        {
+          "from": "catacombs",
+          "to": "council_rotunda",
+          "type": "main"
+        },
+        {
+          "from": "mushroom_market",
+          "to": "embalmer",
+          "type": "alternate"
+        },
+        {
+          "from": "embalmer",
+          "to": "council_rotunda",
+          "type": "main"
+        },
+        {
+          "from": "ossuary",
+          "to": "mine_depot",
+          "type": "alternate"
+        },
+        {
+          "from": "mine_depot",
+          "to": "guard_post",
+          "type": "main"
+        },
+        {
+          "from": "guard_post",
+          "to": "council_rotunda",
+          "type": "main"
+        },
+        {
+          "from": "guard_post",
+          "to": "sealed_vault",
+          "type": "locked"
+        },
+        {
+          "from": "sealed_vault",
+          "to": "forgotten_shrine",
+          "type": "alternate"
+        },
+        {
+          "from": "forgotten_shrine",
+          "to": "embalmer",
+          "type": "crouch"
+        },
+        {
+          "from": "mine_depot",
+          "to": "archive",
+          "type": "lift"
+        }
+      ],
+      "interactionAnchors": [
+        {
+          "id": "council_gong",
+          "zone": "council_rotunda",
+          "action": "interact",
+          "purpose": "emergencyCouncil"
+        },
+        {
+          "id": "mine_lift",
+          "zone": "mine_depot",
+          "action": "interact",
+          "purpose": "groundAccessibleFloorTransitionAndEscape"
+        },
+        {
+          "id": "vault_door",
+          "zone": "sealed_vault",
+          "action": "interact",
+          "purpose": "escape"
+        },
+        {
+          "id": "shrine_gate",
+          "zone": "forgotten_shrine",
+          "action": "interact",
+          "purpose": "escape"
+        }
+      ],
+      "boundaries": [
+        "chasms",
+        "guardrails",
+        "cavernWalls",
+        "deepPools",
+        "rubbleSlopes",
+        "sealedRock"
+      ],
+      "art": "assets/images/maps/mooncrypt-warrens.png",
+      "grid": {
+        "cellSizeFeet": 5,
+        "columns": 48,
+        "rows": 32,
+        "sourcePixelWidth": 1536,
+        "sourcePixelHeight": 1024,
+        "pixelsPerCell": 32,
+        "snapToCellCenters": true
+      },
+      "movementMode": "ground-only",
+      "playerTokenVisibility": "all authorized players on the same map/floor",
+      "spawnCells": [
+        [
+          24,
+          26
+        ],
+        [
+          22,
+          26
+        ],
+        [
+          26,
+          26
+        ],
+        [
+          20,
+          25
+        ],
+        [
+          28,
+          25
+        ],
+        [
+          18,
+          24
+        ],
+        [
+          30,
+          24
+        ],
+        [
+          16,
+          23
+        ]
+      ],
+      "walkableBounds": {
+        "minX": 1,
+        "maxX": 46,
+        "minY": 1,
+        "maxY": 30
+      },
+      "collisionMaskVersion": "prototype-v1-art-aligned-bounds",
+      "sourceArtworkName": "Mooncrypt Warrens",
+      "backendMapId": "mooncrypt-fortress",
+      "backendSecretRooms": [
+        "Catacombs",
+        "Royal Vault",
+        "Forgotten Shrine"
+      ],
+      "backendEscapeRoutes": [
+        "Rooftop",
+        "Sewer Tunnel",
+        "Teleport Circle"
+      ],
+      "onlineEnabled": true
+    },
+    {
+      "id": "ashen-citadel",
+      "name": "Ashen Citadel",
+      "recommendedPlayerRange": [
+        4,
+        8
+      ],
+      "conceptArt": "../concept_art/04_stormwatch_borough.png",
+      "blueprint": "assets/images/maps/stormwatch-borough-blueprint.svg",
+      "floors": [
+        "Lower District",
+        "Upper District",
+        "Lift Platform"
+      ],
+      "councilAnchor": "storm_bell",
+      "zones": [
+        {
+          "id": "great-hall",
+          "name": "Great Hall",
+          "floor": "Upper District",
+          "position": [
+            24,
+            3
+          ],
+          "tags": [
+            "backendRoom",
+            "escape",
+            "evidence",
+            "task"
+          ],
+          "interactableObjects": [
+            "Chest",
+            "Bookshelf",
+            "Torch",
+            "Table",
+            "Statue"
+          ],
+          "possibleClues": [
+            "Bloody Footprint",
+            "Broken Seal",
+            "Torn Fabric",
+            "Arcane Residue",
+            "Poison Vial",
+            "Strange Symbol"
+          ]
+        },
+        {
+          "id": "armory",
+          "name": "Armory",
+          "floor": "Upper District",
+          "position": [
+            34,
+            21
+          ],
+          "tags": [
+            "backendRoom",
+            "evidence",
+            "lockedDoor",
+            "npc"
+          ],
+          "interactableObjects": [
+            "Chest",
+            "Bookshelf",
+            "Torch",
+            "Table",
+            "Statue"
+          ],
+          "possibleClues": [
+            "Bloody Footprint",
+            "Broken Seal",
+            "Torn Fabric",
+            "Arcane Residue",
+            "Poison Vial",
+            "Strange Symbol"
+          ]
+        },
+        {
+          "id": "library",
+          "name": "Library",
+          "floor": "Upper District",
+          "position": [
+            31,
+            7
+          ],
+          "tags": [
+            "backendRoom",
+            "doorControl",
+            "evidence",
+            "task"
+          ],
+          "interactableObjects": [
+            "Chest",
+            "Bookshelf",
+            "Torch",
+            "Table",
+            "Statue"
+          ],
+          "possibleClues": [
+            "Bloody Footprint",
+            "Broken Seal",
+            "Torn Fabric",
+            "Arcane Residue",
+            "Poison Vial",
+            "Strange Symbol"
+          ]
+        },
+        {
+          "id": "alchemy-lab",
+          "name": "Alchemy Lab",
+          "floor": "Upper District",
+          "position": [
+            24,
+            11
+          ],
+          "tags": [
+            "backendRoom",
+            "combat",
+            "council",
+            "report"
+          ],
+          "interactableObjects": [
+            "Chest",
+            "Bookshelf",
+            "Torch",
+            "Table",
+            "Statue"
+          ],
+          "possibleClues": [
+            "Bloody Footprint",
+            "Broken Seal",
+            "Torn Fabric",
+            "Arcane Residue",
+            "Poison Vial",
+            "Strange Symbol"
+          ]
+        },
+        {
+          "id": "crypt",
+          "name": "Crypt",
+          "floor": "Lower District",
+          "position": [
+            9,
+            16
+          ],
+          "tags": [
+            "backendRoom",
+            "cover",
+            "loot",
+            "npc",
+            "vendor"
+          ],
+          "interactableObjects": [
+            "Chest",
+            "Bookshelf",
+            "Torch",
+            "Table",
+            "Statue"
+          ],
+          "possibleClues": [
+            "Bloody Footprint",
+            "Broken Seal",
+            "Torn Fabric",
+            "Arcane Residue",
+            "Poison Vial",
+            "Strange Symbol"
+          ]
+        },
+        {
+          "id": "barracks",
+          "name": "Barracks",
+          "floor": "Lower District",
+          "position": [
+            18,
+            16
+          ],
+          "tags": [
+            "backendRoom",
+            "evidence",
+            "npc",
+            "safeRecovery"
+          ],
+          "interactableObjects": [
+            "Chest",
+            "Bookshelf",
+            "Torch",
+            "Table",
+            "Statue"
+          ],
+          "possibleClues": [
+            "Bloody Footprint",
+            "Broken Seal",
+            "Torn Fabric",
+            "Arcane Residue",
+            "Poison Vial",
+            "Strange Symbol"
+          ]
+        },
+        {
+          "id": "kitchen",
+          "name": "Kitchen",
+          "floor": "Lower District",
+          "position": [
+            35,
+            15
+          ],
+          "tags": [
+            "backendRoom",
+            "combat",
+            "cover",
+            "doorControl",
+            "loot"
+          ],
+          "interactableObjects": [
+            "Chest",
+            "Bookshelf",
+            "Torch",
+            "Table",
+            "Statue"
+          ],
+          "possibleClues": [
+            "Bloody Footprint",
+            "Broken Seal",
+            "Torn Fabric",
+            "Arcane Residue",
+            "Poison Vial",
+            "Strange Symbol"
+          ]
+        },
+        {
+          "id": "throne-room",
+          "name": "Throne Room",
+          "floor": "Lower District",
+          "position": [
+            40,
+            19
+          ],
+          "tags": [
+            "backendRoom",
+            "detectMagic",
+            "evidence",
+            "npc"
+          ],
+          "interactableObjects": [
+            "Chest",
+            "Bookshelf",
+            "Torch",
+            "Table",
+            "Statue"
+          ],
+          "possibleClues": [
+            "Bloody Footprint",
+            "Broken Seal",
+            "Torn Fabric",
+            "Arcane Residue",
+            "Poison Vial",
+            "Strange Symbol"
+          ]
+        },
+        {
+          "id": "dungeon",
+          "name": "Dungeon",
+          "floor": "Lower District",
+          "position": [
+            12,
+            22
+          ],
+          "tags": [
+            "backendRoom",
+            "loot",
+            "task",
+            "vendor"
+          ],
+          "interactableObjects": [
+            "Chest",
+            "Bookshelf",
+            "Torch",
+            "Table",
+            "Statue"
+          ],
+          "possibleClues": [
+            "Bloody Footprint",
+            "Broken Seal",
+            "Torn Fabric",
+            "Arcane Residue",
+            "Poison Vial",
+            "Strange Symbol"
+          ]
+        },
+        {
+          "id": "chapel",
+          "name": "Chapel",
+          "floor": "Lower District",
+          "position": [
+            24,
+            22
+          ],
+          "tags": [
+            "backendRoom",
+            "combat",
+            "cover",
+            "spawn"
+          ],
+          "interactableObjects": [
+            "Chest",
+            "Bookshelf",
+            "Torch",
+            "Table",
+            "Statue"
+          ],
+          "possibleClues": [
+            "Bloody Footprint",
+            "Broken Seal",
+            "Torn Fabric",
+            "Arcane Residue",
+            "Poison Vial",
+            "Strange Symbol"
+          ]
+        },
+        {
+          "id": "observatory",
+          "name": "Observatory",
+          "floor": "Lower District",
+          "position": [
+            36,
+            24
+          ],
+          "tags": [
+            "backendRoom",
+            "crouchRoute",
+            "escape",
+            "monsterDen",
+            "trap"
+          ],
+          "interactableObjects": [
+            "Chest",
+            "Bookshelf",
+            "Torch",
+            "Table",
+            "Statue"
+          ],
+          "possibleClues": [
+            "Bloody Footprint",
+            "Broken Seal",
+            "Torn Fabric",
+            "Arcane Residue",
+            "Poison Vial",
+            "Strange Symbol"
+          ]
+        },
+        {
+          "id": "treasury",
+          "name": "Treasury",
+          "floor": "Lower District",
+          "position": [
+            23,
+            28
+          ],
+          "tags": [
+            "backendRoom",
+            "doorControl",
+            "escape",
+            "spawn"
+          ],
+          "interactableObjects": [
+            "Chest",
+            "Bookshelf",
+            "Torch",
+            "Table",
+            "Statue"
+          ],
+          "possibleClues": [
+            "Bloody Footprint",
+            "Broken Seal",
+            "Torn Fabric",
+            "Arcane Residue",
+            "Poison Vial",
+            "Strange Symbol"
+          ]
+        },
+        {
+          "id": "garden",
+          "name": "Garden",
+          "floor": "Lower District",
+          "position": [
+            4,
+            28
+          ],
+          "tags": [
+            "backendRoom",
+            "evidence",
+            "npc",
+            "task"
+          ],
+          "interactableObjects": [
+            "Chest",
+            "Bookshelf",
+            "Torch",
+            "Table",
+            "Statue"
+          ],
+          "possibleClues": [
+            "Bloody Footprint",
+            "Broken Seal",
+            "Torn Fabric",
+            "Arcane Residue",
+            "Poison Vial",
+            "Strange Symbol"
+          ]
+        },
+        {
+          "id": "hidden-passage",
+          "name": "Hidden Passage",
+          "floor": "Upper District",
+          "position": [
+            17,
+            28
+          ],
+          "tags": [
+            "backendRoom",
+            "evidence",
+            "npc",
+            "task"
+          ],
+          "interactableObjects": [
+            "Chest",
+            "Bookshelf",
+            "Torch",
+            "Table",
+            "Statue"
+          ],
+          "possibleClues": [
+            "Bloody Footprint",
+            "Broken Seal",
+            "Torn Fabric",
+            "Arcane Residue",
+            "Poison Vial",
+            "Strange Symbol"
+          ]
+        },
+        {
+          "id": "watchtower",
+          "name": "Watchtower",
+          "floor": "Lift Platform",
+          "position": [
+            30,
+            28
+          ],
+          "tags": [
+            "backendRoom",
+            "evidence",
+            "npc",
+            "task"
+          ],
+          "interactableObjects": [
+            "Chest",
+            "Bookshelf",
+            "Torch",
+            "Table",
+            "Statue"
+          ],
+          "possibleClues": [
+            "Bloody Footprint",
+            "Broken Seal",
+            "Torn Fabric",
+            "Arcane Residue",
+            "Poison Vial",
+            "Strange Symbol"
+          ]
+        }
+      ],
+      "routes": [
+        {
+          "from": "gatehouse",
+          "to": "caravan_yard",
+          "type": "main"
+        },
+        {
+          "from": "caravan_yard",
+          "to": "market",
+          "type": "main"
+        },
+        {
+          "from": "market",
+          "to": "infirmary",
+          "type": "alternate"
+        },
+        {
+          "from": "infirmary",
+          "to": "council_square",
+          "type": "ramps"
+        },
+        {
+          "from": "caravan_yard",
+          "to": "barracks",
+          "type": "main"
+        },
+        {
+          "from": "barracks",
+          "to": "council_square",
+          "type": "stairs"
+        },
+        {
+          "from": "barracks",
+          "to": "chapel",
+          "type": "alternate"
+        },
+        {
+          "from": "market",
+          "to": "smithy",
+          "type": "alternate"
+        },
+        {
+          "from": "smithy",
+          "to": "caravan_yard",
+          "type": "main"
+        },
+        {
+          "from": "chapel",
+          "to": "old_fort",
+          "type": "alternate"
+        },
+        {
+          "from": "old_fort",
+          "to": "caravan_yard",
+          "type": "crouch"
+        },
+        {
+          "from": "council_square",
+          "to": "archive",
+          "type": "main"
+        },
+        {
+          "from": "council_square",
+          "to": "citadel",
+          "type": "main"
+        },
+        {
+          "from": "archive",
+          "to": "signal_house",
+          "type": "alternate"
+        },
+        {
+          "from": "citadel",
+          "to": "signal_house",
+          "type": "alternate"
+        },
+        {
+          "from": "market",
+          "to": "archive",
+          "type": "lift"
+        },
+        {
+          "from": "old_fort",
+          "to": "gatehouse",
+          "type": "locked"
+        }
+      ],
+      "interactionAnchors": [
+        {
+          "id": "storm_bell",
+          "zone": "council_square",
+          "action": "interact",
+          "purpose": "emergencyCouncil"
+        },
+        {
+          "id": "district_lift",
+          "zone": "market",
+          "action": "interact",
+          "purpose": "groundAccessibleFloorTransition"
+        },
+        {
+          "id": "signal_escape",
+          "zone": "signal_house",
+          "action": "interact",
+          "purpose": "escape"
+        },
+        {
+          "id": "old_tunnel",
+          "zone": "old_fort",
+          "action": "interact",
+          "purpose": "escape"
+        },
+        {
+          "id": "main_gate",
+          "zone": "gatehouse",
+          "action": "interact",
+          "purpose": "escape"
+        }
+      ],
+      "boundaries": [
+        "cliffs",
+        "fortressWalls",
+        "ravines",
+        "roofs",
+        "waterfalls",
+        "steepSlopes"
+      ],
+      "art": "assets/images/maps/stormwatch-borough.png",
+      "grid": {
+        "cellSizeFeet": 5,
+        "columns": 48,
+        "rows": 32,
+        "sourcePixelWidth": 1536,
+        "sourcePixelHeight": 1024,
+        "pixelsPerCell": 32,
+        "snapToCellCenters": true
+      },
+      "movementMode": "ground-only",
+      "playerTokenVisibility": "all authorized players on the same map/floor",
+      "spawnCells": [
+        [
+          24,
+          26
+        ],
+        [
+          22,
+          26
+        ],
+        [
+          26,
+          26
+        ],
+        [
+          20,
+          25
+        ],
+        [
+          28,
+          25
+        ],
+        [
+          18,
+          24
+        ],
+        [
+          30,
+          24
+        ],
+        [
+          16,
+          23
+        ]
+      ],
+      "walkableBounds": {
+        "minX": 1,
+        "maxX": 46,
+        "minY": 1,
+        "maxY": 30
+      },
+      "collisionMaskVersion": "prototype-v1-art-aligned-bounds",
+      "sourceArtworkName": "Stormwatch Borough",
+      "backendMapId": "ashen-citadel",
+      "backendSecretRooms": [
+        "Catacombs",
+        "Royal Vault",
+        "Forgotten Shrine"
+      ],
+      "backendEscapeRoutes": [
+        "Rooftop",
+        "Sewer Tunnel",
+        "Teleport Circle"
+      ],
+      "onlineEnabled": true
+    },
+    {
+      "id": "thornwake-training",
+      "name": "Thornwake Training Grounds",
+      "recommendedPlayerRange": [
+        4,
+        8
+      ],
+      "conceptArt": "../concept_art/02_thornwake.png",
+      "blueprint": "assets/images/maps/thornwake-blueprint.svg",
+      "floors": [
+        "Ground",
+        "Interior"
+      ],
+      "councilAnchor": "village_bell",
+      "zones": [
+        {
+          "id": "ruined_gate",
+          "name": "Ruined Gatehouse",
+          "floor": "Ground",
+          "position": [
+            17,
+            15
+          ],
+          "tags": [
+            "spawn",
+            "evidence",
+            "escape"
+          ]
+        },
+        {
+          "id": "manor",
+          "name": "Thornwake Manor",
+          "floor": "Interior",
+          "position": [
+            50,
+            14
+          ],
+          "tags": [
+            "evidence",
+            "npc",
+            "lockedDoor",
+            "task"
+          ]
+        },
+        {
+          "id": "walled_garden",
+          "name": "Walled Garden",
+          "floor": "Ground",
+          "position": [
+            79,
+            17
+          ],
+          "tags": [
+            "evidence",
+            "hiding",
+            "trap"
+          ]
+        },
+        {
+          "id": "inn",
+          "name": "Raincrow Inn",
+          "floor": "Interior",
+          "position": [
+            30,
+            38
+          ],
+          "tags": [
+            "npc",
+            "vendor",
+            "safeRecovery"
+          ]
+        },
+        {
+          "id": "mill",
+          "name": "Mill",
+          "floor": "Interior",
+          "position": [
+            84,
+            38
+          ],
+          "tags": [
+            "task",
+            "trap",
+            "loot"
+          ]
+        },
+        {
+          "id": "council_square",
+          "name": "Council Square",
+          "floor": "Ground",
+          "position": [
+            52,
+            48
+          ],
+          "tags": [
+            "council",
+            "report",
+            "combat"
+          ]
+        },
+        {
+          "id": "hollow_tree",
+          "name": "Hollow Tree",
+          "floor": "Ground",
+          "position": [
+            22,
+            55
+          ],
+          "tags": [
+            "crouchRoute",
+            "evidence",
+            "monsterDen"
+          ]
+        },
+        {
+          "id": "apothecary",
+          "name": "Apothecary",
+          "floor": "Interior",
+          "position": [
+            69,
+            55
+          ],
+          "tags": [
+            "npc",
+            "vendor",
+            "detectMagic",
+            "evidence"
+          ]
+        },
+        {
+          "id": "shrine",
+          "name": "Roadside Shrine",
+          "floor": "Ground",
+          "position": [
+            15,
+            75
+          ],
+          "tags": [
+            "evidence",
+            "safeRecovery",
+            "escape"
+          ]
+        },
+        {
+          "id": "stable",
+          "name": "Stable",
+          "floor": "Interior",
+          "position": [
+            37,
+            74
+          ],
+          "tags": [
+            "loot",
+            "cover",
+            "monsterDen"
+          ]
+        },
+        {
+          "id": "granary",
+          "name": "Granary",
+          "floor": "Interior",
+          "position": [
+            66,
+            77
+          ],
+          "tags": [
+            "loot",
+            "trap",
+            "cover"
+          ]
+        },
+        {
+          "id": "forest_road",
+          "name": "Forest Road",
+          "floor": "Ground",
+          "position": [
+            88,
+            78
+          ],
+          "tags": [
+            "spawn",
+            "escape"
+          ]
+        }
+      ],
+      "routes": [
+        {
+          "from": "ruined_gate",
+          "to": "manor",
+          "type": "main"
+        },
+        {
+          "from": "manor",
+          "to": "walled_garden",
+          "type": "alternate"
+        },
+        {
+          "from": "ruined_gate",
+          "to": "inn",
+          "type": "alternate"
+        },
+        {
+          "from": "inn",
+          "to": "council_square",
+          "type": "main"
+        },
+        {
+          "from": "manor",
+          "to": "council_square",
+          "type": "main"
+        },
+        {
+          "from": "walled_garden",
+          "to": "mill",
+          "type": "main"
+        },
+        {
+          "from": "mill",
+          "to": "apothecary",
+          "type": "alternate"
+        },
+        {
+          "from": "apothecary",
+          "to": "council_square",
+          "type": "main"
+        },
+        {
+          "from": "hollow_tree",
+          "to": "council_square",
+          "type": "crouch"
+        },
+        {
+          "from": "hollow_tree",
+          "to": "shrine",
+          "type": "alternate"
+        },
+        {
+          "from": "shrine",
+          "to": "stable",
+          "type": "main"
+        },
+        {
+          "from": "stable",
+          "to": "council_square",
+          "type": "alternate"
+        },
+        {
+          "from": "council_square",
+          "to": "granary",
+          "type": "main"
+        },
+        {
+          "from": "granary",
+          "to": "forest_road",
+          "type": "main"
+        },
+        {
+          "from": "forest_road",
+          "to": "mill",
+          "type": "alternate"
+        },
+        {
+          "from": "inn",
+          "to": "stable",
+          "type": "locked"
+        }
+      ],
+      "interactionAnchors": [
+        {
+          "id": "village_bell",
+          "zone": "council_square",
+          "action": "interact",
+          "purpose": "emergencyCouncil"
+        },
+        {
+          "id": "gate_escape",
+          "zone": "ruined_gate",
+          "action": "interact",
+          "purpose": "escape"
+        },
+        {
+          "id": "shrine_passage",
+          "zone": "shrine",
+          "action": "interact",
+          "purpose": "escape"
+        },
+        {
+          "id": "forest_wagon",
+          "zone": "forest_road",
+          "action": "interact",
+          "purpose": "escape"
+        }
+      ],
+      "boundaries": [
+        "denseForest",
+        "fences",
+        "streamBanks",
+        "deepStream",
+        "estateWalls",
+        "roofs"
+      ],
+      "art": "assets/images/maps/thornwake.png",
+      "grid": {
+        "cellSizeFeet": 5,
+        "columns": 48,
+        "rows": 32,
+        "sourcePixelWidth": 1536,
+        "sourcePixelHeight": 1024,
+        "pixelsPerCell": 32,
+        "snapToCellCenters": true
+      },
+      "movementMode": "ground-only",
+      "playerTokenVisibility": "all authorized players on the same map/floor",
+      "spawnCells": [
+        [
+          24,
+          26
+        ],
+        [
+          22,
+          26
+        ],
+        [
+          26,
+          26
+        ],
+        [
+          20,
+          25
+        ],
+        [
+          28,
+          25
+        ],
+        [
+          18,
+          24
+        ],
+        [
+          30,
+          24
+        ],
+        [
+          16,
+          23
+        ]
+      ],
+      "walkableBounds": {
+        "minX": 1,
+        "maxX": 46,
+        "minY": 1,
+        "maxY": 30
+      },
+      "collisionMaskVersion": "prototype-v1-art-aligned-bounds",
+      "onlineEnabled": false
+    }
+  ],
+  "title": "Killer In The Keep Maps — Eight Player Cross-Platform Edition",
+  "gridRule": "Every square is exactly 5 feet by 5 feet for D&D movement, range, reach, area effects, and line measurement."
+}
