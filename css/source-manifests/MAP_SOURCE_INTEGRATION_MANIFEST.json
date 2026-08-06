@@ -1,0 +1,50 @@
+{
+  "schema_version": "4.5.0",
+  "source_archives_removed": true,
+  "nested_zip_count": 0,
+  "integrated_sources": [
+    {
+      "source": "Convert_CSS_JSON_SRD_Compliant_Character_Art_Updated(2).zip",
+      "destinations": [
+        "css/assets/",
+        "json/assets/",
+        "json/catalogs/",
+        "json/rules-catalog.json",
+        "docs/licenses/converted_assets_license.json"
+      ],
+      "status": "extracted and updated"
+    },
+    {
+      "source": "KillerInTheKeep_Full_Video_Game_v4.0.0_Package(8).zip",
+      "destinations": [
+        "json/game/KillerInTheKeep_Full_Video_Game_v4.3.0.json",
+        "json/rules/dnd_5e_5_5e_reference/",
+        "docs/history/"
+      ],
+      "status": "migrated to v4.3.0; no embedded archive duplication"
+    },
+    {
+      "source": "Killer_In_The_Keep_4_Floor_Maps(1)(2).zip",
+      "destinations": [
+        "maps/source_png/",
+        "maps/svg/",
+        "json/floors/",
+        "docs/maps/"
+      ],
+      "status": "used as current four-floor runtime"
+    }
+  ],
+  "active_room_count": 22,
+  "floor_count": 4,
+  "ghost_mode": "json/gameplay/ghost-mode.json",
+  "room_assignment_correction": {
+    "alchemists_quarters": "A1-H10 bedchamber",
+    "first_floor_solar": "I1-M9 adjacent room"
+  },
+  "character_sheets_merged": true,
+  "public_gameplay_card_encounter_leaks_removed": true,
+  "death_card_recycle_added": true,
+  "ghost_haunting_added": true,
+  "packageVersion": "4.5.0",
+  "rulesIntegration": "KillerInTheKeep Unified 4-Floor 8-Character Haunting Magic Loot v4.2.0"
+}

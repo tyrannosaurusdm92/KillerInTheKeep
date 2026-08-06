@@ -1,0 +1,36 @@
+{
+  "version": "6.1.0",
+  "generated": "2026-08-06",
+  "counts": {
+    "armory": 46,
+    "evidence": 38,
+    "monsterDesigns": 11,
+    "monsterInstances": 77,
+    "traps": 7,
+    "treasure": 37
+  },
+  "monsterCopiesPerDesign": 7,
+  "monsterInstanceCounts": {
+    "monsters-deck-gelatinous-cube-monster-card": 7,
+    "monsters-deck-giant-spider-monster-card": 7,
+    "monsters-deck-giant-spider-monster-card-2": 7,
+    "monsters-deck-giant-wolf-spider-monster-card": 7,
+    "monsters-deck-mimic-monster-card": 7,
+    "monsters-deck-skeleton-monster-card": 7,
+    "monsters-deck-spider-monster-card": 7,
+    "monsters-deck-swarm-of-insects-monster-card": 7,
+    "monsters-deck-swarm-of-insects-monster-card-2": 7,
+    "monsters-deck-swarm-of-insects-monster-card-3": 7,
+    "monsters-deck-zombie-monster-card": 7
+  },
+  "allMonsterDesignsHaveSevenCopies": true,
+  "missingReferencedAssets": [],
+  "allReferencedAssetsPresent": true,
+  "formats": [
+    "SVG"
+  ],
+  "newStructuredMonsters": [
+    "mimic",
+    "gelatinous-cube"
+  ]
+}
