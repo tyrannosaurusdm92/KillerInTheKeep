@@ -1,0 +1,1976 @@
+{
+  "generatedAt": "2026-08-05T06:45:54.401652+00:00",
+  "summary": {
+    "totalAssets": 193,
+    "renamedExistingAssets": 192,
+    "transparentCharacterArtCssFiles": 8,
+    "newAssetsAdded": 1,
+    "placeholderCssFilenamesRemaining": 0
+  },
+  "characterArtFiles": [
+    {
+      "character": "Gunnus",
+      "css": "css/assets/gunnus/gunnus-character-art.css"
+    },
+    {
+      "character": "Korbin Silverdew",
+      "css": "css/assets/korbin/korbin-silverdew-character-art.css"
+    },
+    {
+      "character": "Monk",
+      "css": "css/assets/monk/monk-character-art.css"
+    },
+    {
+      "character": "Noldrack Goldblade",
+      "css": "css/assets/noldrack/noldrack-goldblade-character-art.css"
+    },
+    {
+      "character": "Githtoxundes Xun Fenwophyl",
+      "css": "css/assets/xun/githtoxundes-xun-fenwophyl-character-art.css"
+    },
+    {
+      "character": "Eilvyre Astath",
+      "css": "css/assets/eilvyre/eilvyre-astath-character-art.css"
+    },
+    {
+      "character": "Daltu",
+      "css": "css/assets/daltu/daltu-character-art.css"
+    },
+    {
+      "character": "Joknos Jock",
+      "css": "css/assets/jock/joknos-jock-character-art.css"
+    }
+  ],
+  "renames": [
+    {
+      "category": "Daltu",
+      "oldId": "addtext-05-26-03-26-46-485ed46e83",
+      "newId": "daltu-name-banner",
+      "oldCss": "css/assets/daltu/addtext-05-26-03-26-46-485ed46e83.css",
+      "newCss": "css/assets/daltu/daltu-name-banner.css",
+      "oldJson": "json/assets/daltu/addtext-05-26-03-26-46-485ed46e83.json",
+      "newJson": "json/assets/daltu/daltu-name-banner.json",
+      "descriptiveTitle": "Daltu Name Banner"
+    },
+    {
+      "category": "Daltu",
+      "oldId": "addtext-05-31-07-42-40-24cd9fa74a",
+      "newId": "daltu-eldritch-blast-spell-card",
+      "oldCss": "css/assets/daltu/addtext-05-31-07-42-40-24cd9fa74a.css",
+      "newCss": "css/assets/daltu/daltu-eldritch-blast-spell-card.css",
+      "oldJson": "json/assets/daltu/addtext-05-31-07-42-40-24cd9fa74a.json",
+      "newJson": "json/assets/daltu/daltu-eldritch-blast-spell-card.json",
+      "descriptiveTitle": "Eldritch Blast"
+    },
+    {
+      "category": "Daltu",
+      "oldId": "addtext-06-01-02-20-56-adc4843ff0",
+      "newId": "daltu-mage-hand-spell-card",
+      "oldCss": "css/assets/daltu/addtext-06-01-02-20-56-adc4843ff0.css",
+      "newCss": "css/assets/daltu/daltu-mage-hand-spell-card.css",
+      "oldJson": "json/assets/daltu/addtext-06-01-02-20-56-adc4843ff0.json",
+      "newJson": "json/assets/daltu/daltu-mage-hand-spell-card.json",
+      "descriptiveTitle": "Mage Hand"
+    },
+    {
+      "category": "Daltu",
+      "oldId": "addtext-06-01-02-25-56-9e37440755",
+      "newId": "daltu-hellish-rebuke-spell-card",
+      "oldCss": "css/assets/daltu/addtext-06-01-02-25-56-9e37440755.css",
+      "newCss": "css/assets/daltu/daltu-hellish-rebuke-spell-card.css",
+      "oldJson": "json/assets/daltu/addtext-06-01-02-25-56-9e37440755.json",
+      "newJson": "json/assets/daltu/daltu-hellish-rebuke-spell-card.json",
+      "descriptiveTitle": "Hellish Rebuke"
+    },
+    {
+      "category": "Daltu",
+      "oldId": "addtext-06-01-02-29-37-d9354ed65e",
+      "newId": "daltu-darkness-spell-card",
+      "oldCss": "css/assets/daltu/addtext-06-01-02-29-37-d9354ed65e.css",
+      "newCss": "css/assets/daltu/daltu-darkness-spell-card.css",
+      "oldJson": "json/assets/daltu/addtext-06-01-02-29-37-d9354ed65e.json",
+      "newJson": "json/assets/daltu/daltu-darkness-spell-card.json",
+      "descriptiveTitle": "Darkness"
+    },
+    {
+      "category": "Daltu",
+      "oldId": "addtext-06-01-02-32-26-c2d977baa8",
+      "newId": "daltu-misty-step-spell-card",
+      "oldCss": "css/assets/daltu/addtext-06-01-02-32-26-c2d977baa8.css",
+      "newCss": "css/assets/daltu/daltu-misty-step-spell-card.css",
+      "oldJson": "json/assets/daltu/addtext-06-01-02-32-26-c2d977baa8.json",
+      "newJson": "json/assets/daltu/daltu-misty-step-spell-card.json",
+      "descriptiveTitle": "Misty Step"
+    },
+    {
+      "category": "Daltu",
+      "oldId": "addtext-06-01-05-40-57-120e958cff",
+      "newId": "daltu-hold-person-spell-card",
+      "oldCss": "css/assets/daltu/addtext-06-01-05-40-57-120e958cff.css",
+      "newCss": "css/assets/daltu/daltu-hold-person-spell-card.css",
+      "oldJson": "json/assets/daltu/addtext-06-01-05-40-57-120e958cff.json",
+      "newJson": "json/assets/daltu/daltu-hold-person-spell-card.json",
+      "descriptiveTitle": "Hold Person"
+    },
+    {
+      "category": "Daltu",
+      "oldId": "addtext-06-01-05-46-09-c621129d17",
+      "newId": "daltu-burning-hands-spell-card",
+      "oldCss": "css/assets/daltu/addtext-06-01-05-46-09-c621129d17.css",
+      "newCss": "css/assets/daltu/daltu-burning-hands-spell-card.css",
+      "oldJson": "json/assets/daltu/addtext-06-01-05-46-09-c621129d17.json",
+      "newJson": "json/assets/daltu/daltu-burning-hands-spell-card.json",
+      "descriptiveTitle": "Burning Hands"
+    },
+    {
+      "category": "Daltu",
+      "oldId": "addtext-06-01-05-51-04-d5ddfe9490",
+      "newId": "daltu-blight-spell-card",
+      "oldCss": "css/assets/daltu/addtext-06-01-05-51-04-d5ddfe9490.css",
+      "newCss": "css/assets/daltu/daltu-blight-spell-card.css",
+      "oldJson": "json/assets/daltu/addtext-06-01-05-51-04-d5ddfe9490.json",
+      "newJson": "json/assets/daltu/daltu-blight-spell-card.json",
+      "descriptiveTitle": "Blight"
+    },
+    {
+      "category": "Daltu",
+      "oldId": "addtext-06-08-10-00-04-9f15bf35ff",
+      "newId": "daltu-character-sheet",
+      "oldCss": "css/assets/daltu/addtext-06-08-10-00-04-9f15bf35ff.css",
+      "newCss": "css/assets/daltu/daltu-character-sheet.css",
+      "oldJson": "json/assets/daltu/addtext-06-08-10-00-04-9f15bf35ff.json",
+      "newJson": "json/assets/daltu/daltu-character-sheet.json",
+      "descriptiveTitle": "Daltu"
+    },
+    {
+      "category": "Daltu",
+      "oldId": "daltu-color-08b97feaf9",
+      "newId": "daltu-character-art",
+      "oldCss": "css/assets/daltu/daltu-color-08b97feaf9.css",
+      "newCss": "css/assets/daltu/daltu-character-art.css",
+      "oldJson": "json/assets/daltu/daltu-color-08b97feaf9.json",
+      "newJson": "json/assets/daltu/daltu-character-art.json",
+      "descriptiveTitle": "Daltu Character Art"
+    },
+    {
+      "category": "Daltu",
+      "oldId": "received-709324696988155-c9097d1c4e",
+      "newId": "daltu-character-reference-sheet",
+      "oldCss": "css/assets/daltu/received-709324696988155-c9097d1c4e.css",
+      "newCss": "css/assets/daltu/daltu-character-reference-sheet.css",
+      "oldJson": "json/assets/daltu/received-709324696988155-c9097d1c4e.json",
+      "newJson": "json/assets/daltu/daltu-character-reference-sheet.json",
+      "descriptiveTitle": "Daltu Character Reference Sheet"
+    },
+    {
+      "category": "Eilvyre",
+      "oldId": "addtext-05-26-03-30-10-aa9a79a0ea",
+      "newId": "eilvyre-astath-name-banner",
+      "oldCss": "css/assets/eilvyre/addtext-05-26-03-30-10-aa9a79a0ea.css",
+      "newCss": "css/assets/eilvyre/eilvyre-astath-name-banner.css",
+      "oldJson": "json/assets/eilvyre/addtext-05-26-03-30-10-aa9a79a0ea.json",
+      "newJson": "json/assets/eilvyre/eilvyre-astath-name-banner.json",
+      "descriptiveTitle": "Eilvyre Astath Name Banner"
+    },
+    {
+      "category": "Eilvyre",
+      "oldId": "addtext-06-02-04-50-56-01cea17dea",
+      "newId": "eilvyre-dancing-lights-spell-card",
+      "oldCss": "css/assets/eilvyre/addtext-06-02-04-50-56-01cea17dea.css",
+      "newCss": "css/assets/eilvyre/eilvyre-dancing-lights-spell-card.css",
+      "oldJson": "json/assets/eilvyre/addtext-06-02-04-50-56-01cea17dea.json",
+      "newJson": "json/assets/eilvyre/eilvyre-dancing-lights-spell-card.json",
+      "descriptiveTitle": "Dancing Lights"
+    },
+    {
+      "category": "Eilvyre",
+      "oldId": "addtext-06-02-04-53-53-b87670ccca",
+      "newId": "eilvyre-ray-of-frost-spell-card",
+      "oldCss": "css/assets/eilvyre/addtext-06-02-04-53-53-b87670ccca.css",
+      "newCss": "css/assets/eilvyre/eilvyre-ray-of-frost-spell-card.css",
+      "oldJson": "json/assets/eilvyre/addtext-06-02-04-53-53-b87670ccca.json",
+      "newJson": "json/assets/eilvyre/eilvyre-ray-of-frost-spell-card.json",
+      "descriptiveTitle": "Ray of Frost"
+    },
+    {
+      "category": "Eilvyre",
+      "oldId": "addtext-06-02-05-00-15-97cfa98161",
+      "newId": "eilvyre-mage-armor-spell-card",
+      "oldCss": "css/assets/eilvyre/addtext-06-02-05-00-15-97cfa98161.css",
+      "newCss": "css/assets/eilvyre/eilvyre-mage-armor-spell-card.css",
+      "oldJson": "json/assets/eilvyre/addtext-06-02-05-00-15-97cfa98161.json",
+      "newJson": "json/assets/eilvyre/eilvyre-mage-armor-spell-card.json",
+      "descriptiveTitle": "Mage Armor"
+    },
+    {
+      "category": "Eilvyre",
+      "oldId": "addtext-06-02-05-03-52-82a03e2157",
+      "newId": "eilvyre-acid-splash-spell-card",
+      "oldCss": "css/assets/eilvyre/addtext-06-02-05-03-52-82a03e2157.css",
+      "newCss": "css/assets/eilvyre/eilvyre-acid-splash-spell-card.css",
+      "oldJson": "json/assets/eilvyre/addtext-06-02-05-03-52-82a03e2157.json",
+      "newJson": "json/assets/eilvyre/eilvyre-acid-splash-spell-card.json",
+      "descriptiveTitle": "Acid Splash"
+    },
+    {
+      "category": "Eilvyre",
+      "oldId": "addtext-06-02-05-09-36-474adb5cd5",
+      "newId": "eilvyre-misty-step-spell-card",
+      "oldCss": "css/assets/eilvyre/addtext-06-02-05-09-36-474adb5cd5.css",
+      "newCss": "css/assets/eilvyre/eilvyre-misty-step-spell-card.css",
+      "oldJson": "json/assets/eilvyre/addtext-06-02-05-09-36-474adb5cd5.json",
+      "newJson": "json/assets/eilvyre/eilvyre-misty-step-spell-card.json",
+      "descriptiveTitle": "Misty Step"
+    },
+    {
+      "category": "Eilvyre",
+      "oldId": "addtext-06-02-05-12-48-587ad4522d",
+      "newId": "eilvyre-shatter-spell-card",
+      "oldCss": "css/assets/eilvyre/addtext-06-02-05-12-48-587ad4522d.css",
+      "newCss": "css/assets/eilvyre/eilvyre-shatter-spell-card.css",
+      "oldJson": "json/assets/eilvyre/addtext-06-02-05-12-48-587ad4522d.json",
+      "newJson": "json/assets/eilvyre/eilvyre-shatter-spell-card.json",
+      "descriptiveTitle": "Shatter"
+    },
+    {
+      "category": "Eilvyre",
+      "oldId": "addtext-06-02-05-18-58-df296153fc",
+      "newId": "eilvyre-lightning-bolt-spell-card",
+      "oldCss": "css/assets/eilvyre/addtext-06-02-05-18-58-df296153fc.css",
+      "newCss": "css/assets/eilvyre/eilvyre-lightning-bolt-spell-card.css",
+      "oldJson": "json/assets/eilvyre/addtext-06-02-05-18-58-df296153fc.json",
+      "newJson": "json/assets/eilvyre/eilvyre-lightning-bolt-spell-card.json",
+      "descriptiveTitle": "Lightning Bolt"
+    },
+    {
+      "category": "Eilvyre",
+      "oldId": "addtext-06-08-05-29-45-54de40e6d4",
+      "newId": "eilvyre-astath-character-sheet",
+      "oldCss": "css/assets/eilvyre/addtext-06-08-05-29-45-54de40e6d4.css",
+      "newCss": "css/assets/eilvyre/eilvyre-astath-character-sheet.css",
+      "oldJson": "json/assets/eilvyre/addtext-06-08-05-29-45-54de40e6d4.json",
+      "newJson": "json/assets/eilvyre/eilvyre-astath-character-sheet.json",
+      "descriptiveTitle": "Eilvyre Astath"
+    },
+    {
+      "category": "Eilvyre",
+      "oldId": "eilvyre-color-347c703693",
+      "newId": "eilvyre-astath-character-art",
+      "oldCss": "css/assets/eilvyre/eilvyre-color-347c703693.css",
+      "newCss": "css/assets/eilvyre/eilvyre-astath-character-art.css",
+      "oldJson": "json/assets/eilvyre/eilvyre-color-347c703693.json",
+      "newJson": "json/assets/eilvyre/eilvyre-astath-character-art.json",
+      "descriptiveTitle": "Eilvyre Astath Character Art"
+    },
+    {
+      "category": "Etc",
+      "oldId": "1656271709217-a3d2b92c06",
+      "newId": "etc-cyan-diamond-player-marker",
+      "oldCss": "css/assets/etc/1656271709217-a3d2b92c06.css",
+      "newCss": "css/assets/etc/etc-cyan-diamond-player-marker.css",
+      "oldJson": "json/assets/etc/1656271709217-a3d2b92c06.json",
+      "newJson": "json/assets/etc/etc-cyan-diamond-player-marker.json",
+      "descriptiveTitle": "Cyan Diamond Player Marker"
+    },
+    {
+      "category": "Etc",
+      "oldId": "1656271727319-8e68851ec4",
+      "newId": "etc-cyan-circle-player-marker",
+      "oldCss": "css/assets/etc/1656271727319-8e68851ec4.css",
+      "newCss": "css/assets/etc/etc-cyan-circle-player-marker.css",
+      "oldJson": "json/assets/etc/1656271727319-8e68851ec4.json",
+      "newJson": "json/assets/etc/etc-cyan-circle-player-marker.json",
+      "descriptiveTitle": "Cyan Circle Player Marker"
+    },
+    {
+      "category": "Etc",
+      "oldId": "1656271757010-1ab607818e",
+      "newId": "etc-green-circle-player-marker",
+      "oldCss": "css/assets/etc/1656271757010-1ab607818e.css",
+      "newCss": "css/assets/etc/etc-green-circle-player-marker.css",
+      "oldJson": "json/assets/etc/1656271757010-1ab607818e.json",
+      "newJson": "json/assets/etc/etc-green-circle-player-marker.json",
+      "descriptiveTitle": "Green Circle Player Marker"
+    },
+    {
+      "category": "Etc",
+      "oldId": "1656271806706-0d2dc226cd",
+      "newId": "etc-blue-diamond-player-marker",
+      "oldCss": "css/assets/etc/1656271806706-0d2dc226cd.css",
+      "newCss": "css/assets/etc/etc-blue-diamond-player-marker.css",
+      "oldJson": "json/assets/etc/1656271806706-0d2dc226cd.json",
+      "newJson": "json/assets/etc/etc-blue-diamond-player-marker.json",
+      "descriptiveTitle": "Blue Diamond Player Marker"
+    },
+    {
+      "category": "Etc",
+      "oldId": "1656271819963-8838c78abe",
+      "newId": "etc-blue-circle-player-marker",
+      "oldCss": "css/assets/etc/1656271819963-8838c78abe.css",
+      "newCss": "css/assets/etc/etc-blue-circle-player-marker.css",
+      "oldJson": "json/assets/etc/1656271819963-8838c78abe.json",
+      "newJson": "json/assets/etc/etc-blue-circle-player-marker.json",
+      "descriptiveTitle": "Blue Circle Player Marker"
+    },
+    {
+      "category": "Etc",
+      "oldId": "1656271885697-ccadaf6e5b",
+      "newId": "etc-red-circle-player-marker",
+      "oldCss": "css/assets/etc/1656271885697-ccadaf6e5b.css",
+      "newCss": "css/assets/etc/etc-red-circle-player-marker.css",
+      "oldJson": "json/assets/etc/1656271885697-ccadaf6e5b.json",
+      "newJson": "json/assets/etc/etc-red-circle-player-marker.json",
+      "descriptiveTitle": "Red Circle Player Marker"
+    },
+    {
+      "category": "Etc",
+      "oldId": "1656271900584-3383c6cc27",
+      "newId": "etc-orange-diamond-player-marker",
+      "oldCss": "css/assets/etc/1656271900584-3383c6cc27.css",
+      "newCss": "css/assets/etc/etc-orange-diamond-player-marker.css",
+      "oldJson": "json/assets/etc/1656271900584-3383c6cc27.json",
+      "newJson": "json/assets/etc/etc-orange-diamond-player-marker.json",
+      "descriptiveTitle": "Orange Diamond Player Marker"
+    },
+    {
+      "category": "Etc",
+      "oldId": "1656271914823-47c28dcd9e",
+      "newId": "etc-orange-circle-player-marker",
+      "oldCss": "css/assets/etc/1656271914823-47c28dcd9e.css",
+      "newCss": "css/assets/etc/etc-orange-circle-player-marker.css",
+      "oldJson": "json/assets/etc/1656271914823-47c28dcd9e.json",
+      "newJson": "json/assets/etc/etc-orange-circle-player-marker.json",
+      "descriptiveTitle": "Orange Circle Player Marker"
+    },
+    {
+      "category": "Etc",
+      "oldId": "1656271928042-7062ee9f17",
+      "newId": "etc-pink-diamond-player-marker",
+      "oldCss": "css/assets/etc/1656271928042-7062ee9f17.css",
+      "newCss": "css/assets/etc/etc-pink-diamond-player-marker.css",
+      "oldJson": "json/assets/etc/1656271928042-7062ee9f17.json",
+      "newJson": "json/assets/etc/etc-pink-diamond-player-marker.json",
+      "descriptiveTitle": "Pink Diamond Player Marker"
+    },
+    {
+      "category": "Etc",
+      "oldId": "1656271940795-b873fd987d",
+      "newId": "etc-pink-circle-player-marker",
+      "oldCss": "css/assets/etc/1656271940795-b873fd987d.css",
+      "newCss": "css/assets/etc/etc-pink-circle-player-marker.css",
+      "oldJson": "json/assets/etc/1656271940795-b873fd987d.json",
+      "newJson": "json/assets/etc/etc-pink-circle-player-marker.json",
+      "descriptiveTitle": "Pink Circle Player Marker"
+    },
+    {
+      "category": "Etc",
+      "oldId": "1656271958557-ad3a2d4b0f",
+      "newId": "etc-purple-diamond-player-marker",
+      "oldCss": "css/assets/etc/1656271958557-ad3a2d4b0f.css",
+      "newCss": "css/assets/etc/etc-purple-diamond-player-marker.css",
+      "oldJson": "json/assets/etc/1656271958557-ad3a2d4b0f.json",
+      "newJson": "json/assets/etc/etc-purple-diamond-player-marker.json",
+      "descriptiveTitle": "Purple Diamond Player Marker"
+    },
+    {
+      "category": "Etc",
+      "oldId": "1656271975404-cbf2a1c381",
+      "newId": "etc-purple-circle-player-marker",
+      "oldCss": "css/assets/etc/1656271975404-cbf2a1c381.css",
+      "newCss": "css/assets/etc/etc-purple-circle-player-marker.css",
+      "oldJson": "json/assets/etc/1656271975404-cbf2a1c381.json",
+      "newJson": "json/assets/etc/etc-purple-circle-player-marker.json",
+      "descriptiveTitle": "Purple Circle Player Marker"
+    },
+    {
+      "category": "Etc",
+      "oldId": "addtext-06-26-04-35-49-fd4cebeb6c",
+      "newId": "etc-the-great-hall-label",
+      "oldCss": "css/assets/etc/addtext-06-26-04-35-49-fd4cebeb6c.css",
+      "newCss": "css/assets/etc/etc-the-great-hall-label.css",
+      "oldJson": "json/assets/etc/addtext-06-26-04-35-49-fd4cebeb6c.json",
+      "newJson": "json/assets/etc/etc-the-great-hall-label.json",
+      "descriptiveTitle": "The Great Hall Label"
+    },
+    {
+      "category": "Etc",
+      "oldId": "board-finished-9f32d9842d",
+      "newId": "etc-board-finished",
+      "oldCss": "css/assets/etc/board-finished-9f32d9842d.css",
+      "newCss": "css/assets/etc/etc-board-finished.css",
+      "oldJson": "json/assets/etc/board-finished-9f32d9842d.json",
+      "newJson": "json/assets/etc/etc-board-finished.json",
+      "descriptiveTitle": "Board Finished"
+    },
+    {
+      "category": "Etc",
+      "oldId": "board-key-e2a04c04aa",
+      "newId": "etc-board-key",
+      "oldCss": "css/assets/etc/board-key-e2a04c04aa.css",
+      "newCss": "css/assets/etc/etc-board-key.css",
+      "oldJson": "json/assets/etc/board-key-e2a04c04aa.json",
+      "newJson": "json/assets/etc/etc-board-key.json",
+      "descriptiveTitle": "Board Key"
+    },
+    {
+      "category": "Gameplay Deck",
+      "oldId": "addtext-06-18-12-19-41-546eec2cbf",
+      "newId": "gameplay-deck-dagger-weapon-card",
+      "oldCss": "css/assets/gameplay-deck/addtext-06-18-12-19-41-546eec2cbf.css",
+      "newCss": "css/assets/gameplay-deck/gameplay-deck-dagger-weapon-card.css",
+      "oldJson": "json/assets/gameplay-deck/addtext-06-18-12-19-41-546eec2cbf.json",
+      "newJson": "json/assets/gameplay-deck/gameplay-deck-dagger-weapon-card.json",
+      "descriptiveTitle": "Dagger"
+    },
+    {
+      "category": "Gameplay Deck",
+      "oldId": "addtext-06-18-12-20-20-bf18e2677a",
+      "newId": "gameplay-deck-basic-poison-item-card",
+      "oldCss": "css/assets/gameplay-deck/addtext-06-18-12-20-20-bf18e2677a.css",
+      "newCss": "css/assets/gameplay-deck/gameplay-deck-basic-poison-item-card.css",
+      "oldJson": "json/assets/gameplay-deck/addtext-06-18-12-20-20-bf18e2677a.json",
+      "newJson": "json/assets/gameplay-deck/gameplay-deck-basic-poison-item-card.json",
+      "descriptiveTitle": "Basic Poison"
+    },
+    {
+      "category": "Gameplay Deck",
+      "oldId": "addtext-06-18-12-21-29-8ff1a84362",
+      "newId": "gameplay-deck-mace-weapon-card",
+      "oldCss": "css/assets/gameplay-deck/addtext-06-18-12-21-29-8ff1a84362.css",
+      "newCss": "css/assets/gameplay-deck/gameplay-deck-mace-weapon-card.css",
+      "oldJson": "json/assets/gameplay-deck/addtext-06-18-12-21-29-8ff1a84362.json",
+      "newJson": "json/assets/gameplay-deck/gameplay-deck-mace-weapon-card.json",
+      "descriptiveTitle": "Mace"
+    },
+    {
+      "category": "Gameplay Deck",
+      "oldId": "addtext-06-18-12-22-22-6cd3392e23",
+      "newId": "gameplay-deck-wand-gameplay-card",
+      "oldCss": "css/assets/gameplay-deck/addtext-06-18-12-22-22-6cd3392e23.css",
+      "newCss": "css/assets/gameplay-deck/gameplay-deck-wand-gameplay-card.css",
+      "oldJson": "json/assets/gameplay-deck/addtext-06-18-12-22-22-6cd3392e23.json",
+      "newJson": "json/assets/gameplay-deck/gameplay-deck-wand-gameplay-card.json",
+      "descriptiveTitle": "Wand"
+    },
+    {
+      "category": "Gameplay Deck",
+      "oldId": "alcheimists-study-df6bbc5beb",
+      "newId": "gameplay-deck-alchemists-study-gameplay-card",
+      "oldCss": "css/assets/gameplay-deck/alcheimists-study-df6bbc5beb.css",
+      "newCss": "css/assets/gameplay-deck/gameplay-deck-alchemists-study-gameplay-card.css",
+      "oldJson": "json/assets/gameplay-deck/alcheimists-study-df6bbc5beb.json",
+      "newJson": "json/assets/gameplay-deck/gameplay-deck-alchemists-study-gameplay-card.json",
+      "descriptiveTitle": "Alchemist's Study"
+    },
+    {
+      "category": "Gameplay Deck",
+      "oldId": "armory-080086920d",
+      "newId": "gameplay-deck-armory-gameplay-card",
+      "oldCss": "css/assets/gameplay-deck/armory-080086920d.css",
+      "newCss": "css/assets/gameplay-deck/gameplay-deck-armory-gameplay-card.css",
+      "oldJson": "json/assets/gameplay-deck/armory-080086920d.json",
+      "newJson": "json/assets/gameplay-deck/gameplay-deck-armory-gameplay-card.json",
+      "descriptiveTitle": "Armory"
+    },
+    {
+      "category": "Gameplay Deck",
+      "oldId": "arrows-0e74583bad",
+      "newId": "gameplay-deck-arrows-20-gameplay-card",
+      "oldCss": "css/assets/gameplay-deck/arrows-0e74583bad.css",
+      "newCss": "css/assets/gameplay-deck/gameplay-deck-arrows-20-gameplay-card.css",
+      "oldJson": "json/assets/gameplay-deck/arrows-0e74583bad.json",
+      "newJson": "json/assets/gameplay-deck/gameplay-deck-arrows-20-gameplay-card.json",
+      "descriptiveTitle": "Arrows (20)"
+    },
+    {
+      "category": "Gameplay Deck",
+      "oldId": "battle-axe-e8fb284b2a",
+      "newId": "gameplay-deck-battleaxe-weapon-card",
+      "oldCss": "css/assets/gameplay-deck/battle-axe-e8fb284b2a.css",
+      "newCss": "css/assets/gameplay-deck/gameplay-deck-battleaxe-weapon-card.css",
+      "oldJson": "json/assets/gameplay-deck/battle-axe-e8fb284b2a.json",
+      "newJson": "json/assets/gameplay-deck/gameplay-deck-battleaxe-weapon-card.json",
+      "descriptiveTitle": "Battleaxe"
+    },
+    {
+      "category": "Gameplay Deck",
+      "oldId": "chapel-33b0eaf563",
+      "newId": "gameplay-deck-chapel-gameplay-card",
+      "oldCss": "css/assets/gameplay-deck/chapel-33b0eaf563.css",
+      "newCss": "css/assets/gameplay-deck/gameplay-deck-chapel-gameplay-card.css",
+      "oldJson": "json/assets/gameplay-deck/chapel-33b0eaf563.json",
+      "newJson": "json/assets/gameplay-deck/gameplay-deck-chapel-gameplay-card.json",
+      "descriptiveTitle": "Chapel"
+    },
+    {
+      "category": "Gameplay Deck",
+      "oldId": "dining-room-5599cfb57e",
+      "newId": "gameplay-deck-dining-room-gameplay-card",
+      "oldCss": "css/assets/gameplay-deck/dining-room-5599cfb57e.css",
+      "newCss": "css/assets/gameplay-deck/gameplay-deck-dining-room-gameplay-card.css",
+      "oldJson": "json/assets/gameplay-deck/dining-room-5599cfb57e.json",
+      "newJson": "json/assets/gameplay-deck/gameplay-deck-dining-room-gameplay-card.json",
+      "descriptiveTitle": "Dining Room"
+    },
+    {
+      "category": "Gameplay Deck",
+      "oldId": "foyer-8c16f2dbb2",
+      "newId": "gameplay-deck-foyer-gameplay-card",
+      "oldCss": "css/assets/gameplay-deck/foyer-8c16f2dbb2.css",
+      "newCss": "css/assets/gameplay-deck/gameplay-deck-foyer-gameplay-card.css",
+      "oldJson": "json/assets/gameplay-deck/foyer-8c16f2dbb2.json",
+      "newJson": "json/assets/gameplay-deck/gameplay-deck-foyer-gameplay-card.json",
+      "descriptiveTitle": "Foyer"
+    },
+    {
+      "category": "Gameplay Deck",
+      "oldId": "kitchen-4437368af3",
+      "newId": "gameplay-deck-kitchen-gameplay-card",
+      "oldCss": "css/assets/gameplay-deck/kitchen-4437368af3.css",
+      "newCss": "css/assets/gameplay-deck/gameplay-deck-kitchen-gameplay-card.css",
+      "oldJson": "json/assets/gameplay-deck/kitchen-4437368af3.json",
+      "newJson": "json/assets/gameplay-deck/gameplay-deck-kitchen-gameplay-card.json",
+      "descriptiveTitle": "Kitchen"
+    },
+    {
+      "category": "Gameplay Deck",
+      "oldId": "ladies-solar-a8ec9dd3fc",
+      "newId": "gameplay-deck-ladys-solar-gameplay-card",
+      "oldCss": "css/assets/gameplay-deck/ladies-solar-a8ec9dd3fc.css",
+      "newCss": "css/assets/gameplay-deck/gameplay-deck-ladys-solar-gameplay-card.css",
+      "oldJson": "json/assets/gameplay-deck/ladies-solar-a8ec9dd3fc.json",
+      "newJson": "json/assets/gameplay-deck/gameplay-deck-ladys-solar-gameplay-card.json",
+      "descriptiveTitle": "Lady's Solar"
+    },
+    {
+      "category": "Gameplay Deck",
+      "oldId": "library-fec01966f3",
+      "newId": "gameplay-deck-library-gameplay-card",
+      "oldCss": "css/assets/gameplay-deck/library-fec01966f3.css",
+      "newCss": "css/assets/gameplay-deck/gameplay-deck-library-gameplay-card.css",
+      "oldJson": "json/assets/gameplay-deck/library-fec01966f3.json",
+      "newJson": "json/assets/gameplay-deck/gameplay-deck-library-gameplay-card.json",
+      "descriptiveTitle": "Library"
+    },
+    {
+      "category": "Gameplay Deck",
+      "oldId": "magical-staff-1ae261f43e",
+      "newId": "gameplay-deck-quarterstaff-weapon-card",
+      "oldCss": "css/assets/gameplay-deck/magical-staff-1ae261f43e.css",
+      "newCss": "css/assets/gameplay-deck/gameplay-deck-quarterstaff-weapon-card.css",
+      "oldJson": "json/assets/gameplay-deck/magical-staff-1ae261f43e.json",
+      "newJson": "json/assets/gameplay-deck/gameplay-deck-quarterstaff-weapon-card.json",
+      "descriptiveTitle": "Quarterstaff"
+    },
+    {
+      "category": "Gameplay Deck",
+      "oldId": "master-bedroom-791f197ef0",
+      "newId": "gameplay-deck-master-bedroom-gameplay-card",
+      "oldCss": "css/assets/gameplay-deck/master-bedroom-791f197ef0.css",
+      "newCss": "css/assets/gameplay-deck/gameplay-deck-master-bedroom-gameplay-card.css",
+      "oldJson": "json/assets/gameplay-deck/master-bedroom-791f197ef0.json",
+      "newJson": "json/assets/gameplay-deck/gameplay-deck-master-bedroom-gameplay-card.json",
+      "descriptiveTitle": "Master Bedroom"
+    },
+    {
+      "category": "Gameplay Deck",
+      "oldId": "music-room-2f36c0a622",
+      "newId": "gameplay-deck-music-room-gameplay-card",
+      "oldCss": "css/assets/gameplay-deck/music-room-2f36c0a622.css",
+      "newCss": "css/assets/gameplay-deck/gameplay-deck-music-room-gameplay-card.css",
+      "oldJson": "json/assets/gameplay-deck/music-room-2f36c0a622.json",
+      "newJson": "json/assets/gameplay-deck/gameplay-deck-music-room-gameplay-card.json",
+      "descriptiveTitle": "Music Room"
+    },
+    {
+      "category": "Gameplay Deck",
+      "oldId": "pantry-4dd6c9e9ef",
+      "newId": "gameplay-deck-pantry-gameplay-card",
+      "oldCss": "css/assets/gameplay-deck/pantry-4dd6c9e9ef.css",
+      "newCss": "css/assets/gameplay-deck/gameplay-deck-pantry-gameplay-card.css",
+      "oldJson": "json/assets/gameplay-deck/pantry-4dd6c9e9ef.json",
+      "newJson": "json/assets/gameplay-deck/gameplay-deck-pantry-gameplay-card.json",
+      "descriptiveTitle": "Pantry"
+    },
+    {
+      "category": "Gameplay Deck",
+      "oldId": "privy-c779ac75bc",
+      "newId": "gameplay-deck-privy-gameplay-card",
+      "oldCss": "css/assets/gameplay-deck/privy-c779ac75bc.css",
+      "newCss": "css/assets/gameplay-deck/gameplay-deck-privy-gameplay-card.css",
+      "oldJson": "json/assets/gameplay-deck/privy-c779ac75bc.json",
+      "newJson": "json/assets/gameplay-deck/gameplay-deck-privy-gameplay-card.json",
+      "descriptiveTitle": "Privy"
+    },
+    {
+      "category": "Gameplay Deck",
+      "oldId": "rapier-ee2bbd5a59",
+      "newId": "gameplay-deck-rapier-weapon-card",
+      "oldCss": "css/assets/gameplay-deck/rapier-ee2bbd5a59.css",
+      "newCss": "css/assets/gameplay-deck/gameplay-deck-rapier-weapon-card.css",
+      "oldJson": "json/assets/gameplay-deck/rapier-ee2bbd5a59.json",
+      "newJson": "json/assets/gameplay-deck/gameplay-deck-rapier-weapon-card.json",
+      "descriptiveTitle": "Rapier"
+    },
+    {
+      "category": "Gameplay Deck",
+      "oldId": "servants-quarters-adc76ee3e3",
+      "newId": "gameplay-deck-servants-quarters-gameplay-card",
+      "oldCss": "css/assets/gameplay-deck/servants-quarters-adc76ee3e3.css",
+      "newCss": "css/assets/gameplay-deck/gameplay-deck-servants-quarters-gameplay-card.css",
+      "oldJson": "json/assets/gameplay-deck/servants-quarters-adc76ee3e3.json",
+      "newJson": "json/assets/gameplay-deck/gameplay-deck-servants-quarters-gameplay-card.json",
+      "descriptiveTitle": "Servants' Quarters"
+    },
+    {
+      "category": "Gameplay Deck",
+      "oldId": "sitting-room-b0bf068af2",
+      "newId": "gameplay-deck-sitting-room-gameplay-card",
+      "oldCss": "css/assets/gameplay-deck/sitting-room-b0bf068af2.css",
+      "newCss": "css/assets/gameplay-deck/gameplay-deck-sitting-room-gameplay-card.css",
+      "oldJson": "json/assets/gameplay-deck/sitting-room-b0bf068af2.json",
+      "newJson": "json/assets/gameplay-deck/gameplay-deck-sitting-room-gameplay-card.json",
+      "descriptiveTitle": "Sitting Room"
+    },
+    {
+      "category": "Gunnus",
+      "oldId": "addtext-05-26-03-33-38-2343dba069",
+      "newId": "gunnus-name-banner",
+      "oldCss": "css/assets/gunnus/addtext-05-26-03-33-38-2343dba069.css",
+      "newCss": "css/assets/gunnus/gunnus-name-banner.css",
+      "oldJson": "json/assets/gunnus/addtext-05-26-03-33-38-2343dba069.json",
+      "newJson": "json/assets/gunnus/gunnus-name-banner.json",
+      "descriptiveTitle": "Gunnus Name Banner"
+    },
+    {
+      "category": "Gunnus",
+      "oldId": "addtext-06-02-04-17-36-c471784d58",
+      "newId": "gunnus-phantasmal-killer-spell-card",
+      "oldCss": "css/assets/gunnus/addtext-06-02-04-17-36-c471784d58.css",
+      "newCss": "css/assets/gunnus/gunnus-phantasmal-killer-spell-card.css",
+      "oldJson": "json/assets/gunnus/addtext-06-02-04-17-36-c471784d58.json",
+      "newJson": "json/assets/gunnus/gunnus-phantasmal-killer-spell-card.json",
+      "descriptiveTitle": "Phantasmal Killer"
+    },
+    {
+      "category": "Gunnus",
+      "oldId": "addtext-06-02-04-20-14-1975b808f6",
+      "newId": "gunnus-blight-spell-card",
+      "oldCss": "css/assets/gunnus/addtext-06-02-04-20-14-1975b808f6.css",
+      "newCss": "css/assets/gunnus/gunnus-blight-spell-card.css",
+      "oldJson": "json/assets/gunnus/addtext-06-02-04-20-14-1975b808f6.json",
+      "newJson": "json/assets/gunnus/gunnus-blight-spell-card.json",
+      "descriptiveTitle": "Blight"
+    },
+    {
+      "category": "Gunnus",
+      "oldId": "addtext-06-02-04-23-38-3bbdecf2d3",
+      "newId": "gunnus-animate-dead-spell-card",
+      "oldCss": "css/assets/gunnus/addtext-06-02-04-23-38-3bbdecf2d3.css",
+      "newCss": "css/assets/gunnus/gunnus-animate-dead-spell-card.css",
+      "oldJson": "json/assets/gunnus/addtext-06-02-04-23-38-3bbdecf2d3.json",
+      "newJson": "json/assets/gunnus/gunnus-animate-dead-spell-card.json",
+      "descriptiveTitle": "Animate Dead"
+    },
+    {
+      "category": "Gunnus",
+      "oldId": "addtext-06-02-04-26-11-b84fc5eb53",
+      "newId": "gunnus-vampiric-touch-spell-card",
+      "oldCss": "css/assets/gunnus/addtext-06-02-04-26-11-b84fc5eb53.css",
+      "newCss": "css/assets/gunnus/gunnus-vampiric-touch-spell-card.css",
+      "oldJson": "json/assets/gunnus/addtext-06-02-04-26-11-b84fc5eb53.json",
+      "newJson": "json/assets/gunnus/gunnus-vampiric-touch-spell-card.json",
+      "descriptiveTitle": "Vampiric Touch"
+    },
+    {
+      "category": "Gunnus",
+      "oldId": "addtext-06-02-05-14-24-ceaab8b5a6",
+      "newId": "gunnus-darkness-spell-card",
+      "oldCss": "css/assets/gunnus/addtext-06-02-05-14-24-ceaab8b5a6.css",
+      "newCss": "css/assets/gunnus/gunnus-darkness-spell-card.css",
+      "oldJson": "json/assets/gunnus/addtext-06-02-05-14-24-ceaab8b5a6.json",
+      "newJson": "json/assets/gunnus/gunnus-darkness-spell-card.json",
+      "descriptiveTitle": "Darkness"
+    },
+    {
+      "category": "Gunnus",
+      "oldId": "addtext-06-02-05-17-52-8bd6eec05f",
+      "newId": "gunnus-hideous-laughter-spell-card",
+      "oldCss": "css/assets/gunnus/addtext-06-02-05-17-52-8bd6eec05f.css",
+      "newCss": "css/assets/gunnus/gunnus-hideous-laughter-spell-card.css",
+      "oldJson": "json/assets/gunnus/addtext-06-02-05-17-52-8bd6eec05f.json",
+      "newJson": "json/assets/gunnus/gunnus-hideous-laughter-spell-card.json",
+      "descriptiveTitle": "Hideous Laughter"
+    },
+    {
+      "category": "Gunnus",
+      "oldId": "addtext-06-02-05-19-51-2f93c72b5d",
+      "newId": "gunnus-spare-the-dying-spell-card",
+      "oldCss": "css/assets/gunnus/addtext-06-02-05-19-51-2f93c72b5d.css",
+      "newCss": "css/assets/gunnus/gunnus-spare-the-dying-spell-card.css",
+      "oldJson": "json/assets/gunnus/addtext-06-02-05-19-51-2f93c72b5d.json",
+      "newJson": "json/assets/gunnus/gunnus-spare-the-dying-spell-card.json",
+      "descriptiveTitle": "Spare the Dying"
+    },
+    {
+      "category": "Gunnus",
+      "oldId": "addtext-06-02-05-22-40-e1d019326b",
+      "newId": "gunnus-poison-spray-spell-card",
+      "oldCss": "css/assets/gunnus/addtext-06-02-05-22-40-e1d019326b.css",
+      "newCss": "css/assets/gunnus/gunnus-poison-spray-spell-card.css",
+      "oldJson": "json/assets/gunnus/addtext-06-02-05-22-40-e1d019326b.json",
+      "newJson": "json/assets/gunnus/gunnus-poison-spray-spell-card.json",
+      "descriptiveTitle": "Poison Spray"
+    },
+    {
+      "category": "Gunnus",
+      "oldId": "addtext-06-08-05-27-39-7e861c0325",
+      "newId": "gunnus-character-sheet",
+      "oldCss": "css/assets/gunnus/addtext-06-08-05-27-39-7e861c0325.css",
+      "newCss": "css/assets/gunnus/gunnus-character-sheet.css",
+      "oldJson": "json/assets/gunnus/addtext-06-08-05-27-39-7e861c0325.json",
+      "newJson": "json/assets/gunnus/gunnus-character-sheet.json",
+      "descriptiveTitle": "Gunnus"
+    },
+    {
+      "category": "Gunnus",
+      "oldId": "gunnus-color-99fb8afce5",
+      "newId": "gunnus-character-art",
+      "oldCss": "css/assets/gunnus/gunnus-color-99fb8afce5.css",
+      "newCss": "css/assets/gunnus/gunnus-character-art.css",
+      "oldJson": "json/assets/gunnus/gunnus-color-99fb8afce5.json",
+      "newJson": "json/assets/gunnus/gunnus-character-art.json",
+      "descriptiveTitle": "Gunnus Character Art"
+    },
+    {
+      "category": "Gunnus",
+      "oldId": "skeleton-gunnus-93027fce58",
+      "newId": "gunnus-skeleton-creature-card",
+      "oldCss": "css/assets/gunnus/skeleton-gunnus-93027fce58.css",
+      "newCss": "css/assets/gunnus/gunnus-skeleton-creature-card.css",
+      "oldJson": "json/assets/gunnus/skeleton-gunnus-93027fce58.json",
+      "newJson": "json/assets/gunnus/gunnus-skeleton-creature-card.json",
+      "descriptiveTitle": "Skeleton"
+    },
+    {
+      "category": "Gunnus",
+      "oldId": "zombie-gunnus-1fffbbfcbe",
+      "newId": "gunnus-zombie-creature-card",
+      "oldCss": "css/assets/gunnus/zombie-gunnus-1fffbbfcbe.css",
+      "newCss": "css/assets/gunnus/gunnus-zombie-creature-card.css",
+      "oldJson": "json/assets/gunnus/zombie-gunnus-1fffbbfcbe.json",
+      "newJson": "json/assets/gunnus/gunnus-zombie-creature-card.json",
+      "descriptiveTitle": "Zombie"
+    },
+    {
+      "category": "Jock",
+      "oldId": "addtext-05-26-03-32-29-a8ab197dd3",
+      "newId": "jock-joknos-name-banner",
+      "oldCss": "css/assets/jock/addtext-05-26-03-32-29-a8ab197dd3.css",
+      "newCss": "css/assets/jock/jock-joknos-name-banner.css",
+      "oldJson": "json/assets/jock/addtext-05-26-03-32-29-a8ab197dd3.json",
+      "newJson": "json/assets/jock/jock-joknos-name-banner.json",
+      "descriptiveTitle": "Joknos Name Banner"
+    },
+    {
+      "category": "Jock",
+      "oldId": "addtext-06-02-09-59-00-ad8bdfe4ec",
+      "newId": "jock-charm-person-spell-card",
+      "oldCss": "css/assets/jock/addtext-06-02-09-59-00-ad8bdfe4ec.css",
+      "newCss": "css/assets/jock/jock-charm-person-spell-card.css",
+      "oldJson": "json/assets/jock/addtext-06-02-09-59-00-ad8bdfe4ec.json",
+      "newJson": "json/assets/jock/jock-charm-person-spell-card.json",
+      "descriptiveTitle": "Charm Person"
+    },
+    {
+      "category": "Jock",
+      "oldId": "addtext-06-02-10-03-06-764aaf425d",
+      "newId": "jock-dimension-door-spell-card",
+      "oldCss": "css/assets/jock/addtext-06-02-10-03-06-764aaf425d.css",
+      "newCss": "css/assets/jock/jock-dimension-door-spell-card.css",
+      "oldJson": "json/assets/jock/addtext-06-02-10-03-06-764aaf425d.json",
+      "newJson": "json/assets/jock/jock-dimension-door-spell-card.json",
+      "descriptiveTitle": "Dimension Door"
+    },
+    {
+      "category": "Jock",
+      "oldId": "addtext-06-02-10-06-25-15bf4950aa",
+      "newId": "jock-heroism-spell-card",
+      "oldCss": "css/assets/jock/addtext-06-02-10-06-25-15bf4950aa.css",
+      "newCss": "css/assets/jock/jock-heroism-spell-card.css",
+      "oldJson": "json/assets/jock/addtext-06-02-10-06-25-15bf4950aa.json",
+      "newJson": "json/assets/jock/jock-heroism-spell-card.json",
+      "descriptiveTitle": "Heroism"
+    },
+    {
+      "category": "Jock",
+      "oldId": "addtext-06-02-10-15-40-28bc71fbb9",
+      "newId": "jock-bestow-curse-spell-card",
+      "oldCss": "css/assets/jock/addtext-06-02-10-15-40-28bc71fbb9.css",
+      "newCss": "css/assets/jock/jock-bestow-curse-spell-card.css",
+      "oldJson": "json/assets/jock/addtext-06-02-10-15-40-28bc71fbb9.json",
+      "newJson": "json/assets/jock/jock-bestow-curse-spell-card.json",
+      "descriptiveTitle": "Bestow Curse"
+    },
+    {
+      "category": "Jock",
+      "oldId": "addtext-06-02-10-18-17-23b2e15346",
+      "newId": "jock-invisibility-spell-card",
+      "oldCss": "css/assets/jock/addtext-06-02-10-18-17-23b2e15346.css",
+      "newCss": "css/assets/jock/jock-invisibility-spell-card.css",
+      "oldJson": "json/assets/jock/addtext-06-02-10-18-17-23b2e15346.json",
+      "newJson": "json/assets/jock/jock-invisibility-spell-card.json",
+      "descriptiveTitle": "Invisibility"
+    },
+    {
+      "category": "Jock",
+      "oldId": "addtext-06-02-10-29-14-2cd06b6824",
+      "newId": "jock-suggestion-spell-card",
+      "oldCss": "css/assets/jock/addtext-06-02-10-29-14-2cd06b6824.css",
+      "newCss": "css/assets/jock/jock-suggestion-spell-card.css",
+      "oldJson": "json/assets/jock/addtext-06-02-10-29-14-2cd06b6824.json",
+      "newJson": "json/assets/jock/jock-suggestion-spell-card.json",
+      "descriptiveTitle": "Suggestion"
+    },
+    {
+      "category": "Jock",
+      "oldId": "addtext-06-02-11-56-28-db3d62e540",
+      "newId": "jock-shatter-spell-card",
+      "oldCss": "css/assets/jock/addtext-06-02-11-56-28-db3d62e540.css",
+      "newCss": "css/assets/jock/jock-shatter-spell-card.css",
+      "oldJson": "json/assets/jock/addtext-06-02-11-56-28-db3d62e540.json",
+      "newJson": "json/assets/jock/jock-shatter-spell-card.json",
+      "descriptiveTitle": "Shatter"
+    },
+    {
+      "category": "Jock",
+      "oldId": "addtext-06-02-12-00-04-1211ece0d5",
+      "newId": "jock-hideous-laughter-spell-card",
+      "oldCss": "css/assets/jock/addtext-06-02-12-00-04-1211ece0d5.css",
+      "newCss": "css/assets/jock/jock-hideous-laughter-spell-card.css",
+      "oldJson": "json/assets/jock/addtext-06-02-12-00-04-1211ece0d5.json",
+      "newJson": "json/assets/jock/jock-hideous-laughter-spell-card.json",
+      "descriptiveTitle": "Hideous Laughter"
+    },
+    {
+      "category": "Jock",
+      "oldId": "addtext-06-02-12-06-13-653c5745e6",
+      "newId": "jock-thunderwave-spell-card",
+      "oldCss": "css/assets/jock/addtext-06-02-12-06-13-653c5745e6.css",
+      "newCss": "css/assets/jock/jock-thunderwave-spell-card.css",
+      "oldJson": "json/assets/jock/addtext-06-02-12-06-13-653c5745e6.json",
+      "newJson": "json/assets/jock/jock-thunderwave-spell-card.json",
+      "descriptiveTitle": "Thunderwave"
+    },
+    {
+      "category": "Jock",
+      "oldId": "jock-color-ca4357a51e",
+      "newId": "joknos-jock-character-art",
+      "oldCss": "css/assets/jock/jock-color-ca4357a51e.css",
+      "newCss": "css/assets/jock/joknos-jock-character-art.css",
+      "oldJson": "json/assets/jock/jock-color-ca4357a51e.json",
+      "newJson": "json/assets/jock/joknos-jock-character-art.json",
+      "descriptiveTitle": "Joknos Jock Character Art"
+    },
+    {
+      "category": "Korbin",
+      "oldId": "addtext-05-26-03-31-19-cca197493b",
+      "newId": "korbin-silverdew-name-banner",
+      "oldCss": "css/assets/korbin/addtext-05-26-03-31-19-cca197493b.css",
+      "newCss": "css/assets/korbin/korbin-silverdew-name-banner.css",
+      "oldJson": "json/assets/korbin/addtext-05-26-03-31-19-cca197493b.json",
+      "newJson": "json/assets/korbin/korbin-silverdew-name-banner.json",
+      "descriptiveTitle": "Korbin Silverdew Name Banner"
+    },
+    {
+      "category": "Korbin",
+      "oldId": "addtext-06-02-01-02-14-52a3dbdb53",
+      "newId": "korbin-bless-spell-card",
+      "oldCss": "css/assets/korbin/addtext-06-02-01-02-14-52a3dbdb53.css",
+      "newCss": "css/assets/korbin/korbin-bless-spell-card.css",
+      "oldJson": "json/assets/korbin/addtext-06-02-01-02-14-52a3dbdb53.json",
+      "newJson": "json/assets/korbin/korbin-bless-spell-card.json",
+      "descriptiveTitle": "Bless"
+    },
+    {
+      "category": "Korbin",
+      "oldId": "addtext-06-02-01-05-27-28391b0139",
+      "newId": "korbin-sacred-flame-spell-card",
+      "oldCss": "css/assets/korbin/addtext-06-02-01-05-27-28391b0139.css",
+      "newCss": "css/assets/korbin/korbin-sacred-flame-spell-card.css",
+      "oldJson": "json/assets/korbin/addtext-06-02-01-05-27-28391b0139.json",
+      "newJson": "json/assets/korbin/korbin-sacred-flame-spell-card.json",
+      "descriptiveTitle": "Sacred Flame"
+    },
+    {
+      "category": "Korbin",
+      "oldId": "addtext-06-02-01-07-47-3ddbb56002",
+      "newId": "korbin-fire-bolt-spell-card",
+      "oldCss": "css/assets/korbin/addtext-06-02-01-07-47-3ddbb56002.css",
+      "newCss": "css/assets/korbin/korbin-fire-bolt-spell-card.css",
+      "oldJson": "json/assets/korbin/addtext-06-02-01-07-47-3ddbb56002.json",
+      "newJson": "json/assets/korbin/korbin-fire-bolt-spell-card.json",
+      "descriptiveTitle": "Fire Bolt"
+    },
+    {
+      "category": "Korbin",
+      "oldId": "addtext-06-02-01-14-20-42b8b3cba8",
+      "newId": "korbin-friends-spell-card",
+      "oldCss": "css/assets/korbin/addtext-06-02-01-14-20-42b8b3cba8.css",
+      "newCss": "css/assets/korbin/korbin-friends-spell-card.css",
+      "oldJson": "json/assets/korbin/addtext-06-02-01-14-20-42b8b3cba8.json",
+      "newJson": "json/assets/korbin/korbin-friends-spell-card.json",
+      "descriptiveTitle": "Friends"
+    },
+    {
+      "category": "Korbin",
+      "oldId": "addtext-06-02-12-44-35-6b05f292c4",
+      "newId": "korbin-death-ward-spell-card",
+      "oldCss": "css/assets/korbin/addtext-06-02-12-44-35-6b05f292c4.css",
+      "newCss": "css/assets/korbin/korbin-death-ward-spell-card.css",
+      "oldJson": "json/assets/korbin/addtext-06-02-12-44-35-6b05f292c4.json",
+      "newJson": "json/assets/korbin/korbin-death-ward-spell-card.json",
+      "descriptiveTitle": "Death Ward"
+    },
+    {
+      "category": "Korbin",
+      "oldId": "addtext-07-27-01-32-09-eb761f650a",
+      "newId": "korbin-hold-person-spell-card",
+      "oldCss": "css/assets/korbin/addtext-07-27-01-32-09-eb761f650a.css",
+      "newCss": "css/assets/korbin/korbin-hold-person-spell-card.css",
+      "oldJson": "json/assets/korbin/addtext-07-27-01-32-09-eb761f650a.json",
+      "newJson": "json/assets/korbin/korbin-hold-person-spell-card.json",
+      "descriptiveTitle": "Hold Person"
+    },
+    {
+      "category": "Korbin",
+      "oldId": "korbin-color-cb09e187f9",
+      "newId": "korbin-silverdew-character-art",
+      "oldCss": "css/assets/korbin/korbin-color-cb09e187f9.css",
+      "newCss": "css/assets/korbin/korbin-silverdew-character-art.css",
+      "oldJson": "json/assets/korbin/korbin-color-cb09e187f9.json",
+      "newJson": "json/assets/korbin/korbin-silverdew-character-art.json",
+      "descriptiveTitle": "Korbin Silverdew Character Art"
+    },
+    {
+      "category": "Monk",
+      "oldId": "addtext-05-26-03-34-38-d20d92159c",
+      "newId": "monk-name-banner",
+      "oldCss": "css/assets/monk/addtext-05-26-03-34-38-d20d92159c.css",
+      "newCss": "css/assets/monk/monk-name-banner.css",
+      "oldJson": "json/assets/monk/addtext-05-26-03-34-38-d20d92159c.json",
+      "newJson": "json/assets/monk/monk-name-banner.json",
+      "descriptiveTitle": "Monk Name Banner"
+    },
+    {
+      "category": "Monk",
+      "oldId": "addtext-06-02-03-24-59-9c6fcc0087",
+      "newId": "monk-open-hand-technique-character-asset",
+      "oldCss": "css/assets/monk/addtext-06-02-03-24-59-9c6fcc0087.css",
+      "newCss": "css/assets/monk/monk-open-hand-technique-character-asset.css",
+      "oldJson": "json/assets/monk/addtext-06-02-03-24-59-9c6fcc0087.json",
+      "newJson": "json/assets/monk/monk-open-hand-technique-character-asset.json",
+      "descriptiveTitle": "Open Hand Technique"
+    },
+    {
+      "category": "Monk",
+      "oldId": "addtext-06-02-03-27-20-9335f48b3d",
+      "newId": "monk-patient-defense-character-asset",
+      "oldCss": "css/assets/monk/addtext-06-02-03-27-20-9335f48b3d.css",
+      "newCss": "css/assets/monk/monk-patient-defense-character-asset.css",
+      "oldJson": "json/assets/monk/addtext-06-02-03-27-20-9335f48b3d.json",
+      "newJson": "json/assets/monk/monk-patient-defense-character-asset.json",
+      "descriptiveTitle": "Patient Defense"
+    },
+    {
+      "category": "Monk",
+      "oldId": "addtext-06-02-03-33-55-64f561f043",
+      "newId": "monk-deflect-attacks-character-asset",
+      "oldCss": "css/assets/monk/addtext-06-02-03-33-55-64f561f043.css",
+      "newCss": "css/assets/monk/monk-deflect-attacks-character-asset.css",
+      "oldJson": "json/assets/monk/addtext-06-02-03-33-55-64f561f043.json",
+      "newJson": "json/assets/monk/monk-deflect-attacks-character-asset.json",
+      "descriptiveTitle": "Deflect Attacks"
+    },
+    {
+      "category": "Monk",
+      "oldId": "addtext-06-02-03-38-49-002a9a9868",
+      "newId": "monk-step-of-the-wind-character-asset",
+      "oldCss": "css/assets/monk/addtext-06-02-03-38-49-002a9a9868.css",
+      "newCss": "css/assets/monk/monk-step-of-the-wind-character-asset.css",
+      "oldJson": "json/assets/monk/addtext-06-02-03-38-49-002a9a9868.json",
+      "newJson": "json/assets/monk/monk-step-of-the-wind-character-asset.json",
+      "descriptiveTitle": "Step of the Wind"
+    },
+    {
+      "category": "Monk",
+      "oldId": "addtext-06-02-03-40-31-5d8db144a8",
+      "newId": "monk-empowered-strikes-character-asset",
+      "oldCss": "css/assets/monk/addtext-06-02-03-40-31-5d8db144a8.css",
+      "newCss": "css/assets/monk/monk-empowered-strikes-character-asset.css",
+      "oldJson": "json/assets/monk/addtext-06-02-03-40-31-5d8db144a8.json",
+      "newJson": "json/assets/monk/monk-empowered-strikes-character-asset.json",
+      "descriptiveTitle": "Empowered Strikes"
+    },
+    {
+      "category": "Monk",
+      "oldId": "addtext-06-02-03-43-32-36403a584d",
+      "newId": "monk-flurry-of-blows-character-asset",
+      "oldCss": "css/assets/monk/addtext-06-02-03-43-32-36403a584d.css",
+      "newCss": "css/assets/monk/monk-flurry-of-blows-character-asset.css",
+      "oldJson": "json/assets/monk/addtext-06-02-03-43-32-36403a584d.json",
+      "newJson": "json/assets/monk/monk-flurry-of-blows-character-asset.json",
+      "descriptiveTitle": "Flurry of Blows"
+    },
+    {
+      "category": "Monk",
+      "oldId": "addtext-06-02-03-45-10-5c9f1ba479",
+      "newId": "monk-grapple-character-asset",
+      "oldCss": "css/assets/monk/addtext-06-02-03-45-10-5c9f1ba479.css",
+      "newCss": "css/assets/monk/monk-grapple-character-asset.css",
+      "oldJson": "json/assets/monk/addtext-06-02-03-45-10-5c9f1ba479.json",
+      "newJson": "json/assets/monk/monk-grapple-character-asset.json",
+      "descriptiveTitle": "Grapple"
+    },
+    {
+      "category": "Monk",
+      "oldId": "addtext-06-02-03-46-58-9786ad2d4b",
+      "newId": "monk-stunning-strike-character-asset",
+      "oldCss": "css/assets/monk/addtext-06-02-03-46-58-9786ad2d4b.css",
+      "newCss": "css/assets/monk/monk-stunning-strike-character-asset.css",
+      "oldJson": "json/assets/monk/addtext-06-02-03-46-58-9786ad2d4b.json",
+      "newJson": "json/assets/monk/monk-stunning-strike-character-asset.json",
+      "descriptiveTitle": "Stunning Strike"
+    },
+    {
+      "category": "Monk",
+      "oldId": "addtext-06-02-03-48-41-96efdd57b0",
+      "newId": "monk-fleet-step-character-asset",
+      "oldCss": "css/assets/monk/addtext-06-02-03-48-41-96efdd57b0.css",
+      "newCss": "css/assets/monk/monk-fleet-step-character-asset.css",
+      "oldJson": "json/assets/monk/addtext-06-02-03-48-41-96efdd57b0.json",
+      "newJson": "json/assets/monk/monk-fleet-step-character-asset.json",
+      "descriptiveTitle": "Fleet Step"
+    },
+    {
+      "category": "Monk",
+      "oldId": "addtext-06-08-05-29-56-e9d6535e38",
+      "newId": "monk-character-sheet",
+      "oldCss": "css/assets/monk/addtext-06-08-05-29-56-e9d6535e38.css",
+      "newCss": "css/assets/monk/monk-character-sheet.css",
+      "oldJson": "json/assets/monk/addtext-06-08-05-29-56-e9d6535e38.json",
+      "newJson": "json/assets/monk/monk-character-sheet.json",
+      "descriptiveTitle": "Monk"
+    },
+    {
+      "category": "Monsters/Art",
+      "oldId": "addtext-06-01-07-17-06-9569d4cc61",
+      "newId": "monsters-art-giant-spider-monster-art",
+      "oldCss": "css/assets/monsters/art/addtext-06-01-07-17-06-9569d4cc61.css",
+      "newCss": "css/assets/monsters/art/monsters-art-giant-spider-monster-art.css",
+      "oldJson": "json/assets/monsters/art/addtext-06-01-07-17-06-9569d4cc61.json",
+      "newJson": "json/assets/monsters/art/monsters-art-giant-spider-monster-art.json",
+      "descriptiveTitle": "Giant Spider"
+    },
+    {
+      "category": "Monsters/Art",
+      "oldId": "received-1087618778456533-b4633cd5a1",
+      "newId": "monsters-art-giant-spider-monster-art-2",
+      "oldCss": "css/assets/monsters/art/received-1087618778456533-b4633cd5a1.css",
+      "newCss": "css/assets/monsters/art/monsters-art-giant-spider-monster-art-2.css",
+      "oldJson": "json/assets/monsters/art/received-1087618778456533-b4633cd5a1.json",
+      "newJson": "json/assets/monsters/art/monsters-art-giant-spider-monster-art-2.json",
+      "descriptiveTitle": "Giant Spider"
+    },
+    {
+      "category": "Monsters/Art",
+      "oldId": "received-1434114433719338-020abd9a4c",
+      "newId": "monsters-art-swarm-of-insects-monster-art",
+      "oldCss": "css/assets/monsters/art/received-1434114433719338-020abd9a4c.css",
+      "newCss": "css/assets/monsters/art/monsters-art-swarm-of-insects-monster-art.css",
+      "oldJson": "json/assets/monsters/art/received-1434114433719338-020abd9a4c.json",
+      "newJson": "json/assets/monsters/art/monsters-art-swarm-of-insects-monster-art.json",
+      "descriptiveTitle": "Swarm of Insects"
+    },
+    {
+      "category": "Monsters/Art",
+      "oldId": "received-2795844054058229-320da322d9",
+      "newId": "monsters-art-zombie-monster-art",
+      "oldCss": "css/assets/monsters/art/received-2795844054058229-320da322d9.css",
+      "newCss": "css/assets/monsters/art/monsters-art-zombie-monster-art.css",
+      "oldJson": "json/assets/monsters/art/received-2795844054058229-320da322d9.json",
+      "newJson": "json/assets/monsters/art/monsters-art-zombie-monster-art.json",
+      "descriptiveTitle": "Zombie"
+    },
+    {
+      "category": "Monsters/Art",
+      "oldId": "received-689132005492663-5746940926",
+      "newId": "monsters-art-swarm-of-insects-monster-art-2",
+      "oldCss": "css/assets/monsters/art/received-689132005492663-5746940926.css",
+      "newCss": "css/assets/monsters/art/monsters-art-swarm-of-insects-monster-art-2.css",
+      "oldJson": "json/assets/monsters/art/received-689132005492663-5746940926.json",
+      "newJson": "json/assets/monsters/art/monsters-art-swarm-of-insects-monster-art-2.json",
+      "descriptiveTitle": "Swarm of Insects"
+    },
+    {
+      "category": "Monsters/Art",
+      "oldId": "received-693123208466700-99bca4d55a",
+      "newId": "monsters-art-giant-wolf-spider-monster-art",
+      "oldCss": "css/assets/monsters/art/received-693123208466700-99bca4d55a.css",
+      "newCss": "css/assets/monsters/art/monsters-art-giant-wolf-spider-monster-art.css",
+      "oldJson": "json/assets/monsters/art/received-693123208466700-99bca4d55a.json",
+      "newJson": "json/assets/monsters/art/monsters-art-giant-wolf-spider-monster-art.json",
+      "descriptiveTitle": "Giant Wolf Spider"
+    },
+    {
+      "category": "Monsters/Art",
+      "oldId": "received-732916878016111-55e7fe1599",
+      "newId": "monsters-art-spider-monster-art",
+      "oldCss": "css/assets/monsters/art/received-732916878016111-55e7fe1599.css",
+      "newCss": "css/assets/monsters/art/monsters-art-spider-monster-art.css",
+      "oldJson": "json/assets/monsters/art/received-732916878016111-55e7fe1599.json",
+      "newJson": "json/assets/monsters/art/monsters-art-spider-monster-art.json",
+      "descriptiveTitle": "Spider"
+    },
+    {
+      "category": "Monsters/Art",
+      "oldId": "received-759653265030873-ccea68a01c",
+      "newId": "monsters-art-swarm-of-insects-monster-art-3",
+      "oldCss": "css/assets/monsters/art/received-759653265030873-ccea68a01c.css",
+      "newCss": "css/assets/monsters/art/monsters-art-swarm-of-insects-monster-art-3.css",
+      "oldJson": "json/assets/monsters/art/received-759653265030873-ccea68a01c.json",
+      "newJson": "json/assets/monsters/art/monsters-art-swarm-of-insects-monster-art-3.json",
+      "descriptiveTitle": "Swarm of Insects"
+    },
+    {
+      "category": "Monsters/Deck",
+      "oldId": "fire-ant-swarm-5494f621e6",
+      "newId": "monsters-deck-swarm-of-insects-monster-card",
+      "oldCss": "css/assets/monsters/deck/fire-ant-swarm-5494f621e6.css",
+      "newCss": "css/assets/monsters/deck/monsters-deck-swarm-of-insects-monster-card.css",
+      "oldJson": "json/assets/monsters/deck/fire-ant-swarm-5494f621e6.json",
+      "newJson": "json/assets/monsters/deck/monsters-deck-swarm-of-insects-monster-card.json",
+      "descriptiveTitle": "Swarm of Insects"
+    },
+    {
+      "category": "Monsters/Deck",
+      "oldId": "horsefly-swarm-101fb61f8d",
+      "newId": "monsters-deck-swarm-of-insects-monster-card-2",
+      "oldCss": "css/assets/monsters/deck/horsefly-swarm-101fb61f8d.css",
+      "newCss": "css/assets/monsters/deck/monsters-deck-swarm-of-insects-monster-card-2.css",
+      "oldJson": "json/assets/monsters/deck/horsefly-swarm-101fb61f8d.json",
+      "newJson": "json/assets/monsters/deck/monsters-deck-swarm-of-insects-monster-card-2.json",
+      "descriptiveTitle": "Swarm of Insects"
+    },
+    {
+      "category": "Monsters/Deck",
+      "oldId": "huge-spider-b081046ef3",
+      "newId": "monsters-deck-giant-spider-monster-card",
+      "oldCss": "css/assets/monsters/deck/huge-spider-b081046ef3.css",
+      "newCss": "css/assets/monsters/deck/monsters-deck-giant-spider-monster-card.css",
+      "oldJson": "json/assets/monsters/deck/huge-spider-b081046ef3.json",
+      "newJson": "json/assets/monsters/deck/monsters-deck-giant-spider-monster-card.json",
+      "descriptiveTitle": "Giant Spider"
+    },
+    {
+      "category": "Monsters/Deck",
+      "oldId": "large-spider-498781cc98",
+      "newId": "monsters-deck-giant-spider-monster-card-2",
+      "oldCss": "css/assets/monsters/deck/large-spider-498781cc98.css",
+      "newCss": "css/assets/monsters/deck/monsters-deck-giant-spider-monster-card-2.css",
+      "oldJson": "json/assets/monsters/deck/large-spider-498781cc98.json",
+      "newJson": "json/assets/monsters/deck/monsters-deck-giant-spider-monster-card-2.json",
+      "descriptiveTitle": "Giant Spider"
+    },
+    {
+      "category": "Monsters/Deck",
+      "oldId": "medium-spider-1311c2de60",
+      "newId": "monsters-deck-giant-wolf-spider-monster-card",
+      "oldCss": "css/assets/monsters/deck/medium-spider-1311c2de60.css",
+      "newCss": "css/assets/monsters/deck/monsters-deck-giant-wolf-spider-monster-card.css",
+      "oldJson": "json/assets/monsters/deck/medium-spider-1311c2de60.json",
+      "newJson": "json/assets/monsters/deck/monsters-deck-giant-wolf-spider-monster-card.json",
+      "descriptiveTitle": "Giant Wolf Spider"
+    },
+    {
+      "category": "Monsters/Deck",
+      "oldId": "mosquito-swarm-df7d3dab57",
+      "newId": "monsters-deck-swarm-of-insects-monster-card-3",
+      "oldCss": "css/assets/monsters/deck/mosquito-swarm-df7d3dab57.css",
+      "newCss": "css/assets/monsters/deck/monsters-deck-swarm-of-insects-monster-card-3.css",
+      "oldJson": "json/assets/monsters/deck/mosquito-swarm-df7d3dab57.json",
+      "newJson": "json/assets/monsters/deck/monsters-deck-swarm-of-insects-monster-card-3.json",
+      "descriptiveTitle": "Swarm of Insects"
+    },
+    {
+      "category": "Monsters/Deck",
+      "oldId": "skeleton-monster-22f4d280d7",
+      "newId": "monsters-deck-skeleton-monster-card",
+      "oldCss": "css/assets/monsters/deck/skeleton-monster-22f4d280d7.css",
+      "newCss": "css/assets/monsters/deck/monsters-deck-skeleton-monster-card.css",
+      "oldJson": "json/assets/monsters/deck/skeleton-monster-22f4d280d7.json",
+      "newJson": "json/assets/monsters/deck/monsters-deck-skeleton-monster-card.json",
+      "descriptiveTitle": "Skeleton"
+    },
+    {
+      "category": "Monsters/Deck",
+      "oldId": "small-spider-905397471c",
+      "newId": "monsters-deck-spider-monster-card",
+      "oldCss": "css/assets/monsters/deck/small-spider-905397471c.css",
+      "newCss": "css/assets/monsters/deck/monsters-deck-spider-monster-card.css",
+      "oldJson": "json/assets/monsters/deck/small-spider-905397471c.json",
+      "newJson": "json/assets/monsters/deck/monsters-deck-spider-monster-card.json",
+      "descriptiveTitle": "Spider"
+    },
+    {
+      "category": "Monsters/Deck",
+      "oldId": "zombie-monster-9f8c1079a0",
+      "newId": "monsters-deck-zombie-monster-card",
+      "oldCss": "css/assets/monsters/deck/zombie-monster-9f8c1079a0.css",
+      "newCss": "css/assets/monsters/deck/monsters-deck-zombie-monster-card.css",
+      "oldJson": "json/assets/monsters/deck/zombie-monster-9f8c1079a0.json",
+      "newJson": "json/assets/monsters/deck/monsters-deck-zombie-monster-card.json",
+      "descriptiveTitle": "Zombie"
+    },
+    {
+      "category": "Monsters/Tokens",
+      "oldId": "addtext-05-26-04-59-12-ac815955e6",
+      "newId": "monsters-tokens-swarm-of-insects-monster-token",
+      "oldCss": "css/assets/monsters/tokens/addtext-05-26-04-59-12-ac815955e6.css",
+      "newCss": "css/assets/monsters/tokens/monsters-tokens-swarm-of-insects-monster-token.css",
+      "oldJson": "json/assets/monsters/tokens/addtext-05-26-04-59-12-ac815955e6.json",
+      "newJson": "json/assets/monsters/tokens/monsters-tokens-swarm-of-insects-monster-token.json",
+      "descriptiveTitle": "Swarm of Insects"
+    },
+    {
+      "category": "Monsters/Tokens",
+      "oldId": "addtext-05-26-05-00-28-9fba87d058",
+      "newId": "monsters-tokens-spider-monster-token",
+      "oldCss": "css/assets/monsters/tokens/addtext-05-26-05-00-28-9fba87d058.css",
+      "newCss": "css/assets/monsters/tokens/monsters-tokens-spider-monster-token.css",
+      "oldJson": "json/assets/monsters/tokens/addtext-05-26-05-00-28-9fba87d058.json",
+      "newJson": "json/assets/monsters/tokens/monsters-tokens-spider-monster-token.json",
+      "descriptiveTitle": "Spider"
+    },
+    {
+      "category": "Monsters/Tokens",
+      "oldId": "addtext-05-26-05-04-30-f56a01e6be",
+      "newId": "monsters-tokens-giant-spider-monster-token",
+      "oldCss": "css/assets/monsters/tokens/addtext-05-26-05-04-30-f56a01e6be.css",
+      "newCss": "css/assets/monsters/tokens/monsters-tokens-giant-spider-monster-token.css",
+      "oldJson": "json/assets/monsters/tokens/addtext-05-26-05-04-30-f56a01e6be.json",
+      "newJson": "json/assets/monsters/tokens/monsters-tokens-giant-spider-monster-token.json",
+      "descriptiveTitle": "Giant Spider"
+    },
+    {
+      "category": "Monsters/Tokens",
+      "oldId": "addtext-06-01-06-41-24-2e6655b9cf",
+      "newId": "monsters-tokens-zombie-monster-token",
+      "oldCss": "css/assets/monsters/tokens/addtext-06-01-06-41-24-2e6655b9cf.css",
+      "newCss": "css/assets/monsters/tokens/monsters-tokens-zombie-monster-token.css",
+      "oldJson": "json/assets/monsters/tokens/addtext-06-01-06-41-24-2e6655b9cf.json",
+      "newJson": "json/assets/monsters/tokens/monsters-tokens-zombie-monster-token.json",
+      "descriptiveTitle": "Zombie"
+    },
+    {
+      "category": "Monsters/Tokens",
+      "oldId": "addtext-06-01-06-43-56-ff2b3d907c",
+      "newId": "monsters-tokens-giant-wolf-spider-monster-token",
+      "oldCss": "css/assets/monsters/tokens/addtext-06-01-06-43-56-ff2b3d907c.css",
+      "newCss": "css/assets/monsters/tokens/monsters-tokens-giant-wolf-spider-monster-token.css",
+      "oldJson": "json/assets/monsters/tokens/addtext-06-01-06-43-56-ff2b3d907c.json",
+      "newJson": "json/assets/monsters/tokens/monsters-tokens-giant-wolf-spider-monster-token.json",
+      "descriptiveTitle": "Giant Wolf Spider"
+    },
+    {
+      "category": "Monsters/Tokens",
+      "oldId": "addtext-06-01-06-49-47-2ca714ecbe",
+      "newId": "monsters-tokens-swarm-of-insects-monster-token-2",
+      "oldCss": "css/assets/monsters/tokens/addtext-06-01-06-49-47-2ca714ecbe.css",
+      "newCss": "css/assets/monsters/tokens/monsters-tokens-swarm-of-insects-monster-token-2.css",
+      "oldJson": "json/assets/monsters/tokens/addtext-06-01-06-49-47-2ca714ecbe.json",
+      "newJson": "json/assets/monsters/tokens/monsters-tokens-swarm-of-insects-monster-token-2.json",
+      "descriptiveTitle": "Swarm of Insects"
+    },
+    {
+      "category": "Monsters/Tokens",
+      "oldId": "addtext-06-01-07-41-18-1f0a830a1e",
+      "newId": "monsters-tokens-giant-spider-monster-token-2",
+      "oldCss": "css/assets/monsters/tokens/addtext-06-01-07-41-18-1f0a830a1e.css",
+      "newCss": "css/assets/monsters/tokens/monsters-tokens-giant-spider-monster-token-2.css",
+      "oldJson": "json/assets/monsters/tokens/addtext-06-01-07-41-18-1f0a830a1e.json",
+      "newJson": "json/assets/monsters/tokens/monsters-tokens-giant-spider-monster-token-2.json",
+      "descriptiveTitle": "Giant Spider"
+    },
+    {
+      "category": "Monsters/Tokens",
+      "oldId": "addtext-06-02-10-55-45-f775b5d66e",
+      "newId": "monsters-tokens-swarm-of-insects-monster-token-3",
+      "oldCss": "css/assets/monsters/tokens/addtext-06-02-10-55-45-f775b5d66e.css",
+      "newCss": "css/assets/monsters/tokens/monsters-tokens-swarm-of-insects-monster-token-3.css",
+      "oldJson": "json/assets/monsters/tokens/addtext-06-02-10-55-45-f775b5d66e.json",
+      "newJson": "json/assets/monsters/tokens/monsters-tokens-swarm-of-insects-monster-token-3.json",
+      "descriptiveTitle": "Swarm of Insects"
+    },
+    {
+      "category": "Monsters/Tokens",
+      "oldId": "addtext-06-08-10-19-21-ac04cd466e",
+      "newId": "monsters-tokens-daltu-character-token",
+      "oldCss": "css/assets/monsters/tokens/addtext-06-08-10-19-21-ac04cd466e.css",
+      "newCss": "css/assets/monsters/tokens/monsters-tokens-daltu-character-token.css",
+      "oldJson": "json/assets/monsters/tokens/addtext-06-08-10-19-21-ac04cd466e.json",
+      "newJson": "json/assets/monsters/tokens/monsters-tokens-daltu-character-token.json",
+      "descriptiveTitle": "Daltu Character Token"
+    },
+    {
+      "category": "Monsters/Tokens",
+      "oldId": "addtext-07-27-02-28-28-c85a9d0d23",
+      "newId": "monsters-tokens-pile-of-clothes-token",
+      "oldCss": "css/assets/monsters/tokens/addtext-07-27-02-28-28-c85a9d0d23.css",
+      "newCss": "css/assets/monsters/tokens/monsters-tokens-pile-of-clothes-token.css",
+      "oldJson": "json/assets/monsters/tokens/addtext-07-27-02-28-28-c85a9d0d23.json",
+      "newJson": "json/assets/monsters/tokens/monsters-tokens-pile-of-clothes-token.json",
+      "descriptiveTitle": "Pile of Clothes Token"
+    },
+    {
+      "category": "Monsters/Tokens",
+      "oldId": "received-1378106846040936-74c1a5f126",
+      "newId": "monsters-tokens-skeleton-monster-token",
+      "oldCss": "css/assets/monsters/tokens/received-1378106846040936-74c1a5f126.css",
+      "newCss": "css/assets/monsters/tokens/monsters-tokens-skeleton-monster-token.css",
+      "oldJson": "json/assets/monsters/tokens/received-1378106846040936-74c1a5f126.json",
+      "newJson": "json/assets/monsters/tokens/monsters-tokens-skeleton-monster-token.json",
+      "descriptiveTitle": "Skeleton"
+    },
+    {
+      "category": "Monsters/Tokens",
+      "oldId": "received-1518175645306076-0ed3f5654a",
+      "newId": "monsters-tokens-skeleton-monster-token-2",
+      "oldCss": "css/assets/monsters/tokens/received-1518175645306076-0ed3f5654a.css",
+      "newCss": "css/assets/monsters/tokens/monsters-tokens-skeleton-monster-token-2.css",
+      "oldJson": "json/assets/monsters/tokens/received-1518175645306076-0ed3f5654a.json",
+      "newJson": "json/assets/monsters/tokens/monsters-tokens-skeleton-monster-token-2.json",
+      "descriptiveTitle": "Skeleton"
+    },
+    {
+      "category": "Noldrack",
+      "oldId": "addtext-06-02-03-47-01-ed0c649b90",
+      "newId": "noldrack-flaming-sphere-spell-card",
+      "oldCss": "css/assets/noldrack/addtext-06-02-03-47-01-ed0c649b90.css",
+      "newCss": "css/assets/noldrack/noldrack-flaming-sphere-spell-card.css",
+      "oldJson": "json/assets/noldrack/addtext-06-02-03-47-01-ed0c649b90.json",
+      "newJson": "json/assets/noldrack/noldrack-flaming-sphere-spell-card.json",
+      "descriptiveTitle": "Flaming Sphere"
+    },
+    {
+      "category": "Noldrack",
+      "oldId": "addtext-06-02-03-55-47-350c1826da",
+      "newId": "noldrack-find-traps-spell-card",
+      "oldCss": "css/assets/noldrack/addtext-06-02-03-55-47-350c1826da.css",
+      "newCss": "css/assets/noldrack/noldrack-find-traps-spell-card.css",
+      "oldJson": "json/assets/noldrack/addtext-06-02-03-55-47-350c1826da.json",
+      "newJson": "json/assets/noldrack/noldrack-find-traps-spell-card.json",
+      "descriptiveTitle": "Find Traps"
+    },
+    {
+      "category": "Noldrack",
+      "oldId": "addtext-06-02-03-59-11-44df4b4359",
+      "newId": "noldrack-gust-of-wind-spell-card",
+      "oldCss": "css/assets/noldrack/addtext-06-02-03-59-11-44df4b4359.css",
+      "newCss": "css/assets/noldrack/noldrack-gust-of-wind-spell-card.css",
+      "oldJson": "json/assets/noldrack/addtext-06-02-03-59-11-44df4b4359.json",
+      "newJson": "json/assets/noldrack/noldrack-gust-of-wind-spell-card.json",
+      "descriptiveTitle": "Gust of Wind"
+    },
+    {
+      "category": "Noldrack",
+      "oldId": "addtext-06-02-04-03-45-7ebcdeaf7f",
+      "newId": "noldrack-ray-of-frost-spell-card",
+      "oldCss": "css/assets/noldrack/addtext-06-02-04-03-45-7ebcdeaf7f.css",
+      "newCss": "css/assets/noldrack/noldrack-ray-of-frost-spell-card.css",
+      "oldJson": "json/assets/noldrack/addtext-06-02-04-03-45-7ebcdeaf7f.json",
+      "newJson": "json/assets/noldrack/noldrack-ray-of-frost-spell-card.json",
+      "descriptiveTitle": "Ray of Frost"
+    },
+    {
+      "category": "Noldrack",
+      "oldId": "addtext-06-02-04-12-08-b030eb5613",
+      "newId": "noldrack-charm-person-spell-card",
+      "oldCss": "css/assets/noldrack/addtext-06-02-04-12-08-b030eb5613.css",
+      "newCss": "css/assets/noldrack/noldrack-charm-person-spell-card.css",
+      "oldJson": "json/assets/noldrack/addtext-06-02-04-12-08-b030eb5613.json",
+      "newJson": "json/assets/noldrack/noldrack-charm-person-spell-card.json",
+      "descriptiveTitle": "Charm Person"
+    },
+    {
+      "category": "Noldrack",
+      "oldId": "addtext-06-02-04-18-04-88664b7b16",
+      "newId": "noldrack-gust-of-wind-spell-card-2",
+      "oldCss": "css/assets/noldrack/addtext-06-02-04-18-04-88664b7b16.css",
+      "newCss": "css/assets/noldrack/noldrack-gust-of-wind-spell-card-2.css",
+      "oldJson": "json/assets/noldrack/addtext-06-02-04-18-04-88664b7b16.json",
+      "newJson": "json/assets/noldrack/noldrack-gust-of-wind-spell-card-2.json",
+      "descriptiveTitle": "Gust of Wind"
+    },
+    {
+      "category": "Noldrack",
+      "oldId": "addtext-06-02-12-22-05-4942ec8049",
+      "newId": "noldrack-poison-spray-spell-card",
+      "oldCss": "css/assets/noldrack/addtext-06-02-12-22-05-4942ec8049.css",
+      "newCss": "css/assets/noldrack/noldrack-poison-spray-spell-card.css",
+      "oldJson": "json/assets/noldrack/addtext-06-02-12-22-05-4942ec8049.json",
+      "newJson": "json/assets/noldrack/noldrack-poison-spray-spell-card.json",
+      "descriptiveTitle": "Poison Spray"
+    },
+    {
+      "category": "Noldrack",
+      "oldId": "addtext-06-02-12-52-23-20af9aab61",
+      "newId": "noldrack-thorn-whip-spell-card",
+      "oldCss": "css/assets/noldrack/addtext-06-02-12-52-23-20af9aab61.css",
+      "newCss": "css/assets/noldrack/noldrack-thorn-whip-spell-card.css",
+      "oldJson": "json/assets/noldrack/addtext-06-02-12-52-23-20af9aab61.json",
+      "newJson": "json/assets/noldrack/noldrack-thorn-whip-spell-card.json",
+      "descriptiveTitle": "Thorn Whip"
+    },
+    {
+      "category": "Noldrack",
+      "oldId": "addtext-06-08-05-30-27-84b8705a6c",
+      "newId": "noldrack-goldhide-character-sheet",
+      "oldCss": "css/assets/noldrack/addtext-06-08-05-30-27-84b8705a6c.css",
+      "newCss": "css/assets/noldrack/noldrack-goldhide-character-sheet.css",
+      "oldJson": "json/assets/noldrack/addtext-06-08-05-30-27-84b8705a6c.json",
+      "newJson": "json/assets/noldrack/noldrack-goldhide-character-sheet.json",
+      "descriptiveTitle": "Noldrack Goldhide"
+    },
+    {
+      "category": "Noldrack",
+      "oldId": "noldrack-color-52aa4717c4",
+      "newId": "noldrack-goldblade-character-art",
+      "oldCss": "css/assets/noldrack/noldrack-color-52aa4717c4.css",
+      "newCss": "css/assets/noldrack/noldrack-goldblade-character-art.css",
+      "oldJson": "json/assets/noldrack/noldrack-color-52aa4717c4.json",
+      "newJson": "json/assets/noldrack/noldrack-goldblade-character-art.json",
+      "descriptiveTitle": "Noldrack Goldblade Character Art"
+    },
+    {
+      "category": "Trap Deck",
+      "oldId": "acid-pit-538ac0ef78",
+      "newId": "trap-deck-acid-pit-trap-card",
+      "oldCss": "css/assets/trap-deck/acid-pit-538ac0ef78.css",
+      "newCss": "css/assets/trap-deck/trap-deck-acid-pit-trap-card.css",
+      "oldJson": "json/assets/trap-deck/acid-pit-538ac0ef78.json",
+      "newJson": "json/assets/trap-deck/trap-deck-acid-pit-trap-card.json",
+      "descriptiveTitle": "Acid Pit"
+    },
+    {
+      "category": "Trap Deck",
+      "oldId": "collapsing-roof-868d559dd2",
+      "newId": "trap-deck-collapsing-roof-trap-card",
+      "oldCss": "css/assets/trap-deck/collapsing-roof-868d559dd2.css",
+      "newCss": "css/assets/trap-deck/trap-deck-collapsing-roof-trap-card.css",
+      "oldJson": "json/assets/trap-deck/collapsing-roof-868d559dd2.json",
+      "newJson": "json/assets/trap-deck/trap-deck-collapsing-roof-trap-card.json",
+      "descriptiveTitle": "Collapsing Roof"
+    },
+    {
+      "category": "Trap Deck",
+      "oldId": "falling-net-d637f449da",
+      "newId": "trap-deck-falling-net-trap-card",
+      "oldCss": "css/assets/trap-deck/falling-net-d637f449da.css",
+      "newCss": "css/assets/trap-deck/trap-deck-falling-net-trap-card.css",
+      "oldJson": "json/assets/trap-deck/falling-net-d637f449da.json",
+      "newJson": "json/assets/trap-deck/trap-deck-falling-net-trap-card.json",
+      "descriptiveTitle": "Falling Net"
+    },
+    {
+      "category": "Trap Deck",
+      "oldId": "green-slime-trap-c1518451c2",
+      "newId": "trap-deck-green-slime-trap-card",
+      "oldCss": "css/assets/trap-deck/green-slime-trap-c1518451c2.css",
+      "newCss": "css/assets/trap-deck/trap-deck-green-slime-trap-card.css",
+      "oldJson": "json/assets/trap-deck/green-slime-trap-c1518451c2.json",
+      "newJson": "json/assets/trap-deck/trap-deck-green-slime-trap-card.json",
+      "descriptiveTitle": "Green Slime"
+    },
+    {
+      "category": "Trap Deck",
+      "oldId": "locking-pit-a511096175",
+      "newId": "trap-deck-locking-pit-trap-card",
+      "oldCss": "css/assets/trap-deck/locking-pit-a511096175.css",
+      "newCss": "css/assets/trap-deck/trap-deck-locking-pit-trap-card.css",
+      "oldJson": "json/assets/trap-deck/locking-pit-a511096175.json",
+      "newJson": "json/assets/trap-deck/trap-deck-locking-pit-trap-card.json",
+      "descriptiveTitle": "Locking Pit"
+    },
+    {
+      "category": "Trap Deck",
+      "oldId": "poison-darts-1670848269",
+      "newId": "trap-deck-poison-darts-trap-card",
+      "oldCss": "css/assets/trap-deck/poison-darts-1670848269.css",
+      "newCss": "css/assets/trap-deck/trap-deck-poison-darts-trap-card.css",
+      "oldJson": "json/assets/trap-deck/poison-darts-1670848269.json",
+      "newJson": "json/assets/trap-deck/trap-deck-poison-darts-trap-card.json",
+      "descriptiveTitle": "Poison Darts"
+    },
+    {
+      "category": "Trap Deck",
+      "oldId": "poison-spiked-trap-0f6e55775a",
+      "newId": "trap-deck-poison-spiked-pit-trap-card",
+      "oldCss": "css/assets/trap-deck/poison-spiked-trap-0f6e55775a.css",
+      "newCss": "css/assets/trap-deck/trap-deck-poison-spiked-pit-trap-card.css",
+      "oldJson": "json/assets/trap-deck/poison-spiked-trap-0f6e55775a.json",
+      "newJson": "json/assets/trap-deck/trap-deck-poison-spiked-pit-trap-card.json",
+      "descriptiveTitle": "Poison-Spiked Pit"
+    },
+    {
+      "category": "Treasure Deck",
+      "oldId": "addtext-05-25-08-04-22-04f6ca5e33",
+      "newId": "treasure-deck-locked-small-iron-chest-treasure-card",
+      "oldCss": "css/assets/treasure-deck/addtext-05-25-08-04-22-04f6ca5e33.css",
+      "newCss": "css/assets/treasure-deck/treasure-deck-locked-small-iron-chest-treasure-card.css",
+      "oldJson": "json/assets/treasure-deck/addtext-05-25-08-04-22-04f6ca5e33.json",
+      "newJson": "json/assets/treasure-deck/treasure-deck-locked-small-iron-chest-treasure-card.json",
+      "descriptiveTitle": "Locked Small Iron Chest"
+    },
+    {
+      "category": "Treasure Deck",
+      "oldId": "addtext-05-25-08-06-17-42c13a7d69",
+      "newId": "treasure-deck-trapped-small-ornate-chest-treasure-card",
+      "oldCss": "css/assets/treasure-deck/addtext-05-25-08-06-17-42c13a7d69.css",
+      "newCss": "css/assets/treasure-deck/treasure-deck-trapped-small-ornate-chest-treasure-card.css",
+      "oldJson": "json/assets/treasure-deck/addtext-05-25-08-06-17-42c13a7d69.json",
+      "newJson": "json/assets/treasure-deck/treasure-deck-trapped-small-ornate-chest-treasure-card.json",
+      "descriptiveTitle": "Trapped Small Ornate Chest"
+    },
+    {
+      "category": "Treasure Deck",
+      "oldId": "addtext-05-25-08-08-15-320a77d509",
+      "newId": "treasure-deck-small-wooden-chest-treasure-card",
+      "oldCss": "css/assets/treasure-deck/addtext-05-25-08-08-15-320a77d509.css",
+      "newCss": "css/assets/treasure-deck/treasure-deck-small-wooden-chest-treasure-card.css",
+      "oldJson": "json/assets/treasure-deck/addtext-05-25-08-08-15-320a77d509.json",
+      "newJson": "json/assets/treasure-deck/treasure-deck-small-wooden-chest-treasure-card.json",
+      "descriptiveTitle": "Small Wooden Chest"
+    },
+    {
+      "category": "Treasure Deck",
+      "oldId": "addtext-05-25-08-13-33-604afa8faa",
+      "newId": "treasure-deck-medium-iron-chest-treasure-card",
+      "oldCss": "css/assets/treasure-deck/addtext-05-25-08-13-33-604afa8faa.css",
+      "newCss": "css/assets/treasure-deck/treasure-deck-medium-iron-chest-treasure-card.css",
+      "oldJson": "json/assets/treasure-deck/addtext-05-25-08-13-33-604afa8faa.json",
+      "newJson": "json/assets/treasure-deck/treasure-deck-medium-iron-chest-treasure-card.json",
+      "descriptiveTitle": "Medium Iron Chest"
+    },
+    {
+      "category": "Treasure Deck",
+      "oldId": "addtext-05-25-08-17-51-a3fbdd8c0a",
+      "newId": "treasure-deck-locked-medium-wooden-chest-treasure-card",
+      "oldCss": "css/assets/treasure-deck/addtext-05-25-08-17-51-a3fbdd8c0a.css",
+      "newCss": "css/assets/treasure-deck/treasure-deck-locked-medium-wooden-chest-treasure-card.css",
+      "oldJson": "json/assets/treasure-deck/addtext-05-25-08-17-51-a3fbdd8c0a.json",
+      "newJson": "json/assets/treasure-deck/treasure-deck-locked-medium-wooden-chest-treasure-card.json",
+      "descriptiveTitle": "Locked Medium Wooden Chest"
+    },
+    {
+      "category": "Treasure Deck",
+      "oldId": "addtext-05-25-08-19-22-d4d4945ca8",
+      "newId": "treasure-deck-trapped-large-wooden-chest-treasure-card",
+      "oldCss": "css/assets/treasure-deck/addtext-05-25-08-19-22-d4d4945ca8.css",
+      "newCss": "css/assets/treasure-deck/treasure-deck-trapped-large-wooden-chest-treasure-card.css",
+      "oldJson": "json/assets/treasure-deck/addtext-05-25-08-19-22-d4d4945ca8.json",
+      "newJson": "json/assets/treasure-deck/treasure-deck-trapped-large-wooden-chest-treasure-card.json",
+      "descriptiveTitle": "Trapped Large Wooden Chest"
+    },
+    {
+      "category": "Treasure Deck",
+      "oldId": "addtext-05-25-08-20-48-da40f26b5f",
+      "newId": "treasure-deck-large-iron-chest-treasure-card",
+      "oldCss": "css/assets/treasure-deck/addtext-05-25-08-20-48-da40f26b5f.css",
+      "newCss": "css/assets/treasure-deck/treasure-deck-large-iron-chest-treasure-card.css",
+      "oldJson": "json/assets/treasure-deck/addtext-05-25-08-20-48-da40f26b5f.json",
+      "newJson": "json/assets/treasure-deck/treasure-deck-large-iron-chest-treasure-card.json",
+      "descriptiveTitle": "Large Iron Chest"
+    },
+    {
+      "category": "Treasure Deck",
+      "oldId": "addtext-05-25-08-22-46-d17d86346f",
+      "newId": "treasure-deck-brass-falcon-with-elven-script-treasure-card",
+      "oldCss": "css/assets/treasure-deck/addtext-05-25-08-22-46-d17d86346f.css",
+      "newCss": "css/assets/treasure-deck/treasure-deck-brass-falcon-with-elven-script-treasure-card.css",
+      "oldJson": "json/assets/treasure-deck/addtext-05-25-08-22-46-d17d86346f.json",
+      "newJson": "json/assets/treasure-deck/treasure-deck-brass-falcon-with-elven-script-treasure-card.json",
+      "descriptiveTitle": "Brass Falcon with Elven Script"
+    },
+    {
+      "category": "Treasure Deck",
+      "oldId": "addtext-05-25-08-23-16-036d1195f8",
+      "newId": "treasure-deck-brass-ewer-with-blue-quartz-treasure-card",
+      "oldCss": "css/assets/treasure-deck/addtext-05-25-08-23-16-036d1195f8.css",
+      "newCss": "css/assets/treasure-deck/treasure-deck-brass-ewer-with-blue-quartz-treasure-card.css",
+      "oldJson": "json/assets/treasure-deck/addtext-05-25-08-23-16-036d1195f8.json",
+      "newJson": "json/assets/treasure-deck/treasure-deck-brass-ewer-with-blue-quartz-treasure-card.json",
+      "descriptiveTitle": "Brass Ewer with Blue Quartz"
+    },
+    {
+      "category": "Treasure Deck",
+      "oldId": "addtext-05-25-08-24-06-365ec9370e",
+      "newId": "treasure-deck-cloth-cloak-trimmed-with-fur-treasure-card",
+      "oldCss": "css/assets/treasure-deck/addtext-05-25-08-24-06-365ec9370e.css",
+      "newCss": "css/assets/treasure-deck/treasure-deck-cloth-cloak-trimmed-with-fur-treasure-card.css",
+      "oldJson": "json/assets/treasure-deck/addtext-05-25-08-24-06-365ec9370e.json",
+      "newJson": "json/assets/treasure-deck/treasure-deck-cloth-cloak-trimmed-with-fur-treasure-card.json",
+      "descriptiveTitle": "Cloth Cloak Trimmed with Fur"
+    },
+    {
+      "category": "Treasure Deck",
+      "oldId": "addtext-05-25-08-24-35-bb14cd38f9",
+      "newId": "treasure-deck-marble-plate-with-silver-scrollwork-treasure-card",
+      "oldCss": "css/assets/treasure-deck/addtext-05-25-08-24-35-bb14cd38f9.css",
+      "newCss": "css/assets/treasure-deck/treasure-deck-marble-plate-with-silver-scrollwork-treasure-card.css",
+      "oldJson": "json/assets/treasure-deck/addtext-05-25-08-24-35-bb14cd38f9.json",
+      "newJson": "json/assets/treasure-deck/treasure-deck-marble-plate-with-silver-scrollwork-treasure-card.json",
+      "descriptiveTitle": "Marble Plate with Silver Scrollwork"
+    },
+    {
+      "category": "Treasure Deck",
+      "oldId": "addtext-05-25-08-25-55-d6184c4004",
+      "newId": "treasure-deck-wooden-rod-with-arcane-runes-treasure-card",
+      "oldCss": "css/assets/treasure-deck/addtext-05-25-08-25-55-d6184c4004.css",
+      "newCss": "css/assets/treasure-deck/treasure-deck-wooden-rod-with-arcane-runes-treasure-card.css",
+      "oldJson": "json/assets/treasure-deck/addtext-05-25-08-25-55-d6184c4004.json",
+      "newJson": "json/assets/treasure-deck/treasure-deck-wooden-rod-with-arcane-runes-treasure-card.json",
+      "descriptiveTitle": "Wooden Rod with Arcane Runes"
+    },
+    {
+      "category": "Treasure Deck",
+      "oldId": "addtext-05-25-08-26-37-cfed2c0633",
+      "newId": "treasure-deck-brass-ring-brooch-with-thorned-vines-treasure-card",
+      "oldCss": "css/assets/treasure-deck/addtext-05-25-08-26-37-cfed2c0633.css",
+      "newCss": "css/assets/treasure-deck/treasure-deck-brass-ring-brooch-with-thorned-vines-treasure-card.css",
+      "oldJson": "json/assets/treasure-deck/addtext-05-25-08-26-37-cfed2c0633.json",
+      "newJson": "json/assets/treasure-deck/treasure-deck-brass-ring-brooch-with-thorned-vines-treasure-card.json",
+      "descriptiveTitle": "Brass Ring Brooch with Thorned Vines"
+    },
+    {
+      "category": "Treasure Deck",
+      "oldId": "addtext-05-25-08-26-58-2b83414d91",
+      "newId": "treasure-deck-earthenware-vase-with-elven-script-treasure-card",
+      "oldCss": "css/assets/treasure-deck/addtext-05-25-08-26-58-2b83414d91.css",
+      "newCss": "css/assets/treasure-deck/treasure-deck-earthenware-vase-with-elven-script-treasure-card.css",
+      "oldJson": "json/assets/treasure-deck/addtext-05-25-08-26-58-2b83414d91.json",
+      "newJson": "json/assets/treasure-deck/treasure-deck-earthenware-vase-with-elven-script-treasure-card.json",
+      "descriptiveTitle": "Earthenware Vase with Elven Script"
+    },
+    {
+      "category": "Treasure Deck",
+      "oldId": "addtext-05-25-08-30-13-be22cb8356",
+      "newId": "treasure-deck-spell-scroll-invisibility-treasure-card",
+      "oldCss": "css/assets/treasure-deck/addtext-05-25-08-30-13-be22cb8356.css",
+      "newCss": "css/assets/treasure-deck/treasure-deck-spell-scroll-invisibility-treasure-card.css",
+      "oldJson": "json/assets/treasure-deck/addtext-05-25-08-30-13-be22cb8356.json",
+      "newJson": "json/assets/treasure-deck/treasure-deck-spell-scroll-invisibility-treasure-card.json",
+      "descriptiveTitle": "Spell Scroll: Invisibility"
+    },
+    {
+      "category": "Treasure Deck",
+      "oldId": "addtext-05-25-08-37-38-4b372b0057",
+      "newId": "treasure-deck-wand-of-web-treasure-card",
+      "oldCss": "css/assets/treasure-deck/addtext-05-25-08-37-38-4b372b0057.css",
+      "newCss": "css/assets/treasure-deck/treasure-deck-wand-of-web-treasure-card.css",
+      "oldJson": "json/assets/treasure-deck/addtext-05-25-08-37-38-4b372b0057.json",
+      "newJson": "json/assets/treasure-deck/treasure-deck-wand-of-web-treasure-card.json",
+      "descriptiveTitle": "Wand of Web"
+    },
+    {
+      "category": "Treasure Deck",
+      "oldId": "addtext-05-25-08-40-47-fbd419c702",
+      "newId": "treasure-deck-wand-of-magic-missiles-treasure-card",
+      "oldCss": "css/assets/treasure-deck/addtext-05-25-08-40-47-fbd419c702.css",
+      "newCss": "css/assets/treasure-deck/treasure-deck-wand-of-magic-missiles-treasure-card.css",
+      "oldJson": "json/assets/treasure-deck/addtext-05-25-08-40-47-fbd419c702.json",
+      "newJson": "json/assets/treasure-deck/treasure-deck-wand-of-magic-missiles-treasure-card.json",
+      "descriptiveTitle": "Wand of Magic Missiles"
+    },
+    {
+      "category": "Treasure Deck",
+      "oldId": "addtext-05-25-08-47-43-25fe404b69",
+      "newId": "treasure-deck-potion-of-healing-treasure-card",
+      "oldCss": "css/assets/treasure-deck/addtext-05-25-08-47-43-25fe404b69.css",
+      "newCss": "css/assets/treasure-deck/treasure-deck-potion-of-healing-treasure-card.css",
+      "oldJson": "json/assets/treasure-deck/addtext-05-25-08-47-43-25fe404b69.json",
+      "newJson": "json/assets/treasure-deck/treasure-deck-potion-of-healing-treasure-card.json",
+      "descriptiveTitle": "Potion of Healing"
+    },
+    {
+      "category": "Treasure Deck",
+      "oldId": "addtext-05-25-08-49-32-5ee9f3101d",
+      "newId": "treasure-deck-potion-of-healing-greater-treasure-card",
+      "oldCss": "css/assets/treasure-deck/addtext-05-25-08-49-32-5ee9f3101d.css",
+      "newCss": "css/assets/treasure-deck/treasure-deck-potion-of-healing-greater-treasure-card.css",
+      "oldJson": "json/assets/treasure-deck/addtext-05-25-08-49-32-5ee9f3101d.json",
+      "newJson": "json/assets/treasure-deck/treasure-deck-potion-of-healing-greater-treasure-card.json",
+      "descriptiveTitle": "Potion of Healing (Greater)"
+    },
+    {
+      "category": "Treasure Deck",
+      "oldId": "addtext-05-25-08-51-00-daadd0b32d",
+      "newId": "treasure-deck-goggles-of-night-treasure-card",
+      "oldCss": "css/assets/treasure-deck/addtext-05-25-08-51-00-daadd0b32d.css",
+      "newCss": "css/assets/treasure-deck/treasure-deck-goggles-of-night-treasure-card.css",
+      "oldJson": "json/assets/treasure-deck/addtext-05-25-08-51-00-daadd0b32d.json",
+      "newJson": "json/assets/treasure-deck/treasure-deck-goggles-of-night-treasure-card.json",
+      "descriptiveTitle": "Goggles of Night"
+    },
+    {
+      "category": "Treasure Deck",
+      "oldId": "addtext-05-25-09-00-23-503ab244f7",
+      "newId": "treasure-deck-ring-of-invisibility-treasure-card",
+      "oldCss": "css/assets/treasure-deck/addtext-05-25-09-00-23-503ab244f7.css",
+      "newCss": "css/assets/treasure-deck/treasure-deck-ring-of-invisibility-treasure-card.css",
+      "oldJson": "json/assets/treasure-deck/addtext-05-25-09-00-23-503ab244f7.json",
+      "newJson": "json/assets/treasure-deck/treasure-deck-ring-of-invisibility-treasure-card.json",
+      "descriptiveTitle": "Ring of Invisibility"
+    },
+    {
+      "category": "Treasure Deck",
+      "oldId": "addtext-05-25-09-02-09-27686d8fa9",
+      "newId": "treasure-deck-potion-of-speed-treasure-card",
+      "oldCss": "css/assets/treasure-deck/addtext-05-25-09-02-09-27686d8fa9.css",
+      "newCss": "css/assets/treasure-deck/treasure-deck-potion-of-speed-treasure-card.css",
+      "oldJson": "json/assets/treasure-deck/addtext-05-25-09-02-09-27686d8fa9.json",
+      "newJson": "json/assets/treasure-deck/treasure-deck-potion-of-speed-treasure-card.json",
+      "descriptiveTitle": "Potion of Speed"
+    },
+    {
+      "category": "Treasure Deck",
+      "oldId": "addtext-05-25-09-07-07-f67446ef13",
+      "newId": "treasure-deck-wand-of-magic-missiles-treasure-card-2",
+      "oldCss": "css/assets/treasure-deck/addtext-05-25-09-07-07-f67446ef13.css",
+      "newCss": "css/assets/treasure-deck/treasure-deck-wand-of-magic-missiles-treasure-card-2.css",
+      "oldJson": "json/assets/treasure-deck/addtext-05-25-09-07-07-f67446ef13.json",
+      "newJson": "json/assets/treasure-deck/treasure-deck-wand-of-magic-missiles-treasure-card-2.json",
+      "descriptiveTitle": "Wand of Magic Missiles"
+    },
+    {
+      "category": "Treasure Deck",
+      "oldId": "addtext-05-25-09-11-25-42a3215179",
+      "newId": "treasure-deck-wool-cloak-treasure-card",
+      "oldCss": "css/assets/treasure-deck/addtext-05-25-09-11-25-42a3215179.css",
+      "newCss": "css/assets/treasure-deck/treasure-deck-wool-cloak-treasure-card.css",
+      "oldJson": "json/assets/treasure-deck/addtext-05-25-09-11-25-42a3215179.json",
+      "newJson": "json/assets/treasure-deck/treasure-deck-wool-cloak-treasure-card.json",
+      "descriptiveTitle": "Wool Cloak"
+    },
+    {
+      "category": "Treasure Deck",
+      "oldId": "addtext-05-25-09-12-01-ce69823bf3",
+      "newId": "treasure-deck-sturdy-leather-boots-treasure-card",
+      "oldCss": "css/assets/treasure-deck/addtext-05-25-09-12-01-ce69823bf3.css",
+      "newCss": "css/assets/treasure-deck/treasure-deck-sturdy-leather-boots-treasure-card.css",
+      "oldJson": "json/assets/treasure-deck/addtext-05-25-09-12-01-ce69823bf3.json",
+      "newJson": "json/assets/treasure-deck/treasure-deck-sturdy-leather-boots-treasure-card.json",
+      "descriptiveTitle": "Sturdy Leather Boots"
+    },
+    {
+      "category": "Treasure Deck",
+      "oldId": "addtext-05-25-09-16-21-1aab5b6e87",
+      "newId": "treasure-deck-silver-pearl-treasure-card",
+      "oldCss": "css/assets/treasure-deck/addtext-05-25-09-16-21-1aab5b6e87.css",
+      "newCss": "css/assets/treasure-deck/treasure-deck-silver-pearl-treasure-card.css",
+      "oldJson": "json/assets/treasure-deck/addtext-05-25-09-16-21-1aab5b6e87.json",
+      "newJson": "json/assets/treasure-deck/treasure-deck-silver-pearl-treasure-card.json",
+      "descriptiveTitle": "Silver Pearl"
+    },
+    {
+      "category": "Treasure Deck",
+      "oldId": "addtext-05-25-09-17-07-62ea6c872f",
+      "newId": "treasure-deck-azurite-treasure-card",
+      "oldCss": "css/assets/treasure-deck/addtext-05-25-09-17-07-62ea6c872f.css",
+      "newCss": "css/assets/treasure-deck/treasure-deck-azurite-treasure-card.css",
+      "oldJson": "json/assets/treasure-deck/addtext-05-25-09-17-07-62ea6c872f.json",
+      "newJson": "json/assets/treasure-deck/treasure-deck-azurite-treasure-card.json",
+      "descriptiveTitle": "Azurite"
+    },
+    {
+      "category": "Treasure Deck",
+      "oldId": "addtext-05-25-09-17-37-41216b87da",
+      "newId": "treasure-deck-golden-pearl-treasure-card",
+      "oldCss": "css/assets/treasure-deck/addtext-05-25-09-17-37-41216b87da.css",
+      "newCss": "css/assets/treasure-deck/treasure-deck-golden-pearl-treasure-card.css",
+      "oldJson": "json/assets/treasure-deck/addtext-05-25-09-17-37-41216b87da.json",
+      "newJson": "json/assets/treasure-deck/treasure-deck-golden-pearl-treasure-card.json",
+      "descriptiveTitle": "Golden Pearl"
+    },
+    {
+      "category": "Treasure Deck",
+      "oldId": "addtext-05-25-09-19-52-16d895951f",
+      "newId": "treasure-deck-brown-green-garnet-treasure-card",
+      "oldCss": "css/assets/treasure-deck/addtext-05-25-09-19-52-16d895951f.css",
+      "newCss": "css/assets/treasure-deck/treasure-deck-brown-green-garnet-treasure-card.css",
+      "oldJson": "json/assets/treasure-deck/addtext-05-25-09-19-52-16d895951f.json",
+      "newJson": "json/assets/treasure-deck/treasure-deck-brown-green-garnet-treasure-card.json",
+      "descriptiveTitle": "Brown-Green Garnet"
+    },
+    {
+      "category": "Treasure Deck",
+      "oldId": "addtext-05-25-09-20-25-86493092ea",
+      "newId": "treasure-deck-jet-treasure-card",
+      "oldCss": "css/assets/treasure-deck/addtext-05-25-09-20-25-86493092ea.css",
+      "newCss": "css/assets/treasure-deck/treasure-deck-jet-treasure-card.css",
+      "oldJson": "json/assets/treasure-deck/addtext-05-25-09-20-25-86493092ea.json",
+      "newJson": "json/assets/treasure-deck/treasure-deck-jet-treasure-card.json",
+      "descriptiveTitle": "Jet"
+    },
+    {
+      "category": "Treasure Deck",
+      "oldId": "addtext-05-25-09-22-23-43ef82842b",
+      "newId": "treasure-deck-moss-agate-treasure-card",
+      "oldCss": "css/assets/treasure-deck/addtext-05-25-09-22-23-43ef82842b.css",
+      "newCss": "css/assets/treasure-deck/treasure-deck-moss-agate-treasure-card.css",
+      "oldJson": "json/assets/treasure-deck/addtext-05-25-09-22-23-43ef82842b.json",
+      "newJson": "json/assets/treasure-deck/treasure-deck-moss-agate-treasure-card.json",
+      "descriptiveTitle": "Moss Agate"
+    },
+    {
+      "category": "Treasure Deck",
+      "oldId": "addtext-05-25-09-22-54-454e9235a4",
+      "newId": "treasure-deck-turquoise-treasure-card",
+      "oldCss": "css/assets/treasure-deck/addtext-05-25-09-22-54-454e9235a4.css",
+      "newCss": "css/assets/treasure-deck/treasure-deck-turquoise-treasure-card.css",
+      "oldJson": "json/assets/treasure-deck/addtext-05-25-09-22-54-454e9235a4.json",
+      "newJson": "json/assets/treasure-deck/treasure-deck-turquoise-treasure-card.json",
+      "descriptiveTitle": "Turquoise"
+    },
+    {
+      "category": "Treasure Deck",
+      "oldId": "addtext-05-25-09-23-35-5af56c9876",
+      "newId": "treasure-deck-violet-garnet-treasure-card",
+      "oldCss": "css/assets/treasure-deck/addtext-05-25-09-23-35-5af56c9876.css",
+      "newCss": "css/assets/treasure-deck/treasure-deck-violet-garnet-treasure-card.css",
+      "oldJson": "json/assets/treasure-deck/addtext-05-25-09-23-35-5af56c9876.json",
+      "newJson": "json/assets/treasure-deck/treasure-deck-violet-garnet-treasure-card.json",
+      "descriptiveTitle": "Violet Garnet"
+    },
+    {
+      "category": "Treasure Deck",
+      "oldId": "addtext-05-25-09-24-03-01231c140f",
+      "newId": "treasure-deck-zircon-treasure-card",
+      "oldCss": "css/assets/treasure-deck/addtext-05-25-09-24-03-01231c140f.css",
+      "newCss": "css/assets/treasure-deck/treasure-deck-zircon-treasure-card.css",
+      "oldJson": "json/assets/treasure-deck/addtext-05-25-09-24-03-01231c140f.json",
+      "newJson": "json/assets/treasure-deck/treasure-deck-zircon-treasure-card.json",
+      "descriptiveTitle": "Zircon"
+    },
+    {
+      "category": "Xun",
+      "oldId": "addtext-05-26-03-25-58-21f47caa48",
+      "newId": "xun-githtoxundes-fenwophyl-name-banner",
+      "oldCss": "css/assets/xun/addtext-05-26-03-25-58-21f47caa48.css",
+      "newCss": "css/assets/xun/xun-githtoxundes-fenwophyl-name-banner.css",
+      "oldJson": "json/assets/xun/addtext-05-26-03-25-58-21f47caa48.json",
+      "newJson": "json/assets/xun/xun-githtoxundes-fenwophyl-name-banner.json",
+      "descriptiveTitle": "Githtoxundes Fenwophyl Name Banner"
+    },
+    {
+      "category": "Xun",
+      "oldId": "addtext-06-02-01-59-54-b862e55e21",
+      "newId": "xun-spare-the-dying-spell-card",
+      "oldCss": "css/assets/xun/addtext-06-02-01-59-54-b862e55e21.css",
+      "newCss": "css/assets/xun/xun-spare-the-dying-spell-card.css",
+      "oldJson": "json/assets/xun/addtext-06-02-01-59-54-b862e55e21.json",
+      "newJson": "json/assets/xun/xun-spare-the-dying-spell-card.json",
+      "descriptiveTitle": "Spare the Dying"
+    },
+    {
+      "category": "Xun",
+      "oldId": "addtext-06-02-02-01-56-496d9eeab4",
+      "newId": "xun-guidance-spell-card",
+      "oldCss": "css/assets/xun/addtext-06-02-02-01-56-496d9eeab4.css",
+      "newCss": "css/assets/xun/xun-guidance-spell-card.css",
+      "oldJson": "json/assets/xun/addtext-06-02-02-01-56-496d9eeab4.json",
+      "newJson": "json/assets/xun/xun-guidance-spell-card.json",
+      "descriptiveTitle": "Guidance"
+    },
+    {
+      "category": "Xun",
+      "oldId": "addtext-06-02-02-05-17-8ef11b5776",
+      "newId": "xun-guiding-bolt-spell-card",
+      "oldCss": "css/assets/xun/addtext-06-02-02-05-17-8ef11b5776.css",
+      "newCss": "css/assets/xun/xun-guiding-bolt-spell-card.css",
+      "oldJson": "json/assets/xun/addtext-06-02-02-05-17-8ef11b5776.json",
+      "newJson": "json/assets/xun/xun-guiding-bolt-spell-card.json",
+      "descriptiveTitle": "Guiding Bolt"
+    },
+    {
+      "category": "Xun",
+      "oldId": "addtext-06-02-02-08-00-00f0f00dbc",
+      "newId": "xun-cure-wounds-spell-card",
+      "oldCss": "css/assets/xun/addtext-06-02-02-08-00-00f0f00dbc.css",
+      "newCss": "css/assets/xun/xun-cure-wounds-spell-card.css",
+      "oldJson": "json/assets/xun/addtext-06-02-02-08-00-00f0f00dbc.json",
+      "newJson": "json/assets/xun/xun-cure-wounds-spell-card.json",
+      "descriptiveTitle": "Cure Wounds"
+    },
+    {
+      "category": "Xun",
+      "oldId": "addtext-06-02-02-17-22-6787800830",
+      "newId": "xun-mass-healing-word-spell-card",
+      "oldCss": "css/assets/xun/addtext-06-02-02-17-22-6787800830.css",
+      "newCss": "css/assets/xun/xun-mass-healing-word-spell-card.css",
+      "oldJson": "json/assets/xun/addtext-06-02-02-17-22-6787800830.json",
+      "newJson": "json/assets/xun/xun-mass-healing-word-spell-card.json",
+      "descriptiveTitle": "Mass Healing Word"
+    },
+    {
+      "category": "Xun",
+      "oldId": "addtext-06-02-02-22-27-9251c3a6d8",
+      "newId": "xun-lesser-restoration-spell-card",
+      "oldCss": "css/assets/xun/addtext-06-02-02-22-27-9251c3a6d8.css",
+      "newCss": "css/assets/xun/xun-lesser-restoration-spell-card.css",
+      "oldJson": "json/assets/xun/addtext-06-02-02-22-27-9251c3a6d8.json",
+      "newJson": "json/assets/xun/xun-lesser-restoration-spell-card.json",
+      "descriptiveTitle": "Lesser Restoration"
+    },
+    {
+      "category": "Xun",
+      "oldId": "addtext-06-08-05-30-35-81bedb189d",
+      "newId": "xun-githtoxundes-fenwophyl-character-sheet",
+      "oldCss": "css/assets/xun/addtext-06-08-05-30-35-81bedb189d.css",
+      "newCss": "css/assets/xun/xun-githtoxundes-fenwophyl-character-sheet.css",
+      "oldJson": "json/assets/xun/addtext-06-08-05-30-35-81bedb189d.json",
+      "newJson": "json/assets/xun/xun-githtoxundes-fenwophyl-character-sheet.json",
+      "descriptiveTitle": "Githtoxundes Fenwophyl"
+    },
+    {
+      "category": "Xun",
+      "oldId": "addtext-07-27-01-32-54-da83c65282",
+      "newId": "xun-hold-person-spell-card",
+      "oldCss": "css/assets/xun/addtext-07-27-01-32-54-da83c65282.css",
+      "newCss": "css/assets/xun/xun-hold-person-spell-card.css",
+      "oldJson": "json/assets/xun/addtext-07-27-01-32-54-da83c65282.json",
+      "newJson": "json/assets/xun/xun-hold-person-spell-card.json",
+      "descriptiveTitle": "Hold Person"
+    },
+    {
+      "category": "Xun",
+      "oldId": "xun-color-323264099b",
+      "newId": "githtoxundes-xun-fenwophyl-character-art",
+      "oldCss": "css/assets/xun/xun-color-323264099b.css",
+      "newCss": "css/assets/xun/githtoxundes-xun-fenwophyl-character-art.css",
+      "oldJson": "json/assets/xun/xun-color-323264099b.json",
+      "newJson": "json/assets/xun/githtoxundes-xun-fenwophyl-character-art.json",
+      "descriptiveTitle": "Githtoxundes Xun Fenwophyl Character Art"
+    },
+    {
+      "category": "Monk",
+      "oldId": null,
+      "newId": "monk-character-art",
+      "oldCss": null,
+      "newCss": "css/assets/monk/monk-character-art.css",
+      "oldJson": null,
+      "newJson": "json/assets/monk/monk-character-art.json",
+      "descriptiveTitle": "Monk Character Art"
+    }
+  ]
+}
