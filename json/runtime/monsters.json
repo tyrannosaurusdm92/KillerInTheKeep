@@ -1,0 +1,286 @@
+{
+  "schema": "killer_in_the_keep.monsters.v2",
+  "license": "CC-BY-4.0 adaptations and original game statistics",
+  "records": [
+    {
+      "id": "spider",
+      "name": "Spider",
+      "size": "Tiny",
+      "ac": 12,
+      "hp": 5,
+      "movement": {
+        "dice": "2d8",
+        "directions": "eight",
+        "speedCap": 16,
+        "surfaces": [
+          "floor",
+          "wall",
+          "ceiling"
+        ],
+        "canUseStairs": true
+      },
+      "attack": {
+        "name": "Bite",
+        "bonus": 4,
+        "damage": "1d4+2",
+        "damageType": "piercing",
+        "save": {
+          "ability": "Constitution",
+          "dc": 11,
+          "failureDamage": "1d4",
+          "type": "poison"
+        }
+      },
+      "resistances": [],
+      "immunities": [],
+      "vulnerabilities": [],
+      "lootTable": "minor"
+    },
+    {
+      "id": "giant-spider",
+      "name": "Giant Spider",
+      "size": "Large",
+      "ac": 14,
+      "hp": 26,
+      "movement": {
+        "dice": "2d8",
+        "directions": "eight",
+        "speedCap": 16,
+        "surfaces": [
+          "floor",
+          "wall",
+          "ceiling"
+        ],
+        "canUseStairs": true
+      },
+      "attack": {
+        "name": "Bite",
+        "bonus": 5,
+        "damage": "2d6+3",
+        "damageType": "piercing",
+        "save": {
+          "ability": "Constitution",
+          "dc": 12,
+          "failureDamage": "2d6",
+          "type": "poison"
+        }
+      },
+      "resistances": [],
+      "immunities": [],
+      "vulnerabilities": [],
+      "lootTable": "spider"
+    },
+    {
+      "id": "giant-wolf-spider",
+      "name": "Giant Wolf Spider",
+      "size": "Medium",
+      "ac": 13,
+      "hp": 11,
+      "movement": {
+        "dice": "2d8",
+        "directions": "eight",
+        "speedCap": 16,
+        "surfaces": [
+          "floor",
+          "wall",
+          "ceiling"
+        ],
+        "canUseStairs": true
+      },
+      "attack": {
+        "name": "Bite",
+        "bonus": 4,
+        "damage": "1d6+2",
+        "damageType": "piercing",
+        "save": {
+          "ability": "Constitution",
+          "dc": 11,
+          "failureDamage": "2d6",
+          "type": "poison"
+        }
+      },
+      "resistances": [],
+      "immunities": [],
+      "vulnerabilities": [],
+      "lootTable": "spider"
+    },
+    {
+      "id": "zombie",
+      "name": "Zombie",
+      "size": "Medium",
+      "ac": 8,
+      "hp": 22,
+      "movement": {
+        "dice": "1d4",
+        "directions": "forward_and_forward_diagonal",
+        "speedCap": 4,
+        "surfaces": [
+          "floor"
+        ],
+        "canUseStairs": true
+      },
+      "attack": {
+        "name": "Slam",
+        "bonus": 3,
+        "damage": "1d6+1",
+        "damageType": "bludgeoning"
+      },
+      "resistances": [],
+      "immunities": [
+        "poisoned",
+        "exhaustion"
+      ],
+      "vulnerabilities": [],
+      "lootTable": "undead"
+    },
+    {
+      "id": "skeleton",
+      "name": "Skeleton",
+      "size": "Medium",
+      "ac": 13,
+      "hp": 13,
+      "movement": {
+        "dice": "1d6",
+        "directions": "orthogonal",
+        "speedCap": 6,
+        "surfaces": [
+          "floor"
+        ],
+        "canUseStairs": true
+      },
+      "attack": {
+        "name": "Shortsword",
+        "bonus": 4,
+        "damage": "1d6+2",
+        "damageType": "piercing"
+      },
+      "resistances": [],
+      "immunities": [
+        "poisoned",
+        "exhaustion"
+      ],
+      "vulnerabilities": [
+        "bludgeoning"
+      ],
+      "lootTable": "undead"
+    },
+    {
+      "id": "swarm-of-insects",
+      "name": "Swarm of Insects",
+      "size": "Medium swarm",
+      "ac": 12,
+      "hp": 22,
+      "movement": {
+        "dice": "2d6",
+        "directions": "eight",
+        "speedCap": 12,
+        "surfaces": [
+          "floor",
+          "air"
+        ],
+        "canUseStairs": true
+      },
+      "attack": {
+        "name": "Bites",
+        "bonus": 3,
+        "damage": "4d4",
+        "damageType": "piercing"
+      },
+      "resistances": [
+        "bludgeoning",
+        "piercing",
+        "slashing"
+      ],
+      "immunities": [
+        "charmed",
+        "frightened",
+        "grappled",
+        "paralyzed",
+        "petrified",
+        "prone",
+        "restrained",
+        "stunned"
+      ],
+      "vulnerabilities": [],
+      "lootTable": "none"
+    },
+    {
+      "id": "mimic",
+      "name": "Mimic",
+      "size": "Medium",
+      "ac": 12,
+      "hp": 58,
+      "movement": {
+        "dice": "1d4",
+        "directions": "orthogonal",
+        "speedCap": 4,
+        "surfaces": [
+          "floor"
+        ],
+        "canUseStairs": false
+      },
+      "attack": {
+        "name": "Bite",
+        "bonus": 5,
+        "damage": "1d8+3",
+        "extraDamage": "1d8",
+        "damageType": "acid"
+      },
+      "traits": [
+        "Shape-Shift",
+        "Adhesive",
+        "False Appearance",
+        "Grappler"
+      ],
+      "resistances": [
+        "acid"
+      ],
+      "immunities": [
+        "prone"
+      ],
+      "vulnerabilities": [],
+      "lootTable": "mimic"
+    },
+    {
+      "id": "gelatinous-cube",
+      "name": "Gelatinous Cube",
+      "size": "Large",
+      "ac": 6,
+      "hp": 84,
+      "movement": {
+        "dice": "1d4",
+        "directions": "orthogonal",
+        "speedCap": 4,
+        "surfaces": [
+          "floor"
+        ],
+        "canUseStairs": false,
+        "occupancy": "2x2"
+      },
+      "attack": {
+        "name": "Pseudopod",
+        "bonus": 4,
+        "damage": "3d6",
+        "damageType": "acid"
+      },
+      "traits": [
+        "Ooze Cube",
+        "Transparent",
+        "Engulf"
+      ],
+      "resistances": [
+        "acid"
+      ],
+      "immunities": [
+        "blinded",
+        "charmed",
+        "deafened",
+        "exhaustion",
+        "frightened",
+        "prone"
+      ],
+      "vulnerabilities": [],
+      "lootTable": "dissolved"
+    }
+  ]
+}

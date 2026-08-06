@@ -1,0 +1,183 @@
+{
+  "server_only_solution": {
+    "original_killer_cards_selected": 1,
+    "weapon_cards_selected": 1,
+    "room_cards_selected": 1,
+    "suspect_pool": [
+      "Eilvyre Astath",
+      "Joknos (Jock)",
+      "Korbin Silverdew",
+      "Gunnus",
+      "Noldrack Goldblade",
+      "Daltu",
+      "Monk",
+      "Githtoxundes Fenwophyl (Xun)"
+    ],
+    "weapon_pool": [
+      "Battleaxe",
+      "Arrows",
+      "Rapier",
+      "Magical Staff",
+      "Dagger",
+      "Poison",
+      "Mace",
+      "Wand"
+    ],
+    "room_pool": [
+      "Cellar",
+      "Foyer",
+      "Grand Hall",
+      "Game Room",
+      "Dining Room",
+      "Kitchen",
+      "Pantry",
+      "Sitting Room",
+      "Music Room",
+      "Privy",
+      "Library",
+      "1st Floor Solar",
+      "Alchemist’s Quarters",
+      "Alchemist’s Study",
+      "Armory",
+      "Main Guest Quarters",
+      "Den",
+      "Secondary Guest Quarters",
+      "2nd Floor Solar",
+      "Chapel",
+      "Attic",
+      "Servant’s Quarters"
+    ],
+    "opening_victim_selected_separately": true,
+    "solution_record": [
+      "original_killer_character_id",
+      "murder_weapon_evidence_card_id",
+      "murder_room_id",
+      "opening_victim_character_id"
+    ],
+    "character_card_count": 8,
+    "weapon_evidence_card_count": 8,
+    "room_card_count": 22,
+    "total_evidence_cards": 38,
+    "sealed_envelope": [
+      "1 Character card",
+      "1 evidence Weapon card",
+      "1 Room card"
+    ],
+    "room_registry_source": "rules/map-runtime-rules-v1.0.0.json; all 22 named rooms are solution-eligible.",
+    "remaining_after_envelope": 35,
+    "living_hands": 7,
+    "cards_per_living_hand": 5
+  },
+  "original_killer": {
+    "count": 1,
+    "must_be_active_character": true,
+    "privately_informed_at_start": true,
+    "may_be_human_or_bot": true,
+    "cannot_be_opening_victim": true,
+    "outside_opening_cinematic_no_instant_kill": true,
+    "private_notification_required": true,
+    "notification_fields": [
+      "YOU ARE THE ORIGINAL KILLER",
+      "opening murder room",
+      "opening murder weapon",
+      "character you killed",
+      "cover objectives",
+      "killer objective and victory condition"
+    ],
+    "knows_opening_victim": true,
+    "knows_murder_room": true,
+    "knows_murder_weapon": true,
+    "cannot_win_by_submitting_the_known_solution": true,
+    "receives_starting_evidence_cards": true,
+    "starting_hand_size": 5,
+    "evidence_participation": "The killer has a normal private evidence hand, must reveal every matching card during disproof exactly like any other living seat, and cannot refuse a server-enforced reveal.",
+    "cover_theories": "The killer may submit legal non-final room theories for cover, but cannot win by submitting the solution they were told."
+  },
+  "opening_victim": {
+    "selected_separately": true,
+    "may_be_playable_character": true,
+    "may_be_optional_npc": true,
+    "cannot_be_original_killer": true,
+    "body_location": "A legal unoccupied cell in the sealed murder room.",
+    "human_playable_victim": "The player watches the off-screen opening death, starts as a ghost, cannot report their own body, and has all starting cards returned to their source decks before active play.",
+    "bot_playable_victim": "The bot starts as a ghost bot under the same limits.",
+    "must_be_playable_character": true,
+    "optional_npc_victim_disabled": true,
+    "starts_as_ghost": true,
+    "ghost_spawn": "same legal map cell as their body inside the murder room",
+    "does_not_learn_killer_identity": "The opening murder occurs off-screen. The victim knows they were killed but not who killed them unless a later legal clue reveals it.",
+    "receives_no_evidence_hand": true,
+    "count": 1,
+    "must_be_one_of_eight_active_characters": true,
+    "selected_separately_from_envelope": true,
+    "immediately_permanently_dead": true,
+    "death_saves": false,
+    "ghost_start": "The victim starts at the body in Ghost Mode and can haunt immediately under normal Haunt Energy rules.",
+    "information_limit": "The victim does not automatically learn the killer unless an authored cinematic visibly identifies the killer."
+  },
+  "private_role_reveal": {
+    "original_killer_screen": {
+      "headline": "YOU ARE THE KILLER",
+      "must_show": [
+        "murder room",
+        "murder weapon",
+        "opening victim",
+        "killer objective"
+      ],
+      "private_to_seat": true,
+      "required_exact_facts": [
+        "You are the original killer.",
+        "Opening victim identity.",
+        "Murder room.",
+        "Murder weapon."
+      ],
+      "also_shows": [
+        "cover objectives",
+        "sabotage permissions",
+        "later-attack restrictions",
+        "cooldowns",
+        "escape or killer win condition"
+      ]
+    },
+    "opening_victim_screen": {
+      "headline": "YOU WERE MURDERED — GHOST MODE",
+      "must_show": [
+        "body room",
+        "ghost controls",
+        "haunting permissions"
+      ],
+      "must_not_show": [
+        "killer identity",
+        "sealed solution cards not otherwise known"
+      ]
+    },
+    "investigator_screen": {
+      "headline": "FIND THE ORIGINAL KILLER",
+      "must_show": [
+        "starting evidence hand",
+        "starter location",
+        "class objectives"
+      ],
+      "must_not_show": [
+        "killer identity",
+        "murder room",
+        "murder weapon",
+        "victim identity before legal discovery when hidden"
+      ]
+    },
+    "non_killer_screen": "Shows only the character’s ordinary starting objective and hand.",
+    "first_victim_screen": "Shows the death, body room, and ghost controls without exposing the killer unless the cinematic did so."
+  },
+  "setup_sequence": [
+    "Select one original-killer Character card, one evidence Weapon card, and one Room card for the server-only envelope.",
+    "Select a different active character as the opening victim.",
+    "Privately brief the killer with role, victim, murder room, murder weapon, cover objectives, and killer victory condition.",
+    "Place the victim body in the murder room and transition that seat directly to Ghost Mode.",
+    "Shuffle the remaining 35 evidence cards and deal exactly 5 cards to each of the 7 living players/bots, including the killer.",
+    "Privately show each living seat its five-card hand. No UI or network payload identifies which hand belongs to the killer.",
+    "Place living tokens at the mode-specific starter cells, subject only to a safe opening-body conflict adjustment.",
+    "Instantiate authored locks, fixed traps, hidden monsters, containers, searchable fixtures, and configured random traps."
+  ],
+  "rules_version": "4.5.0",
+  "map_runtime_authority": "json/keep-4-floor-runtime.json"
+}

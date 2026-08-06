@@ -1,0 +1,125 @@
+{
+  "case_categories": {
+    "character_cards": 8,
+    "weapon_cards": [
+      "Battleaxe",
+      "Arrows",
+      "Rapier",
+      "Magical Staff",
+      "Dagger",
+      "Poison",
+      "Mace",
+      "Wand"
+    ],
+    "room_cards_runtime": [
+      "Cellar",
+      "Foyer",
+      "Grand Hall",
+      "Game Room",
+      "Dining Room",
+      "Kitchen",
+      "Pantry",
+      "Sitting Room",
+      "Music Room",
+      "Privy",
+      "Library",
+      "1st Floor Solar",
+      "Alchemist’s Quarters",
+      "Alchemist’s Study",
+      "Armory",
+      "Main Guest Quarters",
+      "Den",
+      "Secondary Guest Quarters",
+      "2nd Floor Solar",
+      "Chapel",
+      "Attic",
+      "Servant’s Quarters"
+    ],
+    "evidence_weapon_cards": 8,
+    "room_cards": 22,
+    "solution_cards": 3
+  },
+  "room_theory_algorithm": [
+    "Verify the accuser is a living non-killer and physically occupies a solution-eligible room.",
+    "Set the accused room to the accuser’s current room; the UI cannot name a different room.",
+    "Accept one suspected original-killer Character card and one murder-evidence Weapon card.",
+    "Block any Character, Weapon, or Room card currently in the accuser’s own evidence hand; an accusation is based on cards the accuser does not have.",
+    "Ask every living evidence holder, including bots, to play all named cards they hold. Each played card turns face-up publicly and proves that category choice is not in the envelope.",
+    "The original killer has no evidence hand and therefore cannot play a disproof card.",
+    "If no living hand plays a card, check the shuffled Gameplay Keep deck containing evidence returned by dead characters.",
+    "Reveal every matching Keep-deck card and mark it public; the accusation is disproved if any match exists.",
+    "If no living hand and no Keep-deck card can disprove the exact three-card combination, offer the eligible accuser the choice to continue investigating or lock it in as the Final Accusation.",
+    "Record all played cards on the public case board and every legal private inference in the accuser’s notebook."
+  ],
+  "final_accusation": {
+    "required": [
+      "original killer Character card",
+      "murder-evidence Weapon card",
+      "current physical Room card"
+    ],
+    "physical_room_required": true,
+    "room_validation": "The submitted room must equal the room currently occupied by the accuser. Either Library floor counts as the Library.",
+    "eligibility": [
+      "living",
+      "non-ghost",
+      "non-original-killer",
+      "has not used strict final accusation",
+      "holds none of the three submitted cards",
+      "exact combination was not disproved in the immediately preceding Room Accusation"
+    ],
+    "work_together": "The team confirms a shared Final Accusation from the physical room. A wrong strict accusation grants the original killer victory unless forgiving mode is enabled.",
+    "free_for_all": "Each eligible living non-killer gets one strict Final Accusation. A wrong accuser follows the configured lethal consequence, returns all cards, and becomes a ghost without learning which field was wrong.",
+    "correct": "Reveal the opening murder reconstruction, the original killer, weapon, victim, and room, then begin the configured Final Confrontation/capture/escape sequence.",
+    "killer_restriction": "The original killer knows the solution but can never submit it as a winning accusation.",
+    "requirements": [
+      "living and conscious",
+      "physically in the accused room",
+      "holds none of the three accused cards",
+      "no active meeting or unresolved forced encounter"
+    ],
+    "resolution": "Lock the request atomically, compare all three categories to the sealed envelope, then begin the Final Confrontation on a correct result.",
+    "wrong_work_together": "Apply the configured strict-team failure or remove that accuser’s future accusation eligibility.",
+    "wrong_free_for_all": "The accuser permanently dies, returns all deck-owned cards, and immediately becomes a ghost.",
+    "precheck": "Before opening the envelope, repeat the public living-hand and Keep-deck disproof check. If any named card is found, reveal it, record the disproof, and cancel escalation without exposing the envelope."
+  },
+  "privacy": [
+    "The sealed solution stays server-only until a correct Final Accusation or post-match reveal.",
+    "Starting evidence hands are private to living non-killer seats.",
+    "Legally played disproof cards become public face-up evidence.",
+    "Ghosts have no evidence hand and cannot accuse, report, vote, or communicate unrestricted solution information.",
+    "The opening victim does not learn the killer merely by entering Ghost Mode."
+  ],
+  "room_accusation_name": "Room Accusation",
+  "location_requirement": {
+    "room_theory": "A living, conscious character must physically occupy a legal cell in the named room.",
+    "final_accusation": "A living, conscious character must physically occupy a legal cell in the accused room.",
+    "library": "Either Library floor area satisfies the Library location requirement.",
+    "not_rooms": "Hallways, stairs, service passages, landings, and secret-passage transit cells cannot host a theory or accusation."
+  },
+  "not_holding_requirement": {
+    "rule": "The accuser may name only a Character, evidence Weapon, and occupied Room card that are absent from the accuser’s own hand.",
+    "client_validation": "Disable any card the player holds and reject tampered requests server-side.",
+    "reasoning": "A player’s own cards already prove those elements are not in the envelope."
+  },
+  "room_theory_sequence": [
+    "A living, conscious character physically enters a solution room and chooses Room Theory.",
+    "The current room is filled automatically. The theorist names one Character and one evidence Weapon that are absent from their own hand.",
+    "The server validates occupancy, hand restrictions, living status, and unresolved encounter state.",
+    "In deterministic seat order, every living human or bot—including the original killer—who holds one or more named cards must play every matching card face-up into the public Disproof Zone.",
+    "The server also checks the protected Keep deck for matching cards returned by later dead characters and plays every match.",
+    "After the reveal window, played cards return to the correct private hand or protected Keep deck; the public case board records each disproved element.",
+    "If no card is played, mark an Unrefuted Lead and offer the theorist the option to escalate to a Final Accusation if otherwise eligible."
+  ],
+  "bot_behavior": "Bots, including a killer bot, maintain private five-card evidence hands, refuse theories containing their own cards, and automatically play every required matching card.",
+  "ghost_rule": "Ghosts cannot make theories, play living evidence cards, or accuse.",
+  "killer_evidence_rule": {
+    "receives_hand": true,
+    "hand_size": 5,
+    "must_disprove": true,
+    "server_enforcement": "A matching killer card is auto-committed to the Disproof Zone under the same timing and animation as every other matching card.",
+    "privacy": "The reveal identifies the card owner seat, not that seat’s secret role.",
+    "final_accusation": "The original killer cannot make a Final Accusation."
+  },
+  "rules_version": "4.5.0",
+  "evidence_deck": "json/decks/evidence-deck-v4.5.0.json"
+}

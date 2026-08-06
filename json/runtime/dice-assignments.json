@@ -1,0 +1,99 @@
+{
+  "schema": "killer_in_the_keep.dice_assignments.v1",
+  "characters": {
+    "daltu": {
+      "slug": "daltu-yellow-green",
+      "name": "Daltu Yellow-Green",
+      "base": "#26310a",
+      "base2": "#9acd32",
+      "ink": "#ffffff",
+      "edge": "#cfff72",
+      "glow": "#dfff9a",
+      "description": "Fixed production dice assignment; not player configurable."
+    },
+    "noldrack_goldblade": {
+      "slug": "noldrack-yellow-gold",
+      "name": "Noldrack Yellow-Gold",
+      "base": "#3b2a00",
+      "base2": "#d8a600",
+      "ink": "#fff7cf",
+      "edge": "#ffd95a",
+      "glow": "#fff1a0",
+      "description": "Fixed production dice assignment; not player configurable."
+    },
+    "eilvyre_astath": {
+      "slug": "eilvyre-navy",
+      "name": "Eilvyre Navy",
+      "base": "#07102f",
+      "base2": "#142b6f",
+      "ink": "#ffffff",
+      "edge": "#668cff",
+      "glow": "#9ab5ff",
+      "description": "Fixed production dice assignment; not player configurable."
+    },
+    "korbin_silverdew": {
+      "slug": "korbin-lava-red",
+      "name": "Korbin Lava Red",
+      "base": "#3b0702",
+      "base2": "#e1341e",
+      "ink": "#ffffff",
+      "edge": "#ff6b49",
+      "glow": "#ff9a78",
+      "description": "Fixed production dice assignment; not player configurable."
+    },
+    "joknos_jock": {
+      "slug": "jock-hot-pink",
+      "name": "Jock Hot Pink",
+      "base": "#3a0020",
+      "base2": "#ff1493",
+      "ink": "#ffffff",
+      "edge": "#ff7bc2",
+      "glow": "#ffc1e4",
+      "description": "Fixed production dice assignment; not player configurable."
+    },
+    "githtoxundes_fenwophyl": {
+      "slug": "xun-amethyst",
+      "name": "Xun Amethyst",
+      "base": "#241039",
+      "base2": "#b57edc",
+      "ink": "#ffffff",
+      "edge": "#d6aef4",
+      "glow": "#ead6ff",
+      "description": "Fixed production dice assignment; not player configurable."
+    },
+    "gunnus": {
+      "slug": "gunnus-black-cyan",
+      "name": "Gunnus Black and Cyan",
+      "base": "#02090b",
+      "base2": "#00a9b8",
+      "ink": "#ffffff",
+      "edge": "#00ffff",
+      "glow": "#a7ffff",
+      "description": "Fixed production dice assignment; not player configurable."
+    },
+    "monk": {
+      "slug": "monk-aged-copper",
+      "name": "Monk Aged Copper",
+      "base": "#311607",
+      "base2": "#b85c18",
+      "ink": "#fff6e9",
+      "edge": "#e68b42",
+      "glow": "#ffc28d",
+      "description": "Fixed production dice assignment; not player configurable."
+    }
+  },
+  "monster": {
+    "slug": "monster-brown",
+    "name": "Monster Brown",
+    "base": "#21140d",
+    "base2": "#79502e",
+    "ink": "#fff2df",
+    "edge": "#b7875c",
+    "glow": "#d9b48e",
+    "description": "Fixed production dice assignment; not player configurable."
+  },
+  "sounds": {
+    "character": "assets/audio/dice_character_quiet.wav",
+    "monster": "assets/audio/dice_monster_quiet.wav"
+  }
+}

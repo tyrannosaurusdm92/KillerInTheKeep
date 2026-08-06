@@ -1,0 +1,354 @@
+{
+  "cards": [
+    {
+      "id": "trap-deck-acid-pit-trap-card",
+      "original": {
+        "path": "Trap Deck/acid pit.jpg",
+        "filename": "acid pit.jpg",
+        "extension": ".jpg",
+        "mimeType": "image/jpeg",
+        "byteLength": 311553,
+        "sha256": "538ac0ef78962bb652e98b33e105b2e0ac81a51a0d2607d40ac17ec8f1adcdee",
+        "sourceArchive": "To Save Just In Case (2).zip"
+      },
+      "image": {
+        "width": 1200,
+        "height": 1200,
+        "format": "SVG",
+        "mode": "vector",
+        "frames": 1
+      },
+      "embedded": {
+        "mimeType": "image/svg+xml",
+        "byteLength": 1424,
+        "sha256": "846ba2d5631b76c7da6a668a8e57e13b937dfafb2e392b255ab3fd50e8f74041",
+        "method": "srd-compliant-card-substitute",
+        "pixelVerifiedLossless": false,
+        "dataLocation": "css/assets/trap-deck/trap-deck-acid-pit-trap-card.css"
+      },
+      "css": {
+        "file": "css/assets/trap-deck/trap-deck-acid-pit-trap-card.css",
+        "variable": "--asset-trap-deck-acid-pit-trap-card",
+        "class": "asset-trap-deck-acid-pit-trap-card",
+        "usage": "<div class=\"asset-trap-deck-acid-pit-trap-card\" role=\"img\" aria-label=\"Acid Pit\"></div>"
+      },
+      "json": {
+        "file": "json/assets/trap-deck/trap-deck-acid-pit-trap-card.json"
+      },
+      "category": "Trap Deck",
+      "compliance": {
+        "status": "replaced",
+        "reason": "Original trap used inconsistent board-game checks, turn language, or damage. Rewritten with 5E-compatible actions, checks, saves, conditions, and damage.",
+        "replacementTitle": "Acid Pit",
+        "replacementKind": "trap",
+        "rulesBasis": "SRD 5.2.1 or original 5E-compatible mechanics",
+        "artBasis": "New vector/CSS asset or original layout; no D&D logo or publisher trade dress used."
+      },
+      "rulesData": {
+        "type": "Pit trap • 5E-compatible",
+        "meta": "Notice DC 15 • Dexterity save DC 13 • Escape DC 12",
+        "summary": "On a failed save, fall 10 feet, taking 1d6 bludgeoning plus 2d6 acid damage. A creature that remains in the acid takes 1d6 acid damage at the start of its turn."
+      }
+    },
+    {
+      "id": "trap-deck-collapsing-roof-trap-card",
+      "original": {
+        "path": "Trap Deck/collapsing roof.jpg",
+        "filename": "collapsing roof.jpg",
+        "extension": ".jpg",
+        "mimeType": "image/jpeg",
+        "byteLength": 379727,
+        "sha256": "868d559dd26a226ee451664cd6ab99a588b1326b7db1deed0232d0a8dfcb9261",
+        "sourceArchive": "To Save Just In Case (4).zip"
+      },
+      "image": {
+        "width": 1200,
+        "height": 1200,
+        "format": "SVG",
+        "mode": "vector",
+        "frames": 1
+      },
+      "embedded": {
+        "mimeType": "image/svg+xml",
+        "byteLength": 1335,
+        "sha256": "9c06fa13fd77770772311f02e62442880f0b3363d616047eeee1407f351864e9",
+        "method": "srd-compliant-card-substitute",
+        "pixelVerifiedLossless": false,
+        "dataLocation": "css/assets/trap-deck/trap-deck-collapsing-roof-trap-card.css"
+      },
+      "css": {
+        "file": "css/assets/trap-deck/trap-deck-collapsing-roof-trap-card.css",
+        "variable": "--asset-trap-deck-collapsing-roof-trap-card",
+        "class": "asset-trap-deck-collapsing-roof-trap-card",
+        "usage": "<div class=\"asset-trap-deck-collapsing-roof-trap-card\" role=\"img\" aria-label=\"Collapsing Roof\"></div>"
+      },
+      "json": {
+        "file": "json/assets/trap-deck/trap-deck-collapsing-roof-trap-card.json"
+      },
+      "category": "Trap Deck",
+      "compliance": {
+        "status": "replaced",
+        "reason": "Original trap used inconsistent board-game checks, turn language, or damage. Rewritten with 5E-compatible actions, checks, saves, conditions, and damage.",
+        "replacementTitle": "Collapsing Roof",
+        "replacementKind": "trap",
+        "rulesBasis": "SRD 5.2.1 or original 5E-compatible mechanics",
+        "artBasis": "New vector/CSS asset or original layout; no D&D logo or publisher trade dress used."
+      },
+      "rulesData": {
+        "type": "Mechanical trap • 5E-compatible",
+        "meta": "Notice DC 15 • Dexterity save DC 15",
+        "summary": "On a failed save, take 4d10 bludgeoning damage; on a success, take half. The collapsed area becomes Difficult Terrain until cleared."
+      }
+    },
+    {
+      "id": "trap-deck-falling-net-trap-card",
+      "original": {
+        "path": "Trap Deck/falling net.jpg",
+        "filename": "falling net.jpg",
+        "extension": ".jpg",
+        "mimeType": "image/jpeg",
+        "byteLength": 386642,
+        "sha256": "d637f449da96f337599ceebcd9ad102ac0efcd72e28f582a95a21672995e69dc",
+        "sourceArchive": "To Save Just In Case.zip"
+      },
+      "image": {
+        "width": 1200,
+        "height": 1200,
+        "format": "SVG",
+        "mode": "vector",
+        "frames": 1
+      },
+      "embedded": {
+        "mimeType": "image/svg+xml",
+        "byteLength": 1434,
+        "sha256": "303a4cdb79f98439ab6eac551352ddd1c2ac1e56b6a4ac84c530c66b5c32ff3f",
+        "method": "srd-compliant-card-substitute",
+        "pixelVerifiedLossless": false,
+        "dataLocation": "css/assets/trap-deck/trap-deck-falling-net-trap-card.css"
+      },
+      "css": {
+        "file": "css/assets/trap-deck/trap-deck-falling-net-trap-card.css",
+        "variable": "--asset-trap-deck-falling-net-trap-card",
+        "class": "asset-trap-deck-falling-net-trap-card",
+        "usage": "<div class=\"asset-trap-deck-falling-net-trap-card\" role=\"img\" aria-label=\"Falling Net\"></div>"
+      },
+      "json": {
+        "file": "json/assets/trap-deck/trap-deck-falling-net-trap-card.json"
+      },
+      "category": "Trap Deck",
+      "compliance": {
+        "status": "replaced",
+        "reason": "Original trap used inconsistent board-game checks, turn language, or damage. Rewritten with 5E-compatible actions, checks, saves, conditions, and damage.",
+        "replacementTitle": "Falling Net",
+        "replacementKind": "trap",
+        "rulesBasis": "SRD 5.2.1 or original 5E-compatible mechanics",
+        "artBasis": "New vector/CSS asset or original layout; no D&D logo or publisher trade dress used."
+      },
+      "rulesData": {
+        "type": "Mechanical trap • 5E-compatible",
+        "meta": "Notice DC 15 • Disable DC 15 • Dexterity save DC 13",
+        "summary": "On a failed save, the creature is Restrained under the net. It or an adjacent creature can use an action to make a DC 10 Strength (Athletics) check to free it."
+      }
+    },
+    {
+      "id": "trap-deck-green-slime-trap-card",
+      "original": {
+        "path": "Trap Deck/Green slime trap.jpg",
+        "filename": "Green slime trap.jpg",
+        "extension": ".jpg",
+        "mimeType": "image/jpeg",
+        "byteLength": 494337,
+        "sha256": "c1518451c24f2137197a32f2ebafd694d45d4d40d1658ab11445884bc058eba6",
+        "sourceArchive": "To Save Just In Case (3).zip"
+      },
+      "image": {
+        "width": 1200,
+        "height": 1200,
+        "format": "SVG",
+        "mode": "vector",
+        "frames": 1
+      },
+      "embedded": {
+        "mimeType": "image/svg+xml",
+        "byteLength": 1419,
+        "sha256": "2de9b253d76437e0e9e1f10a9e5ebdee64dc973fe351d452f82d0bacb1036cf2",
+        "method": "srd-compliant-card-substitute",
+        "pixelVerifiedLossless": false,
+        "dataLocation": "css/assets/trap-deck/trap-deck-green-slime-trap-card.css"
+      },
+      "css": {
+        "file": "css/assets/trap-deck/trap-deck-green-slime-trap-card.css",
+        "variable": "--asset-trap-deck-green-slime-trap-card",
+        "class": "asset-trap-deck-green-slime-trap-card",
+        "usage": "<div class=\"asset-trap-deck-green-slime-trap-card\" role=\"img\" aria-label=\"Green Slime\"></div>"
+      },
+      "json": {
+        "file": "json/assets/trap-deck/trap-deck-green-slime-trap-card.json"
+      },
+      "category": "Trap Deck",
+      "compliance": {
+        "status": "replaced",
+        "reason": "Original trap used inconsistent board-game checks, turn language, or damage. Rewritten with 5E-compatible actions, checks, saves, conditions, and damage.",
+        "replacementTitle": "Green Slime",
+        "replacementKind": "trap",
+        "rulesBasis": "SRD 5.2.1 or original 5E-compatible mechanics",
+        "artBasis": "New vector/CSS asset or original layout; no D&D logo or publisher trade dress used."
+      },
+      "rulesData": {
+        "type": "Dungeon hazard • SRD reference",
+        "meta": "Notice DC 15 • Contact hazard",
+        "summary": "Use the Green Slime hazard rules in SRD 5.2.1. The slime clings to creatures and objects, deals acid damage, and can be removed or destroyed by the methods listed there."
+      }
+    },
+    {
+      "id": "trap-deck-locking-pit-trap-card",
+      "original": {
+        "path": "Trap Deck/locking pit.jpg",
+        "filename": "locking pit.jpg",
+        "extension": ".jpg",
+        "mimeType": "image/jpeg",
+        "byteLength": 477499,
+        "sha256": "a511096175b158e0423ecdcb19cdfdfca3c991359ad700dfa7c12058d1a9a4a7",
+        "sourceArchive": "To Save Just In Case (4).zip"
+      },
+      "image": {
+        "width": 1200,
+        "height": 1200,
+        "format": "SVG",
+        "mode": "vector",
+        "frames": 1
+      },
+      "embedded": {
+        "mimeType": "image/svg+xml",
+        "byteLength": 1439,
+        "sha256": "9866eccc9da11cc1460d054a4f0df3e4a542be81a7310f726daf3cc93033c369",
+        "method": "srd-compliant-card-substitute",
+        "pixelVerifiedLossless": false,
+        "dataLocation": "css/assets/trap-deck/trap-deck-locking-pit-trap-card.css"
+      },
+      "css": {
+        "file": "css/assets/trap-deck/trap-deck-locking-pit-trap-card.css",
+        "variable": "--asset-trap-deck-locking-pit-trap-card",
+        "class": "asset-trap-deck-locking-pit-trap-card",
+        "usage": "<div class=\"asset-trap-deck-locking-pit-trap-card\" role=\"img\" aria-label=\"Locking Pit\"></div>"
+      },
+      "json": {
+        "file": "json/assets/trap-deck/trap-deck-locking-pit-trap-card.json"
+      },
+      "category": "Trap Deck",
+      "compliance": {
+        "status": "replaced",
+        "reason": "Original trap used inconsistent board-game checks, turn language, or damage. Rewritten with 5E-compatible actions, checks, saves, conditions, and damage.",
+        "replacementTitle": "Locking Pit",
+        "replacementKind": "trap",
+        "rulesBasis": "SRD 5.2.1 or original 5E-compatible mechanics",
+        "artBasis": "New vector/CSS asset or original layout; no D&D logo or publisher trade dress used."
+      },
+      "rulesData": {
+        "type": "Pit trap • 5E-compatible",
+        "meta": "Notice DC 15 • Dexterity save DC 13 • Lid DC 15",
+        "summary": "On a failed save, fall 20 feet and take 2d6 bludgeoning damage. The lid locks; open it with a DC 15 Strength (Athletics) check or DC 15 Dexterity check using Thieves’ Tools."
+      }
+    },
+    {
+      "id": "trap-deck-poison-darts-trap-card",
+      "original": {
+        "path": "Trap Deck/poison darts.jpg",
+        "filename": "poison darts.jpg",
+        "extension": ".jpg",
+        "mimeType": "image/jpeg",
+        "byteLength": 384976,
+        "sha256": "1670848269a5d9d78aa3a440b52962c9a5f676afb18682689921e8663c97fd6a",
+        "sourceArchive": "To Save Just In Case (2).zip"
+      },
+      "image": {
+        "width": 1200,
+        "height": 1200,
+        "format": "SVG",
+        "mode": "vector",
+        "frames": 1
+      },
+      "embedded": {
+        "mimeType": "image/svg+xml",
+        "byteLength": 1357,
+        "sha256": "2a1d7773c14c93657886d1f9420bdcc76c521fa92e20aa4ef29abe782b32a9e4",
+        "method": "srd-compliant-card-substitute",
+        "pixelVerifiedLossless": false,
+        "dataLocation": "css/assets/trap-deck/trap-deck-poison-darts-trap-card.css"
+      },
+      "css": {
+        "file": "css/assets/trap-deck/trap-deck-poison-darts-trap-card.css",
+        "variable": "--asset-trap-deck-poison-darts-trap-card",
+        "class": "asset-trap-deck-poison-darts-trap-card",
+        "usage": "<div class=\"asset-trap-deck-poison-darts-trap-card\" role=\"img\" aria-label=\"Poison Darts\"></div>"
+      },
+      "json": {
+        "file": "json/assets/trap-deck/trap-deck-poison-darts-trap-card.json"
+      },
+      "category": "Trap Deck",
+      "compliance": {
+        "status": "replaced",
+        "reason": "Original trap used inconsistent board-game checks, turn language, or damage. Rewritten with 5E-compatible actions, checks, saves, conditions, and damage.",
+        "replacementTitle": "Poison Darts",
+        "replacementKind": "trap",
+        "rulesBasis": "SRD 5.2.1 or original 5E-compatible mechanics",
+        "artBasis": "New vector/CSS asset or original layout; no D&D logo or publisher trade dress used."
+      },
+      "rulesData": {
+        "type": "Mechanical trap • 5E-compatible",
+        "meta": "Notice DC 15 • Disable DC 15 • Dexterity save DC 15",
+        "summary": "On a failed save, take 1d4 piercing damage and make a DC 13 Constitution save, taking 2d10 poison damage on a failure or half on a success."
+      }
+    },
+    {
+      "id": "trap-deck-poison-spiked-pit-trap-card",
+      "original": {
+        "path": "Trap Deck/poison spiked trap.jpg",
+        "filename": "poison spiked trap.jpg",
+        "extension": ".jpg",
+        "mimeType": "image/jpeg",
+        "byteLength": 435076,
+        "sha256": "0f6e55775a66190d6627834590b4d20ffe822189dcd6e73d39bbf040eae97458",
+        "sourceArchive": "To Save Just In Case (2).zip"
+      },
+      "image": {
+        "width": 1200,
+        "height": 1200,
+        "format": "SVG",
+        "mode": "vector",
+        "frames": 1
+      },
+      "embedded": {
+        "mimeType": "image/svg+xml",
+        "byteLength": 1344,
+        "sha256": "042864695082b4e418a9d45784154f5b8e68df7e3309ed4d8fd6bf3f5bc32016",
+        "method": "srd-compliant-card-substitute",
+        "pixelVerifiedLossless": false,
+        "dataLocation": "css/assets/trap-deck/trap-deck-poison-spiked-pit-trap-card.css"
+      },
+      "css": {
+        "file": "css/assets/trap-deck/trap-deck-poison-spiked-pit-trap-card.css",
+        "variable": "--asset-trap-deck-poison-spiked-pit-trap-card",
+        "class": "asset-trap-deck-poison-spiked-pit-trap-card",
+        "usage": "<div class=\"asset-trap-deck-poison-spiked-pit-trap-card\" role=\"img\" aria-label=\"Poison-Spiked Pit\"></div>"
+      },
+      "json": {
+        "file": "json/assets/trap-deck/trap-deck-poison-spiked-pit-trap-card.json"
+      },
+      "category": "Trap Deck",
+      "compliance": {
+        "status": "replaced",
+        "reason": "Original trap used inconsistent board-game checks, turn language, or damage. Rewritten with 5E-compatible actions, checks, saves, conditions, and damage.",
+        "replacementTitle": "Poison-Spiked Pit",
+        "replacementKind": "trap",
+        "rulesBasis": "SRD 5.2.1 or original 5E-compatible mechanics",
+        "artBasis": "New vector/CSS asset or original layout; no D&D logo or publisher trade dress used."
+      },
+      "rulesData": {
+        "type": "Pit trap • 5E-compatible",
+        "meta": "Notice DC 15 • Dexterity save DC 13",
+        "summary": "On a failed save, take 2d6 bludgeoning and 1d10 piercing damage, then make a DC 13 Constitution save against 2d6 poison damage, half on a success."
+      }
+    }
+  ]
+}

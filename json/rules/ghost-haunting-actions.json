@@ -1,0 +1,73 @@
+{
+  "schema_version": "4.5.0",
+  "rule_ref": "json/gameplay/ghost-mode.json",
+  "haunt_energy": {
+    "maximum": 5,
+    "starting": 5,
+    "regeneration_realtime": "1 every 30 seconds outside meetings",
+    "regeneration_turn_based": "1 at the start of each ghost phase",
+    "anti_spam": "Repeated identical haunts on the same target or room receive temporary resistance."
+  },
+  "actions": [
+    {
+      "id": "trigger_trap",
+      "cost": 1,
+      "effect": "Set off an already armed built-in or Trap-deck trap when a legal trigger exists."
+    },
+    {
+      "id": "set_new_trap",
+      "cost": 3,
+      "effect": "Draw the top Trap card and place it on a server-approved tile in the current or adjacent connected room."
+    },
+    {
+      "id": "influence_monster",
+      "cost": 2,
+      "effect": "Raise or lower a monster's interest in a legal room, noise source, scent trail, patrol point, or target category."
+    },
+    {
+      "id": "move_monster",
+      "cost": 3,
+      "effect": "Request one legal monster movement toward an adjacent square or connected room during the next monster phase."
+    },
+    {
+      "id": "slam_or_lock_door",
+      "cost": 1,
+      "effect": "Close, bar, rattle, or briefly lock one hauntable door with an available counterplay."
+    },
+    {
+      "id": "flicker_or_extinguish_lights",
+      "cost": 1,
+      "effect": "Alter one room's lighting for a short duration."
+    },
+    {
+      "id": "poltergeist",
+      "cost": 1,
+      "effect": "Move or animate a hauntable prop to create noise, distraction, cover, or a visual cue without fabricating evidence."
+    },
+    {
+      "id": "cold_spot_or_whisper",
+      "cost": 1,
+      "effect": "Create a directional warning, false trail, intimidation cue, or atmospheric effect."
+    },
+    {
+      "id": "protective_haunt",
+      "cost": 2,
+      "effect": "Reveal a trap outline briefly, distract a monster, or extend a rescue window without revealing private cards."
+    },
+    {
+      "id": "possess_environment",
+      "cost": 4,
+      "effect": "Temporarily control an authored armor suit, statue, chandelier, bell, mirror, or ritual anchor."
+    }
+  ],
+  "permissions": {
+    "trigger_existing_traps": true,
+    "set_new_traps_from_trap_deck": true,
+    "influence_monster_movement_or_targeting": true,
+    "slam_doors": true,
+    "extinguish_lights": true,
+    "create_phantom_sounds": true,
+    "create_cold_spots": true,
+    "move_approved_small_objects": true
+  }
+}

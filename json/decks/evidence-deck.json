@@ -1,0 +1,344 @@
+{
+  "schema_version": "4.5.0",
+  "document_type": "KillerInTheKeep_evidence_deck",
+  "rules_version": "4.5.0",
+  "visibility": "mixed_private_and_public",
+  "card_count": 38,
+  "character_card_count": 8,
+  "murder_weapon_card_count": 8,
+  "room_card_count": 22,
+  "separation_rule": "Evidence Weapon cards are deduction-only and can never be equipped, carried as loot, traded for upgrades, or drawn from weapon racks.",
+  "solution_envelope": {
+    "select_without_replacement": [
+      "1 character card",
+      "1 murder-weapon card",
+      "1 room card"
+    ],
+    "server_only": true
+  },
+  "opening_victim": {
+    "selected_separately_from_envelope": true,
+    "must_be_one_of_eight_active_characters": true,
+    "cannot_be_original_killer": true,
+    "starts_as_ghost": true,
+    "receives_no_evidence_hand": true
+  },
+  "deal": {
+    "cards_after_envelope": 35,
+    "living_seats": 7,
+    "cards_per_living_seat": 5,
+    "killer_included": true,
+    "opening_victim_excluded": true,
+    "remainder": 0
+  },
+  "killer_hand_rule": "The original killer receives a normal five-card evidence hand and must reveal every matching card during a legal disproof window.",
+  "disproof_rule": "Every living holder, including the killer, reveals every matching named card face-up to the accusing player during the server-controlled reveal window.",
+  "accusation_rule": {
+    "must_stand_in_accused_room": true,
+    "must_not_hold_any_named_card": true,
+    "categories": [
+      "character",
+      "murder_weapon",
+      "room"
+    ],
+    "ghosts_cannot_accuse": true
+  },
+  "cards": [
+    {
+      "card_id": "evidence-character-daltu",
+      "category": "character",
+      "name": "Daltu",
+      "character_id": "daltu",
+      "public_card_asset": "gameplay-deck-daltu-character-card"
+    },
+    {
+      "card_id": "evidence-character-noldrack_goldblade",
+      "category": "character",
+      "name": "Noldrack Goldblade",
+      "character_id": "noldrack_goldblade",
+      "public_card_asset": "gameplay-deck-noldrack-goldblade-character-card"
+    },
+    {
+      "card_id": "evidence-character-eilvyre_astath",
+      "category": "character",
+      "name": "Eilvyre Astath",
+      "character_id": "eilvyre_astath",
+      "public_card_asset": "gameplay-deck-eilvyre-astath-character-card"
+    },
+    {
+      "card_id": "evidence-character-korbin_silverdew",
+      "category": "character",
+      "name": "Korbin Silverdew",
+      "character_id": "korbin_silverdew",
+      "public_card_asset": "gameplay-deck-korbin-silverdew-character-card"
+    },
+    {
+      "card_id": "evidence-character-joknos_jock",
+      "category": "character",
+      "name": "Joknos Jock",
+      "character_id": "joknos_jock",
+      "public_card_asset": "gameplay-deck-joknos-jock-character-card"
+    },
+    {
+      "card_id": "evidence-character-githtoxundes_fenwophyl",
+      "category": "character",
+      "name": "Githtoxundes Xun Fenwophyl",
+      "character_id": "githtoxundes_fenwophyl",
+      "public_card_asset": "gameplay-deck-githtoxundes-fenwophyl-character-card"
+    },
+    {
+      "card_id": "evidence-character-gunnus",
+      "category": "character",
+      "name": "Gunnus",
+      "character_id": "gunnus",
+      "public_card_asset": "gameplay-deck-gunnus-character-card"
+    },
+    {
+      "card_id": "evidence-character-monk",
+      "category": "character",
+      "name": "Monk",
+      "character_id": "monk",
+      "public_card_asset": "gameplay-deck-monk-character-card"
+    },
+    {
+      "card_id": "evidence-weapon-battleaxe",
+      "category": "murder_weapon",
+      "name": "Battleaxe",
+      "public_card_asset": "gameplay-deck-battleaxe-weapon-card",
+      "equippable": false,
+      "loot_card": false
+    },
+    {
+      "card_id": "evidence-weapon-arrows",
+      "category": "murder_weapon",
+      "name": "Arrows",
+      "public_card_asset": "gameplay-deck-arrows-20-gameplay-card",
+      "equippable": false,
+      "loot_card": false
+    },
+    {
+      "card_id": "evidence-weapon-rapier",
+      "category": "murder_weapon",
+      "name": "Rapier",
+      "public_card_asset": "gameplay-deck-rapier-weapon-card",
+      "equippable": false,
+      "loot_card": false
+    },
+    {
+      "card_id": "evidence-weapon-magical-staff",
+      "category": "murder_weapon",
+      "name": "Magical Staff",
+      "public_card_asset": "gameplay-deck-quarterstaff-weapon-card",
+      "equippable": false,
+      "loot_card": false
+    },
+    {
+      "card_id": "evidence-weapon-dagger",
+      "category": "murder_weapon",
+      "name": "Dagger",
+      "public_card_asset": "gameplay-deck-dagger-weapon-card",
+      "equippable": false,
+      "loot_card": false
+    },
+    {
+      "card_id": "evidence-weapon-poison",
+      "category": "murder_weapon",
+      "name": "Poison",
+      "public_card_asset": "gameplay-deck-basic-poison-item-card",
+      "equippable": false,
+      "loot_card": false
+    },
+    {
+      "card_id": "evidence-weapon-mace",
+      "category": "murder_weapon",
+      "name": "Mace",
+      "public_card_asset": "gameplay-deck-mace-weapon-card",
+      "equippable": false,
+      "loot_card": false
+    },
+    {
+      "card_id": "evidence-weapon-wand",
+      "category": "murder_weapon",
+      "name": "Wand",
+      "public_card_asset": "gameplay-deck-wand-gameplay-card",
+      "equippable": false,
+      "loot_card": false
+    },
+    {
+      "card_id": "evidence-room-cellar",
+      "category": "room",
+      "name": "Cellar",
+      "room_id": "cellar",
+      "room_number": 1,
+      "public_room_card": "room_cards/html/01_cellar.html"
+    },
+    {
+      "card_id": "evidence-room-foyer",
+      "category": "room",
+      "name": "Foyer",
+      "room_id": "foyer",
+      "room_number": 2,
+      "public_room_card": "room_cards/html/02_foyer.html"
+    },
+    {
+      "card_id": "evidence-room-grand_hall",
+      "category": "room",
+      "name": "Grand Hall",
+      "room_id": "grand_hall",
+      "room_number": 3,
+      "public_room_card": "room_cards/html/03_grand-hall.html"
+    },
+    {
+      "card_id": "evidence-room-game_room",
+      "category": "room",
+      "name": "Game Room",
+      "room_id": "game_room",
+      "room_number": 4,
+      "public_room_card": "room_cards/html/04_game-room.html"
+    },
+    {
+      "card_id": "evidence-room-dining_room",
+      "category": "room",
+      "name": "Dining Room",
+      "room_id": "dining_room",
+      "room_number": 5,
+      "public_room_card": "room_cards/html/05_dining-room.html"
+    },
+    {
+      "card_id": "evidence-room-kitchen",
+      "category": "room",
+      "name": "Kitchen",
+      "room_id": "kitchen",
+      "room_number": 6,
+      "public_room_card": "room_cards/html/06_kitchen.html"
+    },
+    {
+      "card_id": "evidence-room-pantry",
+      "category": "room",
+      "name": "Pantry",
+      "room_id": "pantry",
+      "room_number": 7,
+      "public_room_card": "room_cards/html/07_pantry.html"
+    },
+    {
+      "card_id": "evidence-room-sitting_room",
+      "category": "room",
+      "name": "Sitting Room",
+      "room_id": "sitting_room",
+      "room_number": 8,
+      "public_room_card": "room_cards/html/08_sitting-room.html"
+    },
+    {
+      "card_id": "evidence-room-music_room",
+      "category": "room",
+      "name": "Music Room",
+      "room_id": "music_room",
+      "room_number": 9,
+      "public_room_card": "room_cards/html/09_music-room.html"
+    },
+    {
+      "card_id": "evidence-room-privy",
+      "category": "room",
+      "name": "Privy",
+      "room_id": "privy",
+      "room_number": 10,
+      "public_room_card": "room_cards/html/10_privy.html"
+    },
+    {
+      "card_id": "evidence-room-library",
+      "category": "room",
+      "name": "Library",
+      "room_id": "library",
+      "room_number": 11,
+      "public_room_card": "room_cards/html/11_library.html"
+    },
+    {
+      "card_id": "evidence-room-first_floor_solar",
+      "category": "room",
+      "name": "1st Floor Solar",
+      "room_id": "first_floor_solar",
+      "room_number": 12,
+      "public_room_card": "room_cards/html/12_first-floor-solar.html"
+    },
+    {
+      "card_id": "evidence-room-alchemists_quarters",
+      "category": "room",
+      "name": "Alchemist’s Quarters",
+      "room_id": "alchemists_quarters",
+      "room_number": 13,
+      "public_room_card": "room_cards/html/13_alchemists-quarters.html"
+    },
+    {
+      "card_id": "evidence-room-alchemists_study",
+      "category": "room",
+      "name": "Alchemist’s Study",
+      "room_id": "alchemists_study",
+      "room_number": 14,
+      "public_room_card": "room_cards/html/14_alchemists-study.html"
+    },
+    {
+      "card_id": "evidence-room-armory",
+      "category": "room",
+      "name": "Armory",
+      "room_id": "armory",
+      "room_number": 15,
+      "public_room_card": "room_cards/html/15_armory.html"
+    },
+    {
+      "card_id": "evidence-room-main_guest_quarters",
+      "category": "room",
+      "name": "Main Guest Quarters",
+      "room_id": "main_guest_quarters",
+      "room_number": 16,
+      "public_room_card": "room_cards/html/16_main-guest-quarters.html"
+    },
+    {
+      "card_id": "evidence-room-den",
+      "category": "room",
+      "name": "Den",
+      "room_id": "den",
+      "room_number": 17,
+      "public_room_card": "room_cards/html/17_den.html"
+    },
+    {
+      "card_id": "evidence-room-secondary_guest_quarters",
+      "category": "room",
+      "name": "Secondary Guest Quarters",
+      "room_id": "secondary_guest_quarters",
+      "room_number": 18,
+      "public_room_card": "room_cards/html/18_secondary-guest-quarters.html"
+    },
+    {
+      "card_id": "evidence-room-second_floor_solar",
+      "category": "room",
+      "name": "2nd Floor Solar",
+      "room_id": "second_floor_solar",
+      "room_number": 19,
+      "public_room_card": "room_cards/html/19_second-floor-solar.html"
+    },
+    {
+      "card_id": "evidence-room-chapel",
+      "category": "room",
+      "name": "Chapel",
+      "room_id": "chapel",
+      "room_number": 20,
+      "public_room_card": "room_cards/html/20_chapel.html"
+    },
+    {
+      "card_id": "evidence-room-attic",
+      "category": "room",
+      "name": "Attic",
+      "room_id": "attic",
+      "room_number": 21,
+      "public_room_card": "room_cards/html/21_attic.html"
+    },
+    {
+      "card_id": "evidence-room-servants_quarters",
+      "category": "room",
+      "name": "Servant’s Quarters",
+      "room_id": "servants_quarters",
+      "room_number": 22,
+      "public_room_card": "room_cards/html/22_servants-quarters.html"
+    }
+  ]
+}

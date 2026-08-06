@@ -1,0 +1,43 @@
+{
+  "schema_version": "4.5.0",
+  "rule_id": "death_card_recycle",
+  "title": "Card Return, Shuffle, and Ghost Transition on Permanent Death",
+  "enabled": true,
+  "triggers": [
+    "confirmed_character_death",
+    "offscreen_first_victim_assignment"
+  ],
+  "return_to_source_decks": [
+    "Every evidence card in the deceased living character’s hand returns to the Evidence deck.",
+    "Every unconsumed deck-owned Treasure card carried, equipped, attuned, reserved, or held by the deceased returns to the Treasure deck.",
+    "Every Armory Weapon card owned by the deceased returns to the Armory Weapon deck unless a card was permanently consumed by a legal upgrade effect.",
+    "Every held Trap, Monster-control, summon, or other shared-deck card returns to its own source deck.",
+    "Any cards mistakenly predealt to the off-screen opening victim return before active play."
+  ],
+  "never_return_or_redeal": [
+    "character identity card",
+    "character sheet",
+    "character token",
+    "private role assignment",
+    "sealed solution cards",
+    "match history record"
+  ],
+  "resolution_order": [
+    "confirm permanent death or opening-victim assignment",
+    "freeze hand, inventory, equipment, attunement, and pending card effects",
+    "group eligible cards by source deck",
+    "remove ownership and expire temporary ownership effects",
+    "return each card to its source draw deck",
+    "shuffle every affected deck with authoritative randomness",
+    "publish only anonymous deck counts",
+    "create or continue the character’s ghost state"
+  ],
+  "first_victim": {
+    "starts_as_ghost": true,
+    "living_token_is_not_placed": true,
+    "cannot_be_active_killer": true,
+    "assigned_start_becomes_nonblocking_ghost_origin": true
+  },
+  "server_authority": "Only the authoritative match runtime may return and shuffle cards.",
+  "revival_rule": "Cards already returned and shuffled are not recreated if the character is later revived; the revived character resumes with no duplicate cards."
+}

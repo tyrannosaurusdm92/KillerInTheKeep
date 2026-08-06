@@ -1,0 +1,1523 @@
+{
+  "schema_version": "2.0.0",
+  "document_type": "KillerInTheKeep_armory_weapon_and_magic_weapon_deck",
+  "rules_version": "4.2.0",
+  "card_count": 46,
+  "source_basis": "Mundane weapon statistics use SRD 5.2.1. Magic inserts use SRD 5.2.1 magic items and retain their named extra energy/damage types.",
+  "official_rule_note": "Official D&D permits anyone to wield a weapon but withholds the Proficiency Bonus when the wielder lacks proficiency.",
+  "killer_in_the_keep_override": "For this game, a character who is not compatible with a found weapon cannot equip or attack with it; they may carry or trade it.",
+  "draw_sources": [
+    "armory_weapon_rack_1",
+    "armory_weapon_rack_2",
+    "any future fixture tagged weapon_rack"
+  ],
+  "draw_rule": "Investigate a weapon rack and resolve its Search/encounter trigger, then draw and reveal exactly one top card from this deck. Determine compatibility only after the card is revealed.",
+  "carry_penalty": {
+    "applies_to": "Each carried Armory Weapon card the carrier cannot use.",
+    "legacy_roll_movement": "Subtract 1 traversable grid square from the movement die result per incompatible carried weapon; minimum final result 0 squares.",
+    "tactical_speed_equivalent": "Subtract 5 feet of movement per incompatible carried weapon for the turn; minimum 0 feet after all modifiers.",
+    "equipped_or_compatible_cards": "No penalty from compatible weapons, equipped weapons, evidence Weapon cards, or non-weapon treasure."
+  },
+  "trade_rule": {
+    "requirements": [
+      "Both characters are living and conscious.",
+      "Both occupy the same named room or adjacent legal grid cells.",
+      "Recipient is compatible with the traded weapon.",
+      "Trade is accepted by the recipient or their bot logic."
+    ],
+    "enhancement": "The recipient immediately gives their currently equipped weapon a permanent +1 bonus to attack rolls and damage rolls for the remainder of the match.",
+    "stacking": "Bonuses can stack to a maximum of +3 on one equipped weapon.",
+    "anti_exploit": "Each Armory Weapon card can grant this enhancement only once. After granting it, mark the card bound_to_upgrade and remove it from further trade loops until match end.",
+    "unequipped_recipient": "If the recipient has no equipped weapon, they equip the received weapon and it becomes +1."
+  },
+  "class_compatibility": {
+    "Fighter": "All Simple and Martial weapons.",
+    "Paladin": "All Simple and Martial weapons.",
+    "Bard": "Simple weapons; Joknos also keeps his explicit Rapier proficiency.",
+    "Druid": "Simple weapons.",
+    "Sorcerer": "Simple weapons.",
+    "Cleric": "Simple weapons.",
+    "Necromancer": "Uses the Wizard proficiency baseline: Simple weapons.",
+    "Monk": "Simple weapons and Martial weapons with the Light property."
+  },
+  "cards": [
+    {
+      "card_id": "armory-weapon-01-club",
+      "name": "Club",
+      "category": "simple",
+      "combat_type": "melee",
+      "damage": {
+        "dice": "1d4",
+        "type": "Bludgeoning"
+      },
+      "properties": [
+        "Light"
+      ],
+      "mastery": "Slow",
+      "weight_lb": 2,
+      "cost": "1 SP",
+      "medieval_keep_eligible": true,
+      "compatible_character_ids": [
+        "daltu",
+        "noldrack_goldblade",
+        "eilvyre_astath",
+        "korbin_silverdew",
+        "joknos_jock",
+        "githtoxundes_fenwophyl",
+        "gunnus",
+        "monk"
+      ],
+      "incompatible_character_ids": []
+    },
+    {
+      "card_id": "armory-weapon-02-dagger",
+      "name": "Dagger",
+      "category": "simple",
+      "combat_type": "melee",
+      "damage": {
+        "dice": "1d4",
+        "type": "Piercing"
+      },
+      "properties": [
+        "Finesse",
+        "Light",
+        "Thrown (20/60)"
+      ],
+      "mastery": "Nick",
+      "weight_lb": 1,
+      "cost": "2 GP",
+      "medieval_keep_eligible": true,
+      "compatible_character_ids": [
+        "daltu",
+        "noldrack_goldblade",
+        "eilvyre_astath",
+        "korbin_silverdew",
+        "joknos_jock",
+        "githtoxundes_fenwophyl",
+        "gunnus",
+        "monk"
+      ],
+      "incompatible_character_ids": []
+    },
+    {
+      "card_id": "armory-weapon-03-greatclub",
+      "name": "Greatclub",
+      "category": "simple",
+      "combat_type": "melee",
+      "damage": {
+        "dice": "1d8",
+        "type": "Bludgeoning"
+      },
+      "properties": [
+        "Two-Handed"
+      ],
+      "mastery": "Push",
+      "weight_lb": 10,
+      "cost": "2 SP",
+      "medieval_keep_eligible": true,
+      "compatible_character_ids": [
+        "daltu",
+        "noldrack_goldblade",
+        "eilvyre_astath",
+        "korbin_silverdew",
+        "joknos_jock",
+        "githtoxundes_fenwophyl",
+        "gunnus",
+        "monk"
+      ],
+      "incompatible_character_ids": []
+    },
+    {
+      "card_id": "armory-weapon-04-handaxe",
+      "name": "Handaxe",
+      "category": "simple",
+      "combat_type": "melee",
+      "damage": {
+        "dice": "1d6",
+        "type": "Slashing"
+      },
+      "properties": [
+        "Light",
+        "Thrown (20/60)"
+      ],
+      "mastery": "Vex",
+      "weight_lb": 2,
+      "cost": "5 GP",
+      "medieval_keep_eligible": true,
+      "compatible_character_ids": [
+        "daltu",
+        "noldrack_goldblade",
+        "eilvyre_astath",
+        "korbin_silverdew",
+        "joknos_jock",
+        "githtoxundes_fenwophyl",
+        "gunnus",
+        "monk"
+      ],
+      "incompatible_character_ids": []
+    },
+    {
+      "card_id": "armory-weapon-05-javelin",
+      "name": "Javelin",
+      "category": "simple",
+      "combat_type": "melee",
+      "damage": {
+        "dice": "1d6",
+        "type": "Piercing"
+      },
+      "properties": [
+        "Thrown (30/120)"
+      ],
+      "mastery": "Slow",
+      "weight_lb": 2,
+      "cost": "5 SP",
+      "medieval_keep_eligible": true,
+      "compatible_character_ids": [
+        "daltu",
+        "noldrack_goldblade",
+        "eilvyre_astath",
+        "korbin_silverdew",
+        "joknos_jock",
+        "githtoxundes_fenwophyl",
+        "gunnus",
+        "monk"
+      ],
+      "incompatible_character_ids": []
+    },
+    {
+      "card_id": "armory-weapon-06-light-hammer",
+      "name": "Light Hammer",
+      "category": "simple",
+      "combat_type": "melee",
+      "damage": {
+        "dice": "1d4",
+        "type": "Bludgeoning"
+      },
+      "properties": [
+        "Light",
+        "Thrown (20/60)"
+      ],
+      "mastery": "Nick",
+      "weight_lb": 2,
+      "cost": "2 GP",
+      "medieval_keep_eligible": true,
+      "compatible_character_ids": [
+        "daltu",
+        "noldrack_goldblade",
+        "eilvyre_astath",
+        "korbin_silverdew",
+        "joknos_jock",
+        "githtoxundes_fenwophyl",
+        "gunnus",
+        "monk"
+      ],
+      "incompatible_character_ids": []
+    },
+    {
+      "card_id": "armory-weapon-07-mace",
+      "name": "Mace",
+      "category": "simple",
+      "combat_type": "melee",
+      "damage": {
+        "dice": "1d6",
+        "type": "Bludgeoning"
+      },
+      "properties": [],
+      "mastery": "Sap",
+      "weight_lb": 4,
+      "cost": "5 GP",
+      "medieval_keep_eligible": true,
+      "compatible_character_ids": [
+        "daltu",
+        "noldrack_goldblade",
+        "eilvyre_astath",
+        "korbin_silverdew",
+        "joknos_jock",
+        "githtoxundes_fenwophyl",
+        "gunnus",
+        "monk"
+      ],
+      "incompatible_character_ids": []
+    },
+    {
+      "card_id": "armory-weapon-08-quarterstaff",
+      "name": "Quarterstaff",
+      "category": "simple",
+      "combat_type": "melee",
+      "damage": {
+        "dice": "1d6",
+        "type": "Bludgeoning"
+      },
+      "properties": [
+        "Versatile (1d8)"
+      ],
+      "mastery": "Topple",
+      "weight_lb": 4,
+      "cost": "2 SP",
+      "medieval_keep_eligible": true,
+      "compatible_character_ids": [
+        "daltu",
+        "noldrack_goldblade",
+        "eilvyre_astath",
+        "korbin_silverdew",
+        "joknos_jock",
+        "githtoxundes_fenwophyl",
+        "gunnus",
+        "monk"
+      ],
+      "incompatible_character_ids": []
+    },
+    {
+      "card_id": "armory-weapon-09-sickle",
+      "name": "Sickle",
+      "category": "simple",
+      "combat_type": "melee",
+      "damage": {
+        "dice": "1d4",
+        "type": "Slashing"
+      },
+      "properties": [
+        "Light"
+      ],
+      "mastery": "Nick",
+      "weight_lb": 2,
+      "cost": "1 GP",
+      "medieval_keep_eligible": true,
+      "compatible_character_ids": [
+        "daltu",
+        "noldrack_goldblade",
+        "eilvyre_astath",
+        "korbin_silverdew",
+        "joknos_jock",
+        "githtoxundes_fenwophyl",
+        "gunnus",
+        "monk"
+      ],
+      "incompatible_character_ids": []
+    },
+    {
+      "card_id": "armory-weapon-10-spear",
+      "name": "Spear",
+      "category": "simple",
+      "combat_type": "melee",
+      "damage": {
+        "dice": "1d6",
+        "type": "Piercing"
+      },
+      "properties": [
+        "Thrown (20/60)",
+        "Versatile (1d8)"
+      ],
+      "mastery": "Sap",
+      "weight_lb": 3,
+      "cost": "1 GP",
+      "medieval_keep_eligible": true,
+      "compatible_character_ids": [
+        "daltu",
+        "noldrack_goldblade",
+        "eilvyre_astath",
+        "korbin_silverdew",
+        "joknos_jock",
+        "githtoxundes_fenwophyl",
+        "gunnus",
+        "monk"
+      ],
+      "incompatible_character_ids": []
+    },
+    {
+      "card_id": "armory-weapon-11-dart",
+      "name": "Dart",
+      "category": "simple",
+      "combat_type": "ranged",
+      "damage": {
+        "dice": "1d4",
+        "type": "Piercing"
+      },
+      "properties": [
+        "Finesse",
+        "Thrown (20/60)"
+      ],
+      "mastery": "Vex",
+      "weight_lb": 0.25,
+      "cost": "5 CP",
+      "medieval_keep_eligible": true,
+      "compatible_character_ids": [
+        "daltu",
+        "noldrack_goldblade",
+        "eilvyre_astath",
+        "korbin_silverdew",
+        "joknos_jock",
+        "githtoxundes_fenwophyl",
+        "gunnus",
+        "monk"
+      ],
+      "incompatible_character_ids": []
+    },
+    {
+      "card_id": "armory-weapon-12-light-crossbow",
+      "name": "Light Crossbow",
+      "category": "simple",
+      "combat_type": "ranged",
+      "damage": {
+        "dice": "1d8",
+        "type": "Piercing"
+      },
+      "properties": [
+        "Ammunition (80/320; Bolt)",
+        "Loading",
+        "Two-Handed"
+      ],
+      "mastery": "Slow",
+      "weight_lb": 5,
+      "cost": "25 GP",
+      "medieval_keep_eligible": true,
+      "compatible_character_ids": [
+        "daltu",
+        "noldrack_goldblade",
+        "eilvyre_astath",
+        "korbin_silverdew",
+        "joknos_jock",
+        "githtoxundes_fenwophyl",
+        "gunnus",
+        "monk"
+      ],
+      "incompatible_character_ids": []
+    },
+    {
+      "card_id": "armory-weapon-13-shortbow",
+      "name": "Shortbow",
+      "category": "simple",
+      "combat_type": "ranged",
+      "damage": {
+        "dice": "1d6",
+        "type": "Piercing"
+      },
+      "properties": [
+        "Ammunition (80/320; Arrow)",
+        "Two-Handed"
+      ],
+      "mastery": "Vex",
+      "weight_lb": 2,
+      "cost": "25 GP",
+      "medieval_keep_eligible": true,
+      "compatible_character_ids": [
+        "daltu",
+        "noldrack_goldblade",
+        "eilvyre_astath",
+        "korbin_silverdew",
+        "joknos_jock",
+        "githtoxundes_fenwophyl",
+        "gunnus",
+        "monk"
+      ],
+      "incompatible_character_ids": []
+    },
+    {
+      "card_id": "armory-weapon-14-sling",
+      "name": "Sling",
+      "category": "simple",
+      "combat_type": "ranged",
+      "damage": {
+        "dice": "1d4",
+        "type": "Bludgeoning"
+      },
+      "properties": [
+        "Ammunition (30/120; Bullet)"
+      ],
+      "mastery": "Slow",
+      "weight_lb": 0,
+      "cost": "1 SP",
+      "medieval_keep_eligible": true,
+      "compatible_character_ids": [
+        "daltu",
+        "noldrack_goldblade",
+        "eilvyre_astath",
+        "korbin_silverdew",
+        "joknos_jock",
+        "githtoxundes_fenwophyl",
+        "gunnus",
+        "monk"
+      ],
+      "incompatible_character_ids": []
+    },
+    {
+      "card_id": "armory-weapon-15-battleaxe",
+      "name": "Battleaxe",
+      "category": "martial",
+      "combat_type": "melee",
+      "damage": {
+        "dice": "1d8",
+        "type": "Slashing"
+      },
+      "properties": [
+        "Versatile (1d10)"
+      ],
+      "mastery": "Topple",
+      "weight_lb": 4,
+      "cost": "10 GP",
+      "medieval_keep_eligible": true,
+      "compatible_character_ids": [
+        "daltu",
+        "korbin_silverdew"
+      ],
+      "incompatible_character_ids": [
+        "noldrack_goldblade",
+        "eilvyre_astath",
+        "joknos_jock",
+        "githtoxundes_fenwophyl",
+        "gunnus",
+        "monk"
+      ]
+    },
+    {
+      "card_id": "armory-weapon-16-flail",
+      "name": "Flail",
+      "category": "martial",
+      "combat_type": "melee",
+      "damage": {
+        "dice": "1d8",
+        "type": "Bludgeoning"
+      },
+      "properties": [],
+      "mastery": "Sap",
+      "weight_lb": 2,
+      "cost": "10 GP",
+      "medieval_keep_eligible": true,
+      "compatible_character_ids": [
+        "daltu",
+        "korbin_silverdew"
+      ],
+      "incompatible_character_ids": [
+        "noldrack_goldblade",
+        "eilvyre_astath",
+        "joknos_jock",
+        "githtoxundes_fenwophyl",
+        "gunnus",
+        "monk"
+      ]
+    },
+    {
+      "card_id": "armory-weapon-17-glaive",
+      "name": "Glaive",
+      "category": "martial",
+      "combat_type": "melee",
+      "damage": {
+        "dice": "1d10",
+        "type": "Slashing"
+      },
+      "properties": [
+        "Heavy",
+        "Reach",
+        "Two-Handed"
+      ],
+      "mastery": "Graze",
+      "weight_lb": 6,
+      "cost": "20 GP",
+      "medieval_keep_eligible": true,
+      "compatible_character_ids": [
+        "daltu",
+        "korbin_silverdew"
+      ],
+      "incompatible_character_ids": [
+        "noldrack_goldblade",
+        "eilvyre_astath",
+        "joknos_jock",
+        "githtoxundes_fenwophyl",
+        "gunnus",
+        "monk"
+      ]
+    },
+    {
+      "card_id": "armory-weapon-18-greataxe",
+      "name": "Greataxe",
+      "category": "martial",
+      "combat_type": "melee",
+      "damage": {
+        "dice": "1d12",
+        "type": "Slashing"
+      },
+      "properties": [
+        "Heavy",
+        "Two-Handed"
+      ],
+      "mastery": "Cleave",
+      "weight_lb": 7,
+      "cost": "30 GP",
+      "medieval_keep_eligible": true,
+      "compatible_character_ids": [
+        "daltu",
+        "korbin_silverdew"
+      ],
+      "incompatible_character_ids": [
+        "noldrack_goldblade",
+        "eilvyre_astath",
+        "joknos_jock",
+        "githtoxundes_fenwophyl",
+        "gunnus",
+        "monk"
+      ]
+    },
+    {
+      "card_id": "armory-weapon-19-greatsword",
+      "name": "Greatsword",
+      "category": "martial",
+      "combat_type": "melee",
+      "damage": {
+        "dice": "2d6",
+        "type": "Slashing"
+      },
+      "properties": [
+        "Heavy",
+        "Two-Handed"
+      ],
+      "mastery": "Graze",
+      "weight_lb": 6,
+      "cost": "50 GP",
+      "medieval_keep_eligible": true,
+      "compatible_character_ids": [
+        "daltu",
+        "korbin_silverdew"
+      ],
+      "incompatible_character_ids": [
+        "noldrack_goldblade",
+        "eilvyre_astath",
+        "joknos_jock",
+        "githtoxundes_fenwophyl",
+        "gunnus",
+        "monk"
+      ]
+    },
+    {
+      "card_id": "armory-weapon-20-halberd",
+      "name": "Halberd",
+      "category": "martial",
+      "combat_type": "melee",
+      "damage": {
+        "dice": "1d10",
+        "type": "Slashing"
+      },
+      "properties": [
+        "Heavy",
+        "Reach",
+        "Two-Handed"
+      ],
+      "mastery": "Cleave",
+      "weight_lb": 6,
+      "cost": "20 GP",
+      "medieval_keep_eligible": true,
+      "compatible_character_ids": [
+        "daltu",
+        "korbin_silverdew"
+      ],
+      "incompatible_character_ids": [
+        "noldrack_goldblade",
+        "eilvyre_astath",
+        "joknos_jock",
+        "githtoxundes_fenwophyl",
+        "gunnus",
+        "monk"
+      ]
+    },
+    {
+      "card_id": "armory-weapon-21-lance",
+      "name": "Lance",
+      "category": "martial",
+      "combat_type": "melee",
+      "damage": {
+        "dice": "1d10",
+        "type": "Piercing"
+      },
+      "properties": [
+        "Heavy",
+        "Reach",
+        "Two-Handed (unless mounted)"
+      ],
+      "mastery": "Topple",
+      "weight_lb": 6,
+      "cost": "10 GP",
+      "medieval_keep_eligible": true,
+      "compatible_character_ids": [
+        "daltu",
+        "korbin_silverdew"
+      ],
+      "incompatible_character_ids": [
+        "noldrack_goldblade",
+        "eilvyre_astath",
+        "joknos_jock",
+        "githtoxundes_fenwophyl",
+        "gunnus",
+        "monk"
+      ]
+    },
+    {
+      "card_id": "armory-weapon-22-longsword",
+      "name": "Longsword",
+      "category": "martial",
+      "combat_type": "melee",
+      "damage": {
+        "dice": "1d8",
+        "type": "Slashing"
+      },
+      "properties": [
+        "Versatile (1d10)"
+      ],
+      "mastery": "Sap",
+      "weight_lb": 3,
+      "cost": "15 GP",
+      "medieval_keep_eligible": true,
+      "compatible_character_ids": [
+        "daltu",
+        "korbin_silverdew"
+      ],
+      "incompatible_character_ids": [
+        "noldrack_goldblade",
+        "eilvyre_astath",
+        "joknos_jock",
+        "githtoxundes_fenwophyl",
+        "gunnus",
+        "monk"
+      ]
+    },
+    {
+      "card_id": "armory-weapon-23-maul",
+      "name": "Maul",
+      "category": "martial",
+      "combat_type": "melee",
+      "damage": {
+        "dice": "2d6",
+        "type": "Bludgeoning"
+      },
+      "properties": [
+        "Heavy",
+        "Two-Handed"
+      ],
+      "mastery": "Topple",
+      "weight_lb": 10,
+      "cost": "10 GP",
+      "medieval_keep_eligible": true,
+      "compatible_character_ids": [
+        "daltu",
+        "korbin_silverdew"
+      ],
+      "incompatible_character_ids": [
+        "noldrack_goldblade",
+        "eilvyre_astath",
+        "joknos_jock",
+        "githtoxundes_fenwophyl",
+        "gunnus",
+        "monk"
+      ]
+    },
+    {
+      "card_id": "armory-weapon-24-morningstar",
+      "name": "Morningstar",
+      "category": "martial",
+      "combat_type": "melee",
+      "damage": {
+        "dice": "1d8",
+        "type": "Piercing"
+      },
+      "properties": [],
+      "mastery": "Sap",
+      "weight_lb": 4,
+      "cost": "15 GP",
+      "medieval_keep_eligible": true,
+      "compatible_character_ids": [
+        "daltu",
+        "korbin_silverdew"
+      ],
+      "incompatible_character_ids": [
+        "noldrack_goldblade",
+        "eilvyre_astath",
+        "joknos_jock",
+        "githtoxundes_fenwophyl",
+        "gunnus",
+        "monk"
+      ]
+    },
+    {
+      "card_id": "armory-weapon-25-pike",
+      "name": "Pike",
+      "category": "martial",
+      "combat_type": "melee",
+      "damage": {
+        "dice": "1d10",
+        "type": "Piercing"
+      },
+      "properties": [
+        "Heavy",
+        "Reach",
+        "Two-Handed"
+      ],
+      "mastery": "Push",
+      "weight_lb": 18,
+      "cost": "5 GP",
+      "medieval_keep_eligible": true,
+      "compatible_character_ids": [
+        "daltu",
+        "korbin_silverdew"
+      ],
+      "incompatible_character_ids": [
+        "noldrack_goldblade",
+        "eilvyre_astath",
+        "joknos_jock",
+        "githtoxundes_fenwophyl",
+        "gunnus",
+        "monk"
+      ]
+    },
+    {
+      "card_id": "armory-weapon-26-rapier",
+      "name": "Rapier",
+      "category": "martial",
+      "combat_type": "melee",
+      "damage": {
+        "dice": "1d8",
+        "type": "Piercing"
+      },
+      "properties": [
+        "Finesse"
+      ],
+      "mastery": "Vex",
+      "weight_lb": 2,
+      "cost": "25 GP",
+      "medieval_keep_eligible": true,
+      "compatible_character_ids": [
+        "daltu",
+        "korbin_silverdew",
+        "joknos_jock"
+      ],
+      "incompatible_character_ids": [
+        "noldrack_goldblade",
+        "eilvyre_astath",
+        "githtoxundes_fenwophyl",
+        "gunnus",
+        "monk"
+      ]
+    },
+    {
+      "card_id": "armory-weapon-27-scimitar",
+      "name": "Scimitar",
+      "category": "martial",
+      "combat_type": "melee",
+      "damage": {
+        "dice": "1d6",
+        "type": "Slashing"
+      },
+      "properties": [
+        "Finesse",
+        "Light"
+      ],
+      "mastery": "Nick",
+      "weight_lb": 3,
+      "cost": "25 GP",
+      "medieval_keep_eligible": true,
+      "compatible_character_ids": [
+        "daltu",
+        "korbin_silverdew",
+        "monk"
+      ],
+      "incompatible_character_ids": [
+        "noldrack_goldblade",
+        "eilvyre_astath",
+        "joknos_jock",
+        "githtoxundes_fenwophyl",
+        "gunnus"
+      ]
+    },
+    {
+      "card_id": "armory-weapon-28-shortsword",
+      "name": "Shortsword",
+      "category": "martial",
+      "combat_type": "melee",
+      "damage": {
+        "dice": "1d6",
+        "type": "Piercing"
+      },
+      "properties": [
+        "Finesse",
+        "Light"
+      ],
+      "mastery": "Vex",
+      "weight_lb": 2,
+      "cost": "10 GP",
+      "medieval_keep_eligible": true,
+      "compatible_character_ids": [
+        "daltu",
+        "korbin_silverdew",
+        "monk"
+      ],
+      "incompatible_character_ids": [
+        "noldrack_goldblade",
+        "eilvyre_astath",
+        "joknos_jock",
+        "githtoxundes_fenwophyl",
+        "gunnus"
+      ]
+    },
+    {
+      "card_id": "armory-weapon-29-trident",
+      "name": "Trident",
+      "category": "martial",
+      "combat_type": "melee",
+      "damage": {
+        "dice": "1d8",
+        "type": "Piercing"
+      },
+      "properties": [
+        "Thrown (20/60)",
+        "Versatile (1d10)"
+      ],
+      "mastery": "Topple",
+      "weight_lb": 4,
+      "cost": "5 GP",
+      "medieval_keep_eligible": true,
+      "compatible_character_ids": [
+        "daltu",
+        "korbin_silverdew"
+      ],
+      "incompatible_character_ids": [
+        "noldrack_goldblade",
+        "eilvyre_astath",
+        "joknos_jock",
+        "githtoxundes_fenwophyl",
+        "gunnus",
+        "monk"
+      ]
+    },
+    {
+      "card_id": "armory-weapon-30-warhammer",
+      "name": "Warhammer",
+      "category": "martial",
+      "combat_type": "melee",
+      "damage": {
+        "dice": "1d8",
+        "type": "Bludgeoning"
+      },
+      "properties": [
+        "Versatile (1d10)"
+      ],
+      "mastery": "Push",
+      "weight_lb": 5,
+      "cost": "15 GP",
+      "medieval_keep_eligible": true,
+      "compatible_character_ids": [
+        "daltu",
+        "korbin_silverdew"
+      ],
+      "incompatible_character_ids": [
+        "noldrack_goldblade",
+        "eilvyre_astath",
+        "joknos_jock",
+        "githtoxundes_fenwophyl",
+        "gunnus",
+        "monk"
+      ]
+    },
+    {
+      "card_id": "armory-weapon-31-war-pick",
+      "name": "War Pick",
+      "category": "martial",
+      "combat_type": "melee",
+      "damage": {
+        "dice": "1d8",
+        "type": "Piercing"
+      },
+      "properties": [
+        "Versatile (1d10)"
+      ],
+      "mastery": "Sap",
+      "weight_lb": 2,
+      "cost": "5 GP",
+      "medieval_keep_eligible": true,
+      "compatible_character_ids": [
+        "daltu",
+        "korbin_silverdew"
+      ],
+      "incompatible_character_ids": [
+        "noldrack_goldblade",
+        "eilvyre_astath",
+        "joknos_jock",
+        "githtoxundes_fenwophyl",
+        "gunnus",
+        "monk"
+      ]
+    },
+    {
+      "card_id": "armory-weapon-32-whip",
+      "name": "Whip",
+      "category": "martial",
+      "combat_type": "melee",
+      "damage": {
+        "dice": "1d4",
+        "type": "Slashing"
+      },
+      "properties": [
+        "Finesse",
+        "Reach"
+      ],
+      "mastery": "Slow",
+      "weight_lb": 3,
+      "cost": "2 GP",
+      "medieval_keep_eligible": true,
+      "compatible_character_ids": [
+        "daltu",
+        "korbin_silverdew"
+      ],
+      "incompatible_character_ids": [
+        "noldrack_goldblade",
+        "eilvyre_astath",
+        "joknos_jock",
+        "githtoxundes_fenwophyl",
+        "gunnus",
+        "monk"
+      ]
+    },
+    {
+      "card_id": "armory-weapon-33-blowgun",
+      "name": "Blowgun",
+      "category": "martial",
+      "combat_type": "ranged",
+      "damage": {
+        "dice": "1",
+        "type": "Piercing"
+      },
+      "properties": [
+        "Ammunition (25/100; Needle)",
+        "Loading"
+      ],
+      "mastery": "Vex",
+      "weight_lb": 1,
+      "cost": "10 GP",
+      "medieval_keep_eligible": true,
+      "compatible_character_ids": [
+        "daltu",
+        "korbin_silverdew"
+      ],
+      "incompatible_character_ids": [
+        "noldrack_goldblade",
+        "eilvyre_astath",
+        "joknos_jock",
+        "githtoxundes_fenwophyl",
+        "gunnus",
+        "monk"
+      ]
+    },
+    {
+      "card_id": "armory-weapon-34-hand-crossbow",
+      "name": "Hand Crossbow",
+      "category": "martial",
+      "combat_type": "ranged",
+      "damage": {
+        "dice": "1d6",
+        "type": "Piercing"
+      },
+      "properties": [
+        "Ammunition (30/120; Bolt)",
+        "Light",
+        "Loading"
+      ],
+      "mastery": "Vex",
+      "weight_lb": 3,
+      "cost": "75 GP",
+      "medieval_keep_eligible": true,
+      "compatible_character_ids": [
+        "daltu",
+        "korbin_silverdew",
+        "monk"
+      ],
+      "incompatible_character_ids": [
+        "noldrack_goldblade",
+        "eilvyre_astath",
+        "joknos_jock",
+        "githtoxundes_fenwophyl",
+        "gunnus"
+      ]
+    },
+    {
+      "card_id": "armory-weapon-35-heavy-crossbow",
+      "name": "Heavy Crossbow",
+      "category": "martial",
+      "combat_type": "ranged",
+      "damage": {
+        "dice": "1d10",
+        "type": "Piercing"
+      },
+      "properties": [
+        "Ammunition (100/400; Bolt)",
+        "Heavy",
+        "Loading",
+        "Two-Handed"
+      ],
+      "mastery": "Push",
+      "weight_lb": 18,
+      "cost": "50 GP",
+      "medieval_keep_eligible": true,
+      "compatible_character_ids": [
+        "daltu",
+        "korbin_silverdew"
+      ],
+      "incompatible_character_ids": [
+        "noldrack_goldblade",
+        "eilvyre_astath",
+        "joknos_jock",
+        "githtoxundes_fenwophyl",
+        "gunnus",
+        "monk"
+      ]
+    },
+    {
+      "card_id": "armory-weapon-36-longbow",
+      "name": "Longbow",
+      "category": "martial",
+      "combat_type": "ranged",
+      "damage": {
+        "dice": "1d8",
+        "type": "Piercing"
+      },
+      "properties": [
+        "Ammunition (150/600; Arrow)",
+        "Heavy",
+        "Two-Handed"
+      ],
+      "mastery": "Slow",
+      "weight_lb": 2,
+      "cost": "50 GP",
+      "medieval_keep_eligible": true,
+      "compatible_character_ids": [
+        "daltu",
+        "korbin_silverdew"
+      ],
+      "incompatible_character_ids": [
+        "noldrack_goldblade",
+        "eilvyre_astath",
+        "joknos_jock",
+        "githtoxundes_fenwophyl",
+        "gunnus",
+        "monk"
+      ]
+    },
+    {
+      "card_id": "armory-magic-01-dagger-of-venom",
+      "name": "Dagger of Venom",
+      "magic": true,
+      "rarity": "Rare",
+      "requires_attunement": false,
+      "base_weapon": "Dagger",
+      "category": "simple",
+      "combat_type": "melee",
+      "damage": {
+        "dice": "1d4",
+        "type": "Piercing"
+      },
+      "magic_bonus": 1,
+      "extra_damage": {
+        "dice": "2d10",
+        "type": "Poison",
+        "trigger": "After coating the blade as a Bonus Action, the next hit within 1 minute.",
+        "save": "DC 15 Constitution; on failure the target also has the Poisoned condition for 1 minute.",
+        "recharge": "Next dawn"
+      },
+      "properties": [
+        "Finesse",
+        "Light",
+        "Thrown (20/60)"
+      ],
+      "source_item": "Dagger of Venom",
+      "source_basis": "SRD 5.2.1",
+      "compatible_character_ids": [
+        "daltu",
+        "noldrack_goldblade",
+        "eilvyre_astath",
+        "korbin_silverdew",
+        "joknos_jock",
+        "githtoxundes_fenwophyl",
+        "gunnus",
+        "monk"
+      ],
+      "incompatible_character_ids": []
+    },
+    {
+      "card_id": "armory-magic-02-flame-tongue",
+      "name": "Flame Tongue",
+      "magic": true,
+      "rarity": "Rare",
+      "requires_attunement": true,
+      "base_weapon": "Any class-compatible melee weapon selected when drawn",
+      "category": "adaptive",
+      "combat_type": "melee",
+      "damage": {
+        "dice": "Use selected base weapon",
+        "type": "Use selected base weapon"
+      },
+      "magic_bonus": 0,
+      "extra_damage": {
+        "dice": "2d6",
+        "type": "Fire",
+        "trigger": "Every hit while ignited by command word as a Bonus Action.",
+        "recharge": "No charge; extinguishes when dropped, stowed, sheathed, or commanded off."
+      },
+      "properties": [
+        "Adaptive melee form",
+        "Bright light 40 ft; dim light +40 ft while ignited"
+      ],
+      "source_item": "Flame Tongue",
+      "source_basis": "SRD 5.2.1",
+      "compatible_character_ids": [
+        "daltu",
+        "noldrack_goldblade",
+        "eilvyre_astath",
+        "korbin_silverdew",
+        "joknos_jock",
+        "githtoxundes_fenwophyl",
+        "gunnus",
+        "monk"
+      ],
+      "incompatible_character_ids": []
+    },
+    {
+      "card_id": "armory-magic-03-frost-brand",
+      "name": "Frost Brand",
+      "magic": true,
+      "rarity": "Very Rare",
+      "requires_attunement": true,
+      "base_weapon": "Choose Glaive, Greatsword, Longsword, Rapier, Scimitar, or Shortsword when drawn",
+      "category": "martial",
+      "combat_type": "melee",
+      "damage": {
+        "dice": "Use selected base weapon",
+        "type": "Use selected base weapon"
+      },
+      "magic_bonus": 0,
+      "extra_damage": {
+        "dice": "1d6",
+        "type": "Cold",
+        "trigger": "Every hit.",
+        "secondary": "Grants Resistance to Fire damage while held."
+      },
+      "properties": [
+        "Selected legal sword/glaive form",
+        "Can extinguish nonmagical flames within 30 ft once per hour when drawn"
+      ],
+      "source_item": "Frost Brand",
+      "source_basis": "SRD 5.2.1",
+      "compatible_character_ids": [
+        "daltu",
+        "korbin_silverdew",
+        "joknos_jock",
+        "monk"
+      ],
+      "incompatible_character_ids": [
+        "noldrack_goldblade",
+        "eilvyre_astath",
+        "githtoxundes_fenwophyl",
+        "gunnus"
+      ]
+    },
+    {
+      "card_id": "armory-magic-04-mace-of-disruption",
+      "name": "Mace of Disruption",
+      "magic": true,
+      "rarity": "Rare",
+      "requires_attunement": true,
+      "base_weapon": "Mace",
+      "category": "simple",
+      "combat_type": "melee",
+      "damage": {
+        "dice": "1d6",
+        "type": "Bludgeoning"
+      },
+      "magic_bonus": 0,
+      "extra_damage": {
+        "dice": "2d6",
+        "type": "Radiant",
+        "trigger": "Every hit against a Fiend or Undead.",
+        "secondary": "A low-HP Fiend or Undead may be destroyed on a failed DC 15 Wisdom save."
+      },
+      "properties": [
+        "Light source while held"
+      ],
+      "source_item": "Mace of Disruption",
+      "source_basis": "SRD 5.2.1",
+      "compatible_character_ids": [
+        "daltu",
+        "noldrack_goldblade",
+        "eilvyre_astath",
+        "korbin_silverdew",
+        "joknos_jock",
+        "githtoxundes_fenwophyl",
+        "gunnus",
+        "monk"
+      ],
+      "incompatible_character_ids": []
+    },
+    {
+      "card_id": "armory-magic-05-staff-of-thunder-and-lightning",
+      "name": "Staff of Thunder and Lightning",
+      "magic": true,
+      "rarity": "Very Rare",
+      "requires_attunement": true,
+      "base_weapon": "Quarterstaff",
+      "category": "simple",
+      "combat_type": "melee",
+      "damage": {
+        "dice": "1d6 (1d8 versatile)",
+        "type": "Bludgeoning"
+      },
+      "magic_bonus": 2,
+      "extra_damage": {
+        "options": [
+          {
+            "dice": "2d6",
+            "type": "Lightning",
+            "trigger": "One hit, once per dawn."
+          },
+          {
+            "dice": "2d6",
+            "type": "Thunder",
+            "trigger": "One hit, once per dawn; DC 17 Constitution save or Deafened for 1 minute."
+          }
+        ],
+        "type": "Lightning or Thunder",
+        "trigger": "Choose a property when its use is available.",
+        "recharge": "Each named property recharges at dawn."
+      },
+      "properties": [
+        "Versatile",
+        "Additional lightning strike and thunderclap powers remain card-limited"
+      ],
+      "source_item": "Staff of Thunder and Lightning",
+      "source_basis": "SRD 5.2.1",
+      "compatible_character_ids": [
+        "daltu",
+        "noldrack_goldblade",
+        "eilvyre_astath",
+        "korbin_silverdew",
+        "joknos_jock",
+        "githtoxundes_fenwophyl",
+        "gunnus",
+        "monk"
+      ],
+      "incompatible_character_ids": []
+    },
+    {
+      "card_id": "armory-magic-06-staff-of-withering",
+      "name": "Staff of Withering",
+      "magic": true,
+      "rarity": "Rare",
+      "requires_attunement": true,
+      "base_weapon": "Quarterstaff",
+      "category": "simple",
+      "combat_type": "melee",
+      "damage": {
+        "dice": "1d6 (1d8 versatile)",
+        "type": "Bludgeoning"
+      },
+      "magic_bonus": 0,
+      "extra_damage": {
+        "dice": "2d10",
+        "type": "Necrotic",
+        "trigger": "On a hit by expending 1 of 3 charges.",
+        "save": "DC 15 Constitution; failure gives Disadvantage on Strength- and Constitution-based checks and saves for 1 hour.",
+        "recharge": "Regains 1d3 charges at dawn."
+      },
+      "properties": [
+        "Versatile"
+      ],
+      "source_item": "Staff of Withering",
+      "source_basis": "SRD 5.2.1",
+      "compatible_character_ids": [
+        "daltu",
+        "noldrack_goldblade",
+        "eilvyre_astath",
+        "korbin_silverdew",
+        "joknos_jock",
+        "githtoxundes_fenwophyl",
+        "gunnus",
+        "monk"
+      ],
+      "incompatible_character_ids": []
+    },
+    {
+      "card_id": "armory-magic-07-sun-blade",
+      "name": "Sun Blade",
+      "magic": true,
+      "rarity": "Rare",
+      "requires_attunement": true,
+      "base_weapon": "Longsword hilt; proficiency with Longsword or Shortsword qualifies",
+      "category": "martial",
+      "combat_type": "melee",
+      "damage": {
+        "dice": "1d8 (1d10 versatile)",
+        "type": "Radiant"
+      },
+      "magic_bonus": 2,
+      "extra_damage": {
+        "dice": "1d8",
+        "type": "Radiant",
+        "trigger": "Every hit against an Undead."
+      },
+      "properties": [
+        "Finesse",
+        "Versatile",
+        "Sunlight blade; adjustable light radius"
+      ],
+      "source_item": "Sun Blade",
+      "source_basis": "SRD 5.2.1",
+      "compatible_character_ids": [
+        "daltu",
+        "korbin_silverdew",
+        "monk"
+      ],
+      "incompatible_character_ids": [
+        "noldrack_goldblade",
+        "eilvyre_astath",
+        "joknos_jock",
+        "githtoxundes_fenwophyl",
+        "gunnus"
+      ]
+    },
+    {
+      "card_id": "armory-magic-08-sword-of-life-stealing",
+      "name": "Sword of Life Stealing",
+      "magic": true,
+      "rarity": "Rare",
+      "requires_attunement": true,
+      "base_weapon": "Choose Glaive, Greatsword, Longsword, Rapier, Scimitar, or Shortsword when drawn",
+      "category": "martial",
+      "combat_type": "melee",
+      "damage": {
+        "dice": "Use selected base weapon",
+        "type": "Use selected base weapon"
+      },
+      "magic_bonus": 0,
+      "extra_damage": {
+        "dice": "15",
+        "type": "Necrotic",
+        "trigger": "When the attack die is a natural 20 against a non-Construct, non-Undead target.",
+        "secondary": "Gain Temporary Hit Points equal to the Necrotic damage actually taken."
+      },
+      "properties": [
+        "Selected legal sword/glaive form"
+      ],
+      "source_item": "Sword of Life Stealing",
+      "source_basis": "SRD 5.2.1",
+      "compatible_character_ids": [
+        "daltu",
+        "korbin_silverdew",
+        "joknos_jock",
+        "monk"
+      ],
+      "incompatible_character_ids": [
+        "noldrack_goldblade",
+        "eilvyre_astath",
+        "githtoxundes_fenwophyl",
+        "gunnus"
+      ]
+    },
+    {
+      "card_id": "armory-magic-09-sword-of-wounding",
+      "name": "Sword of Wounding",
+      "magic": true,
+      "rarity": "Rare",
+      "requires_attunement": true,
+      "base_weapon": "Choose Glaive, Greatsword, Longsword, Rapier, Scimitar, or Shortsword when drawn",
+      "category": "martial",
+      "combat_type": "melee",
+      "damage": {
+        "dice": "Use selected base weapon",
+        "type": "Use selected base weapon"
+      },
+      "magic_bonus": 0,
+      "extra_damage": {
+        "dice": "2d6",
+        "type": "Necrotic",
+        "trigger": "Every hit.",
+        "save": "DC 15 Constitution; failure prevents regaining HP until the target succeeds at the end of a turn."
+      },
+      "properties": [
+        "Selected legal sword/glaive form"
+      ],
+      "source_item": "Sword of Wounding",
+      "source_basis": "SRD 5.2.1",
+      "compatible_character_ids": [
+        "daltu",
+        "korbin_silverdew",
+        "joknos_jock",
+        "monk"
+      ],
+      "incompatible_character_ids": [
+        "noldrack_goldblade",
+        "eilvyre_astath",
+        "githtoxundes_fenwophyl",
+        "gunnus"
+      ]
+    },
+    {
+      "card_id": "armory-magic-10-holy-avenger",
+      "name": "Holy Avenger",
+      "magic": true,
+      "rarity": "Legendary",
+      "requires_attunement": true,
+      "attunement_prerequisite": "Paladin",
+      "base_weapon": "Any Simple or Martial weapon selected by the Paladin when drawn",
+      "category": "adaptive",
+      "combat_type": "melee_or_ranged",
+      "damage": {
+        "dice": "Use selected base weapon",
+        "type": "Use selected base weapon"
+      },
+      "magic_bonus": 3,
+      "extra_damage": {
+        "dice": "2d10",
+        "type": "Radiant",
+        "trigger": "Every hit against a Fiend or Undead."
+      },
+      "properties": [
+        "Protective aura against spells and magical effects"
+      ],
+      "source_item": "Holy Avenger",
+      "source_basis": "SRD 5.2.1",
+      "compatible_character_ids": [
+        "korbin_silverdew"
+      ],
+      "incompatible_character_ids": [
+        "daltu",
+        "noldrack_goldblade",
+        "eilvyre_astath",
+        "joknos_jock",
+        "githtoxundes_fenwophyl",
+        "gunnus",
+        "monk"
+      ],
+      "availability": "Final-act, boss-reward, chapel-reliquary, or High Magic deck build only."
+    }
+  ],
+  "catalog_card_count": 46,
+  "mundane_card_count": 36,
+  "magic_card_count": 10,
+  "default_active_deck_build": {
+    "standard": "All 36 mundane cards plus 6 randomly selected magic cards: at least 4 Rare, no more than 1 Very Rare, and no Legendary card.",
+    "high_magic": "All 36 mundane cards plus all 9 non-Legendary magic cards.",
+    "final_act_legendary_insert": "Holy Avenger may be inserted only through an authored chapel/boss/final-act reward or a host-enabled High Magic setting."
+  },
+  "magic_weapon_policy": {
+    "extra_damage_required": true,
+    "validation_rule": "Every card with magic=true must declare extra_damage.type (or options containing typed extra damage).",
+    "damage_type_vocabulary": [
+      "Acid",
+      "Cold",
+      "Fire",
+      "Force",
+      "Lightning",
+      "Necrotic",
+      "Poison",
+      "Psychic",
+      "Radiant",
+      "Thunder"
+    ],
+    "note": "D&D calls electrical damage Lightning damage."
+  },
+  "srd_license_notice_file": "NOTICE_SRD_5.2.1.md",
+  "source_file": "rules/armory-weapon-deck-v2.0.0.json"
+}

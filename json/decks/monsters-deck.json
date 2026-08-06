@@ -1,0 +1,1056 @@
+{
+  "cards": [
+    {
+      "id": "monsters-deck-gelatinous-cube-monster-card",
+      "original": null,
+      "image": {
+        "format": "SVG",
+        "mode": "vector"
+      },
+      "embedded": {
+        "mimeType": "image/svg+xml",
+        "method": "srd-compliant-card-substitute",
+        "dataLocation": "assets/svg/cards/monsters/monsters-deck-gelatinous-cube-monster-card.svg"
+      },
+      "css": null,
+      "json": null,
+      "category": "Monsters/Deck",
+      "compliance": {
+        "status": "added",
+        "reason": "SRD-compliant monster card added to the expanded game deck.",
+        "replacementTitle": "Gelatinous Cube",
+        "replacementKind": "monster-card",
+        "rulesBasis": "SRD 5.2.1",
+        "artBasis": "Original vector card asset; no publisher trade dress."
+      },
+      "rulesData": {
+        "id": "gelatinous-cube",
+        "name": "Gelatinous Cube",
+        "size": "Large",
+        "ac": 6,
+        "hp": 84,
+        "movement": {
+          "dice": "1d4",
+          "directions": "orthogonal",
+          "speedCap": 4,
+          "surfaces": [
+            "floor"
+          ],
+          "canUseStairs": false,
+          "occupancy": "2x2"
+        },
+        "attack": {
+          "name": "Pseudopod",
+          "bonus": 4,
+          "damage": "3d6",
+          "damageType": "acid"
+        },
+        "traits": [
+          "Ooze Cube",
+          "Transparent",
+          "Engulf"
+        ],
+        "resistances": [
+          "acid"
+        ],
+        "immunities": [
+          "blinded",
+          "charmed",
+          "deafened",
+          "exhaustion",
+          "frightened",
+          "prone"
+        ],
+        "vulnerabilities": [],
+        "lootTable": "dissolved"
+      },
+      "copies": 7
+    },
+    {
+      "id": "monsters-deck-giant-spider-monster-card",
+      "original": {
+        "path": "Monsters/Deck/huge spider.jpg",
+        "filename": "huge spider.jpg",
+        "extension": ".jpg",
+        "mimeType": "image/jpeg",
+        "byteLength": 1022918,
+        "sha256": "b081046ef3f814eeaf420e00ce05e0c34fc7f0098a817ceef5092b68e3934d17",
+        "sourceArchive": "To Save Just In Case (4).zip"
+      },
+      "image": {
+        "width": 1200,
+        "height": 1200,
+        "format": "SVG",
+        "mode": "vector",
+        "frames": 1
+      },
+      "embedded": {
+        "mimeType": "image/svg+xml",
+        "byteLength": 1353,
+        "sha256": "9f3689c1dfad0a1bb578d5cae785a0d45c23b066de5d8e3d39f4bbd398493fa9",
+        "method": "srd-compliant-card-substitute",
+        "pixelVerifiedLossless": false,
+        "dataLocation": "css/assets/monsters/deck/monsters-deck-giant-spider-monster-card.css"
+      },
+      "css": {
+        "file": "css/assets/monsters/deck/monsters-deck-giant-spider-monster-card.css",
+        "variable": "--asset-monsters-deck-giant-spider-monster-card",
+        "class": "asset-monsters-deck-giant-spider-monster-card",
+        "usage": "<div class=\"asset-monsters-deck-giant-spider-monster-card\" role=\"img\" aria-label=\"Giant Spider\"></div>"
+      },
+      "json": {
+        "file": "json/assets/monsters/deck/monsters-deck-giant-spider-monster-card.json"
+      },
+      "category": "Monsters/Deck",
+      "compliance": {
+        "status": "replaced",
+        "reason": "Original monster card did not use the SRD 5.2.1 stat block and included unverified third-party/watermarked art; replaced with an original-layout SRD stat card.",
+        "replacementTitle": "Giant Spider",
+        "replacementKind": "monster-card",
+        "rulesBasis": "SRD 5.2.1 or original 5E-compatible mechanics",
+        "artBasis": "New vector/CSS asset or original layout; no D&D logo or publisher trade dress used."
+      },
+      "rulesData": {
+        "type": "Large Beast, Unaligned",
+        "meta": "AC 14 • HP 26 (4d10 + 4) • Speed 30 ft., Climb 30 ft. • CR 1",
+        "summary": "Bite: +5 to hit, 7 (1d8 + 3) piercing plus 7 (2d6) poison. Web (Recharge 5–6) can Restrain a target on a failed DC 13 Dexterity save."
+      },
+      "copies": 7
+    },
+    {
+      "id": "monsters-deck-giant-spider-monster-card-2",
+      "original": {
+        "path": "Monsters/Deck/large spider.jpg",
+        "filename": "large spider.jpg",
+        "extension": ".jpg",
+        "mimeType": "image/jpeg",
+        "byteLength": 1056460,
+        "sha256": "498781cc984dd5f480c7a73e770611a80df3a234deb5c87fc850741934a7af8a",
+        "sourceArchive": "To Save Just In Case (2).zip"
+      },
+      "image": {
+        "width": 1200,
+        "height": 1200,
+        "format": "SVG",
+        "mode": "vector",
+        "frames": 1
+      },
+      "embedded": {
+        "mimeType": "image/svg+xml",
+        "byteLength": 1353,
+        "sha256": "9f3689c1dfad0a1bb578d5cae785a0d45c23b066de5d8e3d39f4bbd398493fa9",
+        "method": "srd-compliant-card-substitute",
+        "pixelVerifiedLossless": false,
+        "dataLocation": "css/assets/monsters/deck/monsters-deck-giant-spider-monster-card-2.css"
+      },
+      "css": {
+        "file": "css/assets/monsters/deck/monsters-deck-giant-spider-monster-card-2.css",
+        "variable": "--asset-monsters-deck-giant-spider-monster-card-2",
+        "class": "asset-monsters-deck-giant-spider-monster-card-2",
+        "usage": "<div class=\"asset-monsters-deck-giant-spider-monster-card-2\" role=\"img\" aria-label=\"Giant Spider\"></div>"
+      },
+      "json": {
+        "file": "json/assets/monsters/deck/monsters-deck-giant-spider-monster-card-2.json"
+      },
+      "category": "Monsters/Deck",
+      "compliance": {
+        "status": "replaced",
+        "reason": "Original monster card did not use the SRD 5.2.1 stat block and included unverified third-party/watermarked art; replaced with an original-layout SRD stat card.",
+        "replacementTitle": "Giant Spider",
+        "replacementKind": "monster-card",
+        "rulesBasis": "SRD 5.2.1 or original 5E-compatible mechanics",
+        "artBasis": "New vector/CSS asset or original layout; no D&D logo or publisher trade dress used."
+      },
+      "rulesData": {
+        "type": "Large Beast, Unaligned",
+        "meta": "AC 14 • HP 26 (4d10 + 4) • Speed 30 ft., Climb 30 ft. • CR 1",
+        "summary": "Bite: +5 to hit, 7 (1d8 + 3) piercing plus 7 (2d6) poison. Web (Recharge 5–6) can Restrain a target on a failed DC 13 Dexterity save."
+      },
+      "copies": 7
+    },
+    {
+      "id": "monsters-deck-giant-wolf-spider-monster-card",
+      "original": {
+        "path": "Monsters/Deck/medium spider.jpg",
+        "filename": "medium spider.jpg",
+        "extension": ".jpg",
+        "mimeType": "image/jpeg",
+        "byteLength": 1045112,
+        "sha256": "1311c2de60b80f7744036ddad4a61afe3743e34ffddfa2d93764fa0ba7d4c6f1",
+        "sourceArchive": "To Save Just In Case (2).zip"
+      },
+      "image": {
+        "width": 1200,
+        "height": 1200,
+        "format": "SVG",
+        "mode": "vector",
+        "frames": 1
+      },
+      "embedded": {
+        "mimeType": "image/svg+xml",
+        "byteLength": 1239,
+        "sha256": "f341cd583ea8df8b3f2219a355e6988f74c45566d8b4a6eceb40bf720e18a08d",
+        "method": "srd-compliant-card-substitute",
+        "pixelVerifiedLossless": false,
+        "dataLocation": "css/assets/monsters/deck/monsters-deck-giant-wolf-spider-monster-card.css"
+      },
+      "css": {
+        "file": "css/assets/monsters/deck/monsters-deck-giant-wolf-spider-monster-card.css",
+        "variable": "--asset-monsters-deck-giant-wolf-spider-monster-card",
+        "class": "asset-monsters-deck-giant-wolf-spider-monster-card",
+        "usage": "<div class=\"asset-monsters-deck-giant-wolf-spider-monster-card\" role=\"img\" aria-label=\"Giant Wolf Spider\"></div>"
+      },
+      "json": {
+        "file": "json/assets/monsters/deck/monsters-deck-giant-wolf-spider-monster-card.json"
+      },
+      "category": "Monsters/Deck",
+      "compliance": {
+        "status": "replaced",
+        "reason": "Original monster card did not use the SRD 5.2.1 stat block and included unverified third-party/watermarked art; replaced with an original-layout SRD stat card.",
+        "replacementTitle": "Giant Wolf Spider",
+        "replacementKind": "monster-card",
+        "rulesBasis": "SRD 5.2.1 or original 5E-compatible mechanics",
+        "artBasis": "New vector/CSS asset or original layout; no D&D logo or publisher trade dress used."
+      },
+      "rulesData": {
+        "type": "Medium Beast, Unaligned",
+        "meta": "AC 13 • HP 11 (2d8 + 2) • Speed 40 ft., Climb 40 ft. • CR 1/4",
+        "summary": "Bite: +5 to hit, 5 (1d4 + 3) piercing plus 5 (2d4) poison. Spider Climb."
+      },
+      "copies": 7
+    },
+    {
+      "id": "monsters-deck-mimic-monster-card",
+      "original": null,
+      "image": {
+        "format": "SVG",
+        "mode": "vector"
+      },
+      "embedded": {
+        "mimeType": "image/svg+xml",
+        "method": "srd-compliant-card-substitute",
+        "dataLocation": "assets/svg/cards/monsters/monsters-deck-mimic-monster-card.svg"
+      },
+      "css": null,
+      "json": null,
+      "category": "Monsters/Deck",
+      "compliance": {
+        "status": "added",
+        "reason": "SRD-compliant monster card added to the expanded game deck.",
+        "replacementTitle": "Mimic",
+        "replacementKind": "monster-card",
+        "rulesBasis": "SRD 5.2.1",
+        "artBasis": "Original vector card asset; no publisher trade dress."
+      },
+      "rulesData": {
+        "id": "mimic",
+        "name": "Mimic",
+        "size": "Medium",
+        "ac": 12,
+        "hp": 58,
+        "movement": {
+          "dice": "1d4",
+          "directions": "orthogonal",
+          "speedCap": 4,
+          "surfaces": [
+            "floor"
+          ],
+          "canUseStairs": false
+        },
+        "attack": {
+          "name": "Bite",
+          "bonus": 5,
+          "damage": "1d8+3",
+          "extraDamage": "1d8",
+          "damageType": "acid"
+        },
+        "traits": [
+          "Shape-Shift",
+          "Adhesive",
+          "False Appearance",
+          "Grappler"
+        ],
+        "resistances": [
+          "acid"
+        ],
+        "immunities": [
+          "prone"
+        ],
+        "vulnerabilities": [],
+        "lootTable": "mimic"
+      },
+      "copies": 7
+    },
+    {
+      "id": "monsters-deck-skeleton-monster-card",
+      "original": {
+        "path": "Monsters/Deck/skeleton monster.jpg",
+        "filename": "skeleton monster.jpg",
+        "extension": ".jpg",
+        "mimeType": "image/jpeg",
+        "byteLength": 944902,
+        "sha256": "22f4d280d7593dfd198a47fa4438242ea6a3f416b56611b5f94c3f1ae66e7020",
+        "sourceArchive": "To Save Just In Case (4).zip"
+      },
+      "image": {
+        "width": 1200,
+        "height": 1200,
+        "format": "SVG",
+        "mode": "vector",
+        "frames": 1
+      },
+      "embedded": {
+        "mimeType": "image/svg+xml",
+        "byteLength": 1414,
+        "sha256": "5cf5ea03023aa5915a3aad030ebc06b233d61f58c9a2a2bdc678b6cf5e76a24d",
+        "method": "srd-compliant-card-substitute",
+        "pixelVerifiedLossless": false,
+        "dataLocation": "css/assets/monsters/deck/monsters-deck-skeleton-monster-card.css"
+      },
+      "css": {
+        "file": "css/assets/monsters/deck/monsters-deck-skeleton-monster-card.css",
+        "variable": "--asset-monsters-deck-skeleton-monster-card",
+        "class": "asset-monsters-deck-skeleton-monster-card",
+        "usage": "<div class=\"asset-monsters-deck-skeleton-monster-card\" role=\"img\" aria-label=\"Skeleton\"></div>"
+      },
+      "json": {
+        "file": "json/assets/monsters/deck/monsters-deck-skeleton-monster-card.json"
+      },
+      "category": "Monsters/Deck",
+      "compliance": {
+        "status": "replaced",
+        "reason": "Original monster card did not use the SRD 5.2.1 stat block and included unverified third-party/watermarked art; replaced with an original-layout SRD stat card.",
+        "replacementTitle": "Skeleton",
+        "replacementKind": "monster-card",
+        "rulesBasis": "SRD 5.2.1 or original 5E-compatible mechanics",
+        "artBasis": "New vector/CSS asset or original layout; no D&D logo or publisher trade dress used."
+      },
+      "rulesData": {
+        "type": "Medium Undead, Lawful Evil",
+        "meta": "AC 14 • HP 13 (2d8 + 4) • Speed 30 ft. • CR 1/4",
+        "summary": "Shortsword or Shortbow: +5 to hit, 6 (1d6 + 3) piercing. Vulnerable to bludgeoning; immune to poison damage and the Exhaustion and Poisoned conditions."
+      },
+      "copies": 7
+    },
+    {
+      "id": "monsters-deck-spider-monster-card",
+      "original": {
+        "path": "Monsters/Deck/small spider.jpg",
+        "filename": "small spider.jpg",
+        "extension": ".jpg",
+        "mimeType": "image/jpeg",
+        "byteLength": 1060465,
+        "sha256": "905397471cb98238e83d2ea2b55aa48ad6e2942e8049ed0f76cbd3c3ade4e773",
+        "sourceArchive": "To Save Just In Case (4).zip"
+      },
+      "image": {
+        "width": 1200,
+        "height": 1200,
+        "format": "SVG",
+        "mode": "vector",
+        "frames": 1
+      },
+      "embedded": {
+        "mimeType": "image/svg+xml",
+        "byteLength": 1218,
+        "sha256": "31b57557ef2f5cbd6279b89d92b5910fa8fbc3b56b4edcf690377b3637396822",
+        "method": "srd-compliant-card-substitute",
+        "pixelVerifiedLossless": false,
+        "dataLocation": "css/assets/monsters/deck/monsters-deck-spider-monster-card.css"
+      },
+      "css": {
+        "file": "css/assets/monsters/deck/monsters-deck-spider-monster-card.css",
+        "variable": "--asset-monsters-deck-spider-monster-card",
+        "class": "asset-monsters-deck-spider-monster-card",
+        "usage": "<div class=\"asset-monsters-deck-spider-monster-card\" role=\"img\" aria-label=\"Spider\"></div>"
+      },
+      "json": {
+        "file": "json/assets/monsters/deck/monsters-deck-spider-monster-card.json"
+      },
+      "category": "Monsters/Deck",
+      "compliance": {
+        "status": "replaced",
+        "reason": "Original monster card did not use the SRD 5.2.1 stat block and included unverified third-party/watermarked art; replaced with an original-layout SRD stat card.",
+        "replacementTitle": "Spider",
+        "replacementKind": "monster-card",
+        "rulesBasis": "SRD 5.2.1 or original 5E-compatible mechanics",
+        "artBasis": "New vector/CSS asset or original layout; no D&D logo or publisher trade dress used."
+      },
+      "rulesData": {
+        "type": "Tiny Beast, Unaligned",
+        "meta": "AC 12 • HP 1 • Speed 20 ft., Climb 20 ft. • CR 0",
+        "summary": "Bite: +4 to hit, 1 piercing plus 2 (1d4) poison. Spider Climb and Web Walker."
+      },
+      "copies": 7
+    },
+    {
+      "id": "monsters-deck-swarm-of-insects-monster-card",
+      "original": {
+        "path": "Monsters/Deck/fire Ant Swarm.jpg",
+        "filename": "fire Ant Swarm.jpg",
+        "extension": ".jpg",
+        "mimeType": "image/jpeg",
+        "byteLength": 1015540,
+        "sha256": "5494f621e61e64d7089df1de33371559c13be6a4224d6ae62cd2cc4bfe465ff3",
+        "sourceArchive": "To Save Just In Case (4).zip"
+      },
+      "image": {
+        "width": 1200,
+        "height": 1200,
+        "format": "SVG",
+        "mode": "vector",
+        "frames": 1
+      },
+      "embedded": {
+        "mimeType": "image/svg+xml",
+        "byteLength": 1468,
+        "sha256": "2b51ca108b8debcc17a84afab6c3ed271d0423d50169057d28470adb5356e2ba",
+        "method": "srd-compliant-card-substitute",
+        "pixelVerifiedLossless": false,
+        "dataLocation": "css/assets/monsters/deck/monsters-deck-swarm-of-insects-monster-card.css"
+      },
+      "css": {
+        "file": "css/assets/monsters/deck/monsters-deck-swarm-of-insects-monster-card.css",
+        "variable": "--asset-monsters-deck-swarm-of-insects-monster-card",
+        "class": "asset-monsters-deck-swarm-of-insects-monster-card",
+        "usage": "<div class=\"asset-monsters-deck-swarm-of-insects-monster-card\" role=\"img\" aria-label=\"Swarm of Insects\"></div>"
+      },
+      "json": {
+        "file": "json/assets/monsters/deck/monsters-deck-swarm-of-insects-monster-card.json"
+      },
+      "category": "Monsters/Deck",
+      "compliance": {
+        "status": "replaced",
+        "reason": "Original monster card did not use the SRD 5.2.1 stat block and included unverified third-party/watermarked art; replaced with an original-layout SRD stat card.",
+        "replacementTitle": "Swarm of Insects",
+        "replacementKind": "monster-card",
+        "rulesBasis": "SRD 5.2.1 or original 5E-compatible mechanics",
+        "artBasis": "New vector/CSS asset or original layout; no D&D logo or publisher trade dress used."
+      },
+      "rulesData": {
+        "type": "Medium Swarm of Tiny Beasts, Unaligned",
+        "meta": "AC 11 • HP 19 (3d8 + 6) • Speed 20 ft., Climb or Fly 20 ft. • CR 1/2",
+        "summary": "Bites: +3 to hit, 6 (2d4 + 1) poison, or 3 (1d4 + 1) while Bloodied. The swarm resists bludgeoning, piercing, and slashing damage and has standard swarm immunities."
+      },
+      "copies": 7
+    },
+    {
+      "id": "monsters-deck-swarm-of-insects-monster-card-2",
+      "original": {
+        "path": "Monsters/Deck/Horsefly Swarm.jpg",
+        "filename": "Horsefly Swarm.jpg",
+        "extension": ".jpg",
+        "mimeType": "image/jpeg",
+        "byteLength": 954286,
+        "sha256": "101fb61f8d3ac29561f79a5c8afe24ff3d6a5590b80decf6d39276b7114dff64",
+        "sourceArchive": "To Save Just In Case.zip"
+      },
+      "image": {
+        "width": 1200,
+        "height": 1200,
+        "format": "SVG",
+        "mode": "vector",
+        "frames": 1
+      },
+      "embedded": {
+        "mimeType": "image/svg+xml",
+        "byteLength": 1468,
+        "sha256": "2b51ca108b8debcc17a84afab6c3ed271d0423d50169057d28470adb5356e2ba",
+        "method": "srd-compliant-card-substitute",
+        "pixelVerifiedLossless": false,
+        "dataLocation": "css/assets/monsters/deck/monsters-deck-swarm-of-insects-monster-card-2.css"
+      },
+      "css": {
+        "file": "css/assets/monsters/deck/monsters-deck-swarm-of-insects-monster-card-2.css",
+        "variable": "--asset-monsters-deck-swarm-of-insects-monster-card-2",
+        "class": "asset-monsters-deck-swarm-of-insects-monster-card-2",
+        "usage": "<div class=\"asset-monsters-deck-swarm-of-insects-monster-card-2\" role=\"img\" aria-label=\"Swarm of Insects\"></div>"
+      },
+      "json": {
+        "file": "json/assets/monsters/deck/monsters-deck-swarm-of-insects-monster-card-2.json"
+      },
+      "category": "Monsters/Deck",
+      "compliance": {
+        "status": "replaced",
+        "reason": "Original monster card did not use the SRD 5.2.1 stat block and included unverified third-party/watermarked art; replaced with an original-layout SRD stat card.",
+        "replacementTitle": "Swarm of Insects",
+        "replacementKind": "monster-card",
+        "rulesBasis": "SRD 5.2.1 or original 5E-compatible mechanics",
+        "artBasis": "New vector/CSS asset or original layout; no D&D logo or publisher trade dress used."
+      },
+      "rulesData": {
+        "type": "Medium Swarm of Tiny Beasts, Unaligned",
+        "meta": "AC 11 • HP 19 (3d8 + 6) • Speed 20 ft., Climb or Fly 20 ft. • CR 1/2",
+        "summary": "Bites: +3 to hit, 6 (2d4 + 1) poison, or 3 (1d4 + 1) while Bloodied. The swarm resists bludgeoning, piercing, and slashing damage and has standard swarm immunities."
+      },
+      "copies": 7
+    },
+    {
+      "id": "monsters-deck-swarm-of-insects-monster-card-3",
+      "original": {
+        "path": "Monsters/Deck/Mosquito Swarm.jpg",
+        "filename": "Mosquito Swarm.jpg",
+        "extension": ".jpg",
+        "mimeType": "image/jpeg",
+        "byteLength": 953112,
+        "sha256": "df7d3dab57debfc6597a5c50392e2cd8317569621796c7cf61153ff447d8e100",
+        "sourceArchive": "To Save Just In Case (3).zip"
+      },
+      "image": {
+        "width": 1200,
+        "height": 1200,
+        "format": "SVG",
+        "mode": "vector",
+        "frames": 1
+      },
+      "embedded": {
+        "mimeType": "image/svg+xml",
+        "byteLength": 1468,
+        "sha256": "2b51ca108b8debcc17a84afab6c3ed271d0423d50169057d28470adb5356e2ba",
+        "method": "srd-compliant-card-substitute",
+        "pixelVerifiedLossless": false,
+        "dataLocation": "css/assets/monsters/deck/monsters-deck-swarm-of-insects-monster-card-3.css"
+      },
+      "css": {
+        "file": "css/assets/monsters/deck/monsters-deck-swarm-of-insects-monster-card-3.css",
+        "variable": "--asset-monsters-deck-swarm-of-insects-monster-card-3",
+        "class": "asset-monsters-deck-swarm-of-insects-monster-card-3",
+        "usage": "<div class=\"asset-monsters-deck-swarm-of-insects-monster-card-3\" role=\"img\" aria-label=\"Swarm of Insects\"></div>"
+      },
+      "json": {
+        "file": "json/assets/monsters/deck/monsters-deck-swarm-of-insects-monster-card-3.json"
+      },
+      "category": "Monsters/Deck",
+      "compliance": {
+        "status": "replaced",
+        "reason": "Original monster card did not use the SRD 5.2.1 stat block and included unverified third-party/watermarked art; replaced with an original-layout SRD stat card.",
+        "replacementTitle": "Swarm of Insects",
+        "replacementKind": "monster-card",
+        "rulesBasis": "SRD 5.2.1 or original 5E-compatible mechanics",
+        "artBasis": "New vector/CSS asset or original layout; no D&D logo or publisher trade dress used."
+      },
+      "rulesData": {
+        "type": "Medium Swarm of Tiny Beasts, Unaligned",
+        "meta": "AC 11 • HP 19 (3d8 + 6) • Speed 20 ft., Climb or Fly 20 ft. • CR 1/2",
+        "summary": "Bites: +3 to hit, 6 (2d4 + 1) poison, or 3 (1d4 + 1) while Bloodied. The swarm resists bludgeoning, piercing, and slashing damage and has standard swarm immunities."
+      },
+      "copies": 7
+    },
+    {
+      "id": "monsters-deck-zombie-monster-card",
+      "original": {
+        "path": "Monsters/Deck/zombie monster.jpg",
+        "filename": "zombie monster.jpg",
+        "extension": ".jpg",
+        "mimeType": "image/jpeg",
+        "byteLength": 1206069,
+        "sha256": "9f8c1079a01b54bae3e8eb97d2cc7fdd1493139920462fc3b2fe9f4d7d8a471b",
+        "sourceArchive": "To Save Just In Case.zip"
+      },
+      "image": {
+        "width": 1200,
+        "height": 1200,
+        "format": "SVG",
+        "mode": "vector",
+        "frames": 1
+      },
+      "embedded": {
+        "mimeType": "image/svg+xml",
+        "byteLength": 1423,
+        "sha256": "ba342f4c61f056d6427333808d1dbcfe156eae46a85df29d7493a13da1900e17",
+        "method": "srd-compliant-card-substitute",
+        "pixelVerifiedLossless": false,
+        "dataLocation": "css/assets/monsters/deck/monsters-deck-zombie-monster-card.css"
+      },
+      "css": {
+        "file": "css/assets/monsters/deck/monsters-deck-zombie-monster-card.css",
+        "variable": "--asset-monsters-deck-zombie-monster-card",
+        "class": "asset-monsters-deck-zombie-monster-card",
+        "usage": "<div class=\"asset-monsters-deck-zombie-monster-card\" role=\"img\" aria-label=\"Zombie\"></div>"
+      },
+      "json": {
+        "file": "json/assets/monsters/deck/monsters-deck-zombie-monster-card.json"
+      },
+      "category": "Monsters/Deck",
+      "compliance": {
+        "status": "replaced",
+        "reason": "Original monster card did not use the SRD 5.2.1 stat block and included unverified third-party/watermarked art; replaced with an original-layout SRD stat card.",
+        "replacementTitle": "Zombie",
+        "replacementKind": "monster-card",
+        "rulesBasis": "SRD 5.2.1 or original 5E-compatible mechanics",
+        "artBasis": "New vector/CSS asset or original layout; no D&D logo or publisher trade dress used."
+      },
+      "rulesData": {
+        "type": "Medium Undead, Neutral Evil",
+        "meta": "AC 8 • HP 15 (2d8 + 6) • Speed 20 ft. • CR 1/4",
+        "summary": "Slam: +3 to hit, 5 (1d8 + 1) bludgeoning. Undead Fortitude can leave it at 1 HP when damage would reduce it to 0, except against radiant damage or a critical hit."
+      },
+      "copies": 7
+    }
+  ],
+  "copies_per_card": 7,
+  "instances": [
+    {
+      "instance_id": "monsters-deck-gelatinous-cube-monster-card--copy-1",
+      "card_id": "monsters-deck-gelatinous-cube-monster-card",
+      "copy_number": 1,
+      "path": "assets/svg/cards/monsters/monsters-deck-gelatinous-cube-monster-card.svg"
+    },
+    {
+      "instance_id": "monsters-deck-gelatinous-cube-monster-card--copy-2",
+      "card_id": "monsters-deck-gelatinous-cube-monster-card",
+      "copy_number": 2,
+      "path": "assets/svg/cards/monsters/monsters-deck-gelatinous-cube-monster-card.svg"
+    },
+    {
+      "instance_id": "monsters-deck-gelatinous-cube-monster-card--copy-3",
+      "card_id": "monsters-deck-gelatinous-cube-monster-card",
+      "copy_number": 3,
+      "path": "assets/svg/cards/monsters/monsters-deck-gelatinous-cube-monster-card.svg"
+    },
+    {
+      "instance_id": "monsters-deck-gelatinous-cube-monster-card--copy-4",
+      "card_id": "monsters-deck-gelatinous-cube-monster-card",
+      "copy_number": 4,
+      "path": "assets/svg/cards/monsters/monsters-deck-gelatinous-cube-monster-card.svg"
+    },
+    {
+      "instance_id": "monsters-deck-gelatinous-cube-monster-card--copy-5",
+      "card_id": "monsters-deck-gelatinous-cube-monster-card",
+      "copy_number": 5,
+      "path": "assets/svg/cards/monsters/monsters-deck-gelatinous-cube-monster-card.svg"
+    },
+    {
+      "instance_id": "monsters-deck-gelatinous-cube-monster-card--copy-6",
+      "card_id": "monsters-deck-gelatinous-cube-monster-card",
+      "copy_number": 6,
+      "path": "assets/svg/cards/monsters/monsters-deck-gelatinous-cube-monster-card.svg"
+    },
+    {
+      "instance_id": "monsters-deck-gelatinous-cube-monster-card--copy-7",
+      "card_id": "monsters-deck-gelatinous-cube-monster-card",
+      "copy_number": 7,
+      "path": "assets/svg/cards/monsters/monsters-deck-gelatinous-cube-monster-card.svg"
+    },
+    {
+      "instance_id": "monsters-deck-giant-spider-monster-card--copy-1",
+      "card_id": "monsters-deck-giant-spider-monster-card",
+      "copy_number": 1,
+      "path": "assets/svg/cards/monsters/monsters-deck-giant-spider-monster-card.svg"
+    },
+    {
+      "instance_id": "monsters-deck-giant-spider-monster-card--copy-2",
+      "card_id": "monsters-deck-giant-spider-monster-card",
+      "copy_number": 2,
+      "path": "assets/svg/cards/monsters/monsters-deck-giant-spider-monster-card.svg"
+    },
+    {
+      "instance_id": "monsters-deck-giant-spider-monster-card--copy-3",
+      "card_id": "monsters-deck-giant-spider-monster-card",
+      "copy_number": 3,
+      "path": "assets/svg/cards/monsters/monsters-deck-giant-spider-monster-card.svg"
+    },
+    {
+      "instance_id": "monsters-deck-giant-spider-monster-card--copy-4",
+      "card_id": "monsters-deck-giant-spider-monster-card",
+      "copy_number": 4,
+      "path": "assets/svg/cards/monsters/monsters-deck-giant-spider-monster-card.svg"
+    },
+    {
+      "instance_id": "monsters-deck-giant-spider-monster-card--copy-5",
+      "card_id": "monsters-deck-giant-spider-monster-card",
+      "copy_number": 5,
+      "path": "assets/svg/cards/monsters/monsters-deck-giant-spider-monster-card.svg"
+    },
+    {
+      "instance_id": "monsters-deck-giant-spider-monster-card--copy-6",
+      "card_id": "monsters-deck-giant-spider-monster-card",
+      "copy_number": 6,
+      "path": "assets/svg/cards/monsters/monsters-deck-giant-spider-monster-card.svg"
+    },
+    {
+      "instance_id": "monsters-deck-giant-spider-monster-card--copy-7",
+      "card_id": "monsters-deck-giant-spider-monster-card",
+      "copy_number": 7,
+      "path": "assets/svg/cards/monsters/monsters-deck-giant-spider-monster-card.svg"
+    },
+    {
+      "instance_id": "monsters-deck-giant-spider-monster-card-2--copy-1",
+      "card_id": "monsters-deck-giant-spider-monster-card-2",
+      "copy_number": 1,
+      "path": "assets/svg/cards/monsters/monsters-deck-giant-spider-monster-card-2.svg"
+    },
+    {
+      "instance_id": "monsters-deck-giant-spider-monster-card-2--copy-2",
+      "card_id": "monsters-deck-giant-spider-monster-card-2",
+      "copy_number": 2,
+      "path": "assets/svg/cards/monsters/monsters-deck-giant-spider-monster-card-2.svg"
+    },
+    {
+      "instance_id": "monsters-deck-giant-spider-monster-card-2--copy-3",
+      "card_id": "monsters-deck-giant-spider-monster-card-2",
+      "copy_number": 3,
+      "path": "assets/svg/cards/monsters/monsters-deck-giant-spider-monster-card-2.svg"
+    },
+    {
+      "instance_id": "monsters-deck-giant-spider-monster-card-2--copy-4",
+      "card_id": "monsters-deck-giant-spider-monster-card-2",
+      "copy_number": 4,
+      "path": "assets/svg/cards/monsters/monsters-deck-giant-spider-monster-card-2.svg"
+    },
+    {
+      "instance_id": "monsters-deck-giant-spider-monster-card-2--copy-5",
+      "card_id": "monsters-deck-giant-spider-monster-card-2",
+      "copy_number": 5,
+      "path": "assets/svg/cards/monsters/monsters-deck-giant-spider-monster-card-2.svg"
+    },
+    {
+      "instance_id": "monsters-deck-giant-spider-monster-card-2--copy-6",
+      "card_id": "monsters-deck-giant-spider-monster-card-2",
+      "copy_number": 6,
+      "path": "assets/svg/cards/monsters/monsters-deck-giant-spider-monster-card-2.svg"
+    },
+    {
+      "instance_id": "monsters-deck-giant-spider-monster-card-2--copy-7",
+      "card_id": "monsters-deck-giant-spider-monster-card-2",
+      "copy_number": 7,
+      "path": "assets/svg/cards/monsters/monsters-deck-giant-spider-monster-card-2.svg"
+    },
+    {
+      "instance_id": "monsters-deck-giant-wolf-spider-monster-card--copy-1",
+      "card_id": "monsters-deck-giant-wolf-spider-monster-card",
+      "copy_number": 1,
+      "path": "assets/svg/cards/monsters/monsters-deck-giant-wolf-spider-monster-card.svg"
+    },
+    {
+      "instance_id": "monsters-deck-giant-wolf-spider-monster-card--copy-2",
+      "card_id": "monsters-deck-giant-wolf-spider-monster-card",
+      "copy_number": 2,
+      "path": "assets/svg/cards/monsters/monsters-deck-giant-wolf-spider-monster-card.svg"
+    },
+    {
+      "instance_id": "monsters-deck-giant-wolf-spider-monster-card--copy-3",
+      "card_id": "monsters-deck-giant-wolf-spider-monster-card",
+      "copy_number": 3,
+      "path": "assets/svg/cards/monsters/monsters-deck-giant-wolf-spider-monster-card.svg"
+    },
+    {
+      "instance_id": "monsters-deck-giant-wolf-spider-monster-card--copy-4",
+      "card_id": "monsters-deck-giant-wolf-spider-monster-card",
+      "copy_number": 4,
+      "path": "assets/svg/cards/monsters/monsters-deck-giant-wolf-spider-monster-card.svg"
+    },
+    {
+      "instance_id": "monsters-deck-giant-wolf-spider-monster-card--copy-5",
+      "card_id": "monsters-deck-giant-wolf-spider-monster-card",
+      "copy_number": 5,
+      "path": "assets/svg/cards/monsters/monsters-deck-giant-wolf-spider-monster-card.svg"
+    },
+    {
+      "instance_id": "monsters-deck-giant-wolf-spider-monster-card--copy-6",
+      "card_id": "monsters-deck-giant-wolf-spider-monster-card",
+      "copy_number": 6,
+      "path": "assets/svg/cards/monsters/monsters-deck-giant-wolf-spider-monster-card.svg"
+    },
+    {
+      "instance_id": "monsters-deck-giant-wolf-spider-monster-card--copy-7",
+      "card_id": "monsters-deck-giant-wolf-spider-monster-card",
+      "copy_number": 7,
+      "path": "assets/svg/cards/monsters/monsters-deck-giant-wolf-spider-monster-card.svg"
+    },
+    {
+      "instance_id": "monsters-deck-mimic-monster-card--copy-1",
+      "card_id": "monsters-deck-mimic-monster-card",
+      "copy_number": 1,
+      "path": "assets/svg/cards/monsters/monsters-deck-mimic-monster-card.svg"
+    },
+    {
+      "instance_id": "monsters-deck-mimic-monster-card--copy-2",
+      "card_id": "monsters-deck-mimic-monster-card",
+      "copy_number": 2,
+      "path": "assets/svg/cards/monsters/monsters-deck-mimic-monster-card.svg"
+    },
+    {
+      "instance_id": "monsters-deck-mimic-monster-card--copy-3",
+      "card_id": "monsters-deck-mimic-monster-card",
+      "copy_number": 3,
+      "path": "assets/svg/cards/monsters/monsters-deck-mimic-monster-card.svg"
+    },
+    {
+      "instance_id": "monsters-deck-mimic-monster-card--copy-4",
+      "card_id": "monsters-deck-mimic-monster-card",
+      "copy_number": 4,
+      "path": "assets/svg/cards/monsters/monsters-deck-mimic-monster-card.svg"
+    },
+    {
+      "instance_id": "monsters-deck-mimic-monster-card--copy-5",
+      "card_id": "monsters-deck-mimic-monster-card",
+      "copy_number": 5,
+      "path": "assets/svg/cards/monsters/monsters-deck-mimic-monster-card.svg"
+    },
+    {
+      "instance_id": "monsters-deck-mimic-monster-card--copy-6",
+      "card_id": "monsters-deck-mimic-monster-card",
+      "copy_number": 6,
+      "path": "assets/svg/cards/monsters/monsters-deck-mimic-monster-card.svg"
+    },
+    {
+      "instance_id": "monsters-deck-mimic-monster-card--copy-7",
+      "card_id": "monsters-deck-mimic-monster-card",
+      "copy_number": 7,
+      "path": "assets/svg/cards/monsters/monsters-deck-mimic-monster-card.svg"
+    },
+    {
+      "instance_id": "monsters-deck-skeleton-monster-card--copy-1",
+      "card_id": "monsters-deck-skeleton-monster-card",
+      "copy_number": 1,
+      "path": "assets/svg/cards/monsters/monsters-deck-skeleton-monster-card.svg"
+    },
+    {
+      "instance_id": "monsters-deck-skeleton-monster-card--copy-2",
+      "card_id": "monsters-deck-skeleton-monster-card",
+      "copy_number": 2,
+      "path": "assets/svg/cards/monsters/monsters-deck-skeleton-monster-card.svg"
+    },
+    {
+      "instance_id": "monsters-deck-skeleton-monster-card--copy-3",
+      "card_id": "monsters-deck-skeleton-monster-card",
+      "copy_number": 3,
+      "path": "assets/svg/cards/monsters/monsters-deck-skeleton-monster-card.svg"
+    },
+    {
+      "instance_id": "monsters-deck-skeleton-monster-card--copy-4",
+      "card_id": "monsters-deck-skeleton-monster-card",
+      "copy_number": 4,
+      "path": "assets/svg/cards/monsters/monsters-deck-skeleton-monster-card.svg"
+    },
+    {
+      "instance_id": "monsters-deck-skeleton-monster-card--copy-5",
+      "card_id": "monsters-deck-skeleton-monster-card",
+      "copy_number": 5,
+      "path": "assets/svg/cards/monsters/monsters-deck-skeleton-monster-card.svg"
+    },
+    {
+      "instance_id": "monsters-deck-skeleton-monster-card--copy-6",
+      "card_id": "monsters-deck-skeleton-monster-card",
+      "copy_number": 6,
+      "path": "assets/svg/cards/monsters/monsters-deck-skeleton-monster-card.svg"
+    },
+    {
+      "instance_id": "monsters-deck-skeleton-monster-card--copy-7",
+      "card_id": "monsters-deck-skeleton-monster-card",
+      "copy_number": 7,
+      "path": "assets/svg/cards/monsters/monsters-deck-skeleton-monster-card.svg"
+    },
+    {
+      "instance_id": "monsters-deck-spider-monster-card--copy-1",
+      "card_id": "monsters-deck-spider-monster-card",
+      "copy_number": 1,
+      "path": "assets/svg/cards/monsters/monsters-deck-spider-monster-card.svg"
+    },
+    {
+      "instance_id": "monsters-deck-spider-monster-card--copy-2",
+      "card_id": "monsters-deck-spider-monster-card",
+      "copy_number": 2,
+      "path": "assets/svg/cards/monsters/monsters-deck-spider-monster-card.svg"
+    },
+    {
+      "instance_id": "monsters-deck-spider-monster-card--copy-3",
+      "card_id": "monsters-deck-spider-monster-card",
+      "copy_number": 3,
+      "path": "assets/svg/cards/monsters/monsters-deck-spider-monster-card.svg"
+    },
+    {
+      "instance_id": "monsters-deck-spider-monster-card--copy-4",
+      "card_id": "monsters-deck-spider-monster-card",
+      "copy_number": 4,
+      "path": "assets/svg/cards/monsters/monsters-deck-spider-monster-card.svg"
+    },
+    {
+      "instance_id": "monsters-deck-spider-monster-card--copy-5",
+      "card_id": "monsters-deck-spider-monster-card",
+      "copy_number": 5,
+      "path": "assets/svg/cards/monsters/monsters-deck-spider-monster-card.svg"
+    },
+    {
+      "instance_id": "monsters-deck-spider-monster-card--copy-6",
+      "card_id": "monsters-deck-spider-monster-card",
+      "copy_number": 6,
+      "path": "assets/svg/cards/monsters/monsters-deck-spider-monster-card.svg"
+    },
+    {
+      "instance_id": "monsters-deck-spider-monster-card--copy-7",
+      "card_id": "monsters-deck-spider-monster-card",
+      "copy_number": 7,
+      "path": "assets/svg/cards/monsters/monsters-deck-spider-monster-card.svg"
+    },
+    {
+      "instance_id": "monsters-deck-swarm-of-insects-monster-card--copy-1",
+      "card_id": "monsters-deck-swarm-of-insects-monster-card",
+      "copy_number": 1,
+      "path": "assets/svg/cards/monsters/monsters-deck-swarm-of-insects-monster-card.svg"
+    },
+    {
+      "instance_id": "monsters-deck-swarm-of-insects-monster-card--copy-2",
+      "card_id": "monsters-deck-swarm-of-insects-monster-card",
+      "copy_number": 2,
+      "path": "assets/svg/cards/monsters/monsters-deck-swarm-of-insects-monster-card.svg"
+    },
+    {
+      "instance_id": "monsters-deck-swarm-of-insects-monster-card--copy-3",
+      "card_id": "monsters-deck-swarm-of-insects-monster-card",
+      "copy_number": 3,
+      "path": "assets/svg/cards/monsters/monsters-deck-swarm-of-insects-monster-card.svg"
+    },
+    {
+      "instance_id": "monsters-deck-swarm-of-insects-monster-card--copy-4",
+      "card_id": "monsters-deck-swarm-of-insects-monster-card",
+      "copy_number": 4,
+      "path": "assets/svg/cards/monsters/monsters-deck-swarm-of-insects-monster-card.svg"
+    },
+    {
+      "instance_id": "monsters-deck-swarm-of-insects-monster-card--copy-5",
+      "card_id": "monsters-deck-swarm-of-insects-monster-card",
+      "copy_number": 5,
+      "path": "assets/svg/cards/monsters/monsters-deck-swarm-of-insects-monster-card.svg"
+    },
+    {
+      "instance_id": "monsters-deck-swarm-of-insects-monster-card--copy-6",
+      "card_id": "monsters-deck-swarm-of-insects-monster-card",
+      "copy_number": 6,
+      "path": "assets/svg/cards/monsters/monsters-deck-swarm-of-insects-monster-card.svg"
+    },
+    {
+      "instance_id": "monsters-deck-swarm-of-insects-monster-card--copy-7",
+      "card_id": "monsters-deck-swarm-of-insects-monster-card",
+      "copy_number": 7,
+      "path": "assets/svg/cards/monsters/monsters-deck-swarm-of-insects-monster-card.svg"
+    },
+    {
+      "instance_id": "monsters-deck-swarm-of-insects-monster-card-2--copy-1",
+      "card_id": "monsters-deck-swarm-of-insects-monster-card-2",
+      "copy_number": 1,
+      "path": "assets/svg/cards/monsters/monsters-deck-swarm-of-insects-monster-card-2.svg"
+    },
+    {
+      "instance_id": "monsters-deck-swarm-of-insects-monster-card-2--copy-2",
+      "card_id": "monsters-deck-swarm-of-insects-monster-card-2",
+      "copy_number": 2,
+      "path": "assets/svg/cards/monsters/monsters-deck-swarm-of-insects-monster-card-2.svg"
+    },
+    {
+      "instance_id": "monsters-deck-swarm-of-insects-monster-card-2--copy-3",
+      "card_id": "monsters-deck-swarm-of-insects-monster-card-2",
+      "copy_number": 3,
+      "path": "assets/svg/cards/monsters/monsters-deck-swarm-of-insects-monster-card-2.svg"
+    },
+    {
+      "instance_id": "monsters-deck-swarm-of-insects-monster-card-2--copy-4",
+      "card_id": "monsters-deck-swarm-of-insects-monster-card-2",
+      "copy_number": 4,
+      "path": "assets/svg/cards/monsters/monsters-deck-swarm-of-insects-monster-card-2.svg"
+    },
+    {
+      "instance_id": "monsters-deck-swarm-of-insects-monster-card-2--copy-5",
+      "card_id": "monsters-deck-swarm-of-insects-monster-card-2",
+      "copy_number": 5,
+      "path": "assets/svg/cards/monsters/monsters-deck-swarm-of-insects-monster-card-2.svg"
+    },
+    {
+      "instance_id": "monsters-deck-swarm-of-insects-monster-card-2--copy-6",
+      "card_id": "monsters-deck-swarm-of-insects-monster-card-2",
+      "copy_number": 6,
+      "path": "assets/svg/cards/monsters/monsters-deck-swarm-of-insects-monster-card-2.svg"
+    },
+    {
+      "instance_id": "monsters-deck-swarm-of-insects-monster-card-2--copy-7",
+      "card_id": "monsters-deck-swarm-of-insects-monster-card-2",
+      "copy_number": 7,
+      "path": "assets/svg/cards/monsters/monsters-deck-swarm-of-insects-monster-card-2.svg"
+    },
+    {
+      "instance_id": "monsters-deck-swarm-of-insects-monster-card-3--copy-1",
+      "card_id": "monsters-deck-swarm-of-insects-monster-card-3",
+      "copy_number": 1,
+      "path": "assets/svg/cards/monsters/monsters-deck-swarm-of-insects-monster-card-3.svg"
+    },
+    {
+      "instance_id": "monsters-deck-swarm-of-insects-monster-card-3--copy-2",
+      "card_id": "monsters-deck-swarm-of-insects-monster-card-3",
+      "copy_number": 2,
+      "path": "assets/svg/cards/monsters/monsters-deck-swarm-of-insects-monster-card-3.svg"
+    },
+    {
+      "instance_id": "monsters-deck-swarm-of-insects-monster-card-3--copy-3",
+      "card_id": "monsters-deck-swarm-of-insects-monster-card-3",
+      "copy_number": 3,
+      "path": "assets/svg/cards/monsters/monsters-deck-swarm-of-insects-monster-card-3.svg"
+    },
+    {
+      "instance_id": "monsters-deck-swarm-of-insects-monster-card-3--copy-4",
+      "card_id": "monsters-deck-swarm-of-insects-monster-card-3",
+      "copy_number": 4,
+      "path": "assets/svg/cards/monsters/monsters-deck-swarm-of-insects-monster-card-3.svg"
+    },
+    {
+      "instance_id": "monsters-deck-swarm-of-insects-monster-card-3--copy-5",
+      "card_id": "monsters-deck-swarm-of-insects-monster-card-3",
+      "copy_number": 5,
+      "path": "assets/svg/cards/monsters/monsters-deck-swarm-of-insects-monster-card-3.svg"
+    },
+    {
+      "instance_id": "monsters-deck-swarm-of-insects-monster-card-3--copy-6",
+      "card_id": "monsters-deck-swarm-of-insects-monster-card-3",
+      "copy_number": 6,
+      "path": "assets/svg/cards/monsters/monsters-deck-swarm-of-insects-monster-card-3.svg"
+    },
+    {
+      "instance_id": "monsters-deck-swarm-of-insects-monster-card-3--copy-7",
+      "card_id": "monsters-deck-swarm-of-insects-monster-card-3",
+      "copy_number": 7,
+      "path": "assets/svg/cards/monsters/monsters-deck-swarm-of-insects-monster-card-3.svg"
+    },
+    {
+      "instance_id": "monsters-deck-zombie-monster-card--copy-1",
+      "card_id": "monsters-deck-zombie-monster-card",
+      "copy_number": 1,
+      "path": "assets/svg/cards/monsters/monsters-deck-zombie-monster-card.svg"
+    },
+    {
+      "instance_id": "monsters-deck-zombie-monster-card--copy-2",
+      "card_id": "monsters-deck-zombie-monster-card",
+      "copy_number": 2,
+      "path": "assets/svg/cards/monsters/monsters-deck-zombie-monster-card.svg"
+    },
+    {
+      "instance_id": "monsters-deck-zombie-monster-card--copy-3",
+      "card_id": "monsters-deck-zombie-monster-card",
+      "copy_number": 3,
+      "path": "assets/svg/cards/monsters/monsters-deck-zombie-monster-card.svg"
+    },
+    {
+      "instance_id": "monsters-deck-zombie-monster-card--copy-4",
+      "card_id": "monsters-deck-zombie-monster-card",
+      "copy_number": 4,
+      "path": "assets/svg/cards/monsters/monsters-deck-zombie-monster-card.svg"
+    },
+    {
+      "instance_id": "monsters-deck-zombie-monster-card--copy-5",
+      "card_id": "monsters-deck-zombie-monster-card",
+      "copy_number": 5,
+      "path": "assets/svg/cards/monsters/monsters-deck-zombie-monster-card.svg"
+    },
+    {
+      "instance_id": "monsters-deck-zombie-monster-card--copy-6",
+      "card_id": "monsters-deck-zombie-monster-card",
+      "copy_number": 6,
+      "path": "assets/svg/cards/monsters/monsters-deck-zombie-monster-card.svg"
+    },
+    {
+      "instance_id": "monsters-deck-zombie-monster-card--copy-7",
+      "card_id": "monsters-deck-zombie-monster-card",
+      "copy_number": 7,
+      "path": "assets/svg/cards/monsters/monsters-deck-zombie-monster-card.svg"
+    }
+  ]
+}

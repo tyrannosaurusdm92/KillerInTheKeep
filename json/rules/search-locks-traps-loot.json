@@ -1,0 +1,35 @@
+{
+  "schema_version": "4.5.0",
+  "rule_id": "search_locks_traps_and_loot",
+  "rules": {
+    "search_action": "Use an action to make a Wisdom (Perception) check against the fixture’s notice/detection DC to find a concealed trap, lock detail, hidden chest, secret latch, or concealed object.",
+    "passive_perception": "Passive Perception can provide a warning that something is wrong, but this game still requires the active Perception roll before safely manipulating a chest, bookshelf, trapped door, or secret passage.",
+    "authored_trap_card": "If a fixture has trap_ref/card_ref, reveal that exact Trap card after detection or triggering. Otherwise draw the top random Trap card when the fixture is marked trapped.",
+    "disarm_action": "Use a Utilize action and make a Dexterity check using Thieves’ Tools against the authored disable DC; default DC 15 when no DC is supplied.",
+    "lockpick_action": "Picking a lock is separate from disarming its trap: make a Dexterity check using Thieves’ Tools against the authored lock DC; default DC 15 when none is supplied.",
+    "order_for_locked_and_trapped_fixture": [
+      "Search for trap",
+      "Disarm or deliberately trigger/avoid trap",
+      "Pick, force, magically open, or bypass lock",
+      "Loot or pass through"
+    ],
+    "help": "A nearby proficient ally can take the Help action to grant Advantage on the next applicable skill or tool check.",
+    "crowbar": "A crowbar grants Advantage on Strength checks where leverage applies.",
+    "brute_force_house_rule": "Without Thieves’ Tools, a character may attempt Strength (Athletics) against lock DC + 3. The attempt is noisy, cannot delicately disarm the trap, may damage contents, and may activate a monster trigger.",
+    "failure": "A failed disarm normally triggers the trap. A failed lockpick jams or alarms the fixture only when its card or authored data says so."
+  },
+  "fixture_investigation": {
+    "chests": "Every chest uses Search → trap resolution → lock resolution → Treasure draw/reveal. Authored contents are revealed as their listed Treasure cards; an unspecified chest draws the top Treasure card.",
+    "bookshelves": {
+      "eligible_anchors": [
+        "Library lower stacks (first floor)",
+        "Library upper gallery (second floor)",
+        "Alchemist’s Study reference shelves"
+      ],
+      "sequence": "Search for traps or hidden mechanisms. On a trapped result, resolve a Trap card; on a monster-ambush result, draw and spawn from the Monster deck. After safe resolution, draw from the Treasure deck or reveal the authored room reward.",
+      "library_spider": "The attached Library bookshelf search can activate the authored hidden spider at L13."
+    },
+    "weapon_racks": "Search/investigate the rack, resolve its monster or trap trigger, then draw one Armory Weapon card."
+  },
+  "public_card_safety": "Fixture states and placements are never printed on public Room, Character, or Evidence cards."
+}

@@ -1,0 +1,168 @@
+{
+  "version": "6.1.0",
+  "backendUrl": "https://script.google.com/macros/s/AKfycbwCHAjF7RgMVN9_2n5Xt-hKFFk92XqO8rLhUnc7bzh_Xj7MrESqAbp6LPoUbdp8tli6Zg/exec",
+  "libraryUrl": "https://script.google.com/macros/library/d/1e3hG26cJpapB6q4rs6aecBv6QrR6A3DiprXHvXrN7CIKCYxVtidfz3_Y/2",
+  "googleClientId": "",
+  "floorOrder": [
+    "cellar",
+    "first_floor",
+    "second_floor",
+    "attic"
+  ],
+  "lobbyRoomId": "foyer",
+  "modes": [
+    "cooperative",
+    "full_pvp"
+  ],
+  "diceAssignments": {
+    "daltu": {
+      "slug": "daltu-yellow-green",
+      "name": "Daltu Yellow-Green",
+      "base": "#26310a",
+      "base2": "#9acd32",
+      "ink": "#ffffff",
+      "edge": "#cfff72",
+      "glow": "#dfff9a",
+      "description": "Fixed production dice assignment; not player configurable."
+    },
+    "noldrack_goldblade": {
+      "slug": "noldrack-yellow-gold",
+      "name": "Noldrack Yellow-Gold",
+      "base": "#3b2a00",
+      "base2": "#d8a600",
+      "ink": "#fff7cf",
+      "edge": "#ffd95a",
+      "glow": "#fff1a0",
+      "description": "Fixed production dice assignment; not player configurable."
+    },
+    "eilvyre_astath": {
+      "slug": "eilvyre-navy",
+      "name": "Eilvyre Navy",
+      "base": "#07102f",
+      "base2": "#142b6f",
+      "ink": "#ffffff",
+      "edge": "#668cff",
+      "glow": "#9ab5ff",
+      "description": "Fixed production dice assignment; not player configurable."
+    },
+    "korbin_silverdew": {
+      "slug": "korbin-lava-red",
+      "name": "Korbin Lava Red",
+      "base": "#3b0702",
+      "base2": "#e1341e",
+      "ink": "#ffffff",
+      "edge": "#ff6b49",
+      "glow": "#ff9a78",
+      "description": "Fixed production dice assignment; not player configurable."
+    },
+    "joknos_jock": {
+      "slug": "jock-hot-pink",
+      "name": "Jock Hot Pink",
+      "base": "#3a0020",
+      "base2": "#ff1493",
+      "ink": "#ffffff",
+      "edge": "#ff7bc2",
+      "glow": "#ffc1e4",
+      "description": "Fixed production dice assignment; not player configurable."
+    },
+    "githtoxundes_fenwophyl": {
+      "slug": "xun-amethyst",
+      "name": "Xun Amethyst",
+      "base": "#241039",
+      "base2": "#b57edc",
+      "ink": "#ffffff",
+      "edge": "#d6aef4",
+      "glow": "#ead6ff",
+      "description": "Fixed production dice assignment; not player configurable."
+    },
+    "gunnus": {
+      "slug": "gunnus-black-cyan",
+      "name": "Gunnus Black and Cyan",
+      "base": "#02090b",
+      "base2": "#00a9b8",
+      "ink": "#ffffff",
+      "edge": "#00ffff",
+      "glow": "#a7ffff",
+      "description": "Fixed production dice assignment; not player configurable."
+    },
+    "monk": {
+      "slug": "monk-aged-copper",
+      "name": "Monk Aged Copper",
+      "base": "#311607",
+      "base2": "#b85c18",
+      "ink": "#fff6e9",
+      "edge": "#e68b42",
+      "glow": "#ffc28d",
+      "description": "Fixed production dice assignment; not player configurable."
+    }
+  },
+  "monsterDice": {
+    "slug": "monster-brown",
+    "name": "Monster Brown",
+    "base": "#21140d",
+    "base2": "#79502e",
+    "ink": "#fff2df",
+    "edge": "#b7875c",
+    "glow": "#d9b48e",
+    "description": "Fixed production dice assignment; not player configurable."
+  },
+  "diceSounds": {
+    "character": "assets/audio/dice_character_quiet.wav",
+    "monster": "assets/audio/dice_monster_quiet.wav"
+  },
+  "audio": {
+    "door": "assets/audio/door_open_quiet.wav",
+    "lock": "assets/audio/lock_quiet.wav",
+    "trap": "assets/audio/trap_quiet.wav",
+    "fireplace": "assets/audio/fireplace_loop_quiet.wav",
+    "ambience": "assets/audio/keep_ambience_loop_quiet.wav",
+    "arcane_cast": "assets/audio/effects/arcane_cast.wav",
+    "divine_cast": "assets/audio/effects/divine_cast.wav",
+    "nature_cast": "assets/audio/effects/nature_cast.wav",
+    "necrotic": "assets/audio/effects/necrotic.wav",
+    "lightning": "assets/audio/effects/lightning.wav",
+    "fire": "assets/audio/effects/fire.wav",
+    "frost": "assets/audio/effects/frost.wav",
+    "acid": "assets/audio/effects/acid.wav",
+    "poison": "assets/audio/effects/poison.wav",
+    "healing": "assets/audio/effects/healing.wav",
+    "revival": "assets/audio/effects/revival.wav",
+    "radiant": "assets/audio/effects/radiant.wav",
+    "teleport": "assets/audio/effects/teleport.wav",
+    "detect_magic": "assets/audio/effects/detect_magic.wav",
+    "perception_spotlight": "assets/audio/effects/perception_spotlight.wav",
+    "binding": "assets/audio/effects/binding.wav",
+    "charm": "assets/audio/effects/charm.wav",
+    "illusion": "assets/audio/effects/illusion.wav",
+    "shield": "assets/audio/effects/shield.wav",
+    "summon": "assets/audio/effects/summon.wav",
+    "earth": "assets/audio/effects/earth.wav",
+    "water": "assets/audio/effects/water.wav",
+    "wind": "assets/audio/effects/wind.wav",
+    "sonic": "assets/audio/effects/sonic.wav",
+    "weapon_slash": "assets/audio/effects/weapon_slash.wav",
+    "weapon_pierce": "assets/audio/effects/weapon_pierce.wav",
+    "weapon_blunt": "assets/audio/effects/weapon_blunt.wav",
+    "monster_bite": "assets/audio/effects/monster_bite.wav",
+    "monster_slam": "assets/audio/effects/monster_slam.wav",
+    "monster_move": "assets/audio/effects/monster_move.wav",
+    "spider_scurry": "assets/audio/effects/spider_scurry.wav",
+    "zombie_ramble": "assets/audio/effects/zombie_ramble.wav",
+    "skeleton_rattle": "assets/audio/effects/skeleton_rattle.wav",
+    "swarm_buzz": "assets/audio/effects/swarm_buzz.wav",
+    "ooze_squelch": "assets/audio/effects/ooze_squelch.wav",
+    "mimic_snap": "assets/audio/effects/mimic_snap.wav",
+    "death_character": "assets/audio/effects/death_character.wav",
+    "death_monster": "assets/audio/effects/death_monster.wav"
+  },
+  "rules": {
+    "characterDirections": "orthogonal",
+    "diagonalByDefault": false,
+    "lShapeRequiresRule": true,
+    "contextualDiceOnly": true,
+    "accusationsRoom": "foyer",
+    "votesRoom": "foyer"
+  },
+  "effectsCatalog": "json/runtime/effects.json",
+  "monsterCardCopiesPerDesign": 7
+}
