@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="750" height="1050" viewBox="0 0 750 1050" role="img" aria-labelledby="title desc">
+<title id="title">Swarm of Insects — Monsters card</title><desc id="desc">Bites: +3 to hit, 6 (2d4 + 1) poison, or 3 (1d4 + 1) while Bloodied. The swarm resists bludgeoning, piercing, and slashing damage and has standard swarm immunities.</desc>
+<defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#190d18"/><stop offset="1" stop-color="#02070b"/></linearGradient><pattern id="grain" width="32" height="32" patternUnits="userSpaceOnUse"><path d="M0 32L32 0M-8 8L8-8M24 40L40 24" stroke="#ef476f" opacity=".055" stroke-width="2"/></pattern></defs>
+<rect width="750" height="1050" rx="34" fill="url(#bg)"/><rect width="750" height="1050" rx="34" fill="url(#grain)"/><rect x="20" y="20" width="710" height="1010" rx="26" fill="none" stroke="#ef476f" stroke-width="5"/><rect x="35" y="35" width="680" height="980" rx="20" fill="none" stroke="#a78bfa" stroke-width="2" opacity=".75"/>
+<text x="54" y="66" fill="#a78bfa" font-family="system-ui,sans-serif" font-size="20" font-weight="800" letter-spacing="3">MONSTERS • MONSTERS</text>
+<text y="100" fill="#f7fbff" font-family="Georgia,serif" font-size="44" font-weight="800"><tspan x="54" dy="0">Swarm of Insects</tspan></text>
+<text y="245" fill="#a9c5d2" font-family="system-ui,sans-serif" font-size="22"><tspan x="54" dy="0">Medium Swarm of Tiny Beasts, Unaligned</tspan></text>
+<g transform="translate(0,125)"><path d="M220 420c55-180 255-180 310 0-95-55-215-55-310 0z" fill="#ef476f" opacity=".55"/><circle cx="315" cy="345" r="28" fill="#ef476f"/><circle cx="435" cy="345" r="28" fill="#ef476f"/><path d="M280 250l-55-75M330 235l-15-95M420 235l15-95M470 250l55-75" stroke="#ef476f" stroke-width="18" stroke-linecap="round"/></g>
+<rect x="48" y="602" width="654" height="198" rx="20" fill="#02070b" opacity=".8" stroke="#ef476f" stroke-width="2"/>
+<text y="640" fill="#edf7fb" font-family="system-ui,sans-serif" font-size="25"><tspan x="62" dy="0">Bites: +3 to hit, 6 (2d4 + 1) poison, or 3</tspan><tspan x="62" dy="34">(1d4 + 1) while Bloodied. The swarm resists</tspan><tspan x="62" dy="34">bludgeoning, piercing, and slashing damage</tspan><tspan x="62" dy="34">and has standard swarm immunities.</tspan></text>
+<text y="804" fill="#a78bfa" font-family="system-ui,sans-serif" font-size="20"><tspan x="62" dy="0">AC 11 • HP 19 (3d8 + 6) • Speed 20 ft., Climb or</tspan><tspan x="62" dy="28">Fly 20 ft. • CR 1/2</tspan></text>
+<text x="54" y="1000" fill="#7994a0" font-family="system-ui,sans-serif" font-size="18">Killer In The Keep • monsters-deck-swarm-of-insects-monster-card-3</text>
+</svg>

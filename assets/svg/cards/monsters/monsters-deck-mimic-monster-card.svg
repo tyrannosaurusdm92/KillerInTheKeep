@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 744 1039" role="img" aria-label="Mimic monster card">
+<defs><linearGradient id="bg" x2="0" y2="1"><stop stop-color="#1b110c"/><stop offset="1" stop-color="#070606"/></linearGradient><filter id="shadow"><feDropShadow dx="0" dy="8" stdDeviation="10" flood-opacity=".65"/></filter></defs>
+<rect width="744" height="1039" rx="42" fill="url(#bg)"/><rect x="22" y="22" width="700" height="995" rx="32" fill="none" stroke="#9c6b43" stroke-width="8"/>
+<text x="372" y="92" text-anchor="middle" fill="#f4e0c7" font-family="Georgia,serif" font-size="48" font-weight="700">Mimic</text>
+<image href="../../tokens/monsters/mimic.svg" x="172" y="125" width="400" height="400" filter="url(#shadow)"/>
+<g font-family="system-ui,sans-serif" fill="#f9efe4"><text x="78" y="585" font-size="30" font-weight="800">AC 12  •  HP 58  •  Medium</text>
+<text x="78" y="640" font-size="27" font-weight="700">Movement: 1d4 · orthogonal</text>
+<text x="78" y="695" font-size="27" font-weight="700">Bite: +5 · 1d8+3 acid</text>
+<text x="78" y="760" font-size="24">Traits</text><foreignObject x="78" y="780" width="590" height="135"><div xmlns="http://www.w3.org/1999/xhtml" style="font:24px system-ui;color:#f9efe4;line-height:1.35">Shape-Shift, Adhesive, False Appearance, Grappler</div></foreignObject>
+<text x="78" y="955" font-size="18" fill="#cfb89d">SRD 5.2.1 adaptation · CC BY 4.0 · Killer in the Keep</text></g></svg>
