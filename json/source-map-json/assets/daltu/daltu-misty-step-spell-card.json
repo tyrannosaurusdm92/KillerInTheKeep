@@ -1,0 +1,50 @@
+{
+  "id": "daltu-misty-step-spell-card",
+  "original": {
+    "path": "Daltu/AddText_06-01-02.32.26.jpg",
+    "filename": "AddText_06-01-02.32.26.jpg",
+    "extension": ".jpg",
+    "mimeType": "image/jpeg",
+    "byteLength": 290579,
+    "sha256": "c2d977baa860a29cece55077484d2b5e09b7df4657c47f995115b9773f5c98de",
+    "sourceArchive": "To Save Just In Case (4).zip"
+  },
+  "image": {
+    "width": 1200,
+    "height": 1200,
+    "format": "SVG",
+    "mode": "vector",
+    "frames": 1
+  },
+  "embedded": {
+    "mimeType": "image/svg+xml",
+    "byteLength": 1192,
+    "sha256": "9477861bf136785d33e1189c340a99b6256e0a21789aff0a9e1f16df65193f3c",
+    "method": "srd-compliant-card-substitute",
+    "pixelVerifiedLossless": false,
+    "dataLocation": "css/assets/daltu/daltu-misty-step-spell-card.css"
+  },
+  "css": {
+    "file": "css/assets/daltu/daltu-misty-step-spell-card.css",
+    "variable": "--asset-daltu-misty-step-spell-card",
+    "class": "asset-daltu-misty-step-spell-card",
+    "usage": "<div class=\"asset-daltu-misty-step-spell-card\" role=\"img\" aria-label=\"Misty Step\"></div>"
+  },
+  "json": {
+    "file": "json/assets/daltu/daltu-misty-step-spell-card.json"
+  },
+  "category": "Daltu",
+  "compliance": {
+    "status": "replaced",
+    "reason": "Original card used mixed-edition, non-SRD, or rules-inaccurate mechanics; replaced with an SRD 5.2.1 entry or SRD-only example build.",
+    "replacementTitle": "Misty Step",
+    "replacementKind": "spell",
+    "rulesBasis": "SRD 5.2.1 or original 5E-compatible mechanics",
+    "artBasis": "New vector/CSS asset or original layout; no D&D logo or publisher trade dress used."
+  },
+  "rulesData": {
+    "type": "Level 2 Conjuration spell",
+    "meta": "Bonus Action • Self • Instantaneous",
+    "summary": "Teleport up to 30 feet to an unoccupied space you can see."
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "id": "eilvyre-mage-armor-spell-card",
+  "original": {
+    "path": "Eilvyre/AddText_06-02-05.00.15.jpg",
+    "filename": "AddText_06-02-05.00.15.jpg",
+    "extension": ".jpg",
+    "mimeType": "image/jpeg",
+    "byteLength": 345363,
+    "sha256": "97cfa981619d7de39f0d66cc5b340a713ad2e91e833a4bade62ffb2a8eb77de1",
+    "sourceArchive": "To Save Just In Case.zip"
+  },
+  "image": {
+    "width": 1200,
+    "height": 1200,
+    "format": "SVG",
+    "mode": "vector",
+    "frames": 1
+  },
+  "embedded": {
+    "mimeType": "image/svg+xml",
+    "byteLength": 1225,
+    "sha256": "0846f7279651e9e0cad41e868196f8aca3416fcffa48d78ca7c87fd33b312fea",
+    "method": "srd-compliant-card-substitute",
+    "pixelVerifiedLossless": false,
+    "dataLocation": "css/assets/eilvyre/eilvyre-mage-armor-spell-card.css"
+  },
+  "css": {
+    "file": "css/assets/eilvyre/eilvyre-mage-armor-spell-card.css",
+    "variable": "--asset-eilvyre-mage-armor-spell-card",
+    "class": "asset-eilvyre-mage-armor-spell-card",
+    "usage": "<div class=\"asset-eilvyre-mage-armor-spell-card\" role=\"img\" aria-label=\"Mage Armor\"></div>"
+  },
+  "json": {
+    "file": "json/assets/eilvyre/eilvyre-mage-armor-spell-card.json"
+  },
+  "category": "Eilvyre",
+  "compliance": {
+    "status": "replaced",
+    "reason": "Original card used mixed-edition, non-SRD, or rules-inaccurate mechanics; replaced with an SRD 5.2.1 entry or SRD-only example build.",
+    "replacementTitle": "Mage Armor",
+    "replacementKind": "spell",
+    "rulesBasis": "SRD 5.2.1 or original 5E-compatible mechanics",
+    "artBasis": "New vector/CSS asset or original layout; no D&D logo or publisher trade dress used."
+  },
+  "rulesData": {
+    "type": "Level 1 Abjuration spell",
+    "meta": "Action • Touch • 8 hours",
+    "summary": "A willing unarmored creature has a base Armor Class of 13 plus its Dexterity modifier for the duration."
+  }
+}

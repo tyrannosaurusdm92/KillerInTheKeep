@@ -1,0 +1,43 @@
+{
+  "id": "etc-the-great-hall-label",
+  "original": {
+    "path": "Etc/AddText_06-26-04.35.49.png",
+    "filename": "AddText_06-26-04.35.49.png",
+    "extension": ".png",
+    "mimeType": "image/png",
+    "byteLength": 65071,
+    "sha256": "fd4cebeb6c577e7d917a4262a65b1c7c5e15cc8ce9e64941940af2cbfed04d3c",
+    "sourceArchive": "To Save Just In Case (3).zip"
+  },
+  "image": {
+    "width": 530,
+    "height": 684,
+    "format": "PNG",
+    "mode": "RGBA",
+    "frames": 1
+  },
+  "embedded": {
+    "mimeType": "image/png",
+    "byteLength": 65071,
+    "sha256": "fd4cebeb6c577e7d917a4262a65b1c7c5e15cc8ce9e64941940af2cbfed04d3c",
+    "method": "original-bytes",
+    "pixelVerifiedLossless": true,
+    "dataLocation": "css/assets/etc/etc-the-great-hall-label.css"
+  },
+  "css": {
+    "file": "css/assets/etc/etc-the-great-hall-label.css",
+    "variable": "--asset-etc-the-great-hall-label",
+    "class": "asset-etc-the-great-hall-label",
+    "usage": "<div class=\"asset-etc-the-great-hall-label\" role=\"img\" aria-label=\"The Great Hall Label\"></div>"
+  },
+  "json": {
+    "file": "json/assets/etc/etc-the-great-hall-label.json"
+  },
+  "category": "Etc",
+  "compliance": {
+    "status": "preserved",
+    "reason": "No non-SRD rules text or official D&D branding was detected in this generic/custom visual asset. Original bytes were retained.",
+    "rulesBasis": "Not applicable or supplemented by structured SRD metadata.",
+    "artBasis": "User-supplied asset; copyright provenance was not independently verified."
+  }
+}

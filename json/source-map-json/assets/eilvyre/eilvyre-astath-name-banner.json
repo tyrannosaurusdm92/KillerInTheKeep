@@ -1,0 +1,43 @@
+{
+  "id": "eilvyre-astath-name-banner",
+  "original": {
+    "path": "Eilvyre/AddText_05-26-03.30.10.png",
+    "filename": "AddText_05-26-03.30.10.png",
+    "extension": ".png",
+    "mimeType": "image/png",
+    "byteLength": 165301,
+    "sha256": "aa9a79a0ea0caac0e02206425cf355f2cc3a396aed11743b87d4f097f14a12d7",
+    "sourceArchive": "To Save Just In Case.zip"
+  },
+  "image": {
+    "width": 1440,
+    "height": 1440,
+    "format": "PNG",
+    "mode": "RGBA",
+    "frames": 1
+  },
+  "embedded": {
+    "mimeType": "image/png",
+    "byteLength": 165301,
+    "sha256": "aa9a79a0ea0caac0e02206425cf355f2cc3a396aed11743b87d4f097f14a12d7",
+    "method": "original-bytes",
+    "pixelVerifiedLossless": true,
+    "dataLocation": "css/assets/eilvyre/eilvyre-astath-name-banner.css"
+  },
+  "css": {
+    "file": "css/assets/eilvyre/eilvyre-astath-name-banner.css",
+    "variable": "--asset-eilvyre-astath-name-banner",
+    "class": "asset-eilvyre-astath-name-banner",
+    "usage": "<div class=\"asset-eilvyre-astath-name-banner\" role=\"img\" aria-label=\"Eilvyre Astath Name Banner\"></div>"
+  },
+  "json": {
+    "file": "json/assets/eilvyre/eilvyre-astath-name-banner.json"
+  },
+  "category": "Eilvyre",
+  "compliance": {
+    "status": "preserved",
+    "reason": "No non-SRD rules text or official D&D branding was detected in this generic/custom visual asset. Original bytes were retained.",
+    "rulesBasis": "Not applicable or supplemented by structured SRD metadata.",
+    "artBasis": "User-supplied asset; copyright provenance was not independently verified."
+  }
+}

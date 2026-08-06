@@ -1,0 +1,50 @@
+{
+  "id": "eilvyre-dancing-lights-spell-card",
+  "original": {
+    "path": "Eilvyre/AddText_06-02-04.50.56.jpg",
+    "filename": "AddText_06-02-04.50.56.jpg",
+    "extension": ".jpg",
+    "mimeType": "image/jpeg",
+    "byteLength": 385989,
+    "sha256": "01cea17dea7663ec36e47dbef6eb2ce5641c9f4858b43e650dc951fdd5f9a9cd",
+    "sourceArchive": "To Save Just In Case (3).zip"
+  },
+  "image": {
+    "width": 1200,
+    "height": 1200,
+    "format": "SVG",
+    "mode": "vector",
+    "frames": 1
+  },
+  "embedded": {
+    "mimeType": "image/svg+xml",
+    "byteLength": 1319,
+    "sha256": "b75430bd3b4e444dfa948df27b7d1efe3c464246e632c69f4e9d46b66e60a548",
+    "method": "srd-compliant-card-substitute",
+    "pixelVerifiedLossless": false,
+    "dataLocation": "css/assets/eilvyre/eilvyre-dancing-lights-spell-card.css"
+  },
+  "css": {
+    "file": "css/assets/eilvyre/eilvyre-dancing-lights-spell-card.css",
+    "variable": "--asset-eilvyre-dancing-lights-spell-card",
+    "class": "asset-eilvyre-dancing-lights-spell-card",
+    "usage": "<div class=\"asset-eilvyre-dancing-lights-spell-card\" role=\"img\" aria-label=\"Dancing Lights\"></div>"
+  },
+  "json": {
+    "file": "json/assets/eilvyre/eilvyre-dancing-lights-spell-card.json"
+  },
+  "category": "Eilvyre",
+  "compliance": {
+    "status": "replaced",
+    "reason": "Original card used mixed-edition, non-SRD, or rules-inaccurate mechanics; replaced with an SRD 5.2.1 entry or SRD-only example build.",
+    "replacementTitle": "Dancing Lights",
+    "replacementKind": "spell",
+    "rulesBasis": "SRD 5.2.1 or original 5E-compatible mechanics",
+    "artBasis": "New vector/CSS asset or original layout; no D&D logo or publisher trade dress used."
+  },
+  "rulesData": {
+    "type": "Illusion cantrip",
+    "meta": "Action • 120 ft. • Concentration, up to 1 minute",
+    "summary": "Create up to four hovering lights. Each sheds dim light in a 10-foot radius, and you can move them with a Bonus Action."
+  }
+}

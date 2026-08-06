@@ -1,0 +1,50 @@
+{
+  "id": "daltu-character-sheet",
+  "original": {
+    "path": "Daltu/AddText_06-08-10.00.04.jpg",
+    "filename": "AddText_06-08-10.00.04.jpg",
+    "extension": ".jpg",
+    "mimeType": "image/jpeg",
+    "byteLength": 949817,
+    "sha256": "9f15bf35ff494bb7ef712bde11aba758cfbf7ae5dad5397841814cb4f9a3317b",
+    "sourceArchive": "To Save Just In Case (3).zip"
+  },
+  "image": {
+    "width": 1200,
+    "height": 1200,
+    "format": "SVG",
+    "mode": "vector",
+    "frames": 1
+  },
+  "embedded": {
+    "mimeType": "image/svg+xml",
+    "byteLength": 1380,
+    "sha256": "363339fb1b7d07063be3e37c5995a2b45c9ca45ccdce4d038a5fad9f0e1418ac",
+    "method": "srd-compliant-card-substitute",
+    "pixelVerifiedLossless": false,
+    "dataLocation": "css/assets/daltu/daltu-character-sheet.css"
+  },
+  "css": {
+    "file": "css/assets/daltu/daltu-character-sheet.css",
+    "variable": "--asset-daltu-character-sheet",
+    "class": "asset-daltu-character-sheet",
+    "usage": "<div class=\"asset-daltu-character-sheet\" role=\"img\" aria-label=\"Daltu\"></div>"
+  },
+  "json": {
+    "file": "json/assets/daltu/daltu-character-sheet.json"
+  },
+  "category": "Daltu",
+  "compliance": {
+    "status": "replaced",
+    "reason": "Original card used mixed-edition, non-SRD, or rules-inaccurate mechanics; replaced with an SRD 5.2.1 entry or SRD-only example build.",
+    "replacementTitle": "Daltu",
+    "replacementKind": "character",
+    "rulesBasis": "SRD 5.2.1 or original 5E-compatible mechanics",
+    "artBasis": "New vector/CSS asset or original layout; no D&D logo or publisher trade dress used."
+  },
+  "rulesData": {
+    "type": "Example Level 3 Dragonborn Warlock (Fiend Patron)",
+    "meta": "AC 14 • HP 24 • Speed 30 ft. • PB +2 • Spell DC 13 • Spell attack +5",
+    "summary": "Example ability scores: Str 10, Dex 14, Con 14, Int 10, Wis 12, Cha 17. Uses only SRD species, class, subclass, and spell options."
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "id": "jock-bestow-curse-spell-card",
+  "original": {
+    "path": "Jock/AddText_06-02-10.15.40.jpg",
+    "filename": "AddText_06-02-10.15.40.jpg",
+    "extension": ".jpg",
+    "mimeType": "image/jpeg",
+    "byteLength": 590379,
+    "sha256": "28bc71fbb937f8af2bc01913b57c115c546ed84c9701f28e36666a3d71c65cde",
+    "sourceArchive": "To Save Just In Case (4).zip"
+  },
+  "image": {
+    "width": 1200,
+    "height": 1200,
+    "format": "SVG",
+    "mode": "vector",
+    "frames": 1
+  },
+  "embedded": {
+    "mimeType": "image/svg+xml",
+    "byteLength": 1336,
+    "sha256": "eeb68adf98a21782663e3af18f9094ba0c82913aed632d1d06c80f2021049bd2",
+    "method": "srd-compliant-card-substitute",
+    "pixelVerifiedLossless": false,
+    "dataLocation": "css/assets/jock/jock-bestow-curse-spell-card.css"
+  },
+  "css": {
+    "file": "css/assets/jock/jock-bestow-curse-spell-card.css",
+    "variable": "--asset-jock-bestow-curse-spell-card",
+    "class": "asset-jock-bestow-curse-spell-card",
+    "usage": "<div class=\"asset-jock-bestow-curse-spell-card\" role=\"img\" aria-label=\"Bestow Curse\"></div>"
+  },
+  "json": {
+    "file": "json/assets/jock/jock-bestow-curse-spell-card.json"
+  },
+  "category": "Jock",
+  "compliance": {
+    "status": "replaced",
+    "reason": "Original card used mixed-edition, non-SRD, or rules-inaccurate mechanics; replaced with an SRD 5.2.1 entry or SRD-only example build.",
+    "replacementTitle": "Bestow Curse",
+    "replacementKind": "spell",
+    "rulesBasis": "SRD 5.2.1 or original 5E-compatible mechanics",
+    "artBasis": "New vector/CSS asset or original layout; no D&D logo or publisher trade dress used."
+  },
+  "rulesData": {
+    "type": "Level 3 Necromancy spell",
+    "meta": "Action • Touch • Concentration, up to 1 minute",
+    "summary": "A creature makes a Wisdom save or suffers one curse effect you choose, such as Disadvantage with one ability or attacks against you."
+  }
+}

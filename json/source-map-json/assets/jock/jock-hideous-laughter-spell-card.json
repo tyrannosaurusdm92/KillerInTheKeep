@@ -1,0 +1,50 @@
+{
+  "id": "jock-hideous-laughter-spell-card",
+  "original": {
+    "path": "Jock/AddText_06-02-12.00.04.jpg",
+    "filename": "AddText_06-02-12.00.04.jpg",
+    "extension": ".jpg",
+    "mimeType": "image/jpeg",
+    "byteLength": 540059,
+    "sha256": "1211ece0d5fc03c80e9a0f0d90c4e1e1b257b94e0342fbbd527124e70e5d76af",
+    "sourceArchive": "To Save Just In Case (4).zip"
+  },
+  "image": {
+    "width": 1200,
+    "height": 1200,
+    "format": "SVG",
+    "mode": "vector",
+    "frames": 1
+  },
+  "embedded": {
+    "mimeType": "image/svg+xml",
+    "byteLength": 1344,
+    "sha256": "f5b0e474e9a53e89d77d1783bbd4f34f4defeb1ae6f7ff12dbc74fc9f886d4d6",
+    "method": "srd-compliant-card-substitute",
+    "pixelVerifiedLossless": false,
+    "dataLocation": "css/assets/jock/jock-hideous-laughter-spell-card.css"
+  },
+  "css": {
+    "file": "css/assets/jock/jock-hideous-laughter-spell-card.css",
+    "variable": "--asset-jock-hideous-laughter-spell-card",
+    "class": "asset-jock-hideous-laughter-spell-card",
+    "usage": "<div class=\"asset-jock-hideous-laughter-spell-card\" role=\"img\" aria-label=\"Hideous Laughter\"></div>"
+  },
+  "json": {
+    "file": "json/assets/jock/jock-hideous-laughter-spell-card.json"
+  },
+  "category": "Jock",
+  "compliance": {
+    "status": "replaced",
+    "reason": "Original card used mixed-edition, non-SRD, or rules-inaccurate mechanics; replaced with an SRD 5.2.1 entry or SRD-only example build.",
+    "replacementTitle": "Hideous Laughter",
+    "replacementKind": "spell",
+    "rulesBasis": "SRD 5.2.1 or original 5E-compatible mechanics",
+    "artBasis": "New vector/CSS asset or original layout; no D&D logo or publisher trade dress used."
+  },
+  "rulesData": {
+    "type": "Level 1 Enchantment spell",
+    "meta": "Action • 30 ft. • Concentration, up to 1 minute",
+    "summary": "A creature makes a Wisdom save or falls Prone and becomes Incapacitated. It repeats the save when damaged and at the end of its turns."
+  }
+}

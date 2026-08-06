@@ -1,0 +1,50 @@
+{
+  "id": "eilvyre-lightning-bolt-spell-card",
+  "original": {
+    "path": "Eilvyre/AddText_06-02-05.18.58.jpg",
+    "filename": "AddText_06-02-05.18.58.jpg",
+    "extension": ".jpg",
+    "mimeType": "image/jpeg",
+    "byteLength": 387309,
+    "sha256": "df296153fca4275a007b75118549bd4769aa2cff0c5816094842ecffeb3a52e3",
+    "sourceArchive": "To Save Just In Case (4).zip"
+  },
+  "image": {
+    "width": 1200,
+    "height": 1200,
+    "format": "SVG",
+    "mode": "vector",
+    "frames": 1
+  },
+  "embedded": {
+    "mimeType": "image/svg+xml",
+    "byteLength": 1336,
+    "sha256": "b85070b1e7e4e0293f685e7b5eb3c7d1bbcbc74c6dae69e26379d135eba31202",
+    "method": "srd-compliant-card-substitute",
+    "pixelVerifiedLossless": false,
+    "dataLocation": "css/assets/eilvyre/eilvyre-lightning-bolt-spell-card.css"
+  },
+  "css": {
+    "file": "css/assets/eilvyre/eilvyre-lightning-bolt-spell-card.css",
+    "variable": "--asset-eilvyre-lightning-bolt-spell-card",
+    "class": "asset-eilvyre-lightning-bolt-spell-card",
+    "usage": "<div class=\"asset-eilvyre-lightning-bolt-spell-card\" role=\"img\" aria-label=\"Lightning Bolt\"></div>"
+  },
+  "json": {
+    "file": "json/assets/eilvyre/eilvyre-lightning-bolt-spell-card.json"
+  },
+  "category": "Eilvyre",
+  "compliance": {
+    "status": "replaced",
+    "reason": "Original card used mixed-edition, non-SRD, or rules-inaccurate mechanics; replaced with an SRD 5.2.1 entry or SRD-only example build.",
+    "replacementTitle": "Lightning Bolt",
+    "replacementKind": "spell",
+    "rulesBasis": "SRD 5.2.1 or original 5E-compatible mechanics",
+    "artBasis": "New vector/CSS asset or original layout; no D&D logo or publisher trade dress used."
+  },
+  "rulesData": {
+    "type": "Level 3 Evocation spell",
+    "meta": "Action • Self (100-foot line) • Instantaneous",
+    "summary": "Creatures in a 100-foot-long, 5-foot-wide line make a Dexterity save, taking 8d6 lightning damage on a failure or half on a success."
+  }
+}

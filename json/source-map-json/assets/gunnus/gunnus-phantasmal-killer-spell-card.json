@@ -1,0 +1,50 @@
+{
+  "id": "gunnus-phantasmal-killer-spell-card",
+  "original": {
+    "path": "Gunnus/AddText_06-02-04.17.36.jpg",
+    "filename": "AddText_06-02-04.17.36.jpg",
+    "extension": ".jpg",
+    "mimeType": "image/jpeg",
+    "byteLength": 497052,
+    "sha256": "c471784d58c1cf58428abcc4bcbb92ae13680cea1340cd3d53f3f1033dbdd330",
+    "sourceArchive": "To Save Just In Case (4).zip"
+  },
+  "image": {
+    "width": 1200,
+    "height": 1200,
+    "format": "SVG",
+    "mode": "vector",
+    "frames": 1
+  },
+  "embedded": {
+    "mimeType": "image/svg+xml",
+    "byteLength": 1255,
+    "sha256": "ac212dbf5f894ad9583bd90379f574f0fee8905745392b38d279e4c20dc78e4e",
+    "method": "srd-compliant-card-substitute",
+    "pixelVerifiedLossless": false,
+    "dataLocation": "css/assets/gunnus/gunnus-phantasmal-killer-spell-card.css"
+  },
+  "css": {
+    "file": "css/assets/gunnus/gunnus-phantasmal-killer-spell-card.css",
+    "variable": "--asset-gunnus-phantasmal-killer-spell-card",
+    "class": "asset-gunnus-phantasmal-killer-spell-card",
+    "usage": "<div class=\"asset-gunnus-phantasmal-killer-spell-card\" role=\"img\" aria-label=\"Phantasmal Killer\"></div>"
+  },
+  "json": {
+    "file": "json/assets/gunnus/gunnus-phantasmal-killer-spell-card.json"
+  },
+  "category": "Gunnus",
+  "compliance": {
+    "status": "replaced",
+    "reason": "Original card used mixed-edition, non-SRD, or rules-inaccurate mechanics; replaced with an SRD 5.2.1 entry or SRD-only example build.",
+    "replacementTitle": "Phantasmal Killer",
+    "replacementKind": "spell",
+    "rulesBasis": "SRD 5.2.1 or original 5E-compatible mechanics",
+    "artBasis": "New vector/CSS asset or original layout; no D&D logo or publisher trade dress used."
+  },
+  "rulesData": {
+    "type": "Level 4 Illusion spell",
+    "meta": "Action • 120 ft. • Concentration, up to 1 minute",
+    "summary": "A creature makes a Wisdom save or becomes Frightened and takes psychic damage while the spell continues."
+  }
+}

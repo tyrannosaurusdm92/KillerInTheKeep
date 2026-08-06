@@ -1,0 +1,50 @@
+{
+  "id": "jock-charm-person-spell-card",
+  "original": {
+    "path": "Jock/AddText_06-02-09.59.00.jpg",
+    "filename": "AddText_06-02-09.59.00.jpg",
+    "extension": ".jpg",
+    "mimeType": "image/jpeg",
+    "byteLength": 489448,
+    "sha256": "ad8bdfe4ec3a025a664c2fa60c953afb6a4d1405618d61b75888532fae665c47",
+    "sourceArchive": "To Save Just In Case (2).zip"
+  },
+  "image": {
+    "width": 1200,
+    "height": 1200,
+    "format": "SVG",
+    "mode": "vector",
+    "frames": 1
+  },
+  "embedded": {
+    "mimeType": "image/svg+xml",
+    "byteLength": 1303,
+    "sha256": "806b27d72cb1deeb1231ae456f2d5e8b026e1f117193143c94f7f0bdf8c38539",
+    "method": "srd-compliant-card-substitute",
+    "pixelVerifiedLossless": false,
+    "dataLocation": "css/assets/jock/jock-charm-person-spell-card.css"
+  },
+  "css": {
+    "file": "css/assets/jock/jock-charm-person-spell-card.css",
+    "variable": "--asset-jock-charm-person-spell-card",
+    "class": "asset-jock-charm-person-spell-card",
+    "usage": "<div class=\"asset-jock-charm-person-spell-card\" role=\"img\" aria-label=\"Charm Person\"></div>"
+  },
+  "json": {
+    "file": "json/assets/jock/jock-charm-person-spell-card.json"
+  },
+  "category": "Jock",
+  "compliance": {
+    "status": "replaced",
+    "reason": "Original card used mixed-edition, non-SRD, or rules-inaccurate mechanics; replaced with an SRD 5.2.1 entry or SRD-only example build.",
+    "replacementTitle": "Charm Person",
+    "replacementKind": "spell",
+    "rulesBasis": "SRD 5.2.1 or original 5E-compatible mechanics",
+    "artBasis": "New vector/CSS asset or original layout; no D&D logo or publisher trade dress used."
+  },
+  "rulesData": {
+    "type": "Level 1 Enchantment spell",
+    "meta": "Action • 30 ft. • 1 hour",
+    "summary": "A Humanoid makes a Wisdom save or is Charmed by you. It has Advantage on the save if you or your allies are fighting it."
+  }
+}

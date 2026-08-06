@@ -1,0 +1,50 @@
+{
+  "id": "eilvyre-misty-step-spell-card",
+  "original": {
+    "path": "Eilvyre/AddText_06-02-05.09.36.jpg",
+    "filename": "AddText_06-02-05.09.36.jpg",
+    "extension": ".jpg",
+    "mimeType": "image/jpeg",
+    "byteLength": 257753,
+    "sha256": "474adb5cd5574349b5eebb7a9ef85d89f1c704f205385e2237a2a203f95c5529",
+    "sourceArchive": "To Save Just In Case (4).zip"
+  },
+  "image": {
+    "width": 1200,
+    "height": 1200,
+    "format": "SVG",
+    "mode": "vector",
+    "frames": 1
+  },
+  "embedded": {
+    "mimeType": "image/svg+xml",
+    "byteLength": 1192,
+    "sha256": "2471511dd0b41ea22c9873a13f1e655c4c4b172f87e831382c2b795623b3ab97",
+    "method": "srd-compliant-card-substitute",
+    "pixelVerifiedLossless": false,
+    "dataLocation": "css/assets/eilvyre/eilvyre-misty-step-spell-card.css"
+  },
+  "css": {
+    "file": "css/assets/eilvyre/eilvyre-misty-step-spell-card.css",
+    "variable": "--asset-eilvyre-misty-step-spell-card",
+    "class": "asset-eilvyre-misty-step-spell-card",
+    "usage": "<div class=\"asset-eilvyre-misty-step-spell-card\" role=\"img\" aria-label=\"Misty Step\"></div>"
+  },
+  "json": {
+    "file": "json/assets/eilvyre/eilvyre-misty-step-spell-card.json"
+  },
+  "category": "Eilvyre",
+  "compliance": {
+    "status": "replaced",
+    "reason": "Original card used mixed-edition, non-SRD, or rules-inaccurate mechanics; replaced with an SRD 5.2.1 entry or SRD-only example build.",
+    "replacementTitle": "Misty Step",
+    "replacementKind": "spell",
+    "rulesBasis": "SRD 5.2.1 or original 5E-compatible mechanics",
+    "artBasis": "New vector/CSS asset or original layout; no D&D logo or publisher trade dress used."
+  },
+  "rulesData": {
+    "type": "Level 2 Conjuration spell",
+    "meta": "Bonus Action • Self • Instantaneous",
+    "summary": "Teleport up to 30 feet to an unoccupied space you can see."
+  }
+}

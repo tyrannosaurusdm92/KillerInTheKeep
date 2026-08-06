@@ -1,0 +1,50 @@
+{
+  "id": "daltu-darkness-spell-card",
+  "original": {
+    "path": "Daltu/AddText_06-01-02.29.37.jpg",
+    "filename": "AddText_06-01-02.29.37.jpg",
+    "extension": ".jpg",
+    "mimeType": "image/jpeg",
+    "byteLength": 474430,
+    "sha256": "d9354ed65ec1d5ab39d6d8cf4f323d272faa4df46b547981637bed6c21351f23",
+    "sourceArchive": "To Save Just In Case.zip"
+  },
+  "image": {
+    "width": 1200,
+    "height": 1200,
+    "format": "SVG",
+    "mode": "vector",
+    "frames": 1
+  },
+  "embedded": {
+    "mimeType": "image/svg+xml",
+    "byteLength": 1326,
+    "sha256": "cffe82c933716d52bcefcdcae1dc6a5f19f2a0ff255ebee2588c7785ae3ff1b8",
+    "method": "srd-compliant-card-substitute",
+    "pixelVerifiedLossless": false,
+    "dataLocation": "css/assets/daltu/daltu-darkness-spell-card.css"
+  },
+  "css": {
+    "file": "css/assets/daltu/daltu-darkness-spell-card.css",
+    "variable": "--asset-daltu-darkness-spell-card",
+    "class": "asset-daltu-darkness-spell-card",
+    "usage": "<div class=\"asset-daltu-darkness-spell-card\" role=\"img\" aria-label=\"Darkness\"></div>"
+  },
+  "json": {
+    "file": "json/assets/daltu/daltu-darkness-spell-card.json"
+  },
+  "category": "Daltu",
+  "compliance": {
+    "status": "replaced",
+    "reason": "Original card used mixed-edition, non-SRD, or rules-inaccurate mechanics; replaced with an SRD 5.2.1 entry or SRD-only example build.",
+    "replacementTitle": "Darkness",
+    "replacementKind": "spell",
+    "rulesBasis": "SRD 5.2.1 or original 5E-compatible mechanics",
+    "artBasis": "New vector/CSS asset or original layout; no D&D logo or publisher trade dress used."
+  },
+  "rulesData": {
+    "type": "Level 2 Evocation spell",
+    "meta": "Action • 60 ft. • Concentration, up to 10 minutes",
+    "summary": "Magical darkness fills a 15-foot-radius sphere. Darkvision cannot see through it, and nonmagical light cannot illuminate it."
+  }
+}

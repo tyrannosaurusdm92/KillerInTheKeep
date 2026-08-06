@@ -1,0 +1,50 @@
+{
+  "id": "gunnus-blight-spell-card",
+  "original": {
+    "path": "Gunnus/AddText_06-02-04.20.14.jpg",
+    "filename": "AddText_06-02-04.20.14.jpg",
+    "extension": ".jpg",
+    "mimeType": "image/jpeg",
+    "byteLength": 449031,
+    "sha256": "1975b808f6759503e2a83a1998e87920d6194009c5d940cf25e3ddfe9031994c",
+    "sourceArchive": "To Save Just In Case (2).zip"
+  },
+  "image": {
+    "width": 1200,
+    "height": 1200,
+    "format": "SVG",
+    "mode": "vector",
+    "frames": 1
+  },
+  "embedded": {
+    "mimeType": "image/svg+xml",
+    "byteLength": 1311,
+    "sha256": "a25092ff9a0b99987c487e3a9f2ce0a7ad657e9eaf689f856df5b8b835ee1117",
+    "method": "srd-compliant-card-substitute",
+    "pixelVerifiedLossless": false,
+    "dataLocation": "css/assets/gunnus/gunnus-blight-spell-card.css"
+  },
+  "css": {
+    "file": "css/assets/gunnus/gunnus-blight-spell-card.css",
+    "variable": "--asset-gunnus-blight-spell-card",
+    "class": "asset-gunnus-blight-spell-card",
+    "usage": "<div class=\"asset-gunnus-blight-spell-card\" role=\"img\" aria-label=\"Blight\"></div>"
+  },
+  "json": {
+    "file": "json/assets/gunnus/gunnus-blight-spell-card.json"
+  },
+  "category": "Gunnus",
+  "compliance": {
+    "status": "replaced",
+    "reason": "Original card used mixed-edition, non-SRD, or rules-inaccurate mechanics; replaced with an SRD 5.2.1 entry or SRD-only example build.",
+    "replacementTitle": "Blight",
+    "replacementKind": "spell",
+    "rulesBasis": "SRD 5.2.1 or original 5E-compatible mechanics",
+    "artBasis": "New vector/CSS asset or original layout; no D&D logo or publisher trade dress used."
+  },
+  "rulesData": {
+    "type": "Level 4 Necromancy spell",
+    "meta": "Action • 30 ft. • Instantaneous",
+    "summary": "One creature makes a Constitution save, taking 8d8 necrotic damage on a failure or half on a success. Plants automatically fail."
+  }
+}

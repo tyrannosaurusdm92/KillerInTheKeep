@@ -1,0 +1,43 @@
+{
+  "id": "etc-green-circle-player-marker",
+  "original": {
+    "path": "Etc/1656271757010.png",
+    "filename": "1656271757010.png",
+    "extension": ".png",
+    "mimeType": "image/png",
+    "byteLength": 46331,
+    "sha256": "1ab607818e2f79fe7fea33247a43fe7afa70866db415bc05a5445dac7ffe8d34",
+    "sourceArchive": "To Save Just In Case.zip"
+  },
+  "image": {
+    "width": 1085,
+    "height": 1085,
+    "format": "PNG",
+    "mode": "RGBA",
+    "frames": 1
+  },
+  "embedded": {
+    "mimeType": "image/png",
+    "byteLength": 46331,
+    "sha256": "1ab607818e2f79fe7fea33247a43fe7afa70866db415bc05a5445dac7ffe8d34",
+    "method": "original-bytes",
+    "pixelVerifiedLossless": true,
+    "dataLocation": "css/assets/etc/etc-green-circle-player-marker.css"
+  },
+  "css": {
+    "file": "css/assets/etc/etc-green-circle-player-marker.css",
+    "variable": "--asset-etc-green-circle-player-marker",
+    "class": "asset-etc-green-circle-player-marker",
+    "usage": "<div class=\"asset-etc-green-circle-player-marker\" role=\"img\" aria-label=\"Green Circle Player Marker\"></div>"
+  },
+  "json": {
+    "file": "json/assets/etc/etc-green-circle-player-marker.json"
+  },
+  "category": "Etc",
+  "compliance": {
+    "status": "preserved",
+    "reason": "No non-SRD rules text or official D&D branding was detected in this generic/custom visual asset. Original bytes were retained.",
+    "rulesBasis": "Not applicable or supplemented by structured SRD metadata.",
+    "artBasis": "User-supplied asset; copyright provenance was not independently verified."
+  }
+}

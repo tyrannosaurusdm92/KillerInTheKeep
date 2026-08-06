@@ -1,0 +1,50 @@
+{
+  "id": "gunnus-darkness-spell-card",
+  "original": {
+    "path": "Gunnus/AddText_06-02-05.14.24.jpg",
+    "filename": "AddText_06-02-05.14.24.jpg",
+    "extension": ".jpg",
+    "mimeType": "image/jpeg",
+    "byteLength": 288487,
+    "sha256": "ceaab8b5a6b59747db68829af154fdc5330fddb52afb6bf07b6a25fe0277d316",
+    "sourceArchive": "To Save Just In Case.zip"
+  },
+  "image": {
+    "width": 1200,
+    "height": 1200,
+    "format": "SVG",
+    "mode": "vector",
+    "frames": 1
+  },
+  "embedded": {
+    "mimeType": "image/svg+xml",
+    "byteLength": 1326,
+    "sha256": "c31e5d744690d8423388fb8c52ccea2e04f47e3cf9e8e6a7233d09a5690051c2",
+    "method": "srd-compliant-card-substitute",
+    "pixelVerifiedLossless": false,
+    "dataLocation": "css/assets/gunnus/gunnus-darkness-spell-card.css"
+  },
+  "css": {
+    "file": "css/assets/gunnus/gunnus-darkness-spell-card.css",
+    "variable": "--asset-gunnus-darkness-spell-card",
+    "class": "asset-gunnus-darkness-spell-card",
+    "usage": "<div class=\"asset-gunnus-darkness-spell-card\" role=\"img\" aria-label=\"Darkness\"></div>"
+  },
+  "json": {
+    "file": "json/assets/gunnus/gunnus-darkness-spell-card.json"
+  },
+  "category": "Gunnus",
+  "compliance": {
+    "status": "replaced",
+    "reason": "Original card used mixed-edition, non-SRD, or rules-inaccurate mechanics; replaced with an SRD 5.2.1 entry or SRD-only example build.",
+    "replacementTitle": "Darkness",
+    "replacementKind": "spell",
+    "rulesBasis": "SRD 5.2.1 or original 5E-compatible mechanics",
+    "artBasis": "New vector/CSS asset or original layout; no D&D logo or publisher trade dress used."
+  },
+  "rulesData": {
+    "type": "Level 2 Evocation spell",
+    "meta": "Action • 60 ft. • Concentration, up to 10 minutes",
+    "summary": "Magical darkness fills a 15-foot-radius sphere. Darkvision cannot see through it, and nonmagical light cannot illuminate it."
+  }
+}

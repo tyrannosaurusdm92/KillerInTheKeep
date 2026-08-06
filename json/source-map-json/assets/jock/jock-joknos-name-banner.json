@@ -1,0 +1,43 @@
+{
+  "id": "jock-joknos-name-banner",
+  "original": {
+    "path": "Jock/AddText_05-26-03.32.29.png",
+    "filename": "AddText_05-26-03.32.29.png",
+    "extension": ".png",
+    "mimeType": "image/png",
+    "byteLength": 146611,
+    "sha256": "a8ab197dd36ca58c26f3299a1d56e9277ef7fb40f6cc27c0a6f8d8a5b01f1764",
+    "sourceArchive": "To Save Just In Case (2).zip"
+  },
+  "image": {
+    "width": 1440,
+    "height": 1440,
+    "format": "PNG",
+    "mode": "RGBA",
+    "frames": 1
+  },
+  "embedded": {
+    "mimeType": "image/png",
+    "byteLength": 146611,
+    "sha256": "a8ab197dd36ca58c26f3299a1d56e9277ef7fb40f6cc27c0a6f8d8a5b01f1764",
+    "method": "original-bytes",
+    "pixelVerifiedLossless": true,
+    "dataLocation": "css/assets/jock/jock-joknos-name-banner.css"
+  },
+  "css": {
+    "file": "css/assets/jock/jock-joknos-name-banner.css",
+    "variable": "--asset-jock-joknos-name-banner",
+    "class": "asset-jock-joknos-name-banner",
+    "usage": "<div class=\"asset-jock-joknos-name-banner\" role=\"img\" aria-label=\"Joknos Name Banner\"></div>"
+  },
+  "json": {
+    "file": "json/assets/jock/jock-joknos-name-banner.json"
+  },
+  "category": "Jock",
+  "compliance": {
+    "status": "preserved",
+    "reason": "No non-SRD rules text or official D&D branding was detected in this generic/custom visual asset. Original bytes were retained.",
+    "rulesBasis": "Not applicable or supplemented by structured SRD metadata.",
+    "artBasis": "User-supplied asset; copyright provenance was not independently verified."
+  }
+}

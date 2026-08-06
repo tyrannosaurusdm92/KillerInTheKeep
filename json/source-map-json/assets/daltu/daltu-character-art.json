@@ -1,0 +1,45 @@
+{
+  "id": "daltu-character-art",
+  "original": {
+    "path": "Characters_Art_Transparent/Daltu.png",
+    "filename": "Daltu.png",
+    "extension": ".png",
+    "mimeType": "image/png",
+    "byteLength": 2429433,
+    "sha256": "26b3e846164a56b8a5daffbeeabc2cef36b6ede43386afe3e90086779745d720",
+    "sourceArchive": "Characters_Art_Transparent(1).zip"
+  },
+  "image": {
+    "width": 1024,
+    "height": 1536,
+    "format": "PNG",
+    "mode": "RGBA",
+    "frames": 1
+  },
+  "embedded": {
+    "mimeType": "image/png",
+    "byteLength": 2429433,
+    "sha256": "26b3e846164a56b8a5daffbeeabc2cef36b6ede43386afe3e90086779745d720",
+    "method": "original-transparent-bytes",
+    "pixelVerifiedLossless": true,
+    "dataLocation": "css/assets/daltu/daltu-character-art.css"
+  },
+  "css": {
+    "file": "css/assets/daltu/daltu-character-art.css",
+    "variable": "--asset-daltu-character-art",
+    "class": "asset-daltu-character-art",
+    "usage": "<div class=\"asset-daltu-character-art\" role=\"img\" aria-label=\"Daltu character art\"></div>"
+  },
+  "json": {
+    "file": "json/assets/daltu/daltu-character-art.json"
+  },
+  "category": "Daltu",
+  "compliance": {
+    "status": "preserved",
+    "reason": "Original user-provided transparent character artwork embedded directly in CSS.",
+    "replacementTitle": null,
+    "replacementKind": "character-art",
+    "rulesBasis": "Not a rules asset.",
+    "artBasis": "User-provided original transparent character art."
+  }
+}

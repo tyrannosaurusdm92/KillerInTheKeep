@@ -1,0 +1,50 @@
+{
+  "id": "daltu-mage-hand-spell-card",
+  "original": {
+    "path": "Daltu/AddText_06-01-02.20.56.jpg",
+    "filename": "AddText_06-01-02.20.56.jpg",
+    "extension": ".jpg",
+    "mimeType": "image/jpeg",
+    "byteLength": 494505,
+    "sha256": "adc4843ff017283b38758ac741ae4a7bf0cb4c88fb07a681924993aae687dfc0",
+    "sourceArchive": "To Save Just In Case (3).zip"
+  },
+  "image": {
+    "width": 1200,
+    "height": 1200,
+    "format": "SVG",
+    "mode": "vector",
+    "frames": 1
+  },
+  "embedded": {
+    "mimeType": "image/svg+xml",
+    "byteLength": 1303,
+    "sha256": "ba8d617efeae12d2390bc1567816b2f4e395b23c5ea94fe5f1ff5fc2051cb008",
+    "method": "srd-compliant-card-substitute",
+    "pixelVerifiedLossless": false,
+    "dataLocation": "css/assets/daltu/daltu-mage-hand-spell-card.css"
+  },
+  "css": {
+    "file": "css/assets/daltu/daltu-mage-hand-spell-card.css",
+    "variable": "--asset-daltu-mage-hand-spell-card",
+    "class": "asset-daltu-mage-hand-spell-card",
+    "usage": "<div class=\"asset-daltu-mage-hand-spell-card\" role=\"img\" aria-label=\"Mage Hand\"></div>"
+  },
+  "json": {
+    "file": "json/assets/daltu/daltu-mage-hand-spell-card.json"
+  },
+  "category": "Daltu",
+  "compliance": {
+    "status": "replaced",
+    "reason": "Original card used mixed-edition, non-SRD, or rules-inaccurate mechanics; replaced with an SRD 5.2.1 entry or SRD-only example build.",
+    "replacementTitle": "Mage Hand",
+    "replacementKind": "spell",
+    "rulesBasis": "SRD 5.2.1 or original 5E-compatible mechanics",
+    "artBasis": "New vector/CSS asset or original layout; no D&D logo or publisher trade dress used."
+  },
+  "rulesData": {
+    "type": "Conjuration cantrip",
+    "meta": "Action • 30 ft. • 1 minute",
+    "summary": "Create a spectral hand that can manipulate an object, open an unlocked container, stow or retrieve an item, or pour out a vial."
+  }
+}

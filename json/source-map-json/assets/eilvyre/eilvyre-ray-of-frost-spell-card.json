@@ -1,0 +1,50 @@
+{
+  "id": "eilvyre-ray-of-frost-spell-card",
+  "original": {
+    "path": "Eilvyre/AddText_06-02-04.53.53.jpg",
+    "filename": "AddText_06-02-04.53.53.jpg",
+    "extension": ".jpg",
+    "mimeType": "image/jpeg",
+    "byteLength": 336604,
+    "sha256": "b87670ccca5644d0e8b4379b1cf55123dfd284efd352caf545210427e8d08b10",
+    "sourceArchive": "To Save Just In Case (2).zip"
+  },
+  "image": {
+    "width": 1200,
+    "height": 1200,
+    "format": "SVG",
+    "mode": "vector",
+    "frames": 1
+  },
+  "embedded": {
+    "mimeType": "image/svg+xml",
+    "byteLength": 1310,
+    "sha256": "75dc262c1c92fc4bb7047bc9d18e0d3fb4f7b4e3002cc6d14cbeb70121dd486e",
+    "method": "srd-compliant-card-substitute",
+    "pixelVerifiedLossless": false,
+    "dataLocation": "css/assets/eilvyre/eilvyre-ray-of-frost-spell-card.css"
+  },
+  "css": {
+    "file": "css/assets/eilvyre/eilvyre-ray-of-frost-spell-card.css",
+    "variable": "--asset-eilvyre-ray-of-frost-spell-card",
+    "class": "asset-eilvyre-ray-of-frost-spell-card",
+    "usage": "<div class=\"asset-eilvyre-ray-of-frost-spell-card\" role=\"img\" aria-label=\"Ray of Frost\"></div>"
+  },
+  "json": {
+    "file": "json/assets/eilvyre/eilvyre-ray-of-frost-spell-card.json"
+  },
+  "category": "Eilvyre",
+  "compliance": {
+    "status": "replaced",
+    "reason": "Original card used mixed-edition, non-SRD, or rules-inaccurate mechanics; replaced with an SRD 5.2.1 entry or SRD-only example build.",
+    "replacementTitle": "Ray of Frost",
+    "replacementKind": "spell",
+    "rulesBasis": "SRD 5.2.1 or original 5E-compatible mechanics",
+    "artBasis": "New vector/CSS asset or original layout; no D&D logo or publisher trade dress used."
+  },
+  "rulesData": {
+    "type": "Evocation cantrip",
+    "meta": "Action • 60 ft. • Instantaneous",
+    "summary": "Make a ranged spell attack. On a hit, the target takes 1d8 cold damage and its Speed is reduced by 10 feet until your next turn."
+  }
+}
