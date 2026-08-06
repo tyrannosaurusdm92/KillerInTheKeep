@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" role="img" aria-label="Gunnus token">
+<defs><clipPath id="c"><circle cx="64" cy="58" r="49"/></clipPath><filter id="s"><feDropShadow dx="0" dy="3" stdDeviation="3" flood-opacity=".65"/></filter></defs>
+<circle cx="64" cy="64" r="59" fill="#080b10" stroke="#00ffff" stroke-width="8" filter="url(#s)"/>
+<image href="../../../images/characters/gunnus.webp" x="15" y="9" width="98" height="98" preserveAspectRatio="xMidYMid slice" clip-path="url(#c)"/>
+<path d="M18 93 Q64 119 110 93 L110 116 L18 116Z" fill="#080b10" opacity=".92"/>
+<text x="64" y="111" text-anchor="middle" fill="#fff" font-family="system-ui,sans-serif" font-weight="800" font-size="14">Gunnus</text>
+<circle id="status" cx="104" cy="25" r="11" fill="#21d07a" stroke="#fff" stroke-width="3"/>
+</svg>
