@@ -1,0 +1,50 @@
+{
+  "id": "trap-deck-acid-pit-trap-card",
+  "original": {
+    "path": "Trap Deck/acid pit.jpg",
+    "filename": "acid pit.jpg",
+    "extension": ".jpg",
+    "mimeType": "image/jpeg",
+    "byteLength": 311553,
+    "sha256": "538ac0ef78962bb652e98b33e105b2e0ac81a51a0d2607d40ac17ec8f1adcdee",
+    "sourceArchive": "To Save Just In Case (2).zip"
+  },
+  "image": {
+    "width": 1200,
+    "height": 1200,
+    "format": "SVG",
+    "mode": "vector",
+    "frames": 1
+  },
+  "embedded": {
+    "mimeType": "image/svg+xml",
+    "byteLength": 1424,
+    "sha256": "846ba2d5631b76c7da6a668a8e57e13b937dfafb2e392b255ab3fd50e8f74041",
+    "method": "srd-compliant-card-substitute",
+    "pixelVerifiedLossless": false,
+    "dataLocation": "css/assets/trap-deck/trap-deck-acid-pit-trap-card.css"
+  },
+  "css": {
+    "file": "css/assets/trap-deck/trap-deck-acid-pit-trap-card.css",
+    "variable": "--asset-trap-deck-acid-pit-trap-card",
+    "class": "asset-trap-deck-acid-pit-trap-card",
+    "usage": "<div class=\"asset-trap-deck-acid-pit-trap-card\" role=\"img\" aria-label=\"Acid Pit\"></div>"
+  },
+  "json": {
+    "file": "json/assets/trap-deck/trap-deck-acid-pit-trap-card.json"
+  },
+  "category": "Trap Deck",
+  "compliance": {
+    "status": "replaced",
+    "reason": "Original trap used inconsistent board-game checks, turn language, or damage. Rewritten with 5E-compatible actions, checks, saves, conditions, and damage.",
+    "replacementTitle": "Acid Pit",
+    "replacementKind": "trap",
+    "rulesBasis": "SRD 5.2.1 or original 5E-compatible mechanics",
+    "artBasis": "New vector/CSS asset or original layout; no D&D logo or publisher trade dress used."
+  },
+  "rulesData": {
+    "type": "Pit trap • 5E-compatible",
+    "meta": "Notice DC 15 • Dexterity save DC 13 • Escape DC 12",
+    "summary": "On a failed save, fall 10 feet, taking 1d6 bludgeoning plus 2d6 acid damage. A creature that remains in the acid takes 1d6 acid damage at the start of its turn."
+  }
+}

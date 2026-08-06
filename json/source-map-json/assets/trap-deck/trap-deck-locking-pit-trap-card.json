@@ -1,0 +1,50 @@
+{
+  "id": "trap-deck-locking-pit-trap-card",
+  "original": {
+    "path": "Trap Deck/locking pit.jpg",
+    "filename": "locking pit.jpg",
+    "extension": ".jpg",
+    "mimeType": "image/jpeg",
+    "byteLength": 477499,
+    "sha256": "a511096175b158e0423ecdcb19cdfdfca3c991359ad700dfa7c12058d1a9a4a7",
+    "sourceArchive": "To Save Just In Case (4).zip"
+  },
+  "image": {
+    "width": 1200,
+    "height": 1200,
+    "format": "SVG",
+    "mode": "vector",
+    "frames": 1
+  },
+  "embedded": {
+    "mimeType": "image/svg+xml",
+    "byteLength": 1439,
+    "sha256": "9866eccc9da11cc1460d054a4f0df3e4a542be81a7310f726daf3cc93033c369",
+    "method": "srd-compliant-card-substitute",
+    "pixelVerifiedLossless": false,
+    "dataLocation": "css/assets/trap-deck/trap-deck-locking-pit-trap-card.css"
+  },
+  "css": {
+    "file": "css/assets/trap-deck/trap-deck-locking-pit-trap-card.css",
+    "variable": "--asset-trap-deck-locking-pit-trap-card",
+    "class": "asset-trap-deck-locking-pit-trap-card",
+    "usage": "<div class=\"asset-trap-deck-locking-pit-trap-card\" role=\"img\" aria-label=\"Locking Pit\"></div>"
+  },
+  "json": {
+    "file": "json/assets/trap-deck/trap-deck-locking-pit-trap-card.json"
+  },
+  "category": "Trap Deck",
+  "compliance": {
+    "status": "replaced",
+    "reason": "Original trap used inconsistent board-game checks, turn language, or damage. Rewritten with 5E-compatible actions, checks, saves, conditions, and damage.",
+    "replacementTitle": "Locking Pit",
+    "replacementKind": "trap",
+    "rulesBasis": "SRD 5.2.1 or original 5E-compatible mechanics",
+    "artBasis": "New vector/CSS asset or original layout; no D&D logo or publisher trade dress used."
+  },
+  "rulesData": {
+    "type": "Pit trap • 5E-compatible",
+    "meta": "Notice DC 15 • Dexterity save DC 13 • Lid DC 15",
+    "summary": "On a failed save, fall 20 feet and take 2d6 bludgeoning damage. The lid locks; open it with a DC 15 Strength (Athletics) check or DC 15 Dexterity check using Thieves’ Tools."
+  }
+}

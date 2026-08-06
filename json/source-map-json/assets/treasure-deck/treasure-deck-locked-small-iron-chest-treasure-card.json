@@ -1,0 +1,50 @@
+{
+  "id": "treasure-deck-locked-small-iron-chest-treasure-card",
+  "original": {
+    "path": "Treasure Deck/AddText_05-25-08.04.22.jpg",
+    "filename": "AddText_05-25-08.04.22.jpg",
+    "extension": ".jpg",
+    "mimeType": "image/jpeg",
+    "byteLength": 252254,
+    "sha256": "04f6ca5e339d15b7f7a5402c6187a45879c1aa0c4f67d6dc3648b598696dab7c",
+    "sourceArchive": "To Save Just In Case (2).zip"
+  },
+  "image": {
+    "width": 1200,
+    "height": 1200,
+    "format": "SVG",
+    "mode": "vector",
+    "frames": 1
+  },
+  "embedded": {
+    "mimeType": "image/svg+xml",
+    "byteLength": 1210,
+    "sha256": "136592f6561f9c94e3353bcacff760b5be22151e5e055693fb5c5051ab3a4a05",
+    "method": "srd-compliant-card-substitute",
+    "pixelVerifiedLossless": false,
+    "dataLocation": "css/assets/treasure-deck/treasure-deck-locked-small-iron-chest-treasure-card.css"
+  },
+  "css": {
+    "file": "css/assets/treasure-deck/treasure-deck-locked-small-iron-chest-treasure-card.css",
+    "variable": "--asset-treasure-deck-locked-small-iron-chest-treasure-card",
+    "class": "asset-treasure-deck-locked-small-iron-chest-treasure-card",
+    "usage": "<div class=\"asset-treasure-deck-locked-small-iron-chest-treasure-card\" role=\"img\" aria-label=\"Locked Small Iron Chest\"></div>"
+  },
+  "json": {
+    "file": "json/assets/treasure-deck/treasure-deck-locked-small-iron-chest-treasure-card.json"
+  },
+  "category": "Treasure Deck",
+  "compliance": {
+    "status": "replaced",
+    "reason": "Original treasure card used mixed-edition item names, nonstandard effects, irregular prices, or incomplete rules; replaced with an SRD item reference or system-neutral treasure.",
+    "replacementTitle": "Locked Small Iron Chest",
+    "replacementKind": "treasure",
+    "rulesBasis": "SRD 5.2.1 or original 5E-compatible mechanics",
+    "artBasis": "New vector/CSS asset or original layout; no D&D logo or publisher trade dress used."
+  },
+  "rulesData": {
+    "type": "Treasure container",
+    "meta": "5E-compatible treasure card",
+    "summary": "Suggested lock: DC 15 Dexterity using Thieves’ Tools; contents chosen by the GM."
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "id": "xun-mass-healing-word-spell-card",
+  "original": {
+    "path": "Xun/AddText_06-02-02.17.22.jpg",
+    "filename": "AddText_06-02-02.17.22.jpg",
+    "extension": ".jpg",
+    "mimeType": "image/jpeg",
+    "byteLength": 418192,
+    "sha256": "6787800830979cca97c29de9b8c746cc3358c12d9872c4697e997efe30c16d5c",
+    "sourceArchive": "To Save Just In Case (2).zip"
+  },
+  "image": {
+    "width": 1200,
+    "height": 1200,
+    "format": "SVG",
+    "mode": "vector",
+    "frames": 1
+  },
+  "embedded": {
+    "mimeType": "image/svg+xml",
+    "byteLength": 1233,
+    "sha256": "e4861f23d33ecaf373768599c7b0e7d078b1aba0b24d8410ac23a060b47aa0df",
+    "method": "srd-compliant-card-substitute",
+    "pixelVerifiedLossless": false,
+    "dataLocation": "css/assets/xun/xun-mass-healing-word-spell-card.css"
+  },
+  "css": {
+    "file": "css/assets/xun/xun-mass-healing-word-spell-card.css",
+    "variable": "--asset-xun-mass-healing-word-spell-card",
+    "class": "asset-xun-mass-healing-word-spell-card",
+    "usage": "<div class=\"asset-xun-mass-healing-word-spell-card\" role=\"img\" aria-label=\"Mass Healing Word\"></div>"
+  },
+  "json": {
+    "file": "json/assets/xun/xun-mass-healing-word-spell-card.json"
+  },
+  "category": "Xun",
+  "compliance": {
+    "status": "replaced",
+    "reason": "Original card used mixed-edition, non-SRD, or rules-inaccurate mechanics; replaced with an SRD 5.2.1 entry or SRD-only example build.",
+    "replacementTitle": "Mass Healing Word",
+    "replacementKind": "spell",
+    "rulesBasis": "SRD 5.2.1 or original 5E-compatible mechanics",
+    "artBasis": "New vector/CSS asset or original layout; no D&D logo or publisher trade dress used."
+  },
+  "rulesData": {
+    "type": "Level 3 Abjuration spell",
+    "meta": "Bonus Action • 60 ft. • Instantaneous",
+    "summary": "Up to six creatures regain Hit Points equal to 2d4 plus your spellcasting ability modifier."
+  }
+}

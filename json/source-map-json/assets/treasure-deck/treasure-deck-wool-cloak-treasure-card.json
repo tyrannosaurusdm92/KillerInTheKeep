@@ -1,0 +1,50 @@
+{
+  "id": "treasure-deck-wool-cloak-treasure-card",
+  "original": {
+    "path": "Treasure Deck/AddText_05-25-09.11.25.jpg",
+    "filename": "AddText_05-25-09.11.25.jpg",
+    "extension": ".jpg",
+    "mimeType": "image/jpeg",
+    "byteLength": 182894,
+    "sha256": "42a32151790a2985507586d0c56e6067af40105b88dde52e6c06628872093555",
+    "sourceArchive": "To Save Just In Case (2).zip"
+  },
+  "image": {
+    "width": 1200,
+    "height": 1200,
+    "format": "SVG",
+    "mode": "vector",
+    "frames": 1
+  },
+  "embedded": {
+    "mimeType": "image/svg+xml",
+    "byteLength": 1094,
+    "sha256": "8b59ada6f56ae8a0b62e096225cd80b6de25ea3a3b2449b1d93de6faa878c6a6",
+    "method": "srd-compliant-card-substitute",
+    "pixelVerifiedLossless": false,
+    "dataLocation": "css/assets/treasure-deck/treasure-deck-wool-cloak-treasure-card.css"
+  },
+  "css": {
+    "file": "css/assets/treasure-deck/treasure-deck-wool-cloak-treasure-card.css",
+    "variable": "--asset-treasure-deck-wool-cloak-treasure-card",
+    "class": "asset-treasure-deck-wool-cloak-treasure-card",
+    "usage": "<div class=\"asset-treasure-deck-wool-cloak-treasure-card\" role=\"img\" aria-label=\"Wool Cloak\"></div>"
+  },
+  "json": {
+    "file": "json/assets/treasure-deck/treasure-deck-wool-cloak-treasure-card.json"
+  },
+  "category": "Treasure Deck",
+  "compliance": {
+    "status": "replaced",
+    "reason": "Original treasure card used mixed-edition item names, nonstandard effects, irregular prices, or incomplete rules; replaced with an SRD item reference or system-neutral treasure.",
+    "replacementTitle": "Wool Cloak",
+    "replacementKind": "treasure",
+    "rulesBasis": "SRD 5.2.1 or original 5E-compatible mechanics",
+    "artBasis": "New vector/CSS asset or original layout; no D&D logo or publisher trade dress used."
+  },
+  "rulesData": {
+    "type": "Adventuring clothing • 5 GP",
+    "meta": "5E-compatible treasure card",
+    "summary": "A sturdy nonmagical cloak."
+  }
+}

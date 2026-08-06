@@ -1,0 +1,43 @@
+{
+  "id": "monsters-tokens-daltu-character-token",
+  "original": {
+    "path": "Monsters/Tokens/AddText_06-08-10.19.21.jpg",
+    "filename": "AddText_06-08-10.19.21.jpg",
+    "extension": ".jpg",
+    "mimeType": "image/jpeg",
+    "byteLength": 230707,
+    "sha256": "ac04cd466e1d5dca4a0fa0e58dfea1c3430d61f23737e39789b82a34415d622a",
+    "sourceArchive": "To Save Just In Case (3).zip"
+  },
+  "image": {
+    "width": 1440,
+    "height": 1440,
+    "format": "JPEG",
+    "mode": "RGB",
+    "frames": 1
+  },
+  "embedded": {
+    "mimeType": "image/jpeg",
+    "byteLength": 230707,
+    "sha256": "ac04cd466e1d5dca4a0fa0e58dfea1c3430d61f23737e39789b82a34415d622a",
+    "method": "original-bytes",
+    "pixelVerifiedLossless": true,
+    "dataLocation": "css/assets/monsters/tokens/monsters-tokens-daltu-character-token.css"
+  },
+  "css": {
+    "file": "css/assets/monsters/tokens/monsters-tokens-daltu-character-token.css",
+    "variable": "--asset-monsters-tokens-daltu-character-token",
+    "class": "asset-monsters-tokens-daltu-character-token",
+    "usage": "<div class=\"asset-monsters-tokens-daltu-character-token\" role=\"img\" aria-label=\"Daltu Character Token\"></div>"
+  },
+  "json": {
+    "file": "json/assets/monsters/tokens/monsters-tokens-daltu-character-token.json"
+  },
+  "category": "Monsters/Tokens",
+  "compliance": {
+    "status": "preserved",
+    "reason": "No non-SRD rules text or official D&D branding was detected in this generic/custom visual asset. Original bytes were retained.",
+    "rulesBasis": "Not applicable or supplemented by structured SRD metadata.",
+    "artBasis": "User-supplied asset; copyright provenance was not independently verified."
+  }
+}

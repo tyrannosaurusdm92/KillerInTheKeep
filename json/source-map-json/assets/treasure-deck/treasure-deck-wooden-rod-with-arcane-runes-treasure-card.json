@@ -1,0 +1,50 @@
+{
+  "id": "treasure-deck-wooden-rod-with-arcane-runes-treasure-card",
+  "original": {
+    "path": "Treasure Deck/AddText_05-25-08.25.55.jpg",
+    "filename": "AddText_05-25-08.25.55.jpg",
+    "extension": ".jpg",
+    "mimeType": "image/jpeg",
+    "byteLength": 205170,
+    "sha256": "d6184c400462d983f336de5b69bba1e804831eac99c80834587a55fc2cd58df8",
+    "sourceArchive": "To Save Just In Case (2).zip"
+  },
+  "image": {
+    "width": 1200,
+    "height": 1200,
+    "format": "SVG",
+    "mode": "vector",
+    "frames": 1
+  },
+  "embedded": {
+    "mimeType": "image/svg+xml",
+    "byteLength": 1229,
+    "sha256": "6be574aa30a43b4f0da7300f35248a5a00b66233060c4c928aed07015763d373",
+    "method": "srd-compliant-card-substitute",
+    "pixelVerifiedLossless": false,
+    "dataLocation": "css/assets/treasure-deck/treasure-deck-wooden-rod-with-arcane-runes-treasure-card.css"
+  },
+  "css": {
+    "file": "css/assets/treasure-deck/treasure-deck-wooden-rod-with-arcane-runes-treasure-card.css",
+    "variable": "--asset-treasure-deck-wooden-rod-with-arcane-runes-treasure-card",
+    "class": "asset-treasure-deck-wooden-rod-with-arcane-runes-treasure-card",
+    "usage": "<div class=\"asset-treasure-deck-wooden-rod-with-arcane-runes-treasure-card\" role=\"img\" aria-label=\"Wooden Rod with Arcane Runes\"></div>"
+  },
+  "json": {
+    "file": "json/assets/treasure-deck/treasure-deck-wooden-rod-with-arcane-runes-treasure-card.json"
+  },
+  "category": "Treasure Deck",
+  "compliance": {
+    "status": "replaced",
+    "reason": "Original treasure card used mixed-edition item names, nonstandard effects, irregular prices, or incomplete rules; replaced with an SRD item reference or system-neutral treasure.",
+    "replacementTitle": "Wooden Rod with Arcane Runes",
+    "replacementKind": "treasure",
+    "rulesBasis": "SRD 5.2.1 or original 5E-compatible mechanics",
+    "artBasis": "New vector/CSS asset or original layout; no D&D logo or publisher trade dress used."
+  },
+  "rulesData": {
+    "type": "Art object • 25 GP",
+    "meta": "5E-compatible treasure card",
+    "summary": "A nonmagical carved object; it is not a spellcasting focus unless the GM designates it as one."
+  }
+}

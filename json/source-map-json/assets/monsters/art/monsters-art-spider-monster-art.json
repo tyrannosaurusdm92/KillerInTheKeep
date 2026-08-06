@@ -1,0 +1,50 @@
+{
+  "id": "monsters-art-spider-monster-art",
+  "original": {
+    "path": "Monsters/Art/received_732916878016111.webp",
+    "filename": "received_732916878016111.webp",
+    "extension": ".webp",
+    "mimeType": "image/webp",
+    "byteLength": 33910,
+    "sha256": "55e7fe15995236f7dfec49ead84bba44ec76aa88565ab6c88426f3389d8cafd2",
+    "sourceArchive": "To Save Just In Case (3).zip"
+  },
+  "image": {
+    "width": 1200,
+    "height": 1200,
+    "format": "SVG",
+    "mode": "vector",
+    "frames": 1
+  },
+  "embedded": {
+    "mimeType": "image/svg+xml",
+    "byteLength": 1497,
+    "sha256": "3776107ab5bb331e61f61f76ead103614e84e342db1c264eaf328dbb462d4d4a",
+    "method": "original-vector-monster-substitute",
+    "pixelVerifiedLossless": false,
+    "dataLocation": "css/assets/monsters/art/monsters-art-spider-monster-art.css"
+  },
+  "css": {
+    "file": "css/assets/monsters/art/monsters-art-spider-monster-art.css",
+    "variable": "--asset-monsters-art-spider-monster-art",
+    "class": "asset-monsters-art-spider-monster-art",
+    "usage": "<div class=\"asset-monsters-art-spider-monster-art\" role=\"img\" aria-label=\"Spider\"></div>"
+  },
+  "json": {
+    "file": "json/assets/monsters/art/monsters-art-spider-monster-art.json"
+  },
+  "category": "Monsters/Art",
+  "compliance": {
+    "status": "replaced",
+    "reason": "Unverified or social-media-sourced monster art was replaced with a new generic vector silhouette to avoid publisher or third-party artwork concerns.",
+    "replacementTitle": "Spider",
+    "replacementKind": "monster-art",
+    "rulesBasis": "SRD 5.2.1 or original 5E-compatible mechanics",
+    "artBasis": "New vector/CSS asset or original layout; no D&D logo or publisher trade dress used."
+  },
+  "rulesData": {
+    "type": "Tiny Beast, Unaligned",
+    "meta": "AC 12 • HP 1 • Speed 20 ft., Climb 20 ft. • CR 0",
+    "summary": "Bite: +4 to hit, 1 piercing plus 2 (1d4) poison. Spider Climb and Web Walker."
+  }
+}

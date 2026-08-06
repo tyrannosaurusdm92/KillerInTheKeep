@@ -1,0 +1,43 @@
+{
+  "id": "monsters-tokens-pile-of-clothes-token",
+  "original": {
+    "path": "Monsters/Tokens/AddText_07-27-02.28.28.jpg",
+    "filename": "AddText_07-27-02.28.28.jpg",
+    "extension": ".jpg",
+    "mimeType": "image/jpeg",
+    "byteLength": 123768,
+    "sha256": "c85a9d0d232f8a5f83a967bf9a0118c168915dccbf95fe4a8985ddb18ecafd50",
+    "sourceArchive": "To Save Just In Case (4).zip"
+  },
+  "image": {
+    "width": 530,
+    "height": 300,
+    "format": "JPEG",
+    "mode": "RGB",
+    "frames": 1
+  },
+  "embedded": {
+    "mimeType": "image/jpeg",
+    "byteLength": 123768,
+    "sha256": "c85a9d0d232f8a5f83a967bf9a0118c168915dccbf95fe4a8985ddb18ecafd50",
+    "method": "original-bytes",
+    "pixelVerifiedLossless": true,
+    "dataLocation": "css/assets/monsters/tokens/monsters-tokens-pile-of-clothes-token.css"
+  },
+  "css": {
+    "file": "css/assets/monsters/tokens/monsters-tokens-pile-of-clothes-token.css",
+    "variable": "--asset-monsters-tokens-pile-of-clothes-token",
+    "class": "asset-monsters-tokens-pile-of-clothes-token",
+    "usage": "<div class=\"asset-monsters-tokens-pile-of-clothes-token\" role=\"img\" aria-label=\"Pile of Clothes Token\"></div>"
+  },
+  "json": {
+    "file": "json/assets/monsters/tokens/monsters-tokens-pile-of-clothes-token.json"
+  },
+  "category": "Monsters/Tokens",
+  "compliance": {
+    "status": "preserved",
+    "reason": "No non-SRD rules text or official D&D branding was detected in this generic/custom visual asset. Original bytes were retained.",
+    "rulesBasis": "Not applicable or supplemented by structured SRD metadata.",
+    "artBasis": "User-supplied asset; copyright provenance was not independently verified."
+  }
+}

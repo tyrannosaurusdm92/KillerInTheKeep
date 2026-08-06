@@ -1,0 +1,50 @@
+{
+  "id": "monsters-tokens-spider-monster-token",
+  "original": {
+    "path": "Monsters/Tokens/AddText_05-26-05.00.28.jpg",
+    "filename": "AddText_05-26-05.00.28.jpg",
+    "extension": ".jpg",
+    "mimeType": "image/jpeg",
+    "byteLength": 273342,
+    "sha256": "9fba87d058df3f0302ba7c96fd6acd02b67f8623d45922a84449408ab65b3440",
+    "sourceArchive": "To Save Just In Case.zip"
+  },
+  "image": {
+    "width": 1200,
+    "height": 1200,
+    "format": "SVG",
+    "mode": "vector",
+    "frames": 1
+  },
+  "embedded": {
+    "mimeType": "image/svg+xml",
+    "byteLength": 1497,
+    "sha256": "3776107ab5bb331e61f61f76ead103614e84e342db1c264eaf328dbb462d4d4a",
+    "method": "original-vector-monster-substitute",
+    "pixelVerifiedLossless": false,
+    "dataLocation": "css/assets/monsters/tokens/monsters-tokens-spider-monster-token.css"
+  },
+  "css": {
+    "file": "css/assets/monsters/tokens/monsters-tokens-spider-monster-token.css",
+    "variable": "--asset-monsters-tokens-spider-monster-token",
+    "class": "asset-monsters-tokens-spider-monster-token",
+    "usage": "<div class=\"asset-monsters-tokens-spider-monster-token\" role=\"img\" aria-label=\"Spider\"></div>"
+  },
+  "json": {
+    "file": "json/assets/monsters/tokens/monsters-tokens-spider-monster-token.json"
+  },
+  "category": "Monsters/Tokens",
+  "compliance": {
+    "status": "replaced",
+    "reason": "Monster token art was replaced with a new generic vector token using an SRD creature or closest SRD substitute.",
+    "replacementTitle": "Spider",
+    "replacementKind": "monster-token",
+    "rulesBasis": "SRD 5.2.1 or original 5E-compatible mechanics",
+    "artBasis": "New vector/CSS asset or original layout; no D&D logo or publisher trade dress used."
+  },
+  "rulesData": {
+    "type": "Tiny Beast, Unaligned",
+    "meta": "AC 12 • HP 1 • Speed 20 ft., Climb 20 ft. • CR 0",
+    "summary": "Bite: +4 to hit, 1 piercing plus 2 (1d4) poison. Spider Climb and Web Walker."
+  }
+}

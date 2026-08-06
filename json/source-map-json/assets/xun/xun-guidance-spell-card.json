@@ -1,0 +1,50 @@
+{
+  "id": "xun-guidance-spell-card",
+  "original": {
+    "path": "Xun/AddText_06-02-02.01.56.jpg",
+    "filename": "AddText_06-02-02.01.56.jpg",
+    "extension": ".jpg",
+    "mimeType": "image/jpeg",
+    "byteLength": 379070,
+    "sha256": "496d9eeab492516eb6f93d0a3c8c5a55c6b47c576196b057ef18b747b2148c4d",
+    "sourceArchive": "To Save Just In Case (3).zip"
+  },
+  "image": {
+    "width": 1200,
+    "height": 1200,
+    "format": "SVG",
+    "mode": "vector",
+    "frames": 1
+  },
+  "embedded": {
+    "mimeType": "image/svg+xml",
+    "byteLength": 1224,
+    "sha256": "603d577296c06d24564b74b0ce384ced73aca13e029d3cb5143f128c23571b4d",
+    "method": "srd-compliant-card-substitute",
+    "pixelVerifiedLossless": false,
+    "dataLocation": "css/assets/xun/xun-guidance-spell-card.css"
+  },
+  "css": {
+    "file": "css/assets/xun/xun-guidance-spell-card.css",
+    "variable": "--asset-xun-guidance-spell-card",
+    "class": "asset-xun-guidance-spell-card",
+    "usage": "<div class=\"asset-xun-guidance-spell-card\" role=\"img\" aria-label=\"Guidance\"></div>"
+  },
+  "json": {
+    "file": "json/assets/xun/xun-guidance-spell-card.json"
+  },
+  "category": "Xun",
+  "compliance": {
+    "status": "replaced",
+    "reason": "Original card used mixed-edition, non-SRD, or rules-inaccurate mechanics; replaced with an SRD 5.2.1 entry or SRD-only example build.",
+    "replacementTitle": "Guidance",
+    "replacementKind": "spell",
+    "rulesBasis": "SRD 5.2.1 or original 5E-compatible mechanics",
+    "artBasis": "New vector/CSS asset or original layout; no D&D logo or publisher trade dress used."
+  },
+  "rulesData": {
+    "type": "Divination cantrip",
+    "meta": "Action • Touch • Concentration, up to 1 minute",
+    "summary": "A willing creature can add 1d4 to one ability check of its choice before the spell ends."
+  }
+}

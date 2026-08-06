@@ -1,0 +1,50 @@
+{
+  "id": "xun-cure-wounds-spell-card",
+  "original": {
+    "path": "Xun/AddText_06-02-02.08.00.jpg",
+    "filename": "AddText_06-02-02.08.00.jpg",
+    "extension": ".jpg",
+    "mimeType": "image/jpeg",
+    "byteLength": 355112,
+    "sha256": "00f0f00dbca41268004365693fcdac286f94fac2f2dc41ea633cf5fcd3d47e3c",
+    "sourceArchive": "To Save Just In Case (3).zip"
+  },
+  "image": {
+    "width": 1200,
+    "height": 1200,
+    "format": "SVG",
+    "mode": "vector",
+    "frames": 1
+  },
+  "embedded": {
+    "mimeType": "image/svg+xml",
+    "byteLength": 1212,
+    "sha256": "3580007ca89d16ec36a4f5954e455244b2995a04b4edfd59d3f4ff8ac7511927",
+    "method": "srd-compliant-card-substitute",
+    "pixelVerifiedLossless": false,
+    "dataLocation": "css/assets/xun/xun-cure-wounds-spell-card.css"
+  },
+  "css": {
+    "file": "css/assets/xun/xun-cure-wounds-spell-card.css",
+    "variable": "--asset-xun-cure-wounds-spell-card",
+    "class": "asset-xun-cure-wounds-spell-card",
+    "usage": "<div class=\"asset-xun-cure-wounds-spell-card\" role=\"img\" aria-label=\"Cure Wounds\"></div>"
+  },
+  "json": {
+    "file": "json/assets/xun/xun-cure-wounds-spell-card.json"
+  },
+  "category": "Xun",
+  "compliance": {
+    "status": "replaced",
+    "reason": "Original card used mixed-edition, non-SRD, or rules-inaccurate mechanics; replaced with an SRD 5.2.1 entry or SRD-only example build.",
+    "replacementTitle": "Cure Wounds",
+    "replacementKind": "spell",
+    "rulesBasis": "SRD 5.2.1 or original 5E-compatible mechanics",
+    "artBasis": "New vector/CSS asset or original layout; no D&D logo or publisher trade dress used."
+  },
+  "rulesData": {
+    "type": "Level 1 Abjuration spell",
+    "meta": "Action • Touch • Instantaneous",
+    "summary": "A creature regains Hit Points equal to 2d8 plus your spellcasting ability modifier."
+  }
+}

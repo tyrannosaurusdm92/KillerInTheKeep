@@ -1,0 +1,50 @@
+{
+  "id": "treasure-deck-golden-pearl-treasure-card",
+  "original": {
+    "path": "Treasure Deck/AddText_05-25-09.17.37.jpg",
+    "filename": "AddText_05-25-09.17.37.jpg",
+    "extension": ".jpg",
+    "mimeType": "image/jpeg",
+    "byteLength": 125680,
+    "sha256": "41216b87daf5b1919e208e6ca61b09595cddac69e9e103ad99419f52f81122ad",
+    "sourceArchive": "To Save Just In Case.zip"
+  },
+  "image": {
+    "width": 1200,
+    "height": 1200,
+    "format": "SVG",
+    "mode": "vector",
+    "frames": 1
+  },
+  "embedded": {
+    "mimeType": "image/svg+xml",
+    "byteLength": 1190,
+    "sha256": "ce593eb9339eefe3fb2b0ffb545a79c5155b428a157059c5845b45a37145f4cb",
+    "method": "srd-compliant-card-substitute",
+    "pixelVerifiedLossless": false,
+    "dataLocation": "css/assets/treasure-deck/treasure-deck-golden-pearl-treasure-card.css"
+  },
+  "css": {
+    "file": "css/assets/treasure-deck/treasure-deck-golden-pearl-treasure-card.css",
+    "variable": "--asset-treasure-deck-golden-pearl-treasure-card",
+    "class": "asset-treasure-deck-golden-pearl-treasure-card",
+    "usage": "<div class=\"asset-treasure-deck-golden-pearl-treasure-card\" role=\"img\" aria-label=\"Golden Pearl\"></div>"
+  },
+  "json": {
+    "file": "json/assets/treasure-deck/treasure-deck-golden-pearl-treasure-card.json"
+  },
+  "category": "Treasure Deck",
+  "compliance": {
+    "status": "replaced",
+    "reason": "Original treasure card used mixed-edition item names, nonstandard effects, irregular prices, or incomplete rules; replaced with an SRD item reference or system-neutral treasure.",
+    "replacementTitle": "Golden Pearl",
+    "replacementKind": "treasure",
+    "rulesBasis": "SRD 5.2.1 or original 5E-compatible mechanics",
+    "artBasis": "New vector/CSS asset or original layout; no D&D logo or publisher trade dress used."
+  },
+  "rulesData": {
+    "type": "Gemstone • 100 GP",
+    "meta": "5E-compatible treasure card",
+    "summary": "A nonmagical gemstone suitable for treasure or material-component value."
+  }
+}

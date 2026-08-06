@@ -1,0 +1,50 @@
+{
+  "id": "treasure-deck-potion-of-healing-treasure-card",
+  "original": {
+    "path": "Treasure Deck/AddText_05-25-08.47.43.jpg",
+    "filename": "AddText_05-25-08.47.43.jpg",
+    "extension": ".jpg",
+    "mimeType": "image/jpeg",
+    "byteLength": 217361,
+    "sha256": "25fe404b694ba0cf62cf255ae542d576ddddd9d009ca00c514071ada867536b6",
+    "sourceArchive": "To Save Just In Case (4).zip"
+  },
+  "image": {
+    "width": 1200,
+    "height": 1200,
+    "format": "SVG",
+    "mode": "vector",
+    "frames": 1
+  },
+  "embedded": {
+    "mimeType": "image/svg+xml",
+    "byteLength": 1225,
+    "sha256": "baee12204cfad52f78c115db35503e9e1054e3e32cdde1abdeb19ed53114914b",
+    "method": "srd-compliant-card-substitute",
+    "pixelVerifiedLossless": false,
+    "dataLocation": "css/assets/treasure-deck/treasure-deck-potion-of-healing-treasure-card.css"
+  },
+  "css": {
+    "file": "css/assets/treasure-deck/treasure-deck-potion-of-healing-treasure-card.css",
+    "variable": "--asset-treasure-deck-potion-of-healing-treasure-card",
+    "class": "asset-treasure-deck-potion-of-healing-treasure-card",
+    "usage": "<div class=\"asset-treasure-deck-potion-of-healing-treasure-card\" role=\"img\" aria-label=\"Potion of Healing\"></div>"
+  },
+  "json": {
+    "file": "json/assets/treasure-deck/treasure-deck-potion-of-healing-treasure-card.json"
+  },
+  "category": "Treasure Deck",
+  "compliance": {
+    "status": "replaced",
+    "reason": "Original treasure card used mixed-edition item names, nonstandard effects, irregular prices, or incomplete rules; replaced with an SRD item reference or system-neutral treasure.",
+    "replacementTitle": "Potion of Healing",
+    "replacementKind": "treasure",
+    "rulesBasis": "SRD 5.2.1 or original 5E-compatible mechanics",
+    "artBasis": "New vector/CSS asset or original layout; no D&D logo or publisher trade dress used."
+  },
+  "rulesData": {
+    "type": "Magic item • SRD reference",
+    "meta": "5E-compatible treasure card",
+    "summary": "Closest SRD substitute for Cure Moderate Wounds terminology. Use the Potion of Healing entry."
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "id": "noldrack-gust-of-wind-spell-card",
+  "original": {
+    "path": "Noldrack/AddText_06-02-03.59.11.jpg",
+    "filename": "AddText_06-02-03.59.11.jpg",
+    "extension": ".jpg",
+    "mimeType": "image/jpeg",
+    "byteLength": 417987,
+    "sha256": "44df4b4359ea7c4e3d9b15e30e8ff587bd17c615874fa364274ac7421ffe9e7f",
+    "sourceArchive": "To Save Just In Case.zip"
+  },
+  "image": {
+    "width": 1200,
+    "height": 1200,
+    "format": "SVG",
+    "mode": "vector",
+    "frames": 1
+  },
+  "embedded": {
+    "mimeType": "image/svg+xml",
+    "byteLength": 1350,
+    "sha256": "cd181462cbf1d6cb9fc8307e7379e68b2c6d451835086f275f6073ae1cdf81bc",
+    "method": "srd-compliant-card-substitute",
+    "pixelVerifiedLossless": false,
+    "dataLocation": "css/assets/noldrack/noldrack-gust-of-wind-spell-card.css"
+  },
+  "css": {
+    "file": "css/assets/noldrack/noldrack-gust-of-wind-spell-card.css",
+    "variable": "--asset-noldrack-gust-of-wind-spell-card",
+    "class": "asset-noldrack-gust-of-wind-spell-card",
+    "usage": "<div class=\"asset-noldrack-gust-of-wind-spell-card\" role=\"img\" aria-label=\"Gust of Wind\"></div>"
+  },
+  "json": {
+    "file": "json/assets/noldrack/noldrack-gust-of-wind-spell-card.json"
+  },
+  "category": "Noldrack",
+  "compliance": {
+    "status": "replaced",
+    "reason": "Original card used mixed-edition, non-SRD, or rules-inaccurate mechanics; replaced with an SRD 5.2.1 entry or SRD-only example build.",
+    "replacementTitle": "Gust of Wind",
+    "replacementKind": "spell",
+    "rulesBasis": "SRD 5.2.1 or original 5E-compatible mechanics",
+    "artBasis": "New vector/CSS asset or original layout; no D&D logo or publisher trade dress used."
+  },
+  "rulesData": {
+    "type": "Level 2 Evocation spell",
+    "meta": "Action • Self (60-foot line) • Concentration, up to 1 minute",
+    "summary": "A strong wind fills a 60-foot-long, 10-foot-wide line, pushing creatures that fail a Strength save and hindering movement toward you."
+  }
+}

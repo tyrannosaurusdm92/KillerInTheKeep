@@ -1,0 +1,50 @@
+{
+  "id": "monsters-art-zombie-monster-art",
+  "original": {
+    "path": "Monsters/Art/received_2795844054058229.webp",
+    "filename": "received_2795844054058229.webp",
+    "extension": ".webp",
+    "mimeType": "image/webp",
+    "byteLength": 75748,
+    "sha256": "320da322d926dfbdcd02b68f0c69ca34328ddfa92251001e96908d89ac175128",
+    "sourceArchive": "To Save Just In Case.zip"
+  },
+  "image": {
+    "width": 1200,
+    "height": 1200,
+    "format": "SVG",
+    "mode": "vector",
+    "frames": 1
+  },
+  "embedded": {
+    "mimeType": "image/svg+xml",
+    "byteLength": 839,
+    "sha256": "bf3e9bdb97184e8914ac3298fd2fb9f982344e2243f43fbabb9cd0eb295ef52b",
+    "method": "original-vector-monster-substitute",
+    "pixelVerifiedLossless": false,
+    "dataLocation": "css/assets/monsters/art/monsters-art-zombie-monster-art.css"
+  },
+  "css": {
+    "file": "css/assets/monsters/art/monsters-art-zombie-monster-art.css",
+    "variable": "--asset-monsters-art-zombie-monster-art",
+    "class": "asset-monsters-art-zombie-monster-art",
+    "usage": "<div class=\"asset-monsters-art-zombie-monster-art\" role=\"img\" aria-label=\"Zombie\"></div>"
+  },
+  "json": {
+    "file": "json/assets/monsters/art/monsters-art-zombie-monster-art.json"
+  },
+  "category": "Monsters/Art",
+  "compliance": {
+    "status": "replaced",
+    "reason": "Unverified or social-media-sourced monster art was replaced with a new generic vector silhouette to avoid publisher or third-party artwork concerns.",
+    "replacementTitle": "Zombie",
+    "replacementKind": "monster-art",
+    "rulesBasis": "SRD 5.2.1 or original 5E-compatible mechanics",
+    "artBasis": "New vector/CSS asset or original layout; no D&D logo or publisher trade dress used."
+  },
+  "rulesData": {
+    "type": "Medium Undead, Neutral Evil",
+    "meta": "AC 8 • HP 15 (2d8 + 6) • Speed 20 ft. • CR 1/4",
+    "summary": "Slam: +3 to hit, 5 (1d8 + 1) bludgeoning. Undead Fortitude can leave it at 1 HP when damage would reduce it to 0, except against radiant damage or a critical hit."
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "id": "monsters-tokens-giant-spider-monster-token-2",
+  "original": {
+    "path": "Monsters/Tokens/AddText_06-01-07.41.18.jpg",
+    "filename": "AddText_06-01-07.41.18.jpg",
+    "extension": ".jpg",
+    "mimeType": "image/jpeg",
+    "byteLength": 359931,
+    "sha256": "1f0a830a1e38ab0fd86cd9df087c8ca0bf5cd3a8a80d91a9d776897a31fe0111",
+    "sourceArchive": "To Save Just In Case.zip"
+  },
+  "image": {
+    "width": 1200,
+    "height": 1200,
+    "format": "SVG",
+    "mode": "vector",
+    "frames": 1
+  },
+  "embedded": {
+    "mimeType": "image/svg+xml",
+    "byteLength": 1503,
+    "sha256": "8468e11bd4982424cd4c490ffda559ae6e5b7bd4a9e95b536ca5b62df9aa1a8e",
+    "method": "original-vector-monster-substitute",
+    "pixelVerifiedLossless": false,
+    "dataLocation": "css/assets/monsters/tokens/monsters-tokens-giant-spider-monster-token-2.css"
+  },
+  "css": {
+    "file": "css/assets/monsters/tokens/monsters-tokens-giant-spider-monster-token-2.css",
+    "variable": "--asset-monsters-tokens-giant-spider-monster-token-2",
+    "class": "asset-monsters-tokens-giant-spider-monster-token-2",
+    "usage": "<div class=\"asset-monsters-tokens-giant-spider-monster-token-2\" role=\"img\" aria-label=\"Giant Spider\"></div>"
+  },
+  "json": {
+    "file": "json/assets/monsters/tokens/monsters-tokens-giant-spider-monster-token-2.json"
+  },
+  "category": "Monsters/Tokens",
+  "compliance": {
+    "status": "replaced",
+    "reason": "Monster token art was replaced with a new generic vector token using an SRD creature or closest SRD substitute.",
+    "replacementTitle": "Giant Spider",
+    "replacementKind": "monster-token",
+    "rulesBasis": "SRD 5.2.1 or original 5E-compatible mechanics",
+    "artBasis": "New vector/CSS asset or original layout; no D&D logo or publisher trade dress used."
+  },
+  "rulesData": {
+    "type": "Large Beast, Unaligned",
+    "meta": "AC 14 • HP 26 (4d10 + 4) • Speed 30 ft., Climb 30 ft. • CR 1",
+    "summary": "Bite: +5 to hit, 7 (1d8 + 3) piercing plus 7 (2d6) poison. Web (Recharge 5–6) can Restrain a target on a failed DC 13 Dexterity save."
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "id": "treasure-deck-small-wooden-chest-treasure-card",
+  "original": {
+    "path": "Treasure Deck/AddText_05-25-08.08.15.jpg",
+    "filename": "AddText_05-25-08.08.15.jpg",
+    "extension": ".jpg",
+    "mimeType": "image/jpeg",
+    "byteLength": 357596,
+    "sha256": "320a77d509dd8433d7a4c7f7a9917e83841e3e158ea1eba5d90e84e602db0c25",
+    "sourceArchive": "To Save Just In Case.zip"
+  },
+  "image": {
+    "width": 1200,
+    "height": 1200,
+    "format": "SVG",
+    "mode": "vector",
+    "frames": 1
+  },
+  "embedded": {
+    "mimeType": "image/svg+xml",
+    "byteLength": 1285,
+    "sha256": "d548ee118e1dee5c1042e0370aca7b2f74a00924b7ba4081fee459e2a642eb15",
+    "method": "srd-compliant-card-substitute",
+    "pixelVerifiedLossless": false,
+    "dataLocation": "css/assets/treasure-deck/treasure-deck-small-wooden-chest-treasure-card.css"
+  },
+  "css": {
+    "file": "css/assets/treasure-deck/treasure-deck-small-wooden-chest-treasure-card.css",
+    "variable": "--asset-treasure-deck-small-wooden-chest-treasure-card",
+    "class": "asset-treasure-deck-small-wooden-chest-treasure-card",
+    "usage": "<div class=\"asset-treasure-deck-small-wooden-chest-treasure-card\" role=\"img\" aria-label=\"Small Wooden Chest\"></div>"
+  },
+  "json": {
+    "file": "json/assets/treasure-deck/treasure-deck-small-wooden-chest-treasure-card.json"
+  },
+  "category": "Treasure Deck",
+  "compliance": {
+    "status": "replaced",
+    "reason": "Original treasure card used mixed-edition item names, nonstandard effects, irregular prices, or incomplete rules; replaced with an SRD item reference or system-neutral treasure.",
+    "replacementTitle": "Small Wooden Chest",
+    "replacementKind": "treasure",
+    "rulesBasis": "SRD 5.2.1 or original 5E-compatible mechanics",
+    "artBasis": "New vector/CSS asset or original layout; no D&D logo or publisher trade dress used."
+  },
+  "rulesData": {
+    "type": "Treasure container",
+    "meta": "5E-compatible treasure card",
+    "summary": "Coins, trade goods, or adventuring gear chosen by the GM. Locks and traps use the listed check/save DCs."
+  }
+}

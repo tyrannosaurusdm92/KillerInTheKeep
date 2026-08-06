@@ -1,0 +1,50 @@
+{
+  "id": "treasure-deck-moss-agate-treasure-card",
+  "original": {
+    "path": "Treasure Deck/AddText_05-25-09.22.23.jpg",
+    "filename": "AddText_05-25-09.22.23.jpg",
+    "extension": ".jpg",
+    "mimeType": "image/jpeg",
+    "byteLength": 130952,
+    "sha256": "43ef82842b59e19d1f61e5a34922fd8fbae018c0c19e14d46a62f5f23482de71",
+    "sourceArchive": "To Save Just In Case (3).zip"
+  },
+  "image": {
+    "width": 1200,
+    "height": 1200,
+    "format": "SVG",
+    "mode": "vector",
+    "frames": 1
+  },
+  "embedded": {
+    "mimeType": "image/svg+xml",
+    "byteLength": 1079,
+    "sha256": "13a396ed74cefa3bbd1cb7c7bb21409b487700af469430866db88d03f872ae6f",
+    "method": "srd-compliant-card-substitute",
+    "pixelVerifiedLossless": false,
+    "dataLocation": "css/assets/treasure-deck/treasure-deck-moss-agate-treasure-card.css"
+  },
+  "css": {
+    "file": "css/assets/treasure-deck/treasure-deck-moss-agate-treasure-card.css",
+    "variable": "--asset-treasure-deck-moss-agate-treasure-card",
+    "class": "asset-treasure-deck-moss-agate-treasure-card",
+    "usage": "<div class=\"asset-treasure-deck-moss-agate-treasure-card\" role=\"img\" aria-label=\"Moss Agate\"></div>"
+  },
+  "json": {
+    "file": "json/assets/treasure-deck/treasure-deck-moss-agate-treasure-card.json"
+  },
+  "category": "Treasure Deck",
+  "compliance": {
+    "status": "replaced",
+    "reason": "Original treasure card used mixed-edition item names, nonstandard effects, irregular prices, or incomplete rules; replaced with an SRD item reference or system-neutral treasure.",
+    "replacementTitle": "Moss Agate",
+    "replacementKind": "treasure",
+    "rulesBasis": "SRD 5.2.1 or original 5E-compatible mechanics",
+    "artBasis": "New vector/CSS asset or original layout; no D&D logo or publisher trade dress used."
+  },
+  "rulesData": {
+    "type": "Gemstone • 10 GP",
+    "meta": "5E-compatible treasure card",
+    "summary": "A nonmagical gemstone."
+  }
+}

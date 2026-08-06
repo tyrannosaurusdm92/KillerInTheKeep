@@ -1,0 +1,50 @@
+{
+  "id": "treasure-deck-potion-of-speed-treasure-card",
+  "original": {
+    "path": "Treasure Deck/AddText_05-25-09.02.09.jpg",
+    "filename": "AddText_05-25-09.02.09.jpg",
+    "extension": ".jpg",
+    "mimeType": "image/jpeg",
+    "byteLength": 287463,
+    "sha256": "27686d8fa9ee64d22f9a1e4ecc8ec2fdfb88a7ef59da1f5470e40c6f27ff187c",
+    "sourceArchive": "To Save Just In Case (3).zip"
+  },
+  "image": {
+    "width": 1200,
+    "height": 1200,
+    "format": "SVG",
+    "mode": "vector",
+    "frames": 1
+  },
+  "embedded": {
+    "mimeType": "image/svg+xml",
+    "byteLength": 1297,
+    "sha256": "7cc112e080765b81ffc1884f44f4827e2dce9c611779d01463cfb7a2ced799e0",
+    "method": "srd-compliant-card-substitute",
+    "pixelVerifiedLossless": false,
+    "dataLocation": "css/assets/treasure-deck/treasure-deck-potion-of-speed-treasure-card.css"
+  },
+  "css": {
+    "file": "css/assets/treasure-deck/treasure-deck-potion-of-speed-treasure-card.css",
+    "variable": "--asset-treasure-deck-potion-of-speed-treasure-card",
+    "class": "asset-treasure-deck-potion-of-speed-treasure-card",
+    "usage": "<div class=\"asset-treasure-deck-potion-of-speed-treasure-card\" role=\"img\" aria-label=\"Potion of Speed\"></div>"
+  },
+  "json": {
+    "file": "json/assets/treasure-deck/treasure-deck-potion-of-speed-treasure-card.json"
+  },
+  "category": "Treasure Deck",
+  "compliance": {
+    "status": "replaced",
+    "reason": "Original treasure card used mixed-edition item names, nonstandard effects, irregular prices, or incomplete rules; replaced with an SRD item reference or system-neutral treasure.",
+    "replacementTitle": "Potion of Speed",
+    "replacementKind": "treasure",
+    "rulesBasis": "SRD 5.2.1 or original 5E-compatible mechanics",
+    "artBasis": "New vector/CSS asset or original layout; no D&D logo or publisher trade dress used."
+  },
+  "rulesData": {
+    "type": "Magic item • SRD reference",
+    "meta": "5E-compatible treasure card",
+    "summary": "Closest SRD substitute for the original nonstandard Potion of Energy. Use the complete Potion of Speed entry."
+  }
+}

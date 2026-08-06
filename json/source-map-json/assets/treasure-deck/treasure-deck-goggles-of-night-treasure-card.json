@@ -1,0 +1,50 @@
+{
+  "id": "treasure-deck-goggles-of-night-treasure-card",
+  "original": {
+    "path": "Treasure Deck/AddText_05-25-08.51.00.jpg",
+    "filename": "AddText_05-25-08.51.00.jpg",
+    "extension": ".jpg",
+    "mimeType": "image/jpeg",
+    "byteLength": 198372,
+    "sha256": "daadd0b32d5a035c2296f3e5cd05dd605a2c0c99a96ea529caf17c184f5dd622",
+    "sourceArchive": "To Save Just In Case (3).zip"
+  },
+  "image": {
+    "width": 1200,
+    "height": 1200,
+    "format": "SVG",
+    "mode": "vector",
+    "frames": 1
+  },
+  "embedded": {
+    "mimeType": "image/svg+xml",
+    "byteLength": 1230,
+    "sha256": "c39469d050dae0b313bfb31117f67a9f839bcb201dfc352a5ea58f7eb5a7062d",
+    "method": "srd-compliant-card-substitute",
+    "pixelVerifiedLossless": false,
+    "dataLocation": "css/assets/treasure-deck/treasure-deck-goggles-of-night-treasure-card.css"
+  },
+  "css": {
+    "file": "css/assets/treasure-deck/treasure-deck-goggles-of-night-treasure-card.css",
+    "variable": "--asset-treasure-deck-goggles-of-night-treasure-card",
+    "class": "asset-treasure-deck-goggles-of-night-treasure-card",
+    "usage": "<div class=\"asset-treasure-deck-goggles-of-night-treasure-card\" role=\"img\" aria-label=\"Goggles of Night\"></div>"
+  },
+  "json": {
+    "file": "json/assets/treasure-deck/treasure-deck-goggles-of-night-treasure-card.json"
+  },
+  "category": "Treasure Deck",
+  "compliance": {
+    "status": "replaced",
+    "reason": "Original treasure card used mixed-edition item names, nonstandard effects, irregular prices, or incomplete rules; replaced with an SRD item reference or system-neutral treasure.",
+    "replacementTitle": "Goggles of Night",
+    "replacementKind": "treasure",
+    "rulesBasis": "SRD 5.2.1 or original 5E-compatible mechanics",
+    "artBasis": "New vector/CSS asset or original layout; no D&D logo or publisher trade dress used."
+  },
+  "rulesData": {
+    "type": "Magic item • SRD reference",
+    "meta": "5E-compatible treasure card",
+    "summary": "Closest SRD substitute for the original darkvision potion. Use the complete Goggles of Night entry."
+  }
+}

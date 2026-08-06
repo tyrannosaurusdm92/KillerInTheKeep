@@ -1,0 +1,50 @@
+{
+  "id": "treasure-deck-ring-of-invisibility-treasure-card",
+  "original": {
+    "path": "Treasure Deck/AddText_05-25-09.00.23.jpg",
+    "filename": "AddText_05-25-09.00.23.jpg",
+    "extension": ".jpg",
+    "mimeType": "image/jpeg",
+    "byteLength": 447086,
+    "sha256": "503ab244f7a1752d9a6397a0628f914a8b4e4211c0f086702f40db8ca3d12fb0",
+    "sourceArchive": "To Save Just In Case (3).zip"
+  },
+  "image": {
+    "width": 1200,
+    "height": 1200,
+    "format": "SVG",
+    "mode": "vector",
+    "frames": 1
+  },
+  "embedded": {
+    "mimeType": "image/svg+xml",
+    "byteLength": 1192,
+    "sha256": "2447cf8bb827f0b3f5f6df4233afb8239703ebbbdaae6979ae83cfe0a0e2a83b",
+    "method": "srd-compliant-card-substitute",
+    "pixelVerifiedLossless": false,
+    "dataLocation": "css/assets/treasure-deck/treasure-deck-ring-of-invisibility-treasure-card.css"
+  },
+  "css": {
+    "file": "css/assets/treasure-deck/treasure-deck-ring-of-invisibility-treasure-card.css",
+    "variable": "--asset-treasure-deck-ring-of-invisibility-treasure-card",
+    "class": "asset-treasure-deck-ring-of-invisibility-treasure-card",
+    "usage": "<div class=\"asset-treasure-deck-ring-of-invisibility-treasure-card\" role=\"img\" aria-label=\"Ring of Invisibility\"></div>"
+  },
+  "json": {
+    "file": "json/assets/treasure-deck/treasure-deck-ring-of-invisibility-treasure-card.json"
+  },
+  "category": "Treasure Deck",
+  "compliance": {
+    "status": "replaced",
+    "reason": "Original treasure card used mixed-edition item names, nonstandard effects, irregular prices, or incomplete rules; replaced with an SRD item reference or system-neutral treasure.",
+    "replacementTitle": "Ring of Invisibility",
+    "replacementKind": "treasure",
+    "rulesBasis": "SRD 5.2.1 or original 5E-compatible mechanics",
+    "artBasis": "New vector/CSS asset or original layout; no D&D logo or publisher trade dress used."
+  },
+  "rulesData": {
+    "type": "Magic item • SRD reference",
+    "meta": "5E-compatible treasure card",
+    "summary": "Use the complete Ring of Invisibility entry in SRD 5.2.1."
+  }
+}

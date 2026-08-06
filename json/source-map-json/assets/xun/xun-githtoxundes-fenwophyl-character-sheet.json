@@ -1,0 +1,50 @@
+{
+  "id": "xun-githtoxundes-fenwophyl-character-sheet",
+  "original": {
+    "path": "Xun/AddText_06-08-05.30.35.jpg",
+    "filename": "AddText_06-08-05.30.35.jpg",
+    "extension": ".jpg",
+    "mimeType": "image/jpeg",
+    "byteLength": 914179,
+    "sha256": "81bedb189d12e597e7167ee0de1112a3a48b42b0152ba07d0a846a6199dec223",
+    "sourceArchive": "To Save Just In Case.zip"
+  },
+  "image": {
+    "width": 1200,
+    "height": 1200,
+    "format": "SVG",
+    "mode": "vector",
+    "frames": 1
+  },
+  "embedded": {
+    "mimeType": "image/svg+xml",
+    "byteLength": 1383,
+    "sha256": "821036f275686f0d63af26134cf65b701ef3e478b09e0c55e7c35ba3eb61a8ec",
+    "method": "srd-compliant-card-substitute",
+    "pixelVerifiedLossless": false,
+    "dataLocation": "css/assets/xun/xun-githtoxundes-fenwophyl-character-sheet.css"
+  },
+  "css": {
+    "file": "css/assets/xun/xun-githtoxundes-fenwophyl-character-sheet.css",
+    "variable": "--asset-xun-githtoxundes-fenwophyl-character-sheet",
+    "class": "asset-xun-githtoxundes-fenwophyl-character-sheet",
+    "usage": "<div class=\"asset-xun-githtoxundes-fenwophyl-character-sheet\" role=\"img\" aria-label=\"Githtoxundes Fenwophyl\"></div>"
+  },
+  "json": {
+    "file": "json/assets/xun/xun-githtoxundes-fenwophyl-character-sheet.json"
+  },
+  "category": "Xun",
+  "compliance": {
+    "status": "replaced",
+    "reason": "Original card used mixed-edition, non-SRD, or rules-inaccurate mechanics; replaced with an SRD 5.2.1 entry or SRD-only example build.",
+    "replacementTitle": "Githtoxundes Fenwophyl",
+    "replacementKind": "character",
+    "rulesBasis": "SRD 5.2.1 or original 5E-compatible mechanics",
+    "artBasis": "New vector/CSS asset or original layout; no D&D logo or publisher trade dress used."
+  },
+  "rulesData": {
+    "type": "Example Level 3 Cleric (Life Domain)",
+    "meta": "AC 18 • HP 24 • Speed 30 ft. • PB +2 • Spell DC 13 • Spell attack +5",
+    "summary": "Example ability scores: Str 14, Dex 10, Con 14, Int 10, Wis 17, Cha 8. Uses the SRD Life Domain and standard Cleric spellcasting."
+  }
+}

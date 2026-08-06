@@ -1,0 +1,50 @@
+{
+  "id": "monsters-tokens-skeleton-monster-token",
+  "original": {
+    "path": "Monsters/Tokens/received_1378106846040936.jpeg",
+    "filename": "received_1378106846040936.jpeg",
+    "extension": ".jpeg",
+    "mimeType": "image/jpeg",
+    "byteLength": 55590,
+    "sha256": "74c1a5f126e01d900902a8fd55eaedc36a8170ab5bed232d575d38d164f36fcf",
+    "sourceArchive": "To Save Just In Case.zip"
+  },
+  "image": {
+    "width": 1200,
+    "height": 1200,
+    "format": "SVG",
+    "mode": "vector",
+    "frames": 1
+  },
+  "embedded": {
+    "mimeType": "image/svg+xml",
+    "byteLength": 808,
+    "sha256": "5ffe056e02d21dbd7e2a0a96f2f56239ef207756bac71121c281bc8849c620ea",
+    "method": "original-vector-monster-substitute",
+    "pixelVerifiedLossless": false,
+    "dataLocation": "css/assets/monsters/tokens/monsters-tokens-skeleton-monster-token.css"
+  },
+  "css": {
+    "file": "css/assets/monsters/tokens/monsters-tokens-skeleton-monster-token.css",
+    "variable": "--asset-monsters-tokens-skeleton-monster-token",
+    "class": "asset-monsters-tokens-skeleton-monster-token",
+    "usage": "<div class=\"asset-monsters-tokens-skeleton-monster-token\" role=\"img\" aria-label=\"Skeleton\"></div>"
+  },
+  "json": {
+    "file": "json/assets/monsters/tokens/monsters-tokens-skeleton-monster-token.json"
+  },
+  "category": "Monsters/Tokens",
+  "compliance": {
+    "status": "replaced",
+    "reason": "Monster token art was replaced with a new generic vector token using an SRD creature or closest SRD substitute.",
+    "replacementTitle": "Skeleton",
+    "replacementKind": "monster-token",
+    "rulesBasis": "SRD 5.2.1 or original 5E-compatible mechanics",
+    "artBasis": "New vector/CSS asset or original layout; no D&D logo or publisher trade dress used."
+  },
+  "rulesData": {
+    "type": "Medium Undead, Lawful Evil",
+    "meta": "AC 14 • HP 13 (2d8 + 4) • Speed 30 ft. • CR 1/4",
+    "summary": "Shortsword or Shortbow: +5 to hit, 6 (1d6 + 3) piercing. Vulnerable to bludgeoning; immune to poison damage and the Exhaustion and Poisoned conditions."
+  }
+}
