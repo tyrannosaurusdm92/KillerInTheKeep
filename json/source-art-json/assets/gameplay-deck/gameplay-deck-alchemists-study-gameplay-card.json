@@ -1,0 +1,43 @@
+{
+  "id": "gameplay-deck-alchemists-study-gameplay-card",
+  "original": {
+    "path": "Gameplay Deck/alcheimists study.png",
+    "filename": "alcheimists study.png",
+    "extension": ".png",
+    "mimeType": "image/png",
+    "byteLength": 1594830,
+    "sha256": "df6bbc5bebf01838b994c4a9ff71ae6fd7a95d029a236f4ba44a40f89a4674c4",
+    "sourceArchive": "To Save Just In Case (3).zip"
+  },
+  "image": {
+    "width": 851,
+    "height": 1099,
+    "format": "PNG",
+    "mode": "RGBA",
+    "frames": 1
+  },
+  "embedded": {
+    "mimeType": "image/png",
+    "byteLength": 1594830,
+    "sha256": "df6bbc5bebf01838b994c4a9ff71ae6fd7a95d029a236f4ba44a40f89a4674c4",
+    "method": "original-bytes",
+    "pixelVerifiedLossless": true,
+    "dataLocation": "css/assets/gameplay-deck/gameplay-deck-alchemists-study-gameplay-card.css"
+  },
+  "css": {
+    "file": "css/assets/gameplay-deck/gameplay-deck-alchemists-study-gameplay-card.css",
+    "variable": "--asset-gameplay-deck-alchemists-study-gameplay-card",
+    "class": "asset-gameplay-deck-alchemists-study-gameplay-card",
+    "usage": "<div class=\"asset-gameplay-deck-alchemists-study-gameplay-card\" role=\"img\" aria-label=\"Alchemist's Study\"></div>"
+  },
+  "json": {
+    "file": "json/assets/gameplay-deck/gameplay-deck-alchemists-study-gameplay-card.json"
+  },
+  "category": "Gameplay Deck",
+  "compliance": {
+    "status": "preserved",
+    "reason": "No non-SRD rules text or official D&D branding was detected in this generic/custom visual asset. Original bytes were retained.",
+    "rulesBasis": "Not applicable or supplemented by structured SRD metadata.",
+    "artBasis": "User-supplied asset; copyright provenance was not independently verified."
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "id": "gameplay-deck-quarterstaff-weapon-card",
+  "original": {
+    "path": "Gameplay Deck/magical staff.jpg",
+    "filename": "magical staff.jpg",
+    "extension": ".jpg",
+    "mimeType": "image/jpeg",
+    "byteLength": 215511,
+    "sha256": "1ae261f43e3349334e4425640620d44f4a5bec7e3049b1d92c1c426db3bcee49",
+    "sourceArchive": "To Save Just In Case (4).zip"
+  },
+  "image": {
+    "width": 530,
+    "height": 684,
+    "format": "JPEG",
+    "mode": "RGB",
+    "frames": 1
+  },
+  "embedded": {
+    "mimeType": "image/jpeg",
+    "byteLength": 215511,
+    "sha256": "1ae261f43e3349334e4425640620d44f4a5bec7e3049b1d92c1c426db3bcee49",
+    "method": "original-bytes",
+    "pixelVerifiedLossless": true,
+    "dataLocation": "css/assets/gameplay-deck/gameplay-deck-quarterstaff-weapon-card.css"
+  },
+  "css": {
+    "file": "css/assets/gameplay-deck/gameplay-deck-quarterstaff-weapon-card.css",
+    "variable": "--asset-gameplay-deck-quarterstaff-weapon-card",
+    "class": "asset-gameplay-deck-quarterstaff-weapon-card",
+    "usage": "<div class=\"asset-gameplay-deck-quarterstaff-weapon-card\" role=\"img\" aria-label=\"Quarterstaff\"></div>"
+  },
+  "json": {
+    "file": "json/assets/gameplay-deck/gameplay-deck-quarterstaff-weapon-card.json"
+  },
+  "category": "Gameplay Deck",
+  "compliance": {
+    "status": "preserved",
+    "reason": "Generic visual retained; its JSON record now contains SRD 5.2.1 equipment data or an SRD reference.",
+    "rulesBasis": "Not applicable or supplemented by structured SRD metadata.",
+    "artBasis": "User-supplied asset; copyright provenance was not independently verified."
+  },
+  "rulesData": {
+    "title": "Quarterstaff",
+    "type": "Simple melee weapon",
+    "damage": "1d6 Bludgeoning",
+    "properties": [
+      "Versatile (1d8)"
+    ],
+    "mastery": "Topple",
+    "cost": "2 SP",
+    "weight": "4 lb.",
+    "note": "Any magical bonus requires a specific SRD magic-item entry or GM-created homebrew."
+  }
+}

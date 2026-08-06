@@ -1,0 +1,45 @@
+{
+  "id": "gunnus-character-art",
+  "original": {
+    "path": "Characters_Art_Transparent/Gunnus.png",
+    "filename": "Gunnus.png",
+    "extension": ".png",
+    "mimeType": "image/png",
+    "byteLength": 2837779,
+    "sha256": "f4f4d290144a6cdae9195c1dd25efcc90f8d944280b7c15c6ba2267af03cf479",
+    "sourceArchive": "Characters_Art_Transparent(1).zip"
+  },
+  "image": {
+    "width": 1024,
+    "height": 1536,
+    "format": "PNG",
+    "mode": "RGBA",
+    "frames": 1
+  },
+  "embedded": {
+    "mimeType": "image/png",
+    "byteLength": 2837779,
+    "sha256": "f4f4d290144a6cdae9195c1dd25efcc90f8d944280b7c15c6ba2267af03cf479",
+    "method": "original-transparent-bytes",
+    "pixelVerifiedLossless": true,
+    "dataLocation": "css/assets/gunnus/gunnus-character-art.css"
+  },
+  "css": {
+    "file": "css/assets/gunnus/gunnus-character-art.css",
+    "variable": "--asset-gunnus-character-art",
+    "class": "asset-gunnus-character-art",
+    "usage": "<div class=\"asset-gunnus-character-art\" role=\"img\" aria-label=\"Gunnus character art\"></div>"
+  },
+  "json": {
+    "file": "json/assets/gunnus/gunnus-character-art.json"
+  },
+  "category": "Gunnus",
+  "compliance": {
+    "status": "preserved",
+    "reason": "Original user-provided transparent character artwork embedded directly in CSS.",
+    "replacementTitle": null,
+    "replacementKind": "character-art",
+    "rulesBasis": "Not a rules asset.",
+    "artBasis": "User-provided original transparent character art."
+  }
+}

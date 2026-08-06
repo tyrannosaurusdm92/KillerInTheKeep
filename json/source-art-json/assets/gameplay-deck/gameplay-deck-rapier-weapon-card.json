@@ -1,0 +1,54 @@
+{
+  "id": "gameplay-deck-rapier-weapon-card",
+  "original": {
+    "path": "Gameplay Deck/rapier.jpg",
+    "filename": "rapier.jpg",
+    "extension": ".jpg",
+    "mimeType": "image/jpeg",
+    "byteLength": 205863,
+    "sha256": "ee2bbd5a59e3c8610ce7fbed8d53e8f43b7d72ff01073ca11af3a8eb94cec8fe",
+    "sourceArchive": "To Save Just In Case.zip"
+  },
+  "image": {
+    "width": 530,
+    "height": 684,
+    "format": "JPEG",
+    "mode": "RGB",
+    "frames": 1
+  },
+  "embedded": {
+    "mimeType": "image/jpeg",
+    "byteLength": 205863,
+    "sha256": "ee2bbd5a59e3c8610ce7fbed8d53e8f43b7d72ff01073ca11af3a8eb94cec8fe",
+    "method": "original-bytes",
+    "pixelVerifiedLossless": true,
+    "dataLocation": "css/assets/gameplay-deck/gameplay-deck-rapier-weapon-card.css"
+  },
+  "css": {
+    "file": "css/assets/gameplay-deck/gameplay-deck-rapier-weapon-card.css",
+    "variable": "--asset-gameplay-deck-rapier-weapon-card",
+    "class": "asset-gameplay-deck-rapier-weapon-card",
+    "usage": "<div class=\"asset-gameplay-deck-rapier-weapon-card\" role=\"img\" aria-label=\"Rapier\"></div>"
+  },
+  "json": {
+    "file": "json/assets/gameplay-deck/gameplay-deck-rapier-weapon-card.json"
+  },
+  "category": "Gameplay Deck",
+  "compliance": {
+    "status": "preserved",
+    "reason": "Generic visual retained; its JSON record now contains SRD 5.2.1 equipment data or an SRD reference.",
+    "rulesBasis": "Not applicable or supplemented by structured SRD metadata.",
+    "artBasis": "User-supplied asset; copyright provenance was not independently verified."
+  },
+  "rulesData": {
+    "title": "Rapier",
+    "type": "Martial melee weapon",
+    "damage": "1d8 Piercing",
+    "properties": [
+      "Finesse"
+    ],
+    "mastery": "Vex",
+    "cost": "25 GP",
+    "weight": "2 lb."
+  }
+}

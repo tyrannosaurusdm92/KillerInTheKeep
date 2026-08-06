@@ -1,0 +1,50 @@
+{
+  "id": "gunnus-character-sheet",
+  "original": {
+    "path": "Gunnus/AddText_06-08-05.27.39.jpg",
+    "filename": "AddText_06-08-05.27.39.jpg",
+    "extension": ".jpg",
+    "mimeType": "image/jpeg",
+    "byteLength": 874294,
+    "sha256": "7e861c032593f36bc5e25e7232e08e51b0da6727d53d1d028867f379f45e8244",
+    "sourceArchive": "To Save Just In Case (4).zip"
+  },
+  "image": {
+    "width": 1200,
+    "height": 1200,
+    "format": "SVG",
+    "mode": "vector",
+    "frames": 1
+  },
+  "embedded": {
+    "mimeType": "image/svg+xml",
+    "byteLength": 1495,
+    "sha256": "f9b76009e7231f79f14e15900802db2353d7f48bc018791727d9c51a001f89b0",
+    "method": "srd-compliant-card-substitute",
+    "pixelVerifiedLossless": false,
+    "dataLocation": "css/assets/gunnus/gunnus-character-sheet.css"
+  },
+  "css": {
+    "file": "css/assets/gunnus/gunnus-character-sheet.css",
+    "variable": "--asset-gunnus-character-sheet",
+    "class": "asset-gunnus-character-sheet",
+    "usage": "<div class=\"asset-gunnus-character-sheet\" role=\"img\" aria-label=\"Gunnus\"></div>"
+  },
+  "json": {
+    "file": "json/assets/gunnus/gunnus-character-sheet.json"
+  },
+  "category": "Gunnus",
+  "compliance": {
+    "status": "replaced",
+    "reason": "Original card used mixed-edition, non-SRD, or rules-inaccurate mechanics; replaced with an SRD 5.2.1 entry or SRD-only example build.",
+    "replacementTitle": "Gunnus",
+    "replacementKind": "character",
+    "rulesBasis": "SRD 5.2.1 or original 5E-compatible mechanics",
+    "artBasis": "New vector/CSS asset or original layout; no D&D logo or publisher trade dress used."
+  },
+  "rulesData": {
+    "type": "Example Level 5 Wizard (Evoker)",
+    "meta": "AC 15 with Mage Armor • HP 32 • Speed 30 ft. • PB +3 • Spell DC 14 • Spell attack +6",
+    "summary": "Example ability scores: Str 8, Dex 14, Con 14, Int 18, Wis 12, Cha 10. Necromancer was replaced because Evoker is the SRD Wizard subclass; Animate Dead remains available as a Wizard spell."
+  }
+}

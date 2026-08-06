@@ -1,0 +1,43 @@
+{
+  "id": "gameplay-deck-servants-quarters-gameplay-card",
+  "original": {
+    "path": "Gameplay Deck/servants quarters.png",
+    "filename": "servants quarters.png",
+    "extension": ".png",
+    "mimeType": "image/png",
+    "byteLength": 1594634,
+    "sha256": "adc76ee3e322ccc27b8ad3bf85ee08253181dee6ce0a2d788eb8d2f1ffafb01a",
+    "sourceArchive": "To Save Just In Case (2).zip"
+  },
+  "image": {
+    "width": 851,
+    "height": 1099,
+    "format": "PNG",
+    "mode": "RGBA",
+    "frames": 1
+  },
+  "embedded": {
+    "mimeType": "image/png",
+    "byteLength": 1594634,
+    "sha256": "adc76ee3e322ccc27b8ad3bf85ee08253181dee6ce0a2d788eb8d2f1ffafb01a",
+    "method": "original-bytes",
+    "pixelVerifiedLossless": true,
+    "dataLocation": "css/assets/gameplay-deck/gameplay-deck-servants-quarters-gameplay-card.css"
+  },
+  "css": {
+    "file": "css/assets/gameplay-deck/gameplay-deck-servants-quarters-gameplay-card.css",
+    "variable": "--asset-gameplay-deck-servants-quarters-gameplay-card",
+    "class": "asset-gameplay-deck-servants-quarters-gameplay-card",
+    "usage": "<div class=\"asset-gameplay-deck-servants-quarters-gameplay-card\" role=\"img\" aria-label=\"Servants' Quarters\"></div>"
+  },
+  "json": {
+    "file": "json/assets/gameplay-deck/gameplay-deck-servants-quarters-gameplay-card.json"
+  },
+  "category": "Gameplay Deck",
+  "compliance": {
+    "status": "preserved",
+    "reason": "No non-SRD rules text or official D&D branding was detected in this generic/custom visual asset. Original bytes were retained.",
+    "rulesBasis": "Not applicable or supplemented by structured SRD metadata.",
+    "artBasis": "User-supplied asset; copyright provenance was not independently verified."
+  }
+}

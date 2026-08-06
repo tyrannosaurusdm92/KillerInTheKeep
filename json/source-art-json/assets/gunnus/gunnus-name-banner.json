@@ -1,0 +1,43 @@
+{
+  "id": "gunnus-name-banner",
+  "original": {
+    "path": "Gunnus/AddText_05-26-03.33.38.png",
+    "filename": "AddText_05-26-03.33.38.png",
+    "extension": ".png",
+    "mimeType": "image/png",
+    "byteLength": 137563,
+    "sha256": "2343dba06966d20245607acf9fe6658dec3d1129cc944667ca309a7bc8001176",
+    "sourceArchive": "To Save Just In Case.zip"
+  },
+  "image": {
+    "width": 1440,
+    "height": 1440,
+    "format": "PNG",
+    "mode": "RGBA",
+    "frames": 1
+  },
+  "embedded": {
+    "mimeType": "image/png",
+    "byteLength": 137563,
+    "sha256": "2343dba06966d20245607acf9fe6658dec3d1129cc944667ca309a7bc8001176",
+    "method": "original-bytes",
+    "pixelVerifiedLossless": true,
+    "dataLocation": "css/assets/gunnus/gunnus-name-banner.css"
+  },
+  "css": {
+    "file": "css/assets/gunnus/gunnus-name-banner.css",
+    "variable": "--asset-gunnus-name-banner",
+    "class": "asset-gunnus-name-banner",
+    "usage": "<div class=\"asset-gunnus-name-banner\" role=\"img\" aria-label=\"Gunnus Name Banner\"></div>"
+  },
+  "json": {
+    "file": "json/assets/gunnus/gunnus-name-banner.json"
+  },
+  "category": "Gunnus",
+  "compliance": {
+    "status": "preserved",
+    "reason": "No non-SRD rules text or official D&D branding was detected in this generic/custom visual asset. Original bytes were retained.",
+    "rulesBasis": "Not applicable or supplemented by structured SRD metadata.",
+    "artBasis": "User-supplied asset; copyright provenance was not independently verified."
+  }
+}

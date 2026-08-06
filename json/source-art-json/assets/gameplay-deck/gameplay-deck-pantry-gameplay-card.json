@@ -1,0 +1,43 @@
+{
+  "id": "gameplay-deck-pantry-gameplay-card",
+  "original": {
+    "path": "Gameplay Deck/pantry.png",
+    "filename": "pantry.png",
+    "extension": ".png",
+    "mimeType": "image/png",
+    "byteLength": 674969,
+    "sha256": "4dd6c9e9efd9289b6dcbd40960c20ef4e33723d03dbce66b761f20c0c965af94",
+    "sourceArchive": "To Save Just In Case (2).zip"
+  },
+  "image": {
+    "width": 851,
+    "height": 1099,
+    "format": "PNG",
+    "mode": "RGBA",
+    "frames": 1
+  },
+  "embedded": {
+    "mimeType": "image/png",
+    "byteLength": 674969,
+    "sha256": "4dd6c9e9efd9289b6dcbd40960c20ef4e33723d03dbce66b761f20c0c965af94",
+    "method": "original-bytes",
+    "pixelVerifiedLossless": true,
+    "dataLocation": "css/assets/gameplay-deck/gameplay-deck-pantry-gameplay-card.css"
+  },
+  "css": {
+    "file": "css/assets/gameplay-deck/gameplay-deck-pantry-gameplay-card.css",
+    "variable": "--asset-gameplay-deck-pantry-gameplay-card",
+    "class": "asset-gameplay-deck-pantry-gameplay-card",
+    "usage": "<div class=\"asset-gameplay-deck-pantry-gameplay-card\" role=\"img\" aria-label=\"Pantry\"></div>"
+  },
+  "json": {
+    "file": "json/assets/gameplay-deck/gameplay-deck-pantry-gameplay-card.json"
+  },
+  "category": "Gameplay Deck",
+  "compliance": {
+    "status": "preserved",
+    "reason": "No non-SRD rules text or official D&D branding was detected in this generic/custom visual asset. Original bytes were retained.",
+    "rulesBasis": "Not applicable or supplemented by structured SRD metadata.",
+    "artBasis": "User-supplied asset; copyright provenance was not independently verified."
+  }
+}

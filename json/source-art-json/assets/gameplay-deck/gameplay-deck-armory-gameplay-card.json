@@ -1,0 +1,43 @@
+{
+  "id": "gameplay-deck-armory-gameplay-card",
+  "original": {
+    "path": "Gameplay Deck/armory.png",
+    "filename": "armory.png",
+    "extension": ".png",
+    "mimeType": "image/png",
+    "byteLength": 1462739,
+    "sha256": "080086920d8bb369be16ae63b4071b42d55bb95e60261b2daf8c1328e38c1ddd",
+    "sourceArchive": "To Save Just In Case (2).zip"
+  },
+  "image": {
+    "width": 851,
+    "height": 1099,
+    "format": "PNG",
+    "mode": "RGBA",
+    "frames": 1
+  },
+  "embedded": {
+    "mimeType": "image/png",
+    "byteLength": 1462739,
+    "sha256": "080086920d8bb369be16ae63b4071b42d55bb95e60261b2daf8c1328e38c1ddd",
+    "method": "original-bytes",
+    "pixelVerifiedLossless": true,
+    "dataLocation": "css/assets/gameplay-deck/gameplay-deck-armory-gameplay-card.css"
+  },
+  "css": {
+    "file": "css/assets/gameplay-deck/gameplay-deck-armory-gameplay-card.css",
+    "variable": "--asset-gameplay-deck-armory-gameplay-card",
+    "class": "asset-gameplay-deck-armory-gameplay-card",
+    "usage": "<div class=\"asset-gameplay-deck-armory-gameplay-card\" role=\"img\" aria-label=\"Armory\"></div>"
+  },
+  "json": {
+    "file": "json/assets/gameplay-deck/gameplay-deck-armory-gameplay-card.json"
+  },
+  "category": "Gameplay Deck",
+  "compliance": {
+    "status": "preserved",
+    "reason": "No non-SRD rules text or official D&D branding was detected in this generic/custom visual asset. Original bytes were retained.",
+    "rulesBasis": "Not applicable or supplemented by structured SRD metadata.",
+    "artBasis": "User-supplied asset; copyright provenance was not independently verified."
+  }
+}

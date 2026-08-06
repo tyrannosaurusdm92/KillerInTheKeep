@@ -1,0 +1,43 @@
+{
+  "id": "gameplay-deck-foyer-gameplay-card",
+  "original": {
+    "path": "Gameplay Deck/foyer.png",
+    "filename": "foyer.png",
+    "extension": ".png",
+    "mimeType": "image/png",
+    "byteLength": 1242028,
+    "sha256": "8c16f2dbb2f874e9f668ddac2378e9358417b31b8a9c51d665c7333cef1c8960",
+    "sourceArchive": "To Save Just In Case (4).zip"
+  },
+  "image": {
+    "width": 851,
+    "height": 1099,
+    "format": "PNG",
+    "mode": "RGBA",
+    "frames": 1
+  },
+  "embedded": {
+    "mimeType": "image/png",
+    "byteLength": 1242028,
+    "sha256": "8c16f2dbb2f874e9f668ddac2378e9358417b31b8a9c51d665c7333cef1c8960",
+    "method": "original-bytes",
+    "pixelVerifiedLossless": true,
+    "dataLocation": "css/assets/gameplay-deck/gameplay-deck-foyer-gameplay-card.css"
+  },
+  "css": {
+    "file": "css/assets/gameplay-deck/gameplay-deck-foyer-gameplay-card.css",
+    "variable": "--asset-gameplay-deck-foyer-gameplay-card",
+    "class": "asset-gameplay-deck-foyer-gameplay-card",
+    "usage": "<div class=\"asset-gameplay-deck-foyer-gameplay-card\" role=\"img\" aria-label=\"Foyer\"></div>"
+  },
+  "json": {
+    "file": "json/assets/gameplay-deck/gameplay-deck-foyer-gameplay-card.json"
+  },
+  "category": "Gameplay Deck",
+  "compliance": {
+    "status": "preserved",
+    "reason": "No non-SRD rules text or official D&D branding was detected in this generic/custom visual asset. Original bytes were retained.",
+    "rulesBasis": "Not applicable or supplemented by structured SRD metadata.",
+    "artBasis": "User-supplied asset; copyright provenance was not independently verified."
+  }
+}

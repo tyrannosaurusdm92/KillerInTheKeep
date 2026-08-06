@@ -1,0 +1,52 @@
+{
+  "id": "gameplay-deck-mace-weapon-card",
+  "original": {
+    "path": "Gameplay Deck/AddText_06-18-12.21.29.jpg",
+    "filename": "AddText_06-18-12.21.29.jpg",
+    "extension": ".jpg",
+    "mimeType": "image/jpeg",
+    "byteLength": 211070,
+    "sha256": "8ff1a84362add155abd052a99d7e2b2cb6acd016fdd0da47fdc33c7eeec215e3",
+    "sourceArchive": "To Save Just In Case (4).zip"
+  },
+  "image": {
+    "width": 530,
+    "height": 684,
+    "format": "JPEG",
+    "mode": "RGB",
+    "frames": 1
+  },
+  "embedded": {
+    "mimeType": "image/jpeg",
+    "byteLength": 211070,
+    "sha256": "8ff1a84362add155abd052a99d7e2b2cb6acd016fdd0da47fdc33c7eeec215e3",
+    "method": "original-bytes",
+    "pixelVerifiedLossless": true,
+    "dataLocation": "css/assets/gameplay-deck/gameplay-deck-mace-weapon-card.css"
+  },
+  "css": {
+    "file": "css/assets/gameplay-deck/gameplay-deck-mace-weapon-card.css",
+    "variable": "--asset-gameplay-deck-mace-weapon-card",
+    "class": "asset-gameplay-deck-mace-weapon-card",
+    "usage": "<div class=\"asset-gameplay-deck-mace-weapon-card\" role=\"img\" aria-label=\"Mace\"></div>"
+  },
+  "json": {
+    "file": "json/assets/gameplay-deck/gameplay-deck-mace-weapon-card.json"
+  },
+  "category": "Gameplay Deck",
+  "compliance": {
+    "status": "preserved",
+    "reason": "Generic visual retained; its JSON record now contains SRD 5.2.1 equipment data or an SRD reference.",
+    "rulesBasis": "Not applicable or supplemented by structured SRD metadata.",
+    "artBasis": "User-supplied asset; copyright provenance was not independently verified."
+  },
+  "rulesData": {
+    "title": "Mace",
+    "type": "Simple melee weapon",
+    "damage": "1d6 Bludgeoning",
+    "properties": [],
+    "mastery": "Sap",
+    "cost": "5 GP",
+    "weight": "4 lb."
+  }
+}

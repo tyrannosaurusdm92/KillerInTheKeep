@@ -1,0 +1,48 @@
+{
+  "id": "gameplay-deck-arrows-20-gameplay-card",
+  "original": {
+    "path": "Gameplay Deck/arrows.jpg",
+    "filename": "arrows.jpg",
+    "extension": ".jpg",
+    "mimeType": "image/jpeg",
+    "byteLength": 217151,
+    "sha256": "0e74583bad84f05a268820e42c1e9507242043eb69863971618fc6249756f27e",
+    "sourceArchive": "To Save Just In Case.zip"
+  },
+  "image": {
+    "width": 530,
+    "height": 684,
+    "format": "JPEG",
+    "mode": "RGB",
+    "frames": 1
+  },
+  "embedded": {
+    "mimeType": "image/jpeg",
+    "byteLength": 217151,
+    "sha256": "0e74583bad84f05a268820e42c1e9507242043eb69863971618fc6249756f27e",
+    "method": "original-bytes",
+    "pixelVerifiedLossless": true,
+    "dataLocation": "css/assets/gameplay-deck/gameplay-deck-arrows-20-gameplay-card.css"
+  },
+  "css": {
+    "file": "css/assets/gameplay-deck/gameplay-deck-arrows-20-gameplay-card.css",
+    "variable": "--asset-gameplay-deck-arrows-20-gameplay-card",
+    "class": "asset-gameplay-deck-arrows-20-gameplay-card",
+    "usage": "<div class=\"asset-gameplay-deck-arrows-20-gameplay-card\" role=\"img\" aria-label=\"Arrows (20)\"></div>"
+  },
+  "json": {
+    "file": "json/assets/gameplay-deck/gameplay-deck-arrows-20-gameplay-card.json"
+  },
+  "category": "Gameplay Deck",
+  "compliance": {
+    "status": "preserved",
+    "reason": "Generic visual retained; its JSON record now contains SRD 5.2.1 equipment data or an SRD reference.",
+    "rulesBasis": "Not applicable or supplemented by structured SRD metadata.",
+    "artBasis": "User-supplied asset; copyright provenance was not independently verified."
+  },
+  "rulesData": {
+    "title": "Arrows (20)",
+    "type": "Ammunition",
+    "rules": "Ammunition for weapons that use arrows; recover expended ammunition as allowed by the SRD."
+  }
+}

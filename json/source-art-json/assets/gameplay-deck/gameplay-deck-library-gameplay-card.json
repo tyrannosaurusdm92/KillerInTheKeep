@@ -1,0 +1,43 @@
+{
+  "id": "gameplay-deck-library-gameplay-card",
+  "original": {
+    "path": "Gameplay Deck/library.png",
+    "filename": "library.png",
+    "extension": ".png",
+    "mimeType": "image/png",
+    "byteLength": 745852,
+    "sha256": "fec01966f34633fbef1f97b9344991b9c80cb9e04a937098c64098c072fe0b7e",
+    "sourceArchive": "To Save Just In Case (2).zip"
+  },
+  "image": {
+    "width": 851,
+    "height": 1099,
+    "format": "PNG",
+    "mode": "RGBA",
+    "frames": 1
+  },
+  "embedded": {
+    "mimeType": "image/png",
+    "byteLength": 745852,
+    "sha256": "fec01966f34633fbef1f97b9344991b9c80cb9e04a937098c64098c072fe0b7e",
+    "method": "original-bytes",
+    "pixelVerifiedLossless": true,
+    "dataLocation": "css/assets/gameplay-deck/gameplay-deck-library-gameplay-card.css"
+  },
+  "css": {
+    "file": "css/assets/gameplay-deck/gameplay-deck-library-gameplay-card.css",
+    "variable": "--asset-gameplay-deck-library-gameplay-card",
+    "class": "asset-gameplay-deck-library-gameplay-card",
+    "usage": "<div class=\"asset-gameplay-deck-library-gameplay-card\" role=\"img\" aria-label=\"Library\"></div>"
+  },
+  "json": {
+    "file": "json/assets/gameplay-deck/gameplay-deck-library-gameplay-card.json"
+  },
+  "category": "Gameplay Deck",
+  "compliance": {
+    "status": "preserved",
+    "reason": "No non-SRD rules text or official D&D branding was detected in this generic/custom visual asset. Original bytes were retained.",
+    "rulesBasis": "Not applicable or supplemented by structured SRD metadata.",
+    "artBasis": "User-supplied asset; copyright provenance was not independently verified."
+  }
+}

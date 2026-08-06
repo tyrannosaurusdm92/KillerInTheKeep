@@ -1,0 +1,50 @@
+{
+  "id": "gunnus-skeleton-creature-card",
+  "original": {
+    "path": "Gunnus/skeleton gunnus.jpg",
+    "filename": "skeleton gunnus.jpg",
+    "extension": ".jpg",
+    "mimeType": "image/jpeg",
+    "byteLength": 932499,
+    "sha256": "93027fce58d9a47b3f4639e71a544043be473b3c09dace7fb1466a969a47da18",
+    "sourceArchive": "To Save Just In Case (3).zip"
+  },
+  "image": {
+    "width": 1200,
+    "height": 1200,
+    "format": "SVG",
+    "mode": "vector",
+    "frames": 1
+  },
+  "embedded": {
+    "mimeType": "image/svg+xml",
+    "byteLength": 1414,
+    "sha256": "13241a66a25fc7a59461eb6a214e352f718b6cd575e226e5633ebc493cfe17a5",
+    "method": "srd-compliant-card-substitute",
+    "pixelVerifiedLossless": false,
+    "dataLocation": "css/assets/gunnus/gunnus-skeleton-creature-card.css"
+  },
+  "css": {
+    "file": "css/assets/gunnus/gunnus-skeleton-creature-card.css",
+    "variable": "--asset-gunnus-skeleton-creature-card",
+    "class": "asset-gunnus-skeleton-creature-card",
+    "usage": "<div class=\"asset-gunnus-skeleton-creature-card\" role=\"img\" aria-label=\"Skeleton\"></div>"
+  },
+  "json": {
+    "file": "json/assets/gunnus/gunnus-skeleton-creature-card.json"
+  },
+  "category": "Gunnus",
+  "compliance": {
+    "status": "replaced",
+    "reason": "Original card used mixed-edition, non-SRD, or rules-inaccurate mechanics; replaced with an SRD 5.2.1 entry or SRD-only example build.",
+    "replacementTitle": "Skeleton",
+    "replacementKind": "monster-card",
+    "rulesBasis": "SRD 5.2.1 or original 5E-compatible mechanics",
+    "artBasis": "New vector/CSS asset or original layout; no D&D logo or publisher trade dress used."
+  },
+  "rulesData": {
+    "type": "Medium Undead, Lawful Evil",
+    "meta": "AC 14 • HP 13 (2d8 + 4) • Speed 30 ft. • CR 1/4",
+    "summary": "Shortsword or Shortbow: +5 to hit, 6 (1d6 + 3) piercing. Vulnerable to bludgeoning; immune to poison damage and the Exhaustion and Poisoned conditions."
+  }
+}

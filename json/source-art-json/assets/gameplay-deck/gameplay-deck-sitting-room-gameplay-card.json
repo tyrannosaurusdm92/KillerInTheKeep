@@ -1,0 +1,43 @@
+{
+  "id": "gameplay-deck-sitting-room-gameplay-card",
+  "original": {
+    "path": "Gameplay Deck/sitting room.png",
+    "filename": "sitting room.png",
+    "extension": ".png",
+    "mimeType": "image/png",
+    "byteLength": 1457979,
+    "sha256": "b0bf068af2de9ada2740bb03af3ceb4610a6fdcc76af034e06552e8b1f2104bc",
+    "sourceArchive": "To Save Just In Case (4).zip"
+  },
+  "image": {
+    "width": 851,
+    "height": 1099,
+    "format": "PNG",
+    "mode": "RGBA",
+    "frames": 1
+  },
+  "embedded": {
+    "mimeType": "image/png",
+    "byteLength": 1457979,
+    "sha256": "b0bf068af2de9ada2740bb03af3ceb4610a6fdcc76af034e06552e8b1f2104bc",
+    "method": "original-bytes",
+    "pixelVerifiedLossless": true,
+    "dataLocation": "css/assets/gameplay-deck/gameplay-deck-sitting-room-gameplay-card.css"
+  },
+  "css": {
+    "file": "css/assets/gameplay-deck/gameplay-deck-sitting-room-gameplay-card.css",
+    "variable": "--asset-gameplay-deck-sitting-room-gameplay-card",
+    "class": "asset-gameplay-deck-sitting-room-gameplay-card",
+    "usage": "<div class=\"asset-gameplay-deck-sitting-room-gameplay-card\" role=\"img\" aria-label=\"Sitting Room\"></div>"
+  },
+  "json": {
+    "file": "json/assets/gameplay-deck/gameplay-deck-sitting-room-gameplay-card.json"
+  },
+  "category": "Gameplay Deck",
+  "compliance": {
+    "status": "preserved",
+    "reason": "No non-SRD rules text or official D&D branding was detected in this generic/custom visual asset. Original bytes were retained.",
+    "rulesBasis": "Not applicable or supplemented by structured SRD metadata.",
+    "artBasis": "User-supplied asset; copyright provenance was not independently verified."
+  }
+}

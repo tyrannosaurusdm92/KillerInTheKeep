@@ -1,0 +1,50 @@
+{
+  "id": "gunnus-hideous-laughter-spell-card",
+  "original": {
+    "path": "Gunnus/AddText_06-02-05.17.52.jpg",
+    "filename": "AddText_06-02-05.17.52.jpg",
+    "extension": ".jpg",
+    "mimeType": "image/jpeg",
+    "byteLength": 546490,
+    "sha256": "8bd6eec05f73f8e8d76acacec71e45644fd31591ebb6c36d01974456bca692f8",
+    "sourceArchive": "To Save Just In Case (3).zip"
+  },
+  "image": {
+    "width": 1200,
+    "height": 1200,
+    "format": "SVG",
+    "mode": "vector",
+    "frames": 1
+  },
+  "embedded": {
+    "mimeType": "image/svg+xml",
+    "byteLength": 1344,
+    "sha256": "0f5272c7d6e509091ce65046431ba7065fd47d66173ec698974a08c1a932dcc0",
+    "method": "srd-compliant-card-substitute",
+    "pixelVerifiedLossless": false,
+    "dataLocation": "css/assets/gunnus/gunnus-hideous-laughter-spell-card.css"
+  },
+  "css": {
+    "file": "css/assets/gunnus/gunnus-hideous-laughter-spell-card.css",
+    "variable": "--asset-gunnus-hideous-laughter-spell-card",
+    "class": "asset-gunnus-hideous-laughter-spell-card",
+    "usage": "<div class=\"asset-gunnus-hideous-laughter-spell-card\" role=\"img\" aria-label=\"Hideous Laughter\"></div>"
+  },
+  "json": {
+    "file": "json/assets/gunnus/gunnus-hideous-laughter-spell-card.json"
+  },
+  "category": "Gunnus",
+  "compliance": {
+    "status": "replaced",
+    "reason": "Original card used mixed-edition, non-SRD, or rules-inaccurate mechanics; replaced with an SRD 5.2.1 entry or SRD-only example build.",
+    "replacementTitle": "Hideous Laughter",
+    "replacementKind": "spell",
+    "rulesBasis": "SRD 5.2.1 or original 5E-compatible mechanics",
+    "artBasis": "New vector/CSS asset or original layout; no D&D logo or publisher trade dress used."
+  },
+  "rulesData": {
+    "type": "Level 1 Enchantment spell",
+    "meta": "Action • 30 ft. • Concentration, up to 1 minute",
+    "summary": "A creature makes a Wisdom save or falls Prone and becomes Incapacitated. It repeats the save when damaged and at the end of its turns."
+  }
+}

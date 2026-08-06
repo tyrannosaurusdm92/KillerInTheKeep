@@ -1,0 +1,50 @@
+{
+  "id": "gunnus-vampiric-touch-spell-card",
+  "original": {
+    "path": "Gunnus/AddText_06-02-04.26.11.jpg",
+    "filename": "AddText_06-02-04.26.11.jpg",
+    "extension": ".jpg",
+    "mimeType": "image/jpeg",
+    "byteLength": 462857,
+    "sha256": "b84fc5eb533ec630bba0ad19ccb4d6cfb8f6aba46c242a618350fa53188c3a3e",
+    "sourceArchive": "To Save Just In Case.zip"
+  },
+  "image": {
+    "width": 1200,
+    "height": 1200,
+    "format": "SVG",
+    "mode": "vector",
+    "frames": 1
+  },
+  "embedded": {
+    "mimeType": "image/svg+xml",
+    "byteLength": 1324,
+    "sha256": "f6ce020d48002aae1aa35796084fa04f3196c9b76eeec75b2b86c82f8d3de63b",
+    "method": "srd-compliant-card-substitute",
+    "pixelVerifiedLossless": false,
+    "dataLocation": "css/assets/gunnus/gunnus-vampiric-touch-spell-card.css"
+  },
+  "css": {
+    "file": "css/assets/gunnus/gunnus-vampiric-touch-spell-card.css",
+    "variable": "--asset-gunnus-vampiric-touch-spell-card",
+    "class": "asset-gunnus-vampiric-touch-spell-card",
+    "usage": "<div class=\"asset-gunnus-vampiric-touch-spell-card\" role=\"img\" aria-label=\"Vampiric Touch\"></div>"
+  },
+  "json": {
+    "file": "json/assets/gunnus/gunnus-vampiric-touch-spell-card.json"
+  },
+  "category": "Gunnus",
+  "compliance": {
+    "status": "replaced",
+    "reason": "Original card used mixed-edition, non-SRD, or rules-inaccurate mechanics; replaced with an SRD 5.2.1 entry or SRD-only example build.",
+    "replacementTitle": "Vampiric Touch",
+    "replacementKind": "spell",
+    "rulesBasis": "SRD 5.2.1 or original 5E-compatible mechanics",
+    "artBasis": "New vector/CSS asset or original layout; no D&D logo or publisher trade dress used."
+  },
+  "rulesData": {
+    "type": "Level 3 Necromancy spell",
+    "meta": "Action • Self • Concentration, up to 1 minute",
+    "summary": "Make a melee spell attack that deals 3d6 necrotic damage and restores Hit Points to you equal to half the damage dealt."
+  }
+}

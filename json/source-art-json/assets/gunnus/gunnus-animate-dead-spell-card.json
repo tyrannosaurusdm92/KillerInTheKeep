@@ -1,0 +1,50 @@
+{
+  "id": "gunnus-animate-dead-spell-card",
+  "original": {
+    "path": "Gunnus/AddText_06-02-04.23.38.jpg",
+    "filename": "AddText_06-02-04.23.38.jpg",
+    "extension": ".jpg",
+    "mimeType": "image/jpeg",
+    "byteLength": 347397,
+    "sha256": "3bbdecf2d370276bc9106958324438ac463b45faa0279e9cf28c539ac825aa21",
+    "sourceArchive": "To Save Just In Case (4).zip"
+  },
+  "image": {
+    "width": 1200,
+    "height": 1200,
+    "format": "SVG",
+    "mode": "vector",
+    "frames": 1
+  },
+  "embedded": {
+    "mimeType": "image/svg+xml",
+    "byteLength": 1312,
+    "sha256": "7da4297609a23cf22238f84a6970df8868361aa43707a2911b11e2b7b647fa8e",
+    "method": "srd-compliant-card-substitute",
+    "pixelVerifiedLossless": false,
+    "dataLocation": "css/assets/gunnus/gunnus-animate-dead-spell-card.css"
+  },
+  "css": {
+    "file": "css/assets/gunnus/gunnus-animate-dead-spell-card.css",
+    "variable": "--asset-gunnus-animate-dead-spell-card",
+    "class": "asset-gunnus-animate-dead-spell-card",
+    "usage": "<div class=\"asset-gunnus-animate-dead-spell-card\" role=\"img\" aria-label=\"Animate Dead\"></div>"
+  },
+  "json": {
+    "file": "json/assets/gunnus/gunnus-animate-dead-spell-card.json"
+  },
+  "category": "Gunnus",
+  "compliance": {
+    "status": "replaced",
+    "reason": "Original card used mixed-edition, non-SRD, or rules-inaccurate mechanics; replaced with an SRD 5.2.1 entry or SRD-only example build.",
+    "replacementTitle": "Animate Dead",
+    "replacementKind": "spell",
+    "rulesBasis": "SRD 5.2.1 or original 5E-compatible mechanics",
+    "artBasis": "New vector/CSS asset or original layout; no D&D logo or publisher trade dress used."
+  },
+  "rulesData": {
+    "type": "Level 3 Necromancy spell",
+    "meta": "1 minute • 10 ft. • Instantaneous",
+    "summary": "Animate a corpse or pile of bones as a Zombie or Skeleton. The spell controls it for 24 hours and provides command rules."
+  }
+}

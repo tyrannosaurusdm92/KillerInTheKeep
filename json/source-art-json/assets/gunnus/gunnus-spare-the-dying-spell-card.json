@@ -1,0 +1,50 @@
+{
+  "id": "gunnus-spare-the-dying-spell-card",
+  "original": {
+    "path": "Gunnus/AddText_06-02-05.19.51.jpg",
+    "filename": "AddText_06-02-05.19.51.jpg",
+    "extension": ".jpg",
+    "mimeType": "image/jpeg",
+    "byteLength": 319155,
+    "sha256": "2f93c72b5dae37612716fab3e85a7e8c54f7c54299630dde3cda1c85c0b77cbb",
+    "sourceArchive": "To Save Just In Case (3).zip"
+  },
+  "image": {
+    "width": 1200,
+    "height": 1200,
+    "format": "SVG",
+    "mode": "vector",
+    "frames": 1
+  },
+  "embedded": {
+    "mimeType": "image/svg+xml",
+    "byteLength": 1294,
+    "sha256": "754e5903ce919379afba3107ddab3bf02ecb7f280d99457926048422718e32db",
+    "method": "srd-compliant-card-substitute",
+    "pixelVerifiedLossless": false,
+    "dataLocation": "css/assets/gunnus/gunnus-spare-the-dying-spell-card.css"
+  },
+  "css": {
+    "file": "css/assets/gunnus/gunnus-spare-the-dying-spell-card.css",
+    "variable": "--asset-gunnus-spare-the-dying-spell-card",
+    "class": "asset-gunnus-spare-the-dying-spell-card",
+    "usage": "<div class=\"asset-gunnus-spare-the-dying-spell-card\" role=\"img\" aria-label=\"Spare the Dying\"></div>"
+  },
+  "json": {
+    "file": "json/assets/gunnus/gunnus-spare-the-dying-spell-card.json"
+  },
+  "category": "Gunnus",
+  "compliance": {
+    "status": "replaced",
+    "reason": "Original card used mixed-edition, non-SRD, or rules-inaccurate mechanics; replaced with an SRD 5.2.1 entry or SRD-only example build.",
+    "replacementTitle": "Spare the Dying",
+    "replacementKind": "spell",
+    "rulesBasis": "SRD 5.2.1 or original 5E-compatible mechanics",
+    "artBasis": "New vector/CSS asset or original layout; no D&D logo or publisher trade dress used."
+  },
+  "rulesData": {
+    "type": "Necromancy cantrip",
+    "meta": "Action • 15 ft. • Instantaneous",
+    "summary": "Choose a living creature at 0 Hit Points. It becomes Stable. The range increases at higher character levels."
+  }
+}

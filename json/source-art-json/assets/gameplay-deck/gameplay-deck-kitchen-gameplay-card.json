@@ -1,0 +1,43 @@
+{
+  "id": "gameplay-deck-kitchen-gameplay-card",
+  "original": {
+    "path": "Gameplay Deck/kitchen.png",
+    "filename": "kitchen.png",
+    "extension": ".png",
+    "mimeType": "image/png",
+    "byteLength": 1489887,
+    "sha256": "4437368af3b9e1de26d99383a6dbeae9dbf684d05e5c326b6abc52c7c73a3dd3",
+    "sourceArchive": "To Save Just In Case.zip"
+  },
+  "image": {
+    "width": 851,
+    "height": 1099,
+    "format": "PNG",
+    "mode": "RGBA",
+    "frames": 1
+  },
+  "embedded": {
+    "mimeType": "image/png",
+    "byteLength": 1489887,
+    "sha256": "4437368af3b9e1de26d99383a6dbeae9dbf684d05e5c326b6abc52c7c73a3dd3",
+    "method": "original-bytes",
+    "pixelVerifiedLossless": true,
+    "dataLocation": "css/assets/gameplay-deck/gameplay-deck-kitchen-gameplay-card.css"
+  },
+  "css": {
+    "file": "css/assets/gameplay-deck/gameplay-deck-kitchen-gameplay-card.css",
+    "variable": "--asset-gameplay-deck-kitchen-gameplay-card",
+    "class": "asset-gameplay-deck-kitchen-gameplay-card",
+    "usage": "<div class=\"asset-gameplay-deck-kitchen-gameplay-card\" role=\"img\" aria-label=\"Kitchen\"></div>"
+  },
+  "json": {
+    "file": "json/assets/gameplay-deck/gameplay-deck-kitchen-gameplay-card.json"
+  },
+  "category": "Gameplay Deck",
+  "compliance": {
+    "status": "preserved",
+    "reason": "No non-SRD rules text or official D&D branding was detected in this generic/custom visual asset. Original bytes were retained.",
+    "rulesBasis": "Not applicable or supplemented by structured SRD metadata.",
+    "artBasis": "User-supplied asset; copyright provenance was not independently verified."
+  }
+}

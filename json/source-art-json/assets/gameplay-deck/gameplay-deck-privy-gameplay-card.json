@@ -1,0 +1,43 @@
+{
+  "id": "gameplay-deck-privy-gameplay-card",
+  "original": {
+    "path": "Gameplay Deck/privy.png",
+    "filename": "privy.png",
+    "extension": ".png",
+    "mimeType": "image/png",
+    "byteLength": 721817,
+    "sha256": "c779ac75bcf4ec6371f8903c470cb38f2ea002798b4e7c2478a80c9bc16a454e",
+    "sourceArchive": "To Save Just In Case.zip"
+  },
+  "image": {
+    "width": 851,
+    "height": 1099,
+    "format": "PNG",
+    "mode": "RGBA",
+    "frames": 1
+  },
+  "embedded": {
+    "mimeType": "image/png",
+    "byteLength": 721817,
+    "sha256": "c779ac75bcf4ec6371f8903c470cb38f2ea002798b4e7c2478a80c9bc16a454e",
+    "method": "original-bytes",
+    "pixelVerifiedLossless": true,
+    "dataLocation": "css/assets/gameplay-deck/gameplay-deck-privy-gameplay-card.css"
+  },
+  "css": {
+    "file": "css/assets/gameplay-deck/gameplay-deck-privy-gameplay-card.css",
+    "variable": "--asset-gameplay-deck-privy-gameplay-card",
+    "class": "asset-gameplay-deck-privy-gameplay-card",
+    "usage": "<div class=\"asset-gameplay-deck-privy-gameplay-card\" role=\"img\" aria-label=\"Privy\"></div>"
+  },
+  "json": {
+    "file": "json/assets/gameplay-deck/gameplay-deck-privy-gameplay-card.json"
+  },
+  "category": "Gameplay Deck",
+  "compliance": {
+    "status": "preserved",
+    "reason": "No non-SRD rules text or official D&D branding was detected in this generic/custom visual asset. Original bytes were retained.",
+    "rulesBasis": "Not applicable or supplemented by structured SRD metadata.",
+    "artBasis": "User-supplied asset; copyright provenance was not independently verified."
+  }
+}

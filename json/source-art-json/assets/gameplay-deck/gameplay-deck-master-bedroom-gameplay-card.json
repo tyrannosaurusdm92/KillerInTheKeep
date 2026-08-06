@@ -1,0 +1,43 @@
+{
+  "id": "gameplay-deck-master-bedroom-gameplay-card",
+  "original": {
+    "path": "Gameplay Deck/master bedroom.png",
+    "filename": "master bedroom.png",
+    "extension": ".png",
+    "mimeType": "image/png",
+    "byteLength": 944445,
+    "sha256": "791f197ef0ce24f84742d1d34db1323e189cce2dcaac19905ff25c6ca7ce51d8",
+    "sourceArchive": "To Save Just In Case (3).zip"
+  },
+  "image": {
+    "width": 851,
+    "height": 1099,
+    "format": "PNG",
+    "mode": "RGBA",
+    "frames": 1
+  },
+  "embedded": {
+    "mimeType": "image/png",
+    "byteLength": 944445,
+    "sha256": "791f197ef0ce24f84742d1d34db1323e189cce2dcaac19905ff25c6ca7ce51d8",
+    "method": "original-bytes",
+    "pixelVerifiedLossless": true,
+    "dataLocation": "css/assets/gameplay-deck/gameplay-deck-master-bedroom-gameplay-card.css"
+  },
+  "css": {
+    "file": "css/assets/gameplay-deck/gameplay-deck-master-bedroom-gameplay-card.css",
+    "variable": "--asset-gameplay-deck-master-bedroom-gameplay-card",
+    "class": "asset-gameplay-deck-master-bedroom-gameplay-card",
+    "usage": "<div class=\"asset-gameplay-deck-master-bedroom-gameplay-card\" role=\"img\" aria-label=\"Master Bedroom\"></div>"
+  },
+  "json": {
+    "file": "json/assets/gameplay-deck/gameplay-deck-master-bedroom-gameplay-card.json"
+  },
+  "category": "Gameplay Deck",
+  "compliance": {
+    "status": "preserved",
+    "reason": "No non-SRD rules text or official D&D branding was detected in this generic/custom visual asset. Original bytes were retained.",
+    "rulesBasis": "Not applicable or supplemented by structured SRD metadata.",
+    "artBasis": "User-supplied asset; copyright provenance was not independently verified."
+  }
+}
