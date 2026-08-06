@@ -1,0 +1,18 @@
+{
+  "schema_version": "4.4.0",
+  "basis": "SRD 5.2.1 for converted rules assets; Killer In The Keep original map/game runtime for four-floor content.",
+  "status": "pass",
+  "source_archives_removed": true,
+  "nested_zips": 0,
+  "exact_room_cards": 22,
+  "room_assignment_corrected": true,
+  "ghost_mode_added": true,
+  "notes": [
+    "Game-specific Ghost Mode and map layout are not SRD rules.",
+    "All visible room names are on room cards, not SVG maps."
+  ],
+  "character_sheets_merged": true,
+  "public_gameplay_card_encounter_leaks_removed": true,
+  "death_card_recycle_added": true,
+  "ghost_haunting_added": true
+}

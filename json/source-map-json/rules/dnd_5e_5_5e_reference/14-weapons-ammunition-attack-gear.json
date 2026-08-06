@@ -1,0 +1,221 @@
+{
+  "schema_version": "4.0.0",
+  "document_type": "killer_weapons_and_murder_evidence",
+  "system": "Killer In The Keep",
+  "rules_profile": "Killer In The Keep 5E-Compatible Hybrid",
+  "scope": "Killer In The Keep only",
+  "build_date": "2026-08-05",
+  "source_basis": [
+    "KillerInTheKeep_5_Game_Level_Progression.json",
+    "System Reference Document 5.2.1"
+  ],
+  "srd_attribution": "This work includes material from the System Reference Document 5.2.1 (“SRD 5.2.1”) by Wizards of the Coast LLC, available at https://www.dndbeyond.com/srd. The SRD 5.2.1 is licensed under the Creative Commons Attribution 4.0 International License, available at https://creativecommons.org/licenses/by/4.0/legalcode.",
+  "publisher_affiliation": "Killer In The Keep is an independent project and is not endorsed by Wizards of the Coast.",
+  "record_count": 14,
+  "murder_weapon_ids": [
+    "battleaxe",
+    "arrows",
+    "rapier",
+    "magical-staff",
+    "dagger",
+    "poison",
+    "mace",
+    "wand"
+  ],
+  "records": [
+    {
+      "id": "battleaxe",
+      "name": "Battleaxe",
+      "role": [
+        "Daltu starting weapon",
+        "murder weapon"
+      ],
+      "damage": "1d8 slashing",
+      "properties": [
+        "Versatile (1d10)"
+      ],
+      "mastery": "Topple",
+      "range": "melee"
+    },
+    {
+      "id": "arrows",
+      "name": "Arrows",
+      "role": [
+        "murder weapon/evidence item"
+      ],
+      "damage": "Determined by the bow or power that launches them",
+      "properties": [
+        "Ammunition"
+      ],
+      "range": "by launcher",
+      "notes": "Korbin uses Fire Arrows with a crossbow-like ranged loadout; the sealed murder weapon card remains Arrows."
+    },
+    {
+      "id": "rapier",
+      "name": "Rapier",
+      "role": [
+        "Joknos starting weapon",
+        "murder weapon"
+      ],
+      "damage": "1d8 piercing",
+      "properties": [
+        "Finesse"
+      ],
+      "mastery": "Vex",
+      "range": "melee"
+    },
+    {
+      "id": "magical-staff",
+      "name": "Magical Staff",
+      "role": [
+        "murder weapon"
+      ],
+      "damage": "1d6 bludgeoning or power-defined damage",
+      "properties": [
+        "Versatile (1d8)",
+        "Arcane focus"
+      ],
+      "range": "melee or power-defined"
+    },
+    {
+      "id": "dagger",
+      "name": "Dagger",
+      "role": [
+        "Eilvyre starting weapon",
+        "murder weapon"
+      ],
+      "damage": "1d4 piercing",
+      "properties": [
+        "Finesse",
+        "Light",
+        "Thrown (20/60)"
+      ],
+      "mastery": "Nick",
+      "range": "melee or 20/60 feet"
+    },
+    {
+      "id": "poison",
+      "name": "Poison",
+      "role": [
+        "murder weapon/evidence substance"
+      ],
+      "damage": "Varies by dose; standard clue dose uses 2d6 poison on a failed Constitution save, half on success",
+      "properties": [
+        "Consumable",
+        "Trace evidence"
+      ],
+      "range": "contact, ingestion, inhalation, or injury"
+    },
+    {
+      "id": "mace",
+      "name": "Mace",
+      "role": [
+        "Noldrack starting weapon",
+        "murder weapon"
+      ],
+      "damage": "1d6 bludgeoning",
+      "properties": [],
+      "mastery": "Sap",
+      "range": "melee"
+    },
+    {
+      "id": "wand",
+      "name": "Wand",
+      "role": [
+        "murder weapon",
+        "spellcasting focus"
+      ],
+      "damage": "Power-defined",
+      "properties": [
+        "Arcane focus",
+        "May hold charges"
+      ],
+      "range": "power-defined"
+    },
+    {
+      "id": "quarterstaff",
+      "name": "Quarterstaff",
+      "role": [
+        "Eilvyre starting weapon"
+      ],
+      "damage": "1d6 bludgeoning",
+      "properties": [
+        "Versatile (1d8)"
+      ],
+      "mastery": "Topple",
+      "range": "melee"
+    },
+    {
+      "id": "light-crossbow",
+      "name": "Light Crossbow",
+      "display_name": "Crossbow",
+      "role": [
+        "Korbin starting weapon"
+      ],
+      "damage": "1d8 piercing",
+      "properties": [
+        "Ammunition (80/320)",
+        "Loading",
+        "Two-Handed"
+      ],
+      "mastery": "Slow",
+      "range": "80/320 feet"
+    },
+    {
+      "id": "greatclub",
+      "name": "Greatclub",
+      "role": [
+        "Githtoxundes starting weapon"
+      ],
+      "damage": "1d8 bludgeoning",
+      "properties": [
+        "Two-Handed"
+      ],
+      "mastery": "Push",
+      "range": "melee"
+    },
+    {
+      "id": "shortsword",
+      "name": "Shortsword",
+      "role": [
+        "Monk starting weapon"
+      ],
+      "damage": "1d6 piercing",
+      "properties": [
+        "Finesse",
+        "Light"
+      ],
+      "mastery": "Vex",
+      "range": "melee"
+    },
+    {
+      "id": "headbutt",
+      "name": "Headbutt",
+      "role": [
+        "Gunnus natural starting weapon"
+      ],
+      "damage": "1d6 bludgeoning + Strength modifier",
+      "properties": [
+        "Natural weapon",
+        "Once per turn may attempt a 5-foot push after a hit"
+      ],
+      "range": "melee",
+      "source_classification": "Killer custom"
+    },
+    {
+      "id": "chainsickle",
+      "name": "Chainsickle",
+      "role": [
+        "Gunnus starting weapon"
+      ],
+      "damage": "1d6 slashing",
+      "properties": [
+        "Finesse",
+        "Reach",
+        "Two-Handed"
+      ],
+      "range": "10 feet",
+      "source_classification": "Killer custom"
+    }
+  ]
+}

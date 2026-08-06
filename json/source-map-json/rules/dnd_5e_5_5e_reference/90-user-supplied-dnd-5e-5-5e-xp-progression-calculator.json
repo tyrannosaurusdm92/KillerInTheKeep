@@ -1,0 +1,68 @@
+{
+  "schema_version": "4.0.0",
+  "document_type": "killer_five_game_level_calculator",
+  "system": "Killer In The Keep",
+  "rules_profile": "Killer In The Keep 5E-Compatible Hybrid",
+  "scope": "Killer In The Keep only",
+  "build_date": "2026-08-05",
+  "source_basis": [
+    "KillerInTheKeep_5_Game_Level_Progression.json",
+    "System Reference Document 5.2.1"
+  ],
+  "srd_attribution": "This work includes material from the System Reference Document 5.2.1 (“SRD 5.2.1”) by Wizards of the Coast LLC, available at https://www.dndbeyond.com/srd. The SRD 5.2.1 is licensed under the Creative Commons Attribution 4.0 International License, available at https://creativecommons.org/licenses/by/4.0/legalcode.",
+  "publisher_affiliation": "Killer In The Keep is an independent project and is not endorsed by Wizards of the Coast.",
+  "name": "Killer In The Keep Five Game Level Progression Calculator",
+  "version": "4.0.0",
+  "input": {
+    "current_game_level": "integer 1–5",
+    "current_legacy_xp": "integer >= 0",
+    "event_xp": "integer >= 0",
+    "level_trigger": "boolean"
+  },
+  "level_progression": [
+    {
+      "game_level": 1,
+      "dnd_equivalent_level": 5,
+      "cumulative_xp_required": 0,
+      "limited_power_uses": 1,
+      "maximum_hp_standard_hybrid": 20
+    },
+    {
+      "game_level": 2,
+      "dnd_equivalent_level": 9,
+      "cumulative_xp_required": 50,
+      "limited_power_uses": 2,
+      "maximum_hp_standard_hybrid": 25
+    },
+    {
+      "game_level": 3,
+      "dnd_equivalent_level": 13,
+      "cumulative_xp_required": 150,
+      "limited_power_uses": 3,
+      "maximum_hp_standard_hybrid": 30
+    },
+    {
+      "game_level": 4,
+      "dnd_equivalent_level": 17,
+      "cumulative_xp_required": 450,
+      "limited_power_uses": 4,
+      "maximum_hp_standard_hybrid": 35
+    },
+    {
+      "game_level": 5,
+      "dnd_equivalent_level": 20,
+      "cumulative_xp_required": 1350,
+      "limited_power_uses": 5,
+      "maximum_hp_standard_hybrid": 40
+    }
+  ],
+  "algorithm": [
+    "Clamp current Game Level to 1–5.",
+    "Add event XP to cumulative XP.",
+    "Find the highest threshold reached, but advance at most one Game Level for a single resolved event.",
+    "A valid natural-20, clue, or milestone trigger may also advance at most one Game Level.",
+    "Never advance past Game Level 5.",
+    "After Game Level 5, convert additional XP to score or account rewards only."
+  ],
+  "javascript_reference": "nextLevel = Math.min(5, currentLevel + (qualifiesForLevel ? 1 : 0));"
+}

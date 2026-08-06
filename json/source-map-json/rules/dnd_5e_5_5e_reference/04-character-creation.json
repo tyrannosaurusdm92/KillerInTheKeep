@@ -1,0 +1,1435 @@
+{
+  "schema_version": "4.0.0",
+  "document_type": "fixed_hero_selection_and_setup",
+  "system": "Killer In The Keep",
+  "rules_profile": "Killer In The Keep 5E-Compatible Hybrid",
+  "scope": "Killer In The Keep only",
+  "build_date": "2026-08-05",
+  "source_basis": [
+    "KillerInTheKeep_5_Game_Level_Progression.json",
+    "System Reference Document 5.2.1"
+  ],
+  "srd_attribution": "This work includes material from the System Reference Document 5.2.1 (“SRD 5.2.1”) by Wizards of the Coast LLC, available at https://www.dndbeyond.com/srd. The SRD 5.2.1 is licensed under the Creative Commons Attribution 4.0 International License, available at https://creativecommons.org/licenses/by/4.0/legalcode.",
+  "publisher_affiliation": "Killer In The Keep is an independent project and is not endorsed by Wizards of the Coast.",
+  "character_creation_model": "Killer In The Keep uses eight fixed, unique heroes. Players select a hero rather than building an unrestricted D&D character.",
+  "selection_rules": [
+    "Create a lobby for 2–8 human players.",
+    "Assign one unique hero to each human.",
+    "When fewer than six humans join, fill unique empty hero slots until six adventurers are present.",
+    "No hero may be duplicated in a match.",
+    "Each selected hero begins at Game Level 1 with the listed statistics, equipment, unlimited powers, and starting limited powers.",
+    "The sealed suspect card may name a player-controlled hero; that player is not secretly told and does not become a mandatory traitor."
+  ],
+  "hero_roster": [
+    {
+      "id": "daltu",
+      "name": "Daltu",
+      "pronouns": "they/them",
+      "ancestry": "Kobold",
+      "class": "Fighter",
+      "subclass_or_archetype": "Eldritch Knight",
+      "party_role": [
+        "front-line defender",
+        "arcane striker",
+        "remote trap utility"
+      ],
+      "starting_ability_scores": {
+        "strength": 18,
+        "dexterity": 13,
+        "constitution": 16,
+        "intelligence": 15,
+        "wisdom": 12,
+        "charisma": 12
+      },
+      "source_starting_hp": 20,
+      "source_base_ac_without_armor": 11,
+      "starting_weapon": "Battleaxe",
+      "armor_progression": [
+        "Ringmail",
+        "Platemail"
+      ],
+      "power_names": {
+        "game_level_1_unlimited": [
+          "Eldritch Blast",
+          "Chill Touch",
+          "Sorcerer's Grasp"
+        ],
+        "game_level_1_limited": [
+          "Underworld Flames"
+        ],
+        "game_level_2_unlocks": [
+          "Darkness",
+          "Self Teleport"
+        ],
+        "game_level_3_unlocks": [
+          "Restrain"
+        ],
+        "game_level_4_unlocks": [],
+        "game_level_5_unlocks": [
+          "Deathfire Grasp",
+          "Blight"
+        ]
+      },
+      "video_game_specialty": "Uses a spectral hand to manipulate doors, switches, evidence, and traps from a distance.",
+      "session_level_progression": {
+        "game_level_1": {
+          "dnd_equivalent_level": 5,
+          "named_power_unlocks": [
+            "Eldritch Blast",
+            "Chill Touch",
+            "Sorcerer's Grasp",
+            "Underworld Flames"
+          ],
+          "system_upgrade": "Apply the starting curated D&D level 5-equivalent Fighter package."
+        },
+        "game_level_2": {
+          "dnd_equivalent_level": 9,
+          "named_power_unlocks": [
+            "Darkness",
+            "Self Teleport"
+          ],
+          "system_upgrade": "Jump directly to the curated D&D level 9-equivalent Fighter package; limited-power uses become 2."
+        },
+        "game_level_3": {
+          "dnd_equivalent_level": 13,
+          "named_power_unlocks": [
+            "Restrain"
+          ],
+          "system_upgrade": "Jump directly to the curated D&D level 13-equivalent Fighter package; limited-power uses become 3."
+        },
+        "game_level_4": {
+          "dnd_equivalent_level": 17,
+          "named_power_unlocks": [],
+          "system_upgrade": "Jump directly to the curated D&D level 17-equivalent Fighter package, including a major class-feature, combat-stat, armor/resource, and existing-power upgrade; limited-power uses become 4."
+        },
+        "game_level_5": {
+          "dnd_equivalent_level": 20,
+          "named_power_unlocks": [
+            "Deathfire Grasp",
+            "Blight"
+          ],
+          "system_upgrade": "Jump directly to the curated D&D level 20-equivalent Fighter capstone package; limited-power uses become 5 and no further in-session levels are allowed."
+        }
+      },
+      "fixed_roster_character": true,
+      "ability_modifiers": {
+        "strength": 4,
+        "dexterity": 1,
+        "constitution": 3,
+        "intelligence": 2,
+        "wisdom": 1,
+        "charisma": 1
+      },
+      "proficiencies": {
+        "saving_throws": [
+          "Strength",
+          "Constitution"
+        ],
+        "skills": [
+          "Arcana",
+          "Athletics",
+          "Investigation",
+          "Perception"
+        ],
+        "tools": [
+          "Thieves' Tools"
+        ]
+      },
+      "derived_by_game_level": [
+        {
+          "game_level": 1,
+          "dnd_equivalent_level": 5,
+          "proficiency_bonus": 3,
+          "maximum_hp": 20,
+          "armor_class": 14,
+          "power_attack_bonus": 5,
+          "power_save_dc": 13,
+          "limited_power_uses": 1,
+          "speed_feet": 30
+        },
+        {
+          "game_level": 2,
+          "dnd_equivalent_level": 9,
+          "proficiency_bonus": 4,
+          "maximum_hp": 25,
+          "armor_class": 14,
+          "power_attack_bonus": 6,
+          "power_save_dc": 14,
+          "limited_power_uses": 2,
+          "speed_feet": 30
+        },
+        {
+          "game_level": 3,
+          "dnd_equivalent_level": 13,
+          "proficiency_bonus": 5,
+          "maximum_hp": 30,
+          "armor_class": 14,
+          "power_attack_bonus": 7,
+          "power_save_dc": 15,
+          "limited_power_uses": 3,
+          "speed_feet": 30
+        },
+        {
+          "game_level": 4,
+          "dnd_equivalent_level": 17,
+          "proficiency_bonus": 6,
+          "maximum_hp": 35,
+          "armor_class": 18,
+          "power_attack_bonus": 8,
+          "power_save_dc": 16,
+          "limited_power_uses": 4,
+          "speed_feet": 30
+        },
+        {
+          "game_level": 5,
+          "dnd_equivalent_level": 20,
+          "proficiency_bonus": 6,
+          "maximum_hp": 40,
+          "armor_class": 18,
+          "power_attack_bonus": 8,
+          "power_save_dc": 16,
+          "limited_power_uses": 5,
+          "speed_feet": 30
+        }
+      ]
+    },
+    {
+      "id": "noldrack_goldblade",
+      "name": "Noldrack Goldblade",
+      "pronouns": "he/him",
+      "ancestry": "Dwarf",
+      "class": "Druid",
+      "subclass_or_archetype": "Custom elemental investigator",
+      "party_role": [
+        "elemental controller",
+        "hazard detector",
+        "area denial"
+      ],
+      "starting_ability_scores": {
+        "strength": 14,
+        "dexterity": 12,
+        "constitution": 16,
+        "intelligence": 14,
+        "wisdom": 17,
+        "charisma": 12
+      },
+      "source_starting_hp": 20,
+      "source_base_ac_without_armor": 11,
+      "starting_weapon": "Mace",
+      "armor_progression": [
+        "Leather",
+        "Studded Leather",
+        "Ironwood Breastplate"
+      ],
+      "power_names": {
+        "game_level_1_unlimited": [
+          "Poison Spray",
+          "Force of Nature"
+        ],
+        "game_level_1_limited": [
+          "Detect Ailment"
+        ],
+        "game_level_2_unlocks": [
+          "Flaming Sphere",
+          "Locate Traps and Passageways"
+        ],
+        "game_level_3_unlocks": [
+          "Tidal Wave",
+          "Icicle Blast"
+        ],
+        "game_level_4_unlocks": [],
+        "game_level_5_unlocks": [
+          "Encanto",
+          "Tornado"
+        ]
+      },
+      "video_game_specialty": "Reveals hidden hazards and reshapes rooms with fire, water, ice, wind, and forced movement.",
+      "session_level_progression": {
+        "game_level_1": {
+          "dnd_equivalent_level": 5,
+          "named_power_unlocks": [
+            "Poison Spray",
+            "Force of Nature",
+            "Detect Ailment"
+          ],
+          "system_upgrade": "Apply the starting curated D&D level 5-equivalent Druid package."
+        },
+        "game_level_2": {
+          "dnd_equivalent_level": 9,
+          "named_power_unlocks": [
+            "Flaming Sphere",
+            "Locate Traps and Passageways"
+          ],
+          "system_upgrade": "Jump directly to the curated D&D level 9-equivalent Druid package; limited-power uses become 2."
+        },
+        "game_level_3": {
+          "dnd_equivalent_level": 13,
+          "named_power_unlocks": [
+            "Tidal Wave",
+            "Icicle Blast"
+          ],
+          "system_upgrade": "Jump directly to the curated D&D level 13-equivalent Druid package; limited-power uses become 3."
+        },
+        "game_level_4": {
+          "dnd_equivalent_level": 17,
+          "named_power_unlocks": [],
+          "system_upgrade": "Jump directly to the curated D&D level 17-equivalent Druid package, including a major class-feature, combat-stat, armor/resource, and existing-power upgrade; limited-power uses become 4."
+        },
+        "game_level_5": {
+          "dnd_equivalent_level": 20,
+          "named_power_unlocks": [
+            "Encanto",
+            "Tornado"
+          ],
+          "system_upgrade": "Jump directly to the curated D&D level 20-equivalent Druid capstone package; limited-power uses become 5 and no further in-session levels are allowed."
+        }
+      },
+      "fixed_roster_character": true,
+      "ability_modifiers": {
+        "strength": 2,
+        "dexterity": 1,
+        "constitution": 3,
+        "intelligence": 2,
+        "wisdom": 3,
+        "charisma": 1
+      },
+      "proficiencies": {
+        "saving_throws": [
+          "Intelligence",
+          "Wisdom"
+        ],
+        "skills": [
+          "Investigation",
+          "Nature",
+          "Perception",
+          "Survival"
+        ],
+        "tools": [
+          "Herbalism Kit"
+        ]
+      },
+      "derived_by_game_level": [
+        {
+          "game_level": 1,
+          "dnd_equivalent_level": 5,
+          "proficiency_bonus": 3,
+          "maximum_hp": 20,
+          "armor_class": 12,
+          "power_attack_bonus": 6,
+          "power_save_dc": 14,
+          "limited_power_uses": 1,
+          "speed_feet": 25
+        },
+        {
+          "game_level": 2,
+          "dnd_equivalent_level": 9,
+          "proficiency_bonus": 4,
+          "maximum_hp": 25,
+          "armor_class": 13,
+          "power_attack_bonus": 7,
+          "power_save_dc": 15,
+          "limited_power_uses": 2,
+          "speed_feet": 25
+        },
+        {
+          "game_level": 3,
+          "dnd_equivalent_level": 13,
+          "proficiency_bonus": 5,
+          "maximum_hp": 30,
+          "armor_class": 15,
+          "power_attack_bonus": 8,
+          "power_save_dc": 16,
+          "limited_power_uses": 3,
+          "speed_feet": 25
+        },
+        {
+          "game_level": 4,
+          "dnd_equivalent_level": 17,
+          "proficiency_bonus": 6,
+          "maximum_hp": 35,
+          "armor_class": 15,
+          "power_attack_bonus": 9,
+          "power_save_dc": 17,
+          "limited_power_uses": 4,
+          "speed_feet": 25
+        },
+        {
+          "game_level": 5,
+          "dnd_equivalent_level": 20,
+          "proficiency_bonus": 6,
+          "maximum_hp": 40,
+          "armor_class": 15,
+          "power_attack_bonus": 9,
+          "power_save_dc": 17,
+          "limited_power_uses": 5,
+          "speed_feet": 25
+        }
+      ]
+    },
+    {
+      "id": "eilvyre_astath",
+      "name": "Eilvyre Astath",
+      "pronunciation": "Eel-vie-re",
+      "pronouns": "she/her",
+      "ancestry": "Elf",
+      "class": "Sorcerer",
+      "subclass_or_archetype": "Wild Magic",
+      "party_role": [
+        "high-variance spell striker",
+        "mobility caster",
+        "terrain breaker"
+      ],
+      "starting_ability_scores": {
+        "strength": 11,
+        "dexterity": 13,
+        "constitution": 15,
+        "intelligence": 12,
+        "wisdom": 12,
+        "charisma": 16
+      },
+      "source_starting_hp": 20,
+      "source_base_ac_without_armor": 11,
+      "starting_weapons": [
+        "Quarterstaff",
+        "Dagger"
+      ],
+      "armor_progression": [],
+      "power_names": {
+        "game_level_1_unlimited": [
+          "Orbs of Wonder",
+          "Ray of Frost",
+          "Turn the Tide"
+        ],
+        "game_level_1_limited": [
+          "Mage Armor",
+          "Acid Strike"
+        ],
+        "game_level_2_unlocks": [
+          "Self Teleport"
+        ],
+        "game_level_3_unlocks": [
+          "Earth Shatter"
+        ],
+        "game_level_4_unlocks": [],
+        "game_level_5_unlocks": [
+          "Ball-Lightning"
+        ]
+      },
+      "video_game_specialty": "Wild Magic surges create unpredictable but readable changes to combat, lighting, movement, and evidence.",
+      "session_level_progression": {
+        "game_level_1": {
+          "dnd_equivalent_level": 5,
+          "named_power_unlocks": [
+            "Orbs of Wonder",
+            "Ray of Frost",
+            "Turn the Tide",
+            "Mage Armor",
+            "Acid Strike"
+          ],
+          "system_upgrade": "Apply the starting curated D&D level 5-equivalent Sorcerer package."
+        },
+        "game_level_2": {
+          "dnd_equivalent_level": 9,
+          "named_power_unlocks": [
+            "Self Teleport"
+          ],
+          "system_upgrade": "Jump directly to the curated D&D level 9-equivalent Sorcerer package; limited-power uses become 2."
+        },
+        "game_level_3": {
+          "dnd_equivalent_level": 13,
+          "named_power_unlocks": [
+            "Earth Shatter"
+          ],
+          "system_upgrade": "Jump directly to the curated D&D level 13-equivalent Sorcerer package; limited-power uses become 3."
+        },
+        "game_level_4": {
+          "dnd_equivalent_level": 17,
+          "named_power_unlocks": [],
+          "system_upgrade": "Jump directly to the curated D&D level 17-equivalent Sorcerer package, including a major class-feature, combat-stat, armor/resource, and existing-power upgrade; limited-power uses become 4."
+        },
+        "game_level_5": {
+          "dnd_equivalent_level": 20,
+          "named_power_unlocks": [
+            "Ball-Lightning"
+          ],
+          "system_upgrade": "Jump directly to the curated D&D level 20-equivalent Sorcerer capstone package; limited-power uses become 5 and no further in-session levels are allowed."
+        }
+      },
+      "fixed_roster_character": true,
+      "ability_modifiers": {
+        "strength": 0,
+        "dexterity": 1,
+        "constitution": 2,
+        "intelligence": 1,
+        "wisdom": 1,
+        "charisma": 3
+      },
+      "proficiencies": {
+        "saving_throws": [
+          "Constitution",
+          "Charisma"
+        ],
+        "skills": [
+          "Acrobatics",
+          "Arcana",
+          "Insight",
+          "Investigation"
+        ],
+        "tools": []
+      },
+      "derived_by_game_level": [
+        {
+          "game_level": 1,
+          "dnd_equivalent_level": 5,
+          "proficiency_bonus": 3,
+          "maximum_hp": 20,
+          "armor_class": 14,
+          "power_attack_bonus": 6,
+          "power_save_dc": 14,
+          "limited_power_uses": 1,
+          "speed_feet": 30
+        },
+        {
+          "game_level": 2,
+          "dnd_equivalent_level": 9,
+          "proficiency_bonus": 4,
+          "maximum_hp": 25,
+          "armor_class": 14,
+          "power_attack_bonus": 7,
+          "power_save_dc": 15,
+          "limited_power_uses": 2,
+          "speed_feet": 30
+        },
+        {
+          "game_level": 3,
+          "dnd_equivalent_level": 13,
+          "proficiency_bonus": 5,
+          "maximum_hp": 30,
+          "armor_class": 14,
+          "power_attack_bonus": 8,
+          "power_save_dc": 16,
+          "limited_power_uses": 3,
+          "speed_feet": 30
+        },
+        {
+          "game_level": 4,
+          "dnd_equivalent_level": 17,
+          "proficiency_bonus": 6,
+          "maximum_hp": 35,
+          "armor_class": 14,
+          "power_attack_bonus": 9,
+          "power_save_dc": 17,
+          "limited_power_uses": 4,
+          "speed_feet": 30
+        },
+        {
+          "game_level": 5,
+          "dnd_equivalent_level": 20,
+          "proficiency_bonus": 6,
+          "maximum_hp": 40,
+          "armor_class": 14,
+          "power_attack_bonus": 9,
+          "power_save_dc": 17,
+          "limited_power_uses": 5,
+          "speed_feet": 30
+        }
+      ]
+    },
+    {
+      "id": "korbin_silverdew",
+      "name": "Korbin Silverdew",
+      "pronouns": "he/him",
+      "ancestry": "Halfling",
+      "class": "Paladin",
+      "subclass_or_archetype": "Custom oath of hope and luck",
+      "party_role": [
+        "party defender",
+        "buffer",
+        "ranged radiant striker"
+      ],
+      "starting_ability_scores": {
+        "strength": 17,
+        "dexterity": 13,
+        "constitution": 16,
+        "intelligence": 13,
+        "wisdom": 12,
+        "charisma": 18
+      },
+      "source_starting_hp": 20,
+      "source_base_ac_without_armor": 11,
+      "starting_weapon": "Crossbow",
+      "armor_progression": [
+        "Chainmail",
+        "Platemail"
+      ],
+      "power_names": {
+        "game_level_1_unlimited": [
+          "False Bravado",
+          "Lady Luck",
+          "Fire Arrows"
+        ],
+        "game_level_1_limited": [
+          "Radiant Prayer",
+          "Hope"
+        ],
+        "game_level_2_unlocks": [
+          "Blinding Smite"
+        ],
+        "game_level_3_unlocks": [
+          "Imprison"
+        ],
+        "game_level_4_unlocks": [],
+        "game_level_5_unlocks": [
+          "Death Ward",
+          "Holy Wrath"
+        ]
+      },
+      "video_game_specialty": "Protects allies, improves important rolls, and uses burning arrows to interact with webs, oil, and wooden objects.",
+      "session_level_progression": {
+        "game_level_1": {
+          "dnd_equivalent_level": 5,
+          "named_power_unlocks": [
+            "False Bravado",
+            "Lady Luck",
+            "Fire Arrows",
+            "Radiant Prayer",
+            "Hope"
+          ],
+          "system_upgrade": "Apply the starting curated D&D level 5-equivalent Paladin package."
+        },
+        "game_level_2": {
+          "dnd_equivalent_level": 9,
+          "named_power_unlocks": [
+            "Blinding Smite"
+          ],
+          "system_upgrade": "Jump directly to the curated D&D level 9-equivalent Paladin package; limited-power uses become 2."
+        },
+        "game_level_3": {
+          "dnd_equivalent_level": 13,
+          "named_power_unlocks": [
+            "Imprison"
+          ],
+          "system_upgrade": "Jump directly to the curated D&D level 13-equivalent Paladin package; limited-power uses become 3."
+        },
+        "game_level_4": {
+          "dnd_equivalent_level": 17,
+          "named_power_unlocks": [],
+          "system_upgrade": "Jump directly to the curated D&D level 17-equivalent Paladin package, including a major class-feature, combat-stat, armor/resource, and existing-power upgrade; limited-power uses become 4."
+        },
+        "game_level_5": {
+          "dnd_equivalent_level": 20,
+          "named_power_unlocks": [
+            "Death Ward",
+            "Holy Wrath"
+          ],
+          "system_upgrade": "Jump directly to the curated D&D level 20-equivalent Paladin capstone package; limited-power uses become 5 and no further in-session levels are allowed."
+        }
+      },
+      "fixed_roster_character": true,
+      "ability_modifiers": {
+        "strength": 3,
+        "dexterity": 1,
+        "constitution": 3,
+        "intelligence": 1,
+        "wisdom": 1,
+        "charisma": 4
+      },
+      "proficiencies": {
+        "saving_throws": [
+          "Wisdom",
+          "Charisma"
+        ],
+        "skills": [
+          "Athletics",
+          "Insight",
+          "Perception",
+          "Persuasion"
+        ],
+        "tools": []
+      },
+      "derived_by_game_level": [
+        {
+          "game_level": 1,
+          "dnd_equivalent_level": 5,
+          "proficiency_bonus": 3,
+          "maximum_hp": 20,
+          "armor_class": 16,
+          "power_attack_bonus": 7,
+          "power_save_dc": 15,
+          "limited_power_uses": 1,
+          "speed_feet": 25
+        },
+        {
+          "game_level": 2,
+          "dnd_equivalent_level": 9,
+          "proficiency_bonus": 4,
+          "maximum_hp": 25,
+          "armor_class": 16,
+          "power_attack_bonus": 8,
+          "power_save_dc": 16,
+          "limited_power_uses": 2,
+          "speed_feet": 25
+        },
+        {
+          "game_level": 3,
+          "dnd_equivalent_level": 13,
+          "proficiency_bonus": 5,
+          "maximum_hp": 30,
+          "armor_class": 16,
+          "power_attack_bonus": 9,
+          "power_save_dc": 17,
+          "limited_power_uses": 3,
+          "speed_feet": 25
+        },
+        {
+          "game_level": 4,
+          "dnd_equivalent_level": 17,
+          "proficiency_bonus": 6,
+          "maximum_hp": 35,
+          "armor_class": 18,
+          "power_attack_bonus": 10,
+          "power_save_dc": 18,
+          "limited_power_uses": 4,
+          "speed_feet": 25
+        },
+        {
+          "game_level": 5,
+          "dnd_equivalent_level": 20,
+          "proficiency_bonus": 6,
+          "maximum_hp": 40,
+          "armor_class": 18,
+          "power_attack_bonus": 10,
+          "power_save_dc": 18,
+          "limited_power_uses": 5,
+          "speed_feet": 25
+        }
+      ]
+    },
+    {
+      "id": "joknos_jock",
+      "name": "Joknos",
+      "nickname": "Jock",
+      "pronouns": "any pronouns",
+      "ancestry": "Lizardfolk",
+      "legacy_ancestry_label": "Gecko",
+      "class": "Bard",
+      "subclass_or_archetype": "College of Creation",
+      "party_role": [
+        "social manipulator",
+        "crowd controller",
+        "teleportation specialist"
+      ],
+      "starting_ability_scores": {
+        "strength": 12,
+        "dexterity": 15,
+        "constitution": 16,
+        "intelligence": 13,
+        "wisdom": 14,
+        "charisma": 18
+      },
+      "source_starting_hp": 20,
+      "source_base_ac_without_armor": 12,
+      "starting_weapon": "Rapier",
+      "armor_progression": [
+        "Leather",
+        "Studded Leather"
+      ],
+      "power_names": {
+        "game_level_1_unlimited": [
+          "True Strike",
+          "Might of Kord",
+          "Cruel Contempt"
+        ],
+        "game_level_1_limited": [
+          "Hideous Laughter",
+          "Eardrum Splitter"
+        ],
+        "game_level_2_unlocks": [
+          "Influence",
+          "Invisibility"
+        ],
+        "game_level_3_unlocks": [
+          "Persisting Death Curse",
+          "Dispel Magic",
+          "Bravado"
+        ],
+        "game_level_4_unlocks": [],
+        "game_level_5_unlocks": [
+          "Teleportation Doorway",
+          "Encanto"
+        ]
+      },
+      "video_game_specialty": "Excels at dialogue checks, deception, magical persuasion, distraction, and rapid relocation.",
+      "separate_playstyle_rule": "When a player falsely implicates Jock under the legacy duel rule, Jock may teleport to the accuser and act first.",
+      "session_level_progression": {
+        "game_level_1": {
+          "dnd_equivalent_level": 5,
+          "named_power_unlocks": [
+            "True Strike",
+            "Might of Kord",
+            "Cruel Contempt",
+            "Hideous Laughter",
+            "Eardrum Splitter"
+          ],
+          "system_upgrade": "Apply the starting curated D&D level 5-equivalent Bard package."
+        },
+        "game_level_2": {
+          "dnd_equivalent_level": 9,
+          "named_power_unlocks": [
+            "Influence",
+            "Invisibility"
+          ],
+          "system_upgrade": "Jump directly to the curated D&D level 9-equivalent Bard package; limited-power uses become 2."
+        },
+        "game_level_3": {
+          "dnd_equivalent_level": 13,
+          "named_power_unlocks": [
+            "Persisting Death Curse",
+            "Dispel Magic",
+            "Bravado"
+          ],
+          "system_upgrade": "Jump directly to the curated D&D level 13-equivalent Bard package; limited-power uses become 3."
+        },
+        "game_level_4": {
+          "dnd_equivalent_level": 17,
+          "named_power_unlocks": [],
+          "system_upgrade": "Jump directly to the curated D&D level 17-equivalent Bard package, including a major class-feature, combat-stat, armor/resource, and existing-power upgrade; limited-power uses become 4."
+        },
+        "game_level_5": {
+          "dnd_equivalent_level": 20,
+          "named_power_unlocks": [
+            "Teleportation Doorway",
+            "Encanto"
+          ],
+          "system_upgrade": "Jump directly to the curated D&D level 20-equivalent Bard capstone package; limited-power uses become 5 and no further in-session levels are allowed."
+        }
+      },
+      "fixed_roster_character": true,
+      "ability_modifiers": {
+        "strength": 1,
+        "dexterity": 2,
+        "constitution": 3,
+        "intelligence": 1,
+        "wisdom": 2,
+        "charisma": 4
+      },
+      "proficiencies": {
+        "saving_throws": [
+          "Dexterity",
+          "Charisma"
+        ],
+        "skills": [
+          "Deception",
+          "Performance",
+          "Persuasion",
+          "Sleight of Hand"
+        ],
+        "tools": [
+          "Musical Instrument",
+          "Disguise Kit"
+        ]
+      },
+      "derived_by_game_level": [
+        {
+          "game_level": 1,
+          "dnd_equivalent_level": 5,
+          "proficiency_bonus": 3,
+          "maximum_hp": 20,
+          "armor_class": 13,
+          "power_attack_bonus": 7,
+          "power_save_dc": 15,
+          "limited_power_uses": 1,
+          "speed_feet": 30
+        },
+        {
+          "game_level": 2,
+          "dnd_equivalent_level": 9,
+          "proficiency_bonus": 4,
+          "maximum_hp": 25,
+          "armor_class": 13,
+          "power_attack_bonus": 8,
+          "power_save_dc": 16,
+          "limited_power_uses": 2,
+          "speed_feet": 30
+        },
+        {
+          "game_level": 3,
+          "dnd_equivalent_level": 13,
+          "proficiency_bonus": 5,
+          "maximum_hp": 30,
+          "armor_class": 14,
+          "power_attack_bonus": 9,
+          "power_save_dc": 17,
+          "limited_power_uses": 3,
+          "speed_feet": 30
+        },
+        {
+          "game_level": 4,
+          "dnd_equivalent_level": 17,
+          "proficiency_bonus": 6,
+          "maximum_hp": 35,
+          "armor_class": 14,
+          "power_attack_bonus": 10,
+          "power_save_dc": 18,
+          "limited_power_uses": 4,
+          "speed_feet": 30
+        },
+        {
+          "game_level": 5,
+          "dnd_equivalent_level": 20,
+          "proficiency_bonus": 6,
+          "maximum_hp": 40,
+          "armor_class": 14,
+          "power_attack_bonus": 10,
+          "power_save_dc": 18,
+          "limited_power_uses": 5,
+          "speed_feet": 30
+        }
+      ]
+    },
+    {
+      "id": "githtoxundes_fenwophyl",
+      "name": "Githtoxundes Fenwophyl",
+      "nickname": "Xun",
+      "pronunciation": "Zun",
+      "pronouns": "she/her",
+      "ancestry": "Dragonborn",
+      "class": "Cleric",
+      "subclass_or_archetype": "Custom restoration domain",
+      "party_role": [
+        "primary healer",
+        "revival specialist",
+        "divine controller"
+      ],
+      "starting_ability_scores": {
+        "strength": 15,
+        "dexterity": 14,
+        "constitution": 17,
+        "intelligence": 16,
+        "wisdom": 18,
+        "charisma": 13
+      },
+      "source_starting_hp": 20,
+      "source_base_ac_without_armor": 12,
+      "starting_weapon": "Greatclub",
+      "armor_progression": [
+        "Chain Shirt",
+        "Half Plate"
+      ],
+      "power_names": {
+        "game_level_1_unlimited": [
+          "Spare the Dying",
+          "Guidance"
+        ],
+        "game_level_1_limited": [
+          "Scourge",
+          "Cure Wounds"
+        ],
+        "game_level_2_unlocks": [
+          "Imprison"
+        ],
+        "game_level_3_unlocks": [
+          "Mass Healing Word"
+        ],
+        "game_level_4_unlocks": [],
+        "game_level_5_unlocks": [
+          "Restore Person"
+        ]
+      },
+      "video_game_specialty": "Keeps the party alive, reverses curses and injuries, and can restore a recently dead character before permanent elimination.",
+      "session_level_progression": {
+        "game_level_1": {
+          "dnd_equivalent_level": 5,
+          "named_power_unlocks": [
+            "Spare the Dying",
+            "Guidance",
+            "Scourge",
+            "Cure Wounds"
+          ],
+          "system_upgrade": "Apply the starting curated D&D level 5-equivalent Cleric package."
+        },
+        "game_level_2": {
+          "dnd_equivalent_level": 9,
+          "named_power_unlocks": [
+            "Imprison"
+          ],
+          "system_upgrade": "Jump directly to the curated D&D level 9-equivalent Cleric package; limited-power uses become 2."
+        },
+        "game_level_3": {
+          "dnd_equivalent_level": 13,
+          "named_power_unlocks": [
+            "Mass Healing Word"
+          ],
+          "system_upgrade": "Jump directly to the curated D&D level 13-equivalent Cleric package; limited-power uses become 3."
+        },
+        "game_level_4": {
+          "dnd_equivalent_level": 17,
+          "named_power_unlocks": [],
+          "system_upgrade": "Jump directly to the curated D&D level 17-equivalent Cleric package, including a major class-feature, combat-stat, armor/resource, and existing-power upgrade; limited-power uses become 4."
+        },
+        "game_level_5": {
+          "dnd_equivalent_level": 20,
+          "named_power_unlocks": [
+            "Restore Person"
+          ],
+          "system_upgrade": "Jump directly to the curated D&D level 20-equivalent Cleric capstone package; limited-power uses become 5 and no further in-session levels are allowed."
+        }
+      },
+      "fixed_roster_character": true,
+      "ability_modifiers": {
+        "strength": 2,
+        "dexterity": 2,
+        "constitution": 3,
+        "intelligence": 3,
+        "wisdom": 4,
+        "charisma": 1
+      },
+      "proficiencies": {
+        "saving_throws": [
+          "Wisdom",
+          "Charisma"
+        ],
+        "skills": [
+          "Insight",
+          "Medicine",
+          "Perception",
+          "Religion"
+        ],
+        "tools": [
+          "Healer's Kit"
+        ]
+      },
+      "derived_by_game_level": [
+        {
+          "game_level": 1,
+          "dnd_equivalent_level": 5,
+          "proficiency_bonus": 3,
+          "maximum_hp": 20,
+          "armor_class": 15,
+          "power_attack_bonus": 7,
+          "power_save_dc": 15,
+          "limited_power_uses": 1,
+          "speed_feet": 30
+        },
+        {
+          "game_level": 2,
+          "dnd_equivalent_level": 9,
+          "proficiency_bonus": 4,
+          "maximum_hp": 25,
+          "armor_class": 15,
+          "power_attack_bonus": 8,
+          "power_save_dc": 16,
+          "limited_power_uses": 2,
+          "speed_feet": 30
+        },
+        {
+          "game_level": 3,
+          "dnd_equivalent_level": 13,
+          "proficiency_bonus": 5,
+          "maximum_hp": 30,
+          "armor_class": 17,
+          "power_attack_bonus": 9,
+          "power_save_dc": 17,
+          "limited_power_uses": 3,
+          "speed_feet": 30
+        },
+        {
+          "game_level": 4,
+          "dnd_equivalent_level": 17,
+          "proficiency_bonus": 6,
+          "maximum_hp": 35,
+          "armor_class": 17,
+          "power_attack_bonus": 10,
+          "power_save_dc": 18,
+          "limited_power_uses": 4,
+          "speed_feet": 30
+        },
+        {
+          "game_level": 5,
+          "dnd_equivalent_level": 20,
+          "proficiency_bonus": 6,
+          "maximum_hp": 40,
+          "armor_class": 17,
+          "power_attack_bonus": 10,
+          "power_save_dc": 18,
+          "limited_power_uses": 5,
+          "speed_feet": 30
+        }
+      ]
+    },
+    {
+      "id": "gunnus",
+      "name": "Gunnus",
+      "pronouns": "he/him",
+      "ancestry": "Minotaur",
+      "class": "Necromancer",
+      "subclass_or_archetype": "Necromancy-focused arcane caster",
+      "party_role": [
+        "undead summoner",
+        "life-drain caster",
+        "risky reviver"
+      ],
+      "starting_ability_scores": {
+        "strength": 15,
+        "dexterity": 12,
+        "constitution": 14,
+        "intelligence": 13,
+        "wisdom": 13,
+        "charisma": 16
+      },
+      "source_starting_hp": 20,
+      "source_base_ac_without_armor": 11,
+      "starting_weapons": [
+        "Headbutt",
+        "Chainsickle"
+      ],
+      "armor_progression": [
+        "Leather",
+        "Studded Leather"
+      ],
+      "power_names": {
+        "game_level_1_unlimited": [
+          "Chill Touch",
+          "Poison Spray",
+          "Spare the Dying"
+        ],
+        "game_level_1_limited": [
+          "Hideous Laughter",
+          "Dark Illumination"
+        ],
+        "game_level_2_unlocks": [
+          "Undead Warrior",
+          "Senseless"
+        ],
+        "game_level_3_unlocks": [
+          "Vampiric Touch",
+          "Revivify"
+        ],
+        "game_level_4_unlocks": [],
+        "game_level_5_unlocks": [
+          "Blight",
+          "Phantasmal Killer"
+        ]
+      },
+      "video_game_specialty": "Raises temporary undead allies and exchanges enemy life for personal survival.",
+      "separate_playstyle_rule": "After reaching Game Level 3 (D&D level 13 equivalent), Gunnus may raise an eliminated player character as a zombie under his control.",
+      "session_level_progression": {
+        "game_level_1": {
+          "dnd_equivalent_level": 5,
+          "named_power_unlocks": [
+            "Chill Touch",
+            "Poison Spray",
+            "Spare the Dying",
+            "Hideous Laughter",
+            "Dark Illumination"
+          ],
+          "system_upgrade": "Apply the starting curated D&D level 5-equivalent Necromancer package."
+        },
+        "game_level_2": {
+          "dnd_equivalent_level": 9,
+          "named_power_unlocks": [
+            "Undead Warrior",
+            "Senseless"
+          ],
+          "system_upgrade": "Jump directly to the curated D&D level 9-equivalent Necromancer package; limited-power uses become 2."
+        },
+        "game_level_3": {
+          "dnd_equivalent_level": 13,
+          "named_power_unlocks": [
+            "Vampiric Touch",
+            "Revivify"
+          ],
+          "system_upgrade": "Jump directly to the curated D&D level 13-equivalent Necromancer package; limited-power uses become 3."
+        },
+        "game_level_4": {
+          "dnd_equivalent_level": 17,
+          "named_power_unlocks": [],
+          "system_upgrade": "Jump directly to the curated D&D level 17-equivalent Necromancer package, including a major class-feature, combat-stat, armor/resource, and existing-power upgrade; limited-power uses become 4."
+        },
+        "game_level_5": {
+          "dnd_equivalent_level": 20,
+          "named_power_unlocks": [
+            "Blight",
+            "Phantasmal Killer"
+          ],
+          "system_upgrade": "Jump directly to the curated D&D level 20-equivalent Necromancer capstone package; limited-power uses become 5 and no further in-session levels are allowed."
+        }
+      },
+      "fixed_roster_character": true,
+      "ability_modifiers": {
+        "strength": 2,
+        "dexterity": 1,
+        "constitution": 2,
+        "intelligence": 1,
+        "wisdom": 1,
+        "charisma": 3
+      },
+      "proficiencies": {
+        "saving_throws": [
+          "Intelligence",
+          "Wisdom"
+        ],
+        "skills": [
+          "Arcana",
+          "Intimidation",
+          "Medicine",
+          "Religion"
+        ],
+        "tools": [
+          "Necromantic Focus"
+        ]
+      },
+      "derived_by_game_level": [
+        {
+          "game_level": 1,
+          "dnd_equivalent_level": 5,
+          "proficiency_bonus": 3,
+          "maximum_hp": 20,
+          "armor_class": 12,
+          "power_attack_bonus": 6,
+          "power_save_dc": 14,
+          "limited_power_uses": 1,
+          "speed_feet": 30
+        },
+        {
+          "game_level": 2,
+          "dnd_equivalent_level": 9,
+          "proficiency_bonus": 4,
+          "maximum_hp": 25,
+          "armor_class": 12,
+          "power_attack_bonus": 7,
+          "power_save_dc": 15,
+          "limited_power_uses": 2,
+          "speed_feet": 30
+        },
+        {
+          "game_level": 3,
+          "dnd_equivalent_level": 13,
+          "proficiency_bonus": 5,
+          "maximum_hp": 30,
+          "armor_class": 13,
+          "power_attack_bonus": 8,
+          "power_save_dc": 16,
+          "limited_power_uses": 3,
+          "speed_feet": 30
+        },
+        {
+          "game_level": 4,
+          "dnd_equivalent_level": 17,
+          "proficiency_bonus": 6,
+          "maximum_hp": 35,
+          "armor_class": 13,
+          "power_attack_bonus": 9,
+          "power_save_dc": 17,
+          "limited_power_uses": 4,
+          "speed_feet": 30
+        },
+        {
+          "game_level": 5,
+          "dnd_equivalent_level": 20,
+          "proficiency_bonus": 6,
+          "maximum_hp": 40,
+          "armor_class": 13,
+          "power_attack_bonus": 9,
+          "power_save_dc": 17,
+          "limited_power_uses": 5,
+          "speed_feet": 30
+        }
+      ]
+    },
+    {
+      "id": "monk",
+      "name": "Monk",
+      "pronouns": "it/its",
+      "ancestry": "Warforged",
+      "class": "Monk",
+      "subclass_or_archetype": "Custom elemental chi discipline",
+      "party_role": [
+        "melee controller",
+        "reactive defender",
+        "resource-based striker"
+      ],
+      "starting_ability_scores": {
+        "strength": 14,
+        "dexterity": 12,
+        "constitution": 15,
+        "intelligence": 12,
+        "wisdom": 16,
+        "charisma": 11
+      },
+      "source_starting_hp": 20,
+      "source_base_ac_without_armor": 14,
+      "starting_weapon": "Shortsword",
+      "armor_progression": [],
+      "resource": {
+        "name": "Chi",
+        "starting_points": 2,
+        "increase_per_game_level_gained": 2
+      },
+      "power_names": {
+        "game_level_1_unlimited": [
+          "Whirlwind",
+          "Paralyzing Blow",
+          "Crushing Grip"
+        ],
+        "game_level_1_limited": [
+          "Scorched Soul",
+          "Fiery Whips of Vengeance"
+        ],
+        "game_level_2_unlocks": [
+          "Wind of the Mighty",
+          "WindForce Punch"
+        ],
+        "game_level_3_unlocks": [
+          "Chi Heal",
+          "Chi Shield",
+          "Dragon's Breath"
+        ],
+        "game_level_4_unlocks": [],
+        "game_level_5_unlocks": [
+          "Stone Flesh",
+          "Heart-Halting Assault"
+        ]
+      },
+      "video_game_specialty": "Uses reactions, grapples, paralysis, and wind attacks to push enemies into environmental hazards.",
+      "session_level_progression": {
+        "game_level_1": {
+          "dnd_equivalent_level": 5,
+          "named_power_unlocks": [
+            "Whirlwind",
+            "Paralyzing Blow",
+            "Crushing Grip",
+            "Scorched Soul",
+            "Fiery Whips of Vengeance"
+          ],
+          "system_upgrade": "Apply the starting curated D&D level 5-equivalent Monk package."
+        },
+        "game_level_2": {
+          "dnd_equivalent_level": 9,
+          "named_power_unlocks": [
+            "Wind of the Mighty",
+            "WindForce Punch"
+          ],
+          "system_upgrade": "Jump directly to the curated D&D level 9-equivalent Monk package; limited-power uses become 2."
+        },
+        "game_level_3": {
+          "dnd_equivalent_level": 13,
+          "named_power_unlocks": [
+            "Chi Heal",
+            "Chi Shield",
+            "Dragon's Breath"
+          ],
+          "system_upgrade": "Jump directly to the curated D&D level 13-equivalent Monk package; limited-power uses become 3."
+        },
+        "game_level_4": {
+          "dnd_equivalent_level": 17,
+          "named_power_unlocks": [],
+          "system_upgrade": "Jump directly to the curated D&D level 17-equivalent Monk package, including a major class-feature, combat-stat, armor/resource, and existing-power upgrade; limited-power uses become 4."
+        },
+        "game_level_5": {
+          "dnd_equivalent_level": 20,
+          "named_power_unlocks": [
+            "Stone Flesh",
+            "Heart-Halting Assault"
+          ],
+          "system_upgrade": "Jump directly to the curated D&D level 20-equivalent Monk capstone package; limited-power uses become 5 and no further in-session levels are allowed."
+        }
+      },
+      "fixed_roster_character": true,
+      "ability_modifiers": {
+        "strength": 2,
+        "dexterity": 1,
+        "constitution": 2,
+        "intelligence": 1,
+        "wisdom": 3,
+        "charisma": 0
+      },
+      "proficiencies": {
+        "saving_throws": [
+          "Strength",
+          "Dexterity"
+        ],
+        "skills": [
+          "Acrobatics",
+          "Athletics",
+          "Insight",
+          "Perception"
+        ],
+        "tools": [
+          "Smith's Tools"
+        ]
+      },
+      "derived_by_game_level": [
+        {
+          "game_level": 1,
+          "dnd_equivalent_level": 5,
+          "proficiency_bonus": 3,
+          "maximum_hp": 20,
+          "armor_class": 14,
+          "power_attack_bonus": 6,
+          "power_save_dc": 14,
+          "limited_power_uses": 1,
+          "speed_feet": 40
+        },
+        {
+          "game_level": 2,
+          "dnd_equivalent_level": 9,
+          "proficiency_bonus": 4,
+          "maximum_hp": 25,
+          "armor_class": 14,
+          "power_attack_bonus": 7,
+          "power_save_dc": 15,
+          "limited_power_uses": 2,
+          "speed_feet": 40
+        },
+        {
+          "game_level": 3,
+          "dnd_equivalent_level": 13,
+          "proficiency_bonus": 5,
+          "maximum_hp": 30,
+          "armor_class": 14,
+          "power_attack_bonus": 8,
+          "power_save_dc": 16,
+          "limited_power_uses": 3,
+          "speed_feet": 40
+        },
+        {
+          "game_level": 4,
+          "dnd_equivalent_level": 17,
+          "proficiency_bonus": 6,
+          "maximum_hp": 35,
+          "armor_class": 14,
+          "power_attack_bonus": 9,
+          "power_save_dc": 17,
+          "limited_power_uses": 4,
+          "speed_feet": 40
+        },
+        {
+          "game_level": 5,
+          "dnd_equivalent_level": 20,
+          "proficiency_bonus": 6,
+          "maximum_hp": 40,
+          "armor_class": 14,
+          "power_attack_bonus": 9,
+          "power_save_dc": 17,
+          "limited_power_uses": 5,
+          "speed_feet": 40
+        }
+      ]
+    }
+  ],
+  "starting_choice_rule": "Each hero may choose two of their Game Level 1 unlimited powers and one Game Level 1 limited power as active starting slots when the lobby uses limited loadouts; full-loadout mode grants all listed Game Level 1 powers.",
+  "customization_allowed": [
+    "Cosmetics",
+    "Accessibility settings",
+    "Control mapping",
+    "Pronoun display where the game permits profile-level customization",
+    "Loadout choice among that hero’s unlocked powers"
+  ],
+  "customization_not_allowed": [
+    "Changing the fixed hero into another class or ancestry",
+    "Duplicating heroes",
+    "Adding unrelated D&D races, classes, spells, feats, or equipment",
+    "Changing the sealed suspect identity through character creation"
+  ]
+}

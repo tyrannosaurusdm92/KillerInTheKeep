@@ -1,0 +1,124 @@
+{
+  "schema_version": "4.0.0",
+  "document_type": "killer_rules_lookup_index",
+  "system": "Killer In The Keep",
+  "rules_profile": "Killer In The Keep 5E-Compatible Hybrid",
+  "scope": "Killer In The Keep only",
+  "build_date": "2026-08-05",
+  "source_basis": [
+    "KillerInTheKeep_5_Game_Level_Progression.json",
+    "System Reference Document 5.2.1"
+  ],
+  "srd_attribution": "This work includes material from the System Reference Document 5.2.1 (“SRD 5.2.1”) by Wizards of the Coast LLC, available at https://www.dndbeyond.com/srd. The SRD 5.2.1 is licensed under the Creative Commons Attribution 4.0 International License, available at https://creativecommons.org/licenses/by/4.0/legalcode.",
+  "publisher_affiliation": "Killer In The Keep is an independent project and is not endorsed by Wizards of the Coast.",
+  "files": [
+    {
+      "file": "01-licensing-and-scope.json",
+      "purpose": "Licensing, attribution, and scope"
+    },
+    {
+      "file": "02-edition-timeline-and-conversion.json",
+      "purpose": "Canonical hybrid profile and conversions"
+    },
+    {
+      "file": "03-complete-how-to-play.json",
+      "purpose": "Full gameplay flow"
+    },
+    {
+      "file": "04-character-creation.json",
+      "purpose": "Fixed eight-hero roster and selection"
+    },
+    {
+      "file": "05-advancement-and-leveling.json",
+      "purpose": "Five Game Levels"
+    },
+    {
+      "file": "06-combat-attacks-actions.json",
+      "purpose": "Combat, actions, weapons"
+    },
+    {
+      "file": "07-magic-spells-powers-rituals.json",
+      "purpose": "All 69 named hero powers"
+    },
+    {
+      "file": "08-classes-archetypes-playbooks.json",
+      "purpose": "Eight fixed class packages"
+    },
+    {
+      "file": "09-ancestries-races-species-lineages.json",
+      "purpose": "Eight fixed ancestries"
+    },
+    {
+      "file": "10-subclasses-specializations-paths.json",
+      "purpose": "Eight fixed archetypes"
+    },
+    {
+      "file": "11-backgrounds-origins-professions.json",
+      "purpose": "Eight investigation profiles"
+    },
+    {
+      "file": "12-skills-proficiencies-approaches-actions.json",
+      "purpose": "Keep-specific skills and tools"
+    },
+    {
+      "file": "13-feats-edges-stunts-moves-quirks.json",
+      "purpose": "Fixed hero traits and capstones"
+    },
+    {
+      "file": "14-weapons-ammunition-attack-gear.json",
+      "purpose": "Starting and murder weapons"
+    },
+    {
+      "file": "15-armor-shields-protective-gear.json",
+      "purpose": "Hero armor only"
+    },
+    {
+      "file": "16-equipment-consumables-services-vehicles.json",
+      "purpose": "Treasure and evidence tools"
+    },
+    {
+      "file": "17-conditions-damage-healing-recovery.json",
+      "purpose": "Conditions, death, healing, recovery"
+    },
+    {
+      "file": "18-npcs-adversaries-monsters-allies.json",
+      "purpose": "Keep monsters and summons"
+    },
+    {
+      "file": "19-locations-factions-worldbuilding.json",
+      "purpose": "Sixteen rooms and keep routes"
+    },
+    {
+      "file": "20-modules-adventures-scenarios-campaigns.json",
+      "purpose": "Killer scenario presets"
+    },
+    {
+      "file": "21-encounters-rewards-loot-treasure.json",
+      "purpose": "Traps, encounters, XP, rewards"
+    },
+    {
+      "file": "22-facilitator-tools.json",
+      "purpose": "Host and AI director rules"
+    },
+    {
+      "file": "89-user-supplied-import-manifest.json",
+      "purpose": "Source provenance"
+    },
+    {
+      "file": "90-user-supplied-dnd-5e-5-5e-xp-progression-calculator.json",
+      "purpose": "Five-level calculator"
+    }
+  ],
+  "keywords": {
+    "heroes": "04, 08, 09, 10, 11, 13",
+    "powers": "07",
+    "combat": "06, 17",
+    "rooms": "19",
+    "murder solution": "03, 19, 22",
+    "weapons": "14",
+    "monsters": "18",
+    "traps and rewards": "21",
+    "leveling": "05, 90",
+    "license": "01"
+  }
+}

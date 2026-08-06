@@ -1,0 +1,243 @@
+{
+  "schema_version": "4.0.0",
+  "document_type": "complete_killer_in_the_keep_how_to_play",
+  "system": "Killer In The Keep",
+  "rules_profile": "Killer In The Keep 5E-Compatible Hybrid",
+  "scope": "Killer In The Keep only",
+  "build_date": "2026-08-05",
+  "source_basis": [
+    "KillerInTheKeep_5_Game_Level_Progression.json",
+    "System Reference Document 5.2.1"
+  ],
+  "srd_attribution": "This work includes material from the System Reference Document 5.2.1 (“SRD 5.2.1”) by Wizards of the Coast LLC, available at https://www.dndbeyond.com/srd. The SRD 5.2.1 is licensed under the Creative Commons Attribution 4.0 International License, available at https://creativecommons.org/licenses/by/4.0/legalcode.",
+  "publisher_affiliation": "Killer In The Keep is an independent project and is not endorsed by Wizards of the Coast.",
+  "high_concept": "Two to eight human players are trapped inside a storm-bound, monster-infested keep and must use D&D-style exploration, combat, investigation, private evidence, and deduction to identify the murderer, murder weapon, and murder room. The same game supports Work Together and Work Separately playstyles. When fewer than six humans join, bot-controlled adventurers fill the match to six total adventurers.",
+  "opening_story": {
+    "setup": "Eight travelers seek refuge from a violent storm. A painful cry comes from deep inside the keep. The master is found dead, blood stains the floor, the exits become unsafe or magically sealed, and evidence indicates that one of the eight adventurers committed the murder.",
+    "central_questions": [
+      "Which character killed the master of the keep?",
+      "Which weapon was used?",
+      "In which room did the murder occur?"
+    ],
+    "tone": [
+      "gothic fantasy",
+      "storm-bound isolation",
+      "darkly playful tabletop adventure",
+      "bug and undead horror",
+      "suspicion, alliances, and betrayal"
+    ]
+  },
+  "players": {
+    "human_minimum": 2,
+    "human_maximum": 8,
+    "minimum_total_adventurers": 6,
+    "maximum_total_adventurers": 8,
+    "bot_fill_rule": "When human_players < 6, add 6 - human_players adventurer bots.",
+    "no_single_player_mode": true,
+    "unique_hero_rule": "Every human or adventurer bot controls one unique hero; no hero may be duplicated in the same match."
+  },
+  "playstyles": [
+    {
+      "id": "work_together",
+      "display_name": "Work Together",
+      "legacy_name": "Team Player",
+      "description": "All participating heroes form one adventuring party and try to solve the murder while keeping as many party members alive as possible.",
+      "recommended_players": "2-8 human players",
+      "friendly_fire": false,
+      "player_versus_player": false,
+      "information_model": {
+        "private_evidence": "Evidence cards initially remain private to the player who receives or discovers them.",
+        "sharing": "Players may voluntarily reveal cards, ping clues, discuss theories, or place confirmed information on a shared case board.",
+        "shared_notebook": "Publicly revealed evidence and impossible suspects, weapons, or rooms are automatically recorded for the whole team."
+      },
+      "cooperation_features": [
+        "Shared initiative planning",
+        "Reaction prompts for healing, protection, Guidance, and Lady Luck",
+        "Assisted lockpicking and trap disarming",
+        "Group skill checks",
+        "Reviving fallen allies within two rounds",
+        "Trading consumables and usable treasure",
+        "Voting before making the final accusation"
+      ],
+      "death_rule": "A dead hero can be restored within two rounds. After that window, the hero is permanently lost for the current mystery.",
+      "victory_conditions": [
+        "The surviving party correctly identifies the murderer, weapon, and room."
+      ],
+      "defeat_conditions": [
+        "Every active hero is dead or permanently incapacitated.",
+        "The final accusation is incorrect when strict accusation rules are enabled.",
+        "An optional escalating storm or ritual timer reaches its final stage."
+      ],
+      "scoring": {
+        "primary": "Correctly solve the murder.",
+        "secondary": [
+          "Number of surviving heroes",
+          "Rooms fully investigated",
+          "Traps disabled",
+          "Civilians or companions saved",
+          "Total treasure recovered"
+        ]
+      },
+      "bot_fill": "If fewer than six humans join, adventurer bots fill unique hero slots until the match has six adventurers.",
+      "bot_role": "Adventurer bots are allied party members; hostile monsters, traps, and the keep director remain opponents.",
+      "human_and_bot_victory": "All surviving allied humans and allied adventurer bots share the mystery victory."
+    },
+    {
+      "id": "work_separately",
+      "display_name": "Work Separately",
+      "legacy_name": "Free For All",
+      "description": "Every hero investigates for themself. Players may temporarily cooperate, hide evidence, mislead rivals, separate from the group, steal opportunities, or fight one another.",
+      "recommended_players": "2-8 human players",
+      "friendly_fire": true,
+      "player_versus_player": true,
+      "information_model": {
+        "private_evidence": "Each player has a private hand and private deduction notebook.",
+        "sharing": "Information is shared only through voluntary reveals, negotiated trades, accusations, witnessed events, or abilities.",
+        "deception": "Players may bluff about cards and discoveries, but the game never permits falsifying server-verified dice or inventory."
+      },
+      "alliance_rules": [
+        "Players may form, leave, or betray alliances at any time.",
+        "Alliances do not merge victory conditions.",
+        "Players may revive a rival for strategic reasons.",
+        "Optional lobby rules can disable direct PvP while retaining separate investigation."
+      ],
+      "death_rule": "A dead hero can be restored within two rounds. Otherwise the player is eliminated, becomes a spectator, or may become an undead servant through Gunnus's special rule.",
+      "victory_conditions": [
+        "Correctly identify the murderer, weapon, and room.",
+        "Become the last independently living player when elimination victory is enabled."
+      ],
+      "tie_breaker": "If the mystery ends without a unique primary winner, recovered treasure value determines placement.",
+      "special_character_rules": [
+        "After Game Level 3 (D&D level 13 equivalent), Gunnus may raise an eliminated hero as a zombie under his control.",
+        "Under the legacy false-accusation duel rule, Jock may teleport to a player who falsely implicates Jock and take the first combat turn.",
+        "A player who defeats another hero receives the defeated hero's unspent run XP in Legacy Rules mode."
+      ],
+      "scoring": {
+        "primary": "Solve the murder first or remain the last living independent hero.",
+        "secondary": [
+          "Treasure value",
+          "Confirmed deductions",
+          "Rivals defeated",
+          "Secret objectives completed",
+          "Time taken"
+        ]
+      },
+      "bot_fill": "If fewer than six humans join, adventurer bots fill unique hero slots until the match has six adventurers.",
+      "bot_role": "Adventurer bots are independent rivals and may compete, bargain, mislead, or fight under the same rules as humans.",
+      "human_and_bot_victory": "Each human or adventurer bot has an independent victory claim unless an alliance-specific house rule says otherwise."
+    }
+  ],
+  "setup": [
+    "Select Work Together or Work Separately.",
+    "Choose difficulty, D&D rules profile, accusation rules, and optional modifiers.",
+    "Create a lobby for two to eight human players.",
+    "If fewer than six humans are present, add enough unique adventurer bots to reach six total adventurers.",
+    "Assign one unique hero to every human and adventurer bot.",
+    "Each hero chooses two unlimited cantrips or abilities and one starting limited power.",
+    "The authoritative server secretly selects one character, one weapon, and one room as the murder solution.",
+    "All remaining solution cards are dealt privately as evenly as possible.",
+    "Any cards that cannot be evenly dealt become configured public evidence or protected set-aside evidence.",
+    "Players begin at their color-coded starting positions while the storm intensifies."
+  ],
+  "sealed_solution": {
+    "character_cards": 8,
+    "weapon_cards": 8,
+    "room_cards": 16,
+    "solution": {
+      "characters_selected": 1,
+      "weapons_selected": 1,
+      "rooms_selected": 1
+    },
+    "authority": "The authoritative host/server creates and stores the solution. Neither human clients nor bot logic may access it before a valid accusation.",
+    "player_character_rule": "The selected culprit can be a character controlled by a player. The player is not told and continues to play normally; the card represents the mystery's canonical past event rather than a mandatory secret-traitor role."
+  },
+  "core_loop": [
+    "Explore a room or hallway.",
+    "Search for clues, treasure, doors, traps, and secret passages.",
+    "Resolve a monster, trap, hazard, dialogue scene, or player encounter.",
+    "Use D&D-style attacks, spells, abilities, skill checks, saving throws, and environmental actions.",
+    "Update private or shared deduction notes.",
+    "Gain XP, increase Game Level, and apply the next D&D-equivalent ability package or armor upgrade.",
+    "Make a room theory or continue investigating.",
+    "Commit to a final accusation when ready."
+  ],
+  "d20_baseline": {
+    "test_types": [
+      "Ability check",
+      "Saving throw",
+      "Attack roll"
+    ],
+    "steps": [
+      "Roll 1d20",
+      "Apply Advantage or Disadvantage if present",
+      "Add relevant ability modifier",
+      "Add proficiency bonus if relevant",
+      "Apply circumstantial modifiers",
+      "Meet or exceed DC or AC"
+    ],
+    "advantage": "Roll two d20s and use the higher. Multiple sources do not stack.",
+    "disadvantage": "Roll two d20s and use the lower. Multiple sources do not stack.",
+    "both": "Advantage and Disadvantage cancel."
+  },
+  "turn_structure": [
+    "Move up to speed",
+    "Take one Action",
+    "Take one Bonus Action when a feature permits",
+    "Take one Reaction before the next turn when triggered",
+    "Interact with one nearby object",
+    "Use contextual investigation, evidence, dialogue, trade, report, or accusation actions when permitted"
+  ],
+  "investigation_flow": [
+    "Enter or inspect a room",
+    "Notice or actively search for clues, traps, monsters, doors, and treasure",
+    "Resolve D20 Tests or encounters",
+    "Record evidence privately or publicly according to playstyle",
+    "Propose a room theory while in a solution room",
+    "Continue until ready for a final accusation"
+  ],
+  "room_theory": {
+    "availability": "A player standing in a solution room may propose one suspect, one weapon, and that room.",
+    "legacy_check": "A DC 13 Wisdom check is required before making the theory.",
+    "response": "The first eligible player in turn order who holds a matching card privately reveals one matching card to the theorist.",
+    "digital_notebook": "The revealed card is automatically marked only in the receiving player's notebook unless it is publicly shared.",
+    "owned_room_exception": "Once per visit, a player holding the current room card may publicly discard it and propose a different room under the original special rule."
+  },
+  "final_accusation": {
+    "required_fields": [
+      "suspect",
+      "weapon",
+      "room"
+    ],
+    "presentation": "The accused character, weapon, and room are selected on a three-part case board.",
+    "resolution": "A cinematic reconstruction reveals the sealed solution.",
+    "incorrect_accusation_options": [
+      "Strict: the accuser can no longer win by deduction.",
+      "Standard: the accuser receives a major penalty and must discover new evidence before trying again.",
+      "Casual: the accusation simply fails and the run continues."
+    ]
+  },
+  "victory_and_defeat": {
+    "work_together": {
+      "victory": [
+        "The surviving party correctly identifies the murderer, weapon, and room."
+      ],
+      "defeat": [
+        "Every active hero is dead or permanently incapacitated.",
+        "The final accusation is incorrect when strict accusation rules are enabled.",
+        "An optional escalating storm or ritual timer reaches its final stage."
+      ],
+      "tie_breaker": null
+    },
+    "work_separately": {
+      "victory": [
+        "Correctly identify the murderer, weapon, and room.",
+        "Become the last independently living player when elimination victory is enabled."
+      ],
+      "defeat": [],
+      "tie_breaker": "If the mystery ends without a unique primary winner, recovered treasure value determines placement."
+    }
+  },
+  "death_and_restoration": "At 0 HP a hero becomes Downed and makes death saves. A dead hero can be restored within two rounds; after that the hero is Eliminated for the mystery unless a specific Killer rule applies.",
+  "game_levels": "Heroes begin at Game Level 1 and may advance only to Game Level 5, mapping to D&D-equivalent levels 5, 9, 13, 17, and 20.",
+  "map_rule": "Every square is 5 feet and every board square must be treated as an interactive movement/click target by the digital implementation."
+}

@@ -1,0 +1,702 @@
+{
+  "schema_version": "4.4.0",
+  "card_count": 8,
+  "cards": [
+    {
+      "schema_version": "4.4.0",
+      "id": "gameplay-deck-daltu-character-card",
+      "asset_type": "playable_character_gameplay_card",
+      "visibility": "public",
+      "character_id": "daltu",
+      "display_name": "Daltu",
+      "pronouns": "they/them",
+      "public_class": "Warlock (Fiend Patron)",
+      "public_role_summary": "Front-line defender and arcane striker",
+      "game_level_system": {
+        "canonicalName": "Five Game Level Session Progression",
+        "startingGameLevel": 1,
+        "maximumGameLevel": 5,
+        "maximumLevelUpEventsPerSession": 4,
+        "dndEquivalentSequence": [
+          5,
+          9,
+          13,
+          17,
+          20
+        ],
+        "legacyXpThresholds": [
+          0,
+          50,
+          150,
+          450,
+          1350
+        ],
+        "terminology": "Game Level is the playable in-session level. D&D Level is only the equivalent destination snapshot."
+      },
+      "controller_modes": [
+        "player",
+        "autonomous"
+      ],
+      "sheets": {
+        "player": "character_sheets/player/daltu_character_sheet.html",
+        "autonomous": "character_sheets/autonomous/daltu_character_sheet.html"
+      },
+      "starter_positions": {
+        "work_together": {
+          "room_id": "foyer",
+          "floor": "first_floor",
+          "cell": {
+            "floor": "first_floor",
+            "x": 21,
+            "y": 28,
+            "label": "V29",
+            "feet": {
+              "x": 105,
+              "y": 140
+            }
+          }
+        },
+        "full_pvp": {
+          "room_id": "cellar",
+          "room_area": null,
+          "floor": "cellar",
+          "cell": {
+            "floor": "cellar",
+            "x": 23,
+            "y": 15,
+            "label": "X16",
+            "feet": {
+              "x": 115,
+              "y": 75
+            }
+          }
+        }
+      },
+      "offscreen_first_victim": {
+        "starts_as_ghost": true,
+        "uses_assigned_start_as_nonblocking_ghost_origin": true,
+        "living_token_is_not_placed": true
+      },
+      "art": {
+        "css": "css/assets/daltu/daltu-character-art.css",
+        "class": "asset-daltu-character-art"
+      },
+      "card_assets": {
+        "html": "character_cards/html/daltu.html",
+        "css": "character_cards/css/daltu.css",
+        "json": "json/assets/gameplay-deck/gameplay-deck-daltu-character-card.json",
+        "base_css": "character_cards/css/character-card-base.css"
+      },
+      "public_information_policy": "The card shows character identity, role summary, sheet choices, and assigned starting spaces only."
+    },
+    {
+      "schema_version": "4.4.0",
+      "id": "gameplay-deck-noldrack-goldblade-character-card",
+      "asset_type": "playable_character_gameplay_card",
+      "visibility": "public",
+      "character_id": "noldrack_goldblade",
+      "display_name": "Noldrack Goldblade",
+      "pronouns": "he/him",
+      "public_class": "Druid (Circle of the Land)",
+      "public_role_summary": "Supportive shapeshifter and terrain controller",
+      "game_level_system": {
+        "canonicalName": "Five Game Level Session Progression",
+        "startingGameLevel": 1,
+        "maximumGameLevel": 5,
+        "maximumLevelUpEventsPerSession": 4,
+        "dndEquivalentSequence": [
+          5,
+          9,
+          13,
+          17,
+          20
+        ],
+        "legacyXpThresholds": [
+          0,
+          50,
+          150,
+          450,
+          1350
+        ],
+        "terminology": "Game Level is the playable in-session level. D&D Level is only the equivalent destination snapshot."
+      },
+      "controller_modes": [
+        "player",
+        "autonomous"
+      ],
+      "sheets": {
+        "player": "character_sheets/player/noldrack_character_sheet.html",
+        "autonomous": "character_sheets/autonomous/noldrack_character_sheet.html"
+      },
+      "starter_positions": {
+        "work_together": {
+          "room_id": "foyer",
+          "floor": "first_floor",
+          "cell": {
+            "floor": "first_floor",
+            "x": 23,
+            "y": 28,
+            "label": "X29",
+            "feet": {
+              "x": 115,
+              "y": 140
+            }
+          }
+        },
+        "full_pvp": {
+          "room_id": "attic",
+          "room_area": null,
+          "floor": "attic",
+          "cell": {
+            "floor": "attic",
+            "x": 10,
+            "y": 15,
+            "label": "K16",
+            "feet": {
+              "x": 50,
+              "y": 75
+            }
+          }
+        }
+      },
+      "offscreen_first_victim": {
+        "starts_as_ghost": true,
+        "uses_assigned_start_as_nonblocking_ghost_origin": true,
+        "living_token_is_not_placed": true
+      },
+      "art": {
+        "css": "css/assets/noldrack/noldrack-goldblade-character-art.css",
+        "class": "asset-noldrack-goldblade-character-art"
+      },
+      "card_assets": {
+        "html": "character_cards/html/noldrack-goldblade.html",
+        "css": "character_cards/css/noldrack-goldblade.css",
+        "json": "json/assets/gameplay-deck/gameplay-deck-noldrack-goldblade-character-card.json",
+        "base_css": "character_cards/css/character-card-base.css"
+      },
+      "public_information_policy": "The card shows character identity, role summary, sheet choices, and assigned starting spaces only."
+    },
+    {
+      "schema_version": "4.4.0",
+      "id": "gameplay-deck-eilvyre-astath-character-card",
+      "asset_type": "playable_character_gameplay_card",
+      "visibility": "public",
+      "character_id": "eilvyre_astath",
+      "display_name": "Eilvyre Astath",
+      "pronouns": "she/her",
+      "public_class": "Sorcerer (Draconic Sorcery)",
+      "public_role_summary": "Ranged arcane striker",
+      "game_level_system": {
+        "canonicalName": "Five Game Level Session Progression",
+        "startingGameLevel": 1,
+        "maximumGameLevel": 5,
+        "maximumLevelUpEventsPerSession": 4,
+        "dndEquivalentSequence": [
+          5,
+          9,
+          13,
+          17,
+          20
+        ],
+        "legacyXpThresholds": [
+          0,
+          50,
+          150,
+          450,
+          1350
+        ],
+        "terminology": "Game Level is the playable in-session level. D&D Level is only the equivalent destination snapshot."
+      },
+      "controller_modes": [
+        "player",
+        "autonomous"
+      ],
+      "sheets": {
+        "player": "character_sheets/player/eilvyre_character_sheet.html",
+        "autonomous": "character_sheets/autonomous/eilvyre_character_sheet.html"
+      },
+      "starter_positions": {
+        "work_together": {
+          "room_id": "foyer",
+          "floor": "first_floor",
+          "cell": {
+            "floor": "first_floor",
+            "x": 25,
+            "y": 28,
+            "label": "Z29",
+            "feet": {
+              "x": 125,
+              "y": 140
+            }
+          }
+        },
+        "full_pvp": {
+          "room_id": "alchemists_quarters",
+          "room_area": null,
+          "floor": "first_floor",
+          "cell": {
+            "floor": "first_floor",
+            "x": 4,
+            "y": 6,
+            "label": "E7",
+            "feet": {
+              "x": 20,
+              "y": 30
+            }
+          }
+        }
+      },
+      "offscreen_first_victim": {
+        "starts_as_ghost": true,
+        "uses_assigned_start_as_nonblocking_ghost_origin": true,
+        "living_token_is_not_placed": true
+      },
+      "art": {
+        "css": "css/assets/eilvyre/eilvyre-astath-character-art.css",
+        "class": "asset-eilvyre-astath-character-art"
+      },
+      "card_assets": {
+        "html": "character_cards/html/eilvyre-astath.html",
+        "css": "character_cards/css/eilvyre-astath.css",
+        "json": "json/assets/gameplay-deck/gameplay-deck-eilvyre-astath-character-card.json",
+        "base_css": "character_cards/css/character-card-base.css"
+      },
+      "public_information_policy": "The card shows character identity, role summary, sheet choices, and assigned starting spaces only."
+    },
+    {
+      "schema_version": "4.4.0",
+      "id": "gameplay-deck-korbin-silverdew-character-card",
+      "asset_type": "playable_character_gameplay_card",
+      "visibility": "public",
+      "character_id": "korbin_silverdew",
+      "display_name": "Korbin Silverdew",
+      "pronouns": "he/him",
+      "public_class": "Cleric (Killer In The Keep Radiant path)",
+      "public_role_summary": "Radiant defender and healer",
+      "game_level_system": {
+        "canonicalName": "Five Game Level Session Progression",
+        "startingGameLevel": 1,
+        "maximumGameLevel": 5,
+        "maximumLevelUpEventsPerSession": 4,
+        "dndEquivalentSequence": [
+          5,
+          9,
+          13,
+          17,
+          20
+        ],
+        "legacyXpThresholds": [
+          0,
+          50,
+          150,
+          450,
+          1350
+        ],
+        "terminology": "Game Level is the playable in-session level. D&D Level is only the equivalent destination snapshot."
+      },
+      "controller_modes": [
+        "player",
+        "autonomous"
+      ],
+      "sheets": {
+        "player": "character_sheets/player/korbin_character_sheet.html",
+        "autonomous": "character_sheets/autonomous/korbin_character_sheet.html"
+      },
+      "starter_positions": {
+        "work_together": {
+          "room_id": "foyer",
+          "floor": "first_floor",
+          "cell": {
+            "floor": "first_floor",
+            "x": 27,
+            "y": 28,
+            "label": "AB29",
+            "feet": {
+              "x": 135,
+              "y": 140
+            }
+          }
+        },
+        "full_pvp": {
+          "room_id": "den",
+          "room_area": null,
+          "floor": "second_floor",
+          "cell": {
+            "floor": "second_floor",
+            "x": 24,
+            "y": 4,
+            "label": "Y5",
+            "feet": {
+              "x": 120,
+              "y": 20
+            }
+          }
+        }
+      },
+      "offscreen_first_victim": {
+        "starts_as_ghost": true,
+        "uses_assigned_start_as_nonblocking_ghost_origin": true,
+        "living_token_is_not_placed": true
+      },
+      "art": {
+        "css": "css/assets/korbin/korbin-silverdew-character-art.css",
+        "class": "asset-korbin-silverdew-character-art"
+      },
+      "card_assets": {
+        "html": "character_cards/html/korbin-silverdew.html",
+        "css": "character_cards/css/korbin-silverdew.css",
+        "json": "json/assets/gameplay-deck/gameplay-deck-korbin-silverdew-character-card.json",
+        "base_css": "character_cards/css/character-card-base.css"
+      },
+      "public_information_policy": "The card shows character identity, role summary, sheet choices, and assigned starting spaces only."
+    },
+    {
+      "schema_version": "4.4.0",
+      "id": "gameplay-deck-joknos-jock-character-card",
+      "asset_type": "playable_character_gameplay_card",
+      "visibility": "public",
+      "character_id": "joknos_jock",
+      "display_name": "Joknos Jock",
+      "pronouns": "any pronouns",
+      "public_class": "Bard (Killer In The Keep path)",
+      "public_role_summary": "Support caster and social specialist",
+      "game_level_system": {
+        "canonicalName": "Five Game Level Session Progression",
+        "startingGameLevel": 1,
+        "maximumGameLevel": 5,
+        "maximumLevelUpEventsPerSession": 4,
+        "dndEquivalentSequence": [
+          5,
+          9,
+          13,
+          17,
+          20
+        ],
+        "legacyXpThresholds": [
+          0,
+          50,
+          150,
+          450,
+          1350
+        ],
+        "terminology": "Game Level is the playable in-session level. D&D Level is only the equivalent destination snapshot."
+      },
+      "controller_modes": [
+        "player",
+        "autonomous"
+      ],
+      "sheets": {
+        "player": "character_sheets/player/joknos_character_sheet.html",
+        "autonomous": "character_sheets/autonomous/joknos_character_sheet.html"
+      },
+      "starter_positions": {
+        "work_together": {
+          "room_id": "foyer",
+          "floor": "first_floor",
+          "cell": {
+            "floor": "first_floor",
+            "x": 21,
+            "y": 30,
+            "label": "V31",
+            "feet": {
+              "x": 105,
+              "y": 150
+            }
+          }
+        },
+        "full_pvp": {
+          "room_id": "library",
+          "room_area": "Upper Gallery",
+          "floor": "second_floor",
+          "cell": {
+            "floor": "second_floor",
+            "x": 12,
+            "y": 27,
+            "label": "M28",
+            "feet": {
+              "x": 60,
+              "y": 135
+            }
+          }
+        }
+      },
+      "offscreen_first_victim": {
+        "starts_as_ghost": true,
+        "uses_assigned_start_as_nonblocking_ghost_origin": true,
+        "living_token_is_not_placed": true
+      },
+      "art": {
+        "css": "css/assets/jock/joknos-jock-character-art.css",
+        "class": "asset-joknos-jock-character-art"
+      },
+      "card_assets": {
+        "html": "character_cards/html/joknos-jock.html",
+        "css": "character_cards/css/joknos-jock.css",
+        "json": "json/assets/gameplay-deck/gameplay-deck-joknos-jock-character-card.json",
+        "base_css": "character_cards/css/character-card-base.css"
+      },
+      "public_information_policy": "The card shows character identity, role summary, sheet choices, and assigned starting spaces only."
+    },
+    {
+      "schema_version": "4.4.0",
+      "id": "gameplay-deck-githtoxundes-fenwophyl-character-card",
+      "asset_type": "playable_character_gameplay_card",
+      "visibility": "public",
+      "character_id": "githtoxundes_fenwophyl",
+      "display_name": "Githtoxundes Xun Fenwophyl",
+      "pronouns": "she/her",
+      "public_class": "Cleric (Life Domain)",
+      "public_role_summary": "Life-focused healer and support caster",
+      "game_level_system": {
+        "canonicalName": "Five Game Level Session Progression",
+        "startingGameLevel": 1,
+        "maximumGameLevel": 5,
+        "maximumLevelUpEventsPerSession": 4,
+        "dndEquivalentSequence": [
+          5,
+          9,
+          13,
+          17,
+          20
+        ],
+        "legacyXpThresholds": [
+          0,
+          50,
+          150,
+          450,
+          1350
+        ],
+        "terminology": "Game Level is the playable in-session level. D&D Level is only the equivalent destination snapshot."
+      },
+      "controller_modes": [
+        "player",
+        "autonomous"
+      ],
+      "sheets": {
+        "player": "character_sheets/player/xun_character_sheet.html",
+        "autonomous": "character_sheets/autonomous/xun_character_sheet.html"
+      },
+      "starter_positions": {
+        "work_together": {
+          "room_id": "foyer",
+          "floor": "first_floor",
+          "cell": {
+            "floor": "first_floor",
+            "x": 23,
+            "y": 30,
+            "label": "X31",
+            "feet": {
+              "x": 115,
+              "y": 150
+            }
+          }
+        },
+        "full_pvp": {
+          "room_id": "dining_room",
+          "room_area": null,
+          "floor": "first_floor",
+          "cell": {
+            "floor": "first_floor",
+            "x": 35,
+            "y": 14,
+            "label": "AJ15",
+            "feet": {
+              "x": 175,
+              "y": 70
+            }
+          }
+        }
+      },
+      "offscreen_first_victim": {
+        "starts_as_ghost": true,
+        "uses_assigned_start_as_nonblocking_ghost_origin": true,
+        "living_token_is_not_placed": true
+      },
+      "art": {
+        "css": "css/assets/xun/githtoxundes-xun-fenwophyl-character-art.css",
+        "class": "asset-githtoxundes-xun-fenwophyl-character-art"
+      },
+      "card_assets": {
+        "html": "character_cards/html/githtoxundes-fenwophyl.html",
+        "css": "character_cards/css/githtoxundes-fenwophyl.css",
+        "json": "json/assets/gameplay-deck/gameplay-deck-githtoxundes-fenwophyl-character-card.json",
+        "base_css": "character_cards/css/character-card-base.css"
+      },
+      "public_information_policy": "The card shows character identity, role summary, sheet choices, and assigned starting spaces only."
+    },
+    {
+      "schema_version": "4.4.0",
+      "id": "gameplay-deck-gunnus-character-card",
+      "asset_type": "playable_character_gameplay_card",
+      "visibility": "public",
+      "character_id": "gunnus",
+      "display_name": "Gunnus",
+      "pronouns": "he/him",
+      "public_class": "Wizard (Evoker)",
+      "public_role_summary": "Arcane controller and summoner",
+      "game_level_system": {
+        "canonicalName": "Five Game Level Session Progression",
+        "startingGameLevel": 1,
+        "maximumGameLevel": 5,
+        "maximumLevelUpEventsPerSession": 4,
+        "dndEquivalentSequence": [
+          5,
+          9,
+          13,
+          17,
+          20
+        ],
+        "legacyXpThresholds": [
+          0,
+          50,
+          150,
+          450,
+          1350
+        ],
+        "terminology": "Game Level is the playable in-session level. D&D Level is only the equivalent destination snapshot."
+      },
+      "controller_modes": [
+        "player",
+        "autonomous"
+      ],
+      "sheets": {
+        "player": "character_sheets/player/gunnus_character_sheet.html",
+        "autonomous": "character_sheets/autonomous/gunnus_character_sheet.html"
+      },
+      "starter_positions": {
+        "work_together": {
+          "room_id": "foyer",
+          "floor": "first_floor",
+          "cell": {
+            "floor": "first_floor",
+            "x": 25,
+            "y": 30,
+            "label": "Z31",
+            "feet": {
+              "x": 125,
+              "y": 150
+            }
+          }
+        },
+        "full_pvp": {
+          "room_id": "sitting_room",
+          "room_area": null,
+          "floor": "first_floor",
+          "cell": {
+            "floor": "first_floor",
+            "x": 11,
+            "y": 26,
+            "label": "L27",
+            "feet": {
+              "x": 55,
+              "y": 130
+            }
+          }
+        }
+      },
+      "offscreen_first_victim": {
+        "starts_as_ghost": true,
+        "uses_assigned_start_as_nonblocking_ghost_origin": true,
+        "living_token_is_not_placed": true
+      },
+      "art": {
+        "css": "css/assets/gunnus/gunnus-character-art.css",
+        "class": "asset-gunnus-character-art"
+      },
+      "card_assets": {
+        "html": "character_cards/html/gunnus.html",
+        "css": "character_cards/css/gunnus.css",
+        "json": "json/assets/gameplay-deck/gameplay-deck-gunnus-character-card.json",
+        "base_css": "character_cards/css/character-card-base.css"
+      },
+      "public_information_policy": "The card shows character identity, role summary, sheet choices, and assigned starting spaces only."
+    },
+    {
+      "schema_version": "4.4.0",
+      "id": "gameplay-deck-monk-character-card",
+      "asset_type": "playable_character_gameplay_card",
+      "visibility": "public",
+      "character_id": "monk",
+      "display_name": "Monk",
+      "pronouns": "it/its",
+      "public_class": "Monk (Warrior of the Open Hand)",
+      "public_role_summary": "Mobile martial skirmisher",
+      "game_level_system": {
+        "canonicalName": "Five Game Level Session Progression",
+        "startingGameLevel": 1,
+        "maximumGameLevel": 5,
+        "maximumLevelUpEventsPerSession": 4,
+        "dndEquivalentSequence": [
+          5,
+          9,
+          13,
+          17,
+          20
+        ],
+        "legacyXpThresholds": [
+          0,
+          50,
+          150,
+          450,
+          1350
+        ],
+        "terminology": "Game Level is the playable in-session level. D&D Level is only the equivalent destination snapshot."
+      },
+      "controller_modes": [
+        "player",
+        "autonomous"
+      ],
+      "sheets": {
+        "player": "character_sheets/player/monk_character_sheet.html",
+        "autonomous": "character_sheets/autonomous/monk_character_sheet.html"
+      },
+      "starter_positions": {
+        "work_together": {
+          "room_id": "foyer",
+          "floor": "first_floor",
+          "cell": {
+            "floor": "first_floor",
+            "x": 27,
+            "y": 30,
+            "label": "AB31",
+            "feet": {
+              "x": 135,
+              "y": 150
+            }
+          }
+        },
+        "full_pvp": {
+          "room_id": "second_floor_solar",
+          "room_area": null,
+          "floor": "second_floor",
+          "cell": {
+            "floor": "second_floor",
+            "x": 34,
+            "y": 4,
+            "label": "AI5",
+            "feet": {
+              "x": 170,
+              "y": 20
+            }
+          }
+        }
+      },
+      "offscreen_first_victim": {
+        "starts_as_ghost": true,
+        "uses_assigned_start_as_nonblocking_ghost_origin": true,
+        "living_token_is_not_placed": true
+      },
+      "art": {
+        "css": "css/assets/monk/monk-character-art.css",
+        "class": "asset-monk-character-art"
+      },
+      "card_assets": {
+        "html": "character_cards/html/monk.html",
+        "css": "character_cards/css/monk.css",
+        "json": "json/assets/gameplay-deck/gameplay-deck-monk-character-card.json",
+        "base_css": "character_cards/css/character-card-base.css"
+      },
+      "public_information_policy": "The card shows character identity, role summary, sheet choices, and assigned starting spaces only."
+    }
+  ]
+}

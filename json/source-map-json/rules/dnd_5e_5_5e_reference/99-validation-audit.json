@@ -1,0 +1,238 @@
+{
+  "schema_version": "4.0.0",
+  "document_type": "killer_dataset_validation_audit",
+  "system": "Killer In The Keep",
+  "rules_profile": "Killer In The Keep 5E-Compatible Hybrid",
+  "scope": "Killer In The Keep only",
+  "build_date": "2026-08-05",
+  "source_basis": [
+    "KillerInTheKeep_5_Game_Level_Progression.json",
+    "System Reference Document 5.2.1"
+  ],
+  "srd_attribution": "This work includes material from the System Reference Document 5.2.1 (“SRD 5.2.1”) by Wizards of the Coast LLC, available at https://www.dndbeyond.com/srd. The SRD 5.2.1 is licensed under the Creative Commons Attribution 4.0 International License, available at https://creativecommons.org/licenses/by/4.0/legalcode.",
+  "publisher_affiliation": "Killer In The Keep is an independent project and is not endorsed by Wizards of the Coast.",
+  "checks": {
+    "all_expected_files_present": true,
+    "all_files_valid_json": true,
+    "eight_fixed_heroes": true,
+    "eight_suspects": true,
+    "eight_murder_weapons": true,
+    "sixteen_solution_rooms": true,
+    "five_game_levels": true,
+    "all_source_powers_defined": true,
+    "no_old_generated_names": true,
+    "no_belavados_scope_leak": true,
+    "no_among_us_scope_leak": true,
+    "no_unrelated_minigame_export_scope": true,
+    "no_unrelated_setting_terms": true,
+    "srd_attribution_present": true
+  },
+  "passed": true,
+  "forbidden_term_counts": {
+    "Ashen Anchor": 0,
+    "Azure Chalice": 0,
+    "Belavadös": 0,
+    "Among Us": 0,
+    "among_us": 0,
+    "encounters_minigame": 0,
+    "spelljammer": 0,
+    "ichor": 0,
+    "generic D&D catalog": 0
+  },
+  "files": [
+    {
+      "file": "00-manifest.json",
+      "exists": true,
+      "valid_json": true,
+      "bytes": 5951,
+      "error": null
+    },
+    {
+      "file": "01-licensing-and-scope.json",
+      "exists": true,
+      "valid_json": true,
+      "bytes": 2959,
+      "error": null
+    },
+    {
+      "file": "02-edition-timeline-and-conversion.json",
+      "exists": true,
+      "valid_json": true,
+      "bytes": 3085,
+      "error": null
+    },
+    {
+      "file": "03-complete-how-to-play.json",
+      "exists": true,
+      "valid_json": true,
+      "bytes": 13473,
+      "error": null
+    },
+    {
+      "file": "04-character-creation.json",
+      "exists": true,
+      "valid_json": true,
+      "bytes": 44034,
+      "error": null
+    },
+    {
+      "file": "05-advancement-and-leveling.json",
+      "exists": true,
+      "valid_json": true,
+      "bytes": 19163,
+      "error": null
+    },
+    {
+      "file": "06-combat-attacks-actions.json",
+      "exists": true,
+      "valid_json": true,
+      "bytes": 10538,
+      "error": null
+    },
+    {
+      "file": "07-magic-spells-powers-rituals.json",
+      "exists": true,
+      "valid_json": true,
+      "bytes": 83166,
+      "error": null
+    },
+    {
+      "file": "08-classes-archetypes-playbooks.json",
+      "exists": true,
+      "valid_json": true,
+      "bytes": 18659,
+      "error": null
+    },
+    {
+      "file": "09-ancestries-races-species-lineages.json",
+      "exists": true,
+      "valid_json": true,
+      "bytes": 4759,
+      "error": null
+    },
+    {
+      "file": "10-subclasses-specializations-paths.json",
+      "exists": true,
+      "valid_json": true,
+      "bytes": 18362,
+      "error": null
+    },
+    {
+      "file": "11-backgrounds-origins-professions.json",
+      "exists": true,
+      "valid_json": true,
+      "bytes": 7352,
+      "error": null
+    },
+    {
+      "file": "12-skills-proficiencies-approaches-actions.json",
+      "exists": true,
+      "valid_json": true,
+      "bytes": 8096,
+      "error": null
+    },
+    {
+      "file": "13-feats-edges-stunts-moves-quirks.json",
+      "exists": true,
+      "valid_json": true,
+      "bytes": 8249,
+      "error": null
+    },
+    {
+      "file": "14-weapons-ammunition-attack-gear.json",
+      "exists": true,
+      "valid_json": true,
+      "bytes": 5366,
+      "error": null
+    },
+    {
+      "file": "15-armor-shields-protective-gear.json",
+      "exists": true,
+      "valid_json": true,
+      "bytes": 4579,
+      "error": null
+    },
+    {
+      "file": "16-equipment-consumables-services-vehicles.json",
+      "exists": true,
+      "valid_json": true,
+      "bytes": 6414,
+      "error": null
+    },
+    {
+      "file": "17-conditions-damage-healing-recovery.json",
+      "exists": true,
+      "valid_json": true,
+      "bytes": 5897,
+      "error": null
+    },
+    {
+      "file": "18-npcs-adversaries-monsters-allies.json",
+      "exists": true,
+      "valid_json": true,
+      "bytes": 10659,
+      "error": null
+    },
+    {
+      "file": "19-locations-factions-worldbuilding.json",
+      "exists": true,
+      "valid_json": true,
+      "bytes": 17655,
+      "error": null
+    },
+    {
+      "file": "20-modules-adventures-scenarios-campaigns.json",
+      "exists": true,
+      "valid_json": true,
+      "bytes": 3635,
+      "error": null
+    },
+    {
+      "file": "21-encounters-rewards-loot-treasure.json",
+      "exists": true,
+      "valid_json": true,
+      "bytes": 14365,
+      "error": null
+    },
+    {
+      "file": "22-facilitator-tools.json",
+      "exists": true,
+      "valid_json": true,
+      "bytes": 4478,
+      "error": null
+    },
+    {
+      "file": "23-rules-lookup-file-index.json",
+      "exists": true,
+      "valid_json": true,
+      "bytes": 3883,
+      "error": null
+    },
+    {
+      "file": "89-user-supplied-import-manifest.json",
+      "exists": true,
+      "valid_json": true,
+      "bytes": 1326,
+      "error": null
+    },
+    {
+      "file": "90-user-supplied-dnd-5e-5-5e-xp-progression-calculator.json",
+      "exists": true,
+      "valid_json": true,
+      "bytes": 2524,
+      "error": null
+    },
+    {
+      "file": "99-validation-audit.json",
+      "exists": true,
+      "valid_json": true,
+      "bytes": 6023,
+      "error": null
+    }
+  ],
+  "self_validation_note": "The audit file is verified in the final complete-package pass after this record is written.",
+  "notes": [
+    "The original broad generic catalogs were replaced with focused Killer In The Keep records.",
+    "Custom content is labeled and is not represented as SRD material."
+  ]
+}

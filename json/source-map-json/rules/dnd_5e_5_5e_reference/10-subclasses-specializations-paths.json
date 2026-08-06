@@ -1,0 +1,422 @@
+{
+  "schema_version": "4.0.0",
+  "document_type": "fixed_killer_hero_archetypes",
+  "system": "Killer In The Keep",
+  "rules_profile": "Killer In The Keep 5E-Compatible Hybrid",
+  "scope": "Killer In The Keep only",
+  "build_date": "2026-08-05",
+  "source_basis": [
+    "KillerInTheKeep_5_Game_Level_Progression.json",
+    "System Reference Document 5.2.1"
+  ],
+  "srd_attribution": "This work includes material from the System Reference Document 5.2.1 (“SRD 5.2.1”) by Wizards of the Coast LLC, available at https://www.dndbeyond.com/srd. The SRD 5.2.1 is licensed under the Creative Commons Attribution 4.0 International License, available at https://creativecommons.org/licenses/by/4.0/legalcode.",
+  "publisher_affiliation": "Killer In The Keep is an independent project and is not endorsed by Wizards of the Coast.",
+  "record_count": 8,
+  "records": [
+    {
+      "id": "kitk-archetype-daltu",
+      "hero_id": "daltu",
+      "hero_name": "Daltu",
+      "class_name": "Fighter",
+      "archetype_name": "Eldritch Knight",
+      "specialty": "Uses a spectral hand to manipulate doors, switches, evidence, and traps from a distance.",
+      "fixed_package": true,
+      "game_level_unlocks": {
+        "game_level_1": {
+          "dnd_equivalent_level": 5,
+          "named_power_unlocks": [
+            "Eldritch Blast",
+            "Chill Touch",
+            "Sorcerer's Grasp",
+            "Underworld Flames"
+          ],
+          "system_upgrade": "Apply the starting curated D&D level 5-equivalent Fighter package."
+        },
+        "game_level_2": {
+          "dnd_equivalent_level": 9,
+          "named_power_unlocks": [
+            "Darkness",
+            "Self Teleport"
+          ],
+          "system_upgrade": "Jump directly to the curated D&D level 9-equivalent Fighter package; limited-power uses become 2."
+        },
+        "game_level_3": {
+          "dnd_equivalent_level": 13,
+          "named_power_unlocks": [
+            "Restrain"
+          ],
+          "system_upgrade": "Jump directly to the curated D&D level 13-equivalent Fighter package; limited-power uses become 3."
+        },
+        "game_level_4": {
+          "dnd_equivalent_level": 17,
+          "named_power_unlocks": [],
+          "system_upgrade": "Jump directly to the curated D&D level 17-equivalent Fighter package, including a major class-feature, combat-stat, armor/resource, and existing-power upgrade; limited-power uses become 4."
+        },
+        "game_level_5": {
+          "dnd_equivalent_level": 20,
+          "named_power_unlocks": [
+            "Deathfire Grasp",
+            "Blight"
+          ],
+          "system_upgrade": "Jump directly to the curated D&D level 20-equivalent Fighter capstone package; limited-power uses become 5 and no further in-session levels are allowed."
+        }
+      },
+      "source_classification": "Named by the supplied Killer In The Keep rules. Any archetype not present in SRD 5.2.1 is treated as original/custom Killer content."
+    },
+    {
+      "id": "kitk-archetype-noldrack_goldblade",
+      "hero_id": "noldrack_goldblade",
+      "hero_name": "Noldrack Goldblade",
+      "class_name": "Druid",
+      "archetype_name": "Custom elemental investigator",
+      "specialty": "Reveals hidden hazards and reshapes rooms with fire, water, ice, wind, and forced movement.",
+      "fixed_package": true,
+      "game_level_unlocks": {
+        "game_level_1": {
+          "dnd_equivalent_level": 5,
+          "named_power_unlocks": [
+            "Poison Spray",
+            "Force of Nature",
+            "Detect Ailment"
+          ],
+          "system_upgrade": "Apply the starting curated D&D level 5-equivalent Druid package."
+        },
+        "game_level_2": {
+          "dnd_equivalent_level": 9,
+          "named_power_unlocks": [
+            "Flaming Sphere",
+            "Locate Traps and Passageways"
+          ],
+          "system_upgrade": "Jump directly to the curated D&D level 9-equivalent Druid package; limited-power uses become 2."
+        },
+        "game_level_3": {
+          "dnd_equivalent_level": 13,
+          "named_power_unlocks": [
+            "Tidal Wave",
+            "Icicle Blast"
+          ],
+          "system_upgrade": "Jump directly to the curated D&D level 13-equivalent Druid package; limited-power uses become 3."
+        },
+        "game_level_4": {
+          "dnd_equivalent_level": 17,
+          "named_power_unlocks": [],
+          "system_upgrade": "Jump directly to the curated D&D level 17-equivalent Druid package, including a major class-feature, combat-stat, armor/resource, and existing-power upgrade; limited-power uses become 4."
+        },
+        "game_level_5": {
+          "dnd_equivalent_level": 20,
+          "named_power_unlocks": [
+            "Encanto",
+            "Tornado"
+          ],
+          "system_upgrade": "Jump directly to the curated D&D level 20-equivalent Druid capstone package; limited-power uses become 5 and no further in-session levels are allowed."
+        }
+      },
+      "source_classification": "Named by the supplied Killer In The Keep rules. Any archetype not present in SRD 5.2.1 is treated as original/custom Killer content."
+    },
+    {
+      "id": "kitk-archetype-eilvyre_astath",
+      "hero_id": "eilvyre_astath",
+      "hero_name": "Eilvyre Astath",
+      "class_name": "Sorcerer",
+      "archetype_name": "Wild Magic",
+      "specialty": "Wild Magic surges create unpredictable but readable changes to combat, lighting, movement, and evidence.",
+      "fixed_package": true,
+      "game_level_unlocks": {
+        "game_level_1": {
+          "dnd_equivalent_level": 5,
+          "named_power_unlocks": [
+            "Orbs of Wonder",
+            "Ray of Frost",
+            "Turn the Tide",
+            "Mage Armor",
+            "Acid Strike"
+          ],
+          "system_upgrade": "Apply the starting curated D&D level 5-equivalent Sorcerer package."
+        },
+        "game_level_2": {
+          "dnd_equivalent_level": 9,
+          "named_power_unlocks": [
+            "Self Teleport"
+          ],
+          "system_upgrade": "Jump directly to the curated D&D level 9-equivalent Sorcerer package; limited-power uses become 2."
+        },
+        "game_level_3": {
+          "dnd_equivalent_level": 13,
+          "named_power_unlocks": [
+            "Earth Shatter"
+          ],
+          "system_upgrade": "Jump directly to the curated D&D level 13-equivalent Sorcerer package; limited-power uses become 3."
+        },
+        "game_level_4": {
+          "dnd_equivalent_level": 17,
+          "named_power_unlocks": [],
+          "system_upgrade": "Jump directly to the curated D&D level 17-equivalent Sorcerer package, including a major class-feature, combat-stat, armor/resource, and existing-power upgrade; limited-power uses become 4."
+        },
+        "game_level_5": {
+          "dnd_equivalent_level": 20,
+          "named_power_unlocks": [
+            "Ball-Lightning"
+          ],
+          "system_upgrade": "Jump directly to the curated D&D level 20-equivalent Sorcerer capstone package; limited-power uses become 5 and no further in-session levels are allowed."
+        }
+      },
+      "source_classification": "Named by the supplied Killer In The Keep rules. Any archetype not present in SRD 5.2.1 is treated as original/custom Killer content."
+    },
+    {
+      "id": "kitk-archetype-korbin_silverdew",
+      "hero_id": "korbin_silverdew",
+      "hero_name": "Korbin Silverdew",
+      "class_name": "Paladin",
+      "archetype_name": "Custom oath of hope and luck",
+      "specialty": "Protects allies, improves important rolls, and uses burning arrows to interact with webs, oil, and wooden objects.",
+      "fixed_package": true,
+      "game_level_unlocks": {
+        "game_level_1": {
+          "dnd_equivalent_level": 5,
+          "named_power_unlocks": [
+            "False Bravado",
+            "Lady Luck",
+            "Fire Arrows",
+            "Radiant Prayer",
+            "Hope"
+          ],
+          "system_upgrade": "Apply the starting curated D&D level 5-equivalent Paladin package."
+        },
+        "game_level_2": {
+          "dnd_equivalent_level": 9,
+          "named_power_unlocks": [
+            "Blinding Smite"
+          ],
+          "system_upgrade": "Jump directly to the curated D&D level 9-equivalent Paladin package; limited-power uses become 2."
+        },
+        "game_level_3": {
+          "dnd_equivalent_level": 13,
+          "named_power_unlocks": [
+            "Imprison"
+          ],
+          "system_upgrade": "Jump directly to the curated D&D level 13-equivalent Paladin package; limited-power uses become 3."
+        },
+        "game_level_4": {
+          "dnd_equivalent_level": 17,
+          "named_power_unlocks": [],
+          "system_upgrade": "Jump directly to the curated D&D level 17-equivalent Paladin package, including a major class-feature, combat-stat, armor/resource, and existing-power upgrade; limited-power uses become 4."
+        },
+        "game_level_5": {
+          "dnd_equivalent_level": 20,
+          "named_power_unlocks": [
+            "Death Ward",
+            "Holy Wrath"
+          ],
+          "system_upgrade": "Jump directly to the curated D&D level 20-equivalent Paladin capstone package; limited-power uses become 5 and no further in-session levels are allowed."
+        }
+      },
+      "source_classification": "Named by the supplied Killer In The Keep rules. Any archetype not present in SRD 5.2.1 is treated as original/custom Killer content."
+    },
+    {
+      "id": "kitk-archetype-joknos_jock",
+      "hero_id": "joknos_jock",
+      "hero_name": "Joknos",
+      "class_name": "Bard",
+      "archetype_name": "College of Creation",
+      "specialty": "Excels at dialogue checks, deception, magical persuasion, distraction, and rapid relocation.",
+      "fixed_package": true,
+      "game_level_unlocks": {
+        "game_level_1": {
+          "dnd_equivalent_level": 5,
+          "named_power_unlocks": [
+            "True Strike",
+            "Might of Kord",
+            "Cruel Contempt",
+            "Hideous Laughter",
+            "Eardrum Splitter"
+          ],
+          "system_upgrade": "Apply the starting curated D&D level 5-equivalent Bard package."
+        },
+        "game_level_2": {
+          "dnd_equivalent_level": 9,
+          "named_power_unlocks": [
+            "Influence",
+            "Invisibility"
+          ],
+          "system_upgrade": "Jump directly to the curated D&D level 9-equivalent Bard package; limited-power uses become 2."
+        },
+        "game_level_3": {
+          "dnd_equivalent_level": 13,
+          "named_power_unlocks": [
+            "Persisting Death Curse",
+            "Dispel Magic",
+            "Bravado"
+          ],
+          "system_upgrade": "Jump directly to the curated D&D level 13-equivalent Bard package; limited-power uses become 3."
+        },
+        "game_level_4": {
+          "dnd_equivalent_level": 17,
+          "named_power_unlocks": [],
+          "system_upgrade": "Jump directly to the curated D&D level 17-equivalent Bard package, including a major class-feature, combat-stat, armor/resource, and existing-power upgrade; limited-power uses become 4."
+        },
+        "game_level_5": {
+          "dnd_equivalent_level": 20,
+          "named_power_unlocks": [
+            "Teleportation Doorway",
+            "Encanto"
+          ],
+          "system_upgrade": "Jump directly to the curated D&D level 20-equivalent Bard capstone package; limited-power uses become 5 and no further in-session levels are allowed."
+        }
+      },
+      "source_classification": "Named by the supplied Killer In The Keep rules. Any archetype not present in SRD 5.2.1 is treated as original/custom Killer content."
+    },
+    {
+      "id": "kitk-archetype-githtoxundes_fenwophyl",
+      "hero_id": "githtoxundes_fenwophyl",
+      "hero_name": "Githtoxundes Fenwophyl",
+      "class_name": "Cleric",
+      "archetype_name": "Custom restoration domain",
+      "specialty": "Keeps the party alive, reverses curses and injuries, and can restore a recently dead character before permanent elimination.",
+      "fixed_package": true,
+      "game_level_unlocks": {
+        "game_level_1": {
+          "dnd_equivalent_level": 5,
+          "named_power_unlocks": [
+            "Spare the Dying",
+            "Guidance",
+            "Scourge",
+            "Cure Wounds"
+          ],
+          "system_upgrade": "Apply the starting curated D&D level 5-equivalent Cleric package."
+        },
+        "game_level_2": {
+          "dnd_equivalent_level": 9,
+          "named_power_unlocks": [
+            "Imprison"
+          ],
+          "system_upgrade": "Jump directly to the curated D&D level 9-equivalent Cleric package; limited-power uses become 2."
+        },
+        "game_level_3": {
+          "dnd_equivalent_level": 13,
+          "named_power_unlocks": [
+            "Mass Healing Word"
+          ],
+          "system_upgrade": "Jump directly to the curated D&D level 13-equivalent Cleric package; limited-power uses become 3."
+        },
+        "game_level_4": {
+          "dnd_equivalent_level": 17,
+          "named_power_unlocks": [],
+          "system_upgrade": "Jump directly to the curated D&D level 17-equivalent Cleric package, including a major class-feature, combat-stat, armor/resource, and existing-power upgrade; limited-power uses become 4."
+        },
+        "game_level_5": {
+          "dnd_equivalent_level": 20,
+          "named_power_unlocks": [
+            "Restore Person"
+          ],
+          "system_upgrade": "Jump directly to the curated D&D level 20-equivalent Cleric capstone package; limited-power uses become 5 and no further in-session levels are allowed."
+        }
+      },
+      "source_classification": "Named by the supplied Killer In The Keep rules. Any archetype not present in SRD 5.2.1 is treated as original/custom Killer content."
+    },
+    {
+      "id": "kitk-archetype-gunnus",
+      "hero_id": "gunnus",
+      "hero_name": "Gunnus",
+      "class_name": "Necromancer",
+      "archetype_name": "Necromancy-focused arcane caster",
+      "specialty": "Raises temporary undead allies and exchanges enemy life for personal survival.",
+      "fixed_package": true,
+      "game_level_unlocks": {
+        "game_level_1": {
+          "dnd_equivalent_level": 5,
+          "named_power_unlocks": [
+            "Chill Touch",
+            "Poison Spray",
+            "Spare the Dying",
+            "Hideous Laughter",
+            "Dark Illumination"
+          ],
+          "system_upgrade": "Apply the starting curated D&D level 5-equivalent Necromancer package."
+        },
+        "game_level_2": {
+          "dnd_equivalent_level": 9,
+          "named_power_unlocks": [
+            "Undead Warrior",
+            "Senseless"
+          ],
+          "system_upgrade": "Jump directly to the curated D&D level 9-equivalent Necromancer package; limited-power uses become 2."
+        },
+        "game_level_3": {
+          "dnd_equivalent_level": 13,
+          "named_power_unlocks": [
+            "Vampiric Touch",
+            "Revivify"
+          ],
+          "system_upgrade": "Jump directly to the curated D&D level 13-equivalent Necromancer package; limited-power uses become 3."
+        },
+        "game_level_4": {
+          "dnd_equivalent_level": 17,
+          "named_power_unlocks": [],
+          "system_upgrade": "Jump directly to the curated D&D level 17-equivalent Necromancer package, including a major class-feature, combat-stat, armor/resource, and existing-power upgrade; limited-power uses become 4."
+        },
+        "game_level_5": {
+          "dnd_equivalent_level": 20,
+          "named_power_unlocks": [
+            "Blight",
+            "Phantasmal Killer"
+          ],
+          "system_upgrade": "Jump directly to the curated D&D level 20-equivalent Necromancer capstone package; limited-power uses become 5 and no further in-session levels are allowed."
+        }
+      },
+      "source_classification": "Named by the supplied Killer In The Keep rules. Any archetype not present in SRD 5.2.1 is treated as original/custom Killer content."
+    },
+    {
+      "id": "kitk-archetype-monk",
+      "hero_id": "monk",
+      "hero_name": "Monk",
+      "class_name": "Monk",
+      "archetype_name": "Custom elemental chi discipline",
+      "specialty": "Uses reactions, grapples, paralysis, and wind attacks to push enemies into environmental hazards.",
+      "fixed_package": true,
+      "game_level_unlocks": {
+        "game_level_1": {
+          "dnd_equivalent_level": 5,
+          "named_power_unlocks": [
+            "Whirlwind",
+            "Paralyzing Blow",
+            "Crushing Grip",
+            "Scorched Soul",
+            "Fiery Whips of Vengeance"
+          ],
+          "system_upgrade": "Apply the starting curated D&D level 5-equivalent Monk package."
+        },
+        "game_level_2": {
+          "dnd_equivalent_level": 9,
+          "named_power_unlocks": [
+            "Wind of the Mighty",
+            "WindForce Punch"
+          ],
+          "system_upgrade": "Jump directly to the curated D&D level 9-equivalent Monk package; limited-power uses become 2."
+        },
+        "game_level_3": {
+          "dnd_equivalent_level": 13,
+          "named_power_unlocks": [
+            "Chi Heal",
+            "Chi Shield",
+            "Dragon's Breath"
+          ],
+          "system_upgrade": "Jump directly to the curated D&D level 13-equivalent Monk package; limited-power uses become 3."
+        },
+        "game_level_4": {
+          "dnd_equivalent_level": 17,
+          "named_power_unlocks": [],
+          "system_upgrade": "Jump directly to the curated D&D level 17-equivalent Monk package, including a major class-feature, combat-stat, armor/resource, and existing-power upgrade; limited-power uses become 4."
+        },
+        "game_level_5": {
+          "dnd_equivalent_level": 20,
+          "named_power_unlocks": [
+            "Stone Flesh",
+            "Heart-Halting Assault"
+          ],
+          "system_upgrade": "Jump directly to the curated D&D level 20-equivalent Monk capstone package; limited-power uses become 5 and no further in-session levels are allowed."
+        }
+      },
+      "source_classification": "Named by the supplied Killer In The Keep rules. Any archetype not present in SRD 5.2.1 is treated as original/custom Killer content."
+    }
+  ]
+}

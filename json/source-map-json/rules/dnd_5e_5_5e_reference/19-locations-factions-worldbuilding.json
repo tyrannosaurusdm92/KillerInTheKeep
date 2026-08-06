@@ -1,0 +1,1190 @@
+{
+  "schema_version": "4.3.0",
+  "document_type": "killer_keep_rooms_and_routes",
+  "system": "Killer In The Keep",
+  "rules_profile": "Killer In The Keep 5E-Compatible Hybrid",
+  "scope": "Killer In The Keep only",
+  "build_date": "2026-08-05",
+  "source_basis": [
+    "KillerInTheKeep_5_Game_Level_Progression.json",
+    "System Reference Document 5.2.1"
+  ],
+  "srd_attribution": "This work includes material from the System Reference Document 5.2.1 (“SRD 5.2.1”) by Wizards of the Coast LLC, available at https://www.dndbeyond.com/srd. The SRD 5.2.1 is licensed under the Creative Commons Attribution 4.0 International License, available at https://creativecommons.org/licenses/by/4.0/legalcode.",
+  "publisher_affiliation": "Killer In The Keep is an independent project and is not endorsed by Wizards of the Coast.",
+  "record_count": 31,
+  "primary_location": "A four-level storm-bound keep with a Cellar, First Floor, Second Floor, Attic/Roof Level, and concealed routes between floors.",
+  "interactive_environment": [
+    "Locked doors",
+    "Trapped doors",
+    "Secret passageways",
+    "Movable statues",
+    "Breakable doors and walls",
+    "Spider webs and egg clusters",
+    "Searchable containers",
+    "Extinguishable and spreading fire",
+    "Water, ice, acid, darkness, debris, and pits",
+    "Barricade points",
+    "Light sources",
+    "Vertical routes and balconies"
+  ],
+  "door_and_passage_rules": {
+    "locked_door_legacy": "Roll 1d10 with a lockpick; 7 or higher succeeds and a natural 1 loses the lockpick.",
+    "trapped_door_legacy": "DC 16 Dexterity saving throw to disarm; failure triggers a trap.",
+    "secret_passage_legacy": "DC 13 Wisdom check to discover.",
+    "large_statue_legacy": "DC 17 Strength check to move a statue blocking a secret passage.",
+    "dnd_conversion": "Use Perception or Investigation to find, thieves' tools to disarm or unlock, and Athletics to force or move obstacles."
+  },
+  "map_rules": {
+    "schema_name": "killer_in_the_keep_keep_grid_rules",
+    "grid_rules": {
+      "default_square": "5 ft x 5 ft",
+      "accepted_grid_sizes": "Any rectangular grid size; tokens, traps, doors, locks, auras, and ranges scale to grid.cell_px and grid.feet_per_square.",
+      "token_size_scaling": {
+        "Tiny": "0.5 square visual / occupies as table allows",
+        "Small/Medium": "1 square",
+        "Large": "2x2",
+        "Huge": "3x3",
+        "Gargantuan": "4x4 or larger"
+      },
+      "range_conversion": "grid_squares = round(feet / feet_per_square)",
+      "aura_conversion": "aura_radius_squares = ceil(radius_feet / feet_per_square)"
+    },
+    "room_tags": [
+      "solution_room",
+      "non_solution_space",
+      "clue",
+      "trap",
+      "lock",
+      "secret_passage",
+      "monster_spawn",
+      "treasure",
+      "safe",
+      "dark",
+      "storm_exposed",
+      "multi_floor"
+    ],
+    "pathing_rules": {
+      "normal": "Heroes and monsters path through walkable keep squares.",
+      "secret_passage": "Only heroes or monsters with discovered or unlocked access can use the route.",
+      "hazard_square": "Movement remains possible unless the hazard says otherwise; resolve its trigger and damage normally.",
+      "locked_door": "Blocks movement until opened, picked, forced, destroyed, or bypassed by a qualifying named power.",
+      "stairs": "Connect mapped floors and cost normal movement unless the map marks difficult terrain."
+    },
+    "floor_count": 4,
+    "grid_per_floor": "48x32",
+    "feet_per_square": 5
+  },
+  "records": [
+    {
+      "id": "kitk-room-cellar",
+      "name": "Cellar",
+      "room_id": "cellar",
+      "room_number": 1,
+      "floor": "cellar",
+      "solution_eligible": true,
+      "tags": [
+        "room",
+        "four-floor-keep",
+        "investigation",
+        "encounter"
+      ],
+      "suggested_physical_clues": [
+        "Search furnishings, containers, doors, architectural features, and floor evidence appropriate to the room."
+      ],
+      "interactive_features": [
+        "Use the exact-map room card, room-coordinate JSON, door/trap records, treasure placements, and monster-spawn records."
+      ],
+      "room_theory_rule": "A player in this room may form a suspect/weapon/room theory when the current mode and action economy allow it.",
+      "connections": [
+        "pantry",
+        "undercroft_passage"
+      ],
+      "coordinate_ranges": [
+        [
+          6,
+          41,
+          6,
+          25
+        ]
+      ],
+      "room_card": "room_cards/html/01_cellar.html",
+      "design_status": "canonical-v4.3.0"
+    },
+    {
+      "id": "kitk-room-foyer",
+      "name": "Foyer",
+      "room_id": "foyer",
+      "room_number": 2,
+      "floor": "first_floor",
+      "solution_eligible": true,
+      "tags": [
+        "room",
+        "four-floor-keep",
+        "investigation",
+        "encounter"
+      ],
+      "suggested_physical_clues": [
+        "Search furnishings, containers, doors, architectural features, and floor evidence appropriate to the room."
+      ],
+      "interactive_features": [
+        "Use the exact-map room card, room-coordinate JSON, door/trap records, treasure placements, and monster-spawn records."
+      ],
+      "room_theory_rule": "A player in this room may form a suspect/weapon/room theory when the current mode and action economy allow it.",
+      "connections": [
+        "grand_hall",
+        "main_entrance"
+      ],
+      "coordinate_ranges": [
+        [
+          20,
+          28,
+          26,
+          31
+        ]
+      ],
+      "room_card": "room_cards/html/02_foyer.html",
+      "design_status": "canonical-v4.3.0"
+    },
+    {
+      "id": "kitk-room-grand-hall",
+      "name": "Grand Hall",
+      "room_id": "grand_hall",
+      "room_number": 3,
+      "floor": "first_floor",
+      "solution_eligible": true,
+      "tags": [
+        "room",
+        "four-floor-keep",
+        "investigation",
+        "encounter"
+      ],
+      "suggested_physical_clues": [
+        "Search furnishings, containers, doors, architectural features, and floor evidence appropriate to the room."
+      ],
+      "interactive_features": [
+        "Use the exact-map room card, room-coordinate JSON, door/trap records, treasure placements, and monster-spawn records."
+      ],
+      "room_theory_rule": "A player in this room may form a suspect/weapon/room theory when the current mode and action economy allow it.",
+      "connections": [
+        "foyer",
+        "game_room",
+        "dining_room",
+        "sitting_room",
+        "library",
+        "grand_staircase"
+      ],
+      "coordinate_ranges": [
+        [
+          16,
+          30,
+          9,
+          25
+        ]
+      ],
+      "room_card": "room_cards/html/03_grand-hall.html",
+      "design_status": "canonical-v4.3.0"
+    },
+    {
+      "id": "kitk-room-game-room",
+      "name": "Game Room",
+      "room_id": "game_room",
+      "room_number": 4,
+      "floor": "first_floor",
+      "solution_eligible": true,
+      "tags": [
+        "room",
+        "four-floor-keep",
+        "investigation",
+        "encounter"
+      ],
+      "suggested_physical_clues": [
+        "Search furnishings, containers, doors, architectural features, and floor evidence appropriate to the room."
+      ],
+      "interactive_features": [
+        "Use the exact-map room card, room-coordinate JSON, door/trap records, treasure placements, and monster-spawn records."
+      ],
+      "room_theory_rule": "A player in this room may form a suspect/weapon/room theory when the current mode and action economy allow it.",
+      "connections": [
+        "grand_hall"
+      ],
+      "coordinate_ranges": [
+        [
+          31,
+          39,
+          20,
+          31
+        ]
+      ],
+      "room_card": "room_cards/html/04_game-room.html",
+      "design_status": "canonical-v4.3.0"
+    },
+    {
+      "id": "kitk-room-dining-room",
+      "name": "Dining Room",
+      "room_id": "dining_room",
+      "room_number": 5,
+      "floor": "first_floor",
+      "solution_eligible": true,
+      "tags": [
+        "room",
+        "four-floor-keep",
+        "investigation",
+        "encounter"
+      ],
+      "suggested_physical_clues": [
+        "Search furnishings, containers, doors, architectural features, and floor evidence appropriate to the room."
+      ],
+      "interactive_features": [
+        "Use the exact-map room card, room-coordinate JSON, door/trap records, treasure placements, and monster-spawn records."
+      ],
+      "room_theory_rule": "A player in this room may form a suspect/weapon/room theory when the current mode and action economy allow it.",
+      "connections": [
+        "grand_hall",
+        "kitchen",
+        "screens_passage"
+      ],
+      "coordinate_ranges": [
+        [
+          31,
+          39,
+          9,
+          19
+        ]
+      ],
+      "room_card": "room_cards/html/05_dining-room.html",
+      "design_status": "canonical-v4.3.0"
+    },
+    {
+      "id": "kitk-room-kitchen",
+      "name": "Kitchen",
+      "room_id": "kitchen",
+      "room_number": 6,
+      "floor": "first_floor",
+      "solution_eligible": true,
+      "tags": [
+        "room",
+        "four-floor-keep",
+        "investigation",
+        "encounter"
+      ],
+      "suggested_physical_clues": [
+        "Search furnishings, containers, doors, architectural features, and floor evidence appropriate to the room."
+      ],
+      "interactive_features": [
+        "Use the exact-map room card, room-coordinate JSON, door/trap records, treasure placements, and monster-spawn records."
+      ],
+      "room_theory_rule": "A player in this room may form a suspect/weapon/room theory when the current mode and action economy allow it.",
+      "connections": [
+        "dining_room",
+        "pantry",
+        "screens_passage",
+        "servants_staircase"
+      ],
+      "coordinate_ranges": [
+        [
+          31,
+          38,
+          0,
+          8
+        ]
+      ],
+      "room_card": "room_cards/html/06_kitchen.html",
+      "design_status": "canonical-v4.3.0"
+    },
+    {
+      "id": "kitk-room-pantry",
+      "name": "Pantry",
+      "room_id": "pantry",
+      "room_number": 7,
+      "floor": "first_floor",
+      "solution_eligible": true,
+      "tags": [
+        "room",
+        "four-floor-keep",
+        "investigation",
+        "encounter"
+      ],
+      "suggested_physical_clues": [
+        "Search furnishings, containers, doors, architectural features, and floor evidence appropriate to the room."
+      ],
+      "interactive_features": [
+        "Use the exact-map room card, room-coordinate JSON, door/trap records, treasure placements, and monster-spawn records."
+      ],
+      "room_theory_rule": "A player in this room may form a suspect/weapon/room theory when the current mode and action economy allow it.",
+      "connections": [
+        "kitchen",
+        "screens_passage",
+        "cellar_staircase"
+      ],
+      "coordinate_ranges": [
+        [
+          40,
+          47,
+          0,
+          19
+        ]
+      ],
+      "room_card": "room_cards/html/07_pantry.html",
+      "design_status": "canonical-v4.3.0"
+    },
+    {
+      "id": "kitk-room-sitting-room",
+      "name": "Sitting Room",
+      "room_id": "sitting_room",
+      "room_number": 8,
+      "floor": "first_floor",
+      "solution_eligible": true,
+      "tags": [
+        "room",
+        "four-floor-keep",
+        "investigation",
+        "encounter"
+      ],
+      "suggested_physical_clues": [
+        "Search furnishings, containers, doors, architectural features, and floor evidence appropriate to the room."
+      ],
+      "interactive_features": [
+        "Use the exact-map room card, room-coordinate JSON, door/trap records, treasure placements, and monster-spawn records."
+      ],
+      "room_theory_rule": "A player in this room may form a suspect/weapon/room theory when the current mode and action economy allow it.",
+      "connections": [
+        "grand_hall",
+        "music_room",
+        "rear_service_corridor"
+      ],
+      "coordinate_ranges": [
+        [
+          8,
+          15,
+          20,
+          31
+        ]
+      ],
+      "room_card": "room_cards/html/08_sitting-room.html",
+      "design_status": "canonical-v4.3.0"
+    },
+    {
+      "id": "kitk-room-music-room",
+      "name": "Music Room",
+      "room_id": "music_room",
+      "room_number": 9,
+      "floor": "first_floor",
+      "solution_eligible": true,
+      "tags": [
+        "room",
+        "four-floor-keep",
+        "investigation",
+        "encounter"
+      ],
+      "suggested_physical_clues": [
+        "Search furnishings, containers, doors, architectural features, and floor evidence appropriate to the room."
+      ],
+      "interactive_features": [
+        "Use the exact-map room card, room-coordinate JSON, door/trap records, treasure placements, and monster-spawn records."
+      ],
+      "room_theory_rule": "A player in this room may form a suspect/weapon/room theory when the current mode and action economy allow it.",
+      "connections": [
+        "sitting_room",
+        "privy",
+        "rear_service_corridor",
+        "secondary_guest_secret_stair"
+      ],
+      "coordinate_ranges": [
+        [
+          0,
+          7,
+          17,
+          24
+        ]
+      ],
+      "room_card": "room_cards/html/09_music-room.html",
+      "design_status": "canonical-v4.3.0"
+    },
+    {
+      "id": "kitk-room-privy",
+      "name": "Privy",
+      "room_id": "privy",
+      "room_number": 10,
+      "floor": "first_floor",
+      "solution_eligible": true,
+      "tags": [
+        "room",
+        "four-floor-keep",
+        "investigation",
+        "encounter"
+      ],
+      "suggested_physical_clues": [
+        "Search furnishings, containers, doors, architectural features, and floor evidence appropriate to the room."
+      ],
+      "interactive_features": [
+        "Use the exact-map room card, room-coordinate JSON, door/trap records, treasure placements, and monster-spawn records."
+      ],
+      "room_theory_rule": "A player in this room may form a suspect/weapon/room theory when the current mode and action economy allow it.",
+      "connections": [
+        "music_room",
+        "rear_service_corridor"
+      ],
+      "coordinate_ranges": [
+        [
+          0,
+          2,
+          10,
+          16
+        ]
+      ],
+      "room_card": "room_cards/html/10_privy.html",
+      "design_status": "canonical-v4.3.0"
+    },
+    {
+      "id": "kitk-room-library",
+      "name": "Library",
+      "room_id": "library",
+      "room_number": 11,
+      "floor": "first_floor",
+      "solution_eligible": true,
+      "tags": [
+        "room",
+        "four-floor-keep",
+        "investigation",
+        "encounter"
+      ],
+      "suggested_physical_clues": [
+        "Search furnishings, containers, doors, architectural features, and floor evidence appropriate to the room."
+      ],
+      "interactive_features": [
+        "Use the exact-map room card, room-coordinate JSON, door/trap records, treasure placements, and monster-spawn records."
+      ],
+      "room_theory_rule": "A player in this room may form a suspect/weapon/room theory when the current mode and action economy allow it.",
+      "connections": [
+        "grand_hall",
+        "first_floor_solar",
+        "library_spiral_stair",
+        "rear_service_corridor"
+      ],
+      "coordinate_ranges": [
+        [
+          8,
+          15,
+          10,
+          19
+        ]
+      ],
+      "room_card": "room_cards/html/11_library.html",
+      "design_status": "canonical-v4.3.0"
+    },
+    {
+      "id": "kitk-room-first-floor-solar",
+      "name": "1st Floor Solar",
+      "room_id": "first_floor_solar",
+      "room_number": 12,
+      "floor": "first_floor",
+      "solution_eligible": true,
+      "tags": [
+        "room",
+        "four-floor-keep",
+        "investigation",
+        "encounter"
+      ],
+      "suggested_physical_clues": [
+        "Search furnishings, containers, doors, architectural features, and floor evidence appropriate to the room."
+      ],
+      "interactive_features": [
+        "Use the exact-map room card, room-coordinate JSON, door/trap records, treasure placements, and monster-spawn records."
+      ],
+      "room_theory_rule": "A player in this room may form a suspect/weapon/room theory when the current mode and action economy allow it.",
+      "connections": [
+        "library",
+        "alchemists_quarters",
+        "alchemists_study",
+        "main_guest_secret_stair",
+        "rear_service_corridor"
+      ],
+      "coordinate_ranges": [
+        [
+          8,
+          12,
+          0,
+          8
+        ]
+      ],
+      "room_card": "room_cards/html/12_first-floor-solar.html",
+      "design_status": "canonical-v4.3.0"
+    },
+    {
+      "id": "kitk-room-alchemists-quarters",
+      "name": "Alchemist’s Quarters",
+      "room_id": "alchemists_quarters",
+      "room_number": 13,
+      "floor": "first_floor",
+      "solution_eligible": true,
+      "tags": [
+        "room",
+        "four-floor-keep",
+        "investigation",
+        "encounter"
+      ],
+      "suggested_physical_clues": [
+        "Search furnishings, containers, doors, architectural features, and floor evidence appropriate to the room."
+      ],
+      "interactive_features": [
+        "Use the exact-map room card, room-coordinate JSON, door/trap records, treasure placements, and monster-spawn records."
+      ],
+      "room_theory_rule": "A player in this room may form a suspect/weapon/room theory when the current mode and action economy allow it.",
+      "connections": [
+        "first_floor_solar",
+        "cellar_secret_stair",
+        "rear_service_corridor"
+      ],
+      "coordinate_ranges": [
+        [
+          0,
+          7,
+          0,
+          9
+        ]
+      ],
+      "room_card": "room_cards/html/13_alchemists-quarters.html",
+      "design_status": "canonical-v4.3.0"
+    },
+    {
+      "id": "kitk-room-alchemists-study",
+      "name": "Alchemist’s Study",
+      "room_id": "alchemists_study",
+      "room_number": 14,
+      "floor": "first_floor",
+      "solution_eligible": true,
+      "tags": [
+        "room",
+        "four-floor-keep",
+        "investigation",
+        "encounter"
+      ],
+      "suggested_physical_clues": [
+        "Search furnishings, containers, doors, architectural features, and floor evidence appropriate to the room."
+      ],
+      "interactive_features": [
+        "Use the exact-map room card, room-coordinate JSON, door/trap records, treasure placements, and monster-spawn records."
+      ],
+      "room_theory_rule": "A player in this room may form a suspect/weapon/room theory when the current mode and action economy allow it.",
+      "connections": [
+        "first_floor_solar",
+        "armory",
+        "rear_service_corridor"
+      ],
+      "coordinate_ranges": [
+        [
+          13,
+          20,
+          0,
+          8
+        ]
+      ],
+      "room_card": "room_cards/html/14_alchemists-study.html",
+      "design_status": "canonical-v4.3.0"
+    },
+    {
+      "id": "kitk-room-armory",
+      "name": "Armory",
+      "room_id": "armory",
+      "room_number": 15,
+      "floor": "first_floor",
+      "solution_eligible": true,
+      "tags": [
+        "room",
+        "four-floor-keep",
+        "investigation",
+        "encounter"
+      ],
+      "suggested_physical_clues": [
+        "Search furnishings, containers, doors, architectural features, and floor evidence appropriate to the room."
+      ],
+      "interactive_features": [
+        "Use the exact-map room card, room-coordinate JSON, door/trap records, treasure placements, and monster-spawn records."
+      ],
+      "room_theory_rule": "A player in this room may form a suspect/weapon/room theory when the current mode and action economy allow it.",
+      "connections": [
+        "alchemists_study",
+        "wall_passage",
+        "cellar_secret_stair",
+        "rear_service_corridor"
+      ],
+      "coordinate_ranges": [
+        [
+          21,
+          30,
+          0,
+          8
+        ]
+      ],
+      "room_card": "room_cards/html/15_armory.html",
+      "design_status": "canonical-v4.3.0"
+    },
+    {
+      "id": "kitk-room-main-guest-quarters",
+      "name": "Main Guest Quarters",
+      "room_id": "main_guest_quarters",
+      "room_number": 16,
+      "floor": "second_floor",
+      "solution_eligible": true,
+      "tags": [
+        "room",
+        "four-floor-keep",
+        "investigation",
+        "encounter"
+      ],
+      "suggested_physical_clues": [
+        "Search furnishings, containers, doors, architectural features, and floor evidence appropriate to the room."
+      ],
+      "interactive_features": [
+        "Use the exact-map room card, room-coordinate JSON, door/trap records, treasure placements, and monster-spawn records."
+      ],
+      "room_theory_rule": "A player in this room may form a suspect/weapon/room theory when the current mode and action economy allow it.",
+      "connections": [
+        "right_upper_corridor",
+        "den",
+        "main_guest_secret_stair",
+        "second_floor_service_corridor"
+      ],
+      "coordinate_ranges": [
+        [
+          38,
+          47,
+          10,
+          21
+        ]
+      ],
+      "room_card": "room_cards/html/16_main-guest-quarters.html",
+      "design_status": "canonical-v4.3.0"
+    },
+    {
+      "id": "kitk-room-den",
+      "name": "Den",
+      "room_id": "den",
+      "room_number": 17,
+      "floor": "second_floor",
+      "solution_eligible": true,
+      "tags": [
+        "room",
+        "four-floor-keep",
+        "investigation",
+        "encounter"
+      ],
+      "suggested_physical_clues": [
+        "Search furnishings, containers, doors, architectural features, and floor evidence appropriate to the room."
+      ],
+      "interactive_features": [
+        "Use the exact-map room card, room-coordinate JSON, door/trap records, treasure placements, and monster-spawn records."
+      ],
+      "room_theory_rule": "A player in this room may form a suspect/weapon/room theory when the current mode and action economy allow it.",
+      "connections": [
+        "central_landing",
+        "chapel",
+        "second_floor_solar",
+        "cellar_secret_stair",
+        "second_floor_service_corridor"
+      ],
+      "coordinate_ranges": [
+        [
+          20,
+          27,
+          0,
+          8
+        ]
+      ],
+      "room_card": "room_cards/html/17_den.html",
+      "design_status": "canonical-v4.3.0"
+    },
+    {
+      "id": "kitk-room-secondary-guest-quarters",
+      "name": "Secondary Guest Quarters",
+      "room_id": "secondary_guest_quarters",
+      "room_number": 18,
+      "floor": "second_floor",
+      "solution_eligible": true,
+      "tags": [
+        "room",
+        "four-floor-keep",
+        "investigation",
+        "encounter"
+      ],
+      "suggested_physical_clues": [
+        "Search furnishings, containers, doors, architectural features, and floor evidence appropriate to the room."
+      ],
+      "interactive_features": [
+        "Use the exact-map room card, room-coordinate JSON, door/trap records, treasure placements, and monster-spawn records."
+      ],
+      "room_theory_rule": "A player in this room may form a suspect/weapon/room theory when the current mode and action economy allow it.",
+      "connections": [
+        "left_upper_corridor",
+        "den",
+        "music_room_secret_stair",
+        "second_floor_service_corridor"
+      ],
+      "coordinate_ranges": [
+        [
+          0,
+          7,
+          10,
+          21
+        ]
+      ],
+      "room_card": "room_cards/html/18_secondary-guest-quarters.html",
+      "design_status": "canonical-v4.3.0"
+    },
+    {
+      "id": "kitk-room-second-floor-solar",
+      "name": "2nd Floor Solar",
+      "room_id": "second_floor_solar",
+      "room_number": 19,
+      "floor": "second_floor",
+      "solution_eligible": true,
+      "tags": [
+        "room",
+        "four-floor-keep",
+        "investigation",
+        "encounter"
+      ],
+      "suggested_physical_clues": [
+        "Search furnishings, containers, doors, architectural features, and floor evidence appropriate to the room."
+      ],
+      "interactive_features": [
+        "Use the exact-map room card, room-coordinate JSON, door/trap records, treasure placements, and monster-spawn records."
+      ],
+      "room_theory_rule": "A player in this room may form a suspect/weapon/room theory when the current mode and action economy allow it.",
+      "connections": [
+        "den",
+        "main_guest_quarters",
+        "second_floor_service_corridor"
+      ],
+      "coordinate_ranges": [
+        [
+          31,
+          37,
+          0,
+          8
+        ]
+      ],
+      "room_card": "room_cards/html/19_second-floor-solar.html",
+      "design_status": "canonical-v4.3.0"
+    },
+    {
+      "id": "kitk-room-chapel",
+      "name": "Chapel",
+      "room_id": "chapel",
+      "room_number": 20,
+      "floor": "second_floor",
+      "solution_eligible": true,
+      "tags": [
+        "room",
+        "four-floor-keep",
+        "investigation",
+        "encounter"
+      ],
+      "suggested_physical_clues": [
+        "Search furnishings, containers, doors, architectural features, and floor evidence appropriate to the room."
+      ],
+      "interactive_features": [
+        "Use the exact-map room card, room-coordinate JSON, door/trap records, treasure placements, and monster-spawn records."
+      ],
+      "room_theory_rule": "A player in this room may form a suspect/weapon/room theory when the current mode and action economy allow it.",
+      "connections": [
+        "den",
+        "library_secret_passage",
+        "second_floor_service_corridor"
+      ],
+      "coordinate_ranges": [
+        [
+          0,
+          13,
+          0,
+          8
+        ]
+      ],
+      "room_card": "room_cards/html/20_chapel.html",
+      "design_status": "canonical-v4.3.0"
+    },
+    {
+      "id": "kitk-room-attic",
+      "name": "Attic",
+      "room_id": "attic",
+      "room_number": 21,
+      "floor": "attic",
+      "solution_eligible": true,
+      "tags": [
+        "room",
+        "four-floor-keep",
+        "investigation",
+        "encounter"
+      ],
+      "suggested_physical_clues": [
+        "Search furnishings, containers, doors, architectural features, and floor evidence appropriate to the room."
+      ],
+      "interactive_features": [
+        "Use the exact-map room card, room-coordinate JSON, door/trap records, treasure placements, and monster-spawn records."
+      ],
+      "room_theory_rule": "A player in this room may form a suspect/weapon/room theory when the current mode and action economy allow it.",
+      "connections": [
+        "attic_service_passage",
+        "roof_access",
+        "game_room_secret_stair"
+      ],
+      "coordinate_ranges": [
+        [
+          0,
+          31,
+          0,
+          31
+        ],
+        [
+          32,
+          47,
+          0,
+          9
+        ],
+        [
+          32,
+          47,
+          26,
+          31
+        ]
+      ],
+      "room_card": "room_cards/html/21_attic.html",
+      "design_status": "canonical-v4.3.0"
+    },
+    {
+      "id": "kitk-room-servants-quarters",
+      "name": "Servant’s Quarters",
+      "room_id": "servants_quarters",
+      "room_number": 22,
+      "floor": "attic",
+      "solution_eligible": true,
+      "tags": [
+        "room",
+        "four-floor-keep",
+        "investigation",
+        "encounter"
+      ],
+      "suggested_physical_clues": [
+        "Search furnishings, containers, doors, architectural features, and floor evidence appropriate to the room."
+      ],
+      "interactive_features": [
+        "Use the exact-map room card, room-coordinate JSON, door/trap records, treasure placements, and monster-spawn records."
+      ],
+      "room_theory_rule": "A player in this room may form a suspect/weapon/room theory when the current mode and action economy allow it.",
+      "connections": [
+        "attic_service_passage",
+        "servants_staircase"
+      ],
+      "coordinate_ranges": [
+        [
+          32,
+          47,
+          10,
+          25
+        ]
+      ],
+      "room_card": "room_cards/html/22_servants-quarters.html",
+      "design_status": "canonical-v4.3.0"
+    },
+    {
+      "id": "kitk-space-undercroft-passage",
+      "name": "Cellar Undercroft Passage",
+      "space_id": "undercroft_passage",
+      "floor": "cellar",
+      "solution_eligible": false,
+      "tags": [
+        "circulation",
+        "not-a-room"
+      ],
+      "suggested_physical_clues": [],
+      "interactive_features": [
+        "Movement, doors, stairs, hidden routes, and hazards as defined by the four-floor runtime."
+      ],
+      "room_theory_rule": "This circulation space is not a murder-room card.",
+      "coordinate_ranges": [
+        [
+          6,
+          41,
+          3,
+          5
+        ],
+        [
+          6,
+          41,
+          26,
+          29
+        ],
+        [
+          3,
+          5,
+          6,
+          25
+        ],
+        [
+          42,
+          44,
+          6,
+          25
+        ]
+      ],
+      "design_status": "canonical-v4.3.0"
+    },
+    {
+      "id": "kitk-space-screens-passage",
+      "name": "Ground-Floor Screens Passage",
+      "space_id": "screens_passage",
+      "floor": "first_floor",
+      "solution_eligible": false,
+      "tags": [
+        "circulation",
+        "not-a-room"
+      ],
+      "suggested_physical_clues": [],
+      "interactive_features": [
+        "Movement, doors, stairs, hidden routes, and hazards as defined by the four-floor runtime."
+      ],
+      "room_theory_rule": "This circulation space is not a murder-room card.",
+      "coordinate_ranges": [
+        [
+          30,
+          47,
+          8,
+          9
+        ],
+        [
+          39,
+          40,
+          0,
+          20
+        ]
+      ],
+      "design_status": "canonical-v4.3.0"
+    },
+    {
+      "id": "kitk-space-rear-service-corridor",
+      "name": "First-Floor Rear Service Corridor",
+      "space_id": "rear_service_corridor",
+      "floor": "first_floor",
+      "solution_eligible": false,
+      "tags": [
+        "circulation",
+        "not-a-room"
+      ],
+      "suggested_physical_clues": [],
+      "interactive_features": [
+        "Movement, doors, stairs, hidden routes, and hazards as defined by the four-floor runtime."
+      ],
+      "room_theory_rule": "This circulation space is not a murder-room card.",
+      "coordinate_ranges": [
+        [
+          0,
+          30,
+          8,
+          9
+        ],
+        [
+          7,
+          8,
+          0,
+          31
+        ]
+      ],
+      "design_status": "canonical-v4.3.0"
+    },
+    {
+      "id": "kitk-space-first-floor-public-corridor",
+      "name": "First-Floor Public Hallways",
+      "space_id": "first_floor_public_corridor",
+      "floor": "first_floor",
+      "solution_eligible": false,
+      "tags": [
+        "circulation",
+        "not-a-room"
+      ],
+      "suggested_physical_clues": [],
+      "interactive_features": [
+        "Movement, doors, stairs, hidden routes, and hazards as defined by the four-floor runtime."
+      ],
+      "room_theory_rule": "This circulation space is not a murder-room card.",
+      "coordinate_ranges": [
+        [
+          8,
+          15,
+          9,
+          9
+        ],
+        [
+          16,
+          30,
+          26,
+          27
+        ],
+        [
+          15,
+          16,
+          9,
+          31
+        ],
+        [
+          30,
+          31,
+          9,
+          31
+        ]
+      ],
+      "design_status": "canonical-v4.3.0"
+    },
+    {
+      "id": "kitk-space-left-upper-corridor",
+      "name": "Left Upper Corridor and Balcony",
+      "space_id": "left_upper_corridor",
+      "floor": "second_floor",
+      "solution_eligible": false,
+      "tags": [
+        "circulation",
+        "not-a-room"
+      ],
+      "suggested_physical_clues": [],
+      "interactive_features": [
+        "Movement, doors, stairs, hidden routes, and hazards as defined by the four-floor runtime."
+      ],
+      "room_theory_rule": "This circulation space is not a murder-room card.",
+      "coordinate_ranges": [
+        [
+          7,
+          20,
+          8,
+          10
+        ],
+        [
+          16,
+          19,
+          10,
+          29
+        ]
+      ],
+      "design_status": "canonical-v4.3.0"
+    },
+    {
+      "id": "kitk-space-right-upper-corridor",
+      "name": "Right Upper Corridor and Balcony",
+      "space_id": "right_upper_corridor",
+      "floor": "second_floor",
+      "solution_eligible": false,
+      "tags": [
+        "circulation",
+        "not-a-room"
+      ],
+      "suggested_physical_clues": [],
+      "interactive_features": [
+        "Movement, doors, stairs, hidden routes, and hazards as defined by the four-floor runtime."
+      ],
+      "room_theory_rule": "This circulation space is not a murder-room card.",
+      "coordinate_ranges": [
+        [
+          27,
+          41,
+          8,
+          10
+        ],
+        [
+          28,
+          31,
+          10,
+          29
+        ]
+      ],
+      "design_status": "canonical-v4.3.0"
+    },
+    {
+      "id": "kitk-space-central-landing",
+      "name": "Grand Stair Central Landing",
+      "space_id": "central_landing",
+      "floor": "second_floor",
+      "solution_eligible": false,
+      "tags": [
+        "circulation",
+        "not-a-room"
+      ],
+      "suggested_physical_clues": [],
+      "interactive_features": [
+        "Movement, doors, stairs, hidden routes, and hazards as defined by the four-floor runtime."
+      ],
+      "room_theory_rule": "This circulation space is not a murder-room card.",
+      "coordinate_ranges": [
+        [
+          20,
+          28,
+          9,
+          13
+        ]
+      ],
+      "design_status": "canonical-v4.3.0"
+    },
+    {
+      "id": "kitk-space-second-floor-service-corridor",
+      "name": "Second-Floor Service Corridor",
+      "space_id": "second_floor_service_corridor",
+      "floor": "second_floor",
+      "solution_eligible": false,
+      "tags": [
+        "circulation",
+        "not-a-room"
+      ],
+      "suggested_physical_clues": [],
+      "interactive_features": [
+        "Movement, doors, stairs, hidden routes, and hazards as defined by the four-floor runtime."
+      ],
+      "room_theory_rule": "This circulation space is not a murder-room card.",
+      "coordinate_ranges": [
+        [
+          0,
+          47,
+          9,
+          10
+        ]
+      ],
+      "design_status": "canonical-v4.3.0"
+    },
+    {
+      "id": "kitk-space-attic-service-passage",
+      "name": "Attic Service Passage",
+      "space_id": "attic_service_passage",
+      "floor": "attic",
+      "solution_eligible": false,
+      "tags": [
+        "circulation",
+        "not-a-room"
+      ],
+      "suggested_physical_clues": [],
+      "interactive_features": [
+        "Movement, doors, stairs, hidden routes, and hazards as defined by the four-floor runtime."
+      ],
+      "room_theory_rule": "This circulation space is not a murder-room card.",
+      "coordinate_ranges": [
+        [
+          21,
+          31,
+          0,
+          31
+        ],
+        [
+          31,
+          47,
+          9,
+          10
+        ],
+        [
+          31,
+          47,
+          25,
+          26
+        ]
+      ],
+      "design_status": "canonical-v4.3.0"
+    }
+  ],
+  "factions": [],
+  "worldbuilding_scope": "Only the storm-bound Killer In The Keep location and directly usable map-space records are included.",
+  "four_floor_runtime": "json/keep-4-floor-runtime.json"
+}

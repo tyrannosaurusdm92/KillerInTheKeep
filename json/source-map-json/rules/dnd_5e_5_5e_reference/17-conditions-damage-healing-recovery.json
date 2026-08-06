@@ -1,0 +1,141 @@
+{
+  "schema_version": "4.0.0",
+  "document_type": "killer_conditions_damage_and_recovery",
+  "system": "Killer In The Keep",
+  "rules_profile": "Killer In The Keep 5E-Compatible Hybrid",
+  "scope": "Killer In The Keep only",
+  "build_date": "2026-08-05",
+  "source_basis": [
+    "KillerInTheKeep_5_Game_Level_Progression.json",
+    "System Reference Document 5.2.1"
+  ],
+  "srd_attribution": "This work includes material from the System Reference Document 5.2.1 (“SRD 5.2.1”) by Wizards of the Coast LLC, available at https://www.dndbeyond.com/srd. The SRD 5.2.1 is licensed under the Creative Commons Attribution 4.0 International License, available at https://creativecommons.org/licenses/by/4.0/legalcode.",
+  "publisher_affiliation": "Killer In The Keep is an independent project and is not endorsed by Wizards of the Coast.",
+  "record_count": 18,
+  "conditions": [
+    {
+      "id": "kitk-condition-blinded",
+      "name": "Blinded",
+      "effect": "Cannot see; attacks against the creature have Advantage, and its attacks have Disadvantage. Automatically fails sight-dependent checks."
+    },
+    {
+      "id": "kitk-condition-charmed",
+      "name": "Charmed",
+      "effect": "Cannot attack or directly harm the charmer and the charmer has Advantage on social checks against it. Does not force evidence revelation or accusation choices."
+    },
+    {
+      "id": "kitk-condition-deafened",
+      "name": "Deafened",
+      "effect": "Cannot hear and automatically fails hearing-dependent checks."
+    },
+    {
+      "id": "kitk-condition-frightened",
+      "name": "Frightened",
+      "effect": "Has Disadvantage on ability checks and attacks while the fear source is visible and cannot willingly move closer to it."
+    },
+    {
+      "id": "kitk-condition-grappled",
+      "name": "Grappled",
+      "effect": "Speed becomes 0. Ends if the grappler is incapacitated or the creature escapes."
+    },
+    {
+      "id": "kitk-condition-incapacitated",
+      "name": "Incapacitated",
+      "effect": "Cannot take Actions, Bonus Actions, or Reactions and loses Concentration."
+    },
+    {
+      "id": "kitk-condition-invisible",
+      "name": "Invisible",
+      "effect": "Cannot be seen without a special sense; attacks against it have Disadvantage and its attacks have Advantage when location is known."
+    },
+    {
+      "id": "kitk-condition-paralyzed",
+      "name": "Paralyzed",
+      "effect": "Incapacitated, speed 0, automatically fails Strength and Dexterity saves; attacks from within 5 feet that hit are critical hits."
+    },
+    {
+      "id": "kitk-condition-poisoned",
+      "name": "Poisoned",
+      "effect": "Has Disadvantage on attack rolls and ability checks."
+    },
+    {
+      "id": "kitk-condition-prone",
+      "name": "Prone",
+      "effect": "Crawls at extra movement cost; attacks within 5 feet have Advantage, farther attacks have Disadvantage; its attacks have Disadvantage."
+    },
+    {
+      "id": "kitk-condition-restrained",
+      "name": "Restrained",
+      "effect": "Speed 0; attacks against it have Advantage, its attacks have Disadvantage, and it has Disadvantage on Dexterity saves."
+    },
+    {
+      "id": "kitk-condition-stunned",
+      "name": "Stunned",
+      "effect": "Incapacitated, speed 0, automatically fails Strength and Dexterity saves, and attacks against it have Advantage."
+    },
+    {
+      "id": "kitk-condition-unconscious",
+      "name": "Unconscious",
+      "effect": "Incapacitated and Prone, drops held items, automatically fails Strength and Dexterity saves, and close hits are critical hits."
+    },
+    {
+      "id": "kitk-condition-burning",
+      "name": "Burning",
+      "effect": "Killer condition: takes listed fire damage at the start of each turn until an Action, water, smothering, or another stated counterplay ends it."
+    },
+    {
+      "id": "kitk-condition-corroding",
+      "name": "Corroding",
+      "effect": "Killer condition: takes listed acid damage at the start of each turn until cleaned, neutralized, scraped away, or the source ends."
+    },
+    {
+      "id": "kitk-condition-cursed",
+      "name": "Cursed",
+      "effect": "Killer marker for a named persistent magical penalty; each curse states its removal method."
+    },
+    {
+      "id": "kitk-condition-downed",
+      "name": "Downed",
+      "effect": "At 0 HP, Unconscious and making death saves unless stabilized. Three successes stabilize; three failures kill. Damage can cause failures."
+    },
+    {
+      "id": "kitk-condition-eliminated",
+      "name": "Eliminated",
+      "effect": "A dead hero outside the two-round restoration window. The player becomes a spectator unless Gunnus’s Work Separately zombie rule or a lobby variant applies."
+    }
+  ],
+  "damage_types": [
+    "Acid",
+    "Bludgeoning",
+    "Cold",
+    "Fire",
+    "Force",
+    "Lightning",
+    "Necrotic",
+    "Piercing",
+    "Poison",
+    "Psychic",
+    "Radiant",
+    "Slashing",
+    "Thunder"
+  ],
+  "healing_rules": [
+    "Healing cannot raise HP above maximum.",
+    "A creature at 0 HP that receives healing regains consciousness unless a rule says otherwise.",
+    "Temporary HP does not stack; keep the higher amount.",
+    "A stabilized hero remains at 0 HP and stops making death saves."
+  ],
+  "death_saves": {
+    "success": "10 or higher",
+    "failure": "9 or lower",
+    "stabilize": "3 successes",
+    "death": "3 failures",
+    "natural_20": "Regain 1 HP",
+    "natural_1": "Counts as 2 failures"
+  },
+  "killer_elimination_rule": "A dead hero can be restored within two rounds. After that, the hero is Eliminated for the current mystery unless a named Killer rule applies.",
+  "resting": {
+    "short_rest": "A defended pause that restores selected class resources and allows limited healing.",
+    "long_rest": "A risky multi-turn rest that refreshes limited powers but can advance the storm, spawn patrols, or allow rivals to move."
+  }
+}

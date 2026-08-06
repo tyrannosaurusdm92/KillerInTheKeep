@@ -1,0 +1,22 @@
+{
+  "schema_version": "4.4.0",
+  "status": "PASS",
+  "errors": [],
+  "warnings": [],
+  "checks": {
+    "json_files_parsed": 303,
+    "regular_sheets": 8,
+    "autonomous_sheets": 8,
+    "character_cards": 8,
+    "public_room_cards": 22,
+    "public_card_leak_scan_files": 85,
+    "ghost_required_actions": [
+      "influence_monster",
+      "set_new_trap",
+      "trigger_existing_trap"
+    ],
+    "work_together_starts": 8,
+    "full_pvp_starts": 8,
+    "nested_zip_count": 0
+  }
+}

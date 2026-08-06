@@ -1,0 +1,165 @@
+{
+  "schema_version": "4.0.0",
+  "document_type": "killer_json_dataset_manifest",
+  "system": "Killer In The Keep",
+  "rules_profile": "Killer In The Keep 5E-Compatible Hybrid",
+  "scope": "Killer In The Keep only",
+  "build_date": "2026-08-05",
+  "source_basis": [
+    "KillerInTheKeep_5_Game_Level_Progression.json",
+    "System Reference Document 5.2.1"
+  ],
+  "srd_attribution": "This work includes material from the System Reference Document 5.2.1 (“SRD 5.2.1”) by Wizards of the Coast LLC, available at https://www.dndbeyond.com/srd. The SRD 5.2.1 is licensed under the Creative Commons Attribution 4.0 International License, available at https://creativecommons.org/licenses/by/4.0/legalcode.",
+  "publisher_affiliation": "Killer In The Keep is an independent project and is not endorsed by Wizards of the Coast.",
+  "dataset": "Killer In The Keep Dungeons-and-Dragons-Compatible Rules JSON",
+  "folder": "01-dungeons-and-dragons",
+  "build_time_utc": "2026-08-05T05:46:00Z",
+  "content_policy": "Every record must directly support Killer In The Keep. No generic catalog filler is permitted.",
+  "canonical_counts": {
+    "heroes": 8,
+    "suspects": 8,
+    "murder_weapons": 8,
+    "solution_rooms": 16,
+    "game_levels": 5,
+    "hero_powers": 69,
+    "monster_and_summon_records": 12,
+    "traps": 12
+  },
+  "files": [
+    {
+      "file": "01-licensing-and-scope.json",
+      "bytes": 2959,
+      "sha256": "5c87a908b2242969636c48fb30dbceecba562e30d47efdf77bdb0ce5b45ae857"
+    },
+    {
+      "file": "02-edition-timeline-and-conversion.json",
+      "bytes": 3085,
+      "sha256": "e0fbf54810537af0c1e925326f992dad02deb719a4080cced5361d7c001047e9"
+    },
+    {
+      "file": "03-complete-how-to-play.json",
+      "bytes": 13473,
+      "sha256": "288dd9fa4bc28c3391dbddc0018eadd758dd5ebb20ab3297d136290b331d5ef3"
+    },
+    {
+      "file": "04-character-creation.json",
+      "bytes": 44034,
+      "sha256": "52df57ffe856bf52f4366a82505ffee8c7bc9d32955575480509cadb1319180d"
+    },
+    {
+      "file": "05-advancement-and-leveling.json",
+      "bytes": 19163,
+      "sha256": "deca000c68155c729f0cd47acd4ebad9b42baefd9a791c0feec6df20a0a63293"
+    },
+    {
+      "file": "06-combat-attacks-actions.json",
+      "bytes": 10538,
+      "sha256": "44bc7baeb90ebd6b4f5bf569ba6daaf3aae88d7e33e6f4aa744ea31048924dd5"
+    },
+    {
+      "file": "07-magic-spells-powers-rituals.json",
+      "bytes": 83166,
+      "sha256": "5858723885a1b56a89fbadd5ed780e1ba894e0917868086d8836c2d98b7d062b"
+    },
+    {
+      "file": "08-classes-archetypes-playbooks.json",
+      "bytes": 18659,
+      "sha256": "0291c34a225fd6cac6fe3f816a0ce4a71b32947551a63e547a7b4c0c058dd127"
+    },
+    {
+      "file": "09-ancestries-races-species-lineages.json",
+      "bytes": 4759,
+      "sha256": "55d46d7a0e7a647541a4678573168036ffb8dff6ade2ae35c0fa0724867a5fcb"
+    },
+    {
+      "file": "10-subclasses-specializations-paths.json",
+      "bytes": 18362,
+      "sha256": "54a463f18b78ed842b0bd720482c0478c300ed9cc0e124993c72507c41afb157"
+    },
+    {
+      "file": "11-backgrounds-origins-professions.json",
+      "bytes": 7352,
+      "sha256": "9d9665b2f1dac51fc40cd33c1d1200a2e7066fc0bc9992770f40e314bc0be9fe"
+    },
+    {
+      "file": "12-skills-proficiencies-approaches-actions.json",
+      "bytes": 8096,
+      "sha256": "b74ca6c65ffb2639c7545f11093838e27b1185672af652260d53d630d2e01d24"
+    },
+    {
+      "file": "13-feats-edges-stunts-moves-quirks.json",
+      "bytes": 8249,
+      "sha256": "1e286919bf2230da56164ae5e76b51b83de9435e79c6c561302971487d520c01"
+    },
+    {
+      "file": "14-weapons-ammunition-attack-gear.json",
+      "bytes": 5366,
+      "sha256": "a117c06e5b0f48df2f2e27cb40872eacc3ecac8d8cc61d4073541b0afe8ff36a"
+    },
+    {
+      "file": "15-armor-shields-protective-gear.json",
+      "bytes": 4579,
+      "sha256": "7f1fa37b881ae74f048a52cb649088809b0a85e0c31f5c992d8dcedd68f00afd"
+    },
+    {
+      "file": "16-equipment-consumables-services-vehicles.json",
+      "bytes": 6414,
+      "sha256": "b7fb20ffda79274dedc6a2673cab41bf43ed5fa155859c42655c902a739ad236"
+    },
+    {
+      "file": "17-conditions-damage-healing-recovery.json",
+      "bytes": 5897,
+      "sha256": "5cc9d6d57b70e48203ab9ff45258ded8a75d3f2b95f3298f5b0f386732c57bb9"
+    },
+    {
+      "file": "18-npcs-adversaries-monsters-allies.json",
+      "bytes": 10659,
+      "sha256": "62376e12bad741ef1e9a62c8b03c28696571849d72b3af3be4a03f265eb2e7a7"
+    },
+    {
+      "file": "19-locations-factions-worldbuilding.json",
+      "bytes": 17655,
+      "sha256": "9d93b4561f6d0c2f4113b03eb5ea152d8456c96fb9c2af899bdcce56afa56450"
+    },
+    {
+      "file": "20-modules-adventures-scenarios-campaigns.json",
+      "bytes": 3635,
+      "sha256": "b8695b8d549f022cb92e938ea83dd278403352aadc7e8f5f667406e016d5a004"
+    },
+    {
+      "file": "21-encounters-rewards-loot-treasure.json",
+      "bytes": 14365,
+      "sha256": "13f614489f5167ce4fb89527673d4745d0ebdc4c0147cbb523ad7c783d3d889c"
+    },
+    {
+      "file": "22-facilitator-tools.json",
+      "bytes": 4478,
+      "sha256": "da7edb94ba067e5ccbde0c8c0d3a3a5fdf68cee957d9d9b65c2aed9068ce5221"
+    },
+    {
+      "file": "23-rules-lookup-file-index.json",
+      "bytes": 3883,
+      "sha256": "2db03006480f03d82c8f80cd6c868903779b1bb874e21c903bb698de0098a4d9"
+    },
+    {
+      "file": "89-user-supplied-import-manifest.json",
+      "bytes": 1326,
+      "sha256": "b33c6930580688a491e825481f0749240dc3bd869074f8b735a4b4326a73138b"
+    },
+    {
+      "file": "90-user-supplied-dnd-5e-5-5e-xp-progression-calculator.json",
+      "bytes": 2524,
+      "sha256": "d260fb69f6d0d190b52dde8747028b548c93ff025cf015c0c998c7008a935ff1"
+    },
+    {
+      "file": "99-validation-audit.json",
+      "bytes": 6167,
+      "sha256": "da2345cfc76d3c458e989d915bab7f2e672d1783aaaf8435b0d5e269ad55a9b0"
+    }
+  ],
+  "source_files": [
+    "KillerInTheKeep_5_Game_Level_Progression(4).json",
+    "SRD_CC_v5.2.1(2).pdf"
+  ],
+  "file_count": 27
+}

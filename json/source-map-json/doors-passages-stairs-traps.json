@@ -1,0 +1,1127 @@
+{
+  "schema_version": "4.3.0",
+  "doors": [
+    {
+      "id": "door_main_entrance",
+      "floor": "first_floor",
+      "cell": {
+        "floor": "first_floor",
+        "x": 24,
+        "y": 31,
+        "label": "Y32",
+        "feet": {
+          "x": 120,
+          "y": 155
+        }
+      },
+      "connects": [
+        "outside",
+        "foyer"
+      ],
+      "orientation": "south",
+      "locked": true,
+      "lock_dc": 18,
+      "trapped": false,
+      "hidden": false,
+      "state_rule": "Unlocked after match opening; relocks during Lockdown sabotage."
+    },
+    {
+      "id": "door_foyer_grand_hall",
+      "floor": "first_floor",
+      "cell": {
+        "floor": "first_floor",
+        "x": 24,
+        "y": 26,
+        "label": "Y27",
+        "feet": {
+          "x": 120,
+          "y": 130
+        }
+      },
+      "connects": [
+        "foyer",
+        "grand_hall"
+      ],
+      "orientation": "north",
+      "locked": false,
+      "trapped": false,
+      "hidden": false
+    },
+    {
+      "id": "door_grand_hall_game_room",
+      "floor": "first_floor",
+      "cell": {
+        "floor": "first_floor",
+        "x": 31,
+        "y": 24,
+        "label": "AF25",
+        "feet": {
+          "x": 155,
+          "y": 120
+        }
+      },
+      "connects": [
+        "grand_hall",
+        "game_room"
+      ],
+      "orientation": "east",
+      "locked": false,
+      "trapped": false,
+      "hidden": false
+    },
+    {
+      "id": "door_grand_hall_dining_room",
+      "floor": "first_floor",
+      "cell": {
+        "floor": "first_floor",
+        "x": 31,
+        "y": 15,
+        "label": "AF16",
+        "feet": {
+          "x": 155,
+          "y": 75
+        }
+      },
+      "connects": [
+        "grand_hall",
+        "dining_room"
+      ],
+      "orientation": "east",
+      "locked": false,
+      "trapped": false,
+      "hidden": false
+    },
+    {
+      "id": "door_dining_kitchen",
+      "floor": "first_floor",
+      "cell": {
+        "floor": "first_floor",
+        "x": 35,
+        "y": 9,
+        "label": "AJ10",
+        "feet": {
+          "x": 175,
+          "y": 45
+        }
+      },
+      "connects": [
+        "dining_room",
+        "kitchen"
+      ],
+      "orientation": "north",
+      "locked": false,
+      "trapped": false,
+      "hidden": false
+    },
+    {
+      "id": "door_kitchen_pantry",
+      "floor": "first_floor",
+      "cell": {
+        "floor": "first_floor",
+        "x": 39,
+        "y": 5,
+        "label": "AN6",
+        "feet": {
+          "x": 195,
+          "y": 25
+        }
+      },
+      "connects": [
+        "kitchen",
+        "pantry"
+      ],
+      "orientation": "east",
+      "locked": false,
+      "trapped": false,
+      "hidden": false
+    },
+    {
+      "id": "door_pantry_cellar_stair",
+      "floor": "first_floor",
+      "cell": {
+        "floor": "first_floor",
+        "x": 43,
+        "y": 5,
+        "label": "AR6",
+        "feet": {
+          "x": 215,
+          "y": 25
+        }
+      },
+      "connects": [
+        "pantry",
+        "cellar_staircase"
+      ],
+      "orientation": "down",
+      "locked": true,
+      "lock_dc": 12,
+      "trapped": true,
+      "trap_ref": "trap-deck-green-slime-trap-card",
+      "hidden": false
+    },
+    {
+      "id": "door_grand_hall_sitting",
+      "floor": "first_floor",
+      "cell": {
+        "floor": "first_floor",
+        "x": 15,
+        "y": 24,
+        "label": "P25",
+        "feet": {
+          "x": 75,
+          "y": 120
+        }
+      },
+      "connects": [
+        "grand_hall",
+        "sitting_room"
+      ],
+      "orientation": "west",
+      "locked": false,
+      "trapped": false,
+      "hidden": false
+    },
+    {
+      "id": "door_sitting_music",
+      "floor": "first_floor",
+      "cell": {
+        "floor": "first_floor",
+        "x": 7,
+        "y": 21,
+        "label": "H22",
+        "feet": {
+          "x": 35,
+          "y": 105
+        }
+      },
+      "connects": [
+        "sitting_room",
+        "music_room"
+      ],
+      "orientation": "west",
+      "locked": false,
+      "trapped": false,
+      "hidden": false
+    },
+    {
+      "id": "door_music_privy",
+      "floor": "first_floor",
+      "cell": {
+        "floor": "first_floor",
+        "x": 2,
+        "y": 17,
+        "label": "C18",
+        "feet": {
+          "x": 10,
+          "y": 85
+        }
+      },
+      "connects": [
+        "music_room",
+        "privy"
+      ],
+      "orientation": "north",
+      "locked": false,
+      "trapped": false,
+      "hidden": false
+    },
+    {
+      "id": "door_grand_hall_library",
+      "floor": "first_floor",
+      "cell": {
+        "floor": "first_floor",
+        "x": 16,
+        "y": 15,
+        "label": "Q16",
+        "feet": {
+          "x": 80,
+          "y": 75
+        }
+      },
+      "connects": [
+        "grand_hall",
+        "library"
+      ],
+      "orientation": "west",
+      "locked": false,
+      "trapped": false,
+      "hidden": false
+    },
+    {
+      "id": "door_library_solar",
+      "floor": "first_floor",
+      "cell": {
+        "floor": "first_floor",
+        "x": 8,
+        "y": 9,
+        "label": "I10",
+        "feet": {
+          "x": 40,
+          "y": 45
+        }
+      },
+      "connects": [
+        "library",
+        "first_floor_solar"
+      ],
+      "orientation": "northwest",
+      "locked": true,
+      "lock_dc": 13,
+      "trapped": false,
+      "hidden": false
+    },
+    {
+      "id": "door_solar_alchemist_quarters",
+      "floor": "first_floor",
+      "cell": {
+        "floor": "first_floor",
+        "x": 7,
+        "y": 4,
+        "label": "H5",
+        "feet": {
+          "x": 35,
+          "y": 20
+        }
+      },
+      "connects": [
+        "alchemists_quarters",
+        "first_floor_solar"
+      ],
+      "orientation": "east",
+      "locked": true,
+      "lock_dc": 14,
+      "trapped": false,
+      "hidden": false
+    },
+    {
+      "id": "door_solar_study",
+      "floor": "first_floor",
+      "cell": {
+        "floor": "first_floor",
+        "x": 12,
+        "y": 4,
+        "label": "M5",
+        "feet": {
+          "x": 60,
+          "y": 20
+        }
+      },
+      "connects": [
+        "first_floor_solar",
+        "alchemists_study"
+      ],
+      "orientation": "east",
+      "locked": true,
+      "lock_dc": 15,
+      "trapped": true,
+      "trap_ref": "trap-deck-poison-darts-trap-card",
+      "hidden": false
+    },
+    {
+      "id": "door_study_armory",
+      "floor": "first_floor",
+      "cell": {
+        "floor": "first_floor",
+        "x": 20,
+        "y": 4,
+        "label": "U5",
+        "feet": {
+          "x": 100,
+          "y": 20
+        }
+      },
+      "connects": [
+        "alchemists_study",
+        "armory"
+      ],
+      "orientation": "east",
+      "locked": true,
+      "lock_dc": 16,
+      "trapped": false,
+      "hidden": false
+    },
+    {
+      "id": "door_armory_reinforced",
+      "floor": "first_floor",
+      "cell": {
+        "floor": "first_floor",
+        "x": 25,
+        "y": 8,
+        "label": "Z9",
+        "feet": {
+          "x": 125,
+          "y": 40
+        }
+      },
+      "connects": [
+        "armory",
+        "rear_service_corridor"
+      ],
+      "orientation": "south",
+      "locked": true,
+      "lock_dc": 17,
+      "trapped": true,
+      "trap_ref": "trap-deck-poison-spiked-pit-trap-card",
+      "hidden": false
+    },
+    {
+      "id": "door_secondary_guest",
+      "floor": "second_floor",
+      "cell": {
+        "floor": "second_floor",
+        "x": 7,
+        "y": 15,
+        "label": "H16",
+        "feet": {
+          "x": 35,
+          "y": 75
+        }
+      },
+      "connects": [
+        "secondary_guest_quarters",
+        "left_upper_corridor"
+      ],
+      "orientation": "east",
+      "locked": true,
+      "lock_dc": 12,
+      "trapped": false,
+      "hidden": false,
+      "state_rule": "May be locked from inside."
+    },
+    {
+      "id": "door_main_guest",
+      "floor": "second_floor",
+      "cell": {
+        "floor": "second_floor",
+        "x": 38,
+        "y": 15,
+        "label": "AM16",
+        "feet": {
+          "x": 190,
+          "y": 75
+        }
+      },
+      "connects": [
+        "main_guest_quarters",
+        "right_upper_corridor"
+      ],
+      "orientation": "west",
+      "locked": true,
+      "lock_dc": 12,
+      "trapped": false,
+      "hidden": false,
+      "state_rule": "May be locked from inside."
+    },
+    {
+      "id": "door_landing_den",
+      "floor": "second_floor",
+      "cell": {
+        "floor": "second_floor",
+        "x": 24,
+        "y": 9,
+        "label": "Y10",
+        "feet": {
+          "x": 120,
+          "y": 45
+        }
+      },
+      "connects": [
+        "central_landing",
+        "den"
+      ],
+      "orientation": "north",
+      "locked": false,
+      "trapped": false,
+      "hidden": false
+    },
+    {
+      "id": "door_den_chapel",
+      "floor": "second_floor",
+      "cell": {
+        "floor": "second_floor",
+        "x": 19,
+        "y": 4,
+        "label": "T5",
+        "feet": {
+          "x": 95,
+          "y": 20
+        }
+      },
+      "connects": [
+        "den",
+        "chapel"
+      ],
+      "orientation": "west",
+      "locked": false,
+      "trapped": false,
+      "hidden": false
+    },
+    {
+      "id": "door_den_solar2",
+      "floor": "second_floor",
+      "cell": {
+        "floor": "second_floor",
+        "x": 28,
+        "y": 4,
+        "label": "AC5",
+        "feet": {
+          "x": 140,
+          "y": 20
+        }
+      },
+      "connects": [
+        "den",
+        "second_floor_solar"
+      ],
+      "orientation": "east",
+      "locked": true,
+      "lock_dc": 13,
+      "trapped": false,
+      "hidden": false
+    },
+    {
+      "id": "door_library_upper",
+      "floor": "second_floor",
+      "cell": {
+        "floor": "second_floor",
+        "x": 15,
+        "y": 21,
+        "label": "P22",
+        "feet": {
+          "x": 75,
+          "y": 105
+        }
+      },
+      "connects": [
+        "library",
+        "left_upper_corridor"
+      ],
+      "orientation": "north",
+      "locked": false,
+      "trapped": false,
+      "hidden": false
+    },
+    {
+      "id": "door_attic_servants",
+      "floor": "attic",
+      "cell": {
+        "floor": "attic",
+        "x": 32,
+        "y": 17,
+        "label": "AG18",
+        "feet": {
+          "x": 160,
+          "y": 85
+        }
+      },
+      "connects": [
+        "attic_service_passage",
+        "servants_quarters"
+      ],
+      "orientation": "east",
+      "locked": false,
+      "trapped": false,
+      "hidden": false
+    },
+    {
+      "id": "door_roof_access",
+      "floor": "attic",
+      "cell": {
+        "floor": "attic",
+        "x": 39,
+        "y": 1,
+        "label": "AN2",
+        "feet": {
+          "x": 195,
+          "y": 5
+        }
+      },
+      "connects": [
+        "attic",
+        "roof_access"
+      ],
+      "orientation": "up",
+      "locked": true,
+      "lock_dc": 14,
+      "trapped": false,
+      "hidden": false
+    }
+  ],
+  "normal_stairs": [
+    {
+      "id": "stair_pantry_cellar",
+      "type": "normal_stair",
+      "two_way": true,
+      "from": {
+        "floor": "first_floor",
+        "x": 43,
+        "y": 5,
+        "label": "AR6",
+        "feet": {
+          "x": 215,
+          "y": 25
+        }
+      },
+      "to": {
+        "floor": "cellar",
+        "x": 39,
+        "y": 4,
+        "label": "AN5",
+        "feet": {
+          "x": 195,
+          "y": 20
+        }
+      },
+      "connects": [
+        "pantry",
+        "undercroft_passage"
+      ],
+      "movement_cost": 2
+    },
+    {
+      "id": "grand_stair_right",
+      "type": "grand_stair",
+      "two_way": true,
+      "from": {
+        "floor": "first_floor",
+        "x": 27,
+        "y": 22,
+        "label": "AB23",
+        "feet": {
+          "x": 135,
+          "y": 110
+        }
+      },
+      "to": {
+        "floor": "second_floor",
+        "x": 29,
+        "y": 12,
+        "label": "AD13",
+        "feet": {
+          "x": 145,
+          "y": 60
+        }
+      },
+      "connects": [
+        "grand_hall",
+        "right_upper_corridor"
+      ],
+      "movement_cost": 3
+    },
+    {
+      "id": "grand_stair_left",
+      "type": "grand_stair",
+      "two_way": true,
+      "from": {
+        "floor": "first_floor",
+        "x": 21,
+        "y": 22,
+        "label": "V23",
+        "feet": {
+          "x": 105,
+          "y": 110
+        }
+      },
+      "to": {
+        "floor": "second_floor",
+        "x": 19,
+        "y": 12,
+        "label": "T13",
+        "feet": {
+          "x": 95,
+          "y": 60
+        }
+      },
+      "connects": [
+        "grand_hall",
+        "left_upper_corridor"
+      ],
+      "movement_cost": 3
+    },
+    {
+      "id": "library_spiral_stair",
+      "type": "spiral_stair",
+      "two_way": true,
+      "from": {
+        "floor": "first_floor",
+        "x": 12,
+        "y": 15,
+        "label": "M16",
+        "feet": {
+          "x": 60,
+          "y": 75
+        }
+      },
+      "to": {
+        "floor": "second_floor",
+        "x": 12,
+        "y": 25,
+        "label": "M26",
+        "feet": {
+          "x": 60,
+          "y": 125
+        }
+      },
+      "connects": [
+        "library",
+        "library"
+      ],
+      "movement_cost": 2
+    },
+    {
+      "id": "servants_stair_first_second",
+      "type": "service_stair",
+      "two_way": true,
+      "from": {
+        "floor": "first_floor",
+        "x": 40,
+        "y": 5,
+        "label": "AO6",
+        "feet": {
+          "x": 200,
+          "y": 25
+        }
+      },
+      "to": {
+        "floor": "second_floor",
+        "x": 40,
+        "y": 5,
+        "label": "AO6",
+        "feet": {
+          "x": 200,
+          "y": 25
+        }
+      },
+      "connects": [
+        "kitchen",
+        "second_floor_service_corridor"
+      ],
+      "movement_cost": 2
+    },
+    {
+      "id": "servants_stair_second_attic",
+      "type": "service_stair",
+      "two_way": true,
+      "from": {
+        "floor": "second_floor",
+        "x": 40,
+        "y": 5,
+        "label": "AO6",
+        "feet": {
+          "x": 200,
+          "y": 25
+        }
+      },
+      "to": {
+        "floor": "attic",
+        "x": 39,
+        "y": 5,
+        "label": "AN6",
+        "feet": {
+          "x": 195,
+          "y": 25
+        }
+      },
+      "connects": [
+        "second_floor_service_corridor",
+        "attic_service_passage"
+      ],
+      "movement_cost": 2
+    }
+  ],
+  "secret_passages": [
+    {
+      "id": "secret_den_cellar",
+      "route": "Den ↔ Cellar",
+      "two_way": true,
+      "entry": {
+        "floor": "second_floor",
+        "x": 23,
+        "y": 2,
+        "label": "X3",
+        "feet": {
+          "x": 115,
+          "y": 10
+        }
+      },
+      "exit": {
+        "floor": "cellar",
+        "x": 25,
+        "y": 28,
+        "label": "Z29",
+        "feet": {
+          "x": 125,
+          "y": 140
+        }
+      },
+      "connects": [
+        "den",
+        "undercroft_passage"
+      ],
+      "concealment": "Fireplace surround or carved central wall panel",
+      "discovery_dc": 15,
+      "locked": false,
+      "trapped": false,
+      "known_to_killer": true,
+      "movement_ends_turn": true
+    },
+    {
+      "id": "secret_alchemist_cellar",
+      "route": "Alchemist’s Quarters ↔ Cellar",
+      "two_way": true,
+      "entry": {
+        "floor": "first_floor",
+        "x": 6,
+        "y": 2,
+        "label": "G3",
+        "feet": {
+          "x": 30,
+          "y": 10
+        }
+      },
+      "exit": {
+        "floor": "cellar",
+        "x": 10,
+        "y": 4,
+        "label": "K5",
+        "feet": {
+          "x": 50,
+          "y": 20
+        }
+      },
+      "connects": [
+        "alchemists_quarters",
+        "undercroft_passage"
+      ],
+      "concealment": "False back inside the bedchamber wardrobe",
+      "discovery_dc": 14,
+      "locked": true,
+      "lock_dc": 15,
+      "trapped": false,
+      "known_to_killer": true,
+      "movement_ends_turn": true
+    },
+    {
+      "id": "secret_armory_cellar",
+      "route": "Armory ↔ Cellar",
+      "two_way": true,
+      "entry": {
+        "floor": "first_floor",
+        "x": 26,
+        "y": 2,
+        "label": "AA3",
+        "feet": {
+          "x": 130,
+          "y": 10
+        }
+      },
+      "exit": {
+        "floor": "cellar",
+        "x": 40,
+        "y": 27,
+        "label": "AO28",
+        "feet": {
+          "x": 200,
+          "y": 135
+        }
+      },
+      "connects": [
+        "armory",
+        "undercroft_passage"
+      ],
+      "concealment": "Pivoting weapon rack",
+      "discovery_dc": 16,
+      "locked": true,
+      "lock_dc": 16,
+      "trapped": true,
+      "trap_ref": "trap-deck-poison-spiked-pit-trap-card",
+      "known_to_killer": true,
+      "movement_ends_turn": true
+    },
+    {
+      "id": "secret_library_chapel",
+      "route": "Library Upper Gallery ↔ Chapel",
+      "two_way": true,
+      "entry": {
+        "floor": "second_floor",
+        "x": 10,
+        "y": 23,
+        "label": "K24",
+        "feet": {
+          "x": 50,
+          "y": 115
+        }
+      },
+      "exit": {
+        "floor": "second_floor",
+        "x": 10,
+        "y": 4,
+        "label": "K5",
+        "feet": {
+          "x": 50,
+          "y": 20
+        }
+      },
+      "connects": [
+        "library",
+        "chapel"
+      ],
+      "concealment": "Rotating bookcase to mural-wall passage; devotional panel exit",
+      "discovery_dc": 16,
+      "locked": false,
+      "trapped": true,
+      "trap_ref": "trap-deck-falling-net-trap-card",
+      "known_to_killer": false,
+      "movement_ends_turn": true
+    },
+    {
+      "id": "secret_main_guest_solar1",
+      "route": "Main Guest Quarters ↔ 1st Floor Solar",
+      "two_way": true,
+      "entry": {
+        "floor": "second_floor",
+        "x": 44,
+        "y": 17,
+        "label": "AS18",
+        "feet": {
+          "x": 220,
+          "y": 85
+        }
+      },
+      "exit": {
+        "floor": "first_floor",
+        "x": 10,
+        "y": 4,
+        "label": "K5",
+        "feet": {
+          "x": 50,
+          "y": 20
+        }
+      },
+      "connects": [
+        "main_guest_quarters",
+        "first_floor_solar"
+      ],
+      "concealment": "Guest fireplace/bed alcove conceals a spiral stair emerging behind the Solar’s wall cabinet",
+      "discovery_dc": 15,
+      "locked": false,
+      "trapped": false,
+      "known_to_killer": true,
+      "movement_ends_turn": true
+    },
+    {
+      "id": "secret_secondary_guest_music",
+      "route": "Secondary Guest Quarters ↔ Music Room",
+      "two_way": true,
+      "entry": {
+        "floor": "second_floor",
+        "x": 3,
+        "y": 17,
+        "label": "D18",
+        "feet": {
+          "x": 15,
+          "y": 85
+        }
+      },
+      "exit": {
+        "floor": "first_floor",
+        "x": 4,
+        "y": 20,
+        "label": "E21",
+        "feet": {
+          "x": 20,
+          "y": 100
+        }
+      },
+      "connects": [
+        "secondary_guest_quarters",
+        "music_room"
+      ],
+      "concealment": "Tapestry/window-seat latch; instrument cabinet exit",
+      "discovery_dc": 14,
+      "locked": false,
+      "trapped": false,
+      "known_to_killer": true,
+      "movement_ends_turn": true
+    },
+    {
+      "id": "secret_game_attic",
+      "route": "Game Room ↔ Attic",
+      "two_way": true,
+      "entry": {
+        "floor": "first_floor",
+        "x": 36,
+        "y": 27,
+        "label": "AK28",
+        "feet": {
+          "x": 180,
+          "y": 135
+        }
+      },
+      "exit": {
+        "floor": "attic",
+        "x": 17,
+        "y": 19,
+        "label": "R20",
+        "feet": {
+          "x": 85,
+          "y": 95
+        }
+      },
+      "connects": [
+        "game_room",
+        "attic"
+      ],
+      "concealment": "Gaming cabinet/trophy case to old corner-tower guard stair; storage-chest exit",
+      "discovery_dc": 17,
+      "locked": true,
+      "lock_dc": 14,
+      "trapped": true,
+      "trap_ref": "trap-deck-collapsing-roof-trap-card",
+      "known_to_killer": false,
+      "movement_ends_turn": true
+    }
+  ],
+  "traps": [
+    {
+      "id": "trap_cellar_acid_pit",
+      "card_ref": "trap-deck-acid-pit-trap-card",
+      "floor": "cellar",
+      "cell": {
+        "floor": "cellar",
+        "x": 34,
+        "y": 21,
+        "label": "AI22",
+        "feet": {
+          "x": 170,
+          "y": 105
+        }
+      },
+      "room_id": "cellar",
+      "hidden": true,
+      "notice_dc": 15,
+      "disable_dc": 15,
+      "trigger": "enter_cell"
+    },
+    {
+      "id": "trap_pantry_green_slime",
+      "card_ref": "trap-deck-green-slime-trap-card",
+      "floor": "first_floor",
+      "cell": {
+        "floor": "first_floor",
+        "x": 43,
+        "y": 5,
+        "label": "AR6",
+        "feet": {
+          "x": 215,
+          "y": 25
+        }
+      },
+      "room_id": "pantry",
+      "hidden": true,
+      "notice_dc": 13,
+      "disable_dc": 14,
+      "trigger": "open_cellar_stair_door"
+    },
+    {
+      "id": "trap_study_poison_darts",
+      "card_ref": "trap-deck-poison-darts-trap-card",
+      "floor": "first_floor",
+      "cell": {
+        "floor": "first_floor",
+        "x": 12,
+        "y": 4,
+        "label": "M5",
+        "feet": {
+          "x": 60,
+          "y": 20
+        }
+      },
+      "room_id": "alchemists_study",
+      "hidden": true,
+      "notice_dc": 14,
+      "disable_dc": 15,
+      "trigger": "open_locked_door"
+    },
+    {
+      "id": "trap_game_locking_pit",
+      "card_ref": "trap-deck-locking-pit-trap-card",
+      "floor": "first_floor",
+      "cell": {
+        "floor": "first_floor",
+        "x": 34,
+        "y": 28,
+        "label": "AI29",
+        "feet": {
+          "x": 170,
+          "y": 140
+        }
+      },
+      "room_id": "game_room",
+      "hidden": true,
+      "notice_dc": 15,
+      "disable_dc": 15,
+      "trigger": "open_trapped_chest"
+    },
+    {
+      "id": "trap_armory_poison_spikes",
+      "card_ref": "trap-deck-poison-spiked-pit-trap-card",
+      "floor": "first_floor",
+      "cell": {
+        "floor": "first_floor",
+        "x": 26,
+        "y": 2,
+        "label": "AA3",
+        "feet": {
+          "x": 130,
+          "y": 10
+        }
+      },
+      "room_id": "armory",
+      "hidden": true,
+      "notice_dc": 16,
+      "disable_dc": 16,
+      "trigger": "use_secret_passage"
+    },
+    {
+      "id": "trap_library_falling_net",
+      "card_ref": "trap-deck-falling-net-trap-card",
+      "floor": "second_floor",
+      "cell": {
+        "floor": "second_floor",
+        "x": 10,
+        "y": 23,
+        "label": "K24",
+        "feet": {
+          "x": 50,
+          "y": 115
+        }
+      },
+      "room_id": "library",
+      "hidden": true,
+      "notice_dc": 14,
+      "disable_dc": 14,
+      "trigger": "rotate_bookcase"
+    },
+    {
+      "id": "trap_attic_collapsing_roof",
+      "card_ref": "trap-deck-collapsing-roof-trap-card",
+      "floor": "attic",
+      "cell": {
+        "floor": "attic",
+        "x": 17,
+        "y": 19,
+        "label": "R20",
+        "feet": {
+          "x": 85,
+          "y": 95
+        }
+      },
+      "room_id": "attic",
+      "hidden": true,
+      "notice_dc": 16,
+      "disable_dc": 15,
+      "trigger": "use_secret_passage"
+    }
+  ]
+}

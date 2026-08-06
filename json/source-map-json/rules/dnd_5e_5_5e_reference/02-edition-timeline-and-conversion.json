@@ -1,0 +1,71 @@
+{
+  "schema_version": "4.0.0",
+  "document_type": "killer_rules_profile_and_conversion",
+  "system": "Killer In The Keep",
+  "rules_profile": "Killer In The Keep 5E-Compatible Hybrid",
+  "scope": "Killer In The Keep only",
+  "build_date": "2026-08-05",
+  "source_basis": [
+    "KillerInTheKeep_5_Game_Level_Progression.json",
+    "System Reference Document 5.2.1"
+  ],
+  "srd_attribution": "This work includes material from the System Reference Document 5.2.1 (“SRD 5.2.1”) by Wizards of the Coast LLC, available at https://www.dndbeyond.com/srd. The SRD 5.2.1 is licensed under the Creative Commons Attribution 4.0 International License, available at https://creativecommons.org/licenses/by/4.0/legalcode.",
+  "publisher_affiliation": "Killer In The Keep is an independent project and is not endorsed by Wizards of the Coast.",
+  "canonical_profile": {
+    "name": "Killer In The Keep 5E-Compatible Hybrid",
+    "purpose": "Use SRD-style D20 resolution and combat while preserving the supplied murder mystery, fixed hero roster, five Game Levels, evidence privacy, traps, monsters, and legacy board-game options.",
+    "priority_order": [
+      "Explicit Killer In The Keep rule",
+      "Killer hero or power exception",
+      "Killer selected rules profile",
+      "SRD 5.2.1 baseline",
+      "Host ruling that does not reveal hidden information"
+    ]
+  },
+  "game_level_mapping": [
+    {
+      "game_level": 1,
+      "dnd_equivalent_level": 5,
+      "proficiency_bonus": 3
+    },
+    {
+      "game_level": 2,
+      "dnd_equivalent_level": 9,
+      "proficiency_bonus": 4
+    },
+    {
+      "game_level": 3,
+      "dnd_equivalent_level": 13,
+      "proficiency_bonus": 5
+    },
+    {
+      "game_level": 4,
+      "dnd_equivalent_level": 17,
+      "proficiency_bonus": 6
+    },
+    {
+      "game_level": 5,
+      "dnd_equivalent_level": 20,
+      "proficiency_bonus": 6
+    }
+  ],
+  "conversion_rules": {
+    "ability_checks": "Use 1d20 + relevant ability modifier + proficiency bonus when proficient.",
+    "saving_throws": "Use 1d20 + relevant ability modifier + proficiency bonus when proficient.",
+    "attack_rolls": "Use 1d20 + relevant attack ability modifier + proficiency bonus and compare with Armor Class.",
+    "spell_or_power_save_dc": "8 + power ability modifier + proficiency bonus.",
+    "movement": "Every map square is 5 feet. Standard movement uses speed; Legacy movement may use 1d10 spaces.",
+    "legacy_lockpick": "Retained as optional: 1d10, 7+ succeeds, natural 1 loses the lockpick.",
+    "dnd_lockpick": "Default hybrid: Dexterity check using Thieves’ Tools against the lock DC.",
+    "legacy_theory_check": "Optional DC 13 Wisdom check before a room theory.",
+    "default_theory_check": "Standing in a solution room is sufficient unless the lobby enables the legacy check."
+  },
+  "supported_rules_modes": [
+    "Killer In The Keep Standard Hybrid",
+    "Legacy Board Rules",
+    "Tutorial Assist",
+    "Hard",
+    "Nightmare"
+  ],
+  "unsupported": "No generic D&D edition switching or unrelated-edition conversion tables remain in this folder."
+}

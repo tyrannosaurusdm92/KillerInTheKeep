@@ -1,0 +1,370 @@
+{
+  "schema_version": "4.0.0",
+  "document_type": "killer_encounters_rewards_and_loot",
+  "system": "Killer In The Keep",
+  "rules_profile": "Killer In The Keep 5E-Compatible Hybrid",
+  "scope": "Killer In The Keep only",
+  "build_date": "2026-08-05",
+  "source_basis": [
+    "KillerInTheKeep_5_Game_Level_Progression.json",
+    "System Reference Document 5.2.1"
+  ],
+  "srd_attribution": "This work includes material from the System Reference Document 5.2.1 (“SRD 5.2.1”) by Wizards of the Coast LLC, available at https://www.dndbeyond.com/srd. The SRD 5.2.1 is licensed under the Creative Commons Attribution 4.0 International License, available at https://creativecommons.org/licenses/by/4.0/legalcode.",
+  "publisher_affiliation": "Killer In The Keep is an independent project and is not endorsed by Wizards of the Coast.",
+  "encounter_generation": {
+    "triggers": [
+      "Enter a previously unexplored room.",
+      "Roll the maximum movement result while traveling through hallways in Legacy mode.",
+      "Use a secret passage.",
+      "Disturb spider webs or egg clusters.",
+      "Make excessive noise.",
+      "Advance the storm or rest timer."
+    ],
+    "monster_roster_ids": [
+      "kitk-monster-small-spider",
+      "kitk-monster-medium-spider",
+      "kitk-monster-large-spider",
+      "kitk-monster-gigantic-spider",
+      "kitk-monster-horsefly-swarm",
+      "kitk-monster-giant-tick",
+      "kitk-monster-fire-ant-swarm",
+      "kitk-monster-mosquito-swarm",
+      "kitk-monster-zombie",
+      "kitk-monster-skeleton"
+    ],
+    "trap_roster_ids": [
+      "kitk-trap-locking-pit",
+      "kitk-trap-poison-spiked-pit",
+      "kitk-trap-acid-pit",
+      "kitk-trap-duplicate-mirror",
+      "kitk-trap-web-of-flames",
+      "kitk-trap-the-compactor",
+      "kitk-trap-poison-darts",
+      "kitk-trap-brick-trap",
+      "kitk-trap-spear-trap",
+      "kitk-trap-slime-trap",
+      "kitk-trap-collapsing-roof",
+      "kitk-trap-falling-net"
+    ],
+    "difficulty_tuning": {
+      "tutorial": "low DCs 5-12; few hostiles; bot explains rolls",
+      "standard": "DCs 10-20; balanced hostiles and traps",
+      "hard": "DCs 15-25; timers and smart pathing",
+      "nightmare": "DCs 20-30; multiple timers; harsh consequences"
+    },
+    "balance_rule": "Encounter difficulty may scale HP, attack bonus, DC, and damage, but never changes the sealed solution or leaks private evidence."
+  },
+  "traps": [
+    {
+      "id": "kitk-trap-locking-pit",
+      "name": "Locking Pit",
+      "source_count": 1,
+      "canonical_core_effect": "Falling damage followed by confinement beneath a spring-loaded cover.",
+      "detection_and_disarm": "DC 15 Wisdom (Perception) to notice; DC 15 Dexterity with Thieves’ Tools to disable",
+      "trigger_resolution": "DC 15 Dexterity save",
+      "mechanical_effect": "2d6 falling; target is trapped behind a locked cover",
+      "counterplay_requirement": [
+        "detection",
+        "disarming",
+        "alternate route",
+        "environmental manipulation",
+        "brute force",
+        "spell use",
+        "rescue",
+        "deliberate triggering"
+      ],
+      "scaling": "At Game Levels 3–5, increase save DC by 1 and add one damage die only when encounter difficulty requires it."
+    },
+    {
+      "id": "kitk-trap-poison-spiked-pit",
+      "name": "Poison Spiked Pit",
+      "source_count": 1,
+      "canonical_core_effect": "Falling, piercing, and poison damage until escaped.",
+      "detection_and_disarm": "DC 15 Perception; DC 16 Thieves’ Tools",
+      "trigger_resolution": "DC 15 Dexterity save",
+      "mechanical_effect": "2d6 falling + 2d6 piercing; DC 14 Constitution save or Poisoned and 2d6 poison",
+      "counterplay_requirement": [
+        "detection",
+        "disarming",
+        "alternate route",
+        "environmental manipulation",
+        "brute force",
+        "spell use",
+        "rescue",
+        "deliberate triggering"
+      ],
+      "scaling": "At Game Levels 3–5, increase save DC by 1 and add one damage die only when encounter difficulty requires it."
+    },
+    {
+      "id": "kitk-trap-acid-pit",
+      "name": "Acid Pit",
+      "source_count": 1,
+      "canonical_core_effect": "Falling damage and continuing acid damage.",
+      "detection_and_disarm": "DC 14 Perception; DC 15 tools or environmental bypass",
+      "trigger_resolution": "DC 15 Dexterity save",
+      "mechanical_effect": "2d6 falling + 3d6 acid; 1d6 acid at start of next turn until cleaned",
+      "counterplay_requirement": [
+        "detection",
+        "disarming",
+        "alternate route",
+        "environmental manipulation",
+        "brute force",
+        "spell use",
+        "rescue",
+        "deliberate triggering"
+      ],
+      "scaling": "At Game Levels 3–5, increase save DC by 1 and add one damage die only when encounter difficulty requires it."
+    },
+    {
+      "id": "kitk-trap-duplicate-mirror",
+      "name": "Duplicate Mirror",
+      "source_count": 2,
+      "canonical_core_effect": "Creates a hostile duplicate of the viewer.",
+      "detection_and_disarm": "DC 16 Arcana or Investigation to identify",
+      "trigger_resolution": "Wisdom save against duplicate creation",
+      "mechanical_effect": "Creates a hostile duplicate using the viewer’s current combat statistics at 50% HP",
+      "counterplay_requirement": [
+        "detection",
+        "disarming",
+        "alternate route",
+        "environmental manipulation",
+        "brute force",
+        "spell use",
+        "rescue",
+        "deliberate triggering"
+      ],
+      "scaling": "At Game Levels 3–5, increase save DC by 1 and add one damage die only when encounter difficulty requires it."
+    },
+    {
+      "id": "kitk-trap-web-of-flames",
+      "name": "Web of Flames",
+      "source_count": 3,
+      "canonical_core_effect": "Restraining webs ignite and deal immediate and continuing fire damage.",
+      "detection_and_disarm": "DC 14 Perception; fire-resistant disarm or cutting tool",
+      "trigger_resolution": "DC 15 Dexterity save",
+      "mechanical_effect": "Restrained; 3d6 fire immediately and 1d6 at start of turn until freed",
+      "counterplay_requirement": [
+        "detection",
+        "disarming",
+        "alternate route",
+        "environmental manipulation",
+        "brute force",
+        "spell use",
+        "rescue",
+        "deliberate triggering"
+      ],
+      "scaling": "At Game Levels 3–5, increase save DC by 1 and add one damage die only when encounter difficulty requires it."
+    },
+    {
+      "id": "kitk-trap-the-compactor",
+      "name": "The Compactor",
+      "source_count": 1,
+      "canonical_core_effect": "Locks the room and moves the walls inward until disabled, escaped, or survived.",
+      "detection_and_disarm": "DC 15 Investigation to locate controls; DC 17 tools or Athletics to stop",
+      "trigger_resolution": "Group skill challenge",
+      "mechanical_effect": "Walls advance each round; 2d10 bludgeoning per failed stage",
+      "counterplay_requirement": [
+        "detection",
+        "disarming",
+        "alternate route",
+        "environmental manipulation",
+        "brute force",
+        "spell use",
+        "rescue",
+        "deliberate triggering"
+      ],
+      "scaling": "At Game Levels 3–5, increase save DC by 1 and add one damage die only when encounter difficulty requires it."
+    },
+    {
+      "id": "kitk-trap-poison-darts",
+      "name": "Poison Darts",
+      "source_count": 2,
+      "canonical_core_effect": "Piercing damage plus a Constitution save against poison.",
+      "detection_and_disarm": "DC 14 Perception; DC 14 tools",
+      "trigger_resolution": "DC 15 Dexterity save, then DC 14 Constitution save",
+      "mechanical_effect": "1d8 piercing + 2d6 poison and Poisoned for 1 minute on failed Constitution save",
+      "counterplay_requirement": [
+        "detection",
+        "disarming",
+        "alternate route",
+        "environmental manipulation",
+        "brute force",
+        "spell use",
+        "rescue",
+        "deliberate triggering"
+      ],
+      "scaling": "At Game Levels 3–5, increase save DC by 1 and add one damage die only when encounter difficulty requires it."
+    },
+    {
+      "id": "kitk-trap-brick-trap",
+      "name": "Brick Trap",
+      "source_count": 3,
+      "canonical_core_effect": "Stone blocks fall in an area.",
+      "detection_and_disarm": "DC 13 Perception",
+      "trigger_resolution": "DC 14 Dexterity save",
+      "mechanical_effect": "3d8 bludgeoning and Prone on failure",
+      "counterplay_requirement": [
+        "detection",
+        "disarming",
+        "alternate route",
+        "environmental manipulation",
+        "brute force",
+        "spell use",
+        "rescue",
+        "deliberate triggering"
+      ],
+      "scaling": "At Game Levels 3–5, increase save DC by 1 and add one damage die only when encounter difficulty requires it."
+    },
+    {
+      "id": "kitk-trap-spear-trap",
+      "name": "Spear Trap",
+      "source_count": 3,
+      "canonical_core_effect": "A concealed spear thrusts from a wall, door, pillar, or chest.",
+      "detection_and_disarm": "DC 14 Perception; DC 14 tools",
+      "trigger_resolution": "Attack +6 against AC",
+      "mechanical_effect": "2d8 piercing and target speed becomes 0 until freed if pinned",
+      "counterplay_requirement": [
+        "detection",
+        "disarming",
+        "alternate route",
+        "environmental manipulation",
+        "brute force",
+        "spell use",
+        "rescue",
+        "deliberate triggering"
+      ],
+      "scaling": "At Game Levels 3–5, increase save DC by 1 and add one damage die only when encounter difficulty requires it."
+    },
+    {
+      "id": "kitk-trap-slime-trap",
+      "name": "Slime Trap",
+      "source_count": 2,
+      "canonical_core_effect": "Corrosive green slime sticks to creatures and continues dealing acid damage until removed or destroyed.",
+      "detection_and_disarm": "DC 15 Perception or Nature",
+      "trigger_resolution": "DC 15 Dexterity save",
+      "mechanical_effect": "3d6 acid and 2d6 acid at start of each turn until scraped, burned, or washed away",
+      "counterplay_requirement": [
+        "detection",
+        "disarming",
+        "alternate route",
+        "environmental manipulation",
+        "brute force",
+        "spell use",
+        "rescue",
+        "deliberate triggering"
+      ],
+      "scaling": "At Game Levels 3–5, increase save DC by 1 and add one damage die only when encounter difficulty requires it."
+    },
+    {
+      "id": "kitk-trap-collapsing-roof",
+      "name": "Collapsing Roof",
+      "source_count": 1,
+      "canonical_core_effect": "The ceiling falls across a large area.",
+      "detection_and_disarm": "DC 16 Perception or Investigation",
+      "trigger_resolution": "DC 16 Dexterity save",
+      "mechanical_effect": "5d10 bludgeoning; Restrained under debris on failure",
+      "counterplay_requirement": [
+        "detection",
+        "disarming",
+        "alternate route",
+        "environmental manipulation",
+        "brute force",
+        "spell use",
+        "rescue",
+        "deliberate triggering"
+      ],
+      "scaling": "At Game Levels 3–5, increase save DC by 1 and add one damage die only when encounter difficulty requires it."
+    },
+    {
+      "id": "kitk-trap-falling-net",
+      "name": "Falling Net",
+      "source_count": 2,
+      "canonical_core_effect": "Restrains and may knock targets prone until cut or forced open.",
+      "detection_and_disarm": "DC 13 Perception; DC 13 tools",
+      "trigger_resolution": "DC 14 Dexterity save",
+      "mechanical_effect": "Restrained and Prone; DC 13 Strength check or 5 slashing damage to free",
+      "counterplay_requirement": [
+        "detection",
+        "disarming",
+        "alternate route",
+        "environmental manipulation",
+        "brute force",
+        "spell use",
+        "rescue",
+        "deliberate triggering"
+      ],
+      "scaling": "At Game Levels 3–5, increase save DC by 1 and add one damage die only when encounter difficulty requires it."
+    }
+  ],
+  "rewards": {
+    "sources": [
+      "Match completion",
+      "Correct accusation",
+      "Evidence discovery",
+      "Monster and trap encounters",
+      "Keeping allies alive",
+      "Objectives completed",
+      "Treasure recovered",
+      "Optional seasonal challenges"
+    ],
+    "noncombat_rewards": [
+      "objective pips",
+      "clues",
+      "safe routes",
+      "ally trust",
+      "reduced doom clock",
+      "treasure access",
+      "short rest window",
+      "bot hostility reduction"
+    ],
+    "xp_thresholds": {
+      "game_level_2_threshold": 50,
+      "game_level_3_threshold": 150,
+      "game_level_4_threshold": 450,
+      "game_level_5_threshold": 1350,
+      "maximum_game_level": 5
+    },
+    "treasure_items": [
+      "kitk-item-healing-potions",
+      "kitk-item-potion-of-darkvision",
+      "kitk-item-potion-of-energy",
+      "kitk-item-arcane-scroll-of-invisibility",
+      "kitk-item-wand-of-magic-missile",
+      "kitk-item-wand-of-delay-poison",
+      "kitk-item-ring-of-improved-jumping",
+      "kitk-item-ring-of-invisibility",
+      "kitk-item-brain-serum",
+      "kitk-item-targeting-array",
+      "kitk-item-lockpicks",
+      "kitk-item-rations",
+      "kitk-item-rope-nets-grappling-hooks-and-portable-ram"
+    ],
+    "account_progression": {
+      "purpose": "Unlock cosmetics, profile titles, lore, optional challenge modifiers, and accessibility presets without granting competitive power.",
+      "competitive_power_sales": false,
+      "pay_to_win": false
+    }
+  },
+  "evidence_rewards": [
+    {
+      "type": "solution cards",
+      "purpose": "Provide logically certain exclusions."
+    },
+    {
+      "type": "physical clues",
+      "purpose": "Blood patterns, footprints, magical residue, poison traces, broken objects, fibers, weapon marks, and room disturbances."
+    },
+    {
+      "type": "testimony",
+      "purpose": "Statements from surviving servants, spectral echoes, familiars, animated objects, and other heroes."
+    },
+    {
+      "type": "timeline clues",
+      "purpose": "Establish where characters could or could not have been when the murder occurred."
+    },
+    {
+      "type": "class clues",
+      "purpose": "Arcana, Religion, Nature, Medicine, and martial knowledge reveal different interpretations."
+    }
+  ]
+}

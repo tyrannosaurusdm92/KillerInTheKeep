@@ -1,0 +1,545 @@
+{
+  "schema_version": "4.3.0",
+  "containers": [
+    {
+      "id": "cellar_caged_iron_chest",
+      "kind": "large_iron_chest",
+      "card_ref": "treasure-deck-large-iron-chest-treasure-card",
+      "floor": "cellar",
+      "room_id": "cellar",
+      "cell": {
+        "floor": "cellar",
+        "x": 36,
+        "y": 18,
+        "label": "AK19",
+        "feet": {
+          "x": 180,
+          "y": 90
+        }
+      },
+      "locked": true,
+      "lock_dc": 16,
+      "trapped": false,
+      "hidden": false,
+      "contents": [
+        "treasure-deck-golden-pearl-treasure-card",
+        "treasure-deck-azurite-treasure-card",
+        "treasure-deck-potion-of-healing-greater-treasure-card"
+      ]
+    },
+    {
+      "id": "cellar_trapped_wood_chest",
+      "kind": "trapped_large_wooden_chest",
+      "card_ref": "treasure-deck-trapped-large-wooden-chest-treasure-card",
+      "floor": "cellar",
+      "room_id": "cellar",
+      "cell": {
+        "floor": "cellar",
+        "x": 34,
+        "y": 21,
+        "label": "AI22",
+        "feet": {
+          "x": 170,
+          "y": 105
+        }
+      },
+      "locked": true,
+      "lock_dc": 15,
+      "trapped": true,
+      "trap_ref": "trap-deck-acid-pit-trap-card",
+      "hidden": false,
+      "contents": [
+        "treasure-deck-wand-of-web-treasure-card",
+        "treasure-deck-turquoise-treasure-card"
+      ]
+    },
+    {
+      "id": "library_locked_chest",
+      "kind": "locked_medium_wooden_chest",
+      "card_ref": "treasure-deck-locked-medium-wooden-chest-treasure-card",
+      "floor": "first_floor",
+      "room_id": "library",
+      "cell": {
+        "floor": "first_floor",
+        "x": 13,
+        "y": 17,
+        "label": "N18",
+        "feet": {
+          "x": 65,
+          "y": 85
+        }
+      },
+      "locked": true,
+      "lock_dc": 14,
+      "trapped": false,
+      "hidden": true,
+      "contents": [
+        "treasure-deck-spell-scroll-invisibility-treasure-card",
+        "treasure-deck-wand-of-magic-missiles-treasure-card"
+      ]
+    },
+    {
+      "id": "game_room_ornate_chest",
+      "kind": "trapped_small_ornate_chest",
+      "card_ref": "treasure-deck-trapped-small-ornate-chest-treasure-card",
+      "floor": "first_floor",
+      "room_id": "game_room",
+      "cell": {
+        "floor": "first_floor",
+        "x": 34,
+        "y": 28,
+        "label": "AI29",
+        "feet": {
+          "x": 170,
+          "y": 140
+        }
+      },
+      "locked": true,
+      "lock_dc": 15,
+      "trapped": true,
+      "trap_ref": "trap-deck-locking-pit-trap-card",
+      "hidden": false,
+      "contents": [
+        "treasure-deck-ring-of-invisibility-treasure-card",
+        "treasure-deck-zircon-treasure-card"
+      ]
+    },
+    {
+      "id": "main_guest_iron_chest",
+      "kind": "medium_iron_chest",
+      "card_ref": "treasure-deck-medium-iron-chest-treasure-card",
+      "floor": "second_floor",
+      "room_id": "main_guest_quarters",
+      "cell": {
+        "floor": "second_floor",
+        "x": 45,
+        "y": 18,
+        "label": "AT19",
+        "feet": {
+          "x": 225,
+          "y": 90
+        }
+      },
+      "locked": true,
+      "lock_dc": 13,
+      "trapped": false,
+      "hidden": false,
+      "contents": [
+        "treasure-deck-cloth-cloak-trimmed-with-fur-treasure-card",
+        "treasure-deck-silver-pearl-treasure-card",
+        "treasure-deck-potion-of-speed-treasure-card"
+      ]
+    },
+    {
+      "id": "secondary_guest_wood_chest",
+      "kind": "small_wooden_chest",
+      "card_ref": "treasure-deck-small-wooden-chest-treasure-card",
+      "floor": "second_floor",
+      "room_id": "secondary_guest_quarters",
+      "cell": {
+        "floor": "second_floor",
+        "x": 2,
+        "y": 19,
+        "label": "C20",
+        "feet": {
+          "x": 10,
+          "y": 95
+        }
+      },
+      "locked": false,
+      "trapped": false,
+      "hidden": false,
+      "contents": [
+        "treasure-deck-sturdy-leather-boots-treasure-card",
+        "treasure-deck-goggles-of-night-treasure-card"
+      ]
+    },
+    {
+      "id": "attic_old_guard_chest",
+      "kind": "locked_medium_wooden_chest",
+      "card_ref": "treasure-deck-locked-medium-wooden-chest-treasure-card",
+      "floor": "attic",
+      "room_id": "attic",
+      "cell": {
+        "floor": "attic",
+        "x": 17,
+        "y": 19,
+        "label": "R20",
+        "feet": {
+          "x": 85,
+          "y": 95
+        }
+      },
+      "locked": true,
+      "lock_dc": 14,
+      "trapped": true,
+      "trap_ref": "trap-deck-collapsing-roof-trap-card",
+      "hidden": true,
+      "contents": [
+        "gameplay-deck-rapier-weapon-card",
+        "treasure-deck-potion-of-healing-treasure-card",
+        "treasure-deck-azurite-treasure-card"
+      ]
+    }
+  ],
+  "item_placements": [
+    {
+      "id": "armory_weapon_rack_1",
+      "floor": "first_floor",
+      "room_id": "armory",
+      "cell": {
+        "floor": "first_floor",
+        "x": 24,
+        "y": 3,
+        "label": "Y4",
+        "feet": {
+          "x": 120,
+          "y": 15
+        }
+      },
+      "kind": "weapon_rack",
+      "available": [
+        "gameplay-deck-mace-weapon-card",
+        "gameplay-deck-battleaxe-weapon-card",
+        "gameplay-deck-rapier-weapon-card"
+      ]
+    },
+    {
+      "id": "armory_weapon_rack_2",
+      "floor": "first_floor",
+      "room_id": "armory",
+      "cell": {
+        "floor": "first_floor",
+        "x": 28,
+        "y": 5,
+        "label": "AC6",
+        "feet": {
+          "x": 140,
+          "y": 25
+        }
+      },
+      "kind": "weapon_rack",
+      "available": [
+        "gameplay-deck-dagger-weapon-card",
+        "gameplay-deck-quarterstaff-weapon-card",
+        "gameplay-deck-arrows-20-gameplay-card"
+      ]
+    },
+    {
+      "id": "study_reagent_cabinet",
+      "floor": "first_floor",
+      "room_id": "alchemists_study",
+      "cell": {
+        "floor": "first_floor",
+        "x": 17,
+        "y": 3,
+        "label": "R4",
+        "feet": {
+          "x": 85,
+          "y": 15
+        }
+      },
+      "kind": "alchemical_cabinet",
+      "locked": true,
+      "lock_dc": 14,
+      "available": [
+        "gameplay-deck-basic-poison-item-card",
+        "treasure-deck-potion-of-healing-treasure-card",
+        "treasure-deck-potion-of-healing-greater-treasure-card"
+      ]
+    },
+    {
+      "id": "library_arcane_case",
+      "floor": "first_floor",
+      "room_id": "library",
+      "cell": {
+        "floor": "first_floor",
+        "x": 10,
+        "y": 13,
+        "label": "K14",
+        "feet": {
+          "x": 50,
+          "y": 65
+        }
+      },
+      "kind": "display_case",
+      "locked": true,
+      "lock_dc": 15,
+      "available": [
+        "gameplay-deck-wand-gameplay-card",
+        "treasure-deck-wand-of-magic-missiles-treasure-card"
+      ]
+    },
+    {
+      "id": "kitchen_utility_blades",
+      "floor": "first_floor",
+      "room_id": "kitchen",
+      "cell": {
+        "floor": "first_floor",
+        "x": 35,
+        "y": 5,
+        "label": "AJ6",
+        "feet": {
+          "x": 175,
+          "y": 25
+        }
+      },
+      "kind": "improvised_weapon_source",
+      "available": [
+        "gameplay-deck-dagger-weapon-card"
+      ]
+    },
+    {
+      "id": "chapel_reliquary",
+      "floor": "second_floor",
+      "room_id": "chapel",
+      "cell": {
+        "floor": "second_floor",
+        "x": 4,
+        "y": 3,
+        "label": "E4",
+        "feet": {
+          "x": 20,
+          "y": 15
+        }
+      },
+      "kind": "reliquary",
+      "locked": true,
+      "lock_dc": 13,
+      "available": [
+        "treasure-deck-potion-of-healing-treasure-card",
+        "treasure-deck-silver-pearl-treasure-card"
+      ]
+    }
+  ],
+  "monster_spawns": [
+    {
+      "id": "monster_cellar_giant_spider",
+      "card_ref": "monsters-deck-giant-spider-monster-card",
+      "floor": "cellar",
+      "room_id": "cellar",
+      "cell": {
+        "floor": "cellar",
+        "x": 18,
+        "y": 13,
+        "label": "S14",
+        "feet": {
+          "x": 90,
+          "y": 65
+        }
+      },
+      "hidden": true,
+      "hiding_place": "Behind stacked wine barrels",
+      "trigger": "search_or_enter_adjacent"
+    },
+    {
+      "id": "monster_cellar_fire_ant_swarm",
+      "card_ref": "monsters-deck-swarm-of-insects-monster-card",
+      "floor": "cellar",
+      "room_id": "cellar",
+      "cell": {
+        "floor": "cellar",
+        "x": 31,
+        "y": 20,
+        "label": "AF21",
+        "feet": {
+          "x": 155,
+          "y": 100
+        }
+      },
+      "hidden": true,
+      "hiding_place": "Root-storage bins",
+      "trigger": "open_bin"
+    },
+    {
+      "id": "monster_pantry_zombie",
+      "card_ref": "monsters-deck-zombie-monster-card",
+      "floor": "first_floor",
+      "room_id": "pantry",
+      "cell": {
+        "floor": "first_floor",
+        "x": 44,
+        "y": 14,
+        "label": "AS15",
+        "feet": {
+          "x": 220,
+          "y": 70
+        }
+      },
+      "hidden": true,
+      "hiding_place": "Locked provision closet",
+      "trigger": "open_closet"
+    },
+    {
+      "id": "monster_library_spider",
+      "card_ref": "monsters-deck-spider-monster-card",
+      "floor": "first_floor",
+      "room_id": "library",
+      "cell": {
+        "floor": "first_floor",
+        "x": 11,
+        "y": 12,
+        "label": "L13",
+        "feet": {
+          "x": 55,
+          "y": 60
+        }
+      },
+      "hidden": true,
+      "hiding_place": "Upper shelves and spiral stair underside",
+      "trigger": "search_bookshelf"
+    },
+    {
+      "id": "monster_armory_skeleton",
+      "card_ref": "monsters-deck-skeleton-monster-card",
+      "floor": "first_floor",
+      "room_id": "armory",
+      "cell": {
+        "floor": "first_floor",
+        "x": 27,
+        "y": 6,
+        "label": "AB7",
+        "feet": {
+          "x": 135,
+          "y": 30
+        }
+      },
+      "hidden": true,
+      "hiding_place": "Appears to be a display skeleton in armor",
+      "trigger": "take_weapon"
+    },
+    {
+      "id": "monster_main_guest_wolf_spider",
+      "card_ref": "monsters-deck-giant-wolf-spider-monster-card",
+      "floor": "second_floor",
+      "room_id": "main_guest_quarters",
+      "cell": {
+        "floor": "second_floor",
+        "x": 43,
+        "y": 13,
+        "label": "AR14",
+        "feet": {
+          "x": 215,
+          "y": 65
+        }
+      },
+      "hidden": true,
+      "hiding_place": "Under the guest bed",
+      "trigger": "search_bed"
+    },
+    {
+      "id": "monster_chapel_skeleton",
+      "card_ref": "monsters-deck-skeleton-monster-card",
+      "floor": "second_floor",
+      "room_id": "chapel",
+      "cell": {
+        "floor": "second_floor",
+        "x": 9,
+        "y": 6,
+        "label": "J7",
+        "feet": {
+          "x": 45,
+          "y": 30
+        }
+      },
+      "hidden": true,
+      "hiding_place": "Sealed devotional screen",
+      "trigger": "disturb_reliquary"
+    },
+    {
+      "id": "monster_attic_giant_spider",
+      "card_ref": "monsters-deck-giant-spider-monster-card-2",
+      "floor": "attic",
+      "room_id": "attic",
+      "cell": {
+        "floor": "attic",
+        "x": 13,
+        "y": 14,
+        "label": "N15",
+        "feet": {
+          "x": 65,
+          "y": 70
+        }
+      },
+      "hidden": true,
+      "hiding_place": "Rafters above stacked crates",
+      "trigger": "enter_web_zone"
+    },
+    {
+      "id": "monster_servants_horsefly_swarm",
+      "card_ref": "monsters-deck-swarm-of-insects-monster-card-2",
+      "floor": "attic",
+      "room_id": "servants_quarters",
+      "cell": {
+        "floor": "attic",
+        "x": 42,
+        "y": 22,
+        "label": "AQ23",
+        "feet": {
+          "x": 210,
+          "y": 110
+        }
+      },
+      "hidden": true,
+      "hiding_place": "Abandoned mattress and wash basin",
+      "trigger": "search_bed"
+    }
+  ],
+  "asset_references": {
+    "weapons": {
+      "mace": "gameplay-deck-mace-weapon-card",
+      "rapier": "gameplay-deck-rapier-weapon-card",
+      "battleaxe": "gameplay-deck-battleaxe-weapon-card",
+      "dagger": "gameplay-deck-dagger-weapon-card",
+      "quarterstaff": "gameplay-deck-quarterstaff-weapon-card",
+      "arrows_20": "gameplay-deck-arrows-20-gameplay-card",
+      "wand": "gameplay-deck-wand-gameplay-card"
+    },
+    "consumables": {
+      "basic_poison": "gameplay-deck-basic-poison-item-card",
+      "healing_potion": "treasure-deck-potion-of-healing-treasure-card",
+      "greater_healing_potion": "treasure-deck-potion-of-healing-greater-treasure-card",
+      "speed_potion": "treasure-deck-potion-of-speed-treasure-card"
+    },
+    "treasure": {
+      "locked_medium_wood_chest": "treasure-deck-locked-medium-wooden-chest-treasure-card",
+      "trapped_large_wood_chest": "treasure-deck-trapped-large-wooden-chest-treasure-card",
+      "trapped_small_ornate_chest": "treasure-deck-trapped-small-ornate-chest-treasure-card",
+      "large_iron_chest": "treasure-deck-large-iron-chest-treasure-card",
+      "medium_iron_chest": "treasure-deck-medium-iron-chest-treasure-card",
+      "small_wood_chest": "treasure-deck-small-wooden-chest-treasure-card",
+      "ring_invisibility": "treasure-deck-ring-of-invisibility-treasure-card",
+      "wand_magic_missiles": "treasure-deck-wand-of-magic-missiles-treasure-card",
+      "wand_web": "treasure-deck-wand-of-web-treasure-card",
+      "scroll_invisibility": "treasure-deck-spell-scroll-invisibility-treasure-card",
+      "goggles_night": "treasure-deck-goggles-of-night-treasure-card",
+      "leather_boots": "treasure-deck-sturdy-leather-boots-treasure-card",
+      "fur_cloak": "treasure-deck-cloth-cloak-trimmed-with-fur-treasure-card",
+      "golden_pearl": "treasure-deck-golden-pearl-treasure-card",
+      "silver_pearl": "treasure-deck-silver-pearl-treasure-card",
+      "azurite": "treasure-deck-azurite-treasure-card",
+      "turquoise": "treasure-deck-turquoise-treasure-card",
+      "zircon": "treasure-deck-zircon-treasure-card"
+    },
+    "traps": {
+      "acid_pit": "trap-deck-acid-pit-trap-card",
+      "collapsing_roof": "trap-deck-collapsing-roof-trap-card",
+      "falling_net": "trap-deck-falling-net-trap-card",
+      "green_slime": "trap-deck-green-slime-trap-card",
+      "locking_pit": "trap-deck-locking-pit-trap-card",
+      "poison_darts": "trap-deck-poison-darts-trap-card",
+      "poison_spiked_pit": "trap-deck-poison-spiked-pit-trap-card"
+    },
+    "monsters": {
+      "giant_spider": "monsters-deck-giant-spider-monster-card",
+      "giant_spider_2": "monsters-deck-giant-spider-monster-card-2",
+      "giant_wolf_spider": "monsters-deck-giant-wolf-spider-monster-card",
+      "skeleton": "monsters-deck-skeleton-monster-card",
+      "spider": "monsters-deck-spider-monster-card",
+      "swarm_fire_ants": "monsters-deck-swarm-of-insects-monster-card",
+      "swarm_horseflies": "monsters-deck-swarm-of-insects-monster-card-2",
+      "swarm_mosquitoes": "monsters-deck-swarm-of-insects-monster-card-3",
+      "zombie": "monsters-deck-zombie-monster-card"
+    }
+  }
+}

@@ -1,0 +1,688 @@
+{
+  "schema_version": "4.0.0",
+  "document_type": "fixed_killer_hero_classes",
+  "system": "Killer In The Keep",
+  "rules_profile": "Killer In The Keep 5E-Compatible Hybrid",
+  "scope": "Killer In The Keep only",
+  "build_date": "2026-08-05",
+  "source_basis": [
+    "KillerInTheKeep_5_Game_Level_Progression.json",
+    "System Reference Document 5.2.1"
+  ],
+  "srd_attribution": "This work includes material from the System Reference Document 5.2.1 (“SRD 5.2.1”) by Wizards of the Coast LLC, available at https://www.dndbeyond.com/srd. The SRD 5.2.1 is licensed under the Creative Commons Attribution 4.0 International License, available at https://creativecommons.org/licenses/by/4.0/legalcode.",
+  "publisher_affiliation": "Killer In The Keep is an independent project and is not endorsed by Wizards of the Coast.",
+  "record_count": 8,
+  "records": [
+    {
+      "id": "kitk-class-daltu",
+      "hero_id": "daltu",
+      "hero_name": "Daltu",
+      "class_name": "Fighter",
+      "fixed_package": true,
+      "party_role": [
+        "front-line defender",
+        "arcane striker",
+        "remote trap utility"
+      ],
+      "primary_ability": "Strength",
+      "power_ability": "Intelligence",
+      "saving_throw_proficiencies": [
+        "Strength",
+        "Constitution"
+      ],
+      "skill_proficiencies": [
+        "Arcana",
+        "Athletics",
+        "Investigation",
+        "Perception"
+      ],
+      "tool_proficiencies": [
+        "Thieves' Tools"
+      ],
+      "speed_feet": 30,
+      "game_level_features": [
+        {
+          "game_level": 1,
+          "dnd_equivalent_level": 5,
+          "features": [
+            "Second Wind",
+            "Action Surge (1 use)",
+            "Extra Attack (2 attacks)",
+            "Weapon Mastery: Battleaxe"
+          ]
+        },
+        {
+          "game_level": 2,
+          "dnd_equivalent_level": 9,
+          "features": [
+            "Indomitable (1 use)",
+            "Improved remote manipulation"
+          ]
+        },
+        {
+          "game_level": 3,
+          "dnd_equivalent_level": 13,
+          "features": [
+            "Extra Attack (3 attacks)",
+            "Arcane Strike upgrade"
+          ]
+        },
+        {
+          "game_level": 4,
+          "dnd_equivalent_level": 17,
+          "features": [
+            "Action Surge (2 uses)",
+            "Indomitable (3 uses)"
+          ]
+        },
+        {
+          "game_level": 5,
+          "dnd_equivalent_level": 20,
+          "features": [
+            "Extra Attack (4 attacks)",
+            "Eldritch defender capstone"
+          ]
+        }
+      ],
+      "power_ids": [
+        "kitk-power-eldritch-blast",
+        "kitk-power-chill-touch",
+        "kitk-power-sorcerers-grasp",
+        "kitk-power-underworld-flames",
+        "kitk-power-darkness",
+        "kitk-power-self-teleport",
+        "kitk-power-restrain",
+        "kitk-power-deathfire-grasp",
+        "kitk-power-blight"
+      ],
+      "rule": "This is a curated Killer In The Keep hero package. Players do not replace it with a generic class build during a mystery."
+    },
+    {
+      "id": "kitk-class-noldrack_goldblade",
+      "hero_id": "noldrack_goldblade",
+      "hero_name": "Noldrack Goldblade",
+      "class_name": "Druid",
+      "fixed_package": true,
+      "party_role": [
+        "elemental controller",
+        "hazard detector",
+        "area denial"
+      ],
+      "primary_ability": "Wisdom",
+      "power_ability": "Wisdom",
+      "saving_throw_proficiencies": [
+        "Intelligence",
+        "Wisdom"
+      ],
+      "skill_proficiencies": [
+        "Investigation",
+        "Nature",
+        "Perception",
+        "Survival"
+      ],
+      "tool_proficiencies": [
+        "Herbalism Kit"
+      ],
+      "speed_feet": 25,
+      "game_level_features": [
+        {
+          "game_level": 1,
+          "dnd_equivalent_level": 5,
+          "features": [
+            "Elemental spellcasting",
+            "Wild Shape utility",
+            "Hazard Sense"
+          ]
+        },
+        {
+          "game_level": 2,
+          "dnd_equivalent_level": 9,
+          "features": [
+            "Elemental room shaping",
+            "Improved trap detection"
+          ]
+        },
+        {
+          "game_level": 3,
+          "dnd_equivalent_level": 13,
+          "features": [
+            "Elemental resistance choice",
+            "Persistent terrain control"
+          ]
+        },
+        {
+          "game_level": 4,
+          "dnd_equivalent_level": 17,
+          "features": [
+            "High-tier elemental casting",
+            "Primal recovery"
+          ]
+        },
+        {
+          "game_level": 5,
+          "dnd_equivalent_level": 20,
+          "features": [
+            "Archdruid-style resource freedom",
+            "Storm master capstone"
+          ]
+        }
+      ],
+      "power_ids": [
+        "kitk-power-poison-spray",
+        "kitk-power-force-of-nature",
+        "kitk-power-detect-ailment",
+        "kitk-power-flaming-sphere",
+        "kitk-power-locate-traps-and-passageways",
+        "kitk-power-tidal-wave",
+        "kitk-power-icicle-blast",
+        "kitk-power-encanto",
+        "kitk-power-tornado"
+      ],
+      "rule": "This is a curated Killer In The Keep hero package. Players do not replace it with a generic class build during a mystery."
+    },
+    {
+      "id": "kitk-class-eilvyre_astath",
+      "hero_id": "eilvyre_astath",
+      "hero_name": "Eilvyre Astath",
+      "class_name": "Sorcerer",
+      "fixed_package": true,
+      "party_role": [
+        "high-variance spell striker",
+        "mobility caster",
+        "terrain breaker"
+      ],
+      "primary_ability": "Charisma",
+      "power_ability": "Charisma",
+      "saving_throw_proficiencies": [
+        "Constitution",
+        "Charisma"
+      ],
+      "skill_proficiencies": [
+        "Acrobatics",
+        "Arcana",
+        "Insight",
+        "Investigation"
+      ],
+      "tool_proficiencies": [],
+      "speed_feet": 30,
+      "game_level_features": [
+        {
+          "game_level": 1,
+          "dnd_equivalent_level": 5,
+          "features": [
+            "Sorcery Points: 5",
+            "Metamagic: 2 options",
+            "Wild Magic surge table"
+          ]
+        },
+        {
+          "game_level": 2,
+          "dnd_equivalent_level": 9,
+          "features": [
+            "Sorcery Points: 9",
+            "Metamagic: 3 options"
+          ]
+        },
+        {
+          "game_level": 3,
+          "dnd_equivalent_level": 13,
+          "features": [
+            "Sorcery Points: 13",
+            "Controlled Chaos"
+          ]
+        },
+        {
+          "game_level": 4,
+          "dnd_equivalent_level": 17,
+          "features": [
+            "Sorcery Points: 17",
+            "Metamagic: 4 options"
+          ]
+        },
+        {
+          "game_level": 5,
+          "dnd_equivalent_level": 20,
+          "features": [
+            "Sorcery Points: 20",
+            "Wild Magic capstone"
+          ]
+        }
+      ],
+      "power_ids": [
+        "kitk-power-orbs-of-wonder",
+        "kitk-power-ray-of-frost",
+        "kitk-power-turn-the-tide",
+        "kitk-power-mage-armor",
+        "kitk-power-acid-strike",
+        "kitk-power-self-teleport",
+        "kitk-power-earth-shatter",
+        "kitk-power-ball-lightning"
+      ],
+      "rule": "This is a curated Killer In The Keep hero package. Players do not replace it with a generic class build during a mystery."
+    },
+    {
+      "id": "kitk-class-korbin_silverdew",
+      "hero_id": "korbin_silverdew",
+      "hero_name": "Korbin Silverdew",
+      "class_name": "Paladin",
+      "fixed_package": true,
+      "party_role": [
+        "party defender",
+        "buffer",
+        "ranged radiant striker"
+      ],
+      "primary_ability": "Charisma",
+      "power_ability": "Charisma",
+      "saving_throw_proficiencies": [
+        "Wisdom",
+        "Charisma"
+      ],
+      "skill_proficiencies": [
+        "Athletics",
+        "Insight",
+        "Perception",
+        "Persuasion"
+      ],
+      "tool_proficiencies": [],
+      "speed_feet": 25,
+      "game_level_features": [
+        {
+          "game_level": 1,
+          "dnd_equivalent_level": 5,
+          "features": [
+            "Lay on Hands: 25 points",
+            "Extra Attack",
+            "Aura of Protection: 10 feet"
+          ]
+        },
+        {
+          "game_level": 2,
+          "dnd_equivalent_level": 9,
+          "features": [
+            "Aura radius: 10 feet",
+            "Hope reserve"
+          ]
+        },
+        {
+          "game_level": 3,
+          "dnd_equivalent_level": 13,
+          "features": [
+            "Improved Divine Smite",
+            "Aura radius: 10 feet"
+          ]
+        },
+        {
+          "game_level": 4,
+          "dnd_equivalent_level": 17,
+          "features": [
+            "Aura radius: 30 feet",
+            "Cleansing Touch"
+          ]
+        },
+        {
+          "game_level": 5,
+          "dnd_equivalent_level": 20,
+          "features": [
+            "Oath of Hope transformation",
+            "Radiant defender capstone"
+          ]
+        }
+      ],
+      "power_ids": [
+        "kitk-power-false-bravado",
+        "kitk-power-lady-luck",
+        "kitk-power-fire-arrows",
+        "kitk-power-radiant-prayer",
+        "kitk-power-hope",
+        "kitk-power-blinding-smite",
+        "kitk-power-imprison",
+        "kitk-power-death-ward",
+        "kitk-power-holy-wrath"
+      ],
+      "rule": "This is a curated Killer In The Keep hero package. Players do not replace it with a generic class build during a mystery."
+    },
+    {
+      "id": "kitk-class-joknos_jock",
+      "hero_id": "joknos_jock",
+      "hero_name": "Joknos",
+      "class_name": "Bard",
+      "fixed_package": true,
+      "party_role": [
+        "social manipulator",
+        "crowd controller",
+        "teleportation specialist"
+      ],
+      "primary_ability": "Charisma",
+      "power_ability": "Charisma",
+      "saving_throw_proficiencies": [
+        "Dexterity",
+        "Charisma"
+      ],
+      "skill_proficiencies": [
+        "Deception",
+        "Performance",
+        "Persuasion",
+        "Sleight of Hand"
+      ],
+      "tool_proficiencies": [
+        "Musical Instrument",
+        "Disguise Kit"
+      ],
+      "speed_feet": 30,
+      "game_level_features": [
+        {
+          "game_level": 1,
+          "dnd_equivalent_level": 5,
+          "features": [
+            "Bardic Inspiration d8",
+            "Expertise: 2 skills",
+            "Creation performance"
+          ]
+        },
+        {
+          "game_level": 2,
+          "dnd_equivalent_level": 9,
+          "features": [
+            "Bardic Inspiration d8",
+            "Countercharm"
+          ]
+        },
+        {
+          "game_level": 3,
+          "dnd_equivalent_level": 13,
+          "features": [
+            "Bardic Inspiration d10",
+            "Expertise: 4 skills"
+          ]
+        },
+        {
+          "game_level": 4,
+          "dnd_equivalent_level": 17,
+          "features": [
+            "Bardic Inspiration d12",
+            "Superior creation"
+          ]
+        },
+        {
+          "game_level": 5,
+          "dnd_equivalent_level": 20,
+          "features": [
+            "Bardic Inspiration d12",
+            "Creative reality capstone"
+          ]
+        }
+      ],
+      "power_ids": [
+        "kitk-power-true-strike",
+        "kitk-power-might-of-kord",
+        "kitk-power-cruel-contempt",
+        "kitk-power-hideous-laughter",
+        "kitk-power-eardrum-splitter",
+        "kitk-power-influence",
+        "kitk-power-invisibility",
+        "kitk-power-persisting-death-curse",
+        "kitk-power-dispel-magic",
+        "kitk-power-bravado",
+        "kitk-power-teleportation-doorway",
+        "kitk-power-encanto"
+      ],
+      "rule": "This is a curated Killer In The Keep hero package. Players do not replace it with a generic class build during a mystery."
+    },
+    {
+      "id": "kitk-class-githtoxundes_fenwophyl",
+      "hero_id": "githtoxundes_fenwophyl",
+      "hero_name": "Githtoxundes Fenwophyl",
+      "class_name": "Cleric",
+      "fixed_package": true,
+      "party_role": [
+        "primary healer",
+        "revival specialist",
+        "divine controller"
+      ],
+      "primary_ability": "Wisdom",
+      "power_ability": "Wisdom",
+      "saving_throw_proficiencies": [
+        "Wisdom",
+        "Charisma"
+      ],
+      "skill_proficiencies": [
+        "Insight",
+        "Medicine",
+        "Perception",
+        "Religion"
+      ],
+      "tool_proficiencies": [
+        "Healer's Kit"
+      ],
+      "speed_feet": 30,
+      "game_level_features": [
+        {
+          "game_level": 1,
+          "dnd_equivalent_level": 5,
+          "features": [
+            "Channel Divinity (1 use)",
+            "Restoration specialist",
+            "Dragon breath"
+          ]
+        },
+        {
+          "game_level": 2,
+          "dnd_equivalent_level": 9,
+          "features": [
+            "Channel Divinity (2 uses)",
+            "Improved restoration"
+          ]
+        },
+        {
+          "game_level": 3,
+          "dnd_equivalent_level": 13,
+          "features": [
+            "Divine intervention chance",
+            "Mass restoration"
+          ]
+        },
+        {
+          "game_level": 4,
+          "dnd_equivalent_level": 17,
+          "features": [
+            "Channel Divinity (3 uses)",
+            "Supreme healing"
+          ]
+        },
+        {
+          "game_level": 5,
+          "dnd_equivalent_level": 20,
+          "features": [
+            "Reliable Divine Intervention",
+            "Restorer capstone"
+          ]
+        }
+      ],
+      "power_ids": [
+        "kitk-power-spare-the-dying",
+        "kitk-power-guidance",
+        "kitk-power-scourge",
+        "kitk-power-cure-wounds",
+        "kitk-power-imprison",
+        "kitk-power-mass-healing-word",
+        "kitk-power-restore-person"
+      ],
+      "rule": "This is a curated Killer In The Keep hero package. Players do not replace it with a generic class build during a mystery."
+    },
+    {
+      "id": "kitk-class-gunnus",
+      "hero_id": "gunnus",
+      "hero_name": "Gunnus",
+      "class_name": "Necromancer",
+      "fixed_package": true,
+      "party_role": [
+        "undead summoner",
+        "life-drain caster",
+        "risky reviver"
+      ],
+      "primary_ability": "Charisma",
+      "power_ability": "Charisma",
+      "saving_throw_proficiencies": [
+        "Intelligence",
+        "Wisdom"
+      ],
+      "skill_proficiencies": [
+        "Arcana",
+        "Intimidation",
+        "Medicine",
+        "Religion"
+      ],
+      "tool_proficiencies": [
+        "Necromantic Focus"
+      ],
+      "speed_feet": 30,
+      "game_level_features": [
+        {
+          "game_level": 1,
+          "dnd_equivalent_level": 5,
+          "features": [
+            "Arcane Recovery",
+            "Necromancy focus",
+            "Headbutt natural weapon"
+          ]
+        },
+        {
+          "game_level": 2,
+          "dnd_equivalent_level": 9,
+          "features": [
+            "Undead Warrior summon",
+            "Improved life drain"
+          ]
+        },
+        {
+          "game_level": 3,
+          "dnd_equivalent_level": 13,
+          "features": [
+            "Eliminated-hero zombie rule in Work Separately",
+            "Revivify access"
+          ]
+        },
+        {
+          "game_level": 4,
+          "dnd_equivalent_level": 17,
+          "features": [
+            "Command two undead",
+            "Necrotic resistance"
+          ]
+        },
+        {
+          "game_level": 5,
+          "dnd_equivalent_level": 20,
+          "features": [
+            "Master of undeath capstone",
+            "Life-drain mastery"
+          ]
+        }
+      ],
+      "power_ids": [
+        "kitk-power-chill-touch",
+        "kitk-power-poison-spray",
+        "kitk-power-spare-the-dying",
+        "kitk-power-hideous-laughter",
+        "kitk-power-dark-illumination",
+        "kitk-power-undead-warrior",
+        "kitk-power-senseless",
+        "kitk-power-vampiric-touch",
+        "kitk-power-revivify",
+        "kitk-power-blight",
+        "kitk-power-phantasmal-killer"
+      ],
+      "rule": "This is a curated Killer In The Keep hero package. Players do not replace it with a generic class build during a mystery."
+    },
+    {
+      "id": "kitk-class-monk",
+      "hero_id": "monk",
+      "hero_name": "Monk",
+      "class_name": "Monk",
+      "fixed_package": true,
+      "party_role": [
+        "melee controller",
+        "reactive defender",
+        "resource-based striker"
+      ],
+      "primary_ability": "Wisdom",
+      "power_ability": "Wisdom",
+      "saving_throw_proficiencies": [
+        "Strength",
+        "Dexterity"
+      ],
+      "skill_proficiencies": [
+        "Acrobatics",
+        "Athletics",
+        "Insight",
+        "Perception"
+      ],
+      "tool_proficiencies": [
+        "Smith's Tools"
+      ],
+      "speed_feet": 40,
+      "game_level_features": [
+        {
+          "game_level": 1,
+          "dnd_equivalent_level": 5,
+          "features": [
+            "Chi: 2",
+            "Extra Attack",
+            "Stunning Strike",
+            "Deflect Attacks"
+          ]
+        },
+        {
+          "game_level": 2,
+          "dnd_equivalent_level": 9,
+          "features": [
+            "Chi: 4",
+            "Evasion",
+            "Improved movement"
+          ]
+        },
+        {
+          "game_level": 3,
+          "dnd_equivalent_level": 13,
+          "features": [
+            "Chi: 6",
+            "Diamond Soul-style saves",
+            "Elemental body"
+          ]
+        },
+        {
+          "game_level": 4,
+          "dnd_equivalent_level": 17,
+          "features": [
+            "Chi: 8",
+            "Superior Defense"
+          ]
+        },
+        {
+          "game_level": 5,
+          "dnd_equivalent_level": 20,
+          "features": [
+            "Chi: 10",
+            "Perfect Self",
+            "Heart-stopping capstone"
+          ]
+        }
+      ],
+      "power_ids": [
+        "kitk-power-whirlwind",
+        "kitk-power-paralyzing-blow",
+        "kitk-power-crushing-grip",
+        "kitk-power-scorched-soul",
+        "kitk-power-fiery-whips-of-vengeance",
+        "kitk-power-wind-of-the-mighty",
+        "kitk-power-windforce-punch",
+        "kitk-power-chi-heal",
+        "kitk-power-chi-shield",
+        "kitk-power-dragons-breath",
+        "kitk-power-stone-flesh",
+        "kitk-power-heart-halting-assault"
+      ],
+      "rule": "This is a curated Killer In The Keep hero package. Players do not replace it with a generic class build during a mystery."
+    }
+  ]
+}

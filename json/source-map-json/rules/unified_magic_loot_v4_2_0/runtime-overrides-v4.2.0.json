@@ -1,0 +1,15 @@
+{
+  "schema_version": "1.0.0",
+  "rules_version": "4.2.0",
+  "document_type": "KillerInTheKeep_runtime_reference_overrides",
+  "weapon_racks": "Ignore legacy gameplay-deck weapon IDs in authored item placement availability arrays; draw one card from armory-weapon-deck-v2.0.0.json after trap/monster resolution.",
+  "fixed_treasure": "Resolve specific treasure IDs against treasure-deck-v2.0.0.json. Container wrapper IDs determine draw count; item IDs provide the fixed item.",
+  "evidence_deal": {
+    "living_seats": 7,
+    "includes_original_killer": true,
+    "opening_victim_ghost": false,
+    "cards_per_living_seat": 5
+  },
+  "disproof": "Every living holder, including the killer, plays every matching card face-up during the reveal window.",
+  "magic_weapon_validation": "All magic weapon cards must contain typed extra_damage data."
+}

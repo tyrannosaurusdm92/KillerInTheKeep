@@ -1,0 +1,176 @@
+{
+  "schema_version": "4.0.0",
+  "document_type": "killer_hero_armor",
+  "system": "Killer In The Keep",
+  "rules_profile": "Killer In The Keep 5E-Compatible Hybrid",
+  "scope": "Killer In The Keep only",
+  "build_date": "2026-08-05",
+  "source_basis": [
+    "KillerInTheKeep_5_Game_Level_Progression.json",
+    "System Reference Document 5.2.1"
+  ],
+  "srd_attribution": "This work includes material from the System Reference Document 5.2.1 (“SRD 5.2.1”) by Wizards of the Coast LLC, available at https://www.dndbeyond.com/srd. The SRD 5.2.1 is licensed under the Creative Commons Attribution 4.0 International License, available at https://creativecommons.org/licenses/by/4.0/legalcode.",
+  "publisher_affiliation": "Killer In The Keep is an independent project and is not endorsed by Wizards of the Coast.",
+  "record_count": 11,
+  "records": [
+    {
+      "id": "unarmored",
+      "name": "Unarmored",
+      "category": "none",
+      "base_ac": "10 + Dexterity modifier",
+      "stealth_disadvantage": false,
+      "users": [
+        "Eilvyre Astath",
+        "Gunnus",
+        "Daltu",
+        "Noldrack Goldblade",
+        "Korbin Silverdew",
+        "Joknos",
+        "Githtoxundes Fenwophyl"
+      ]
+    },
+    {
+      "id": "monk-integrated-defense",
+      "name": "Monk Integrated Defense",
+      "category": "custom unarmored defense",
+      "base_ac": "10 + Dexterity modifier + Wisdom modifier",
+      "stealth_disadvantage": false,
+      "users": [
+        "Monk"
+      ],
+      "source_classification": "Killer custom ancestry/class package"
+    },
+    {
+      "id": "ring-mail",
+      "name": "Ring Mail",
+      "category": "heavy armor",
+      "base_ac": 14,
+      "dexterity_cap": 0,
+      "strength_requirement": null,
+      "stealth_disadvantage": true,
+      "users": [
+        "Daltu"
+      ]
+    },
+    {
+      "id": "plate-mail",
+      "name": "Plate Mail",
+      "category": "heavy armor",
+      "base_ac": 18,
+      "dexterity_cap": 0,
+      "strength_requirement": 15,
+      "stealth_disadvantage": true,
+      "users": [
+        "Daltu",
+        "Korbin Silverdew"
+      ]
+    },
+    {
+      "id": "leather",
+      "name": "Leather Armor",
+      "category": "light armor",
+      "base_ac": "11 + Dexterity modifier",
+      "stealth_disadvantage": false,
+      "users": [
+        "Noldrack Goldblade",
+        "Joknos",
+        "Gunnus"
+      ]
+    },
+    {
+      "id": "studded-leather",
+      "name": "Studded Leather",
+      "category": "light armor",
+      "base_ac": "12 + Dexterity modifier",
+      "stealth_disadvantage": false,
+      "users": [
+        "Noldrack Goldblade",
+        "Joknos",
+        "Gunnus"
+      ]
+    },
+    {
+      "id": "ironwood-breastplate",
+      "name": "Ironwood Breastplate",
+      "category": "custom medium armor",
+      "base_ac": "14 + Dexterity modifier (maximum +2)",
+      "stealth_disadvantage": false,
+      "users": [
+        "Noldrack Goldblade"
+      ],
+      "source_classification": "Killer custom nonmetal armor"
+    },
+    {
+      "id": "chain-mail",
+      "name": "Chain Mail",
+      "category": "heavy armor",
+      "base_ac": 16,
+      "dexterity_cap": 0,
+      "strength_requirement": 13,
+      "stealth_disadvantage": true,
+      "users": [
+        "Korbin Silverdew"
+      ]
+    },
+    {
+      "id": "chain-shirt",
+      "name": "Chain Shirt",
+      "category": "medium armor",
+      "base_ac": "13 + Dexterity modifier (maximum +2)",
+      "stealth_disadvantage": false,
+      "users": [
+        "Githtoxundes Fenwophyl"
+      ]
+    },
+    {
+      "id": "half-plate",
+      "name": "Half Plate",
+      "category": "medium armor",
+      "base_ac": "15 + Dexterity modifier (maximum +2)",
+      "stealth_disadvantage": true,
+      "users": [
+        "Githtoxundes Fenwophyl"
+      ]
+    },
+    {
+      "id": "mage-armor",
+      "name": "Mage Armor",
+      "category": "power-created defense",
+      "base_ac": "13 + Dexterity modifier",
+      "duration": "8 hours",
+      "stealth_disadvantage": false,
+      "users": [
+        "Eilvyre Astath"
+      ]
+    }
+  ],
+  "armor_progression_by_hero": {
+    "daltu": [
+      "Ringmail",
+      "Platemail"
+    ],
+    "noldrack_goldblade": [
+      "Leather",
+      "Studded Leather",
+      "Ironwood Breastplate"
+    ],
+    "eilvyre_astath": [],
+    "korbin_silverdew": [
+      "Chainmail",
+      "Platemail"
+    ],
+    "joknos_jock": [
+      "Leather",
+      "Studded Leather"
+    ],
+    "githtoxundes_fenwophyl": [
+      "Chain Shirt",
+      "Half Plate"
+    ],
+    "gunnus": [
+      "Leather",
+      "Studded Leather"
+    ],
+    "monk": []
+  }
+}

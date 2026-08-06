@@ -1,0 +1,55 @@
+{
+  "schema_version": "4.0.0",
+  "document_type": "licensing_and_scope",
+  "system": "Killer In The Keep",
+  "rules_profile": "Killer In The Keep 5E-Compatible Hybrid",
+  "scope": "Killer In The Keep only",
+  "build_date": "2026-08-05",
+  "source_basis": [
+    "KillerInTheKeep_5_Game_Level_Progression.json",
+    "System Reference Document 5.2.1"
+  ],
+  "srd_attribution": "This work includes material from the System Reference Document 5.2.1 (“SRD 5.2.1”) by Wizards of the Coast LLC, available at https://www.dndbeyond.com/srd. The SRD 5.2.1 is licensed under the Creative Commons Attribution 4.0 International License, available at https://creativecommons.org/licenses/by/4.0/legalcode.",
+  "publisher_affiliation": "Killer In The Keep is an independent project and is not endorsed by Wizards of the Coast.",
+  "license_and_scope_note": "All rules records in this folder are restricted to Killer In The Keep. Generic D&D setting catalogs, unrelated character options, unrelated adventures, and filler records have been removed.",
+  "killer_in_the_keep_original_content": {
+    "ownership_note": "Killer In The Keep names, heroes, murder structure, rooms, custom powers, traps, progression, and original game content remain the project creator’s content.",
+    "included_scope": [
+      "Eight fixed heroes",
+      "Eight suspects",
+      "Eight murder weapons",
+      "Sixteen solution rooms",
+      "Keep monsters and traps",
+      "Work Together and Work Separately",
+      "Five Game Levels",
+      "Cross-platform gameplay rules"
+    ]
+  },
+  "srd_use": {
+    "license": "Creative Commons Attribution 4.0 International (CC BY 4.0)",
+    "required_attribution": "This work includes material from the System Reference Document 5.2.1 (“SRD 5.2.1”) by Wizards of the Coast LLC, available at https://www.dndbeyond.com/srd. The SRD 5.2.1 is licensed under the Creative Commons Attribution 4.0 International License, available at https://creativecommons.org/licenses/by/4.0/legalcode.",
+    "compatibility_statement": "Killer In The Keep is 5E compatible.",
+    "adapted_elements": [
+      "D20 Tests",
+      "ability modifiers",
+      "proficiency bonus",
+      "Armor Class",
+      "saving throws",
+      "attack rolls",
+      "Advantage and Disadvantage",
+      "action economy",
+      "conditions",
+      "selected weapons, armor, spells, and monster mechanics"
+    ]
+  },
+  "not_srd_claims": [
+    "Kobold, Lizardfolk, Minotaur, Warforged, Eldritch Knight, College of Creation, and other names or mechanics not present in SRD 5.2.1 are not represented as SRD content. They are retained or adapted as Killer In The Keep custom content."
+  ],
+  "excluded": [
+    "Generic edition catalogs",
+    "Unrelated D&D worlds or factions",
+    "Randomly generated classes, spells, monsters, locations, and adventures",
+    "Official non-SRD product text",
+    "Any rule option that replaces the fixed Killer In The Keep roster or deduction engine"
+  ]
+}

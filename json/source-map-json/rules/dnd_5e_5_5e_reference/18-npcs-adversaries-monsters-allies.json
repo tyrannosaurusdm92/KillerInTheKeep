@@ -1,0 +1,374 @@
+{
+  "schema_version": "4.0.0",
+  "document_type": "killer_keep_monsters_and_summons",
+  "system": "Killer In The Keep",
+  "rules_profile": "Killer In The Keep 5E-Compatible Hybrid",
+  "scope": "Killer In The Keep only",
+  "build_date": "2026-08-05",
+  "source_basis": [
+    "KillerInTheKeep_5_Game_Level_Progression.json",
+    "System Reference Document 5.2.1"
+  ],
+  "srd_attribution": "This work includes material from the System Reference Document 5.2.1 (“SRD 5.2.1”) by Wizards of the Coast LLC, available at https://www.dndbeyond.com/srd. The SRD 5.2.1 is licensed under the Creative Commons Attribution 4.0 International License, available at https://creativecommons.org/licenses/by/4.0/legalcode.",
+  "publisher_affiliation": "Killer In The Keep is an independent project and is not endorsed by Wizards of the Coast.",
+  "record_count": 12,
+  "themes": [
+    "insects",
+    "arachnids",
+    "undead"
+  ],
+  "encounter_triggers": [
+    "Enter a previously unexplored room.",
+    "Roll the maximum movement result while traveling through hallways in Legacy mode.",
+    "Use a secret passage.",
+    "Disturb spider webs or egg clusters.",
+    "Make excessive noise.",
+    "Advance the storm or rest timer."
+  ],
+  "monster_control": {
+    "recommended": "Game AI controls enemies.",
+    "legacy_option": "The player who triggered the encounter temporarily controls the monster.",
+    "host_option": "A human host may control monsters in custom mysteries."
+  },
+  "records": [
+    {
+      "id": "kitk-monster-small-spider",
+      "name": "Small Spider",
+      "source_card_count": 10,
+      "size": "Tiny",
+      "ac": 12,
+      "hp": 5,
+      "speed": "20 ft., climb 20 ft.",
+      "attack": "+4 bite, 1d4+2 piercing; DC 11 Constitution or 1d4 poison",
+      "traits": [
+        "Spider Climb",
+        "Web Sense"
+      ],
+      "game_level_scaling": {
+        "hp_multiplier_by_game_level": {
+          "1": 1.0,
+          "2": 1.35,
+          "3": 1.7,
+          "4": 2.1,
+          "5": 2.5
+        },
+        "attack_bonus_adjustment_by_game_level": {
+          "1": 0,
+          "2": 1,
+          "3": 2,
+          "4": 3,
+          "5": 4
+        },
+        "damage_dice_adjustment": "Add one base damage die at Game Levels 3 and 5 for elite encounters only."
+      }
+    },
+    {
+      "id": "kitk-monster-medium-spider",
+      "name": "Medium Spider",
+      "source_card_count": 8,
+      "size": "Small",
+      "ac": 13,
+      "hp": 11,
+      "speed": "30 ft., climb 30 ft.",
+      "attack": "+4 bite, 1d6+2 piercing + 1d6 poison",
+      "traits": [
+        "Spider Climb",
+        "Web Walker"
+      ],
+      "game_level_scaling": {
+        "hp_multiplier_by_game_level": {
+          "1": 1.0,
+          "2": 1.35,
+          "3": 1.7,
+          "4": 2.1,
+          "5": 2.5
+        },
+        "attack_bonus_adjustment_by_game_level": {
+          "1": 0,
+          "2": 1,
+          "3": 2,
+          "4": 3,
+          "5": 4
+        },
+        "damage_dice_adjustment": "Add one base damage die at Game Levels 3 and 5 for elite encounters only."
+      }
+    },
+    {
+      "id": "kitk-monster-large-spider",
+      "name": "Large Spider",
+      "source_card_count": 5,
+      "size": "Large",
+      "ac": 14,
+      "hp": 26,
+      "speed": "30 ft., climb 30 ft.",
+      "attack": "+5 bite, 2d6+3 piercing + 2d6 poison",
+      "traits": [
+        "Web (Recharge 5–6)",
+        "Spider Climb",
+        "Web Walker"
+      ],
+      "game_level_scaling": {
+        "hp_multiplier_by_game_level": {
+          "1": 1.0,
+          "2": 1.35,
+          "3": 1.7,
+          "4": 2.1,
+          "5": 2.5
+        },
+        "attack_bonus_adjustment_by_game_level": {
+          "1": 0,
+          "2": 1,
+          "3": 2,
+          "4": 3,
+          "5": 4
+        },
+        "damage_dice_adjustment": "Add one base damage die at Game Levels 3 and 5 for elite encounters only."
+      }
+    },
+    {
+      "id": "kitk-monster-gigantic-spider",
+      "name": "Gigantic Spider",
+      "source_card_count": 2,
+      "size": "Huge",
+      "ac": 15,
+      "hp": 75,
+      "speed": "40 ft., climb 40 ft.",
+      "attack": "Multiattack: two bites +7, each 2d10+4 piercing + 3d6 poison",
+      "traits": [
+        "Web Barrage",
+        "Spider Climb",
+        "Web Walker",
+        "Legendary resistance on Nightmare difficulty"
+      ],
+      "game_level_scaling": {
+        "hp_multiplier_by_game_level": {
+          "1": 1.0,
+          "2": 1.35,
+          "3": 1.7,
+          "4": 2.1,
+          "5": 2.5
+        },
+        "attack_bonus_adjustment_by_game_level": {
+          "1": 0,
+          "2": 1,
+          "3": 2,
+          "4": 3,
+          "5": 4
+        },
+        "damage_dice_adjustment": "Add one base damage die at Game Levels 3 and 5 for elite encounters only."
+      }
+    },
+    {
+      "id": "kitk-monster-horsefly-swarm",
+      "name": "Horsefly Swarm",
+      "source_card_count": 10,
+      "size": "Medium swarm",
+      "ac": 12,
+      "hp": 18,
+      "speed": "10 ft., fly 40 ft.",
+      "attack": "Swarm bites +4, 4d4 piercing while above half HP, 2d4 otherwise",
+      "traits": [
+        "Swarm",
+        "Distracting Buzz"
+      ],
+      "game_level_scaling": {
+        "hp_multiplier_by_game_level": {
+          "1": 1.0,
+          "2": 1.35,
+          "3": 1.7,
+          "4": 2.1,
+          "5": 2.5
+        },
+        "attack_bonus_adjustment_by_game_level": {
+          "1": 0,
+          "2": 1,
+          "3": 2,
+          "4": 3,
+          "5": 4
+        },
+        "damage_dice_adjustment": "Add one base damage die at Game Levels 3 and 5 for elite encounters only."
+      }
+    },
+    {
+      "id": "kitk-monster-giant-tick",
+      "name": "Giant Tick",
+      "source_card_count": 7,
+      "size": "Medium",
+      "ac": 14,
+      "hp": 22,
+      "speed": "30 ft., climb 20 ft.",
+      "attack": "+5 bite, 1d8+3 piercing; attaches and drains 2d6 necrotic at start of its turns",
+      "traits": [
+        "Attach",
+        "Blood Drain"
+      ],
+      "game_level_scaling": {
+        "hp_multiplier_by_game_level": {
+          "1": 1.0,
+          "2": 1.35,
+          "3": 1.7,
+          "4": 2.1,
+          "5": 2.5
+        },
+        "attack_bonus_adjustment_by_game_level": {
+          "1": 0,
+          "2": 1,
+          "3": 2,
+          "4": 3,
+          "5": 4
+        },
+        "damage_dice_adjustment": "Add one base damage die at Game Levels 3 and 5 for elite encounters only."
+      }
+    },
+    {
+      "id": "kitk-monster-fire-ant-swarm",
+      "name": "Fire Ant Swarm",
+      "source_card_count": 8,
+      "size": "Medium swarm",
+      "ac": 13,
+      "hp": 24,
+      "speed": "30 ft., climb 20 ft.",
+      "attack": "Swarm bites +5, 3d6 piercing/fire while above half HP, 2d6 otherwise",
+      "traits": [
+        "Swarm",
+        "Burning Trail"
+      ],
+      "game_level_scaling": {
+        "hp_multiplier_by_game_level": {
+          "1": 1.0,
+          "2": 1.35,
+          "3": 1.7,
+          "4": 2.1,
+          "5": 2.5
+        },
+        "attack_bonus_adjustment_by_game_level": {
+          "1": 0,
+          "2": 1,
+          "3": 2,
+          "4": 3,
+          "5": 4
+        },
+        "damage_dice_adjustment": "Add one base damage die at Game Levels 3 and 5 for elite encounters only."
+      }
+    },
+    {
+      "id": "kitk-monster-mosquito-swarm",
+      "name": "Mosquito Swarm",
+      "source_card_count": 10,
+      "size": "Medium swarm",
+      "ac": 12,
+      "hp": 20,
+      "speed": "10 ft., fly 40 ft.",
+      "attack": "Blood drain +4, 3d6 piercing/necrotic; target cannot regain HP until next turn",
+      "traits": [
+        "Swarm",
+        "Life Drain"
+      ],
+      "game_level_scaling": {
+        "hp_multiplier_by_game_level": {
+          "1": 1.0,
+          "2": 1.35,
+          "3": 1.7,
+          "4": 2.1,
+          "5": 2.5
+        },
+        "attack_bonus_adjustment_by_game_level": {
+          "1": 0,
+          "2": 1,
+          "3": 2,
+          "4": 3,
+          "5": 4
+        },
+        "damage_dice_adjustment": "Add one base damage die at Game Levels 3 and 5 for elite encounters only."
+      }
+    },
+    {
+      "id": "kitk-monster-zombie",
+      "name": "Zombie",
+      "source_card_count": 10,
+      "size": "Medium",
+      "ac": 8,
+      "hp": 22,
+      "speed": "20 ft.",
+      "attack": "+3 slam, 1d6+1 bludgeoning",
+      "traits": [
+        "Undead Fortitude",
+        "Immune to poison and exhaustion"
+      ],
+      "game_level_scaling": {
+        "hp_multiplier_by_game_level": {
+          "1": 1.0,
+          "2": 1.35,
+          "3": 1.7,
+          "4": 2.1,
+          "5": 2.5
+        },
+        "attack_bonus_adjustment_by_game_level": {
+          "1": 0,
+          "2": 1,
+          "3": 2,
+          "4": 3,
+          "5": 4
+        },
+        "damage_dice_adjustment": "Add one base damage die at Game Levels 3 and 5 for elite encounters only."
+      }
+    },
+    {
+      "id": "kitk-monster-skeleton",
+      "name": "Skeleton",
+      "source_card_count": 10,
+      "size": "Medium",
+      "ac": 13,
+      "hp": 13,
+      "speed": "30 ft.",
+      "attack": "+4 shortsword 1d6+2 piercing or shortbow 1d6+2 piercing",
+      "traits": [
+        "Vulnerable to bludgeoning",
+        "Immune to poison and exhaustion"
+      ],
+      "game_level_scaling": {
+        "hp_multiplier_by_game_level": {
+          "1": 1.0,
+          "2": 1.35,
+          "3": 1.7,
+          "4": 2.1,
+          "5": 2.5
+        },
+        "attack_bonus_adjustment_by_game_level": {
+          "1": 0,
+          "2": 1,
+          "3": 2,
+          "4": 3,
+          "5": 4
+        },
+        "damage_dice_adjustment": "Add one base damage die at Game Levels 3 and 5 for elite encounters only."
+      }
+    },
+    {
+      "id": "kitk-summon-undead-warrior",
+      "name": "Undead Warrior",
+      "role": "Gunnus summon",
+      "ac": 13,
+      "hp_formula": "10 + 5 × Gunnus Game Level",
+      "speed": "30 ft.",
+      "attack_formula": "1d20 + Gunnus proficiency bonus + Gunnus power ability modifier; 1d8 + proficiency bonus necrotic",
+      "traits": [
+        "Obeys Gunnus",
+        "Acts immediately after Gunnus",
+        "One active by default"
+      ]
+    },
+    {
+      "id": "kitk-trap-hostile-duplicate",
+      "name": "Hostile Duplicate",
+      "role": "Duplicate Mirror result",
+      "ac_formula": "Copied hero AC",
+      "hp_formula": "50% of copied hero current maximum HP",
+      "attack_and_powers": "Copies visible weapon attacks and unlimited powers only; cannot use limited powers, hidden cards, or private notes",
+      "traits": [
+        "Cannot reveal the solution",
+        "Destroyed when reduced to 0 HP or mirror is disabled"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,436 @@
+{
+  "schemaVersion": "4.3.0",
+  "basis": "SRD 5.2.1",
+  "note": "Summaries are original, condensed references. Consult SRD 5.2.1 for complete rules text.",
+  "spells": {
+    "Darkness": {
+      "type": "Level 2 Evocation spell",
+      "meta": "Action • 60 ft. • Concentration, up to 10 minutes",
+      "summary": "Magical darkness fills a 15-foot-radius sphere. Darkvision cannot see through it, and nonmagical light cannot illuminate it."
+    },
+    "Blight": {
+      "type": "Level 4 Necromancy spell",
+      "meta": "Action • 30 ft. • Instantaneous",
+      "summary": "One creature makes a Constitution save, taking 8d8 necrotic damage on a failure or half on a success. Plants automatically fail."
+    },
+    "Eldritch Blast": {
+      "type": "Evocation cantrip",
+      "meta": "Action • 120 ft. • Instantaneous",
+      "summary": "Make a ranged spell attack. On a hit, the target takes 1d10 force damage. The spell creates additional beams at higher character levels."
+    },
+    "Hellish Rebuke": {
+      "type": "Level 1 Evocation spell",
+      "meta": "Reaction • 60 ft. • Instantaneous",
+      "summary": "When a creature you can see damages you, it makes a Dexterity save, taking 2d10 fire damage on a failure or half on a success."
+    },
+    "Burning Hands": {
+      "type": "Level 1 Evocation spell",
+      "meta": "Action • Self (15-foot cone) • Instantaneous",
+      "summary": "Creatures in the cone make a Dexterity save, taking 3d6 fire damage on a failure or half on a success."
+    },
+    "Mage Hand": {
+      "type": "Conjuration cantrip",
+      "meta": "Action • 30 ft. • 1 minute",
+      "summary": "Create a spectral hand that can manipulate an object, open an unlocked container, stow or retrieve an item, or pour out a vial."
+    },
+    "Misty Step": {
+      "type": "Level 2 Conjuration spell",
+      "meta": "Bonus Action • Self • Instantaneous",
+      "summary": "Teleport up to 30 feet to an unoccupied space you can see."
+    },
+    "Hold Person": {
+      "type": "Level 2 Enchantment spell",
+      "meta": "Action • 60 ft. • Concentration, up to 1 minute",
+      "summary": "A Humanoid makes a Wisdom save or becomes Paralyzed. It repeats the save at the end of each of its turns."
+    },
+    "Mage Armor": {
+      "type": "Level 1 Abjuration spell",
+      "meta": "Action • Touch • 8 hours",
+      "summary": "A willing unarmored creature has a base Armor Class of 13 plus its Dexterity modifier for the duration."
+    },
+    "Ray of Frost": {
+      "type": "Evocation cantrip",
+      "meta": "Action • 60 ft. • Instantaneous",
+      "summary": "Make a ranged spell attack. On a hit, the target takes 1d8 cold damage and its Speed is reduced by 10 feet until your next turn."
+    },
+    "Acid Splash": {
+      "type": "Evocation cantrip",
+      "meta": "Action • 60 ft. • Instantaneous",
+      "summary": "An acidic bubble bursts in a 5-foot-radius sphere. Creatures there make a Dexterity save or take 1d6 acid damage."
+    },
+    "Dancing Lights": {
+      "type": "Illusion cantrip",
+      "meta": "Action • 120 ft. • Concentration, up to 1 minute",
+      "summary": "Create up to four hovering lights. Each sheds dim light in a 10-foot radius, and you can move them with a Bonus Action."
+    },
+    "Shatter": {
+      "type": "Level 2 Evocation spell",
+      "meta": "Action • 60 ft. • Instantaneous",
+      "summary": "A 10-foot-radius sphere erupts with sound. Creatures make a Constitution save, taking 3d8 thunder damage on a failure or half on a success."
+    },
+    "Lightning Bolt": {
+      "type": "Level 3 Evocation spell",
+      "meta": "Action • Self (100-foot line) • Instantaneous",
+      "summary": "Creatures in a 100-foot-long, 5-foot-wide line make a Dexterity save, taking 8d6 lightning damage on a failure or half on a success."
+    },
+    "Bless": {
+      "type": "Level 1 Enchantment spell",
+      "meta": "Action • 30 ft. • Concentration, up to 1 minute",
+      "summary": "Up to three creatures add 1d4 to attack rolls and saving throws for the duration."
+    },
+    "Friends": {
+      "type": "Enchantment cantrip",
+      "meta": "Action • 10 ft. • Concentration, up to 1 minute",
+      "summary": "One visible Humanoid makes a Wisdom save or is Charmed for the duration. The spell ends early if you damage it."
+    },
+    "Death Ward": {
+      "type": "Level 4 Abjuration spell",
+      "meta": "Action • Touch • 8 hours",
+      "summary": "The first time the target would drop to 0 Hit Points, it drops to 1 instead. The spell can also negate one instant-death effect."
+    },
+    "Sacred Flame": {
+      "type": "Evocation cantrip",
+      "meta": "Action • 60 ft. • Instantaneous",
+      "summary": "One creature makes a Dexterity save or takes 1d8 radiant damage. The target gains no benefit from cover for this save."
+    },
+    "Fire Bolt": {
+      "type": "Evocation cantrip",
+      "meta": "Action • 120 ft. • Instantaneous",
+      "summary": "Make a ranged spell attack. On a hit, the target takes 1d10 fire damage, and an unattended flammable object may ignite."
+    },
+    "Charm Person": {
+      "type": "Level 1 Enchantment spell",
+      "meta": "Action • 30 ft. • 1 hour",
+      "summary": "A Humanoid makes a Wisdom save or is Charmed by you. It has Advantage on the save if you or your allies are fighting it."
+    },
+    "Dimension Door": {
+      "type": "Level 4 Conjuration spell",
+      "meta": "Action • 500 ft. • Instantaneous",
+      "summary": "Teleport yourself, and optionally one willing creature, to a destination you describe within range."
+    },
+    "Invisibility": {
+      "type": "Level 2 Illusion spell",
+      "meta": "Action • Touch • Concentration, up to 1 hour",
+      "summary": "A willing creature becomes Invisible. The spell ends early after the target makes an attack roll, deals damage, or casts a spell."
+    },
+    "Thunderwave": {
+      "type": "Level 1 Evocation spell",
+      "meta": "Action • Self (15-foot cube) • Instantaneous",
+      "summary": "Creatures in the cube make a Constitution save, taking 2d8 thunder damage and being pushed 10 feet on a failure."
+    },
+    "Heroism": {
+      "type": "Level 1 Enchantment spell",
+      "meta": "Action • Touch • Concentration, up to 1 minute",
+      "summary": "A willing creature is immune to the Frightened condition and gains temporary Hit Points at the start of each of its turns."
+    },
+    "Bestow Curse": {
+      "type": "Level 3 Necromancy spell",
+      "meta": "Action • Touch • Concentration, up to 1 minute",
+      "summary": "A creature makes a Wisdom save or suffers one curse effect you choose, such as Disadvantage with one ability or attacks against you."
+    },
+    "Suggestion": {
+      "type": "Level 2 Enchantment spell",
+      "meta": "Action • 30 ft. • Concentration, up to 8 hours",
+      "summary": "Magically suggest a reasonable course of activity to one creature that can understand you. A Wisdom save negates the effect."
+    },
+    "Hideous Laughter": {
+      "type": "Level 1 Enchantment spell",
+      "meta": "Action • 30 ft. • Concentration, up to 1 minute",
+      "summary": "A creature makes a Wisdom save or falls Prone and becomes Incapacitated. It repeats the save when damaged and at the end of its turns."
+    },
+    "Spare the Dying": {
+      "type": "Necromancy cantrip",
+      "meta": "Action • 15 ft. • Instantaneous",
+      "summary": "Choose a living creature at 0 Hit Points. It becomes Stable. The range increases at higher character levels."
+    },
+    "Mass Healing Word": {
+      "type": "Level 3 Abjuration spell",
+      "meta": "Bonus Action • 60 ft. • Instantaneous",
+      "summary": "Up to six creatures regain Hit Points equal to 2d4 plus your spellcasting ability modifier."
+    },
+    "Lesser Restoration": {
+      "type": "Level 2 Abjuration spell",
+      "meta": "Bonus Action • Touch • Instantaneous",
+      "summary": "End one disease or one of these conditions on the target: Blinded, Deafened, Paralyzed, or Poisoned."
+    },
+    "Guidance": {
+      "type": "Divination cantrip",
+      "meta": "Action • Touch • Concentration, up to 1 minute",
+      "summary": "A willing creature can add 1d4 to one ability check of its choice before the spell ends."
+    },
+    "Guiding Bolt": {
+      "type": "Level 1 Evocation spell",
+      "meta": "Action • 120 ft. • Instantaneous",
+      "summary": "Make a ranged spell attack. On a hit, the target takes radiant damage, and the next attack roll against it has Advantage."
+    },
+    "Cure Wounds": {
+      "type": "Level 1 Abjuration spell",
+      "meta": "Action • Touch • Instantaneous",
+      "summary": "A creature regains Hit Points equal to 2d8 plus your spellcasting ability modifier."
+    },
+    "Gust of Wind": {
+      "type": "Level 2 Evocation spell",
+      "meta": "Action • Self (60-foot line) • Concentration, up to 1 minute",
+      "summary": "A strong wind fills a 60-foot-long, 10-foot-wide line, pushing creatures that fail a Strength save and hindering movement toward you."
+    },
+    "Flaming Sphere": {
+      "type": "Level 2 Evocation spell",
+      "meta": "Action • 60 ft. • Concentration, up to 1 minute",
+      "summary": "Create a 5-foot sphere of fire. Nearby creatures make Dexterity saves against fire damage, and you can move the sphere with a Bonus Action."
+    },
+    "Find Traps": {
+      "type": "Level 2 Divination spell",
+      "meta": "Action • 120 ft. • Instantaneous",
+      "summary": "Sense whether a deliberately created trap is present within range and line of sight, and learn the general nature of its danger."
+    },
+    "Thorn Whip": {
+      "type": "Transmutation cantrip",
+      "meta": "Action • 30 ft. • Instantaneous",
+      "summary": "Make a melee spell attack against a creature in range. On a hit, it takes 1d6 piercing damage and can be pulled up to 10 feet toward you."
+    },
+    "Poison Spray": {
+      "type": "Necromancy cantrip",
+      "meta": "Action • 30 ft. • Instantaneous",
+      "summary": "One creature makes a Constitution save or takes 1d12 poison damage."
+    },
+    "Vampiric Touch": {
+      "type": "Level 3 Necromancy spell",
+      "meta": "Action • Self • Concentration, up to 1 minute",
+      "summary": "Make a melee spell attack that deals 3d6 necrotic damage and restores Hit Points to you equal to half the damage dealt."
+    },
+    "Animate Dead": {
+      "type": "Level 3 Necromancy spell",
+      "meta": "1 minute • 10 ft. • Instantaneous",
+      "summary": "Animate a corpse or pile of bones as a Zombie or Skeleton. The spell controls it for 24 hours and provides command rules."
+    },
+    "Phantasmal Killer": {
+      "type": "Level 4 Illusion spell",
+      "meta": "Action • 120 ft. • Concentration, up to 1 minute",
+      "summary": "A creature makes a Wisdom save or becomes Frightened and takes psychic damage while the spell continues."
+    }
+  },
+  "monsters": {
+    "Zombie": {
+      "type": "Medium Undead, Neutral Evil",
+      "meta": "AC 8 • HP 15 (2d8 + 6) • Speed 20 ft. • CR 1/4",
+      "summary": "Slam: +3 to hit, 5 (1d8 + 1) bludgeoning. Undead Fortitude can leave it at 1 HP when damage would reduce it to 0, except against radiant damage or a critical hit."
+    },
+    "Skeleton": {
+      "type": "Medium Undead, Lawful Evil",
+      "meta": "AC 14 • HP 13 (2d8 + 4) • Speed 30 ft. • CR 1/4",
+      "summary": "Shortsword or Shortbow: +5 to hit, 6 (1d6 + 3) piercing. Vulnerable to bludgeoning; immune to poison damage and the Exhaustion and Poisoned conditions."
+    },
+    "Spider": {
+      "type": "Tiny Beast, Unaligned",
+      "meta": "AC 12 • HP 1 • Speed 20 ft., Climb 20 ft. • CR 0",
+      "summary": "Bite: +4 to hit, 1 piercing plus 2 (1d4) poison. Spider Climb and Web Walker."
+    },
+    "Giant Wolf Spider": {
+      "type": "Medium Beast, Unaligned",
+      "meta": "AC 13 • HP 11 (2d8 + 2) • Speed 40 ft., Climb 40 ft. • CR 1/4",
+      "summary": "Bite: +5 to hit, 5 (1d4 + 3) piercing plus 5 (2d4) poison. Spider Climb."
+    },
+    "Giant Spider": {
+      "type": "Large Beast, Unaligned",
+      "meta": "AC 14 • HP 26 (4d10 + 4) • Speed 30 ft., Climb 30 ft. • CR 1",
+      "summary": "Bite: +5 to hit, 7 (1d8 + 3) piercing plus 7 (2d6) poison. Web (Recharge 5–6) can Restrain a target on a failed DC 13 Dexterity save."
+    },
+    "Swarm of Insects": {
+      "type": "Medium Swarm of Tiny Beasts, Unaligned",
+      "meta": "AC 11 • HP 19 (3d8 + 6) • Speed 20 ft., Climb or Fly 20 ft. • CR 1/2",
+      "summary": "Bites: +3 to hit, 6 (2d4 + 1) poison, or 3 (1d4 + 1) while Bloodied. The swarm resists bludgeoning, piercing, and slashing damage and has standard swarm immunities."
+    }
+  },
+  "monkFeatures": {
+    "Deflect Attacks": {
+      "type": "Monk feature",
+      "meta": "Reaction • Requires an incoming attack",
+      "summary": "Use the SRD Monk feature to reduce damage from an attack. At higher Monk levels, the feature can redirect some attacks by spending Focus Points."
+    },
+    "Flurry of Blows": {
+      "type": "Monk Focus feature",
+      "meta": "Bonus Action • Spend 1 Focus Point",
+      "summary": "Make two Unarmed Strikes as a Bonus Action, following the SRD Monk feature."
+    },
+    "Grapple": {
+      "type": "Unarmed Strike option",
+      "meta": "Attack action • Strength or Dexterity save",
+      "summary": "Use an Unarmed Strike to impose the Grappled condition. The target uses the save and escape rules in the SRD Rules Glossary."
+    },
+    "Stunning Strike": {
+      "type": "Monk feature",
+      "meta": "Once per turn after a hit • Spend 1 Focus Point",
+      "summary": "Force the target to make a Constitution save. On a failure, it has the Stunned condition until the start of your next turn."
+    },
+    "Open Hand Technique": {
+      "type": "Warrior of the Open Hand feature",
+      "meta": "When Flurry of Blows hits",
+      "summary": "Choose an Open Hand effect from the SRD subclass, such as preventing Opportunity Attacks, pushing the target, or knocking it Prone."
+    },
+    "Patient Defense": {
+      "type": "Monk Focus feature",
+      "meta": "Bonus Action • Spend 1 Focus Point",
+      "summary": "Take the Disengage and Dodge actions as a Bonus Action, following the SRD Monk feature."
+    },
+    "Step of the Wind": {
+      "type": "Monk Focus feature",
+      "meta": "Bonus Action • Spend 1 Focus Point",
+      "summary": "Take the Dash action as a Bonus Action, and your jump distance is doubled for the turn. The SRD feature offers additional movement when Focus is spent."
+    },
+    "Empowered Strikes": {
+      "type": "Monk feature",
+      "meta": "Passive",
+      "summary": "Your Unarmed Strikes can deal Force damage instead of their normal damage type, following the SRD Monk feature."
+    },
+    "Fleet Step": {
+      "type": "Warrior of the Open Hand feature",
+      "meta": "Bonus Action interaction",
+      "summary": "Use Step of the Wind when you take another Bonus Action, following the SRD Open Hand subclass feature."
+    }
+  },
+  "exampleCharacters": {
+    "Daltu": {
+      "type": "Example Level 3 Dragonborn Warlock (Fiend Patron)",
+      "meta": "AC 14 • HP 24 • Speed 30 ft. • PB +2 • Spell DC 13 • Spell attack +5",
+      "summary": "Example ability scores: Str 10, Dex 14, Con 14, Int 10, Wis 12, Cha 17. Uses only SRD species, class, subclass, and spell options."
+    },
+    "Eilvyre Astath": {
+      "type": "Example Level 3 Elf Sorcerer (Draconic Sorcery)",
+      "meta": "AC 15 with Mage Armor • HP 20 • Speed 30 ft. • PB +2 • Spell DC 13 • Spell attack +5",
+      "summary": "Example ability scores: Str 8, Dex 14, Con 14, Int 12, Wis 10, Cha 17. Wild Magic was replaced because it is not the SRD Sorcerer subclass."
+    },
+    "Githtoxundes Fenwophyl": {
+      "type": "Example Level 3 Cleric (Life Domain)",
+      "meta": "AC 18 • HP 24 • Speed 30 ft. • PB +2 • Spell DC 13 • Spell attack +5",
+      "summary": "Example ability scores: Str 14, Dex 10, Con 14, Int 10, Wis 17, Cha 8. Uses the SRD Life Domain and standard Cleric spellcasting."
+    },
+    "Noldrack Goldhide": {
+      "type": "Example Level 3 Druid (Circle of the Land)",
+      "meta": "AC 15 • HP 24 • Speed 30 ft. • PB +2 • Spell DC 13 • Spell attack +5",
+      "summary": "Example ability scores: Str 12, Dex 14, Con 14, Int 10, Wis 17, Cha 8. Uses the SRD Circle of the Land subclass."
+    },
+    "Gunnus": {
+      "type": "Example Level 5 Wizard (Evoker)",
+      "meta": "AC 15 with Mage Armor • HP 32 • Speed 30 ft. • PB +3 • Spell DC 14 • Spell attack +6",
+      "summary": "Example ability scores: Str 8, Dex 14, Con 14, Int 18, Wis 12, Cha 10. Necromancer was replaced because Evoker is the SRD Wizard subclass; Animate Dead remains available as a Wizard spell."
+    },
+    "Monk": {
+      "type": "Example Level 5 Monk (Warrior of the Open Hand)",
+      "meta": "AC 16 • HP 38 • Speed 40 ft. • PB +3 • Focus Points 5 • Focus DC 14",
+      "summary": "Example ability scores: Str 10, Dex 18, Con 14, Int 8, Wis 16, Cha 10. Uses Focus Points and SRD 5.2.1 Monk terminology."
+    }
+  },
+  "traps": {
+    "Falling Net": {
+      "type": "Mechanical trap • 5E-compatible",
+      "meta": "Notice DC 15 • Disable DC 15 • Dexterity save DC 13",
+      "summary": "On a failed save, the creature is Restrained under the net. It or an adjacent creature can use an action to make a DC 10 Strength (Athletics) check to free it."
+    },
+    "Acid Pit": {
+      "type": "Pit trap • 5E-compatible",
+      "meta": "Notice DC 15 • Dexterity save DC 13 • Escape DC 12",
+      "summary": "On a failed save, fall 10 feet, taking 1d6 bludgeoning plus 2d6 acid damage. A creature that remains in the acid takes 1d6 acid damage at the start of its turn."
+    },
+    "Poison Darts": {
+      "type": "Mechanical trap • 5E-compatible",
+      "meta": "Notice DC 15 • Disable DC 15 • Dexterity save DC 15",
+      "summary": "On a failed save, take 1d4 piercing damage and make a DC 13 Constitution save, taking 2d10 poison damage on a failure or half on a success."
+    },
+    "Poison-Spiked Pit": {
+      "type": "Pit trap • 5E-compatible",
+      "meta": "Notice DC 15 • Dexterity save DC 13",
+      "summary": "On a failed save, take 2d6 bludgeoning and 1d10 piercing damage, then make a DC 13 Constitution save against 2d6 poison damage, half on a success."
+    },
+    "Green Slime": {
+      "type": "Dungeon hazard • SRD reference",
+      "meta": "Notice DC 15 • Contact hazard",
+      "summary": "Use the Green Slime hazard rules in SRD 5.2.1. The slime clings to creatures and objects, deals acid damage, and can be removed or destroyed by the methods listed there."
+    },
+    "Collapsing Roof": {
+      "type": "Mechanical trap • 5E-compatible",
+      "meta": "Notice DC 15 • Dexterity save DC 15",
+      "summary": "On a failed save, take 4d10 bludgeoning damage; on a success, take half. The collapsed area becomes Difficult Terrain until cleared."
+    },
+    "Locking Pit": {
+      "type": "Pit trap • 5E-compatible",
+      "meta": "Notice DC 15 • Dexterity save DC 13 • Lid DC 15",
+      "summary": "On a failed save, fall 20 feet and take 2d6 bludgeoning damage. The lid locks; open it with a DC 15 Strength (Athletics) check or DC 15 Dexterity check using Thieves’ Tools."
+    }
+  },
+  "gameplayEquipment": {
+    "addtext-06-18-12-20-20-bf18e2677a": {
+      "title": "Basic Poison",
+      "type": "Adventuring gear",
+      "rules": "Use the Basic Poison entry in SRD 5.2.1."
+    },
+    "arrows-0e74583bad": {
+      "title": "Arrows (20)",
+      "type": "Ammunition",
+      "rules": "Ammunition for weapons that use arrows; recover expended ammunition as allowed by the SRD."
+    },
+    "rapier-ee2bbd5a59": {
+      "title": "Rapier",
+      "type": "Martial melee weapon",
+      "damage": "1d8 Piercing",
+      "properties": [
+        "Finesse"
+      ],
+      "mastery": "Vex",
+      "cost": "25 GP",
+      "weight": "2 lb."
+    },
+    "battle-axe-e8fb284b2a": {
+      "title": "Battleaxe",
+      "type": "Martial melee weapon",
+      "damage": "1d8 Slashing",
+      "properties": [
+        "Versatile (1d10)"
+      ],
+      "mastery": "Topple",
+      "cost": "10 GP",
+      "weight": "4 lb."
+    },
+    "addtext-06-18-12-19-41-546eec2cbf": {
+      "title": "Dagger",
+      "type": "Simple melee weapon",
+      "damage": "1d4 Piercing",
+      "properties": [
+        "Finesse",
+        "Light",
+        "Thrown (20/60)"
+      ],
+      "mastery": "Nick",
+      "cost": "2 GP",
+      "weight": "1 lb."
+    },
+    "addtext-06-18-12-21-29-8ff1a84362": {
+      "title": "Mace",
+      "type": "Simple melee weapon",
+      "damage": "1d6 Bludgeoning",
+      "properties": [],
+      "mastery": "Sap",
+      "cost": "5 GP",
+      "weight": "4 lb."
+    },
+    "magical-staff-1ae261f43e": {
+      "title": "Quarterstaff",
+      "type": "Simple melee weapon",
+      "damage": "1d6 Bludgeoning",
+      "properties": [
+        "Versatile (1d8)"
+      ],
+      "mastery": "Topple",
+      "cost": "2 SP",
+      "weight": "4 lb.",
+      "note": "Any magical bonus requires a specific SRD magic-item entry or GM-created homebrew."
+    }
+  },
+  "killerInTheKeepRuntime": {
+    "fourFloorRuntime": "json/keep-4-floor-runtime.json",
+    "ghostMode": "json/gameplay/ghost-mode.json",
+    "note": "Ghost Mode and map rules are game-specific, not SRD rules."
+  },
+  "packageVersion": "4.5.0",
+  "schema_version": "4.5.0",
+  "rulesIntegration": "KillerInTheKeep Unified 4-Floor 8-Character Haunting Magic Loot v4.2.0"
+}

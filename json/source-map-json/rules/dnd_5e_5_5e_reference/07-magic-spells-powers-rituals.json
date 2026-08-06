@@ -1,0 +1,2297 @@
+{
+  "schema_version": "4.0.0",
+  "document_type": "killer_hero_powers",
+  "system": "Killer In The Keep",
+  "rules_profile": "Killer In The Keep 5E-Compatible Hybrid",
+  "scope": "Killer In The Keep only",
+  "build_date": "2026-08-05",
+  "source_basis": [
+    "KillerInTheKeep_5_Game_Level_Progression.json",
+    "System Reference Document 5.2.1"
+  ],
+  "srd_attribution": "This work includes material from the System Reference Document 5.2.1 (“SRD 5.2.1”) by Wizards of the Coast LLC, available at https://www.dndbeyond.com/srd. The SRD 5.2.1 is licensed under the Creative Commons Attribution 4.0 International License, available at https://creativecommons.org/licenses/by/4.0/legalcode.",
+  "publisher_affiliation": "Killer In The Keep is an independent project and is not endorsed by Wizards of the Coast.",
+  "record_count": 69,
+  "power_rules": {
+    "unlimited": "May be used whenever its activation and target requirements are met.",
+    "limited": "Uses equal the hero’s current Game Level unless a power or item says otherwise.",
+    "concentration": "A hero can concentrate on only one effect at a time; damage may require a Constitution save to maintain it.",
+    "power_attack": "1d20 + the hero’s power ability modifier + proficiency bonus.",
+    "power_save_dc": "8 + the hero’s power ability modifier + proficiency bonus.",
+    "exceptions": "A named power overrides the general rule when the two conflict."
+  },
+  "records": [
+    {
+      "id": "kitk-power-acid-strike",
+      "name": "Acid Strike",
+      "kind": "limited power",
+      "activation": "Action",
+      "range": "60 feet; 5-foot splash",
+      "resolution": "Ranged power attack; adjacent creature makes Dexterity save",
+      "effect": "A corrosive bolt hits one target and splashes another creature adjacent to it.",
+      "damage_by_game_level": [
+        "3d8 acid; splash 1d8",
+        "4d8; splash 2d8",
+        "5d8; splash 2d8",
+        "6d8; splash 3d8",
+        "7d8; splash 3d8"
+      ],
+      "duration": "Instantaneous",
+      "concentration": false,
+      "source_classification": "Killer custom power",
+      "tags": [
+        "acid",
+        "ranged",
+        "splash"
+      ],
+      "users": [
+        {
+          "hero_id": "eilvyre_astath",
+          "hero_name": "Eilvyre Astath",
+          "unlock_game_level": 1,
+          "usage": "limited"
+        }
+      ],
+      "limited_use_rule": "If assigned as limited, uses equal the hero’s current Game Level unless the power states another cost.",
+      "power_attack_formula": "1d20 + power ability modifier + proficiency bonus",
+      "power_save_dc_formula": "8 + power ability modifier + proficiency bonus"
+    },
+    {
+      "id": "kitk-power-ball-lightning",
+      "name": "Ball-Lightning",
+      "kind": "limited power",
+      "activation": "Action",
+      "range": "120 feet; mobile 10-foot sphere",
+      "resolution": "Dexterity save; half damage on success",
+      "effect": "Creates a mobile electrical sphere. It can move 30 feet as a Bonus Action and shocks creatures entering or ending in its area.",
+      "damage_by_game_level": [
+        "6d10 lightning",
+        "7d10 lightning",
+        "8d10 lightning",
+        "9d10 lightning",
+        "10d10 lightning"
+      ],
+      "duration": "Concentration, up to 1 minute",
+      "concentration": true,
+      "source_classification": "Killer custom power",
+      "tags": [
+        "lightning",
+        "area",
+        "mobile hazard"
+      ],
+      "users": [
+        {
+          "hero_id": "eilvyre_astath",
+          "hero_name": "Eilvyre Astath",
+          "unlock_game_level": 5,
+          "usage": "limited"
+        }
+      ],
+      "limited_use_rule": "If assigned as limited, uses equal the hero’s current Game Level unless the power states another cost.",
+      "power_attack_formula": "1d20 + power ability modifier + proficiency bonus",
+      "power_save_dc_formula": "8 + power ability modifier + proficiency bonus"
+    },
+    {
+      "id": "kitk-power-blight",
+      "name": "Blight",
+      "kind": "limited power",
+      "activation": "Action",
+      "range": "30 feet",
+      "resolution": "Constitution save; half damage on success",
+      "effect": "Drains moisture and vitality from one creature. Plant creatures and plant hazards have disadvantage on the save.",
+      "damage_by_game_level": [
+        "8d8 necrotic",
+        "8d8 necrotic",
+        "8d8 necrotic",
+        "9d8 necrotic",
+        "10d8 necrotic"
+      ],
+      "duration": "Instantaneous",
+      "concentration": false,
+      "srd_basis": "Blight",
+      "source_classification": "SRD-derived Killer adaptation",
+      "tags": [
+        "necrotic"
+      ],
+      "users": [
+        {
+          "hero_id": "daltu",
+          "hero_name": "Daltu",
+          "unlock_game_level": 5,
+          "usage": "limited"
+        },
+        {
+          "hero_id": "gunnus",
+          "hero_name": "Gunnus",
+          "unlock_game_level": 5,
+          "usage": "limited"
+        }
+      ],
+      "limited_use_rule": "If assigned as limited, uses equal the hero’s current Game Level unless the power states another cost.",
+      "power_attack_formula": "1d20 + power ability modifier + proficiency bonus",
+      "power_save_dc_formula": "8 + power ability modifier + proficiency bonus"
+    },
+    {
+      "id": "kitk-power-blinding-smite",
+      "name": "Blinding Smite",
+      "kind": "limited power",
+      "activation": "Bonus Action; applied to next weapon hit",
+      "range": "Self",
+      "resolution": "Constitution save",
+      "effect": "The next weapon hit deals extra radiant damage; a failed save blinds the target, which repeats the save at the end of each turn.",
+      "damage_by_game_level": [
+        "3d8 radiant",
+        "3d8 radiant",
+        "4d8 radiant",
+        "5d8 radiant",
+        "6d8 radiant"
+      ],
+      "duration": "Concentration, up to 1 minute",
+      "concentration": true,
+      "srd_basis": "Blinding Smite",
+      "source_classification": "SRD-derived Killer adaptation",
+      "tags": [
+        "radiant",
+        "blinded"
+      ],
+      "users": [
+        {
+          "hero_id": "korbin_silverdew",
+          "hero_name": "Korbin Silverdew",
+          "unlock_game_level": 2,
+          "usage": "limited"
+        }
+      ],
+      "limited_use_rule": "If assigned as limited, uses equal the hero’s current Game Level unless the power states another cost.",
+      "power_attack_formula": "1d20 + power ability modifier + proficiency bonus",
+      "power_save_dc_formula": "8 + power ability modifier + proficiency bonus"
+    },
+    {
+      "id": "kitk-power-bravado",
+      "name": "Bravado",
+      "kind": "limited power",
+      "activation": "Bonus Action",
+      "range": "Self; 10-foot aura",
+      "resolution": "No roll",
+      "effect": "Gain temporary HP, become immune to Frightened, and grant allies Advantage on saves against Frightened while they remain in the aura.",
+      "healing_by_game_level": [
+        "2d8 temporary HP",
+        "3d8",
+        "4d8",
+        "5d8",
+        "6d8"
+      ],
+      "duration": "1 minute",
+      "concentration": false,
+      "source_classification": "Killer custom power",
+      "tags": [
+        "aura",
+        "temporary hp",
+        "fear"
+      ],
+      "users": [
+        {
+          "hero_id": "joknos_jock",
+          "hero_name": "Joknos",
+          "unlock_game_level": 3,
+          "usage": "limited"
+        }
+      ],
+      "limited_use_rule": "If assigned as limited, uses equal the hero’s current Game Level unless the power states another cost.",
+      "power_attack_formula": "1d20 + power ability modifier + proficiency bonus",
+      "power_save_dc_formula": "8 + power ability modifier + proficiency bonus"
+    },
+    {
+      "id": "kitk-power-chi-heal",
+      "name": "Chi Heal",
+      "kind": "limited power",
+      "activation": "Bonus Action",
+      "range": "Self or touch",
+      "resolution": "No roll",
+      "effect": "Spend 1 Chi to restore HP; spend 2 Chi to also end Poisoned or Frightened.",
+      "healing_by_game_level": [
+        "2d8 + Wisdom modifier",
+        "3d8 + Wisdom modifier",
+        "4d8 + Wisdom modifier",
+        "5d8 + Wisdom modifier",
+        "6d8 + Wisdom modifier"
+      ],
+      "duration": "Instantaneous",
+      "concentration": false,
+      "source_classification": "Killer custom power",
+      "tags": [
+        "chi",
+        "healing"
+      ],
+      "users": [
+        {
+          "hero_id": "monk",
+          "hero_name": "Monk",
+          "unlock_game_level": 3,
+          "usage": "limited"
+        }
+      ],
+      "limited_use_rule": "If assigned as limited, uses equal the hero’s current Game Level unless the power states another cost.",
+      "power_attack_formula": "1d20 + power ability modifier + proficiency bonus",
+      "power_save_dc_formula": "8 + power ability modifier + proficiency bonus"
+    },
+    {
+      "id": "kitk-power-chi-shield",
+      "name": "Chi Shield",
+      "kind": "limited power",
+      "activation": "Reaction",
+      "range": "Self or 10 feet",
+      "resolution": "Triggered when the target is hit or fails a Dexterity save",
+      "effect": "Spend 1 Chi to gain +3 AC against the triggering attack or resistance to the triggering area damage.",
+      "duration": "Until the triggering effect resolves",
+      "concentration": false,
+      "source_classification": "Killer custom power",
+      "tags": [
+        "chi",
+        "reaction",
+        "defense"
+      ],
+      "users": [
+        {
+          "hero_id": "monk",
+          "hero_name": "Monk",
+          "unlock_game_level": 3,
+          "usage": "limited"
+        }
+      ],
+      "limited_use_rule": "If assigned as limited, uses equal the hero’s current Game Level unless the power states another cost.",
+      "power_attack_formula": "1d20 + power ability modifier + proficiency bonus",
+      "power_save_dc_formula": "8 + power ability modifier + proficiency bonus"
+    },
+    {
+      "id": "kitk-power-chill-touch",
+      "name": "Chill Touch",
+      "kind": "cantrip",
+      "activation": "Action",
+      "range": "120 feet",
+      "resolution": "Ranged power attack",
+      "effect": "Necrotic energy prevents the target from regaining HP until the start of the user’s next turn.",
+      "damage_by_game_level": [
+        "2d8 necrotic",
+        "2d8 necrotic",
+        "3d8 necrotic",
+        "4d8 necrotic",
+        "4d8 necrotic"
+      ],
+      "duration": "Instantaneous",
+      "concentration": false,
+      "srd_basis": "Chill Touch",
+      "source_classification": "SRD-derived Killer adaptation",
+      "tags": [
+        "necrotic",
+        "anti-healing"
+      ],
+      "users": [
+        {
+          "hero_id": "daltu",
+          "hero_name": "Daltu",
+          "unlock_game_level": 1,
+          "usage": "unlimited"
+        },
+        {
+          "hero_id": "gunnus",
+          "hero_name": "Gunnus",
+          "unlock_game_level": 1,
+          "usage": "unlimited"
+        }
+      ],
+      "limited_use_rule": "If assigned as limited, uses equal the hero’s current Game Level unless the power states another cost.",
+      "power_attack_formula": "1d20 + power ability modifier + proficiency bonus",
+      "power_save_dc_formula": "8 + power ability modifier + proficiency bonus"
+    },
+    {
+      "id": "kitk-power-cruel-contempt",
+      "name": "Cruel Contempt",
+      "kind": "cantrip-like feature",
+      "activation": "Action",
+      "range": "60 feet",
+      "resolution": "Wisdom save",
+      "effect": "A cutting performance deals psychic damage and imposes Disadvantage on the target’s next attack or social check.",
+      "damage_by_game_level": [
+        "2d6 psychic",
+        "2d6 psychic",
+        "3d6 psychic",
+        "4d6 psychic",
+        "4d6 psychic"
+      ],
+      "duration": "Instantaneous",
+      "concentration": false,
+      "source_classification": "Killer custom power",
+      "tags": [
+        "psychic",
+        "debuff"
+      ],
+      "users": [
+        {
+          "hero_id": "joknos_jock",
+          "hero_name": "Joknos",
+          "unlock_game_level": 1,
+          "usage": "unlimited"
+        }
+      ],
+      "limited_use_rule": "If assigned as limited, uses equal the hero’s current Game Level unless the power states another cost.",
+      "power_attack_formula": "1d20 + power ability modifier + proficiency bonus",
+      "power_save_dc_formula": "8 + power ability modifier + proficiency bonus"
+    },
+    {
+      "id": "kitk-power-crushing-grip",
+      "name": "Crushing Grip",
+      "kind": "cantrip-like martial power",
+      "activation": "Action",
+      "range": "Melee",
+      "resolution": "Strength (Athletics) contest or Strength save",
+      "effect": "Grapple a target and deal bludgeoning damage at the start of each of Monk’s turns while the grapple continues.",
+      "damage_by_game_level": [
+        "1d6 bludgeoning",
+        "1d8",
+        "1d10",
+        "1d12",
+        "2d8"
+      ],
+      "duration": "Until escape",
+      "concentration": false,
+      "source_classification": "Killer custom power",
+      "tags": [
+        "grappled",
+        "melee"
+      ],
+      "users": [
+        {
+          "hero_id": "monk",
+          "hero_name": "Monk",
+          "unlock_game_level": 1,
+          "usage": "unlimited"
+        }
+      ],
+      "limited_use_rule": "If assigned as limited, uses equal the hero’s current Game Level unless the power states another cost.",
+      "power_attack_formula": "1d20 + power ability modifier + proficiency bonus",
+      "power_save_dc_formula": "8 + power ability modifier + proficiency bonus"
+    },
+    {
+      "id": "kitk-power-cure-wounds",
+      "name": "Cure Wounds",
+      "kind": "limited power",
+      "activation": "Action",
+      "range": "Touch",
+      "resolution": "No roll",
+      "effect": "Restores HP to a living creature.",
+      "healing_by_game_level": [
+        "3d8 + Wisdom modifier",
+        "4d8 + Wisdom modifier",
+        "5d8 + Wisdom modifier",
+        "6d8 + Wisdom modifier",
+        "7d8 + Wisdom modifier"
+      ],
+      "duration": "Instantaneous",
+      "concentration": false,
+      "srd_basis": "Cure Wounds",
+      "source_classification": "SRD-derived Killer adaptation",
+      "tags": [
+        "healing"
+      ],
+      "users": [
+        {
+          "hero_id": "githtoxundes_fenwophyl",
+          "hero_name": "Githtoxundes Fenwophyl",
+          "unlock_game_level": 1,
+          "usage": "limited"
+        }
+      ],
+      "limited_use_rule": "If assigned as limited, uses equal the hero’s current Game Level unless the power states another cost.",
+      "power_attack_formula": "1d20 + power ability modifier + proficiency bonus",
+      "power_save_dc_formula": "8 + power ability modifier + proficiency bonus"
+    },
+    {
+      "id": "kitk-power-dark-illumination",
+      "name": "Dark Illumination",
+      "kind": "limited power",
+      "activation": "Action",
+      "range": "60 feet; 15-foot radius",
+      "resolution": "Wisdom save to see through the illusion",
+      "effect": "Creates dim necrotic light that outlines living creatures for Gunnus and his undead while obscuring details from others.",
+      "duration": "Concentration, up to 10 minutes",
+      "concentration": true,
+      "source_classification": "Killer custom power",
+      "tags": [
+        "illusion",
+        "darkness",
+        "detection"
+      ],
+      "investigation_utility": "Can reveal warm bodies and movement without revealing private evidence.",
+      "users": [
+        {
+          "hero_id": "gunnus",
+          "hero_name": "Gunnus",
+          "unlock_game_level": 1,
+          "usage": "limited"
+        }
+      ],
+      "limited_use_rule": "If assigned as limited, uses equal the hero’s current Game Level unless the power states another cost.",
+      "power_attack_formula": "1d20 + power ability modifier + proficiency bonus",
+      "power_save_dc_formula": "8 + power ability modifier + proficiency bonus"
+    },
+    {
+      "id": "kitk-power-darkness",
+      "name": "Darkness",
+      "kind": "limited power",
+      "activation": "Action",
+      "range": "60 feet; 15-foot-radius sphere",
+      "resolution": "No save; blocked by qualifying magical light",
+      "effect": "Creates magical darkness. Creatures without a relevant sense are effectively blinded in it.",
+      "duration": "Concentration, up to 10 minutes",
+      "concentration": true,
+      "srd_basis": "Darkness",
+      "source_classification": "SRD-derived Killer adaptation",
+      "tags": [
+        "darkness",
+        "control"
+      ],
+      "investigation_utility": "Conceals movement and evidence but may also reveal light-sensitive clues.",
+      "users": [
+        {
+          "hero_id": "daltu",
+          "hero_name": "Daltu",
+          "unlock_game_level": 2,
+          "usage": "limited"
+        }
+      ],
+      "limited_use_rule": "If assigned as limited, uses equal the hero’s current Game Level unless the power states another cost.",
+      "power_attack_formula": "1d20 + power ability modifier + proficiency bonus",
+      "power_save_dc_formula": "8 + power ability modifier + proficiency bonus"
+    },
+    {
+      "id": "kitk-power-death-ward",
+      "name": "Death Ward",
+      "kind": "limited power",
+      "activation": "Action",
+      "range": "Touch",
+      "resolution": "No roll",
+      "effect": "The first time the target would drop to 0 HP before the duration ends, it drops to 1 HP instead; an instant-kill effect is negated once.",
+      "duration": "8 hours",
+      "concentration": false,
+      "srd_basis": "Death Ward",
+      "source_classification": "SRD-derived Killer adaptation",
+      "tags": [
+        "death prevention"
+      ],
+      "users": [
+        {
+          "hero_id": "korbin_silverdew",
+          "hero_name": "Korbin Silverdew",
+          "unlock_game_level": 5,
+          "usage": "limited"
+        }
+      ],
+      "limited_use_rule": "If assigned as limited, uses equal the hero’s current Game Level unless the power states another cost.",
+      "power_attack_formula": "1d20 + power ability modifier + proficiency bonus",
+      "power_save_dc_formula": "8 + power ability modifier + proficiency bonus"
+    },
+    {
+      "id": "kitk-power-deathfire-grasp",
+      "name": "Deathfire Grasp",
+      "kind": "limited power",
+      "activation": "Action",
+      "range": "60 feet",
+      "resolution": "Constitution save; half damage on success",
+      "effect": "Necrotic fire seizes a creature. A failed save also prevents reactions and healing until the end of its next turn.",
+      "damage_by_game_level": [
+        "6d8 necrotic/fire",
+        "7d8 necrotic/fire",
+        "8d8 necrotic/fire",
+        "9d8 necrotic/fire",
+        "10d8 necrotic/fire"
+      ],
+      "duration": "Instantaneous",
+      "concentration": false,
+      "source_classification": "Killer custom power",
+      "tags": [
+        "necrotic",
+        "fire",
+        "anti-healing"
+      ],
+      "users": [
+        {
+          "hero_id": "daltu",
+          "hero_name": "Daltu",
+          "unlock_game_level": 5,
+          "usage": "limited"
+        }
+      ],
+      "limited_use_rule": "If assigned as limited, uses equal the hero’s current Game Level unless the power states another cost.",
+      "power_attack_formula": "1d20 + power ability modifier + proficiency bonus",
+      "power_save_dc_formula": "8 + power ability modifier + proficiency bonus"
+    },
+    {
+      "id": "kitk-power-detect-ailment",
+      "name": "Detect Ailment",
+      "kind": "limited power",
+      "activation": "Action",
+      "range": "30 feet",
+      "resolution": "Wisdom (Medicine or Nature) check when the cause is concealed",
+      "effect": "Reveals poison, disease, curse, ongoing damage, and abnormal condition sources affecting visible creatures or evidence.",
+      "duration": "10 minutes",
+      "concentration": false,
+      "source_classification": "Killer custom power",
+      "tags": [
+        "detection",
+        "healing",
+        "investigation"
+      ],
+      "investigation_utility": "Identifies poison traces, disease vectors, and whether a corpse or clue was altered by an ailment.",
+      "users": [
+        {
+          "hero_id": "noldrack_goldblade",
+          "hero_name": "Noldrack Goldblade",
+          "unlock_game_level": 1,
+          "usage": "limited"
+        }
+      ],
+      "limited_use_rule": "If assigned as limited, uses equal the hero’s current Game Level unless the power states another cost.",
+      "power_attack_formula": "1d20 + power ability modifier + proficiency bonus",
+      "power_save_dc_formula": "8 + power ability modifier + proficiency bonus"
+    },
+    {
+      "id": "kitk-power-dispel-magic",
+      "name": "Dispel Magic",
+      "kind": "limited power",
+      "activation": "Action",
+      "range": "120 feet",
+      "resolution": "Automatic for low-tier effects; otherwise Charisma check against DC 10 + effect tier",
+      "effect": "Ends one spell, magical trap, curse layer, or magical environmental effect that qualifies.",
+      "duration": "Instantaneous",
+      "concentration": false,
+      "srd_basis": "Dispel Magic",
+      "source_classification": "SRD-derived Killer adaptation",
+      "tags": [
+        "countermagic",
+        "traps"
+      ],
+      "investigation_utility": "Disables magical wards and reveals whether a clue was magically altered.",
+      "users": [
+        {
+          "hero_id": "joknos_jock",
+          "hero_name": "Joknos",
+          "unlock_game_level": 3,
+          "usage": "limited"
+        }
+      ],
+      "limited_use_rule": "If assigned as limited, uses equal the hero’s current Game Level unless the power states another cost.",
+      "power_attack_formula": "1d20 + power ability modifier + proficiency bonus",
+      "power_save_dc_formula": "8 + power ability modifier + proficiency bonus"
+    },
+    {
+      "id": "kitk-power-dragons-breath",
+      "name": "Dragon's Breath",
+      "kind": "limited power",
+      "activation": "Action",
+      "range": "Self; 30-foot cone",
+      "resolution": "Dexterity save; half damage on success",
+      "effect": "Exhales elemental energy chosen when used: acid, cold, fire, lightning, or poison.",
+      "damage_by_game_level": [
+        "5d6",
+        "6d6",
+        "7d6",
+        "8d6",
+        "9d6"
+      ],
+      "duration": "Instantaneous",
+      "concentration": false,
+      "source_classification": "Killer custom power",
+      "tags": [
+        "elemental",
+        "cone"
+      ],
+      "users": [
+        {
+          "hero_id": "monk",
+          "hero_name": "Monk",
+          "unlock_game_level": 3,
+          "usage": "limited"
+        }
+      ],
+      "limited_use_rule": "If assigned as limited, uses equal the hero’s current Game Level unless the power states another cost.",
+      "power_attack_formula": "1d20 + power ability modifier + proficiency bonus",
+      "power_save_dc_formula": "8 + power ability modifier + proficiency bonus"
+    },
+    {
+      "id": "kitk-power-eardrum-splitter",
+      "name": "Eardrum Splitter",
+      "kind": "limited power",
+      "activation": "Action",
+      "range": "Self; 15-foot cone",
+      "resolution": "Constitution save; half damage and no Deafened on success",
+      "effect": "A sonic burst deafens failed targets and can shatter fragile glass or expose hollow walls.",
+      "damage_by_game_level": [
+        "4d6 thunder",
+        "5d6 thunder",
+        "6d6 thunder",
+        "7d6 thunder",
+        "8d6 thunder"
+      ],
+      "duration": "Deafened until end of next turn",
+      "concentration": false,
+      "source_classification": "Killer custom power",
+      "tags": [
+        "thunder",
+        "deafened",
+        "area"
+      ],
+      "investigation_utility": "May reveal hollow spaces, brittle containers, and sound-reactive mechanisms.",
+      "users": [
+        {
+          "hero_id": "joknos_jock",
+          "hero_name": "Joknos",
+          "unlock_game_level": 1,
+          "usage": "limited"
+        }
+      ],
+      "limited_use_rule": "If assigned as limited, uses equal the hero’s current Game Level unless the power states another cost.",
+      "power_attack_formula": "1d20 + power ability modifier + proficiency bonus",
+      "power_save_dc_formula": "8 + power ability modifier + proficiency bonus"
+    },
+    {
+      "id": "kitk-power-earth-shatter",
+      "name": "Earth Shatter",
+      "kind": "limited power",
+      "activation": "Action",
+      "range": "Self; 15-foot cone",
+      "resolution": "Dexterity save; half damage and no Prone on success",
+      "effect": "Fractures stone, knocks failed targets Prone, breaks brittle cover, and may reveal hollow floors or tunnels.",
+      "damage_by_game_level": [
+        "5d8 bludgeoning",
+        "6d8 bludgeoning",
+        "7d8 bludgeoning",
+        "8d8 bludgeoning",
+        "9d8 bludgeoning"
+      ],
+      "duration": "Instantaneous",
+      "concentration": false,
+      "source_classification": "Killer custom power",
+      "tags": [
+        "earth",
+        "area",
+        "prone"
+      ],
+      "investigation_utility": "Can reveal hidden cavities, brittle walls, and buried mechanisms.",
+      "users": [
+        {
+          "hero_id": "eilvyre_astath",
+          "hero_name": "Eilvyre Astath",
+          "unlock_game_level": 3,
+          "usage": "limited"
+        }
+      ],
+      "limited_use_rule": "If assigned as limited, uses equal the hero’s current Game Level unless the power states another cost.",
+      "power_attack_formula": "1d20 + power ability modifier + proficiency bonus",
+      "power_save_dc_formula": "8 + power ability modifier + proficiency bonus"
+    },
+    {
+      "id": "kitk-power-eldritch-blast",
+      "name": "Eldritch Blast",
+      "kind": "cantrip",
+      "activation": "Action",
+      "range": "120 feet",
+      "resolution": "Ranged power attack against each beam target",
+      "effect": "Fire separate beams of force. Beams may target one or several creatures.",
+      "damage_by_game_level": [
+        "2 beams × 1d10 force",
+        "2 beams × 1d10 force",
+        "3 beams × 1d10 force",
+        "4 beams × 1d10 force",
+        "4 beams × 1d10 force"
+      ],
+      "duration": "Instantaneous",
+      "concentration": false,
+      "srd_basis": "Eldritch Blast",
+      "source_classification": "SRD-derived Killer adaptation",
+      "tags": [
+        "force",
+        "ranged"
+      ],
+      "users": [
+        {
+          "hero_id": "daltu",
+          "hero_name": "Daltu",
+          "unlock_game_level": 1,
+          "usage": "unlimited"
+        }
+      ],
+      "limited_use_rule": "If assigned as limited, uses equal the hero’s current Game Level unless the power states another cost.",
+      "power_attack_formula": "1d20 + power ability modifier + proficiency bonus",
+      "power_save_dc_formula": "8 + power ability modifier + proficiency bonus"
+    },
+    {
+      "id": "kitk-power-encanto",
+      "name": "Encanto",
+      "kind": "limited power",
+      "activation": "Action",
+      "range": "60 feet",
+      "resolution": "Wisdom save",
+      "effect": "Magically charms a creature that can hear or perceive the performance. A hostile target repeats the save after taking damage.",
+      "duration": "Concentration, up to 1 minute",
+      "concentration": true,
+      "source_classification": "Killer custom power",
+      "tags": [
+        "charmed",
+        "social",
+        "control"
+      ],
+      "users": [
+        {
+          "hero_id": "noldrack_goldblade",
+          "hero_name": "Noldrack Goldblade",
+          "unlock_game_level": 5,
+          "usage": "limited"
+        },
+        {
+          "hero_id": "joknos_jock",
+          "hero_name": "Joknos",
+          "unlock_game_level": 5,
+          "usage": "limited"
+        }
+      ],
+      "limited_use_rule": "If assigned as limited, uses equal the hero’s current Game Level unless the power states another cost.",
+      "power_attack_formula": "1d20 + power ability modifier + proficiency bonus",
+      "power_save_dc_formula": "8 + power ability modifier + proficiency bonus"
+    },
+    {
+      "id": "kitk-power-false-bravado",
+      "name": "False Bravado",
+      "kind": "cantrip-like feature",
+      "activation": "Bonus Action",
+      "range": "Self",
+      "resolution": "No roll",
+      "effect": "Gain temporary HP and Advantage on the next save against Frightened before the end of the next turn.",
+      "healing_by_game_level": [
+        "1d6 temporary HP",
+        "1d8 temporary HP",
+        "1d10 temporary HP",
+        "1d12 temporary HP",
+        "2d8 temporary HP"
+      ],
+      "duration": "Instantaneous",
+      "concentration": false,
+      "source_classification": "Killer custom power",
+      "tags": [
+        "temporary hp",
+        "fear"
+      ],
+      "users": [
+        {
+          "hero_id": "korbin_silverdew",
+          "hero_name": "Korbin Silverdew",
+          "unlock_game_level": 1,
+          "usage": "unlimited"
+        }
+      ],
+      "limited_use_rule": "If assigned as limited, uses equal the hero’s current Game Level unless the power states another cost.",
+      "power_attack_formula": "1d20 + power ability modifier + proficiency bonus",
+      "power_save_dc_formula": "8 + power ability modifier + proficiency bonus"
+    },
+    {
+      "id": "kitk-power-fiery-whips-of-vengeance",
+      "name": "Fiery Whips of Vengeance",
+      "kind": "limited power",
+      "activation": "Action",
+      "range": "20 feet; up to two targets",
+      "resolution": "Melee power attack against each target",
+      "effect": "Fiery whips pull targets up to 10 feet. A target pulled into a hazard resolves that hazard normally.",
+      "damage_by_game_level": [
+        "2 × 2d6 fire",
+        "2 × 3d6",
+        "2 × 4d6",
+        "2 × 5d6",
+        "2 × 6d6"
+      ],
+      "duration": "Instantaneous",
+      "concentration": false,
+      "source_classification": "Killer custom power",
+      "tags": [
+        "fire",
+        "reach",
+        "forced movement"
+      ],
+      "users": [
+        {
+          "hero_id": "monk",
+          "hero_name": "Monk",
+          "unlock_game_level": 1,
+          "usage": "limited"
+        }
+      ],
+      "limited_use_rule": "If assigned as limited, uses equal the hero’s current Game Level unless the power states another cost.",
+      "power_attack_formula": "1d20 + power ability modifier + proficiency bonus",
+      "power_save_dc_formula": "8 + power ability modifier + proficiency bonus"
+    },
+    {
+      "id": "kitk-power-fire-arrows",
+      "name": "Fire Arrows",
+      "kind": "cantrip-like weapon power",
+      "activation": "Action",
+      "range": "Crossbow range",
+      "resolution": "Ranged weapon attack",
+      "effect": "Ammunition ignites on impact; can light webs, oil, torches, and other flammable objects.",
+      "damage_by_game_level": [
+        "1d8 piercing + 1d6 fire",
+        "1d8 + 1d6",
+        "1d8 + 2d6",
+        "1d8 + 2d6",
+        "1d8 + 3d6"
+      ],
+      "duration": "Instantaneous",
+      "concentration": false,
+      "source_classification": "Killer custom power",
+      "tags": [
+        "fire",
+        "weapon",
+        "ranged"
+      ],
+      "users": [
+        {
+          "hero_id": "korbin_silverdew",
+          "hero_name": "Korbin Silverdew",
+          "unlock_game_level": 1,
+          "usage": "unlimited"
+        }
+      ],
+      "limited_use_rule": "If assigned as limited, uses equal the hero’s current Game Level unless the power states another cost.",
+      "power_attack_formula": "1d20 + power ability modifier + proficiency bonus",
+      "power_save_dc_formula": "8 + power ability modifier + proficiency bonus"
+    },
+    {
+      "id": "kitk-power-flaming-sphere",
+      "name": "Flaming Sphere",
+      "kind": "limited power",
+      "activation": "Action; Bonus Action to move",
+      "range": "60 feet",
+      "resolution": "Dexterity save when rammed or ending adjacent; half damage on success",
+      "effect": "Creates a rolling 5-foot sphere that ignites webs and flammable terrain.",
+      "damage_by_game_level": [
+        "2d6 fire",
+        "3d6 fire",
+        "4d6 fire",
+        "5d6 fire",
+        "6d6 fire"
+      ],
+      "duration": "Concentration, up to 1 minute",
+      "concentration": true,
+      "srd_basis": "Flaming Sphere",
+      "source_classification": "SRD-derived Killer adaptation",
+      "tags": [
+        "fire",
+        "summoned hazard"
+      ],
+      "users": [
+        {
+          "hero_id": "noldrack_goldblade",
+          "hero_name": "Noldrack Goldblade",
+          "unlock_game_level": 2,
+          "usage": "limited"
+        }
+      ],
+      "limited_use_rule": "If assigned as limited, uses equal the hero’s current Game Level unless the power states another cost.",
+      "power_attack_formula": "1d20 + power ability modifier + proficiency bonus",
+      "power_save_dc_formula": "8 + power ability modifier + proficiency bonus"
+    },
+    {
+      "id": "kitk-power-force-of-nature",
+      "name": "Force of Nature",
+      "kind": "cantrip",
+      "activation": "Action",
+      "range": "60 feet",
+      "resolution": "Strength save",
+      "effect": "A burst of roots, wind, or stone pushes a creature 10 feet or creates one 5-foot square of difficult terrain.",
+      "damage_by_game_level": [
+        "2d6 bludgeoning",
+        "2d6 bludgeoning",
+        "3d6 bludgeoning",
+        "4d6 bludgeoning",
+        "4d6 bludgeoning"
+      ],
+      "duration": "Difficult terrain lasts 1 round",
+      "concentration": false,
+      "source_classification": "Killer custom power",
+      "tags": [
+        "nature",
+        "forced movement",
+        "terrain"
+      ],
+      "users": [
+        {
+          "hero_id": "noldrack_goldblade",
+          "hero_name": "Noldrack Goldblade",
+          "unlock_game_level": 1,
+          "usage": "unlimited"
+        }
+      ],
+      "limited_use_rule": "If assigned as limited, uses equal the hero’s current Game Level unless the power states another cost.",
+      "power_attack_formula": "1d20 + power ability modifier + proficiency bonus",
+      "power_save_dc_formula": "8 + power ability modifier + proficiency bonus"
+    },
+    {
+      "id": "kitk-power-guidance",
+      "name": "Guidance",
+      "kind": "cantrip",
+      "activation": "Action",
+      "range": "Touch",
+      "resolution": "No roll",
+      "effect": "Target adds 1d4 to one chosen ability check before the duration ends.",
+      "duration": "Concentration, up to 1 minute",
+      "concentration": true,
+      "srd_basis": "Guidance",
+      "source_classification": "SRD-derived Killer adaptation",
+      "tags": [
+        "ability checks",
+        "support"
+      ],
+      "users": [
+        {
+          "hero_id": "githtoxundes_fenwophyl",
+          "hero_name": "Githtoxundes Fenwophyl",
+          "unlock_game_level": 1,
+          "usage": "unlimited"
+        }
+      ],
+      "limited_use_rule": "If assigned as limited, uses equal the hero’s current Game Level unless the power states another cost.",
+      "power_attack_formula": "1d20 + power ability modifier + proficiency bonus",
+      "power_save_dc_formula": "8 + power ability modifier + proficiency bonus"
+    },
+    {
+      "id": "kitk-power-heart-halting-assault",
+      "name": "Heart-Halting Assault",
+      "kind": "limited power",
+      "activation": "Action",
+      "range": "Melee",
+      "resolution": "Melee attack, then Constitution save",
+      "effect": "On a hit, deal massive force damage. A failed save Stuns the target; a non-boss reduced to 0 HP is defeated immediately.",
+      "damage_by_game_level": [
+        "8d10 force",
+        "9d10",
+        "10d10",
+        "11d10",
+        "12d10"
+      ],
+      "duration": "Stunned until end of Monk’s next turn",
+      "concentration": false,
+      "source_classification": "Killer custom power",
+      "tags": [
+        "melee",
+        "stunned",
+        "finisher"
+      ],
+      "users": [
+        {
+          "hero_id": "monk",
+          "hero_name": "Monk",
+          "unlock_game_level": 5,
+          "usage": "limited"
+        }
+      ],
+      "limited_use_rule": "If assigned as limited, uses equal the hero’s current Game Level unless the power states another cost.",
+      "power_attack_formula": "1d20 + power ability modifier + proficiency bonus",
+      "power_save_dc_formula": "8 + power ability modifier + proficiency bonus"
+    },
+    {
+      "id": "kitk-power-hideous-laughter",
+      "name": "Hideous Laughter",
+      "kind": "limited power",
+      "activation": "Action",
+      "range": "30 feet",
+      "resolution": "Wisdom save; repeat after damage and at end of turn",
+      "effect": "A failed target becomes Prone and Incapacitated with laughter.",
+      "duration": "Concentration, up to 1 minute",
+      "concentration": true,
+      "srd_basis": "Hideous Laughter",
+      "source_classification": "SRD-derived Killer adaptation",
+      "tags": [
+        "incapacitated",
+        "prone"
+      ],
+      "users": [
+        {
+          "hero_id": "joknos_jock",
+          "hero_name": "Joknos",
+          "unlock_game_level": 1,
+          "usage": "limited"
+        },
+        {
+          "hero_id": "gunnus",
+          "hero_name": "Gunnus",
+          "unlock_game_level": 1,
+          "usage": "limited"
+        }
+      ],
+      "limited_use_rule": "If assigned as limited, uses equal the hero’s current Game Level unless the power states another cost.",
+      "power_attack_formula": "1d20 + power ability modifier + proficiency bonus",
+      "power_save_dc_formula": "8 + power ability modifier + proficiency bonus"
+    },
+    {
+      "id": "kitk-power-holy-wrath",
+      "name": "Holy Wrath",
+      "kind": "limited power",
+      "activation": "Action",
+      "range": "Self; 30-foot aura",
+      "resolution": "Constitution save; half damage on success",
+      "effect": "Radiant force damages hostile creatures; undead and fiends have Disadvantage on the save. Allies may immediately move 10 feet without provoking opportunity attacks.",
+      "damage_by_game_level": [
+        "6d8 radiant",
+        "7d8 radiant",
+        "8d8 radiant",
+        "9d8 radiant",
+        "10d8 radiant"
+      ],
+      "duration": "Instantaneous",
+      "concentration": false,
+      "source_classification": "Killer custom power",
+      "tags": [
+        "radiant",
+        "area",
+        "ally movement"
+      ],
+      "users": [
+        {
+          "hero_id": "korbin_silverdew",
+          "hero_name": "Korbin Silverdew",
+          "unlock_game_level": 5,
+          "usage": "limited"
+        }
+      ],
+      "limited_use_rule": "If assigned as limited, uses equal the hero’s current Game Level unless the power states another cost.",
+      "power_attack_formula": "1d20 + power ability modifier + proficiency bonus",
+      "power_save_dc_formula": "8 + power ability modifier + proficiency bonus"
+    },
+    {
+      "id": "kitk-power-hope",
+      "name": "Hope",
+      "kind": "limited power",
+      "activation": "Bonus Action",
+      "range": "30 feet",
+      "resolution": "No roll",
+      "effect": "Choose up to proficiency-bonus allies. Each gains Advantage on the next saving throw and can immediately end Frightened on itself.",
+      "duration": "1 minute or until used",
+      "concentration": false,
+      "source_classification": "Killer custom power",
+      "tags": [
+        "support",
+        "saving throws"
+      ],
+      "users": [
+        {
+          "hero_id": "korbin_silverdew",
+          "hero_name": "Korbin Silverdew",
+          "unlock_game_level": 1,
+          "usage": "limited"
+        }
+      ],
+      "limited_use_rule": "If assigned as limited, uses equal the hero’s current Game Level unless the power states another cost.",
+      "power_attack_formula": "1d20 + power ability modifier + proficiency bonus",
+      "power_save_dc_formula": "8 + power ability modifier + proficiency bonus"
+    },
+    {
+      "id": "kitk-power-icicle-blast",
+      "name": "Icicle Blast",
+      "kind": "limited power",
+      "activation": "Action",
+      "range": "90 feet; up to three targets",
+      "resolution": "Ranged power attack against each target",
+      "effect": "Launches piercing ice; a hit reduces speed by 10 feet until the user’s next turn.",
+      "damage_by_game_level": [
+        "3d8 cold each",
+        "4d8 cold each",
+        "5d8 cold each",
+        "6d8 cold each",
+        "7d8 cold each"
+      ],
+      "duration": "Instantaneous",
+      "concentration": false,
+      "source_classification": "Killer custom power",
+      "tags": [
+        "cold",
+        "ranged",
+        "slow"
+      ],
+      "users": [
+        {
+          "hero_id": "noldrack_goldblade",
+          "hero_name": "Noldrack Goldblade",
+          "unlock_game_level": 3,
+          "usage": "limited"
+        }
+      ],
+      "limited_use_rule": "If assigned as limited, uses equal the hero’s current Game Level unless the power states another cost.",
+      "power_attack_formula": "1d20 + power ability modifier + proficiency bonus",
+      "power_save_dc_formula": "8 + power ability modifier + proficiency bonus"
+    },
+    {
+      "id": "kitk-power-imprison",
+      "name": "Imprison",
+      "kind": "limited power",
+      "activation": "Action",
+      "range": "60 feet",
+      "resolution": "Strength or Charisma save (target chooses)",
+      "effect": "A radiant or divine prison restrains and silences one creature. The target repeats the save at the end of each turn.",
+      "duration": "Concentration, up to 1 minute",
+      "concentration": true,
+      "source_classification": "Killer custom power",
+      "tags": [
+        "restrained",
+        "silenced",
+        "control"
+      ],
+      "users": [
+        {
+          "hero_id": "korbin_silverdew",
+          "hero_name": "Korbin Silverdew",
+          "unlock_game_level": 3,
+          "usage": "limited"
+        },
+        {
+          "hero_id": "githtoxundes_fenwophyl",
+          "hero_name": "Githtoxundes Fenwophyl",
+          "unlock_game_level": 2,
+          "usage": "limited"
+        }
+      ],
+      "limited_use_rule": "If assigned as limited, uses equal the hero’s current Game Level unless the power states another cost.",
+      "power_attack_formula": "1d20 + power ability modifier + proficiency bonus",
+      "power_save_dc_formula": "8 + power ability modifier + proficiency bonus"
+    },
+    {
+      "id": "kitk-power-influence",
+      "name": "Influence",
+      "kind": "limited power",
+      "activation": "Action",
+      "range": "30 feet",
+      "resolution": "Charisma save for unwilling target",
+      "effect": "Improves attitude by one step or compels a brief truthful, non-self-destructive response. Cannot force a final accusation or hidden-card reveal.",
+      "duration": "10 minutes",
+      "concentration": false,
+      "source_classification": "Killer custom power",
+      "tags": [
+        "social",
+        "charmed",
+        "investigation"
+      ],
+      "investigation_utility": "Supports testimony scenes while preserving hidden-information rules.",
+      "users": [
+        {
+          "hero_id": "joknos_jock",
+          "hero_name": "Joknos",
+          "unlock_game_level": 2,
+          "usage": "limited"
+        }
+      ],
+      "limited_use_rule": "If assigned as limited, uses equal the hero’s current Game Level unless the power states another cost.",
+      "power_attack_formula": "1d20 + power ability modifier + proficiency bonus",
+      "power_save_dc_formula": "8 + power ability modifier + proficiency bonus"
+    },
+    {
+      "id": "kitk-power-invisibility",
+      "name": "Invisibility",
+      "kind": "limited power",
+      "activation": "Action",
+      "range": "Touch",
+      "resolution": "No roll",
+      "effect": "Target becomes Invisible until it attacks, deals damage, forces a save, or uses a hostile power.",
+      "duration": "Concentration, up to 1 hour",
+      "concentration": true,
+      "srd_basis": "Invisibility",
+      "source_classification": "SRD-derived Killer adaptation",
+      "tags": [
+        "invisible",
+        "stealth"
+      ],
+      "users": [
+        {
+          "hero_id": "joknos_jock",
+          "hero_name": "Joknos",
+          "unlock_game_level": 2,
+          "usage": "limited"
+        }
+      ],
+      "limited_use_rule": "If assigned as limited, uses equal the hero’s current Game Level unless the power states another cost.",
+      "power_attack_formula": "1d20 + power ability modifier + proficiency bonus",
+      "power_save_dc_formula": "8 + power ability modifier + proficiency bonus"
+    },
+    {
+      "id": "kitk-power-lady-luck",
+      "name": "Lady Luck",
+      "kind": "cantrip-like feature",
+      "activation": "Reaction",
+      "range": "30 feet",
+      "resolution": "Triggered after an ally rolls a d20",
+      "effect": "The ally rerolls the d20 and must use the new result. Each creature can receive Lady Luck once per short rest.",
+      "duration": "Instantaneous",
+      "concentration": false,
+      "source_classification": "Killer custom power",
+      "tags": [
+        "reroll",
+        "support"
+      ],
+      "users": [
+        {
+          "hero_id": "korbin_silverdew",
+          "hero_name": "Korbin Silverdew",
+          "unlock_game_level": 1,
+          "usage": "unlimited"
+        }
+      ],
+      "limited_use_rule": "If assigned as limited, uses equal the hero’s current Game Level unless the power states another cost.",
+      "power_attack_formula": "1d20 + power ability modifier + proficiency bonus",
+      "power_save_dc_formula": "8 + power ability modifier + proficiency bonus"
+    },
+    {
+      "id": "kitk-power-locate-traps-and-passageways",
+      "name": "Locate Traps and Passageways",
+      "kind": "limited power",
+      "activation": "Action",
+      "range": "Self; 60-foot radius",
+      "resolution": "No roll for presence; Investigation or Perception may reveal exact mechanism",
+      "effect": "Detects the presence and direction of traps, locks, secret passages, concealed doors, and structurally false walls.",
+      "duration": "Concentration, up to 10 minutes",
+      "concentration": true,
+      "source_classification": "Killer custom power",
+      "tags": [
+        "detection",
+        "traps",
+        "secret passages"
+      ],
+      "investigation_utility": "Directly supports the keep’s hidden-path and trap loop.",
+      "users": [
+        {
+          "hero_id": "noldrack_goldblade",
+          "hero_name": "Noldrack Goldblade",
+          "unlock_game_level": 2,
+          "usage": "limited"
+        }
+      ],
+      "limited_use_rule": "If assigned as limited, uses equal the hero’s current Game Level unless the power states another cost.",
+      "power_attack_formula": "1d20 + power ability modifier + proficiency bonus",
+      "power_save_dc_formula": "8 + power ability modifier + proficiency bonus"
+    },
+    {
+      "id": "kitk-power-mage-armor",
+      "name": "Mage Armor",
+      "kind": "limited power",
+      "activation": "Action",
+      "range": "Self or touch",
+      "resolution": "No roll",
+      "effect": "Sets the target’s base AC to 13 + Dexterity modifier while unarmored.",
+      "duration": "8 hours",
+      "concentration": false,
+      "srd_basis": "Mage Armor",
+      "source_classification": "SRD-derived Killer adaptation",
+      "tags": [
+        "defense"
+      ],
+      "users": [
+        {
+          "hero_id": "eilvyre_astath",
+          "hero_name": "Eilvyre Astath",
+          "unlock_game_level": 1,
+          "usage": "limited"
+        }
+      ],
+      "limited_use_rule": "If assigned as limited, uses equal the hero’s current Game Level unless the power states another cost.",
+      "power_attack_formula": "1d20 + power ability modifier + proficiency bonus",
+      "power_save_dc_formula": "8 + power ability modifier + proficiency bonus"
+    },
+    {
+      "id": "kitk-power-mass-healing-word",
+      "name": "Mass Healing Word",
+      "kind": "limited power",
+      "activation": "Bonus Action",
+      "range": "60 feet; up to six creatures",
+      "resolution": "No roll",
+      "effect": "Restores HP to multiple creatures.",
+      "healing_by_game_level": [
+        "2d4 + Wisdom modifier",
+        "3d4 + Wisdom modifier",
+        "4d4 + Wisdom modifier",
+        "5d4 + Wisdom modifier",
+        "6d4 + Wisdom modifier"
+      ],
+      "duration": "Instantaneous",
+      "concentration": false,
+      "srd_basis": "Mass Healing Word",
+      "source_classification": "SRD-derived Killer adaptation",
+      "tags": [
+        "healing",
+        "area"
+      ],
+      "users": [
+        {
+          "hero_id": "githtoxundes_fenwophyl",
+          "hero_name": "Githtoxundes Fenwophyl",
+          "unlock_game_level": 3,
+          "usage": "limited"
+        }
+      ],
+      "limited_use_rule": "If assigned as limited, uses equal the hero’s current Game Level unless the power states another cost.",
+      "power_attack_formula": "1d20 + power ability modifier + proficiency bonus",
+      "power_save_dc_formula": "8 + power ability modifier + proficiency bonus"
+    },
+    {
+      "id": "kitk-power-might-of-kord",
+      "name": "Might of Kord",
+      "kind": "cantrip-like feature",
+      "activation": "Bonus Action",
+      "range": "30 feet",
+      "resolution": "No roll",
+      "effect": "One creature gains Advantage on its next Strength check, Strength save, shove, grapple, or forced-door attempt.",
+      "duration": "1 minute or until used",
+      "concentration": false,
+      "source_classification": "Killer custom power",
+      "tags": [
+        "strength",
+        "support"
+      ],
+      "users": [
+        {
+          "hero_id": "joknos_jock",
+          "hero_name": "Joknos",
+          "unlock_game_level": 1,
+          "usage": "unlimited"
+        }
+      ],
+      "limited_use_rule": "If assigned as limited, uses equal the hero’s current Game Level unless the power states another cost.",
+      "power_attack_formula": "1d20 + power ability modifier + proficiency bonus",
+      "power_save_dc_formula": "8 + power ability modifier + proficiency bonus"
+    },
+    {
+      "id": "kitk-power-orbs-of-wonder",
+      "name": "Orbs of Wonder",
+      "kind": "cantrip",
+      "activation": "Action",
+      "range": "90 feet",
+      "resolution": "Ranged power attack",
+      "effect": "Launches two unstable orbs. On each hit, roll or select a readable Wild Magic rider: light, push, spark, frost, harmless sound, or color mark.",
+      "damage_by_game_level": [
+        "2 × 1d6 force",
+        "2 × 1d6 force",
+        "3 × 1d6 force",
+        "4 × 1d6 force",
+        "4 × 1d6 force"
+      ],
+      "duration": "Instantaneous",
+      "concentration": false,
+      "source_classification": "Killer custom power",
+      "tags": [
+        "wild magic",
+        "ranged"
+      ],
+      "users": [
+        {
+          "hero_id": "eilvyre_astath",
+          "hero_name": "Eilvyre Astath",
+          "unlock_game_level": 1,
+          "usage": "unlimited"
+        }
+      ],
+      "limited_use_rule": "If assigned as limited, uses equal the hero’s current Game Level unless the power states another cost.",
+      "power_attack_formula": "1d20 + power ability modifier + proficiency bonus",
+      "power_save_dc_formula": "8 + power ability modifier + proficiency bonus"
+    },
+    {
+      "id": "kitk-power-paralyzing-blow",
+      "name": "Paralyzing Blow",
+      "kind": "cantrip-like martial power",
+      "activation": "Action",
+      "range": "Melee",
+      "resolution": "Melee attack, then Constitution save",
+      "effect": "On a hit, a failed save Paralyzes the target until the end of Monk’s next turn. Bosses become Stunned instead.",
+      "duration": "1 round",
+      "concentration": false,
+      "source_classification": "Killer custom power",
+      "tags": [
+        "paralyzed",
+        "stunned",
+        "melee"
+      ],
+      "users": [
+        {
+          "hero_id": "monk",
+          "hero_name": "Monk",
+          "unlock_game_level": 1,
+          "usage": "unlimited"
+        }
+      ],
+      "limited_use_rule": "If assigned as limited, uses equal the hero’s current Game Level unless the power states another cost.",
+      "power_attack_formula": "1d20 + power ability modifier + proficiency bonus",
+      "power_save_dc_formula": "8 + power ability modifier + proficiency bonus"
+    },
+    {
+      "id": "kitk-power-persisting-death-curse",
+      "name": "Persisting Death Curse",
+      "kind": "limited power",
+      "activation": "Action",
+      "range": "60 feet",
+      "resolution": "Charisma save",
+      "effect": "Curses a target. The first time each round it takes damage, it takes additional necrotic damage and cannot regain HP until the start of its next turn.",
+      "damage_by_game_level": [
+        "1d8 extra necrotic",
+        "2d8",
+        "3d8",
+        "4d8",
+        "5d8"
+      ],
+      "duration": "Concentration, up to 1 minute",
+      "concentration": true,
+      "source_classification": "Killer custom power",
+      "tags": [
+        "curse",
+        "necrotic",
+        "anti-healing"
+      ],
+      "users": [
+        {
+          "hero_id": "joknos_jock",
+          "hero_name": "Joknos",
+          "unlock_game_level": 3,
+          "usage": "limited"
+        }
+      ],
+      "limited_use_rule": "If assigned as limited, uses equal the hero’s current Game Level unless the power states another cost.",
+      "power_attack_formula": "1d20 + power ability modifier + proficiency bonus",
+      "power_save_dc_formula": "8 + power ability modifier + proficiency bonus"
+    },
+    {
+      "id": "kitk-power-phantasmal-killer",
+      "name": "Phantasmal Killer",
+      "kind": "limited power",
+      "activation": "Action",
+      "range": "120 feet",
+      "resolution": "Wisdom save; repeat at end of each turn",
+      "effect": "A failed target is Frightened and takes psychic damage at the end of its turns until it succeeds.",
+      "damage_by_game_level": [
+        "4d10 psychic",
+        "5d10",
+        "6d10",
+        "7d10",
+        "8d10"
+      ],
+      "duration": "Concentration, up to 1 minute",
+      "concentration": true,
+      "srd_basis": "Phantasmal Killer",
+      "source_classification": "SRD-derived Killer adaptation",
+      "tags": [
+        "psychic",
+        "frightened"
+      ],
+      "users": [
+        {
+          "hero_id": "gunnus",
+          "hero_name": "Gunnus",
+          "unlock_game_level": 5,
+          "usage": "limited"
+        }
+      ],
+      "limited_use_rule": "If assigned as limited, uses equal the hero’s current Game Level unless the power states another cost.",
+      "power_attack_formula": "1d20 + power ability modifier + proficiency bonus",
+      "power_save_dc_formula": "8 + power ability modifier + proficiency bonus"
+    },
+    {
+      "id": "kitk-power-poison-spray",
+      "name": "Poison Spray",
+      "kind": "cantrip",
+      "activation": "Action",
+      "range": "30 feet",
+      "resolution": "Constitution save",
+      "effect": "A noxious spray poisons and damages one target.",
+      "damage_by_game_level": [
+        "2d12 poison",
+        "2d12 poison",
+        "3d12 poison",
+        "4d12 poison",
+        "4d12 poison"
+      ],
+      "duration": "Instantaneous",
+      "concentration": false,
+      "srd_basis": "Poison Spray",
+      "source_classification": "SRD-derived Killer adaptation",
+      "tags": [
+        "poison"
+      ],
+      "users": [
+        {
+          "hero_id": "noldrack_goldblade",
+          "hero_name": "Noldrack Goldblade",
+          "unlock_game_level": 1,
+          "usage": "unlimited"
+        },
+        {
+          "hero_id": "gunnus",
+          "hero_name": "Gunnus",
+          "unlock_game_level": 1,
+          "usage": "unlimited"
+        }
+      ],
+      "limited_use_rule": "If assigned as limited, uses equal the hero’s current Game Level unless the power states another cost.",
+      "power_attack_formula": "1d20 + power ability modifier + proficiency bonus",
+      "power_save_dc_formula": "8 + power ability modifier + proficiency bonus"
+    },
+    {
+      "id": "kitk-power-radiant-prayer",
+      "name": "Radiant Prayer",
+      "kind": "limited power",
+      "activation": "Action",
+      "range": "Self; 15-foot aura",
+      "resolution": "Charisma save for hostile undead; allies require no save",
+      "effect": "Allies gain temporary HP; undead enemies take radiant damage and cannot take reactions on a failed save.",
+      "damage_by_game_level": [
+        "3d8 radiant",
+        "4d8 radiant",
+        "5d8 radiant",
+        "6d8 radiant",
+        "7d8 radiant"
+      ],
+      "healing_by_game_level": [
+        "1d8 temporary HP",
+        "2d8 temporary HP",
+        "3d8 temporary HP",
+        "4d8 temporary HP",
+        "5d8 temporary HP"
+      ],
+      "duration": "Instantaneous",
+      "concentration": false,
+      "source_classification": "Killer custom power",
+      "tags": [
+        "radiant",
+        "aura",
+        "undead"
+      ],
+      "users": [
+        {
+          "hero_id": "korbin_silverdew",
+          "hero_name": "Korbin Silverdew",
+          "unlock_game_level": 1,
+          "usage": "limited"
+        }
+      ],
+      "limited_use_rule": "If assigned as limited, uses equal the hero’s current Game Level unless the power states another cost.",
+      "power_attack_formula": "1d20 + power ability modifier + proficiency bonus",
+      "power_save_dc_formula": "8 + power ability modifier + proficiency bonus"
+    },
+    {
+      "id": "kitk-power-ray-of-frost",
+      "name": "Ray of Frost",
+      "kind": "cantrip",
+      "activation": "Action",
+      "range": "60 feet",
+      "resolution": "Ranged power attack",
+      "effect": "Cold slows the target by 10 feet until the start of the user’s next turn.",
+      "damage_by_game_level": [
+        "2d8 cold",
+        "2d8 cold",
+        "3d8 cold",
+        "4d8 cold",
+        "4d8 cold"
+      ],
+      "duration": "Instantaneous",
+      "concentration": false,
+      "srd_basis": "Ray of Frost",
+      "source_classification": "SRD-derived Killer adaptation",
+      "tags": [
+        "cold",
+        "slow"
+      ],
+      "users": [
+        {
+          "hero_id": "eilvyre_astath",
+          "hero_name": "Eilvyre Astath",
+          "unlock_game_level": 1,
+          "usage": "unlimited"
+        }
+      ],
+      "limited_use_rule": "If assigned as limited, uses equal the hero’s current Game Level unless the power states another cost.",
+      "power_attack_formula": "1d20 + power ability modifier + proficiency bonus",
+      "power_save_dc_formula": "8 + power ability modifier + proficiency bonus"
+    },
+    {
+      "id": "kitk-power-restore-person",
+      "name": "Restore Person",
+      "kind": "limited power",
+      "activation": "Action",
+      "range": "Touch",
+      "resolution": "No roll; must be used within the two-round restoration window for a dead hero",
+      "effect": "Returns a dead or permanently downed hero to life at half maximum HP, ends poison and one curse, and removes ordinary disease. Cannot restore a hero whose elimination was caused by a scenario-specific irreversible effect.",
+      "healing_by_game_level": [
+        "Half maximum HP",
+        "Half maximum HP",
+        "Half maximum HP",
+        "Half maximum HP",
+        "Half maximum HP"
+      ],
+      "duration": "Instantaneous",
+      "concentration": false,
+      "source_classification": "Killer custom power",
+      "tags": [
+        "revival",
+        "restoration"
+      ],
+      "users": [
+        {
+          "hero_id": "githtoxundes_fenwophyl",
+          "hero_name": "Githtoxundes Fenwophyl",
+          "unlock_game_level": 5,
+          "usage": "limited"
+        }
+      ],
+      "limited_use_rule": "If assigned as limited, uses equal the hero’s current Game Level unless the power states another cost.",
+      "power_attack_formula": "1d20 + power ability modifier + proficiency bonus",
+      "power_save_dc_formula": "8 + power ability modifier + proficiency bonus"
+    },
+    {
+      "id": "kitk-power-restrain",
+      "name": "Restrain",
+      "kind": "limited power",
+      "activation": "Action",
+      "range": "60 feet",
+      "resolution": "Strength save at end of each turn",
+      "effect": "Arcane bindings impose the Restrained condition. The target repeats the save at the end of each turn.",
+      "duration": "Concentration, up to 1 minute",
+      "concentration": true,
+      "source_classification": "Killer custom power",
+      "tags": [
+        "restrained",
+        "control"
+      ],
+      "users": [
+        {
+          "hero_id": "daltu",
+          "hero_name": "Daltu",
+          "unlock_game_level": 3,
+          "usage": "limited"
+        }
+      ],
+      "limited_use_rule": "If assigned as limited, uses equal the hero’s current Game Level unless the power states another cost.",
+      "power_attack_formula": "1d20 + power ability modifier + proficiency bonus",
+      "power_save_dc_formula": "8 + power ability modifier + proficiency bonus"
+    },
+    {
+      "id": "kitk-power-revivify",
+      "name": "Revivify",
+      "kind": "limited power",
+      "activation": "Action",
+      "range": "Touch",
+      "resolution": "No roll; target died within the last two rounds",
+      "effect": "Returns the target to life with 1 HP. Does not remove curses, poison, disease, or missing body parts.",
+      "healing_by_game_level": [
+        "1 HP",
+        "1 HP",
+        "1 HP",
+        "1 HP",
+        "1 HP"
+      ],
+      "duration": "Instantaneous",
+      "concentration": false,
+      "srd_basis": "Revivify",
+      "source_classification": "SRD-derived Killer adaptation",
+      "tags": [
+        "revival"
+      ],
+      "users": [
+        {
+          "hero_id": "gunnus",
+          "hero_name": "Gunnus",
+          "unlock_game_level": 3,
+          "usage": "limited"
+        }
+      ],
+      "limited_use_rule": "If assigned as limited, uses equal the hero’s current Game Level unless the power states another cost.",
+      "power_attack_formula": "1d20 + power ability modifier + proficiency bonus",
+      "power_save_dc_formula": "8 + power ability modifier + proficiency bonus"
+    },
+    {
+      "id": "kitk-power-scorched-soul",
+      "name": "Scorched Soul",
+      "kind": "limited power",
+      "activation": "Bonus Action",
+      "range": "Self",
+      "resolution": "No roll",
+      "effect": "Unarmed and melee attacks deal extra fire damage; creatures hitting Monk in melee take fire damage once per turn.",
+      "damage_by_game_level": [
+        "+1d6 fire",
+        "+1d8",
+        "+1d10",
+        "+1d12",
+        "+2d8"
+      ],
+      "duration": "1 minute",
+      "concentration": false,
+      "source_classification": "Killer custom power",
+      "tags": [
+        "fire",
+        "stance"
+      ],
+      "users": [
+        {
+          "hero_id": "monk",
+          "hero_name": "Monk",
+          "unlock_game_level": 1,
+          "usage": "limited"
+        }
+      ],
+      "limited_use_rule": "If assigned as limited, uses equal the hero’s current Game Level unless the power states another cost.",
+      "power_attack_formula": "1d20 + power ability modifier + proficiency bonus",
+      "power_save_dc_formula": "8 + power ability modifier + proficiency bonus"
+    },
+    {
+      "id": "kitk-power-scourge",
+      "name": "Scourge",
+      "kind": "limited power",
+      "activation": "Action",
+      "range": "60 feet",
+      "resolution": "Constitution save; half damage on success",
+      "effect": "Radiant-necrotic judgment harms a creature. Undead take additional radiant damage.",
+      "damage_by_game_level": [
+        "4d8 radiant/necrotic",
+        "5d8",
+        "6d8",
+        "7d8",
+        "8d8"
+      ],
+      "duration": "Instantaneous",
+      "concentration": false,
+      "source_classification": "Killer custom power",
+      "tags": [
+        "radiant",
+        "necrotic",
+        "undead"
+      ],
+      "users": [
+        {
+          "hero_id": "githtoxundes_fenwophyl",
+          "hero_name": "Githtoxundes Fenwophyl",
+          "unlock_game_level": 1,
+          "usage": "limited"
+        }
+      ],
+      "limited_use_rule": "If assigned as limited, uses equal the hero’s current Game Level unless the power states another cost.",
+      "power_attack_formula": "1d20 + power ability modifier + proficiency bonus",
+      "power_save_dc_formula": "8 + power ability modifier + proficiency bonus"
+    },
+    {
+      "id": "kitk-power-self-teleport",
+      "name": "Self Teleport",
+      "kind": "limited power",
+      "activation": "Bonus Action",
+      "range": "30 feet",
+      "resolution": "No roll if destination is visible and unoccupied",
+      "effect": "Teleport to a space you can see. This movement does not trigger opportunity attacks.",
+      "duration": "Instantaneous",
+      "concentration": false,
+      "source_classification": "Killer custom power",
+      "tags": [
+        "teleportation",
+        "mobility"
+      ],
+      "investigation_utility": "Crosses pits, barred gaps, and some discovered secret routes.",
+      "users": [
+        {
+          "hero_id": "daltu",
+          "hero_name": "Daltu",
+          "unlock_game_level": 2,
+          "usage": "limited"
+        },
+        {
+          "hero_id": "eilvyre_astath",
+          "hero_name": "Eilvyre Astath",
+          "unlock_game_level": 2,
+          "usage": "limited"
+        }
+      ],
+      "limited_use_rule": "If assigned as limited, uses equal the hero’s current Game Level unless the power states another cost.",
+      "power_attack_formula": "1d20 + power ability modifier + proficiency bonus",
+      "power_save_dc_formula": "8 + power ability modifier + proficiency bonus"
+    },
+    {
+      "id": "kitk-power-senseless",
+      "name": "Senseless",
+      "kind": "limited power",
+      "activation": "Action",
+      "range": "60 feet",
+      "resolution": "Wisdom save; repeat at end of each turn",
+      "effect": "A failed target is Blinded and Deafened and cannot take reactions.",
+      "duration": "Concentration, up to 1 minute",
+      "concentration": true,
+      "source_classification": "Killer custom power",
+      "tags": [
+        "blinded",
+        "deafened",
+        "control"
+      ],
+      "users": [
+        {
+          "hero_id": "gunnus",
+          "hero_name": "Gunnus",
+          "unlock_game_level": 2,
+          "usage": "limited"
+        }
+      ],
+      "limited_use_rule": "If assigned as limited, uses equal the hero’s current Game Level unless the power states another cost.",
+      "power_attack_formula": "1d20 + power ability modifier + proficiency bonus",
+      "power_save_dc_formula": "8 + power ability modifier + proficiency bonus"
+    },
+    {
+      "id": "kitk-power-sorcerers-grasp",
+      "name": "Sorcerer's Grasp",
+      "kind": "cantrip",
+      "activation": "Action",
+      "range": "30 feet",
+      "resolution": "Strength save against power save DC",
+      "effect": "A spectral hand pulls an unattended object up to 15 feet or pulls a failed creature 10 feet. It can operate visible switches, doors, evidence, or traps from range.",
+      "damage_by_game_level": [
+        "0",
+        "0",
+        "1d6 force",
+        "1d6 force",
+        "2d6 force"
+      ],
+      "duration": "Up to 1 minute",
+      "concentration": false,
+      "source_classification": "Killer custom power",
+      "tags": [
+        "force",
+        "forced movement",
+        "remote interaction"
+      ],
+      "investigation_utility": "Manipulates evidence, doors, levers, and trap components without standing adjacent.",
+      "users": [
+        {
+          "hero_id": "daltu",
+          "hero_name": "Daltu",
+          "unlock_game_level": 1,
+          "usage": "unlimited"
+        }
+      ],
+      "limited_use_rule": "If assigned as limited, uses equal the hero’s current Game Level unless the power states another cost.",
+      "power_attack_formula": "1d20 + power ability modifier + proficiency bonus",
+      "power_save_dc_formula": "8 + power ability modifier + proficiency bonus"
+    },
+    {
+      "id": "kitk-power-spare-the-dying",
+      "name": "Spare the Dying",
+      "kind": "cantrip",
+      "activation": "Action",
+      "range": "30/30/60/120/120 feet by Game Level",
+      "resolution": "No roll; target must have 0 HP and not be dead",
+      "effect": "The target becomes Stable. This does not restore HP or revive a dead hero.",
+      "duration": "Instantaneous",
+      "concentration": false,
+      "srd_basis": "Spare the Dying",
+      "source_classification": "SRD-derived Killer adaptation",
+      "tags": [
+        "stabilization",
+        "healing"
+      ],
+      "users": [
+        {
+          "hero_id": "githtoxundes_fenwophyl",
+          "hero_name": "Githtoxundes Fenwophyl",
+          "unlock_game_level": 1,
+          "usage": "unlimited"
+        },
+        {
+          "hero_id": "gunnus",
+          "hero_name": "Gunnus",
+          "unlock_game_level": 1,
+          "usage": "unlimited"
+        }
+      ],
+      "limited_use_rule": "If assigned as limited, uses equal the hero’s current Game Level unless the power states another cost.",
+      "power_attack_formula": "1d20 + power ability modifier + proficiency bonus",
+      "power_save_dc_formula": "8 + power ability modifier + proficiency bonus"
+    },
+    {
+      "id": "kitk-power-stone-flesh",
+      "name": "Stone Flesh",
+      "kind": "limited power",
+      "activation": "Bonus Action",
+      "range": "Self",
+      "resolution": "No roll",
+      "effect": "Gain resistance to bludgeoning, piercing, and slashing damage and Advantage against forced movement.",
+      "duration": "1 minute",
+      "concentration": false,
+      "source_classification": "Killer custom power",
+      "tags": [
+        "resistance",
+        "defense"
+      ],
+      "users": [
+        {
+          "hero_id": "monk",
+          "hero_name": "Monk",
+          "unlock_game_level": 5,
+          "usage": "limited"
+        }
+      ],
+      "limited_use_rule": "If assigned as limited, uses equal the hero’s current Game Level unless the power states another cost.",
+      "power_attack_formula": "1d20 + power ability modifier + proficiency bonus",
+      "power_save_dc_formula": "8 + power ability modifier + proficiency bonus"
+    },
+    {
+      "id": "kitk-power-teleportation-doorway",
+      "name": "Teleportation Doorway",
+      "kind": "limited power",
+      "activation": "Action",
+      "range": "30 feet between endpoints",
+      "resolution": "No roll; endpoints must be visible, known, or previously discovered",
+      "effect": "Creates two linked doorways. Creatures may step through by spending 5 feet of movement.",
+      "duration": "Concentration, up to 1 minute",
+      "concentration": true,
+      "source_classification": "Killer custom power",
+      "tags": [
+        "teleportation",
+        "portal",
+        "team mobility"
+      ],
+      "investigation_utility": "Connects discovered rooms and can bypass a blocked but not undiscovered route.",
+      "users": [
+        {
+          "hero_id": "joknos_jock",
+          "hero_name": "Joknos",
+          "unlock_game_level": 5,
+          "usage": "limited"
+        }
+      ],
+      "limited_use_rule": "If assigned as limited, uses equal the hero’s current Game Level unless the power states another cost.",
+      "power_attack_formula": "1d20 + power ability modifier + proficiency bonus",
+      "power_save_dc_formula": "8 + power ability modifier + proficiency bonus"
+    },
+    {
+      "id": "kitk-power-tidal-wave",
+      "name": "Tidal Wave",
+      "kind": "limited power",
+      "activation": "Action",
+      "range": "120 feet; 30-by-10-foot line",
+      "resolution": "Dexterity save; half damage on success",
+      "effect": "Water crashes through the area, knocks failed targets Prone, extinguishes fire, and washes away loose residue.",
+      "damage_by_game_level": [
+        "4d8 bludgeoning",
+        "5d8 bludgeoning",
+        "6d8 bludgeoning",
+        "7d8 bludgeoning",
+        "8d8 bludgeoning"
+      ],
+      "duration": "Instantaneous",
+      "concentration": false,
+      "source_classification": "Killer custom power",
+      "tags": [
+        "water",
+        "area",
+        "prone"
+      ],
+      "investigation_utility": "Can expose washed footprints, dilute poison, and clear fire or acid residue.",
+      "users": [
+        {
+          "hero_id": "noldrack_goldblade",
+          "hero_name": "Noldrack Goldblade",
+          "unlock_game_level": 3,
+          "usage": "limited"
+        }
+      ],
+      "limited_use_rule": "If assigned as limited, uses equal the hero’s current Game Level unless the power states another cost.",
+      "power_attack_formula": "1d20 + power ability modifier + proficiency bonus",
+      "power_save_dc_formula": "8 + power ability modifier + proficiency bonus"
+    },
+    {
+      "id": "kitk-power-tornado",
+      "name": "Tornado",
+      "kind": "limited power",
+      "activation": "Action",
+      "range": "120 feet; 20-foot-radius cylinder",
+      "resolution": "Strength save; half damage and no lift on success",
+      "effect": "A violent vortex lifts failed targets, moves them up to 20 feet, and knocks them Prone when they land.",
+      "damage_by_game_level": [
+        "6d8 bludgeoning",
+        "7d8 bludgeoning",
+        "8d8 bludgeoning",
+        "9d8 bludgeoning",
+        "10d8 bludgeoning"
+      ],
+      "duration": "Concentration, up to 1 minute",
+      "concentration": true,
+      "source_classification": "Killer custom power",
+      "tags": [
+        "air",
+        "area",
+        "forced movement"
+      ],
+      "users": [
+        {
+          "hero_id": "noldrack_goldblade",
+          "hero_name": "Noldrack Goldblade",
+          "unlock_game_level": 5,
+          "usage": "limited"
+        }
+      ],
+      "limited_use_rule": "If assigned as limited, uses equal the hero’s current Game Level unless the power states another cost.",
+      "power_attack_formula": "1d20 + power ability modifier + proficiency bonus",
+      "power_save_dc_formula": "8 + power ability modifier + proficiency bonus"
+    },
+    {
+      "id": "kitk-power-true-strike",
+      "name": "True Strike",
+      "kind": "cantrip",
+      "activation": "Action",
+      "range": "Weapon range",
+      "resolution": "Make one weapon attack using Charisma instead of Strength or Dexterity",
+      "effect": "The attack deals its normal damage plus radiant or psychic damage.",
+      "damage_by_game_level": [
+        "weapon + 1d6",
+        "weapon + 1d6",
+        "weapon + 2d6",
+        "weapon + 3d6",
+        "weapon + 3d6"
+      ],
+      "duration": "Instantaneous",
+      "concentration": false,
+      "srd_basis": "True Strike",
+      "source_classification": "SRD-derived Killer adaptation",
+      "tags": [
+        "weapon",
+        "accuracy"
+      ],
+      "users": [
+        {
+          "hero_id": "joknos_jock",
+          "hero_name": "Joknos",
+          "unlock_game_level": 1,
+          "usage": "unlimited"
+        }
+      ],
+      "limited_use_rule": "If assigned as limited, uses equal the hero’s current Game Level unless the power states another cost.",
+      "power_attack_formula": "1d20 + power ability modifier + proficiency bonus",
+      "power_save_dc_formula": "8 + power ability modifier + proficiency bonus"
+    },
+    {
+      "id": "kitk-power-turn-the-tide",
+      "name": "Turn the Tide",
+      "kind": "cantrip",
+      "activation": "Reaction",
+      "range": "30 feet",
+      "resolution": "Triggered when a creature succeeds or fails a D20 Test by 2 or less",
+      "effect": "Add or subtract 1d4 from the triggering roll after seeing the roll but before the outcome is finalized. A creature can benefit only once per round.",
+      "duration": "Instantaneous",
+      "concentration": false,
+      "source_classification": "Killer custom power",
+      "tags": [
+        "reaction",
+        "luck",
+        "support"
+      ],
+      "users": [
+        {
+          "hero_id": "eilvyre_astath",
+          "hero_name": "Eilvyre Astath",
+          "unlock_game_level": 1,
+          "usage": "unlimited"
+        }
+      ],
+      "limited_use_rule": "If assigned as limited, uses equal the hero’s current Game Level unless the power states another cost.",
+      "power_attack_formula": "1d20 + power ability modifier + proficiency bonus",
+      "power_save_dc_formula": "8 + power ability modifier + proficiency bonus"
+    },
+    {
+      "id": "kitk-power-undead-warrior",
+      "name": "Undead Warrior",
+      "kind": "limited power",
+      "activation": "Action",
+      "range": "30 feet",
+      "resolution": "No roll",
+      "effect": "Summons or raises one Undead Warrior under Gunnus’s control. Only one may be active unless a higher-level feature states otherwise.",
+      "duration": "Until destroyed, dismissed, or the encounter ends",
+      "concentration": false,
+      "source_classification": "Killer custom power",
+      "tags": [
+        "summon",
+        "undead"
+      ],
+      "users": [
+        {
+          "hero_id": "gunnus",
+          "hero_name": "Gunnus",
+          "unlock_game_level": 2,
+          "usage": "limited"
+        }
+      ],
+      "limited_use_rule": "If assigned as limited, uses equal the hero’s current Game Level unless the power states another cost.",
+      "power_attack_formula": "1d20 + power ability modifier + proficiency bonus",
+      "power_save_dc_formula": "8 + power ability modifier + proficiency bonus"
+    },
+    {
+      "id": "kitk-power-underworld-flames",
+      "name": "Underworld Flames",
+      "kind": "limited power",
+      "activation": "Action",
+      "range": "60 feet; 10-foot-radius burst",
+      "resolution": "Dexterity save; half damage on success",
+      "effect": "Hellfire erupts and leaves burning ground until the start of the user’s next turn.",
+      "damage_by_game_level": [
+        "4d6 fire",
+        "5d6 fire",
+        "6d6 fire",
+        "7d6 fire",
+        "8d6 fire"
+      ],
+      "duration": "1 round",
+      "concentration": false,
+      "source_classification": "Killer custom power",
+      "tags": [
+        "fire",
+        "area",
+        "hazard"
+      ],
+      "users": [
+        {
+          "hero_id": "daltu",
+          "hero_name": "Daltu",
+          "unlock_game_level": 1,
+          "usage": "limited"
+        }
+      ],
+      "limited_use_rule": "If assigned as limited, uses equal the hero’s current Game Level unless the power states another cost.",
+      "power_attack_formula": "1d20 + power ability modifier + proficiency bonus",
+      "power_save_dc_formula": "8 + power ability modifier + proficiency bonus"
+    },
+    {
+      "id": "kitk-power-vampiric-touch",
+      "name": "Vampiric Touch",
+      "kind": "limited power",
+      "activation": "Action; repeat as Action",
+      "range": "Self",
+      "resolution": "Melee power attack",
+      "effect": "On a hit, deal necrotic damage and regain HP equal to half the damage dealt.",
+      "damage_by_game_level": [
+        "3d6 necrotic",
+        "4d6",
+        "5d6",
+        "6d6",
+        "7d6"
+      ],
+      "duration": "Concentration, up to 1 minute",
+      "concentration": true,
+      "srd_basis": "Vampiric Touch",
+      "source_classification": "SRD-derived Killer adaptation",
+      "tags": [
+        "necrotic",
+        "healing",
+        "melee"
+      ],
+      "users": [
+        {
+          "hero_id": "gunnus",
+          "hero_name": "Gunnus",
+          "unlock_game_level": 3,
+          "usage": "limited"
+        }
+      ],
+      "limited_use_rule": "If assigned as limited, uses equal the hero’s current Game Level unless the power states another cost.",
+      "power_attack_formula": "1d20 + power ability modifier + proficiency bonus",
+      "power_save_dc_formula": "8 + power ability modifier + proficiency bonus"
+    },
+    {
+      "id": "kitk-power-whirlwind",
+      "name": "Whirlwind",
+      "kind": "cantrip-like martial power",
+      "activation": "Action",
+      "range": "Self; 5-foot reach",
+      "resolution": "One melee attack against each chosen adjacent creature",
+      "effect": "Spin and strike all adjacent enemies. Apply the weapon or unarmed damage once to each hit.",
+      "damage_by_game_level": [
+        "weapon damage",
+        "weapon damage",
+        "weapon + 1d6",
+        "weapon + 1d8",
+        "weapon + 1d10"
+      ],
+      "duration": "Instantaneous",
+      "concentration": false,
+      "source_classification": "Killer custom power",
+      "tags": [
+        "melee",
+        "area"
+      ],
+      "users": [
+        {
+          "hero_id": "monk",
+          "hero_name": "Monk",
+          "unlock_game_level": 1,
+          "usage": "unlimited"
+        }
+      ],
+      "limited_use_rule": "If assigned as limited, uses equal the hero’s current Game Level unless the power states another cost.",
+      "power_attack_formula": "1d20 + power ability modifier + proficiency bonus",
+      "power_save_dc_formula": "8 + power ability modifier + proficiency bonus"
+    },
+    {
+      "id": "kitk-power-wind-of-the-mighty",
+      "name": "Wind of the Mighty",
+      "kind": "limited power",
+      "activation": "Reaction",
+      "range": "Self; 15-foot cone",
+      "resolution": "Triggered when Monk or an adjacent ally is targeted by a ranged attack",
+      "effect": "Impose Disadvantage on the triggering attack and push creatures or loose hazards in the cone 5 feet on a failed Strength save.",
+      "duration": "Instantaneous",
+      "concentration": false,
+      "source_classification": "Killer custom power",
+      "tags": [
+        "reaction",
+        "air",
+        "defense"
+      ],
+      "users": [
+        {
+          "hero_id": "monk",
+          "hero_name": "Monk",
+          "unlock_game_level": 2,
+          "usage": "limited"
+        }
+      ],
+      "limited_use_rule": "If assigned as limited, uses equal the hero’s current Game Level unless the power states another cost.",
+      "power_attack_formula": "1d20 + power ability modifier + proficiency bonus",
+      "power_save_dc_formula": "8 + power ability modifier + proficiency bonus"
+    },
+    {
+      "id": "kitk-power-windforce-punch",
+      "name": "WindForce Punch",
+      "kind": "limited power",
+      "activation": "Action",
+      "range": "30-foot line",
+      "resolution": "Strength save; half damage and no push on success",
+      "effect": "A compressed-air strike pushes failed targets up to 20 feet and knocks them Prone if they collide with a solid surface.",
+      "damage_by_game_level": [
+        "4d8 force",
+        "5d8",
+        "6d8",
+        "7d8",
+        "8d8"
+      ],
+      "duration": "Instantaneous",
+      "concentration": false,
+      "source_classification": "Killer custom power",
+      "tags": [
+        "force",
+        "line",
+        "forced movement"
+      ],
+      "users": [
+        {
+          "hero_id": "monk",
+          "hero_name": "Monk",
+          "unlock_game_level": 2,
+          "usage": "limited"
+        }
+      ],
+      "limited_use_rule": "If assigned as limited, uses equal the hero’s current Game Level unless the power states another cost.",
+      "power_attack_formula": "1d20 + power ability modifier + proficiency bonus",
+      "power_save_dc_formula": "8 + power ability modifier + proficiency bonus"
+    }
+  ]
+}

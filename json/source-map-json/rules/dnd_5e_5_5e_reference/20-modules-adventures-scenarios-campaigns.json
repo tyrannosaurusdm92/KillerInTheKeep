@@ -1,0 +1,81 @@
+{
+  "schema_version": "4.0.0",
+  "document_type": "killer_mystery_scenario_presets",
+  "system": "Killer In The Keep",
+  "rules_profile": "Killer In The Keep 5E-Compatible Hybrid",
+  "scope": "Killer In The Keep only",
+  "build_date": "2026-08-05",
+  "source_basis": [
+    "KillerInTheKeep_5_Game_Level_Progression.json",
+    "System Reference Document 5.2.1"
+  ],
+  "srd_attribution": "This work includes material from the System Reference Document 5.2.1 (“SRD 5.2.1”) by Wizards of the Coast LLC, available at https://www.dndbeyond.com/srd. The SRD 5.2.1 is licensed under the Creative Commons Attribution 4.0 International License, available at https://creativecommons.org/licenses/by/4.0/legalcode.",
+  "publisher_affiliation": "Killer In The Keep is an independent project and is not endorsed by Wizards of the Coast.",
+  "record_count": 5,
+  "records": [
+    {
+      "id": "kitk-scenario-tutorial",
+      "title": "The First Cry",
+      "length": "45–75 minutes",
+      "playstyles": [
+        "Work Together"
+      ],
+      "difficulty": "Tutorial",
+      "setup": "Guided six-seat mystery with two to six humans and bot fill. Fewer traps, explicit notebook prompts, and a limited room route.",
+      "win": "Correctly identify suspect, weapon, and room.",
+      "loss": "All active heroes are eliminated or tutorial timer expires."
+    },
+    {
+      "id": "kitk-scenario-standard-cooperative",
+      "title": "Storm-Bound Murder",
+      "length": "90–150 minutes",
+      "playstyles": [
+        "Work Together"
+      ],
+      "difficulty": "Standard",
+      "setup": "Full sixteen-room keep, standard monster and trap density, private evidence with voluntary sharing, and team accusation vote.",
+      "win": "The surviving party makes a correct final accusation.",
+      "loss": "Party elimination, strict incorrect accusation, or final storm stage."
+    },
+    {
+      "id": "kitk-scenario-standard-separate",
+      "title": "Every Hero for Themself",
+      "length": "90–150 minutes",
+      "playstyles": [
+        "Work Separately"
+      ],
+      "difficulty": "Standard",
+      "setup": "Full keep, private notebooks, optional PvP, trades, bluffing, temporary alliances, and independent victory claims.",
+      "win": "Solve first or become last independently living hero when enabled.",
+      "loss": "Elimination or loss of accusation eligibility under strict rules."
+    },
+    {
+      "id": "kitk-scenario-extended",
+      "title": "The Keep of Eight Shadows",
+      "length": "2–4 hours",
+      "playstyles": [
+        "Work Together",
+        "Work Separately"
+      ],
+      "difficulty": "Hard",
+      "setup": "Full map, increased secret passages, duplicate mirrors, elite monsters, expanded physical clues, and escalating storm/ritual stages.",
+      "win": "Correct final accusation under the chosen playstyle.",
+      "loss": "Configured defeat conditions for the chosen playstyle."
+    },
+    {
+      "id": "kitk-scenario-nightmare",
+      "title": "No Dawn for the Keep",
+      "length": "2–4 hours",
+      "playstyles": [
+        "Work Together",
+        "Work Separately"
+      ],
+      "difficulty": "Nightmare",
+      "setup": "DCs 20–30, multiple timers, smart hostile pathing, scarce recovery, and stronger consequences without changing the sealed deduction solution.",
+      "win": "Correct accusation before complete elimination or final doom stage.",
+      "loss": "All eligible investigators lose or the doom clock completes."
+    }
+  ],
+  "campaigns": [],
+  "restriction": "Every scenario uses the Killer In The Keep suspect-weapon-room deduction engine and fixed hero roster."
+}

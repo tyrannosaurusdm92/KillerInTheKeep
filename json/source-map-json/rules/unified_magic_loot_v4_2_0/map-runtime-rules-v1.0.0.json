@@ -1,0 +1,2806 @@
+{
+  "schema_version": "1.0.0",
+  "document_type": "KillerInTheKeep_four_level_map_rules",
+  "rules_version": "4.1.0",
+  "keep_structure": {
+    "floor_count": 4,
+    "floor_order": [
+      "cellar",
+      "first_floor",
+      "second_floor",
+      "attic"
+    ],
+    "floor_display_names": [
+      "Cellar Level",
+      "First Floor — Entrance Level",
+      "Second Floor — Guest and Private Level",
+      "Attic and Roof Level"
+    ],
+    "grid": "48 columns × 32 rows per floor; 5 feet per orthogonal square; diagonal movement disabled.",
+    "room_card_count": 22,
+    "room_cards": [
+      {
+        "number": 1,
+        "id": "cellar",
+        "name": "Cellar",
+        "primary_floor": "cellar",
+        "floor_display_name": "Cellar Level",
+        "function": "Wine, preserved food, salted meat, roots, barrels, and secure caged storage beneath the service wing and Grand Hall.",
+        "connections": [
+          "pantry",
+          "undercroft_passage"
+        ],
+        "solution_eligible": true,
+        "map_views": [
+          {
+            "id": "cellar_primary",
+            "area_name": "Cellar",
+            "floor": "cellar",
+            "grid_ranges_inclusive": [
+              [
+                6,
+                41,
+                6,
+                25
+              ]
+            ],
+            "grid_bounds_inclusive": {
+              "min_x": 6,
+              "max_x": 41,
+              "min_y": 6,
+              "max_y": 25,
+              "min_label": "G7",
+              "max_label": "AP26"
+            }
+          }
+        ]
+      },
+      {
+        "number": 2,
+        "id": "foyer",
+        "name": "Foyer",
+        "primary_floor": "first_floor",
+        "floor_display_name": "First Floor — Entrance Level",
+        "function": "Fortified entrance chamber and cooperative-mode starting room.",
+        "connections": [
+          "grand_hall",
+          "main_entrance"
+        ],
+        "solution_eligible": true,
+        "map_views": [
+          {
+            "id": "foyer_primary",
+            "area_name": "Foyer",
+            "floor": "first_floor",
+            "grid_ranges_inclusive": [
+              [
+                20,
+                28,
+                26,
+                31
+              ]
+            ],
+            "grid_bounds_inclusive": {
+              "min_x": 20,
+              "max_x": 28,
+              "min_y": 26,
+              "max_y": 31,
+              "min_label": "U27",
+              "max_label": "AC32"
+            }
+          }
+        ]
+      },
+      {
+        "number": 3,
+        "id": "grand_hall",
+        "name": "Grand Hall",
+        "primary_floor": "first_floor",
+        "floor_display_name": "First Floor — Entrance Level",
+        "function": "Double-height center of the keep with split staircase, upper landing, and balcony.",
+        "connections": [
+          "foyer",
+          "game_room",
+          "dining_room",
+          "sitting_room",
+          "library",
+          "grand_staircase"
+        ],
+        "solution_eligible": true,
+        "map_views": [
+          {
+            "id": "grand_hall_primary",
+            "area_name": "Grand Hall",
+            "floor": "first_floor",
+            "grid_ranges_inclusive": [
+              [
+                16,
+                30,
+                9,
+                25
+              ]
+            ],
+            "grid_bounds_inclusive": {
+              "min_x": 16,
+              "max_x": 30,
+              "min_y": 9,
+              "max_y": 25,
+              "min_label": "Q10",
+              "max_label": "AE26"
+            }
+          }
+        ]
+      },
+      {
+        "number": 4,
+        "id": "game_room",
+        "name": "Game Room",
+        "primary_floor": "first_floor",
+        "floor_display_name": "First Floor — Entrance Level",
+        "function": "Public gaming and trophy chamber near the entrance.",
+        "connections": [
+          "grand_hall"
+        ],
+        "solution_eligible": true,
+        "map_views": [
+          {
+            "id": "game_room_primary",
+            "area_name": "Game Room",
+            "floor": "first_floor",
+            "grid_ranges_inclusive": [
+              [
+                31,
+                39,
+                20,
+                31
+              ]
+            ],
+            "grid_bounds_inclusive": {
+              "min_x": 31,
+              "max_x": 39,
+              "min_y": 20,
+              "max_y": 31,
+              "min_label": "AF21",
+              "max_label": "AN32"
+            }
+          }
+        ]
+      },
+      {
+        "number": 5,
+        "id": "dining_room",
+        "name": "Dining Room",
+        "primary_floor": "first_floor",
+        "floor_display_name": "First Floor — Entrance Level",
+        "function": "Everyday dining chamber; ceremonial feasts remain in the Grand Hall.",
+        "connections": [
+          "grand_hall",
+          "kitchen",
+          "screens_passage"
+        ],
+        "solution_eligible": true,
+        "map_views": [
+          {
+            "id": "dining_room_primary",
+            "area_name": "Dining Room",
+            "floor": "first_floor",
+            "grid_ranges_inclusive": [
+              [
+                31,
+                39,
+                9,
+                19
+              ]
+            ],
+            "grid_bounds_inclusive": {
+              "min_x": 31,
+              "max_x": 39,
+              "min_y": 9,
+              "max_y": 19,
+              "min_label": "AF10",
+              "max_label": "AN20"
+            }
+          }
+        ]
+      },
+      {
+        "number": 6,
+        "id": "kitchen",
+        "name": "Kitchen",
+        "primary_floor": "first_floor",
+        "floor_display_name": "First Floor — Entrance Level",
+        "function": "Rear service kitchen with hearths, worktables, and direct food routes.",
+        "connections": [
+          "dining_room",
+          "pantry",
+          "screens_passage",
+          "servants_staircase"
+        ],
+        "solution_eligible": true,
+        "map_views": [
+          {
+            "id": "kitchen_primary",
+            "area_name": "Kitchen",
+            "floor": "first_floor",
+            "grid_ranges_inclusive": [
+              [
+                31,
+                38,
+                0,
+                8
+              ]
+            ],
+            "grid_bounds_inclusive": {
+              "min_x": 31,
+              "max_x": 38,
+              "min_y": 0,
+              "max_y": 8,
+              "min_label": "AF1",
+              "max_label": "AM9"
+            }
+          }
+        ]
+      },
+      {
+        "number": 7,
+        "id": "pantry",
+        "name": "Pantry",
+        "primary_floor": "first_floor",
+        "floor_display_name": "First Floor — Entrance Level",
+        "function": "Dry stores and locked provisions with the normal stair to the Cellar.",
+        "connections": [
+          "kitchen",
+          "screens_passage",
+          "cellar_staircase"
+        ],
+        "solution_eligible": true,
+        "map_views": [
+          {
+            "id": "pantry_primary",
+            "area_name": "Pantry",
+            "floor": "first_floor",
+            "grid_ranges_inclusive": [
+              [
+                40,
+                47,
+                0,
+                19
+              ]
+            ],
+            "grid_bounds_inclusive": {
+              "min_x": 40,
+              "max_x": 47,
+              "min_y": 0,
+              "max_y": 19,
+              "min_label": "AO1",
+              "max_label": "AV20"
+            }
+          }
+        ]
+      },
+      {
+        "number": 8,
+        "id": "sitting_room",
+        "name": "Sitting Room",
+        "primary_floor": "first_floor",
+        "floor_display_name": "First Floor — Entrance Level",
+        "function": "Quiet reception and conversation chamber at the front-left.",
+        "connections": [
+          "grand_hall",
+          "music_room",
+          "rear_service_corridor"
+        ],
+        "solution_eligible": true,
+        "map_views": [
+          {
+            "id": "sitting_room_primary",
+            "area_name": "Sitting Room",
+            "floor": "first_floor",
+            "grid_ranges_inclusive": [
+              [
+                8,
+                15,
+                20,
+                31
+              ]
+            ],
+            "grid_bounds_inclusive": {
+              "min_x": 8,
+              "max_x": 15,
+              "min_y": 20,
+              "max_y": 31,
+              "min_label": "I21",
+              "max_label": "P32"
+            }
+          }
+        ]
+      },
+      {
+        "number": 9,
+        "id": "music_room",
+        "name": "Music Room",
+        "primary_floor": "first_floor",
+        "floor_display_name": "First Floor — Entrance Level",
+        "function": "Windowed music chamber with instruments and concealed cabinet exit.",
+        "connections": [
+          "sitting_room",
+          "privy",
+          "rear_service_corridor",
+          "secondary_guest_secret_stair"
+        ],
+        "solution_eligible": true,
+        "map_views": [
+          {
+            "id": "music_room_primary",
+            "area_name": "Music Room",
+            "floor": "first_floor",
+            "grid_ranges_inclusive": [
+              [
+                0,
+                7,
+                17,
+                24
+              ]
+            ],
+            "grid_bounds_inclusive": {
+              "min_x": 0,
+              "max_x": 7,
+              "min_y": 17,
+              "max_y": 24,
+              "min_label": "A18",
+              "max_label": "H25"
+            }
+          }
+        ]
+      },
+      {
+        "number": 10,
+        "id": "privy",
+        "name": "Privy",
+        "primary_floor": "first_floor",
+        "floor_display_name": "First Floor — Entrance Level",
+        "function": "Exterior-wall garderobe/latrine turret reached directly from the Music Room.",
+        "connections": [
+          "music_room",
+          "rear_service_corridor"
+        ],
+        "solution_eligible": true,
+        "map_views": [
+          {
+            "id": "privy_primary",
+            "area_name": "Privy",
+            "floor": "first_floor",
+            "grid_ranges_inclusive": [
+              [
+                0,
+                2,
+                10,
+                16
+              ]
+            ],
+            "grid_bounds_inclusive": {
+              "min_x": 0,
+              "max_x": 2,
+              "min_y": 10,
+              "max_y": 16,
+              "min_label": "A11",
+              "max_label": "C17"
+            }
+          }
+        ]
+      },
+      {
+        "number": 11,
+        "id": "library",
+        "name": "Library",
+        "primary_floor": "first_floor",
+        "floor_display_name": "First Floor — Entrance Level",
+        "function": "Two-storey library; this lower chamber and the second-floor gallery together count as one room.",
+        "connections": [
+          "grand_hall",
+          "first_floor_solar",
+          "library_spiral_stair",
+          "rear_service_corridor"
+        ],
+        "solution_eligible": true,
+        "map_views": [
+          {
+            "id": "library_primary",
+            "area_name": "Main Room",
+            "floor": "first_floor",
+            "grid_ranges_inclusive": [
+              [
+                8,
+                15,
+                10,
+                19
+              ]
+            ],
+            "grid_bounds_inclusive": {
+              "min_x": 8,
+              "max_x": 15,
+              "min_y": 10,
+              "max_y": 19,
+              "min_label": "I11",
+              "max_label": "P20"
+            }
+          },
+          {
+            "id": "library_upper_gallery",
+            "area_name": "Upper Gallery",
+            "floor": "second_floor",
+            "grid_ranges_inclusive": [
+              [
+                8,
+                15,
+                21,
+                31
+              ]
+            ],
+            "grid_bounds_inclusive": {
+              "min_x": 8,
+              "max_x": 15,
+              "min_y": 21,
+              "max_y": 31,
+              "min_label": "I22",
+              "max_label": "P32"
+            }
+          }
+        ]
+      },
+      {
+        "number": 12,
+        "id": "first_floor_solar",
+        "name": "1st Floor Solar",
+        "primary_floor": "first_floor",
+        "floor_display_name": "First Floor — Entrance Level",
+        "function": "Secluded lower withdrawing chamber in the rear-left private wing.",
+        "connections": [
+          "library",
+          "alchemists_quarters",
+          "main_guest_secret_stair",
+          "rear_service_corridor"
+        ],
+        "solution_eligible": true,
+        "map_views": [
+          {
+            "id": "first_floor_solar_primary",
+            "area_name": "1st Floor Solar",
+            "floor": "first_floor",
+            "grid_ranges_inclusive": [
+              [
+                0,
+                7,
+                0,
+                9
+              ]
+            ],
+            "grid_bounds_inclusive": {
+              "min_x": 0,
+              "max_x": 7,
+              "min_y": 0,
+              "max_y": 9,
+              "min_label": "A1",
+              "max_label": "H10"
+            }
+          }
+        ]
+      },
+      {
+        "number": 13,
+        "id": "alchemists_quarters",
+        "name": "Alchemist’s Quarters",
+        "primary_floor": "first_floor",
+        "floor_display_name": "First Floor — Entrance Level",
+        "function": "Private quarters between the Solar and Study, with a false-backed wardrobe escape stair.",
+        "connections": [
+          "first_floor_solar",
+          "alchemists_study",
+          "cellar_secret_stair",
+          "rear_service_corridor"
+        ],
+        "solution_eligible": true,
+        "map_views": [
+          {
+            "id": "alchemists_quarters_primary",
+            "area_name": "Alchemist’s Quarters",
+            "floor": "first_floor",
+            "grid_ranges_inclusive": [
+              [
+                8,
+                12,
+                0,
+                8
+              ]
+            ],
+            "grid_bounds_inclusive": {
+              "min_x": 8,
+              "max_x": 12,
+              "min_y": 0,
+              "max_y": 8,
+              "min_label": "I1",
+              "max_label": "M9"
+            }
+          }
+        ]
+      },
+      {
+        "number": 14,
+        "id": "alchemists_study",
+        "name": "Alchemist’s Study",
+        "primary_floor": "first_floor",
+        "floor_display_name": "First Floor — Entrance Level",
+        "function": "Laboratory with fireplaces, vents, reagents, potions, and dangerous compounds.",
+        "connections": [
+          "alchemists_quarters",
+          "armory",
+          "rear_service_corridor"
+        ],
+        "solution_eligible": true,
+        "map_views": [
+          {
+            "id": "alchemists_study_primary",
+            "area_name": "Alchemist’s Study",
+            "floor": "first_floor",
+            "grid_ranges_inclusive": [
+              [
+                13,
+                20,
+                0,
+                8
+              ]
+            ],
+            "grid_bounds_inclusive": {
+              "min_x": 13,
+              "max_x": 20,
+              "min_y": 0,
+              "max_y": 8,
+              "min_label": "N1",
+              "max_label": "U9"
+            }
+          }
+        ]
+      },
+      {
+        "number": 15,
+        "id": "armory",
+        "name": "Armory",
+        "primary_floor": "first_floor",
+        "floor_display_name": "First Floor — Entrance Level",
+        "function": "Reinforced defensive store with weapon racks and a concealed evacuation stair.",
+        "connections": [
+          "alchemists_study",
+          "wall_passage",
+          "cellar_secret_stair",
+          "rear_service_corridor"
+        ],
+        "solution_eligible": true,
+        "map_views": [
+          {
+            "id": "armory_primary",
+            "area_name": "Armory",
+            "floor": "first_floor",
+            "grid_ranges_inclusive": [
+              [
+                21,
+                30,
+                0,
+                8
+              ]
+            ],
+            "grid_bounds_inclusive": {
+              "min_x": 21,
+              "max_x": 30,
+              "min_y": 0,
+              "max_y": 8,
+              "min_label": "V1",
+              "max_label": "AE9"
+            }
+          }
+        ]
+      },
+      {
+        "number": 16,
+        "id": "main_guest_quarters",
+        "name": "Main Guest Quarters",
+        "primary_floor": "second_floor",
+        "floor_display_name": "Second Floor — Guest and Private Level",
+        "function": "Primary guest suite reached by the right-hand Grand Hall staircase and a vestibule.",
+        "connections": [
+          "right_upper_corridor",
+          "den",
+          "main_guest_secret_stair",
+          "second_floor_service_corridor"
+        ],
+        "solution_eligible": true,
+        "map_views": [
+          {
+            "id": "main_guest_quarters_primary",
+            "area_name": "Main Guest Quarters",
+            "floor": "second_floor",
+            "grid_ranges_inclusive": [
+              [
+                38,
+                47,
+                10,
+                21
+              ]
+            ],
+            "grid_bounds_inclusive": {
+              "min_x": 38,
+              "max_x": 47,
+              "min_y": 10,
+              "max_y": 21,
+              "min_label": "AM11",
+              "max_label": "AV22"
+            }
+          }
+        ]
+      },
+      {
+        "number": 17,
+        "id": "den",
+        "name": "Den",
+        "primary_floor": "second_floor",
+        "floor_display_name": "Second Floor — Guest and Private Level",
+        "function": "Shared withdrawing chamber behind the middle landing door.",
+        "connections": [
+          "central_landing",
+          "chapel",
+          "second_floor_solar",
+          "cellar_secret_stair",
+          "second_floor_service_corridor"
+        ],
+        "solution_eligible": true,
+        "map_views": [
+          {
+            "id": "den_primary",
+            "area_name": "Den",
+            "floor": "second_floor",
+            "grid_ranges_inclusive": [
+              [
+                20,
+                27,
+                0,
+                8
+              ]
+            ],
+            "grid_bounds_inclusive": {
+              "min_x": 20,
+              "max_x": 27,
+              "min_y": 0,
+              "max_y": 8,
+              "min_label": "U1",
+              "max_label": "AB9"
+            }
+          }
+        ]
+      },
+      {
+        "number": 18,
+        "id": "secondary_guest_quarters",
+        "name": "Secondary Guest Quarters",
+        "primary_floor": "second_floor",
+        "floor_display_name": "Second Floor — Guest and Private Level",
+        "function": "Mirrored secondary suite reached by the left-hand Grand Hall staircase.",
+        "connections": [
+          "left_upper_corridor",
+          "den",
+          "music_room_secret_stair",
+          "second_floor_service_corridor"
+        ],
+        "solution_eligible": true,
+        "map_views": [
+          {
+            "id": "secondary_guest_quarters_primary",
+            "area_name": "Secondary Guest Quarters",
+            "floor": "second_floor",
+            "grid_ranges_inclusive": [
+              [
+                0,
+                7,
+                10,
+                21
+              ]
+            ],
+            "grid_bounds_inclusive": {
+              "min_x": 0,
+              "max_x": 7,
+              "min_y": 10,
+              "max_y": 21,
+              "min_label": "A11",
+              "max_label": "H22"
+            }
+          }
+        ]
+      },
+      {
+        "number": 19,
+        "id": "second_floor_solar",
+        "name": "2nd Floor Solar",
+        "primary_floor": "second_floor",
+        "floor_display_name": "Second Floor — Guest and Private Level",
+        "function": "Private upper sitting chamber for guests and important residents.",
+        "connections": [
+          "den",
+          "main_guest_quarters",
+          "second_floor_service_corridor"
+        ],
+        "solution_eligible": true,
+        "map_views": [
+          {
+            "id": "second_floor_solar_primary",
+            "area_name": "2nd Floor Solar",
+            "floor": "second_floor",
+            "grid_ranges_inclusive": [
+              [
+                31,
+                37,
+                0,
+                8
+              ]
+            ],
+            "grid_bounds_inclusive": {
+              "min_x": 31,
+              "max_x": 37,
+              "min_y": 0,
+              "max_y": 8,
+              "min_label": "AF1",
+              "max_label": "AL9"
+            }
+          }
+        ]
+      },
+      {
+        "number": 20,
+        "id": "chapel",
+        "name": "Chapel",
+        "primary_floor": "second_floor",
+        "floor_display_name": "Second Floor — Guest and Private Level",
+        "function": "Private chapel with an outer-wall altar and concealed devotional-panel passage.",
+        "connections": [
+          "den",
+          "library_secret_passage",
+          "second_floor_service_corridor"
+        ],
+        "solution_eligible": true,
+        "map_views": [
+          {
+            "id": "chapel_primary",
+            "area_name": "Chapel",
+            "floor": "second_floor",
+            "grid_ranges_inclusive": [
+              [
+                0,
+                13,
+                0,
+                8
+              ]
+            ],
+            "grid_bounds_inclusive": {
+              "min_x": 0,
+              "max_x": 13,
+              "min_y": 0,
+              "max_y": 8,
+              "min_label": "A1",
+              "max_label": "N9"
+            }
+          }
+        ]
+      },
+      {
+        "number": 21,
+        "id": "attic",
+        "name": "Attic",
+        "primary_floor": "attic",
+        "floor_display_name": "Attic and Roof Level",
+        "function": "General roof-level storage above the Hall wings, Library, and private chambers.",
+        "connections": [
+          "attic_service_passage",
+          "roof_access",
+          "game_room_secret_stair"
+        ],
+        "solution_eligible": true,
+        "map_views": [
+          {
+            "id": "attic_primary",
+            "area_name": "Attic",
+            "floor": "attic",
+            "grid_ranges_inclusive": [
+              [
+                0,
+                31,
+                0,
+                31
+              ],
+              [
+                32,
+                47,
+                0,
+                9
+              ],
+              [
+                32,
+                47,
+                26,
+                31
+              ]
+            ],
+            "grid_bounds_inclusive": {
+              "min_x": 0,
+              "max_x": 47,
+              "min_y": 0,
+              "max_y": 31,
+              "min_label": "A1",
+              "max_label": "AV32"
+            }
+          }
+        ]
+      },
+      {
+        "number": 22,
+        "id": "servants_quarters",
+        "name": "Servant’s Quarters",
+        "primary_floor": "attic",
+        "floor_display_name": "Attic and Roof Level",
+        "function": "Separate enclosed sleeping area above the Kitchen and Pantry wing.",
+        "connections": [
+          "attic_service_passage",
+          "servants_staircase"
+        ],
+        "solution_eligible": true,
+        "map_views": [
+          {
+            "id": "servants_quarters_primary",
+            "area_name": "Servant’s Quarters",
+            "floor": "attic",
+            "grid_ranges_inclusive": [
+              [
+                32,
+                47,
+                10,
+                25
+              ]
+            ],
+            "grid_bounds_inclusive": {
+              "min_x": 32,
+              "max_x": 47,
+              "min_y": 10,
+              "max_y": 25,
+              "min_label": "AG11",
+              "max_label": "AV26"
+            }
+          }
+        ]
+      }
+    ],
+    "multi_floor_room_rule": "The Library is one solution room and one Room card. A character standing in either its first-floor lower room or second-floor upper gallery is physically in the Library for theories and accusations.",
+    "excluded_from_room_evidence": [
+      "hallways",
+      "service corridors",
+      "screens passage",
+      "undercroft passage",
+      "landings",
+      "normal stairs",
+      "secret-passage transit cells",
+      "outside"
+    ]
+  },
+  "starter_locations": {
+    "work_together": [
+      {
+        "character_id": "daltu",
+        "character_name": "Daltu",
+        "mode": "work_together",
+        "room_id": "foyer",
+        "cell": {
+          "floor": "first_floor",
+          "x": 21,
+          "y": 28,
+          "label": "V29",
+          "feet": {
+            "x": 105,
+            "y": 140
+          }
+        },
+        "placement_rule": "Clue-style shared starting-room formation: all eight unique tokens stage in two non-overlapping rows inside the Foyer, leaving the center route open."
+      },
+      {
+        "character_id": "noldrack_goldblade",
+        "character_name": "Noldrack Goldblade",
+        "mode": "work_together",
+        "room_id": "foyer",
+        "cell": {
+          "floor": "first_floor",
+          "x": 23,
+          "y": 28,
+          "label": "X29",
+          "feet": {
+            "x": 115,
+            "y": 140
+          }
+        },
+        "placement_rule": "Clue-style shared starting-room formation: all eight unique tokens stage in two non-overlapping rows inside the Foyer, leaving the center route open."
+      },
+      {
+        "character_id": "eilvyre_astath",
+        "character_name": "Eilvyre Astath",
+        "mode": "work_together",
+        "room_id": "foyer",
+        "cell": {
+          "floor": "first_floor",
+          "x": 25,
+          "y": 28,
+          "label": "Z29",
+          "feet": {
+            "x": 125,
+            "y": 140
+          }
+        },
+        "placement_rule": "Clue-style shared starting-room formation: all eight unique tokens stage in two non-overlapping rows inside the Foyer, leaving the center route open."
+      },
+      {
+        "character_id": "korbin_silverdew",
+        "character_name": "Korbin Silverdew",
+        "mode": "work_together",
+        "room_id": "foyer",
+        "cell": {
+          "floor": "first_floor",
+          "x": 27,
+          "y": 28,
+          "label": "AB29",
+          "feet": {
+            "x": 135,
+            "y": 140
+          }
+        },
+        "placement_rule": "Clue-style shared starting-room formation: all eight unique tokens stage in two non-overlapping rows inside the Foyer, leaving the center route open."
+      },
+      {
+        "character_id": "joknos_jock",
+        "character_name": "Joknos",
+        "mode": "work_together",
+        "room_id": "foyer",
+        "cell": {
+          "floor": "first_floor",
+          "x": 21,
+          "y": 30,
+          "label": "V31",
+          "feet": {
+            "x": 105,
+            "y": 150
+          }
+        },
+        "placement_rule": "Clue-style shared starting-room formation: all eight unique tokens stage in two non-overlapping rows inside the Foyer, leaving the center route open."
+      },
+      {
+        "character_id": "githtoxundes_fenwophyl",
+        "character_name": "Githtoxundes Fenwophyl",
+        "mode": "work_together",
+        "room_id": "foyer",
+        "cell": {
+          "floor": "first_floor",
+          "x": 23,
+          "y": 30,
+          "label": "X31",
+          "feet": {
+            "x": 115,
+            "y": 150
+          }
+        },
+        "placement_rule": "Clue-style shared starting-room formation: all eight unique tokens stage in two non-overlapping rows inside the Foyer, leaving the center route open."
+      },
+      {
+        "character_id": "gunnus",
+        "character_name": "Gunnus",
+        "mode": "work_together",
+        "room_id": "foyer",
+        "cell": {
+          "floor": "first_floor",
+          "x": 25,
+          "y": 30,
+          "label": "Z31",
+          "feet": {
+            "x": 125,
+            "y": 150
+          }
+        },
+        "placement_rule": "Clue-style shared starting-room formation: all eight unique tokens stage in two non-overlapping rows inside the Foyer, leaving the center route open."
+      },
+      {
+        "character_id": "monk",
+        "character_name": "Monk",
+        "mode": "work_together",
+        "room_id": "foyer",
+        "cell": {
+          "floor": "first_floor",
+          "x": 27,
+          "y": 30,
+          "label": "AB31",
+          "feet": {
+            "x": 135,
+            "y": 150
+          }
+        },
+        "placement_rule": "Clue-style shared starting-room formation: all eight unique tokens stage in two non-overlapping rows inside the Foyer, leaving the center route open."
+      }
+    ],
+    "free_for_all": [
+      {
+        "character_id": "daltu",
+        "character_name": "Daltu",
+        "mode": "full_pvp",
+        "room_id": "cellar",
+        "cell": {
+          "floor": "cellar",
+          "x": 23,
+          "y": 15,
+          "label": "X16",
+          "feet": {
+            "x": 115,
+            "y": 75
+          }
+        },
+        "placement_rule": "Arena-style fixed spread seed: each character begins in a different approved room, separated across the four floors and away from the Armory."
+      },
+      {
+        "character_id": "noldrack_goldblade",
+        "character_name": "Noldrack Goldblade",
+        "mode": "full_pvp",
+        "room_id": "attic",
+        "cell": {
+          "floor": "attic",
+          "x": 10,
+          "y": 15,
+          "label": "K16",
+          "feet": {
+            "x": 50,
+            "y": 75
+          }
+        },
+        "placement_rule": "Arena-style fixed spread seed: each character begins in a different approved room, separated across the four floors and away from the Armory."
+      },
+      {
+        "character_id": "eilvyre_astath",
+        "character_name": "Eilvyre Astath",
+        "mode": "full_pvp",
+        "room_id": "alchemists_quarters",
+        "cell": {
+          "floor": "first_floor",
+          "x": 10,
+          "y": 4,
+          "label": "K5",
+          "feet": {
+            "x": 50,
+            "y": 20
+          }
+        },
+        "placement_rule": "Arena-style fixed spread seed: each character begins in a different approved room, separated across the four floors and away from the Armory."
+      },
+      {
+        "character_id": "korbin_silverdew",
+        "character_name": "Korbin Silverdew",
+        "mode": "full_pvp",
+        "room_id": "den",
+        "cell": {
+          "floor": "second_floor",
+          "x": 24,
+          "y": 4,
+          "label": "Y5",
+          "feet": {
+            "x": 120,
+            "y": 20
+          }
+        },
+        "placement_rule": "Arena-style fixed spread seed: each character begins in a different approved room, separated across the four floors and away from the Armory."
+      },
+      {
+        "character_id": "joknos_jock",
+        "character_name": "Joknos",
+        "mode": "full_pvp",
+        "room_id": "library",
+        "cell": {
+          "floor": "second_floor",
+          "x": 12,
+          "y": 27,
+          "label": "M28",
+          "feet": {
+            "x": 60,
+            "y": 135
+          }
+        },
+        "placement_rule": "Arena-style fixed spread seed: each character begins in a different approved room, separated across the four floors and away from the Armory.",
+        "room_area": "Upper Gallery"
+      },
+      {
+        "character_id": "githtoxundes_fenwophyl",
+        "character_name": "Githtoxundes Fenwophyl",
+        "mode": "full_pvp",
+        "room_id": "dining_room",
+        "cell": {
+          "floor": "first_floor",
+          "x": 35,
+          "y": 14,
+          "label": "AJ15",
+          "feet": {
+            "x": 175,
+            "y": 70
+          }
+        },
+        "placement_rule": "Arena-style fixed spread seed: each character begins in a different approved room, separated across the four floors and away from the Armory."
+      },
+      {
+        "character_id": "gunnus",
+        "character_name": "Gunnus",
+        "mode": "full_pvp",
+        "room_id": "sitting_room",
+        "cell": {
+          "floor": "first_floor",
+          "x": 11,
+          "y": 26,
+          "label": "L27",
+          "feet": {
+            "x": 55,
+            "y": 130
+          }
+        },
+        "placement_rule": "Arena-style fixed spread seed: each character begins in a different approved room, separated across the four floors and away from the Armory."
+      },
+      {
+        "character_id": "monk",
+        "character_name": "Monk",
+        "mode": "full_pvp",
+        "room_id": "second_floor_solar",
+        "cell": {
+          "floor": "second_floor",
+          "x": 34,
+          "y": 4,
+          "label": "AI5",
+          "feet": {
+            "x": 170,
+            "y": 20
+          }
+        },
+        "placement_rule": "Arena-style fixed spread seed: each character begins in a different approved room, separated across the four floors and away from the Armory."
+      }
+    ],
+    "opening_victim_override": "Remove the selected opening victim from their normal starter cell, place the body on a legal unoccupied cell inside the sealed murder room, and spawn that character in Ghost Mode at the body.",
+    "spawn_safety": "No random trap, active monster, or sealed no-exit lock may make a living starting cell unavoidable or inescapable."
+  },
+  "authored_interactables": {
+    "doors": [
+      {
+        "id": "door_main_entrance",
+        "floor": "first_floor",
+        "cell": {
+          "floor": "first_floor",
+          "x": 24,
+          "y": 31,
+          "label": "Y32",
+          "feet": {
+            "x": 120,
+            "y": 155
+          }
+        },
+        "connects": [
+          "outside",
+          "foyer"
+        ],
+        "orientation": "south",
+        "locked": true,
+        "lock_dc": 18,
+        "trapped": false,
+        "hidden": false,
+        "state_rule": "Unlocked after match opening; relocks during Lockdown sabotage."
+      },
+      {
+        "id": "door_foyer_grand_hall",
+        "floor": "first_floor",
+        "cell": {
+          "floor": "first_floor",
+          "x": 24,
+          "y": 26,
+          "label": "Y27",
+          "feet": {
+            "x": 120,
+            "y": 130
+          }
+        },
+        "connects": [
+          "foyer",
+          "grand_hall"
+        ],
+        "orientation": "north",
+        "locked": false,
+        "trapped": false,
+        "hidden": false
+      },
+      {
+        "id": "door_grand_hall_game_room",
+        "floor": "first_floor",
+        "cell": {
+          "floor": "first_floor",
+          "x": 31,
+          "y": 24,
+          "label": "AF25",
+          "feet": {
+            "x": 155,
+            "y": 120
+          }
+        },
+        "connects": [
+          "grand_hall",
+          "game_room"
+        ],
+        "orientation": "east",
+        "locked": false,
+        "trapped": false,
+        "hidden": false
+      },
+      {
+        "id": "door_grand_hall_dining_room",
+        "floor": "first_floor",
+        "cell": {
+          "floor": "first_floor",
+          "x": 31,
+          "y": 15,
+          "label": "AF16",
+          "feet": {
+            "x": 155,
+            "y": 75
+          }
+        },
+        "connects": [
+          "grand_hall",
+          "dining_room"
+        ],
+        "orientation": "east",
+        "locked": false,
+        "trapped": false,
+        "hidden": false
+      },
+      {
+        "id": "door_dining_kitchen",
+        "floor": "first_floor",
+        "cell": {
+          "floor": "first_floor",
+          "x": 35,
+          "y": 9,
+          "label": "AJ10",
+          "feet": {
+            "x": 175,
+            "y": 45
+          }
+        },
+        "connects": [
+          "dining_room",
+          "kitchen"
+        ],
+        "orientation": "north",
+        "locked": false,
+        "trapped": false,
+        "hidden": false
+      },
+      {
+        "id": "door_kitchen_pantry",
+        "floor": "first_floor",
+        "cell": {
+          "floor": "first_floor",
+          "x": 39,
+          "y": 5,
+          "label": "AN6",
+          "feet": {
+            "x": 195,
+            "y": 25
+          }
+        },
+        "connects": [
+          "kitchen",
+          "pantry"
+        ],
+        "orientation": "east",
+        "locked": false,
+        "trapped": false,
+        "hidden": false
+      },
+      {
+        "id": "door_pantry_cellar_stair",
+        "floor": "first_floor",
+        "cell": {
+          "floor": "first_floor",
+          "x": 43,
+          "y": 5,
+          "label": "AR6",
+          "feet": {
+            "x": 215,
+            "y": 25
+          }
+        },
+        "connects": [
+          "pantry",
+          "cellar_staircase"
+        ],
+        "orientation": "down",
+        "locked": true,
+        "lock_dc": 12,
+        "trapped": true,
+        "trap_ref": "trap-deck-green-slime-trap-card",
+        "hidden": false
+      },
+      {
+        "id": "door_grand_hall_sitting",
+        "floor": "first_floor",
+        "cell": {
+          "floor": "first_floor",
+          "x": 15,
+          "y": 24,
+          "label": "P25",
+          "feet": {
+            "x": 75,
+            "y": 120
+          }
+        },
+        "connects": [
+          "grand_hall",
+          "sitting_room"
+        ],
+        "orientation": "west",
+        "locked": false,
+        "trapped": false,
+        "hidden": false
+      },
+      {
+        "id": "door_sitting_music",
+        "floor": "first_floor",
+        "cell": {
+          "floor": "first_floor",
+          "x": 7,
+          "y": 21,
+          "label": "H22",
+          "feet": {
+            "x": 35,
+            "y": 105
+          }
+        },
+        "connects": [
+          "sitting_room",
+          "music_room"
+        ],
+        "orientation": "west",
+        "locked": false,
+        "trapped": false,
+        "hidden": false
+      },
+      {
+        "id": "door_music_privy",
+        "floor": "first_floor",
+        "cell": {
+          "floor": "first_floor",
+          "x": 2,
+          "y": 17,
+          "label": "C18",
+          "feet": {
+            "x": 10,
+            "y": 85
+          }
+        },
+        "connects": [
+          "music_room",
+          "privy"
+        ],
+        "orientation": "north",
+        "locked": false,
+        "trapped": false,
+        "hidden": false
+      },
+      {
+        "id": "door_grand_hall_library",
+        "floor": "first_floor",
+        "cell": {
+          "floor": "first_floor",
+          "x": 16,
+          "y": 15,
+          "label": "Q16",
+          "feet": {
+            "x": 80,
+            "y": 75
+          }
+        },
+        "connects": [
+          "grand_hall",
+          "library"
+        ],
+        "orientation": "west",
+        "locked": false,
+        "trapped": false,
+        "hidden": false
+      },
+      {
+        "id": "door_library_solar",
+        "floor": "first_floor",
+        "cell": {
+          "floor": "first_floor",
+          "x": 8,
+          "y": 9,
+          "label": "I10",
+          "feet": {
+            "x": 40,
+            "y": 45
+          }
+        },
+        "connects": [
+          "library",
+          "first_floor_solar"
+        ],
+        "orientation": "northwest",
+        "locked": true,
+        "lock_dc": 13,
+        "trapped": false,
+        "hidden": false
+      },
+      {
+        "id": "door_solar_alchemist_quarters",
+        "floor": "first_floor",
+        "cell": {
+          "floor": "first_floor",
+          "x": 7,
+          "y": 4,
+          "label": "H5",
+          "feet": {
+            "x": 35,
+            "y": 20
+          }
+        },
+        "connects": [
+          "first_floor_solar",
+          "alchemists_quarters"
+        ],
+        "orientation": "east",
+        "locked": true,
+        "lock_dc": 14,
+        "trapped": false,
+        "hidden": false
+      },
+      {
+        "id": "door_quarters_study",
+        "floor": "first_floor",
+        "cell": {
+          "floor": "first_floor",
+          "x": 12,
+          "y": 4,
+          "label": "M5",
+          "feet": {
+            "x": 60,
+            "y": 20
+          }
+        },
+        "connects": [
+          "alchemists_quarters",
+          "alchemists_study"
+        ],
+        "orientation": "east",
+        "locked": true,
+        "lock_dc": 15,
+        "trapped": true,
+        "trap_ref": "trap-deck-poison-darts-trap-card",
+        "hidden": false
+      },
+      {
+        "id": "door_study_armory",
+        "floor": "first_floor",
+        "cell": {
+          "floor": "first_floor",
+          "x": 20,
+          "y": 4,
+          "label": "U5",
+          "feet": {
+            "x": 100,
+            "y": 20
+          }
+        },
+        "connects": [
+          "alchemists_study",
+          "armory"
+        ],
+        "orientation": "east",
+        "locked": true,
+        "lock_dc": 16,
+        "trapped": false,
+        "hidden": false
+      },
+      {
+        "id": "door_armory_reinforced",
+        "floor": "first_floor",
+        "cell": {
+          "floor": "first_floor",
+          "x": 25,
+          "y": 8,
+          "label": "Z9",
+          "feet": {
+            "x": 125,
+            "y": 40
+          }
+        },
+        "connects": [
+          "armory",
+          "rear_service_corridor"
+        ],
+        "orientation": "south",
+        "locked": true,
+        "lock_dc": 17,
+        "trapped": true,
+        "trap_ref": "trap-deck-poison-spiked-pit-trap-card",
+        "hidden": false
+      },
+      {
+        "id": "door_secondary_guest",
+        "floor": "second_floor",
+        "cell": {
+          "floor": "second_floor",
+          "x": 7,
+          "y": 15,
+          "label": "H16",
+          "feet": {
+            "x": 35,
+            "y": 75
+          }
+        },
+        "connects": [
+          "secondary_guest_quarters",
+          "left_upper_corridor"
+        ],
+        "orientation": "east",
+        "locked": true,
+        "lock_dc": 12,
+        "trapped": false,
+        "hidden": false,
+        "state_rule": "May be locked from inside."
+      },
+      {
+        "id": "door_main_guest",
+        "floor": "second_floor",
+        "cell": {
+          "floor": "second_floor",
+          "x": 38,
+          "y": 15,
+          "label": "AM16",
+          "feet": {
+            "x": 190,
+            "y": 75
+          }
+        },
+        "connects": [
+          "main_guest_quarters",
+          "right_upper_corridor"
+        ],
+        "orientation": "west",
+        "locked": true,
+        "lock_dc": 12,
+        "trapped": false,
+        "hidden": false,
+        "state_rule": "May be locked from inside."
+      },
+      {
+        "id": "door_landing_den",
+        "floor": "second_floor",
+        "cell": {
+          "floor": "second_floor",
+          "x": 24,
+          "y": 9,
+          "label": "Y10",
+          "feet": {
+            "x": 120,
+            "y": 45
+          }
+        },
+        "connects": [
+          "central_landing",
+          "den"
+        ],
+        "orientation": "north",
+        "locked": false,
+        "trapped": false,
+        "hidden": false
+      },
+      {
+        "id": "door_den_chapel",
+        "floor": "second_floor",
+        "cell": {
+          "floor": "second_floor",
+          "x": 19,
+          "y": 4,
+          "label": "T5",
+          "feet": {
+            "x": 95,
+            "y": 20
+          }
+        },
+        "connects": [
+          "den",
+          "chapel"
+        ],
+        "orientation": "west",
+        "locked": false,
+        "trapped": false,
+        "hidden": false
+      },
+      {
+        "id": "door_den_solar2",
+        "floor": "second_floor",
+        "cell": {
+          "floor": "second_floor",
+          "x": 28,
+          "y": 4,
+          "label": "AC5",
+          "feet": {
+            "x": 140,
+            "y": 20
+          }
+        },
+        "connects": [
+          "den",
+          "second_floor_solar"
+        ],
+        "orientation": "east",
+        "locked": true,
+        "lock_dc": 13,
+        "trapped": false,
+        "hidden": false
+      },
+      {
+        "id": "door_library_upper",
+        "floor": "second_floor",
+        "cell": {
+          "floor": "second_floor",
+          "x": 15,
+          "y": 21,
+          "label": "P22",
+          "feet": {
+            "x": 75,
+            "y": 105
+          }
+        },
+        "connects": [
+          "library",
+          "left_upper_corridor"
+        ],
+        "orientation": "north",
+        "locked": false,
+        "trapped": false,
+        "hidden": false
+      },
+      {
+        "id": "door_attic_servants",
+        "floor": "attic",
+        "cell": {
+          "floor": "attic",
+          "x": 32,
+          "y": 17,
+          "label": "AG18",
+          "feet": {
+            "x": 160,
+            "y": 85
+          }
+        },
+        "connects": [
+          "attic_service_passage",
+          "servants_quarters"
+        ],
+        "orientation": "east",
+        "locked": false,
+        "trapped": false,
+        "hidden": false
+      },
+      {
+        "id": "door_roof_access",
+        "floor": "attic",
+        "cell": {
+          "floor": "attic",
+          "x": 39,
+          "y": 1,
+          "label": "AN2",
+          "feet": {
+            "x": 195,
+            "y": 5
+          }
+        },
+        "connects": [
+          "attic",
+          "roof_access"
+        ],
+        "orientation": "up",
+        "locked": true,
+        "lock_dc": 14,
+        "trapped": false,
+        "hidden": false
+      }
+    ],
+    "normal_stairs": [
+      {
+        "id": "stair_pantry_cellar",
+        "type": "normal_stair",
+        "two_way": true,
+        "from": {
+          "floor": "first_floor",
+          "x": 43,
+          "y": 5,
+          "label": "AR6",
+          "feet": {
+            "x": 215,
+            "y": 25
+          }
+        },
+        "to": {
+          "floor": "cellar",
+          "x": 39,
+          "y": 4,
+          "label": "AN5",
+          "feet": {
+            "x": 195,
+            "y": 20
+          }
+        },
+        "connects": [
+          "pantry",
+          "undercroft_passage"
+        ],
+        "movement_cost": 2
+      },
+      {
+        "id": "grand_stair_right",
+        "type": "grand_stair",
+        "two_way": true,
+        "from": {
+          "floor": "first_floor",
+          "x": 27,
+          "y": 22,
+          "label": "AB23",
+          "feet": {
+            "x": 135,
+            "y": 110
+          }
+        },
+        "to": {
+          "floor": "second_floor",
+          "x": 29,
+          "y": 12,
+          "label": "AD13",
+          "feet": {
+            "x": 145,
+            "y": 60
+          }
+        },
+        "connects": [
+          "grand_hall",
+          "right_upper_corridor"
+        ],
+        "movement_cost": 3
+      },
+      {
+        "id": "grand_stair_left",
+        "type": "grand_stair",
+        "two_way": true,
+        "from": {
+          "floor": "first_floor",
+          "x": 21,
+          "y": 22,
+          "label": "V23",
+          "feet": {
+            "x": 105,
+            "y": 110
+          }
+        },
+        "to": {
+          "floor": "second_floor",
+          "x": 19,
+          "y": 12,
+          "label": "T13",
+          "feet": {
+            "x": 95,
+            "y": 60
+          }
+        },
+        "connects": [
+          "grand_hall",
+          "left_upper_corridor"
+        ],
+        "movement_cost": 3
+      },
+      {
+        "id": "library_spiral_stair",
+        "type": "spiral_stair",
+        "two_way": true,
+        "from": {
+          "floor": "first_floor",
+          "x": 12,
+          "y": 15,
+          "label": "M16",
+          "feet": {
+            "x": 60,
+            "y": 75
+          }
+        },
+        "to": {
+          "floor": "second_floor",
+          "x": 12,
+          "y": 25,
+          "label": "M26",
+          "feet": {
+            "x": 60,
+            "y": 125
+          }
+        },
+        "connects": [
+          "library",
+          "library"
+        ],
+        "movement_cost": 2
+      },
+      {
+        "id": "servants_stair_first_second",
+        "type": "service_stair",
+        "two_way": true,
+        "from": {
+          "floor": "first_floor",
+          "x": 40,
+          "y": 5,
+          "label": "AO6",
+          "feet": {
+            "x": 200,
+            "y": 25
+          }
+        },
+        "to": {
+          "floor": "second_floor",
+          "x": 40,
+          "y": 5,
+          "label": "AO6",
+          "feet": {
+            "x": 200,
+            "y": 25
+          }
+        },
+        "connects": [
+          "kitchen",
+          "second_floor_service_corridor"
+        ],
+        "movement_cost": 2
+      },
+      {
+        "id": "servants_stair_second_attic",
+        "type": "service_stair",
+        "two_way": true,
+        "from": {
+          "floor": "second_floor",
+          "x": 40,
+          "y": 5,
+          "label": "AO6",
+          "feet": {
+            "x": 200,
+            "y": 25
+          }
+        },
+        "to": {
+          "floor": "attic",
+          "x": 39,
+          "y": 5,
+          "label": "AN6",
+          "feet": {
+            "x": 195,
+            "y": 25
+          }
+        },
+        "connects": [
+          "second_floor_service_corridor",
+          "attic_service_passage"
+        ],
+        "movement_cost": 2
+      }
+    ],
+    "secret_passages": [
+      {
+        "id": "secret_den_cellar",
+        "route": "Den ↔ Cellar",
+        "two_way": true,
+        "entry": {
+          "floor": "second_floor",
+          "x": 23,
+          "y": 2,
+          "label": "X3",
+          "feet": {
+            "x": 115,
+            "y": 10
+          }
+        },
+        "exit": {
+          "floor": "cellar",
+          "x": 25,
+          "y": 28,
+          "label": "Z29",
+          "feet": {
+            "x": 125,
+            "y": 140
+          }
+        },
+        "connects": [
+          "den",
+          "undercroft_passage"
+        ],
+        "concealment": "Fireplace surround or carved central wall panel",
+        "discovery_dc": 15,
+        "locked": false,
+        "trapped": false,
+        "known_to_killer": true,
+        "movement_ends_turn": true
+      },
+      {
+        "id": "secret_alchemist_cellar",
+        "route": "Alchemist’s Quarters ↔ Cellar",
+        "two_way": true,
+        "entry": {
+          "floor": "first_floor",
+          "x": 10,
+          "y": 2,
+          "label": "K3",
+          "feet": {
+            "x": 50,
+            "y": 10
+          }
+        },
+        "exit": {
+          "floor": "cellar",
+          "x": 10,
+          "y": 4,
+          "label": "K5",
+          "feet": {
+            "x": 50,
+            "y": 20
+          }
+        },
+        "connects": [
+          "alchemists_quarters",
+          "undercroft_passage"
+        ],
+        "concealment": "False back inside wardrobe",
+        "discovery_dc": 14,
+        "locked": true,
+        "lock_dc": 15,
+        "trapped": false,
+        "known_to_killer": true,
+        "movement_ends_turn": true
+      },
+      {
+        "id": "secret_armory_cellar",
+        "route": "Armory ↔ Cellar",
+        "two_way": true,
+        "entry": {
+          "floor": "first_floor",
+          "x": 26,
+          "y": 2,
+          "label": "AA3",
+          "feet": {
+            "x": 130,
+            "y": 10
+          }
+        },
+        "exit": {
+          "floor": "cellar",
+          "x": 40,
+          "y": 27,
+          "label": "AO28",
+          "feet": {
+            "x": 200,
+            "y": 135
+          }
+        },
+        "connects": [
+          "armory",
+          "undercroft_passage"
+        ],
+        "concealment": "Pivoting weapon rack",
+        "discovery_dc": 16,
+        "locked": true,
+        "lock_dc": 16,
+        "trapped": true,
+        "trap_ref": "trap-deck-poison-spiked-pit-trap-card",
+        "known_to_killer": true,
+        "movement_ends_turn": true
+      },
+      {
+        "id": "secret_library_chapel",
+        "route": "Library Upper Gallery ↔ Chapel",
+        "two_way": true,
+        "entry": {
+          "floor": "second_floor",
+          "x": 10,
+          "y": 23,
+          "label": "K24",
+          "feet": {
+            "x": 50,
+            "y": 115
+          }
+        },
+        "exit": {
+          "floor": "second_floor",
+          "x": 10,
+          "y": 4,
+          "label": "K5",
+          "feet": {
+            "x": 50,
+            "y": 20
+          }
+        },
+        "connects": [
+          "library",
+          "chapel"
+        ],
+        "concealment": "Rotating bookcase to mural-wall passage; devotional panel exit",
+        "discovery_dc": 16,
+        "locked": false,
+        "trapped": true,
+        "trap_ref": "trap-deck-falling-net-trap-card",
+        "known_to_killer": false,
+        "movement_ends_turn": true
+      },
+      {
+        "id": "secret_main_guest_solar1",
+        "route": "Main Guest Quarters ↔ 1st Floor Solar",
+        "two_way": true,
+        "entry": {
+          "floor": "second_floor",
+          "x": 44,
+          "y": 17,
+          "label": "AS18",
+          "feet": {
+            "x": 220,
+            "y": 85
+          }
+        },
+        "exit": {
+          "floor": "first_floor",
+          "x": 4,
+          "y": 4,
+          "label": "E5",
+          "feet": {
+            "x": 20,
+            "y": 20
+          }
+        },
+        "connects": [
+          "main_guest_quarters",
+          "first_floor_solar"
+        ],
+        "concealment": "Guest fireplace/bed alcove conceals spiral stair",
+        "discovery_dc": 15,
+        "locked": false,
+        "trapped": false,
+        "known_to_killer": true,
+        "movement_ends_turn": true
+      },
+      {
+        "id": "secret_secondary_guest_music",
+        "route": "Secondary Guest Quarters ↔ Music Room",
+        "two_way": true,
+        "entry": {
+          "floor": "second_floor",
+          "x": 3,
+          "y": 17,
+          "label": "D18",
+          "feet": {
+            "x": 15,
+            "y": 85
+          }
+        },
+        "exit": {
+          "floor": "first_floor",
+          "x": 4,
+          "y": 20,
+          "label": "E21",
+          "feet": {
+            "x": 20,
+            "y": 100
+          }
+        },
+        "connects": [
+          "secondary_guest_quarters",
+          "music_room"
+        ],
+        "concealment": "Tapestry/window-seat latch; instrument cabinet exit",
+        "discovery_dc": 14,
+        "locked": false,
+        "trapped": false,
+        "known_to_killer": true,
+        "movement_ends_turn": true
+      },
+      {
+        "id": "secret_game_attic",
+        "route": "Game Room ↔ Attic",
+        "two_way": true,
+        "entry": {
+          "floor": "first_floor",
+          "x": 36,
+          "y": 27,
+          "label": "AK28",
+          "feet": {
+            "x": 180,
+            "y": 135
+          }
+        },
+        "exit": {
+          "floor": "attic",
+          "x": 17,
+          "y": 19,
+          "label": "R20",
+          "feet": {
+            "x": 85,
+            "y": 95
+          }
+        },
+        "connects": [
+          "game_room",
+          "attic"
+        ],
+        "concealment": "Gaming cabinet/trophy case to old corner-tower guard stair; storage-chest exit",
+        "discovery_dc": 17,
+        "locked": true,
+        "lock_dc": 14,
+        "trapped": true,
+        "trap_ref": "trap-deck-collapsing-roof-trap-card",
+        "known_to_killer": false,
+        "movement_ends_turn": true
+      }
+    ],
+    "traps": [
+      {
+        "id": "trap_cellar_acid_pit",
+        "card_ref": "trap-deck-acid-pit-trap-card",
+        "floor": "cellar",
+        "cell": {
+          "floor": "cellar",
+          "x": 34,
+          "y": 21,
+          "label": "AI22",
+          "feet": {
+            "x": 170,
+            "y": 105
+          }
+        },
+        "room_id": "cellar",
+        "hidden": true,
+        "notice_dc": 15,
+        "disable_dc": 15,
+        "trigger": "enter_cell"
+      },
+      {
+        "id": "trap_pantry_green_slime",
+        "card_ref": "trap-deck-green-slime-trap-card",
+        "floor": "first_floor",
+        "cell": {
+          "floor": "first_floor",
+          "x": 43,
+          "y": 5,
+          "label": "AR6",
+          "feet": {
+            "x": 215,
+            "y": 25
+          }
+        },
+        "room_id": "pantry",
+        "hidden": true,
+        "notice_dc": 13,
+        "disable_dc": 14,
+        "trigger": "open_cellar_stair_door"
+      },
+      {
+        "id": "trap_study_poison_darts",
+        "card_ref": "trap-deck-poison-darts-trap-card",
+        "floor": "first_floor",
+        "cell": {
+          "floor": "first_floor",
+          "x": 12,
+          "y": 4,
+          "label": "M5",
+          "feet": {
+            "x": 60,
+            "y": 20
+          }
+        },
+        "room_id": "alchemists_study",
+        "hidden": true,
+        "notice_dc": 14,
+        "disable_dc": 15,
+        "trigger": "open_locked_door"
+      },
+      {
+        "id": "trap_game_locking_pit",
+        "card_ref": "trap-deck-locking-pit-trap-card",
+        "floor": "first_floor",
+        "cell": {
+          "floor": "first_floor",
+          "x": 34,
+          "y": 28,
+          "label": "AI29",
+          "feet": {
+            "x": 170,
+            "y": 140
+          }
+        },
+        "room_id": "game_room",
+        "hidden": true,
+        "notice_dc": 15,
+        "disable_dc": 15,
+        "trigger": "open_trapped_chest"
+      },
+      {
+        "id": "trap_armory_poison_spikes",
+        "card_ref": "trap-deck-poison-spiked-pit-trap-card",
+        "floor": "first_floor",
+        "cell": {
+          "floor": "first_floor",
+          "x": 26,
+          "y": 2,
+          "label": "AA3",
+          "feet": {
+            "x": 130,
+            "y": 10
+          }
+        },
+        "room_id": "armory",
+        "hidden": true,
+        "notice_dc": 16,
+        "disable_dc": 16,
+        "trigger": "use_secret_passage"
+      },
+      {
+        "id": "trap_library_falling_net",
+        "card_ref": "trap-deck-falling-net-trap-card",
+        "floor": "second_floor",
+        "cell": {
+          "floor": "second_floor",
+          "x": 10,
+          "y": 23,
+          "label": "K24",
+          "feet": {
+            "x": 50,
+            "y": 115
+          }
+        },
+        "room_id": "library",
+        "hidden": true,
+        "notice_dc": 14,
+        "disable_dc": 14,
+        "trigger": "rotate_bookcase"
+      },
+      {
+        "id": "trap_attic_collapsing_roof",
+        "card_ref": "trap-deck-collapsing-roof-trap-card",
+        "floor": "attic",
+        "cell": {
+          "floor": "attic",
+          "x": 17,
+          "y": 19,
+          "label": "R20",
+          "feet": {
+            "x": 85,
+            "y": 95
+          }
+        },
+        "room_id": "attic",
+        "hidden": true,
+        "notice_dc": 16,
+        "disable_dc": 15,
+        "trigger": "use_secret_passage"
+      }
+    ],
+    "containers": [
+      {
+        "id": "cellar_caged_iron_chest",
+        "kind": "large_iron_chest",
+        "card_ref": "treasure-deck-large-iron-chest-treasure-card",
+        "floor": "cellar",
+        "room_id": "cellar",
+        "cell": {
+          "floor": "cellar",
+          "x": 36,
+          "y": 18,
+          "label": "AK19",
+          "feet": {
+            "x": 180,
+            "y": 90
+          }
+        },
+        "locked": true,
+        "lock_dc": 16,
+        "trapped": false,
+        "hidden": false,
+        "contents": [
+          "treasure-deck-golden-pearl-treasure-card",
+          "treasure-deck-azurite-treasure-card",
+          "treasure-deck-potion-of-healing-greater-treasure-card"
+        ]
+      },
+      {
+        "id": "cellar_trapped_wood_chest",
+        "kind": "trapped_large_wooden_chest",
+        "card_ref": "treasure-deck-trapped-large-wooden-chest-treasure-card",
+        "floor": "cellar",
+        "room_id": "cellar",
+        "cell": {
+          "floor": "cellar",
+          "x": 34,
+          "y": 21,
+          "label": "AI22",
+          "feet": {
+            "x": 170,
+            "y": 105
+          }
+        },
+        "locked": true,
+        "lock_dc": 15,
+        "trapped": true,
+        "trap_ref": "trap-deck-acid-pit-trap-card",
+        "hidden": false,
+        "contents": [
+          "treasure-deck-wand-of-web-treasure-card",
+          "treasure-deck-turquoise-treasure-card"
+        ]
+      },
+      {
+        "id": "library_locked_chest",
+        "kind": "locked_medium_wooden_chest",
+        "card_ref": "treasure-deck-locked-medium-wooden-chest-treasure-card",
+        "floor": "first_floor",
+        "room_id": "library",
+        "cell": {
+          "floor": "first_floor",
+          "x": 13,
+          "y": 17,
+          "label": "N18",
+          "feet": {
+            "x": 65,
+            "y": 85
+          }
+        },
+        "locked": true,
+        "lock_dc": 14,
+        "trapped": false,
+        "hidden": true,
+        "contents": [
+          "treasure-deck-spell-scroll-invisibility-treasure-card",
+          "treasure-deck-wand-of-magic-missiles-treasure-card"
+        ]
+      },
+      {
+        "id": "game_room_ornate_chest",
+        "kind": "trapped_small_ornate_chest",
+        "card_ref": "treasure-deck-trapped-small-ornate-chest-treasure-card",
+        "floor": "first_floor",
+        "room_id": "game_room",
+        "cell": {
+          "floor": "first_floor",
+          "x": 34,
+          "y": 28,
+          "label": "AI29",
+          "feet": {
+            "x": 170,
+            "y": 140
+          }
+        },
+        "locked": true,
+        "lock_dc": 15,
+        "trapped": true,
+        "trap_ref": "trap-deck-locking-pit-trap-card",
+        "hidden": false,
+        "contents": [
+          "treasure-deck-ring-of-invisibility-treasure-card",
+          "treasure-deck-zircon-treasure-card"
+        ]
+      },
+      {
+        "id": "main_guest_iron_chest",
+        "kind": "medium_iron_chest",
+        "card_ref": "treasure-deck-medium-iron-chest-treasure-card",
+        "floor": "second_floor",
+        "room_id": "main_guest_quarters",
+        "cell": {
+          "floor": "second_floor",
+          "x": 45,
+          "y": 18,
+          "label": "AT19",
+          "feet": {
+            "x": 225,
+            "y": 90
+          }
+        },
+        "locked": true,
+        "lock_dc": 13,
+        "trapped": false,
+        "hidden": false,
+        "contents": [
+          "treasure-deck-cloth-cloak-trimmed-with-fur-treasure-card",
+          "treasure-deck-silver-pearl-treasure-card",
+          "treasure-deck-potion-of-speed-treasure-card"
+        ]
+      },
+      {
+        "id": "secondary_guest_wood_chest",
+        "kind": "small_wooden_chest",
+        "card_ref": "treasure-deck-small-wooden-chest-treasure-card",
+        "floor": "second_floor",
+        "room_id": "secondary_guest_quarters",
+        "cell": {
+          "floor": "second_floor",
+          "x": 2,
+          "y": 19,
+          "label": "C20",
+          "feet": {
+            "x": 10,
+            "y": 95
+          }
+        },
+        "locked": false,
+        "trapped": false,
+        "hidden": false,
+        "contents": [
+          "treasure-deck-sturdy-leather-boots-treasure-card",
+          "treasure-deck-goggles-of-night-treasure-card"
+        ]
+      },
+      {
+        "id": "attic_old_guard_chest",
+        "kind": "locked_medium_wooden_chest",
+        "card_ref": "treasure-deck-locked-medium-wooden-chest-treasure-card",
+        "floor": "attic",
+        "room_id": "attic",
+        "cell": {
+          "floor": "attic",
+          "x": 17,
+          "y": 19,
+          "label": "R20",
+          "feet": {
+            "x": 85,
+            "y": 95
+          }
+        },
+        "locked": true,
+        "lock_dc": 14,
+        "trapped": true,
+        "trap_ref": "trap-deck-collapsing-roof-trap-card",
+        "hidden": true,
+        "contents": [
+          "gameplay-deck-rapier-weapon-card",
+          "treasure-deck-potion-of-healing-treasure-card",
+          "treasure-deck-azurite-treasure-card"
+        ]
+      }
+    ],
+    "item_placements": [
+      {
+        "id": "armory_weapon_rack_1",
+        "floor": "first_floor",
+        "room_id": "armory",
+        "cell": {
+          "floor": "first_floor",
+          "x": 24,
+          "y": 3,
+          "label": "Y4",
+          "feet": {
+            "x": 120,
+            "y": 15
+          }
+        },
+        "kind": "weapon_rack",
+        "available": [
+          "gameplay-deck-mace-weapon-card",
+          "gameplay-deck-battleaxe-weapon-card",
+          "gameplay-deck-rapier-weapon-card"
+        ]
+      },
+      {
+        "id": "armory_weapon_rack_2",
+        "floor": "first_floor",
+        "room_id": "armory",
+        "cell": {
+          "floor": "first_floor",
+          "x": 28,
+          "y": 5,
+          "label": "AC6",
+          "feet": {
+            "x": 140,
+            "y": 25
+          }
+        },
+        "kind": "weapon_rack",
+        "available": [
+          "gameplay-deck-dagger-weapon-card",
+          "gameplay-deck-quarterstaff-weapon-card",
+          "gameplay-deck-arrows-20-gameplay-card"
+        ]
+      },
+      {
+        "id": "study_reagent_cabinet",
+        "floor": "first_floor",
+        "room_id": "alchemists_study",
+        "cell": {
+          "floor": "first_floor",
+          "x": 17,
+          "y": 3,
+          "label": "R4",
+          "feet": {
+            "x": 85,
+            "y": 15
+          }
+        },
+        "kind": "alchemical_cabinet",
+        "locked": true,
+        "lock_dc": 14,
+        "available": [
+          "gameplay-deck-basic-poison-item-card",
+          "treasure-deck-potion-of-healing-treasure-card",
+          "treasure-deck-potion-of-healing-greater-treasure-card"
+        ]
+      },
+      {
+        "id": "library_arcane_case",
+        "floor": "first_floor",
+        "room_id": "library",
+        "cell": {
+          "floor": "first_floor",
+          "x": 10,
+          "y": 13,
+          "label": "K14",
+          "feet": {
+            "x": 50,
+            "y": 65
+          }
+        },
+        "kind": "display_case",
+        "locked": true,
+        "lock_dc": 15,
+        "available": [
+          "gameplay-deck-wand-gameplay-card",
+          "treasure-deck-wand-of-magic-missiles-treasure-card"
+        ]
+      },
+      {
+        "id": "kitchen_utility_blades",
+        "floor": "first_floor",
+        "room_id": "kitchen",
+        "cell": {
+          "floor": "first_floor",
+          "x": 35,
+          "y": 5,
+          "label": "AJ6",
+          "feet": {
+            "x": 175,
+            "y": 25
+          }
+        },
+        "kind": "improvised_weapon_source",
+        "available": [
+          "gameplay-deck-dagger-weapon-card"
+        ]
+      },
+      {
+        "id": "chapel_reliquary",
+        "floor": "second_floor",
+        "room_id": "chapel",
+        "cell": {
+          "floor": "second_floor",
+          "x": 4,
+          "y": 3,
+          "label": "E4",
+          "feet": {
+            "x": 20,
+            "y": 15
+          }
+        },
+        "kind": "reliquary",
+        "locked": true,
+        "lock_dc": 13,
+        "available": [
+          "treasure-deck-potion-of-healing-treasure-card",
+          "treasure-deck-silver-pearl-treasure-card"
+        ]
+      }
+    ],
+    "monster_spawns": [
+      {
+        "id": "monster_cellar_giant_spider",
+        "card_ref": "monsters-deck-giant-spider-monster-card",
+        "floor": "cellar",
+        "room_id": "cellar",
+        "cell": {
+          "floor": "cellar",
+          "x": 18,
+          "y": 13,
+          "label": "S14",
+          "feet": {
+            "x": 90,
+            "y": 65
+          }
+        },
+        "hidden": true,
+        "hiding_place": "Behind stacked wine barrels",
+        "trigger": "search_or_enter_adjacent"
+      },
+      {
+        "id": "monster_cellar_fire_ant_swarm",
+        "card_ref": "monsters-deck-swarm-of-insects-monster-card",
+        "floor": "cellar",
+        "room_id": "cellar",
+        "cell": {
+          "floor": "cellar",
+          "x": 31,
+          "y": 20,
+          "label": "AF21",
+          "feet": {
+            "x": 155,
+            "y": 100
+          }
+        },
+        "hidden": true,
+        "hiding_place": "Root-storage bins",
+        "trigger": "open_bin"
+      },
+      {
+        "id": "monster_pantry_zombie",
+        "card_ref": "monsters-deck-zombie-monster-card",
+        "floor": "first_floor",
+        "room_id": "pantry",
+        "cell": {
+          "floor": "first_floor",
+          "x": 44,
+          "y": 14,
+          "label": "AS15",
+          "feet": {
+            "x": 220,
+            "y": 70
+          }
+        },
+        "hidden": true,
+        "hiding_place": "Locked provision closet",
+        "trigger": "open_closet"
+      },
+      {
+        "id": "monster_library_spider",
+        "card_ref": "monsters-deck-spider-monster-card",
+        "floor": "first_floor",
+        "room_id": "library",
+        "cell": {
+          "floor": "first_floor",
+          "x": 11,
+          "y": 12,
+          "label": "L13",
+          "feet": {
+            "x": 55,
+            "y": 60
+          }
+        },
+        "hidden": true,
+        "hiding_place": "Upper shelves and spiral stair underside",
+        "trigger": "search_bookshelf"
+      },
+      {
+        "id": "monster_armory_skeleton",
+        "card_ref": "monsters-deck-skeleton-monster-card",
+        "floor": "first_floor",
+        "room_id": "armory",
+        "cell": {
+          "floor": "first_floor",
+          "x": 27,
+          "y": 6,
+          "label": "AB7",
+          "feet": {
+            "x": 135,
+            "y": 30
+          }
+        },
+        "hidden": true,
+        "hiding_place": "Appears to be a display skeleton in armor",
+        "trigger": "take_weapon"
+      },
+      {
+        "id": "monster_main_guest_wolf_spider",
+        "card_ref": "monsters-deck-giant-wolf-spider-monster-card",
+        "floor": "second_floor",
+        "room_id": "main_guest_quarters",
+        "cell": {
+          "floor": "second_floor",
+          "x": 43,
+          "y": 13,
+          "label": "AR14",
+          "feet": {
+            "x": 215,
+            "y": 65
+          }
+        },
+        "hidden": true,
+        "hiding_place": "Under the guest bed",
+        "trigger": "search_bed"
+      },
+      {
+        "id": "monster_chapel_skeleton",
+        "card_ref": "monsters-deck-skeleton-monster-card",
+        "floor": "second_floor",
+        "room_id": "chapel",
+        "cell": {
+          "floor": "second_floor",
+          "x": 9,
+          "y": 6,
+          "label": "J7",
+          "feet": {
+            "x": 45,
+            "y": 30
+          }
+        },
+        "hidden": true,
+        "hiding_place": "Sealed devotional screen",
+        "trigger": "disturb_reliquary"
+      },
+      {
+        "id": "monster_attic_giant_spider",
+        "card_ref": "monsters-deck-giant-spider-monster-card-2",
+        "floor": "attic",
+        "room_id": "attic",
+        "cell": {
+          "floor": "attic",
+          "x": 13,
+          "y": 14,
+          "label": "N15",
+          "feet": {
+            "x": 65,
+            "y": 70
+          }
+        },
+        "hidden": true,
+        "hiding_place": "Rafters above stacked crates",
+        "trigger": "enter_web_zone"
+      },
+      {
+        "id": "monster_servants_horsefly_swarm",
+        "card_ref": "monsters-deck-swarm-of-insects-monster-card-2",
+        "floor": "attic",
+        "room_id": "servants_quarters",
+        "cell": {
+          "floor": "attic",
+          "x": 42,
+          "y": 22,
+          "label": "AQ23",
+          "feet": {
+            "x": 210,
+            "y": 110
+          }
+        },
+        "hidden": true,
+        "hiding_place": "Abandoned mattress and wash basin",
+        "trigger": "search_bed"
+      }
+    ]
+  },
+  "automatic_lock_policy": {
+    "always_locked_areas": [
+      "Main Guest Quarters",
+      "Secondary Guest Quarters",
+      "Alchemist’s Quarters",
+      "Alchemist’s Study"
+    ],
+    "required_door_ids": [
+      "door_main_guest",
+      "door_secondary_guest",
+      "door_solar_alchemist_quarters",
+      "door_quarters_study"
+    ],
+    "map_lock_dcs_authoritative": true,
+    "other_authored_locks": "All additional locked doors, chests, cases, stairs, and secret passages in the attached map remain locked at setup with their authored DCs.",
+    "random_hidden_traps_per_match": 2,
+    "randomization": "Arm one otherwise untrapped eligible guest/alchemist locked door and one otherwise untrapped secret passage with facedown Trap cards. Never trap the only safe exit from a living spawn."
+  },
+  "automatic_monster_policy": {
+    "instantiate_at_setup": true,
+    "authored_spawn_count": 9,
+    "initial_state": "Hidden and dormant at each authored cell until its trigger, discovery, noise, killer action, or ghost influence activates it.",
+    "hp_ui": "Every monster has server-authoritative current HP and maximum HP. Reveal its HP bar when the monster is discovered or enters combat.",
+    "zero_hp": "A normal monster dies at 0 HP and does not make death saves unless its card explicitly has an elite/downed exception."
+  }
+}

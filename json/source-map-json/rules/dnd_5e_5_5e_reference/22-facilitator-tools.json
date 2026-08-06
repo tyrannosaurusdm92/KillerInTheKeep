@@ -1,0 +1,83 @@
+{
+  "schema_version": "4.0.0",
+  "document_type": "killer_host_and_ai_director_tools",
+  "system": "Killer In The Keep",
+  "rules_profile": "Killer In The Keep 5E-Compatible Hybrid",
+  "scope": "Killer In The Keep only",
+  "build_date": "2026-08-05",
+  "source_basis": [
+    "KillerInTheKeep_5_Game_Level_Progression.json",
+    "System Reference Document 5.2.1"
+  ],
+  "srd_attribution": "This work includes material from the System Reference Document 5.2.1 (“SRD 5.2.1”) by Wizards of the Coast LLC, available at https://www.dndbeyond.com/srd. The SRD 5.2.1 is licensed under the Creative Commons Attribution 4.0 International License, available at https://creativecommons.org/licenses/by/4.0/legalcode.",
+  "publisher_affiliation": "Killer In The Keep is an independent project and is not endorsed by Wizards of the Coast.",
+  "principles": [
+    "Protect the sealed solution and private evidence at all times.",
+    "Apply explicit Killer In The Keep exceptions before general SRD rules.",
+    "Give every active hero meaningful turns during exploration, combat, and deduction.",
+    "Use monsters, traps, storm stages, and rest consequences to create pressure without invalidating logical deduction.",
+    "Never let a bot read the solution, another player’s private hand, or private notes.",
+    "Provide at least two counterplays for every trap.",
+    "Use accessibility symbols in addition to color.",
+    "Record deterministic hidden-information events for dispute review without exposing them to clients."
+  ],
+  "setup_checklist": [
+    "Choose playstyle",
+    "Choose difficulty and rules profile",
+    "Create lobby for 2–8 humans",
+    "Fill to six adventurers when needed",
+    "Assign unique heroes",
+    "Generate and seal one suspect, one weapon, and one room",
+    "Deal remaining cards privately",
+    "Place tokens and start storm stage"
+  ],
+  "adjudication_order": [
+    "Validate action and target",
+    "Apply specific hero/power/trap rule",
+    "Apply playstyle restriction",
+    "Apply standard Killer hybrid rule",
+    "Apply SRD baseline",
+    "Make a fair ruling that preserves hidden information"
+  ],
+  "ai_director": [
+    "Generates the sealed murder solution.",
+    "Controls monsters, hazards, witnesses, and ambient events.",
+    "Maintains legal movement, line of sight, action economy, and hidden information.",
+    "Adjusts encounter pressure based on party size and progress.",
+    "Never changes the solution after the run begins.",
+    "Provides optional rules explanations without revealing deductions."
+  ],
+  "network_authority": [
+    "Server-authoritative solution, dice, damage, inventory, evidence, and turn order.",
+    "Reconnect support with state restoration.",
+    "Spectator mode after elimination.",
+    "Host migration for peer-hosted private games.",
+    "No duplicated heroes in the same active run."
+  ],
+  "suggestion_algorithm": [
+    "Validate that the active token is in a room.",
+    "Validate that the named room equals the active token's room.",
+    "Move the named suspect and weapon pieces into that room.",
+    "Create the three-card suggestion set.",
+    "Check opponents in turn order beginning immediately after the active player.",
+    "For each opponent, calculate matching cards.",
+    "If no match exists, record a pass and continue.",
+    "If one or more matches exist, require that player to choose exactly one.",
+    "Reveal the chosen card only to the suggester unless a special card says otherwise.",
+    "Stop checking opponents.",
+    "If all opponents pass, record the unanswered suggestion state.",
+    "Apply the edition's accusation timing rule.",
+    "End the turn."
+  ],
+  "accusation_algorithm": [
+    "Validate that the investigator is eligible to accuse under the selected rules profile.",
+    "Validate that the investigator has not already made a strict final accusation.",
+    "Validate any configured room or location requirement.",
+    "Accept exactly one suspect, one weapon, and one room.",
+    "Compare all three IDs against the server-only solution.",
+    "If all three match, resolve victory according to the selected playstyle.",
+    "If any differ, apply the selected incorrect-accusation consequence without revealing the solution.",
+    "Keep the incorrect accuser's evidence hand available for future ordered disproval when strict classic consequences are enabled.",
+    "If no eligible investigator can still win, resolve the configured unsolved ending."
+  ]
+}

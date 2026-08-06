@@ -1,0 +1,190 @@
+{
+  "schema_version": "4.0.0",
+  "document_type": "killer_investigator_profiles",
+  "system": "Killer In The Keep",
+  "rules_profile": "Killer In The Keep 5E-Compatible Hybrid",
+  "scope": "Killer In The Keep only",
+  "build_date": "2026-08-05",
+  "source_basis": [
+    "KillerInTheKeep_5_Game_Level_Progression.json",
+    "System Reference Document 5.2.1"
+  ],
+  "srd_attribution": "This work includes material from the System Reference Document 5.2.1 (“SRD 5.2.1”) by Wizards of the Coast LLC, available at https://www.dndbeyond.com/srd. The SRD 5.2.1 is licensed under the Creative Commons Attribution 4.0 International License, available at https://creativecommons.org/licenses/by/4.0/legalcode.",
+  "publisher_affiliation": "Killer In The Keep is an independent project and is not endorsed by Wizards of the Coast.",
+  "record_count": 8,
+  "records": [
+    {
+      "id": "kitk-investigator-profile-daltu",
+      "name": "Daltu Investigator Profile",
+      "hero_id": "daltu",
+      "fixed_hero": true,
+      "party_roles": [
+        "front-line defender",
+        "arcane striker",
+        "remote trap utility"
+      ],
+      "skill_proficiencies": [
+        "Arcana",
+        "Athletics",
+        "Investigation",
+        "Perception"
+      ],
+      "tool_proficiencies": [
+        "Thieves' Tools"
+      ],
+      "specialty": "Uses a spectral hand to manipulate doors, switches, evidence, and traps from a distance.",
+      "source_note": "The supplied rules define role, statistics, equipment, powers, and specialty but do not define a separate freeform background story; this record is a mechanical investigation profile only."
+    },
+    {
+      "id": "kitk-investigator-profile-noldrack_goldblade",
+      "name": "Noldrack Goldblade Investigator Profile",
+      "hero_id": "noldrack_goldblade",
+      "fixed_hero": true,
+      "party_roles": [
+        "elemental controller",
+        "hazard detector",
+        "area denial"
+      ],
+      "skill_proficiencies": [
+        "Investigation",
+        "Nature",
+        "Perception",
+        "Survival"
+      ],
+      "tool_proficiencies": [
+        "Herbalism Kit"
+      ],
+      "specialty": "Reveals hidden hazards and reshapes rooms with fire, water, ice, wind, and forced movement.",
+      "source_note": "The supplied rules define role, statistics, equipment, powers, and specialty but do not define a separate freeform background story; this record is a mechanical investigation profile only."
+    },
+    {
+      "id": "kitk-investigator-profile-eilvyre_astath",
+      "name": "Eilvyre Astath Investigator Profile",
+      "hero_id": "eilvyre_astath",
+      "fixed_hero": true,
+      "party_roles": [
+        "high-variance spell striker",
+        "mobility caster",
+        "terrain breaker"
+      ],
+      "skill_proficiencies": [
+        "Acrobatics",
+        "Arcana",
+        "Insight",
+        "Investigation"
+      ],
+      "tool_proficiencies": [],
+      "specialty": "Wild Magic surges create unpredictable but readable changes to combat, lighting, movement, and evidence.",
+      "source_note": "The supplied rules define role, statistics, equipment, powers, and specialty but do not define a separate freeform background story; this record is a mechanical investigation profile only."
+    },
+    {
+      "id": "kitk-investigator-profile-korbin_silverdew",
+      "name": "Korbin Silverdew Investigator Profile",
+      "hero_id": "korbin_silverdew",
+      "fixed_hero": true,
+      "party_roles": [
+        "party defender",
+        "buffer",
+        "ranged radiant striker"
+      ],
+      "skill_proficiencies": [
+        "Athletics",
+        "Insight",
+        "Perception",
+        "Persuasion"
+      ],
+      "tool_proficiencies": [],
+      "specialty": "Protects allies, improves important rolls, and uses burning arrows to interact with webs, oil, and wooden objects.",
+      "source_note": "The supplied rules define role, statistics, equipment, powers, and specialty but do not define a separate freeform background story; this record is a mechanical investigation profile only."
+    },
+    {
+      "id": "kitk-investigator-profile-joknos_jock",
+      "name": "Joknos Investigator Profile",
+      "hero_id": "joknos_jock",
+      "fixed_hero": true,
+      "party_roles": [
+        "social manipulator",
+        "crowd controller",
+        "teleportation specialist"
+      ],
+      "skill_proficiencies": [
+        "Deception",
+        "Performance",
+        "Persuasion",
+        "Sleight of Hand"
+      ],
+      "tool_proficiencies": [
+        "Musical Instrument",
+        "Disguise Kit"
+      ],
+      "specialty": "Excels at dialogue checks, deception, magical persuasion, distraction, and rapid relocation.",
+      "source_note": "The supplied rules define role, statistics, equipment, powers, and specialty but do not define a separate freeform background story; this record is a mechanical investigation profile only."
+    },
+    {
+      "id": "kitk-investigator-profile-githtoxundes_fenwophyl",
+      "name": "Githtoxundes Fenwophyl Investigator Profile",
+      "hero_id": "githtoxundes_fenwophyl",
+      "fixed_hero": true,
+      "party_roles": [
+        "primary healer",
+        "revival specialist",
+        "divine controller"
+      ],
+      "skill_proficiencies": [
+        "Insight",
+        "Medicine",
+        "Perception",
+        "Religion"
+      ],
+      "tool_proficiencies": [
+        "Healer's Kit"
+      ],
+      "specialty": "Keeps the party alive, reverses curses and injuries, and can restore a recently dead character before permanent elimination.",
+      "source_note": "The supplied rules define role, statistics, equipment, powers, and specialty but do not define a separate freeform background story; this record is a mechanical investigation profile only."
+    },
+    {
+      "id": "kitk-investigator-profile-gunnus",
+      "name": "Gunnus Investigator Profile",
+      "hero_id": "gunnus",
+      "fixed_hero": true,
+      "party_roles": [
+        "undead summoner",
+        "life-drain caster",
+        "risky reviver"
+      ],
+      "skill_proficiencies": [
+        "Arcana",
+        "Intimidation",
+        "Medicine",
+        "Religion"
+      ],
+      "tool_proficiencies": [
+        "Necromantic Focus"
+      ],
+      "specialty": "Raises temporary undead allies and exchanges enemy life for personal survival.",
+      "source_note": "The supplied rules define role, statistics, equipment, powers, and specialty but do not define a separate freeform background story; this record is a mechanical investigation profile only."
+    },
+    {
+      "id": "kitk-investigator-profile-monk",
+      "name": "Monk Investigator Profile",
+      "hero_id": "monk",
+      "fixed_hero": true,
+      "party_roles": [
+        "melee controller",
+        "reactive defender",
+        "resource-based striker"
+      ],
+      "skill_proficiencies": [
+        "Acrobatics",
+        "Athletics",
+        "Insight",
+        "Perception"
+      ],
+      "tool_proficiencies": [
+        "Smith's Tools"
+      ],
+      "specialty": "Uses reactions, grapples, paralysis, and wind attacks to push enemies into environmental hazards.",
+      "source_note": "The supplied rules define role, statistics, equipment, powers, and specialty but do not define a separate freeform background story; this record is a mechanical investigation profile only."
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "schema_version": "4.0.0",
+  "document_type": "killer_source_import_manifest",
+  "system": "Killer In The Keep",
+  "rules_profile": "Killer In The Keep 5E-Compatible Hybrid",
+  "scope": "Killer In The Keep only",
+  "build_date": "2026-08-05",
+  "source_basis": [
+    "KillerInTheKeep_5_Game_Level_Progression.json",
+    "System Reference Document 5.2.1"
+  ],
+  "srd_attribution": "This work includes material from the System Reference Document 5.2.1 (“SRD 5.2.1”) by Wizards of the Coast LLC, available at https://www.dndbeyond.com/srd. The SRD 5.2.1 is licensed under the Creative Commons Attribution 4.0 International License, available at https://creativecommons.org/licenses/by/4.0/legalcode.",
+  "publisher_affiliation": "Killer In The Keep is an independent project and is not endorsed by Wizards of the Coast.",
+  "files": [
+    {
+      "name": "KillerInTheKeep_5_Game_Level_Progression(4).json",
+      "role": "Authoritative Killer In The Keep gameplay, progression, characters, rooms, evidence, monsters, traps, controls, and multiplayer rules."
+    },
+    {
+      "name": "SRD_CC_v5.2.1(2).pdf",
+      "role": "SRD 5.2.1 rules baseline and CC BY 4.0 source."
+    }
+  ],
+  "import_result": "All generated records were restricted to Killer In The Keep. The prior generic D&D filler catalogs were discarded."
+}

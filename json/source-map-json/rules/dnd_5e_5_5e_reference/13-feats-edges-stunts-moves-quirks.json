@@ -1,0 +1,210 @@
+{
+  "schema_version": "4.0.0",
+  "document_type": "killer_fixed_hero_traits",
+  "system": "Killer In The Keep",
+  "rules_profile": "Killer In The Keep 5E-Compatible Hybrid",
+  "scope": "Killer In The Keep only",
+  "build_date": "2026-08-05",
+  "source_basis": [
+    "KillerInTheKeep_5_Game_Level_Progression.json",
+    "System Reference Document 5.2.1"
+  ],
+  "srd_attribution": "This work includes material from the System Reference Document 5.2.1 (“SRD 5.2.1”) by Wizards of the Coast LLC, available at https://www.dndbeyond.com/srd. The SRD 5.2.1 is licensed under the Creative Commons Attribution 4.0 International License, available at https://creativecommons.org/licenses/by/4.0/legalcode.",
+  "publisher_affiliation": "Killer In The Keep is an independent project and is not endorsed by Wizards of the Coast.",
+  "record_count": 24,
+  "records": [
+    {
+      "id": "kitk-trait-daltu-signature",
+      "name": "Daltu Signature Specialty",
+      "hero_id": "daltu",
+      "unlock_game_level": 1,
+      "effect": "Uses a spectral hand to manipulate doors, switches, evidence, and traps from a distance.",
+      "type": "fixed hero trait"
+    },
+    {
+      "id": "kitk-trait-daltu-midgame",
+      "name": "Daltu Midgame Mastery",
+      "hero_id": "daltu",
+      "unlock_game_level": 3,
+      "effect": "Upgrade the hero’s investigation specialty and apply the Game Level 3 class package.",
+      "type": "fixed hero upgrade"
+    },
+    {
+      "id": "kitk-trait-daltu-capstone",
+      "name": "Daltu Session Capstone",
+      "hero_id": "daltu",
+      "unlock_game_level": 5,
+      "effect": "Extra Attack (4 attacks); Eldritch defender capstone",
+      "type": "fixed hero capstone"
+    },
+    {
+      "id": "kitk-trait-noldrack_goldblade-signature",
+      "name": "Noldrack Goldblade Signature Specialty",
+      "hero_id": "noldrack_goldblade",
+      "unlock_game_level": 1,
+      "effect": "Reveals hidden hazards and reshapes rooms with fire, water, ice, wind, and forced movement.",
+      "type": "fixed hero trait"
+    },
+    {
+      "id": "kitk-trait-noldrack_goldblade-midgame",
+      "name": "Noldrack Goldblade Midgame Mastery",
+      "hero_id": "noldrack_goldblade",
+      "unlock_game_level": 3,
+      "effect": "Upgrade the hero’s investigation specialty and apply the Game Level 3 class package.",
+      "type": "fixed hero upgrade"
+    },
+    {
+      "id": "kitk-trait-noldrack_goldblade-capstone",
+      "name": "Noldrack Goldblade Session Capstone",
+      "hero_id": "noldrack_goldblade",
+      "unlock_game_level": 5,
+      "effect": "Archdruid-style resource freedom; Storm master capstone",
+      "type": "fixed hero capstone"
+    },
+    {
+      "id": "kitk-trait-eilvyre_astath-signature",
+      "name": "Eilvyre Astath Signature Specialty",
+      "hero_id": "eilvyre_astath",
+      "unlock_game_level": 1,
+      "effect": "Wild Magic surges create unpredictable but readable changes to combat, lighting, movement, and evidence.",
+      "type": "fixed hero trait"
+    },
+    {
+      "id": "kitk-trait-eilvyre_astath-midgame",
+      "name": "Eilvyre Astath Midgame Mastery",
+      "hero_id": "eilvyre_astath",
+      "unlock_game_level": 3,
+      "effect": "Upgrade the hero’s investigation specialty and apply the Game Level 3 class package.",
+      "type": "fixed hero upgrade"
+    },
+    {
+      "id": "kitk-trait-eilvyre_astath-capstone",
+      "name": "Eilvyre Astath Session Capstone",
+      "hero_id": "eilvyre_astath",
+      "unlock_game_level": 5,
+      "effect": "Sorcery Points: 20; Wild Magic capstone",
+      "type": "fixed hero capstone"
+    },
+    {
+      "id": "kitk-trait-korbin_silverdew-signature",
+      "name": "Korbin Silverdew Signature Specialty",
+      "hero_id": "korbin_silverdew",
+      "unlock_game_level": 1,
+      "effect": "Protects allies, improves important rolls, and uses burning arrows to interact with webs, oil, and wooden objects.",
+      "type": "fixed hero trait"
+    },
+    {
+      "id": "kitk-trait-korbin_silverdew-midgame",
+      "name": "Korbin Silverdew Midgame Mastery",
+      "hero_id": "korbin_silverdew",
+      "unlock_game_level": 3,
+      "effect": "Upgrade the hero’s investigation specialty and apply the Game Level 3 class package.",
+      "type": "fixed hero upgrade"
+    },
+    {
+      "id": "kitk-trait-korbin_silverdew-capstone",
+      "name": "Korbin Silverdew Session Capstone",
+      "hero_id": "korbin_silverdew",
+      "unlock_game_level": 5,
+      "effect": "Oath of Hope transformation; Radiant defender capstone",
+      "type": "fixed hero capstone"
+    },
+    {
+      "id": "kitk-trait-joknos_jock-signature",
+      "name": "Joknos Signature Specialty",
+      "hero_id": "joknos_jock",
+      "unlock_game_level": 1,
+      "effect": "Excels at dialogue checks, deception, magical persuasion, distraction, and rapid relocation.",
+      "type": "fixed hero trait"
+    },
+    {
+      "id": "kitk-trait-joknos_jock-midgame",
+      "name": "Joknos Midgame Mastery",
+      "hero_id": "joknos_jock",
+      "unlock_game_level": 3,
+      "effect": "Upgrade the hero’s investigation specialty and apply the Game Level 3 class package.",
+      "type": "fixed hero upgrade"
+    },
+    {
+      "id": "kitk-trait-joknos_jock-capstone",
+      "name": "Joknos Session Capstone",
+      "hero_id": "joknos_jock",
+      "unlock_game_level": 5,
+      "effect": "Bardic Inspiration d12; Creative reality capstone",
+      "type": "fixed hero capstone"
+    },
+    {
+      "id": "kitk-trait-githtoxundes_fenwophyl-signature",
+      "name": "Githtoxundes Fenwophyl Signature Specialty",
+      "hero_id": "githtoxundes_fenwophyl",
+      "unlock_game_level": 1,
+      "effect": "Keeps the party alive, reverses curses and injuries, and can restore a recently dead character before permanent elimination.",
+      "type": "fixed hero trait"
+    },
+    {
+      "id": "kitk-trait-githtoxundes_fenwophyl-midgame",
+      "name": "Githtoxundes Fenwophyl Midgame Mastery",
+      "hero_id": "githtoxundes_fenwophyl",
+      "unlock_game_level": 3,
+      "effect": "Upgrade the hero’s investigation specialty and apply the Game Level 3 class package.",
+      "type": "fixed hero upgrade"
+    },
+    {
+      "id": "kitk-trait-githtoxundes_fenwophyl-capstone",
+      "name": "Githtoxundes Fenwophyl Session Capstone",
+      "hero_id": "githtoxundes_fenwophyl",
+      "unlock_game_level": 5,
+      "effect": "Reliable Divine Intervention; Restorer capstone",
+      "type": "fixed hero capstone"
+    },
+    {
+      "id": "kitk-trait-gunnus-signature",
+      "name": "Gunnus Signature Specialty",
+      "hero_id": "gunnus",
+      "unlock_game_level": 1,
+      "effect": "Raises temporary undead allies and exchanges enemy life for personal survival.",
+      "type": "fixed hero trait"
+    },
+    {
+      "id": "kitk-trait-gunnus-midgame",
+      "name": "Gunnus Midgame Mastery",
+      "hero_id": "gunnus",
+      "unlock_game_level": 3,
+      "effect": "Upgrade the hero’s investigation specialty and apply the Game Level 3 class package.",
+      "type": "fixed hero upgrade"
+    },
+    {
+      "id": "kitk-trait-gunnus-capstone",
+      "name": "Gunnus Session Capstone",
+      "hero_id": "gunnus",
+      "unlock_game_level": 5,
+      "effect": "Master of undeath capstone; Life-drain mastery",
+      "type": "fixed hero capstone"
+    },
+    {
+      "id": "kitk-trait-monk-signature",
+      "name": "Monk Signature Specialty",
+      "hero_id": "monk",
+      "unlock_game_level": 1,
+      "effect": "Uses reactions, grapples, paralysis, and wind attacks to push enemies into environmental hazards.",
+      "type": "fixed hero trait"
+    },
+    {
+      "id": "kitk-trait-monk-midgame",
+      "name": "Monk Midgame Mastery",
+      "hero_id": "monk",
+      "unlock_game_level": 3,
+      "effect": "Upgrade the hero’s investigation specialty and apply the Game Level 3 class package.",
+      "type": "fixed hero upgrade"
+    },
+    {
+      "id": "kitk-trait-monk-capstone",
+      "name": "Monk Session Capstone",
+      "hero_id": "monk",
+      "unlock_game_level": 5,
+      "effect": "Chi: 10; Perfect Self; Heart-stopping capstone",
+      "type": "fixed hero capstone"
+    }
+  ],
+  "restriction": "No generic feat catalog is included. These are fixed hero traits and upgrades only."
+}

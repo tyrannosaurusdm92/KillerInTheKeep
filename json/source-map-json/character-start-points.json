@@ -1,0 +1,696 @@
+{
+  "schema_version": "4.4.0",
+  "mode_rules": {
+    "work_together": {
+      "style": "Clue-style shared starting room",
+      "all_tokens_room": "foyer",
+      "floor": "first_floor",
+      "formation": "two rows of four unique slots",
+      "friendly_overlap": false
+    },
+    "full_pvp": {
+      "style": "four-floor arena spread",
+      "unique_start_room_per_character": true,
+      "all_four_floors_used": true,
+      "forbidden_start_rooms": [
+        "armory"
+      ],
+      "spawn_safety": "Approved starts may not occupy a door, stair, secret-passage entrance, trap, chest, crate, loose-item, or monster cell. The Armory is never a starting room because immediate weapon access is too strong.",
+      "randomization": "The listed eight-room assignment is the canonical fixed seed. A host may rotate character-to-room assignments only among these eight approved spawn cells.",
+      "placement_note": "Arena-style starts use eight separated rooms across all four floors. The corrected Alchemist’s Quarters spawn is inside the bedchamber; no character starts in the Armory."
+    },
+    "offscreen_first_victim": {
+      "selection_timing": "Before living tokens are placed and before the opening turn.",
+      "starts_as_ghost": true,
+      "living_token_is_not_placed": true,
+      "ghost_origin": "Use the character’s assigned mode start as a nonblocking spectral origin.",
+      "card_handling": "Any predealt shared-deck cards assigned to the first victim return to their source decks and each affected deck is shuffled.",
+      "killer_eligibility": false
+    }
+  },
+  "start_points": {
+    "work_together": [
+      {
+        "character_id": "daltu",
+        "character_name": "Daltu",
+        "mode": "work_together",
+        "room_id": "foyer",
+        "cell": {
+          "floor": "first_floor",
+          "x": 21,
+          "y": 28,
+          "label": "V29",
+          "feet": {
+            "x": 105,
+            "y": 140
+          }
+        },
+        "placement_rule": "Clue-style shared starting-room formation: all eight unique tokens stage in two non-overlapping rows inside the Foyer, leaving the center route open.",
+        "room_name": "Foyer",
+        "gameplay_card": "json/assets/gameplay-deck/gameplay-deck-daltu-character-card.json",
+        "character_sheets": {
+          "player": "character_sheets/player/daltu_character_sheet.html",
+          "autonomous": "character_sheets/autonomous/daltu_character_sheet.html"
+        },
+        "offscreen_first_victim_ghost_origin": {
+          "floor": "first_floor",
+          "x": 21,
+          "y": 28,
+          "label": "V29",
+          "feet": {
+            "x": 105,
+            "y": 140
+          },
+          "nonblocking": true
+        }
+      },
+      {
+        "character_id": "noldrack_goldblade",
+        "character_name": "Noldrack Goldblade",
+        "mode": "work_together",
+        "room_id": "foyer",
+        "cell": {
+          "floor": "first_floor",
+          "x": 23,
+          "y": 28,
+          "label": "X29",
+          "feet": {
+            "x": 115,
+            "y": 140
+          }
+        },
+        "placement_rule": "Clue-style shared starting-room formation: all eight unique tokens stage in two non-overlapping rows inside the Foyer, leaving the center route open.",
+        "room_name": "Foyer",
+        "gameplay_card": "json/assets/gameplay-deck/gameplay-deck-noldrack-goldblade-character-card.json",
+        "character_sheets": {
+          "player": "character_sheets/player/noldrack_character_sheet.html",
+          "autonomous": "character_sheets/autonomous/noldrack_character_sheet.html"
+        },
+        "offscreen_first_victim_ghost_origin": {
+          "floor": "first_floor",
+          "x": 23,
+          "y": 28,
+          "label": "X29",
+          "feet": {
+            "x": 115,
+            "y": 140
+          },
+          "nonblocking": true
+        }
+      },
+      {
+        "character_id": "eilvyre_astath",
+        "character_name": "Eilvyre Astath",
+        "mode": "work_together",
+        "room_id": "foyer",
+        "cell": {
+          "floor": "first_floor",
+          "x": 25,
+          "y": 28,
+          "label": "Z29",
+          "feet": {
+            "x": 125,
+            "y": 140
+          }
+        },
+        "placement_rule": "Clue-style shared starting-room formation: all eight unique tokens stage in two non-overlapping rows inside the Foyer, leaving the center route open.",
+        "room_name": "Foyer",
+        "gameplay_card": "json/assets/gameplay-deck/gameplay-deck-eilvyre-astath-character-card.json",
+        "character_sheets": {
+          "player": "character_sheets/player/eilvyre_character_sheet.html",
+          "autonomous": "character_sheets/autonomous/eilvyre_character_sheet.html"
+        },
+        "offscreen_first_victim_ghost_origin": {
+          "floor": "first_floor",
+          "x": 25,
+          "y": 28,
+          "label": "Z29",
+          "feet": {
+            "x": 125,
+            "y": 140
+          },
+          "nonblocking": true
+        }
+      },
+      {
+        "character_id": "korbin_silverdew",
+        "character_name": "Korbin Silverdew",
+        "mode": "work_together",
+        "room_id": "foyer",
+        "cell": {
+          "floor": "first_floor",
+          "x": 27,
+          "y": 28,
+          "label": "AB29",
+          "feet": {
+            "x": 135,
+            "y": 140
+          }
+        },
+        "placement_rule": "Clue-style shared starting-room formation: all eight unique tokens stage in two non-overlapping rows inside the Foyer, leaving the center route open.",
+        "room_name": "Foyer",
+        "gameplay_card": "json/assets/gameplay-deck/gameplay-deck-korbin-silverdew-character-card.json",
+        "character_sheets": {
+          "player": "character_sheets/player/korbin_character_sheet.html",
+          "autonomous": "character_sheets/autonomous/korbin_character_sheet.html"
+        },
+        "offscreen_first_victim_ghost_origin": {
+          "floor": "first_floor",
+          "x": 27,
+          "y": 28,
+          "label": "AB29",
+          "feet": {
+            "x": 135,
+            "y": 140
+          },
+          "nonblocking": true
+        }
+      },
+      {
+        "character_id": "joknos_jock",
+        "character_name": "Joknos",
+        "mode": "work_together",
+        "room_id": "foyer",
+        "cell": {
+          "floor": "first_floor",
+          "x": 21,
+          "y": 30,
+          "label": "V31",
+          "feet": {
+            "x": 105,
+            "y": 150
+          }
+        },
+        "placement_rule": "Clue-style shared starting-room formation: all eight unique tokens stage in two non-overlapping rows inside the Foyer, leaving the center route open.",
+        "room_name": "Foyer",
+        "gameplay_card": "json/assets/gameplay-deck/gameplay-deck-joknos-jock-character-card.json",
+        "character_sheets": {
+          "player": "character_sheets/player/joknos_character_sheet.html",
+          "autonomous": "character_sheets/autonomous/joknos_character_sheet.html"
+        },
+        "offscreen_first_victim_ghost_origin": {
+          "floor": "first_floor",
+          "x": 21,
+          "y": 30,
+          "label": "V31",
+          "feet": {
+            "x": 105,
+            "y": 150
+          },
+          "nonblocking": true
+        }
+      },
+      {
+        "character_id": "githtoxundes_fenwophyl",
+        "character_name": "Githtoxundes Fenwophyl",
+        "mode": "work_together",
+        "room_id": "foyer",
+        "cell": {
+          "floor": "first_floor",
+          "x": 23,
+          "y": 30,
+          "label": "X31",
+          "feet": {
+            "x": 115,
+            "y": 150
+          }
+        },
+        "placement_rule": "Clue-style shared starting-room formation: all eight unique tokens stage in two non-overlapping rows inside the Foyer, leaving the center route open.",
+        "room_name": "Foyer",
+        "gameplay_card": "json/assets/gameplay-deck/gameplay-deck-githtoxundes-fenwophyl-character-card.json",
+        "character_sheets": {
+          "player": "character_sheets/player/xun_character_sheet.html",
+          "autonomous": "character_sheets/autonomous/xun_character_sheet.html"
+        },
+        "offscreen_first_victim_ghost_origin": {
+          "floor": "first_floor",
+          "x": 23,
+          "y": 30,
+          "label": "X31",
+          "feet": {
+            "x": 115,
+            "y": 150
+          },
+          "nonblocking": true
+        }
+      },
+      {
+        "character_id": "gunnus",
+        "character_name": "Gunnus",
+        "mode": "work_together",
+        "room_id": "foyer",
+        "cell": {
+          "floor": "first_floor",
+          "x": 25,
+          "y": 30,
+          "label": "Z31",
+          "feet": {
+            "x": 125,
+            "y": 150
+          }
+        },
+        "placement_rule": "Clue-style shared starting-room formation: all eight unique tokens stage in two non-overlapping rows inside the Foyer, leaving the center route open.",
+        "room_name": "Foyer",
+        "gameplay_card": "json/assets/gameplay-deck/gameplay-deck-gunnus-character-card.json",
+        "character_sheets": {
+          "player": "character_sheets/player/gunnus_character_sheet.html",
+          "autonomous": "character_sheets/autonomous/gunnus_character_sheet.html"
+        },
+        "offscreen_first_victim_ghost_origin": {
+          "floor": "first_floor",
+          "x": 25,
+          "y": 30,
+          "label": "Z31",
+          "feet": {
+            "x": 125,
+            "y": 150
+          },
+          "nonblocking": true
+        }
+      },
+      {
+        "character_id": "monk",
+        "character_name": "Monk",
+        "mode": "work_together",
+        "room_id": "foyer",
+        "cell": {
+          "floor": "first_floor",
+          "x": 27,
+          "y": 30,
+          "label": "AB31",
+          "feet": {
+            "x": 135,
+            "y": 150
+          }
+        },
+        "placement_rule": "Clue-style shared starting-room formation: all eight unique tokens stage in two non-overlapping rows inside the Foyer, leaving the center route open.",
+        "room_name": "Foyer",
+        "gameplay_card": "json/assets/gameplay-deck/gameplay-deck-monk-character-card.json",
+        "character_sheets": {
+          "player": "character_sheets/player/monk_character_sheet.html",
+          "autonomous": "character_sheets/autonomous/monk_character_sheet.html"
+        },
+        "offscreen_first_victim_ghost_origin": {
+          "floor": "first_floor",
+          "x": 27,
+          "y": 30,
+          "label": "AB31",
+          "feet": {
+            "x": 135,
+            "y": 150
+          },
+          "nonblocking": true
+        }
+      }
+    ],
+    "full_pvp": [
+      {
+        "character_id": "daltu",
+        "character_name": "Daltu",
+        "mode": "full_pvp",
+        "room_id": "cellar",
+        "cell": {
+          "floor": "cellar",
+          "x": 23,
+          "y": 15,
+          "label": "X16",
+          "feet": {
+            "x": 115,
+            "y": 75
+          }
+        },
+        "placement_rule": "Arena-style fixed spread seed: each character begins in a different approved room, separated across the four floors and away from the Armory.",
+        "room_name": "Cellar",
+        "gameplay_card": "json/assets/gameplay-deck/gameplay-deck-daltu-character-card.json",
+        "character_sheets": {
+          "player": "character_sheets/player/daltu_character_sheet.html",
+          "autonomous": "character_sheets/autonomous/daltu_character_sheet.html"
+        },
+        "offscreen_first_victim_ghost_origin": {
+          "floor": "cellar",
+          "x": 23,
+          "y": 15,
+          "label": "X16",
+          "feet": {
+            "x": 115,
+            "y": 75
+          },
+          "nonblocking": true
+        }
+      },
+      {
+        "character_id": "noldrack_goldblade",
+        "character_name": "Noldrack Goldblade",
+        "mode": "full_pvp",
+        "room_id": "attic",
+        "cell": {
+          "floor": "attic",
+          "x": 10,
+          "y": 15,
+          "label": "K16",
+          "feet": {
+            "x": 50,
+            "y": 75
+          }
+        },
+        "placement_rule": "Arena-style fixed spread seed: each character begins in a different approved room, separated across the four floors and away from the Armory.",
+        "room_name": "Attic",
+        "gameplay_card": "json/assets/gameplay-deck/gameplay-deck-noldrack-goldblade-character-card.json",
+        "character_sheets": {
+          "player": "character_sheets/player/noldrack_character_sheet.html",
+          "autonomous": "character_sheets/autonomous/noldrack_character_sheet.html"
+        },
+        "offscreen_first_victim_ghost_origin": {
+          "floor": "attic",
+          "x": 10,
+          "y": 15,
+          "label": "K16",
+          "feet": {
+            "x": 50,
+            "y": 75
+          },
+          "nonblocking": true
+        }
+      },
+      {
+        "character_id": "eilvyre_astath",
+        "character_name": "Eilvyre Astath",
+        "mode": "full_pvp",
+        "room_id": "alchemists_quarters",
+        "cell": {
+          "floor": "first_floor",
+          "x": 4,
+          "y": 6,
+          "label": "E7",
+          "feet": {
+            "x": 20,
+            "y": 30
+          }
+        },
+        "placement_rule": "Arena-style fixed spread seed: each character begins in a different approved room, separated across the four floors and away from the Armory.",
+        "room_name": "Alchemist’s Quarters",
+        "gameplay_card": "json/assets/gameplay-deck/gameplay-deck-eilvyre-astath-character-card.json",
+        "character_sheets": {
+          "player": "character_sheets/player/eilvyre_character_sheet.html",
+          "autonomous": "character_sheets/autonomous/eilvyre_character_sheet.html"
+        },
+        "offscreen_first_victim_ghost_origin": {
+          "floor": "first_floor",
+          "x": 4,
+          "y": 6,
+          "label": "E7",
+          "feet": {
+            "x": 20,
+            "y": 30
+          },
+          "nonblocking": true
+        }
+      },
+      {
+        "character_id": "korbin_silverdew",
+        "character_name": "Korbin Silverdew",
+        "mode": "full_pvp",
+        "room_id": "den",
+        "cell": {
+          "floor": "second_floor",
+          "x": 24,
+          "y": 4,
+          "label": "Y5",
+          "feet": {
+            "x": 120,
+            "y": 20
+          }
+        },
+        "placement_rule": "Arena-style fixed spread seed: each character begins in a different approved room, separated across the four floors and away from the Armory.",
+        "room_name": "Den",
+        "gameplay_card": "json/assets/gameplay-deck/gameplay-deck-korbin-silverdew-character-card.json",
+        "character_sheets": {
+          "player": "character_sheets/player/korbin_character_sheet.html",
+          "autonomous": "character_sheets/autonomous/korbin_character_sheet.html"
+        },
+        "offscreen_first_victim_ghost_origin": {
+          "floor": "second_floor",
+          "x": 24,
+          "y": 4,
+          "label": "Y5",
+          "feet": {
+            "x": 120,
+            "y": 20
+          },
+          "nonblocking": true
+        }
+      },
+      {
+        "character_id": "joknos_jock",
+        "character_name": "Joknos",
+        "mode": "full_pvp",
+        "room_id": "library",
+        "cell": {
+          "floor": "second_floor",
+          "x": 12,
+          "y": 27,
+          "label": "M28",
+          "feet": {
+            "x": 60,
+            "y": 135
+          }
+        },
+        "placement_rule": "Arena-style fixed spread seed: each character begins in a different approved room, separated across the four floors and away from the Armory.",
+        "room_area": "Upper Gallery",
+        "room_name": "Library",
+        "gameplay_card": "json/assets/gameplay-deck/gameplay-deck-joknos-jock-character-card.json",
+        "character_sheets": {
+          "player": "character_sheets/player/joknos_character_sheet.html",
+          "autonomous": "character_sheets/autonomous/joknos_character_sheet.html"
+        },
+        "offscreen_first_victim_ghost_origin": {
+          "floor": "second_floor",
+          "x": 12,
+          "y": 27,
+          "label": "M28",
+          "feet": {
+            "x": 60,
+            "y": 135
+          },
+          "nonblocking": true
+        }
+      },
+      {
+        "character_id": "githtoxundes_fenwophyl",
+        "character_name": "Githtoxundes Fenwophyl",
+        "mode": "full_pvp",
+        "room_id": "dining_room",
+        "cell": {
+          "floor": "first_floor",
+          "x": 35,
+          "y": 14,
+          "label": "AJ15",
+          "feet": {
+            "x": 175,
+            "y": 70
+          }
+        },
+        "placement_rule": "Arena-style fixed spread seed: each character begins in a different approved room, separated across the four floors and away from the Armory.",
+        "room_name": "Dining Room",
+        "gameplay_card": "json/assets/gameplay-deck/gameplay-deck-githtoxundes-fenwophyl-character-card.json",
+        "character_sheets": {
+          "player": "character_sheets/player/xun_character_sheet.html",
+          "autonomous": "character_sheets/autonomous/xun_character_sheet.html"
+        },
+        "offscreen_first_victim_ghost_origin": {
+          "floor": "first_floor",
+          "x": 35,
+          "y": 14,
+          "label": "AJ15",
+          "feet": {
+            "x": 175,
+            "y": 70
+          },
+          "nonblocking": true
+        }
+      },
+      {
+        "character_id": "gunnus",
+        "character_name": "Gunnus",
+        "mode": "full_pvp",
+        "room_id": "sitting_room",
+        "cell": {
+          "floor": "first_floor",
+          "x": 11,
+          "y": 26,
+          "label": "L27",
+          "feet": {
+            "x": 55,
+            "y": 130
+          }
+        },
+        "placement_rule": "Arena-style fixed spread seed: each character begins in a different approved room, separated across the four floors and away from the Armory.",
+        "room_name": "Sitting Room",
+        "gameplay_card": "json/assets/gameplay-deck/gameplay-deck-gunnus-character-card.json",
+        "character_sheets": {
+          "player": "character_sheets/player/gunnus_character_sheet.html",
+          "autonomous": "character_sheets/autonomous/gunnus_character_sheet.html"
+        },
+        "offscreen_first_victim_ghost_origin": {
+          "floor": "first_floor",
+          "x": 11,
+          "y": 26,
+          "label": "L27",
+          "feet": {
+            "x": 55,
+            "y": 130
+          },
+          "nonblocking": true
+        }
+      },
+      {
+        "character_id": "monk",
+        "character_name": "Monk",
+        "mode": "full_pvp",
+        "room_id": "second_floor_solar",
+        "cell": {
+          "floor": "second_floor",
+          "x": 34,
+          "y": 4,
+          "label": "AI5",
+          "feet": {
+            "x": 170,
+            "y": 20
+          }
+        },
+        "placement_rule": "Arena-style fixed spread seed: each character begins in a different approved room, separated across the four floors and away from the Armory.",
+        "room_name": "2nd Floor Solar",
+        "gameplay_card": "json/assets/gameplay-deck/gameplay-deck-monk-character-card.json",
+        "character_sheets": {
+          "player": "character_sheets/player/monk_character_sheet.html",
+          "autonomous": "character_sheets/autonomous/monk_character_sheet.html"
+        },
+        "offscreen_first_victim_ghost_origin": {
+          "floor": "second_floor",
+          "x": 34,
+          "y": 4,
+          "label": "AI5",
+          "feet": {
+            "x": 170,
+            "y": 20
+          },
+          "nonblocking": true
+        }
+      }
+    ]
+  },
+  "approved_full_pvp_spawn_pool": [
+    {
+      "room_id": "cellar",
+      "room_area": null,
+      "cell": {
+        "floor": "cellar",
+        "x": 23,
+        "y": 15,
+        "label": "X16",
+        "feet": {
+          "x": 115,
+          "y": 75
+        }
+      }
+    },
+    {
+      "room_id": "attic",
+      "room_area": null,
+      "cell": {
+        "floor": "attic",
+        "x": 10,
+        "y": 15,
+        "label": "K16",
+        "feet": {
+          "x": 50,
+          "y": 75
+        }
+      }
+    },
+    {
+      "room_id": "alchemists_quarters",
+      "room_area": null,
+      "cell": {
+        "floor": "first_floor",
+        "x": 4,
+        "y": 6,
+        "label": "E7",
+        "feet": {
+          "x": 20,
+          "y": 30
+        }
+      }
+    },
+    {
+      "room_id": "den",
+      "room_area": null,
+      "cell": {
+        "floor": "second_floor",
+        "x": 24,
+        "y": 4,
+        "label": "Y5",
+        "feet": {
+          "x": 120,
+          "y": 20
+        }
+      }
+    },
+    {
+      "room_id": "library",
+      "room_area": "Upper Gallery",
+      "cell": {
+        "floor": "second_floor",
+        "x": 12,
+        "y": 27,
+        "label": "M28",
+        "feet": {
+          "x": 60,
+          "y": 135
+        }
+      }
+    },
+    {
+      "room_id": "dining_room",
+      "room_area": null,
+      "cell": {
+        "floor": "first_floor",
+        "x": 35,
+        "y": 14,
+        "label": "AJ15",
+        "feet": {
+          "x": 175,
+          "y": 70
+        }
+      }
+    },
+    {
+      "room_id": "sitting_room",
+      "room_area": null,
+      "cell": {
+        "floor": "first_floor",
+        "x": 11,
+        "y": 26,
+        "label": "L27",
+        "feet": {
+          "x": 55,
+          "y": 130
+        }
+      }
+    },
+    {
+      "room_id": "second_floor_solar",
+      "room_area": null,
+      "cell": {
+        "floor": "second_floor",
+        "x": 34,
+        "y": 4,
+        "label": "AI5",
+        "feet": {
+          "x": 170,
+          "y": 20
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,2908 @@
+{
+  "schema_version": "4.4.0",
+  "card_style": "Clue-style exact-map room cards with player-safe public metadata.",
+  "card_aspect_ratio": "2.5:3.5",
+  "base_css": "room_cards/css/room-card-base.css",
+  "javascript": "room_cards/js/room-card.js",
+  "deck_html": "room_cards/html/index.html",
+  "click_behavior": "Clicking a room card opens its full-resolution exact map crop.",
+  "public_visibility_policy": "Room cards expose room identity, floor, artwork, grid area, and ordinary visible routes only.",
+  "cards": [
+    {
+      "schema_version": "4.4.0",
+      "card_type": "exact_map_room_card",
+      "room_number": 1,
+      "room_id": "cellar",
+      "room_name": "Cellar",
+      "floor": "cellar",
+      "floor_display_name": "Cellar Level",
+      "coordinates": {
+        "feet_per_square": 5,
+        "pixels_per_square": 32,
+        "primary_ranges_inclusive": [
+          [
+            6,
+            41,
+            6,
+            25
+          ]
+        ],
+        "primary_bounds_inclusive": {
+          "min_x": 6,
+          "max_x": 41,
+          "min_y": 6,
+          "max_y": 25,
+          "min_label": "G7",
+          "max_label": "AP26"
+        },
+        "additional_floor_areas": []
+      },
+      "map_views": [
+        {
+          "id": "cellar_primary",
+          "area_name": "Cellar",
+          "floor": "cellar",
+          "floor_display_name": "Cellar Level",
+          "source_map": "maps/source_png/01_Cellar_Level.png",
+          "crop_image": "room_cards/map_crops/01_cellar.png",
+          "grid_ranges_inclusive": [
+            [
+              6,
+              41,
+              6,
+              25
+            ]
+          ],
+          "grid_bounds_inclusive": {
+            "min_x": 6,
+            "max_x": 41,
+            "min_y": 6,
+            "max_y": 25,
+            "min_label": "G7",
+            "max_label": "AP26"
+          },
+          "pixel_crop_exclusive": {
+            "left": 192,
+            "top": 192,
+            "right": 1344,
+            "bottom": 832,
+            "width": 1152,
+            "height": 640
+          },
+          "exact_source_crop": true,
+          "masked_to_room_ranges": false
+        }
+      ],
+      "card_assets": {
+        "html": "room_cards/html/01_cellar.html",
+        "css": "room_cards/css/01_cellar.css",
+        "json": "room_cards/json/01_cellar.json",
+        "base_css": "room_cards/css/room-card-base.css",
+        "javascript": "room_cards/js/room-card.js"
+      },
+      "interaction": {
+        "click_action": "Open a modal showing the exact room crop or crops taken directly from the corresponding keep map.",
+        "keyboard_action": "Enter or Space opens the exact room view.",
+        "room_labels_on_floor_svg": false,
+        "room_label_on_gameplay_card": true,
+        "public_card_scope": "Room identity, floor, artwork, grid area, and ordinary visible routes."
+      },
+      "visibility": "public_gameplay_card",
+      "public_description": "Lower-level storage chamber beneath the keep.",
+      "visible_routes": [
+        "pantry"
+      ],
+      "encounter_data": "server_authoritative"
+    },
+    {
+      "schema_version": "4.4.0",
+      "card_type": "exact_map_room_card",
+      "room_number": 2,
+      "room_id": "foyer",
+      "room_name": "Foyer",
+      "floor": "first_floor",
+      "floor_display_name": "First Floor — Entrance Level",
+      "coordinates": {
+        "feet_per_square": 5,
+        "pixels_per_square": 32,
+        "primary_ranges_inclusive": [
+          [
+            20,
+            28,
+            26,
+            31
+          ]
+        ],
+        "primary_bounds_inclusive": {
+          "min_x": 20,
+          "max_x": 28,
+          "min_y": 26,
+          "max_y": 31,
+          "min_label": "U27",
+          "max_label": "AC32"
+        },
+        "additional_floor_areas": []
+      },
+      "map_views": [
+        {
+          "id": "foyer_primary",
+          "area_name": "Foyer",
+          "floor": "first_floor",
+          "floor_display_name": "First Floor — Entrance Level",
+          "source_map": "maps/source_png/02_First_Floor_Entrance_Level.png",
+          "crop_image": "room_cards/map_crops/02_foyer.png",
+          "grid_ranges_inclusive": [
+            [
+              20,
+              28,
+              26,
+              31
+            ]
+          ],
+          "grid_bounds_inclusive": {
+            "min_x": 20,
+            "max_x": 28,
+            "min_y": 26,
+            "max_y": 31,
+            "min_label": "U27",
+            "max_label": "AC32"
+          },
+          "pixel_crop_exclusive": {
+            "left": 640,
+            "top": 832,
+            "right": 928,
+            "bottom": 1024,
+            "width": 288,
+            "height": 192
+          },
+          "exact_source_crop": true,
+          "masked_to_room_ranges": false
+        }
+      ],
+      "card_assets": {
+        "html": "room_cards/html/02_foyer.html",
+        "css": "room_cards/css/02_foyer.css",
+        "json": "room_cards/json/02_foyer.json",
+        "base_css": "room_cards/css/room-card-base.css",
+        "javascript": "room_cards/js/room-card.js"
+      },
+      "interaction": {
+        "click_action": "Open a modal showing the exact room crop or crops taken directly from the corresponding keep map.",
+        "keyboard_action": "Enter or Space opens the exact room view.",
+        "room_labels_on_floor_svg": false,
+        "room_label_on_gameplay_card": true,
+        "public_card_scope": "Room identity, floor, artwork, grid area, and ordinary visible routes."
+      },
+      "visibility": "public_gameplay_card",
+      "public_description": "Fortified entrance chamber and shared cooperative starting room.",
+      "visible_routes": [
+        "grand_hall",
+        "main_entrance"
+      ],
+      "encounter_data": "server_authoritative"
+    },
+    {
+      "schema_version": "4.4.0",
+      "card_type": "exact_map_room_card",
+      "room_number": 3,
+      "room_id": "grand_hall",
+      "room_name": "Grand Hall",
+      "floor": "first_floor",
+      "floor_display_name": "First Floor — Entrance Level",
+      "coordinates": {
+        "feet_per_square": 5,
+        "pixels_per_square": 32,
+        "primary_ranges_inclusive": [
+          [
+            16,
+            30,
+            9,
+            25
+          ]
+        ],
+        "primary_bounds_inclusive": {
+          "min_x": 16,
+          "max_x": 30,
+          "min_y": 9,
+          "max_y": 25,
+          "min_label": "Q10",
+          "max_label": "AE26"
+        },
+        "additional_floor_areas": []
+      },
+      "map_views": [
+        {
+          "id": "grand_hall_primary",
+          "area_name": "Grand Hall",
+          "floor": "first_floor",
+          "floor_display_name": "First Floor — Entrance Level",
+          "source_map": "maps/source_png/02_First_Floor_Entrance_Level.png",
+          "crop_image": "room_cards/map_crops/03_grand-hall.png",
+          "grid_ranges_inclusive": [
+            [
+              16,
+              30,
+              9,
+              25
+            ]
+          ],
+          "grid_bounds_inclusive": {
+            "min_x": 16,
+            "max_x": 30,
+            "min_y": 9,
+            "max_y": 25,
+            "min_label": "Q10",
+            "max_label": "AE26"
+          },
+          "pixel_crop_exclusive": {
+            "left": 512,
+            "top": 288,
+            "right": 992,
+            "bottom": 832,
+            "width": 480,
+            "height": 544
+          },
+          "exact_source_crop": true,
+          "masked_to_room_ranges": false
+        }
+      ],
+      "card_assets": {
+        "html": "room_cards/html/03_grand-hall.html",
+        "css": "room_cards/css/03_grand-hall.css",
+        "json": "room_cards/json/03_grand-hall.json",
+        "base_css": "room_cards/css/room-card-base.css",
+        "javascript": "room_cards/js/room-card.js"
+      },
+      "interaction": {
+        "click_action": "Open a modal showing the exact room crop or crops taken directly from the corresponding keep map.",
+        "keyboard_action": "Enter or Space opens the exact room view.",
+        "room_labels_on_floor_svg": false,
+        "room_label_on_gameplay_card": true,
+        "public_card_scope": "Room identity, floor, artwork, grid area, and ordinary visible routes."
+      },
+      "visibility": "public_gameplay_card",
+      "public_description": "Central double-height gathering chamber with the keep’s main staircase.",
+      "visible_routes": [
+        "foyer",
+        "game_room",
+        "dining_room",
+        "sitting_room",
+        "library",
+        "grand_staircase"
+      ],
+      "encounter_data": "server_authoritative"
+    },
+    {
+      "schema_version": "4.4.0",
+      "card_type": "exact_map_room_card",
+      "room_number": 4,
+      "room_id": "game_room",
+      "room_name": "Game Room",
+      "floor": "first_floor",
+      "floor_display_name": "First Floor — Entrance Level",
+      "coordinates": {
+        "feet_per_square": 5,
+        "pixels_per_square": 32,
+        "primary_ranges_inclusive": [
+          [
+            31,
+            39,
+            20,
+            31
+          ]
+        ],
+        "primary_bounds_inclusive": {
+          "min_x": 31,
+          "max_x": 39,
+          "min_y": 20,
+          "max_y": 31,
+          "min_label": "AF21",
+          "max_label": "AN32"
+        },
+        "additional_floor_areas": []
+      },
+      "map_views": [
+        {
+          "id": "game_room_primary",
+          "area_name": "Game Room",
+          "floor": "first_floor",
+          "floor_display_name": "First Floor — Entrance Level",
+          "source_map": "maps/source_png/02_First_Floor_Entrance_Level.png",
+          "crop_image": "room_cards/map_crops/04_game-room.png",
+          "grid_ranges_inclusive": [
+            [
+              31,
+              39,
+              20,
+              31
+            ]
+          ],
+          "grid_bounds_inclusive": {
+            "min_x": 31,
+            "max_x": 39,
+            "min_y": 20,
+            "max_y": 31,
+            "min_label": "AF21",
+            "max_label": "AN32"
+          },
+          "pixel_crop_exclusive": {
+            "left": 992,
+            "top": 640,
+            "right": 1280,
+            "bottom": 1024,
+            "width": 288,
+            "height": 384
+          },
+          "exact_source_crop": true,
+          "masked_to_room_ranges": false
+        }
+      ],
+      "card_assets": {
+        "html": "room_cards/html/04_game-room.html",
+        "css": "room_cards/css/04_game-room.css",
+        "json": "room_cards/json/04_game-room.json",
+        "base_css": "room_cards/css/room-card-base.css",
+        "javascript": "room_cards/js/room-card.js"
+      },
+      "interaction": {
+        "click_action": "Open a modal showing the exact room crop or crops taken directly from the corresponding keep map.",
+        "keyboard_action": "Enter or Space opens the exact room view.",
+        "room_labels_on_floor_svg": false,
+        "room_label_on_gameplay_card": true,
+        "public_card_scope": "Room identity, floor, artwork, grid area, and ordinary visible routes."
+      },
+      "visibility": "public_gameplay_card",
+      "public_description": "Public recreation chamber beside the Grand Hall.",
+      "visible_routes": [
+        "grand_hall"
+      ],
+      "encounter_data": "server_authoritative"
+    },
+    {
+      "schema_version": "4.4.0",
+      "card_type": "exact_map_room_card",
+      "room_number": 5,
+      "room_id": "dining_room",
+      "room_name": "Dining Room",
+      "floor": "first_floor",
+      "floor_display_name": "First Floor — Entrance Level",
+      "coordinates": {
+        "feet_per_square": 5,
+        "pixels_per_square": 32,
+        "primary_ranges_inclusive": [
+          [
+            31,
+            39,
+            9,
+            19
+          ]
+        ],
+        "primary_bounds_inclusive": {
+          "min_x": 31,
+          "max_x": 39,
+          "min_y": 9,
+          "max_y": 19,
+          "min_label": "AF10",
+          "max_label": "AN20"
+        },
+        "additional_floor_areas": []
+      },
+      "map_views": [
+        {
+          "id": "dining_room_primary",
+          "area_name": "Dining Room",
+          "floor": "first_floor",
+          "floor_display_name": "First Floor — Entrance Level",
+          "source_map": "maps/source_png/02_First_Floor_Entrance_Level.png",
+          "crop_image": "room_cards/map_crops/05_dining-room.png",
+          "grid_ranges_inclusive": [
+            [
+              31,
+              39,
+              9,
+              19
+            ]
+          ],
+          "grid_bounds_inclusive": {
+            "min_x": 31,
+            "max_x": 39,
+            "min_y": 9,
+            "max_y": 19,
+            "min_label": "AF10",
+            "max_label": "AN20"
+          },
+          "pixel_crop_exclusive": {
+            "left": 992,
+            "top": 288,
+            "right": 1280,
+            "bottom": 640,
+            "width": 288,
+            "height": 352
+          },
+          "exact_source_crop": true,
+          "masked_to_room_ranges": false
+        }
+      ],
+      "card_assets": {
+        "html": "room_cards/html/05_dining-room.html",
+        "css": "room_cards/css/05_dining-room.css",
+        "json": "room_cards/json/05_dining-room.json",
+        "base_css": "room_cards/css/room-card-base.css",
+        "javascript": "room_cards/js/room-card.js"
+      },
+      "interaction": {
+        "click_action": "Open a modal showing the exact room crop or crops taken directly from the corresponding keep map.",
+        "keyboard_action": "Enter or Space opens the exact room view.",
+        "room_labels_on_floor_svg": false,
+        "room_label_on_gameplay_card": true,
+        "public_card_scope": "Room identity, floor, artwork, grid area, and ordinary visible routes."
+      },
+      "visibility": "public_gameplay_card",
+      "public_description": "Everyday dining chamber connected to the household service wing.",
+      "visible_routes": [
+        "grand_hall",
+        "kitchen",
+        "screens_passage"
+      ],
+      "encounter_data": "server_authoritative"
+    },
+    {
+      "schema_version": "4.4.0",
+      "card_type": "exact_map_room_card",
+      "room_number": 6,
+      "room_id": "kitchen",
+      "room_name": "Kitchen",
+      "floor": "first_floor",
+      "floor_display_name": "First Floor — Entrance Level",
+      "coordinates": {
+        "feet_per_square": 5,
+        "pixels_per_square": 32,
+        "primary_ranges_inclusive": [
+          [
+            31,
+            38,
+            0,
+            8
+          ]
+        ],
+        "primary_bounds_inclusive": {
+          "min_x": 31,
+          "max_x": 38,
+          "min_y": 0,
+          "max_y": 8,
+          "min_label": "AF1",
+          "max_label": "AM9"
+        },
+        "additional_floor_areas": []
+      },
+      "map_views": [
+        {
+          "id": "kitchen_primary",
+          "area_name": "Kitchen",
+          "floor": "first_floor",
+          "floor_display_name": "First Floor — Entrance Level",
+          "source_map": "maps/source_png/02_First_Floor_Entrance_Level.png",
+          "crop_image": "room_cards/map_crops/06_kitchen.png",
+          "grid_ranges_inclusive": [
+            [
+              31,
+              38,
+              0,
+              8
+            ]
+          ],
+          "grid_bounds_inclusive": {
+            "min_x": 31,
+            "max_x": 38,
+            "min_y": 0,
+            "max_y": 8,
+            "min_label": "AF1",
+            "max_label": "AM9"
+          },
+          "pixel_crop_exclusive": {
+            "left": 992,
+            "top": 0,
+            "right": 1248,
+            "bottom": 288,
+            "width": 256,
+            "height": 288
+          },
+          "exact_source_crop": true,
+          "masked_to_room_ranges": false
+        }
+      ],
+      "card_assets": {
+        "html": "room_cards/html/06_kitchen.html",
+        "css": "room_cards/css/06_kitchen.css",
+        "json": "room_cards/json/06_kitchen.json",
+        "base_css": "room_cards/css/room-card-base.css",
+        "javascript": "room_cards/js/room-card.js"
+      },
+      "interaction": {
+        "click_action": "Open a modal showing the exact room crop or crops taken directly from the corresponding keep map.",
+        "keyboard_action": "Enter or Space opens the exact room view.",
+        "room_labels_on_floor_svg": false,
+        "room_label_on_gameplay_card": true,
+        "public_card_scope": "Room identity, floor, artwork, grid area, and ordinary visible routes."
+      },
+      "visibility": "public_gameplay_card",
+      "public_description": "Primary household cooking chamber.",
+      "visible_routes": [
+        "dining_room",
+        "pantry",
+        "screens_passage",
+        "servants_staircase"
+      ],
+      "encounter_data": "server_authoritative"
+    },
+    {
+      "schema_version": "4.4.0",
+      "card_type": "exact_map_room_card",
+      "room_number": 7,
+      "room_id": "pantry",
+      "room_name": "Pantry",
+      "floor": "first_floor",
+      "floor_display_name": "First Floor — Entrance Level",
+      "coordinates": {
+        "feet_per_square": 5,
+        "pixels_per_square": 32,
+        "primary_ranges_inclusive": [
+          [
+            40,
+            47,
+            0,
+            19
+          ]
+        ],
+        "primary_bounds_inclusive": {
+          "min_x": 40,
+          "max_x": 47,
+          "min_y": 0,
+          "max_y": 19,
+          "min_label": "AO1",
+          "max_label": "AV20"
+        },
+        "additional_floor_areas": []
+      },
+      "map_views": [
+        {
+          "id": "pantry_primary",
+          "area_name": "Pantry",
+          "floor": "first_floor",
+          "floor_display_name": "First Floor — Entrance Level",
+          "source_map": "maps/source_png/02_First_Floor_Entrance_Level.png",
+          "crop_image": "room_cards/map_crops/07_pantry.png",
+          "grid_ranges_inclusive": [
+            [
+              40,
+              47,
+              0,
+              19
+            ]
+          ],
+          "grid_bounds_inclusive": {
+            "min_x": 40,
+            "max_x": 47,
+            "min_y": 0,
+            "max_y": 19,
+            "min_label": "AO1",
+            "max_label": "AV20"
+          },
+          "pixel_crop_exclusive": {
+            "left": 1280,
+            "top": 0,
+            "right": 1536,
+            "bottom": 640,
+            "width": 256,
+            "height": 640
+          },
+          "exact_source_crop": true,
+          "masked_to_room_ranges": false
+        }
+      ],
+      "card_assets": {
+        "html": "room_cards/html/07_pantry.html",
+        "css": "room_cards/css/07_pantry.css",
+        "json": "room_cards/json/07_pantry.json",
+        "base_css": "room_cards/css/room-card-base.css",
+        "javascript": "room_cards/js/room-card.js"
+      },
+      "interaction": {
+        "click_action": "Open a modal showing the exact room crop or crops taken directly from the corresponding keep map.",
+        "keyboard_action": "Enter or Space opens the exact room view.",
+        "room_labels_on_floor_svg": false,
+        "room_label_on_gameplay_card": true,
+        "public_card_scope": "Room identity, floor, artwork, grid area, and ordinary visible routes."
+      },
+      "visibility": "public_gameplay_card",
+      "public_description": "Service chamber beside the Kitchen with access to the lower level.",
+      "visible_routes": [
+        "kitchen",
+        "screens_passage",
+        "cellar_staircase"
+      ],
+      "encounter_data": "server_authoritative"
+    },
+    {
+      "schema_version": "4.4.0",
+      "card_type": "exact_map_room_card",
+      "room_number": 8,
+      "room_id": "sitting_room",
+      "room_name": "Sitting Room",
+      "floor": "first_floor",
+      "floor_display_name": "First Floor — Entrance Level",
+      "coordinates": {
+        "feet_per_square": 5,
+        "pixels_per_square": 32,
+        "primary_ranges_inclusive": [
+          [
+            8,
+            15,
+            20,
+            31
+          ]
+        ],
+        "primary_bounds_inclusive": {
+          "min_x": 8,
+          "max_x": 15,
+          "min_y": 20,
+          "max_y": 31,
+          "min_label": "I21",
+          "max_label": "P32"
+        },
+        "additional_floor_areas": []
+      },
+      "map_views": [
+        {
+          "id": "sitting_room_primary",
+          "area_name": "Sitting Room",
+          "floor": "first_floor",
+          "floor_display_name": "First Floor — Entrance Level",
+          "source_map": "maps/source_png/02_First_Floor_Entrance_Level.png",
+          "crop_image": "room_cards/map_crops/08_sitting-room.png",
+          "grid_ranges_inclusive": [
+            [
+              8,
+              15,
+              20,
+              31
+            ]
+          ],
+          "grid_bounds_inclusive": {
+            "min_x": 8,
+            "max_x": 15,
+            "min_y": 20,
+            "max_y": 31,
+            "min_label": "I21",
+            "max_label": "P32"
+          },
+          "pixel_crop_exclusive": {
+            "left": 256,
+            "top": 640,
+            "right": 512,
+            "bottom": 1024,
+            "width": 256,
+            "height": 384
+          },
+          "exact_source_crop": true,
+          "masked_to_room_ranges": false
+        }
+      ],
+      "card_assets": {
+        "html": "room_cards/html/08_sitting-room.html",
+        "css": "room_cards/css/08_sitting-room.css",
+        "json": "room_cards/json/08_sitting-room.json",
+        "base_css": "room_cards/css/room-card-base.css",
+        "javascript": "room_cards/js/room-card.js"
+      },
+      "interaction": {
+        "click_action": "Open a modal showing the exact room crop or crops taken directly from the corresponding keep map.",
+        "keyboard_action": "Enter or Space opens the exact room view.",
+        "room_labels_on_floor_svg": false,
+        "room_label_on_gameplay_card": true,
+        "public_card_scope": "Room identity, floor, artwork, grid area, and ordinary visible routes."
+      },
+      "visibility": "public_gameplay_card",
+      "public_description": "Quiet reception and conversation chamber.",
+      "visible_routes": [
+        "grand_hall",
+        "music_room",
+        "rear_service_corridor"
+      ],
+      "encounter_data": "server_authoritative"
+    },
+    {
+      "schema_version": "4.4.0",
+      "card_type": "exact_map_room_card",
+      "room_number": 9,
+      "room_id": "music_room",
+      "room_name": "Music Room",
+      "floor": "first_floor",
+      "floor_display_name": "First Floor — Entrance Level",
+      "coordinates": {
+        "feet_per_square": 5,
+        "pixels_per_square": 32,
+        "primary_ranges_inclusive": [
+          [
+            0,
+            7,
+            17,
+            24
+          ]
+        ],
+        "primary_bounds_inclusive": {
+          "min_x": 0,
+          "max_x": 7,
+          "min_y": 17,
+          "max_y": 24,
+          "min_label": "A18",
+          "max_label": "H25"
+        },
+        "additional_floor_areas": []
+      },
+      "map_views": [
+        {
+          "id": "music_room_primary",
+          "area_name": "Music Room",
+          "floor": "first_floor",
+          "floor_display_name": "First Floor — Entrance Level",
+          "source_map": "maps/source_png/02_First_Floor_Entrance_Level.png",
+          "crop_image": "room_cards/map_crops/09_music-room.png",
+          "grid_ranges_inclusive": [
+            [
+              0,
+              7,
+              17,
+              24
+            ]
+          ],
+          "grid_bounds_inclusive": {
+            "min_x": 0,
+            "max_x": 7,
+            "min_y": 17,
+            "max_y": 24,
+            "min_label": "A18",
+            "max_label": "H25"
+          },
+          "pixel_crop_exclusive": {
+            "left": 0,
+            "top": 544,
+            "right": 256,
+            "bottom": 800,
+            "width": 256,
+            "height": 256
+          },
+          "exact_source_crop": true,
+          "masked_to_room_ranges": false
+        }
+      ],
+      "card_assets": {
+        "html": "room_cards/html/09_music-room.html",
+        "css": "room_cards/css/09_music-room.css",
+        "json": "room_cards/json/09_music-room.json",
+        "base_css": "room_cards/css/room-card-base.css",
+        "javascript": "room_cards/js/room-card.js"
+      },
+      "interaction": {
+        "click_action": "Open a modal showing the exact room crop or crops taken directly from the corresponding keep map.",
+        "keyboard_action": "Enter or Space opens the exact room view.",
+        "room_labels_on_floor_svg": false,
+        "room_label_on_gameplay_card": true,
+        "public_card_scope": "Room identity, floor, artwork, grid area, and ordinary visible routes."
+      },
+      "visibility": "public_gameplay_card",
+      "public_description": "Performance chamber beside the Sitting Room.",
+      "visible_routes": [
+        "sitting_room",
+        "privy",
+        "rear_service_corridor"
+      ],
+      "encounter_data": "server_authoritative"
+    },
+    {
+      "schema_version": "4.4.0",
+      "card_type": "exact_map_room_card",
+      "room_number": 10,
+      "room_id": "privy",
+      "room_name": "Privy",
+      "floor": "first_floor",
+      "floor_display_name": "First Floor — Entrance Level",
+      "coordinates": {
+        "feet_per_square": 5,
+        "pixels_per_square": 32,
+        "primary_ranges_inclusive": [
+          [
+            0,
+            2,
+            10,
+            16
+          ]
+        ],
+        "primary_bounds_inclusive": {
+          "min_x": 0,
+          "max_x": 2,
+          "min_y": 10,
+          "max_y": 16,
+          "min_label": "A11",
+          "max_label": "C17"
+        },
+        "additional_floor_areas": []
+      },
+      "map_views": [
+        {
+          "id": "privy_primary",
+          "area_name": "Privy",
+          "floor": "first_floor",
+          "floor_display_name": "First Floor — Entrance Level",
+          "source_map": "maps/source_png/02_First_Floor_Entrance_Level.png",
+          "crop_image": "room_cards/map_crops/10_privy.png",
+          "grid_ranges_inclusive": [
+            [
+              0,
+              2,
+              10,
+              16
+            ]
+          ],
+          "grid_bounds_inclusive": {
+            "min_x": 0,
+            "max_x": 2,
+            "min_y": 10,
+            "max_y": 16,
+            "min_label": "A11",
+            "max_label": "C17"
+          },
+          "pixel_crop_exclusive": {
+            "left": 0,
+            "top": 320,
+            "right": 96,
+            "bottom": 544,
+            "width": 96,
+            "height": 224
+          },
+          "exact_source_crop": true,
+          "masked_to_room_ranges": false
+        }
+      ],
+      "card_assets": {
+        "html": "room_cards/html/10_privy.html",
+        "css": "room_cards/css/10_privy.css",
+        "json": "room_cards/json/10_privy.json",
+        "base_css": "room_cards/css/room-card-base.css",
+        "javascript": "room_cards/js/room-card.js"
+      },
+      "interaction": {
+        "click_action": "Open a modal showing the exact room crop or crops taken directly from the corresponding keep map.",
+        "keyboard_action": "Enter or Space opens the exact room view.",
+        "room_labels_on_floor_svg": false,
+        "room_label_on_gameplay_card": true,
+        "public_card_scope": "Room identity, floor, artwork, grid area, and ordinary visible routes."
+      },
+      "visibility": "public_gameplay_card",
+      "public_description": "Exterior-wall garderobe connected to the Music Room.",
+      "visible_routes": [
+        "music_room",
+        "rear_service_corridor"
+      ],
+      "encounter_data": "server_authoritative"
+    },
+    {
+      "schema_version": "4.4.0",
+      "card_type": "exact_map_room_card",
+      "room_number": 11,
+      "room_id": "library",
+      "room_name": "Library",
+      "floor": "first_floor",
+      "floor_display_name": "First Floor — Entrance Level",
+      "coordinates": {
+        "feet_per_square": 5,
+        "pixels_per_square": 32,
+        "primary_ranges_inclusive": [
+          [
+            8,
+            15,
+            10,
+            19
+          ]
+        ],
+        "primary_bounds_inclusive": {
+          "min_x": 8,
+          "max_x": 15,
+          "min_y": 10,
+          "max_y": 19,
+          "min_label": "I11",
+          "max_label": "P20"
+        },
+        "additional_floor_areas": [
+          {
+            "floor": "second_floor",
+            "ranges": [
+              [
+                8,
+                15,
+                21,
+                31
+              ]
+            ],
+            "area_name": "Upper Gallery",
+            "bounds": {
+              "min_x": 8,
+              "max_x": 15,
+              "min_y": 21,
+              "max_y": 31,
+              "min_label": "I22",
+              "max_label": "P32"
+            },
+            "coordinates": [
+              {
+                "floor": "second_floor",
+                "x": 8,
+                "y": 21,
+                "label": "I22",
+                "feet": {
+                  "x": 40,
+                  "y": 105
+                }
+              },
+              {
+                "floor": "second_floor",
+                "x": 9,
+                "y": 21,
+                "label": "J22",
+                "feet": {
+                  "x": 45,
+                  "y": 105
+                }
+              },
+              {
+                "floor": "second_floor",
+                "x": 10,
+                "y": 21,
+                "label": "K22",
+                "feet": {
+                  "x": 50,
+                  "y": 105
+                }
+              },
+              {
+                "floor": "second_floor",
+                "x": 11,
+                "y": 21,
+                "label": "L22",
+                "feet": {
+                  "x": 55,
+                  "y": 105
+                }
+              },
+              {
+                "floor": "second_floor",
+                "x": 12,
+                "y": 21,
+                "label": "M22",
+                "feet": {
+                  "x": 60,
+                  "y": 105
+                }
+              },
+              {
+                "floor": "second_floor",
+                "x": 13,
+                "y": 21,
+                "label": "N22",
+                "feet": {
+                  "x": 65,
+                  "y": 105
+                }
+              },
+              {
+                "floor": "second_floor",
+                "x": 14,
+                "y": 21,
+                "label": "O22",
+                "feet": {
+                  "x": 70,
+                  "y": 105
+                }
+              },
+              {
+                "floor": "second_floor",
+                "x": 15,
+                "y": 21,
+                "label": "P22",
+                "feet": {
+                  "x": 75,
+                  "y": 105
+                }
+              },
+              {
+                "floor": "second_floor",
+                "x": 8,
+                "y": 22,
+                "label": "I23",
+                "feet": {
+                  "x": 40,
+                  "y": 110
+                }
+              },
+              {
+                "floor": "second_floor",
+                "x": 9,
+                "y": 22,
+                "label": "J23",
+                "feet": {
+                  "x": 45,
+                  "y": 110
+                }
+              },
+              {
+                "floor": "second_floor",
+                "x": 10,
+                "y": 22,
+                "label": "K23",
+                "feet": {
+                  "x": 50,
+                  "y": 110
+                }
+              },
+              {
+                "floor": "second_floor",
+                "x": 11,
+                "y": 22,
+                "label": "L23",
+                "feet": {
+                  "x": 55,
+                  "y": 110
+                }
+              },
+              {
+                "floor": "second_floor",
+                "x": 12,
+                "y": 22,
+                "label": "M23",
+                "feet": {
+                  "x": 60,
+                  "y": 110
+                }
+              },
+              {
+                "floor": "second_floor",
+                "x": 13,
+                "y": 22,
+                "label": "N23",
+                "feet": {
+                  "x": 65,
+                  "y": 110
+                }
+              },
+              {
+                "floor": "second_floor",
+                "x": 14,
+                "y": 22,
+                "label": "O23",
+                "feet": {
+                  "x": 70,
+                  "y": 110
+                }
+              },
+              {
+                "floor": "second_floor",
+                "x": 15,
+                "y": 22,
+                "label": "P23",
+                "feet": {
+                  "x": 75,
+                  "y": 110
+                }
+              },
+              {
+                "floor": "second_floor",
+                "x": 8,
+                "y": 23,
+                "label": "I24",
+                "feet": {
+                  "x": 40,
+                  "y": 115
+                }
+              },
+              {
+                "floor": "second_floor",
+                "x": 9,
+                "y": 23,
+                "label": "J24",
+                "feet": {
+                  "x": 45,
+                  "y": 115
+                }
+              },
+              {
+                "floor": "second_floor",
+                "x": 10,
+                "y": 23,
+                "label": "K24",
+                "feet": {
+                  "x": 50,
+                  "y": 115
+                }
+              },
+              {
+                "floor": "second_floor",
+                "x": 11,
+                "y": 23,
+                "label": "L24",
+                "feet": {
+                  "x": 55,
+                  "y": 115
+                }
+              },
+              {
+                "floor": "second_floor",
+                "x": 12,
+                "y": 23,
+                "label": "M24",
+                "feet": {
+                  "x": 60,
+                  "y": 115
+                }
+              },
+              {
+                "floor": "second_floor",
+                "x": 13,
+                "y": 23,
+                "label": "N24",
+                "feet": {
+                  "x": 65,
+                  "y": 115
+                }
+              },
+              {
+                "floor": "second_floor",
+                "x": 14,
+                "y": 23,
+                "label": "O24",
+                "feet": {
+                  "x": 70,
+                  "y": 115
+                }
+              },
+              {
+                "floor": "second_floor",
+                "x": 15,
+                "y": 23,
+                "label": "P24",
+                "feet": {
+                  "x": 75,
+                  "y": 115
+                }
+              },
+              {
+                "floor": "second_floor",
+                "x": 8,
+                "y": 24,
+                "label": "I25",
+                "feet": {
+                  "x": 40,
+                  "y": 120
+                }
+              },
+              {
+                "floor": "second_floor",
+                "x": 9,
+                "y": 24,
+                "label": "J25",
+                "feet": {
+                  "x": 45,
+                  "y": 120
+                }
+              },
+              {
+                "floor": "second_floor",
+                "x": 10,
+                "y": 24,
+                "label": "K25",
+                "feet": {
+                  "x": 50,
+                  "y": 120
+                }
+              },
+              {
+                "floor": "second_floor",
+                "x": 11,
+                "y": 24,
+                "label": "L25",
+                "feet": {
+                  "x": 55,
+                  "y": 120
+                }
+              },
+              {
+                "floor": "second_floor",
+                "x": 12,
+                "y": 24,
+                "label": "M25",
+                "feet": {
+                  "x": 60,
+                  "y": 120
+                }
+              },
+              {
+                "floor": "second_floor",
+                "x": 13,
+                "y": 24,
+                "label": "N25",
+                "feet": {
+                  "x": 65,
+                  "y": 120
+                }
+              },
+              {
+                "floor": "second_floor",
+                "x": 14,
+                "y": 24,
+                "label": "O25",
+                "feet": {
+                  "x": 70,
+                  "y": 120
+                }
+              },
+              {
+                "floor": "second_floor",
+                "x": 15,
+                "y": 24,
+                "label": "P25",
+                "feet": {
+                  "x": 75,
+                  "y": 120
+                }
+              },
+              {
+                "floor": "second_floor",
+                "x": 8,
+                "y": 25,
+                "label": "I26",
+                "feet": {
+                  "x": 40,
+                  "y": 125
+                }
+              },
+              {
+                "floor": "second_floor",
+                "x": 9,
+                "y": 25,
+                "label": "J26",
+                "feet": {
+                  "x": 45,
+                  "y": 125
+                }
+              },
+              {
+                "floor": "second_floor",
+                "x": 10,
+                "y": 25,
+                "label": "K26",
+                "feet": {
+                  "x": 50,
+                  "y": 125
+                }
+              },
+              {
+                "floor": "second_floor",
+                "x": 11,
+                "y": 25,
+                "label": "L26",
+                "feet": {
+                  "x": 55,
+                  "y": 125
+                }
+              },
+              {
+                "floor": "second_floor",
+                "x": 12,
+                "y": 25,
+                "label": "M26",
+                "feet": {
+                  "x": 60,
+                  "y": 125
+                }
+              },
+              {
+                "floor": "second_floor",
+                "x": 13,
+                "y": 25,
+                "label": "N26",
+                "feet": {
+                  "x": 65,
+                  "y": 125
+                }
+              },
+              {
+                "floor": "second_floor",
+                "x": 14,
+                "y": 25,
+                "label": "O26",
+                "feet": {
+                  "x": 70,
+                  "y": 125
+                }
+              },
+              {
+                "floor": "second_floor",
+                "x": 15,
+                "y": 25,
+                "label": "P26",
+                "feet": {
+                  "x": 75,
+                  "y": 125
+                }
+              },
+              {
+                "floor": "second_floor",
+                "x": 8,
+                "y": 26,
+                "label": "I27",
+                "feet": {
+                  "x": 40,
+                  "y": 130
+                }
+              },
+              {
+                "floor": "second_floor",
+                "x": 9,
+                "y": 26,
+                "label": "J27",
+                "feet": {
+                  "x": 45,
+                  "y": 130
+                }
+              },
+              {
+                "floor": "second_floor",
+                "x": 10,
+                "y": 26,
+                "label": "K27",
+                "feet": {
+                  "x": 50,
+                  "y": 130
+                }
+              },
+              {
+                "floor": "second_floor",
+                "x": 11,
+                "y": 26,
+                "label": "L27",
+                "feet": {
+                  "x": 55,
+                  "y": 130
+                }
+              },
+              {
+                "floor": "second_floor",
+                "x": 12,
+                "y": 26,
+                "label": "M27",
+                "feet": {
+                  "x": 60,
+                  "y": 130
+                }
+              },
+              {
+                "floor": "second_floor",
+                "x": 13,
+                "y": 26,
+                "label": "N27",
+                "feet": {
+                  "x": 65,
+                  "y": 130
+                }
+              },
+              {
+                "floor": "second_floor",
+                "x": 14,
+                "y": 26,
+                "label": "O27",
+                "feet": {
+                  "x": 70,
+                  "y": 130
+                }
+              },
+              {
+                "floor": "second_floor",
+                "x": 15,
+                "y": 26,
+                "label": "P27",
+                "feet": {
+                  "x": 75,
+                  "y": 130
+                }
+              },
+              {
+                "floor": "second_floor",
+                "x": 8,
+                "y": 27,
+                "label": "I28",
+                "feet": {
+                  "x": 40,
+                  "y": 135
+                }
+              },
+              {
+                "floor": "second_floor",
+                "x": 9,
+                "y": 27,
+                "label": "J28",
+                "feet": {
+                  "x": 45,
+                  "y": 135
+                }
+              },
+              {
+                "floor": "second_floor",
+                "x": 10,
+                "y": 27,
+                "label": "K28",
+                "feet": {
+                  "x": 50,
+                  "y": 135
+                }
+              },
+              {
+                "floor": "second_floor",
+                "x": 11,
+                "y": 27,
+                "label": "L28",
+                "feet": {
+                  "x": 55,
+                  "y": 135
+                }
+              },
+              {
+                "floor": "second_floor",
+                "x": 12,
+                "y": 27,
+                "label": "M28",
+                "feet": {
+                  "x": 60,
+                  "y": 135
+                }
+              },
+              {
+                "floor": "second_floor",
+                "x": 13,
+                "y": 27,
+                "label": "N28",
+                "feet": {
+                  "x": 65,
+                  "y": 135
+                }
+              },
+              {
+                "floor": "second_floor",
+                "x": 14,
+                "y": 27,
+                "label": "O28",
+                "feet": {
+                  "x": 70,
+                  "y": 135
+                }
+              },
+              {
+                "floor": "second_floor",
+                "x": 15,
+                "y": 27,
+                "label": "P28",
+                "feet": {
+                  "x": 75,
+                  "y": 135
+                }
+              },
+              {
+                "floor": "second_floor",
+                "x": 8,
+                "y": 28,
+                "label": "I29",
+                "feet": {
+                  "x": 40,
+                  "y": 140
+                }
+              },
+              {
+                "floor": "second_floor",
+                "x": 9,
+                "y": 28,
+                "label": "J29",
+                "feet": {
+                  "x": 45,
+                  "y": 140
+                }
+              },
+              {
+                "floor": "second_floor",
+                "x": 10,
+                "y": 28,
+                "label": "K29",
+                "feet": {
+                  "x": 50,
+                  "y": 140
+                }
+              },
+              {
+                "floor": "second_floor",
+                "x": 11,
+                "y": 28,
+                "label": "L29",
+                "feet": {
+                  "x": 55,
+                  "y": 140
+                }
+              },
+              {
+                "floor": "second_floor",
+                "x": 12,
+                "y": 28,
+                "label": "M29",
+                "feet": {
+                  "x": 60,
+                  "y": 140
+                }
+              },
+              {
+                "floor": "second_floor",
+                "x": 13,
+                "y": 28,
+                "label": "N29",
+                "feet": {
+                  "x": 65,
+                  "y": 140
+                }
+              },
+              {
+                "floor": "second_floor",
+                "x": 14,
+                "y": 28,
+                "label": "O29",
+                "feet": {
+                  "x": 70,
+                  "y": 140
+                }
+              },
+              {
+                "floor": "second_floor",
+                "x": 15,
+                "y": 28,
+                "label": "P29",
+                "feet": {
+                  "x": 75,
+                  "y": 140
+                }
+              },
+              {
+                "floor": "second_floor",
+                "x": 8,
+                "y": 29,
+                "label": "I30",
+                "feet": {
+                  "x": 40,
+                  "y": 145
+                }
+              },
+              {
+                "floor": "second_floor",
+                "x": 9,
+                "y": 29,
+                "label": "J30",
+                "feet": {
+                  "x": 45,
+                  "y": 145
+                }
+              },
+              {
+                "floor": "second_floor",
+                "x": 10,
+                "y": 29,
+                "label": "K30",
+                "feet": {
+                  "x": 50,
+                  "y": 145
+                }
+              },
+              {
+                "floor": "second_floor",
+                "x": 11,
+                "y": 29,
+                "label": "L30",
+                "feet": {
+                  "x": 55,
+                  "y": 145
+                }
+              },
+              {
+                "floor": "second_floor",
+                "x": 12,
+                "y": 29,
+                "label": "M30",
+                "feet": {
+                  "x": 60,
+                  "y": 145
+                }
+              },
+              {
+                "floor": "second_floor",
+                "x": 13,
+                "y": 29,
+                "label": "N30",
+                "feet": {
+                  "x": 65,
+                  "y": 145
+                }
+              },
+              {
+                "floor": "second_floor",
+                "x": 14,
+                "y": 29,
+                "label": "O30",
+                "feet": {
+                  "x": 70,
+                  "y": 145
+                }
+              },
+              {
+                "floor": "second_floor",
+                "x": 15,
+                "y": 29,
+                "label": "P30",
+                "feet": {
+                  "x": 75,
+                  "y": 145
+                }
+              },
+              {
+                "floor": "second_floor",
+                "x": 8,
+                "y": 30,
+                "label": "I31",
+                "feet": {
+                  "x": 40,
+                  "y": 150
+                }
+              },
+              {
+                "floor": "second_floor",
+                "x": 9,
+                "y": 30,
+                "label": "J31",
+                "feet": {
+                  "x": 45,
+                  "y": 150
+                }
+              },
+              {
+                "floor": "second_floor",
+                "x": 10,
+                "y": 30,
+                "label": "K31",
+                "feet": {
+                  "x": 50,
+                  "y": 150
+                }
+              },
+              {
+                "floor": "second_floor",
+                "x": 11,
+                "y": 30,
+                "label": "L31",
+                "feet": {
+                  "x": 55,
+                  "y": 150
+                }
+              },
+              {
+                "floor": "second_floor",
+                "x": 12,
+                "y": 30,
+                "label": "M31",
+                "feet": {
+                  "x": 60,
+                  "y": 150
+                }
+              },
+              {
+                "floor": "second_floor",
+                "x": 13,
+                "y": 30,
+                "label": "N31",
+                "feet": {
+                  "x": 65,
+                  "y": 150
+                }
+              },
+              {
+                "floor": "second_floor",
+                "x": 14,
+                "y": 30,
+                "label": "O31",
+                "feet": {
+                  "x": 70,
+                  "y": 150
+                }
+              },
+              {
+                "floor": "second_floor",
+                "x": 15,
+                "y": 30,
+                "label": "P31",
+                "feet": {
+                  "x": 75,
+                  "y": 150
+                }
+              },
+              {
+                "floor": "second_floor",
+                "x": 8,
+                "y": 31,
+                "label": "I32",
+                "feet": {
+                  "x": 40,
+                  "y": 155
+                }
+              },
+              {
+                "floor": "second_floor",
+                "x": 9,
+                "y": 31,
+                "label": "J32",
+                "feet": {
+                  "x": 45,
+                  "y": 155
+                }
+              },
+              {
+                "floor": "second_floor",
+                "x": 10,
+                "y": 31,
+                "label": "K32",
+                "feet": {
+                  "x": 50,
+                  "y": 155
+                }
+              },
+              {
+                "floor": "second_floor",
+                "x": 11,
+                "y": 31,
+                "label": "L32",
+                "feet": {
+                  "x": 55,
+                  "y": 155
+                }
+              },
+              {
+                "floor": "second_floor",
+                "x": 12,
+                "y": 31,
+                "label": "M32",
+                "feet": {
+                  "x": 60,
+                  "y": 155
+                }
+              },
+              {
+                "floor": "second_floor",
+                "x": 13,
+                "y": 31,
+                "label": "N32",
+                "feet": {
+                  "x": 65,
+                  "y": 155
+                }
+              },
+              {
+                "floor": "second_floor",
+                "x": 14,
+                "y": 31,
+                "label": "O32",
+                "feet": {
+                  "x": 70,
+                  "y": 155
+                }
+              },
+              {
+                "floor": "second_floor",
+                "x": 15,
+                "y": 31,
+                "label": "P32",
+                "feet": {
+                  "x": 75,
+                  "y": 155
+                }
+              }
+            ],
+            "area_cells": 88,
+            "area_square_feet": 2200
+          }
+        ]
+      },
+      "map_views": [
+        {
+          "id": "library_primary",
+          "area_name": "Main Room",
+          "floor": "first_floor",
+          "floor_display_name": "First Floor — Entrance Level",
+          "source_map": "maps/source_png/02_First_Floor_Entrance_Level.png",
+          "crop_image": "room_cards/map_crops/11_library_lower.png",
+          "grid_ranges_inclusive": [
+            [
+              8,
+              15,
+              10,
+              19
+            ]
+          ],
+          "grid_bounds_inclusive": {
+            "min_x": 8,
+            "max_x": 15,
+            "min_y": 10,
+            "max_y": 19,
+            "min_label": "I11",
+            "max_label": "P20"
+          },
+          "pixel_crop_exclusive": {
+            "left": 256,
+            "top": 320,
+            "right": 512,
+            "bottom": 640,
+            "width": 256,
+            "height": 320
+          },
+          "exact_source_crop": true,
+          "masked_to_room_ranges": false
+        },
+        {
+          "id": "library_upper_gallery",
+          "area_name": "Upper Gallery",
+          "floor": "second_floor",
+          "floor_display_name": "Second Floor — Guest and Private Level",
+          "source_map": "maps/source_png/03_Second_Floor_Guest_Private_Level.png",
+          "crop_image": "room_cards/map_crops/11_library_upper.png",
+          "grid_ranges_inclusive": [
+            [
+              8,
+              15,
+              21,
+              31
+            ]
+          ],
+          "grid_bounds_inclusive": {
+            "min_x": 8,
+            "max_x": 15,
+            "min_y": 21,
+            "max_y": 31,
+            "min_label": "I22",
+            "max_label": "P32"
+          },
+          "pixel_crop_exclusive": {
+            "left": 256,
+            "top": 672,
+            "right": 512,
+            "bottom": 1024,
+            "width": 256,
+            "height": 352
+          },
+          "exact_source_crop": true,
+          "masked_to_room_ranges": false
+        }
+      ],
+      "card_assets": {
+        "html": "room_cards/html/11_library.html",
+        "css": "room_cards/css/11_library.css",
+        "json": "room_cards/json/11_library.json",
+        "base_css": "room_cards/css/room-card-base.css",
+        "javascript": "room_cards/js/room-card.js"
+      },
+      "interaction": {
+        "click_action": "Open a modal showing the exact room crop or crops taken directly from the corresponding keep map.",
+        "keyboard_action": "Enter or Space opens the exact room view.",
+        "room_labels_on_floor_svg": false,
+        "room_label_on_gameplay_card": true,
+        "public_card_scope": "Room identity, floor, artwork, grid area, and ordinary visible routes."
+      },
+      "visibility": "public_gameplay_card",
+      "public_description": "Two-level library with a lower room and upper gallery.",
+      "visible_routes": [
+        "grand_hall",
+        "first_floor_solar",
+        "library_spiral_stair",
+        "rear_service_corridor"
+      ],
+      "encounter_data": "server_authoritative"
+    },
+    {
+      "schema_version": "4.4.0",
+      "card_type": "exact_map_room_card",
+      "room_number": 12,
+      "room_id": "first_floor_solar",
+      "room_name": "1st Floor Solar",
+      "floor": "first_floor",
+      "floor_display_name": "First Floor — Entrance Level",
+      "coordinates": {
+        "feet_per_square": 5,
+        "pixels_per_square": 32,
+        "primary_ranges_inclusive": [
+          [
+            8,
+            12,
+            0,
+            8
+          ]
+        ],
+        "primary_bounds_inclusive": {
+          "min_x": 8,
+          "max_x": 12,
+          "min_y": 0,
+          "max_y": 8,
+          "min_label": "I1",
+          "max_label": "M9"
+        },
+        "additional_floor_areas": []
+      },
+      "map_views": [
+        {
+          "id": "first_floor_solar_primary",
+          "area_name": "1st Floor Solar",
+          "floor": "first_floor",
+          "floor_display_name": "First Floor — Entrance Level",
+          "source_map": "maps/source_png/02_First_Floor_Entrance_Level.png",
+          "crop_image": "room_cards/map_crops/12_first-floor-solar.png",
+          "grid_ranges_inclusive": [
+            [
+              8,
+              12,
+              0,
+              8
+            ]
+          ],
+          "grid_bounds_inclusive": {
+            "min_x": 8,
+            "max_x": 12,
+            "min_y": 0,
+            "max_y": 8,
+            "min_label": "I1",
+            "max_label": "M9"
+          },
+          "pixel_crop_exclusive": {
+            "left": 256,
+            "top": 0,
+            "right": 416,
+            "bottom": 288,
+            "width": 160,
+            "height": 288
+          },
+          "exact_source_crop": true,
+          "masked_to_room_ranges": false
+        }
+      ],
+      "card_assets": {
+        "html": "room_cards/html/12_first-floor-solar.html",
+        "css": "room_cards/css/12_first-floor-solar.css",
+        "json": "room_cards/json/12_first-floor-solar.json",
+        "base_css": "room_cards/css/room-card-base.css",
+        "javascript": "room_cards/js/room-card.js"
+      },
+      "interaction": {
+        "click_action": "Open a modal showing the exact room crop or crops taken directly from the corresponding keep map.",
+        "keyboard_action": "Enter or Space opens the exact room view.",
+        "room_labels_on_floor_svg": false,
+        "room_label_on_gameplay_card": true,
+        "public_card_scope": "Room identity, floor, artwork, grid area, and ordinary visible routes."
+      },
+      "visibility": "public_gameplay_card",
+      "public_description": "Private first-floor withdrawing and planning chamber.",
+      "visible_routes": [
+        "library",
+        "alchemists_quarters",
+        "alchemists_study",
+        "rear_service_corridor"
+      ],
+      "encounter_data": "server_authoritative"
+    },
+    {
+      "schema_version": "4.4.0",
+      "card_type": "exact_map_room_card",
+      "room_number": 13,
+      "room_id": "alchemists_quarters",
+      "room_name": "Alchemist’s Quarters",
+      "floor": "first_floor",
+      "floor_display_name": "First Floor — Entrance Level",
+      "coordinates": {
+        "feet_per_square": 5,
+        "pixels_per_square": 32,
+        "primary_ranges_inclusive": [
+          [
+            0,
+            7,
+            0,
+            9
+          ]
+        ],
+        "primary_bounds_inclusive": {
+          "min_x": 0,
+          "max_x": 7,
+          "min_y": 0,
+          "max_y": 9,
+          "min_label": "A1",
+          "max_label": "H10"
+        },
+        "additional_floor_areas": []
+      },
+      "map_views": [
+        {
+          "id": "alchemists_quarters_primary",
+          "area_name": "Alchemist’s Quarters",
+          "floor": "first_floor",
+          "floor_display_name": "First Floor — Entrance Level",
+          "source_map": "maps/source_png/02_First_Floor_Entrance_Level.png",
+          "crop_image": "room_cards/map_crops/13_alchemists-quarters.png",
+          "grid_ranges_inclusive": [
+            [
+              0,
+              7,
+              0,
+              9
+            ]
+          ],
+          "grid_bounds_inclusive": {
+            "min_x": 0,
+            "max_x": 7,
+            "min_y": 0,
+            "max_y": 9,
+            "min_label": "A1",
+            "max_label": "H10"
+          },
+          "pixel_crop_exclusive": {
+            "left": 0,
+            "top": 0,
+            "right": 256,
+            "bottom": 320,
+            "width": 256,
+            "height": 320
+          },
+          "exact_source_crop": true,
+          "masked_to_room_ranges": false
+        }
+      ],
+      "card_assets": {
+        "html": "room_cards/html/13_alchemists-quarters.html",
+        "css": "room_cards/css/13_alchemists-quarters.css",
+        "json": "room_cards/json/13_alchemists-quarters.json",
+        "base_css": "room_cards/css/room-card-base.css",
+        "javascript": "room_cards/js/room-card.js"
+      },
+      "interaction": {
+        "click_action": "Open a modal showing the exact room crop or crops taken directly from the corresponding keep map.",
+        "keyboard_action": "Enter or Space opens the exact room view.",
+        "room_labels_on_floor_svg": false,
+        "room_label_on_gameplay_card": true,
+        "public_card_scope": "Room identity, floor, artwork, grid area, and ordinary visible routes."
+      },
+      "visibility": "public_gameplay_card",
+      "public_description": "Private bedchamber adjoining the Solar and Study.",
+      "visible_routes": [
+        "first_floor_solar",
+        "rear_service_corridor"
+      ],
+      "encounter_data": "server_authoritative"
+    },
+    {
+      "schema_version": "4.4.0",
+      "card_type": "exact_map_room_card",
+      "room_number": 14,
+      "room_id": "alchemists_study",
+      "room_name": "Alchemist’s Study",
+      "floor": "first_floor",
+      "floor_display_name": "First Floor — Entrance Level",
+      "coordinates": {
+        "feet_per_square": 5,
+        "pixels_per_square": 32,
+        "primary_ranges_inclusive": [
+          [
+            13,
+            20,
+            0,
+            8
+          ]
+        ],
+        "primary_bounds_inclusive": {
+          "min_x": 13,
+          "max_x": 20,
+          "min_y": 0,
+          "max_y": 8,
+          "min_label": "N1",
+          "max_label": "U9"
+        },
+        "additional_floor_areas": []
+      },
+      "map_views": [
+        {
+          "id": "alchemists_study_primary",
+          "area_name": "Alchemist’s Study",
+          "floor": "first_floor",
+          "floor_display_name": "First Floor — Entrance Level",
+          "source_map": "maps/source_png/02_First_Floor_Entrance_Level.png",
+          "crop_image": "room_cards/map_crops/14_alchemists-study.png",
+          "grid_ranges_inclusive": [
+            [
+              13,
+              20,
+              0,
+              8
+            ]
+          ],
+          "grid_bounds_inclusive": {
+            "min_x": 13,
+            "max_x": 20,
+            "min_y": 0,
+            "max_y": 8,
+            "min_label": "N1",
+            "max_label": "U9"
+          },
+          "pixel_crop_exclusive": {
+            "left": 416,
+            "top": 0,
+            "right": 672,
+            "bottom": 288,
+            "width": 256,
+            "height": 288
+          },
+          "exact_source_crop": true,
+          "masked_to_room_ranges": false
+        }
+      ],
+      "card_assets": {
+        "html": "room_cards/html/14_alchemists-study.html",
+        "css": "room_cards/css/14_alchemists-study.css",
+        "json": "room_cards/json/14_alchemists-study.json",
+        "base_css": "room_cards/css/room-card-base.css",
+        "javascript": "room_cards/js/room-card.js"
+      },
+      "interaction": {
+        "click_action": "Open a modal showing the exact room crop or crops taken directly from the corresponding keep map.",
+        "keyboard_action": "Enter or Space opens the exact room view.",
+        "room_labels_on_floor_svg": false,
+        "room_label_on_gameplay_card": true,
+        "public_card_scope": "Room identity, floor, artwork, grid area, and ordinary visible routes."
+      },
+      "visibility": "public_gameplay_card",
+      "public_description": "Laboratory and research chamber.",
+      "visible_routes": [
+        "alchemists_quarters",
+        "armory",
+        "rear_service_corridor"
+      ],
+      "encounter_data": "server_authoritative"
+    },
+    {
+      "schema_version": "4.4.0",
+      "card_type": "exact_map_room_card",
+      "room_number": 15,
+      "room_id": "armory",
+      "room_name": "Armory",
+      "floor": "first_floor",
+      "floor_display_name": "First Floor — Entrance Level",
+      "coordinates": {
+        "feet_per_square": 5,
+        "pixels_per_square": 32,
+        "primary_ranges_inclusive": [
+          [
+            21,
+            30,
+            0,
+            8
+          ]
+        ],
+        "primary_bounds_inclusive": {
+          "min_x": 21,
+          "max_x": 30,
+          "min_y": 0,
+          "max_y": 8,
+          "min_label": "V1",
+          "max_label": "AE9"
+        },
+        "additional_floor_areas": []
+      },
+      "map_views": [
+        {
+          "id": "armory_primary",
+          "area_name": "Armory",
+          "floor": "first_floor",
+          "floor_display_name": "First Floor — Entrance Level",
+          "source_map": "maps/source_png/02_First_Floor_Entrance_Level.png",
+          "crop_image": "room_cards/map_crops/15_armory.png",
+          "grid_ranges_inclusive": [
+            [
+              21,
+              30,
+              0,
+              8
+            ]
+          ],
+          "grid_bounds_inclusive": {
+            "min_x": 21,
+            "max_x": 30,
+            "min_y": 0,
+            "max_y": 8,
+            "min_label": "V1",
+            "max_label": "AE9"
+          },
+          "pixel_crop_exclusive": {
+            "left": 672,
+            "top": 0,
+            "right": 992,
+            "bottom": 288,
+            "width": 320,
+            "height": 288
+          },
+          "exact_source_crop": true,
+          "masked_to_room_ranges": false
+        }
+      ],
+      "card_assets": {
+        "html": "room_cards/html/15_armory.html",
+        "css": "room_cards/css/15_armory.css",
+        "json": "room_cards/json/15_armory.json",
+        "base_css": "room_cards/css/room-card-base.css",
+        "javascript": "room_cards/js/room-card.js"
+      },
+      "interaction": {
+        "click_action": "Open a modal showing the exact room crop or crops taken directly from the corresponding keep map.",
+        "keyboard_action": "Enter or Space opens the exact room view.",
+        "room_labels_on_floor_svg": false,
+        "room_label_on_gameplay_card": true,
+        "public_card_scope": "Room identity, floor, artwork, grid area, and ordinary visible routes."
+      },
+      "visibility": "public_gameplay_card",
+      "public_description": "Fortified defensive chamber in the rear wing.",
+      "visible_routes": [
+        "alchemists_study",
+        "wall_passage",
+        "rear_service_corridor"
+      ],
+      "encounter_data": "server_authoritative"
+    },
+    {
+      "schema_version": "4.4.0",
+      "card_type": "exact_map_room_card",
+      "room_number": 16,
+      "room_id": "main_guest_quarters",
+      "room_name": "Main Guest Quarters",
+      "floor": "second_floor",
+      "floor_display_name": "Second Floor — Guest and Private Level",
+      "coordinates": {
+        "feet_per_square": 5,
+        "pixels_per_square": 32,
+        "primary_ranges_inclusive": [
+          [
+            38,
+            47,
+            10,
+            21
+          ]
+        ],
+        "primary_bounds_inclusive": {
+          "min_x": 38,
+          "max_x": 47,
+          "min_y": 10,
+          "max_y": 21,
+          "min_label": "AM11",
+          "max_label": "AV22"
+        },
+        "additional_floor_areas": []
+      },
+      "map_views": [
+        {
+          "id": "main_guest_quarters_primary",
+          "area_name": "Main Guest Quarters",
+          "floor": "second_floor",
+          "floor_display_name": "Second Floor — Guest and Private Level",
+          "source_map": "maps/source_png/03_Second_Floor_Guest_Private_Level.png",
+          "crop_image": "room_cards/map_crops/16_main-guest-quarters.png",
+          "grid_ranges_inclusive": [
+            [
+              38,
+              47,
+              10,
+              21
+            ]
+          ],
+          "grid_bounds_inclusive": {
+            "min_x": 38,
+            "max_x": 47,
+            "min_y": 10,
+            "max_y": 21,
+            "min_label": "AM11",
+            "max_label": "AV22"
+          },
+          "pixel_crop_exclusive": {
+            "left": 1216,
+            "top": 320,
+            "right": 1536,
+            "bottom": 704,
+            "width": 320,
+            "height": 384
+          },
+          "exact_source_crop": true,
+          "masked_to_room_ranges": false
+        }
+      ],
+      "card_assets": {
+        "html": "room_cards/html/16_main-guest-quarters.html",
+        "css": "room_cards/css/16_main-guest-quarters.css",
+        "json": "room_cards/json/16_main-guest-quarters.json",
+        "base_css": "room_cards/css/room-card-base.css",
+        "javascript": "room_cards/js/room-card.js"
+      },
+      "interaction": {
+        "click_action": "Open a modal showing the exact room crop or crops taken directly from the corresponding keep map.",
+        "keyboard_action": "Enter or Space opens the exact room view.",
+        "room_labels_on_floor_svg": false,
+        "room_label_on_gameplay_card": true,
+        "public_card_scope": "Room identity, floor, artwork, grid area, and ordinary visible routes."
+      },
+      "visibility": "public_gameplay_card",
+      "public_description": "Primary upper guest suite.",
+      "visible_routes": [
+        "right_upper_corridor",
+        "den",
+        "second_floor_service_corridor"
+      ],
+      "encounter_data": "server_authoritative"
+    },
+    {
+      "schema_version": "4.4.0",
+      "card_type": "exact_map_room_card",
+      "room_number": 17,
+      "room_id": "den",
+      "room_name": "Den",
+      "floor": "second_floor",
+      "floor_display_name": "Second Floor — Guest and Private Level",
+      "coordinates": {
+        "feet_per_square": 5,
+        "pixels_per_square": 32,
+        "primary_ranges_inclusive": [
+          [
+            20,
+            27,
+            0,
+            8
+          ]
+        ],
+        "primary_bounds_inclusive": {
+          "min_x": 20,
+          "max_x": 27,
+          "min_y": 0,
+          "max_y": 8,
+          "min_label": "U1",
+          "max_label": "AB9"
+        },
+        "additional_floor_areas": []
+      },
+      "map_views": [
+        {
+          "id": "den_primary",
+          "area_name": "Den",
+          "floor": "second_floor",
+          "floor_display_name": "Second Floor — Guest and Private Level",
+          "source_map": "maps/source_png/03_Second_Floor_Guest_Private_Level.png",
+          "crop_image": "room_cards/map_crops/17_den.png",
+          "grid_ranges_inclusive": [
+            [
+              20,
+              27,
+              0,
+              8
+            ]
+          ],
+          "grid_bounds_inclusive": {
+            "min_x": 20,
+            "max_x": 27,
+            "min_y": 0,
+            "max_y": 8,
+            "min_label": "U1",
+            "max_label": "AB9"
+          },
+          "pixel_crop_exclusive": {
+            "left": 640,
+            "top": 0,
+            "right": 896,
+            "bottom": 288,
+            "width": 256,
+            "height": 288
+          },
+          "exact_source_crop": true,
+          "masked_to_room_ranges": false
+        }
+      ],
+      "card_assets": {
+        "html": "room_cards/html/17_den.html",
+        "css": "room_cards/css/17_den.css",
+        "json": "room_cards/json/17_den.json",
+        "base_css": "room_cards/css/room-card-base.css",
+        "javascript": "room_cards/js/room-card.js"
+      },
+      "interaction": {
+        "click_action": "Open a modal showing the exact room crop or crops taken directly from the corresponding keep map.",
+        "keyboard_action": "Enter or Space opens the exact room view.",
+        "room_labels_on_floor_svg": false,
+        "room_label_on_gameplay_card": true,
+        "public_card_scope": "Room identity, floor, artwork, grid area, and ordinary visible routes."
+      },
+      "visibility": "public_gameplay_card",
+      "public_description": "Shared upper withdrawing chamber.",
+      "visible_routes": [
+        "central_landing",
+        "chapel",
+        "second_floor_solar",
+        "second_floor_service_corridor"
+      ],
+      "encounter_data": "server_authoritative"
+    },
+    {
+      "schema_version": "4.4.0",
+      "card_type": "exact_map_room_card",
+      "room_number": 18,
+      "room_id": "secondary_guest_quarters",
+      "room_name": "Secondary Guest Quarters",
+      "floor": "second_floor",
+      "floor_display_name": "Second Floor — Guest and Private Level",
+      "coordinates": {
+        "feet_per_square": 5,
+        "pixels_per_square": 32,
+        "primary_ranges_inclusive": [
+          [
+            0,
+            7,
+            10,
+            21
+          ]
+        ],
+        "primary_bounds_inclusive": {
+          "min_x": 0,
+          "max_x": 7,
+          "min_y": 10,
+          "max_y": 21,
+          "min_label": "A11",
+          "max_label": "H22"
+        },
+        "additional_floor_areas": []
+      },
+      "map_views": [
+        {
+          "id": "secondary_guest_quarters_primary",
+          "area_name": "Secondary Guest Quarters",
+          "floor": "second_floor",
+          "floor_display_name": "Second Floor — Guest and Private Level",
+          "source_map": "maps/source_png/03_Second_Floor_Guest_Private_Level.png",
+          "crop_image": "room_cards/map_crops/18_secondary-guest-quarters.png",
+          "grid_ranges_inclusive": [
+            [
+              0,
+              7,
+              10,
+              21
+            ]
+          ],
+          "grid_bounds_inclusive": {
+            "min_x": 0,
+            "max_x": 7,
+            "min_y": 10,
+            "max_y": 21,
+            "min_label": "A11",
+            "max_label": "H22"
+          },
+          "pixel_crop_exclusive": {
+            "left": 0,
+            "top": 320,
+            "right": 256,
+            "bottom": 704,
+            "width": 256,
+            "height": 384
+          },
+          "exact_source_crop": true,
+          "masked_to_room_ranges": false
+        }
+      ],
+      "card_assets": {
+        "html": "room_cards/html/18_secondary-guest-quarters.html",
+        "css": "room_cards/css/18_secondary-guest-quarters.css",
+        "json": "room_cards/json/18_secondary-guest-quarters.json",
+        "base_css": "room_cards/css/room-card-base.css",
+        "javascript": "room_cards/js/room-card.js"
+      },
+      "interaction": {
+        "click_action": "Open a modal showing the exact room crop or crops taken directly from the corresponding keep map.",
+        "keyboard_action": "Enter or Space opens the exact room view.",
+        "room_labels_on_floor_svg": false,
+        "room_label_on_gameplay_card": true,
+        "public_card_scope": "Room identity, floor, artwork, grid area, and ordinary visible routes."
+      },
+      "visibility": "public_gameplay_card",
+      "public_description": "Secondary upper guest suite.",
+      "visible_routes": [
+        "left_upper_corridor",
+        "den",
+        "second_floor_service_corridor"
+      ],
+      "encounter_data": "server_authoritative"
+    },
+    {
+      "schema_version": "4.4.0",
+      "card_type": "exact_map_room_card",
+      "room_number": 19,
+      "room_id": "second_floor_solar",
+      "room_name": "2nd Floor Solar",
+      "floor": "second_floor",
+      "floor_display_name": "Second Floor — Guest and Private Level",
+      "coordinates": {
+        "feet_per_square": 5,
+        "pixels_per_square": 32,
+        "primary_ranges_inclusive": [
+          [
+            31,
+            37,
+            0,
+            8
+          ]
+        ],
+        "primary_bounds_inclusive": {
+          "min_x": 31,
+          "max_x": 37,
+          "min_y": 0,
+          "max_y": 8,
+          "min_label": "AF1",
+          "max_label": "AL9"
+        },
+        "additional_floor_areas": []
+      },
+      "map_views": [
+        {
+          "id": "second_floor_solar_primary",
+          "area_name": "2nd Floor Solar",
+          "floor": "second_floor",
+          "floor_display_name": "Second Floor — Guest and Private Level",
+          "source_map": "maps/source_png/03_Second_Floor_Guest_Private_Level.png",
+          "crop_image": "room_cards/map_crops/19_second-floor-solar.png",
+          "grid_ranges_inclusive": [
+            [
+              31,
+              37,
+              0,
+              8
+            ]
+          ],
+          "grid_bounds_inclusive": {
+            "min_x": 31,
+            "max_x": 37,
+            "min_y": 0,
+            "max_y": 8,
+            "min_label": "AF1",
+            "max_label": "AL9"
+          },
+          "pixel_crop_exclusive": {
+            "left": 992,
+            "top": 0,
+            "right": 1216,
+            "bottom": 288,
+            "width": 224,
+            "height": 288
+          },
+          "exact_source_crop": true,
+          "masked_to_room_ranges": false
+        }
+      ],
+      "card_assets": {
+        "html": "room_cards/html/19_second-floor-solar.html",
+        "css": "room_cards/css/19_second-floor-solar.css",
+        "json": "room_cards/json/19_second-floor-solar.json",
+        "base_css": "room_cards/css/room-card-base.css",
+        "javascript": "room_cards/js/room-card.js"
+      },
+      "interaction": {
+        "click_action": "Open a modal showing the exact room crop or crops taken directly from the corresponding keep map.",
+        "keyboard_action": "Enter or Space opens the exact room view.",
+        "room_labels_on_floor_svg": false,
+        "room_label_on_gameplay_card": true,
+        "public_card_scope": "Room identity, floor, artwork, grid area, and ordinary visible routes."
+      },
+      "visibility": "public_gameplay_card",
+      "public_description": "Private upper sitting chamber.",
+      "visible_routes": [
+        "den",
+        "main_guest_quarters",
+        "second_floor_service_corridor"
+      ],
+      "encounter_data": "server_authoritative"
+    },
+    {
+      "schema_version": "4.4.0",
+      "card_type": "exact_map_room_card",
+      "room_number": 20,
+      "room_id": "chapel",
+      "room_name": "Chapel",
+      "floor": "second_floor",
+      "floor_display_name": "Second Floor — Guest and Private Level",
+      "coordinates": {
+        "feet_per_square": 5,
+        "pixels_per_square": 32,
+        "primary_ranges_inclusive": [
+          [
+            0,
+            13,
+            0,
+            8
+          ]
+        ],
+        "primary_bounds_inclusive": {
+          "min_x": 0,
+          "max_x": 13,
+          "min_y": 0,
+          "max_y": 8,
+          "min_label": "A1",
+          "max_label": "N9"
+        },
+        "additional_floor_areas": []
+      },
+      "map_views": [
+        {
+          "id": "chapel_primary",
+          "area_name": "Chapel",
+          "floor": "second_floor",
+          "floor_display_name": "Second Floor — Guest and Private Level",
+          "source_map": "maps/source_png/03_Second_Floor_Guest_Private_Level.png",
+          "crop_image": "room_cards/map_crops/20_chapel.png",
+          "grid_ranges_inclusive": [
+            [
+              0,
+              13,
+              0,
+              8
+            ]
+          ],
+          "grid_bounds_inclusive": {
+            "min_x": 0,
+            "max_x": 13,
+            "min_y": 0,
+            "max_y": 8,
+            "min_label": "A1",
+            "max_label": "N9"
+          },
+          "pixel_crop_exclusive": {
+            "left": 0,
+            "top": 0,
+            "right": 448,
+            "bottom": 288,
+            "width": 448,
+            "height": 288
+          },
+          "exact_source_crop": true,
+          "masked_to_room_ranges": false
+        }
+      ],
+      "card_assets": {
+        "html": "room_cards/html/20_chapel.html",
+        "css": "room_cards/css/20_chapel.css",
+        "json": "room_cards/json/20_chapel.json",
+        "base_css": "room_cards/css/room-card-base.css",
+        "javascript": "room_cards/js/room-card.js"
+      },
+      "interaction": {
+        "click_action": "Open a modal showing the exact room crop or crops taken directly from the corresponding keep map.",
+        "keyboard_action": "Enter or Space opens the exact room view.",
+        "room_labels_on_floor_svg": false,
+        "room_label_on_gameplay_card": true,
+        "public_card_scope": "Room identity, floor, artwork, grid area, and ordinary visible routes."
+      },
+      "visibility": "public_gameplay_card",
+      "public_description": "Upper devotional chamber.",
+      "visible_routes": [
+        "den",
+        "second_floor_service_corridor"
+      ],
+      "encounter_data": "server_authoritative"
+    },
+    {
+      "schema_version": "4.4.0",
+      "card_type": "exact_map_room_card",
+      "room_number": 21,
+      "room_id": "attic",
+      "room_name": "Attic",
+      "floor": "attic",
+      "floor_display_name": "Attic and Roof Level",
+      "coordinates": {
+        "feet_per_square": 5,
+        "pixels_per_square": 32,
+        "primary_ranges_inclusive": [
+          [
+            0,
+            31,
+            0,
+            31
+          ],
+          [
+            32,
+            47,
+            0,
+            9
+          ],
+          [
+            32,
+            47,
+            26,
+            31
+          ]
+        ],
+        "primary_bounds_inclusive": {
+          "min_x": 0,
+          "max_x": 47,
+          "min_y": 0,
+          "max_y": 31,
+          "min_label": "A1",
+          "max_label": "AV32"
+        },
+        "additional_floor_areas": []
+      },
+      "map_views": [
+        {
+          "id": "attic_primary",
+          "area_name": "Attic",
+          "floor": "attic",
+          "floor_display_name": "Attic and Roof Level",
+          "source_map": "maps/source_png/04_Attic_Roof_Level.png",
+          "crop_image": "room_cards/map_crops/21_attic.png",
+          "grid_ranges_inclusive": [
+            [
+              0,
+              31,
+              0,
+              31
+            ],
+            [
+              32,
+              47,
+              0,
+              9
+            ],
+            [
+              32,
+              47,
+              26,
+              31
+            ]
+          ],
+          "grid_bounds_inclusive": {
+            "min_x": 0,
+            "max_x": 47,
+            "min_y": 0,
+            "max_y": 31,
+            "min_label": "A1",
+            "max_label": "AV32"
+          },
+          "pixel_crop_exclusive": {
+            "left": 0,
+            "top": 0,
+            "right": 1536,
+            "bottom": 1024,
+            "width": 1536,
+            "height": 1024
+          },
+          "exact_source_crop": true,
+          "masked_to_room_ranges": true
+        }
+      ],
+      "card_assets": {
+        "html": "room_cards/html/21_attic.html",
+        "css": "room_cards/css/21_attic.css",
+        "json": "room_cards/json/21_attic.json",
+        "base_css": "room_cards/css/room-card-base.css",
+        "javascript": "room_cards/js/room-card.js"
+      },
+      "interaction": {
+        "click_action": "Open a modal showing the exact room crop or crops taken directly from the corresponding keep map.",
+        "keyboard_action": "Enter or Space opens the exact room view.",
+        "room_labels_on_floor_svg": false,
+        "room_label_on_gameplay_card": true,
+        "public_card_scope": "Room identity, floor, artwork, grid area, and ordinary visible routes."
+      },
+      "visibility": "public_gameplay_card",
+      "public_description": "General roof-level storage and circulation area.",
+      "visible_routes": [
+        "attic_service_passage",
+        "roof_access"
+      ],
+      "encounter_data": "server_authoritative"
+    },
+    {
+      "schema_version": "4.4.0",
+      "card_type": "exact_map_room_card",
+      "room_number": 22,
+      "room_id": "servants_quarters",
+      "room_name": "Servant’s Quarters",
+      "floor": "attic",
+      "floor_display_name": "Attic and Roof Level",
+      "coordinates": {
+        "feet_per_square": 5,
+        "pixels_per_square": 32,
+        "primary_ranges_inclusive": [
+          [
+            32,
+            47,
+            10,
+            25
+          ]
+        ],
+        "primary_bounds_inclusive": {
+          "min_x": 32,
+          "max_x": 47,
+          "min_y": 10,
+          "max_y": 25,
+          "min_label": "AG11",
+          "max_label": "AV26"
+        },
+        "additional_floor_areas": []
+      },
+      "map_views": [
+        {
+          "id": "servants_quarters_primary",
+          "area_name": "Servant’s Quarters",
+          "floor": "attic",
+          "floor_display_name": "Attic and Roof Level",
+          "source_map": "maps/source_png/04_Attic_Roof_Level.png",
+          "crop_image": "room_cards/map_crops/22_servants-quarters.png",
+          "grid_ranges_inclusive": [
+            [
+              32,
+              47,
+              10,
+              25
+            ]
+          ],
+          "grid_bounds_inclusive": {
+            "min_x": 32,
+            "max_x": 47,
+            "min_y": 10,
+            "max_y": 25,
+            "min_label": "AG11",
+            "max_label": "AV26"
+          },
+          "pixel_crop_exclusive": {
+            "left": 1024,
+            "top": 320,
+            "right": 1536,
+            "bottom": 832,
+            "width": 512,
+            "height": 512
+          },
+          "exact_source_crop": true,
+          "masked_to_room_ranges": false
+        }
+      ],
+      "card_assets": {
+        "html": "room_cards/html/22_servants-quarters.html",
+        "css": "room_cards/css/22_servants-quarters.css",
+        "json": "room_cards/json/22_servants-quarters.json",
+        "base_css": "room_cards/css/room-card-base.css",
+        "javascript": "room_cards/js/room-card.js"
+      },
+      "interaction": {
+        "click_action": "Open a modal showing the exact room crop or crops taken directly from the corresponding keep map.",
+        "keyboard_action": "Enter or Space opens the exact room view.",
+        "room_labels_on_floor_svg": false,
+        "room_label_on_gameplay_card": true,
+        "public_card_scope": "Room identity, floor, artwork, grid area, and ordinary visible routes."
+      },
+      "visibility": "public_gameplay_card",
+      "public_description": "Enclosed roof-level sleeping area for household staff.",
+      "visible_routes": [
+        "attic_service_passage",
+        "servants_staircase"
+      ],
+      "encounter_data": "server_authoritative"
+    }
+  ]
+}

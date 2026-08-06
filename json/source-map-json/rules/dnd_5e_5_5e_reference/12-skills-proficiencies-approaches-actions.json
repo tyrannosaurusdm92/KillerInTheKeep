@@ -1,0 +1,220 @@
+{
+  "schema_version": "4.0.0",
+  "document_type": "killer_skills_and_tools",
+  "system": "Killer In The Keep",
+  "rules_profile": "Killer In The Keep 5E-Compatible Hybrid",
+  "scope": "Killer In The Keep only",
+  "build_date": "2026-08-05",
+  "source_basis": [
+    "KillerInTheKeep_5_Game_Level_Progression.json",
+    "System Reference Document 5.2.1"
+  ],
+  "srd_attribution": "This work includes material from the System Reference Document 5.2.1 (“SRD 5.2.1”) by Wizards of the Coast LLC, available at https://www.dndbeyond.com/srd. The SRD 5.2.1 is licensed under the Creative Commons Attribution 4.0 International License, available at https://creativecommons.org/licenses/by/4.0/legalcode.",
+  "publisher_affiliation": "Killer In The Keep is an independent project and is not endorsed by Wizards of the Coast.",
+  "record_count": 18,
+  "difficulty_classes": [
+    {
+      "difficulty": "Very easy",
+      "dc": 5
+    },
+    {
+      "difficulty": "Easy",
+      "dc": 10
+    },
+    {
+      "difficulty": "Medium",
+      "dc": 15
+    },
+    {
+      "difficulty": "Hard",
+      "dc": 20
+    },
+    {
+      "difficulty": "Very hard",
+      "dc": 25
+    },
+    {
+      "difficulty": "Nearly impossible",
+      "dc": 30
+    }
+  ],
+  "passive_check": "10 + all modifiers that normally apply to the check.",
+  "records": [
+    {
+      "id": "kitk-skill-acrobatics",
+      "name": "Acrobatics",
+      "default_ability": "Dexterity",
+      "killer_in_the_keep_uses": "Balance on broken floors, escape nets, tumble through threatened spaces, or land safely.",
+      "formula": "1d20 + relevant ability modifier + proficiency bonus if proficient"
+    },
+    {
+      "id": "kitk-skill-animal-handling",
+      "name": "Animal Handling",
+      "default_ability": "Wisdom",
+      "killer_in_the_keep_uses": "Calm or redirect beasts and interpret ordinary animal behavior in the keep.",
+      "formula": "1d20 + relevant ability modifier + proficiency bonus if proficient"
+    },
+    {
+      "id": "kitk-skill-arcana",
+      "name": "Arcana",
+      "default_ability": "Intelligence",
+      "killer_in_the_keep_uses": "Identify magical residue, wards, spell traps, cursed evidence, and power signatures.",
+      "formula": "1d20 + relevant ability modifier + proficiency bonus if proficient"
+    },
+    {
+      "id": "kitk-skill-athletics",
+      "name": "Athletics",
+      "default_ability": "Strength",
+      "killer_in_the_keep_uses": "Force doors, move statues, climb, jump, grapple, shove, or rescue a trapped hero.",
+      "formula": "1d20 + relevant ability modifier + proficiency bonus if proficient"
+    },
+    {
+      "id": "kitk-skill-deception",
+      "name": "Deception",
+      "default_ability": "Charisma",
+      "killer_in_the_keep_uses": "Bluff rivals, conceal evidence knowledge, or misdirect testimony in Work Separately.",
+      "formula": "1d20 + relevant ability modifier + proficiency bonus if proficient"
+    },
+    {
+      "id": "kitk-skill-history",
+      "name": "History",
+      "default_ability": "Intelligence",
+      "killer_in_the_keep_uses": "Recall the keep’s construction, heraldry, household customs, weapons, or prior incidents.",
+      "formula": "1d20 + relevant ability modifier + proficiency bonus if proficient"
+    },
+    {
+      "id": "kitk-skill-insight",
+      "name": "Insight",
+      "default_ability": "Wisdom",
+      "killer_in_the_keep_uses": "Read motives, contradictions, fear, rehearsed testimony, and alliance intentions.",
+      "formula": "1d20 + relevant ability modifier + proficiency bonus if proficient"
+    },
+    {
+      "id": "kitk-skill-intimidation",
+      "name": "Intimidation",
+      "default_ability": "Charisma",
+      "killer_in_the_keep_uses": "Pressure a creature or rival without overriding hidden-card or accusation rules.",
+      "formula": "1d20 + relevant ability modifier + proficiency bonus if proficient"
+    },
+    {
+      "id": "kitk-skill-investigation",
+      "name": "Investigation",
+      "default_ability": "Intelligence",
+      "killer_in_the_keep_uses": "Reconstruct mechanisms, search specific objects, compare evidence, and infer how a room was altered.",
+      "formula": "1d20 + relevant ability modifier + proficiency bonus if proficient"
+    },
+    {
+      "id": "kitk-skill-medicine",
+      "name": "Medicine",
+      "default_ability": "Wisdom",
+      "killer_in_the_keep_uses": "Examine wounds, estimate time or cause of death, identify poison symptoms, and stabilize heroes.",
+      "formula": "1d20 + relevant ability modifier + proficiency bonus if proficient"
+    },
+    {
+      "id": "kitk-skill-nature",
+      "name": "Nature",
+      "default_ability": "Intelligence",
+      "killer_in_the_keep_uses": "Identify insects, webs, venom, plants, elemental traces, and natural hazards.",
+      "formula": "1d20 + relevant ability modifier + proficiency bonus if proficient"
+    },
+    {
+      "id": "kitk-skill-perception",
+      "name": "Perception",
+      "default_ability": "Wisdom",
+      "killer_in_the_keep_uses": "Notice traps, movement, sounds, blood, tracks, secret doors, and hidden creatures.",
+      "formula": "1d20 + relevant ability modifier + proficiency bonus if proficient"
+    },
+    {
+      "id": "kitk-skill-performance",
+      "name": "Performance",
+      "default_ability": "Charisma",
+      "killer_in_the_keep_uses": "Influence attention, reproduce sounds, use musical clues, or empower Bard abilities.",
+      "formula": "1d20 + relevant ability modifier + proficiency bonus if proficient"
+    },
+    {
+      "id": "kitk-skill-persuasion",
+      "name": "Persuasion",
+      "default_ability": "Charisma",
+      "killer_in_the_keep_uses": "Negotiate information sharing, alliances, testimony, trades, and tactical plans.",
+      "formula": "1d20 + relevant ability modifier + proficiency bonus if proficient"
+    },
+    {
+      "id": "kitk-skill-religion",
+      "name": "Religion",
+      "default_ability": "Intelligence",
+      "killer_in_the_keep_uses": "Identify undead, curses, chapel rites, divine residue, and desecrated evidence.",
+      "formula": "1d20 + relevant ability modifier + proficiency bonus if proficient"
+    },
+    {
+      "id": "kitk-skill-sleight-of-hand",
+      "name": "Sleight of Hand",
+      "default_ability": "Dexterity",
+      "killer_in_the_keep_uses": "Plant or retrieve ordinary items, manipulate delicate mechanisms, and conceal legal inventory actions.",
+      "formula": "1d20 + relevant ability modifier + proficiency bonus if proficient"
+    },
+    {
+      "id": "kitk-skill-stealth",
+      "name": "Stealth",
+      "default_ability": "Dexterity",
+      "killer_in_the_keep_uses": "Move quietly, hide from monsters or rivals, and avoid triggering noise-based encounters.",
+      "formula": "1d20 + relevant ability modifier + proficiency bonus if proficient"
+    },
+    {
+      "id": "kitk-skill-survival",
+      "name": "Survival",
+      "default_ability": "Wisdom",
+      "killer_in_the_keep_uses": "Track creatures, follow disturbed routes, navigate secret tunnels, and predict storm hazards.",
+      "formula": "1d20 + relevant ability modifier + proficiency bonus if proficient"
+    }
+  ],
+  "tools": [
+    {
+      "name": "Thieves' Tools",
+      "uses": [
+        "Locks",
+        "Mechanical traps"
+      ]
+    },
+    {
+      "name": "Herbalism Kit",
+      "uses": [
+        "Poison and healing analysis",
+        "Natural remedies"
+      ]
+    },
+    {
+      "name": "Musical Instrument",
+      "uses": [
+        "Performance",
+        "Music Room clues"
+      ]
+    },
+    {
+      "name": "Disguise Kit",
+      "uses": [
+        "Social deception only; cannot change token identity or hidden-card ownership"
+      ]
+    },
+    {
+      "name": "Healer's Kit",
+      "uses": [
+        "Stabilize a Downed hero without a Medicine roll"
+      ]
+    },
+    {
+      "name": "Necromantic Focus",
+      "uses": [
+        "Gunnus power focus",
+        "Undead and curse analysis"
+      ]
+    },
+    {
+      "name": "Smith's Tools",
+      "uses": [
+        "Repair Monk",
+        "Metal mechanisms",
+        "Barricades"
+      ]
+    }
+  ]
+}

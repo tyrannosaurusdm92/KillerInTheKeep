@@ -1,0 +1,114 @@
+{
+  "schema_version": "4.0.0",
+  "document_type": "fixed_killer_hero_ancestries",
+  "system": "Killer In The Keep",
+  "rules_profile": "Killer In The Keep 5E-Compatible Hybrid",
+  "scope": "Killer In The Keep only",
+  "build_date": "2026-08-05",
+  "source_basis": [
+    "KillerInTheKeep_5_Game_Level_Progression.json",
+    "System Reference Document 5.2.1"
+  ],
+  "srd_attribution": "This work includes material from the System Reference Document 5.2.1 (“SRD 5.2.1”) by Wizards of the Coast LLC, available at https://www.dndbeyond.com/srd. The SRD 5.2.1 is licensed under the Creative Commons Attribution 4.0 International License, available at https://creativecommons.org/licenses/by/4.0/legalcode.",
+  "publisher_affiliation": "Killer In The Keep is an independent project and is not endorsed by Wizards of the Coast.",
+  "record_count": 8,
+  "records": [
+    {
+      "id": "kitk-ancestry-kobold",
+      "name": "Kobold",
+      "fixed_hero": "Daltu",
+      "traits": [
+        "Small size",
+        "Darkvision 60 feet",
+        "Trapwise: Advantage on one Perception or Investigation check to notice a mechanical trap per short rest",
+        "Scuttle: move through a larger creature’s space as difficult terrain"
+      ],
+      "source_classification": "SRD-derived where the ancestry appears in SRD 5.2.1; otherwise a Killer-specific custom adaptation."
+    },
+    {
+      "id": "kitk-ancestry-dwarf",
+      "name": "Dwarf",
+      "fixed_hero": "Noldrack Goldblade",
+      "traits": [
+        "Medium size",
+        "Darkvision 120 feet",
+        "Dwarven Resilience: Advantage on saves against Poisoned and resistance to poison damage",
+        "Stonecunning: Advantage on one Investigation check involving stonework per short rest"
+      ],
+      "source_classification": "SRD-derived where the ancestry appears in SRD 5.2.1; otherwise a Killer-specific custom adaptation."
+    },
+    {
+      "id": "kitk-ancestry-elf",
+      "name": "Elf",
+      "fixed_hero": "Eilvyre Astath",
+      "traits": [
+        "Medium size",
+        "Darkvision 60 feet",
+        "Fey Resilience: Advantage on saves against Charmed",
+        "Keen Senses: proficiency in Perception"
+      ],
+      "source_classification": "SRD-derived where the ancestry appears in SRD 5.2.1; otherwise a Killer-specific custom adaptation."
+    },
+    {
+      "id": "kitk-ancestry-halfling",
+      "name": "Halfling",
+      "fixed_hero": "Korbin Silverdew",
+      "traits": [
+        "Small size",
+        "Lucky: reroll a natural 1 on a D20 Test once per turn",
+        "Brave: Advantage on saves against Frightened",
+        "Nimble: move through larger creatures’ spaces"
+      ],
+      "source_classification": "SRD-derived where the ancestry appears in SRD 5.2.1; otherwise a Killer-specific custom adaptation."
+    },
+    {
+      "id": "kitk-ancestry-lizardfolk",
+      "name": "Lizardfolk",
+      "fixed_hero": "Joknos",
+      "traits": [
+        "Medium size",
+        "Hold Breath for 15 minutes",
+        "Natural Bite: 1d6 piercing",
+        "Marsh Sense: Advantage on Survival checks involving water, scent, or trails"
+      ],
+      "source_classification": "SRD-derived where the ancestry appears in SRD 5.2.1; otherwise a Killer-specific custom adaptation."
+    },
+    {
+      "id": "kitk-ancestry-dragonborn",
+      "name": "Dragonborn",
+      "fixed_hero": "Githtoxundes Fenwophyl",
+      "traits": [
+        "Medium size",
+        "Darkvision 60 feet",
+        "Breath Weapon using the hero’s chosen ancestry damage type",
+        "Resistance to the chosen ancestry damage type"
+      ],
+      "source_classification": "SRD-derived where the ancestry appears in SRD 5.2.1; otherwise a Killer-specific custom adaptation."
+    },
+    {
+      "id": "kitk-ancestry-minotaur",
+      "name": "Minotaur",
+      "fixed_hero": "Gunnus",
+      "traits": [
+        "Medium size",
+        "Powerful Build",
+        "Horns/Headbutt natural weapon",
+        "Labyrinth Recall: cannot become lost in mapped keep areas and gains Advantage to retrace a discovered route"
+      ],
+      "source_classification": "SRD-derived where the ancestry appears in SRD 5.2.1; otherwise a Killer-specific custom adaptation."
+    },
+    {
+      "id": "kitk-ancestry-warforged",
+      "name": "Warforged",
+      "fixed_hero": "Monk",
+      "traits": [
+        "Medium size",
+        "Constructed Resilience: resistance to poison damage and Advantage on saves against Poisoned",
+        "Does not need to eat, drink, or breathe",
+        "Sentry Rest: remains aware while resting",
+        "Integrated Defense supports custom unarmored AC"
+      ],
+      "source_classification": "SRD-derived where the ancestry appears in SRD 5.2.1; otherwise a Killer-specific custom adaptation."
+    }
+  ]
+}

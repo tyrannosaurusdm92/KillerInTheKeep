@@ -1,0 +1,457 @@
+{
+  "schema_version": "4.0.0",
+  "document_type": "five_game_level_progression",
+  "system": "Killer In The Keep",
+  "rules_profile": "Killer In The Keep 5E-Compatible Hybrid",
+  "scope": "Killer In The Keep only",
+  "build_date": "2026-08-05",
+  "source_basis": [
+    "KillerInTheKeep_5_Game_Level_Progression.json",
+    "System Reference Document 5.2.1"
+  ],
+  "srd_attribution": "This work includes material from the System Reference Document 5.2.1 (“SRD 5.2.1”) by Wizards of the Coast LLC, available at https://www.dndbeyond.com/srd. The SRD 5.2.1 is licensed under the Creative Commons Attribution 4.0 International License, available at https://creativecommons.org/licenses/by/4.0/legalcode.",
+  "publisher_affiliation": "Killer In The Keep is an independent project and is not endorsed by Wizards of the Coast.",
+  "canonical_name": "Five Game Level Session Progression",
+  "starting_game_level": 1,
+  "maximum_game_level": 5,
+  "maximum_level_up_events": 4,
+  "level_table": [
+    {
+      "game_level": 1,
+      "dnd_equivalent_level": 5,
+      "session_role": "Starting level",
+      "level_up_event_number": 0,
+      "dnd_levels_skipped_on_arrival": [],
+      "cumulative_legacy_xp_threshold": 0,
+      "limited_power_uses": 1,
+      "ability_jump": "Begin with the complete curated D&D level 5-equivalent hero package, including the hero's unlimited powers, starting limited powers, starting equipment, and level-appropriate combat statistics.",
+      "proficiency_bonus": 3,
+      "maximum_hp_standard_hybrid": 20
+    },
+    {
+      "game_level": 2,
+      "dnd_equivalent_level": 9,
+      "session_role": "First level-up",
+      "level_up_event_number": 1,
+      "dnd_levels_skipped_on_arrival": [
+        6,
+        7,
+        8
+      ],
+      "cumulative_legacy_xp_threshold": 50,
+      "limited_power_uses": 2,
+      "ability_jump": "Immediately replace or upgrade the hero to the curated D&D level 9-equivalent package and unlock the abilities assigned to Game Level 2. Intermediate D&D level choices are not processed separately.",
+      "proficiency_bonus": 4,
+      "maximum_hp_standard_hybrid": 25
+    },
+    {
+      "game_level": 3,
+      "dnd_equivalent_level": 13,
+      "session_role": "Second level-up",
+      "level_up_event_number": 2,
+      "dnd_levels_skipped_on_arrival": [
+        10,
+        11,
+        12
+      ],
+      "cumulative_legacy_xp_threshold": 150,
+      "limited_power_uses": 3,
+      "ability_jump": "Immediately replace or upgrade the hero to the curated D&D level 13-equivalent package and unlock the abilities assigned to Game Level 3. Intermediate D&D level choices are not processed separately.",
+      "proficiency_bonus": 5,
+      "maximum_hp_standard_hybrid": 30
+    },
+    {
+      "game_level": 4,
+      "dnd_equivalent_level": 17,
+      "session_role": "Third level-up",
+      "level_up_event_number": 3,
+      "dnd_levels_skipped_on_arrival": [
+        14,
+        15,
+        16
+      ],
+      "cumulative_legacy_xp_threshold": 450,
+      "limited_power_uses": 4,
+      "ability_jump": "Immediately replace or upgrade the hero to the curated D&D level 17-equivalent package. This is a major high-tier class-feature, armor, resource, spell, save DC, and combat-stat jump even when no new named power is listed.",
+      "proficiency_bonus": 6,
+      "maximum_hp_standard_hybrid": 35
+    },
+    {
+      "game_level": 5,
+      "dnd_equivalent_level": 20,
+      "session_role": "Fourth and final level-up / session maximum",
+      "level_up_event_number": 4,
+      "dnd_levels_skipped_on_arrival": [
+        18,
+        19
+      ],
+      "cumulative_legacy_xp_threshold": 1350,
+      "limited_power_uses": 5,
+      "ability_jump": "Immediately replace or upgrade the hero to the curated D&D level 20-equivalent package, unlock the final named powers, and apply the hero's session capstone. No progression beyond Game Level 5 is permitted during the session.",
+      "proficiency_bonus": 6,
+      "maximum_hp_standard_hybrid": 40
+    }
+  ],
+  "trigger_rules": {
+    "valid_triggers": [
+      "Roll a natural 20 during combat when Legacy Rules allow this trigger.",
+      "Reach the cumulative XP threshold for the next Game Level.",
+      "Correctly identify two previously unknown solution cards when Legacy Rules allow this trigger.",
+      "Reach a configured story milestone or objective checkpoint."
+    ],
+    "same_event_limit": "A single event can grant at most one Game Level even if it satisfies multiple triggers.",
+    "maximum_level_guard": "Ignore or convert additional level-up triggers into non-level rewards after Game Level 5."
+  },
+  "on_level_up": [
+    "Advance exactly one Game Level, never more than one level from a single resolved trigger.",
+    "Apply the destination D&D-equivalent character package immediately.",
+    "Restore the hero to full health in Legacy mode.",
+    "Increase maximum health by 5 in Legacy mode.",
+    "Increase limited-power uses to equal the new Game Level unless a specific power states otherwise.",
+    "Unlock the named powers and class-specific upgrades assigned to the new Game Level.",
+    "Apply any armor, spell, proficiency, save DC, resource, or capstone upgrades assigned to the destination package.",
+    "Stop all further in-session leveling after Game Level 5."
+  ],
+  "ability_jump_policy": {
+    "snapshot_rule": "Each Game Level is a curated destination package. On level-up, the character sheet immediately applies the destination D&D-equivalent statistics, class features, spell access, resource limits, armor improvements, and assigned powers.",
+    "no_intermediate_processing": "Do not make the player process each skipped D&D level one at a time. Only choices explicitly included in the destination package receive prompts.",
+    "power_unlock_rule": "Named powers are assigned by Game Level. Existing powers may also receive damage, range, duration, target-count, save DC, resource, or use-count upgrades at every Game Level.",
+    "maximum_rule": "When Game Level 5 is reached, further XP or level-up triggers cannot increase the character level during that session."
+  },
+  "hero_unlocks": {
+    "daltu": {
+      "game_level_1": {
+        "dnd_equivalent_level": 5,
+        "named_power_unlocks": [
+          "Eldritch Blast",
+          "Chill Touch",
+          "Sorcerer's Grasp",
+          "Underworld Flames"
+        ],
+        "system_upgrade": "Apply the starting curated D&D level 5-equivalent Fighter package."
+      },
+      "game_level_2": {
+        "dnd_equivalent_level": 9,
+        "named_power_unlocks": [
+          "Darkness",
+          "Self Teleport"
+        ],
+        "system_upgrade": "Jump directly to the curated D&D level 9-equivalent Fighter package; limited-power uses become 2."
+      },
+      "game_level_3": {
+        "dnd_equivalent_level": 13,
+        "named_power_unlocks": [
+          "Restrain"
+        ],
+        "system_upgrade": "Jump directly to the curated D&D level 13-equivalent Fighter package; limited-power uses become 3."
+      },
+      "game_level_4": {
+        "dnd_equivalent_level": 17,
+        "named_power_unlocks": [],
+        "system_upgrade": "Jump directly to the curated D&D level 17-equivalent Fighter package, including a major class-feature, combat-stat, armor/resource, and existing-power upgrade; limited-power uses become 4."
+      },
+      "game_level_5": {
+        "dnd_equivalent_level": 20,
+        "named_power_unlocks": [
+          "Deathfire Grasp",
+          "Blight"
+        ],
+        "system_upgrade": "Jump directly to the curated D&D level 20-equivalent Fighter capstone package; limited-power uses become 5 and no further in-session levels are allowed."
+      }
+    },
+    "noldrack_goldblade": {
+      "game_level_1": {
+        "dnd_equivalent_level": 5,
+        "named_power_unlocks": [
+          "Poison Spray",
+          "Force of Nature",
+          "Detect Ailment"
+        ],
+        "system_upgrade": "Apply the starting curated D&D level 5-equivalent Druid package."
+      },
+      "game_level_2": {
+        "dnd_equivalent_level": 9,
+        "named_power_unlocks": [
+          "Flaming Sphere",
+          "Locate Traps and Passageways"
+        ],
+        "system_upgrade": "Jump directly to the curated D&D level 9-equivalent Druid package; limited-power uses become 2."
+      },
+      "game_level_3": {
+        "dnd_equivalent_level": 13,
+        "named_power_unlocks": [
+          "Tidal Wave",
+          "Icicle Blast"
+        ],
+        "system_upgrade": "Jump directly to the curated D&D level 13-equivalent Druid package; limited-power uses become 3."
+      },
+      "game_level_4": {
+        "dnd_equivalent_level": 17,
+        "named_power_unlocks": [],
+        "system_upgrade": "Jump directly to the curated D&D level 17-equivalent Druid package, including a major class-feature, combat-stat, armor/resource, and existing-power upgrade; limited-power uses become 4."
+      },
+      "game_level_5": {
+        "dnd_equivalent_level": 20,
+        "named_power_unlocks": [
+          "Encanto",
+          "Tornado"
+        ],
+        "system_upgrade": "Jump directly to the curated D&D level 20-equivalent Druid capstone package; limited-power uses become 5 and no further in-session levels are allowed."
+      }
+    },
+    "eilvyre_astath": {
+      "game_level_1": {
+        "dnd_equivalent_level": 5,
+        "named_power_unlocks": [
+          "Orbs of Wonder",
+          "Ray of Frost",
+          "Turn the Tide",
+          "Mage Armor",
+          "Acid Strike"
+        ],
+        "system_upgrade": "Apply the starting curated D&D level 5-equivalent Sorcerer package."
+      },
+      "game_level_2": {
+        "dnd_equivalent_level": 9,
+        "named_power_unlocks": [
+          "Self Teleport"
+        ],
+        "system_upgrade": "Jump directly to the curated D&D level 9-equivalent Sorcerer package; limited-power uses become 2."
+      },
+      "game_level_3": {
+        "dnd_equivalent_level": 13,
+        "named_power_unlocks": [
+          "Earth Shatter"
+        ],
+        "system_upgrade": "Jump directly to the curated D&D level 13-equivalent Sorcerer package; limited-power uses become 3."
+      },
+      "game_level_4": {
+        "dnd_equivalent_level": 17,
+        "named_power_unlocks": [],
+        "system_upgrade": "Jump directly to the curated D&D level 17-equivalent Sorcerer package, including a major class-feature, combat-stat, armor/resource, and existing-power upgrade; limited-power uses become 4."
+      },
+      "game_level_5": {
+        "dnd_equivalent_level": 20,
+        "named_power_unlocks": [
+          "Ball-Lightning"
+        ],
+        "system_upgrade": "Jump directly to the curated D&D level 20-equivalent Sorcerer capstone package; limited-power uses become 5 and no further in-session levels are allowed."
+      }
+    },
+    "korbin_silverdew": {
+      "game_level_1": {
+        "dnd_equivalent_level": 5,
+        "named_power_unlocks": [
+          "False Bravado",
+          "Lady Luck",
+          "Fire Arrows",
+          "Radiant Prayer",
+          "Hope"
+        ],
+        "system_upgrade": "Apply the starting curated D&D level 5-equivalent Paladin package."
+      },
+      "game_level_2": {
+        "dnd_equivalent_level": 9,
+        "named_power_unlocks": [
+          "Blinding Smite"
+        ],
+        "system_upgrade": "Jump directly to the curated D&D level 9-equivalent Paladin package; limited-power uses become 2."
+      },
+      "game_level_3": {
+        "dnd_equivalent_level": 13,
+        "named_power_unlocks": [
+          "Imprison"
+        ],
+        "system_upgrade": "Jump directly to the curated D&D level 13-equivalent Paladin package; limited-power uses become 3."
+      },
+      "game_level_4": {
+        "dnd_equivalent_level": 17,
+        "named_power_unlocks": [],
+        "system_upgrade": "Jump directly to the curated D&D level 17-equivalent Paladin package, including a major class-feature, combat-stat, armor/resource, and existing-power upgrade; limited-power uses become 4."
+      },
+      "game_level_5": {
+        "dnd_equivalent_level": 20,
+        "named_power_unlocks": [
+          "Death Ward",
+          "Holy Wrath"
+        ],
+        "system_upgrade": "Jump directly to the curated D&D level 20-equivalent Paladin capstone package; limited-power uses become 5 and no further in-session levels are allowed."
+      }
+    },
+    "joknos_jock": {
+      "game_level_1": {
+        "dnd_equivalent_level": 5,
+        "named_power_unlocks": [
+          "True Strike",
+          "Might of Kord",
+          "Cruel Contempt",
+          "Hideous Laughter",
+          "Eardrum Splitter"
+        ],
+        "system_upgrade": "Apply the starting curated D&D level 5-equivalent Bard package."
+      },
+      "game_level_2": {
+        "dnd_equivalent_level": 9,
+        "named_power_unlocks": [
+          "Influence",
+          "Invisibility"
+        ],
+        "system_upgrade": "Jump directly to the curated D&D level 9-equivalent Bard package; limited-power uses become 2."
+      },
+      "game_level_3": {
+        "dnd_equivalent_level": 13,
+        "named_power_unlocks": [
+          "Persisting Death Curse",
+          "Dispel Magic",
+          "Bravado"
+        ],
+        "system_upgrade": "Jump directly to the curated D&D level 13-equivalent Bard package; limited-power uses become 3."
+      },
+      "game_level_4": {
+        "dnd_equivalent_level": 17,
+        "named_power_unlocks": [],
+        "system_upgrade": "Jump directly to the curated D&D level 17-equivalent Bard package, including a major class-feature, combat-stat, armor/resource, and existing-power upgrade; limited-power uses become 4."
+      },
+      "game_level_5": {
+        "dnd_equivalent_level": 20,
+        "named_power_unlocks": [
+          "Teleportation Doorway",
+          "Encanto"
+        ],
+        "system_upgrade": "Jump directly to the curated D&D level 20-equivalent Bard capstone package; limited-power uses become 5 and no further in-session levels are allowed."
+      }
+    },
+    "githtoxundes_fenwophyl": {
+      "game_level_1": {
+        "dnd_equivalent_level": 5,
+        "named_power_unlocks": [
+          "Spare the Dying",
+          "Guidance",
+          "Scourge",
+          "Cure Wounds"
+        ],
+        "system_upgrade": "Apply the starting curated D&D level 5-equivalent Cleric package."
+      },
+      "game_level_2": {
+        "dnd_equivalent_level": 9,
+        "named_power_unlocks": [
+          "Imprison"
+        ],
+        "system_upgrade": "Jump directly to the curated D&D level 9-equivalent Cleric package; limited-power uses become 2."
+      },
+      "game_level_3": {
+        "dnd_equivalent_level": 13,
+        "named_power_unlocks": [
+          "Mass Healing Word"
+        ],
+        "system_upgrade": "Jump directly to the curated D&D level 13-equivalent Cleric package; limited-power uses become 3."
+      },
+      "game_level_4": {
+        "dnd_equivalent_level": 17,
+        "named_power_unlocks": [],
+        "system_upgrade": "Jump directly to the curated D&D level 17-equivalent Cleric package, including a major class-feature, combat-stat, armor/resource, and existing-power upgrade; limited-power uses become 4."
+      },
+      "game_level_5": {
+        "dnd_equivalent_level": 20,
+        "named_power_unlocks": [
+          "Restore Person"
+        ],
+        "system_upgrade": "Jump directly to the curated D&D level 20-equivalent Cleric capstone package; limited-power uses become 5 and no further in-session levels are allowed."
+      }
+    },
+    "gunnus": {
+      "game_level_1": {
+        "dnd_equivalent_level": 5,
+        "named_power_unlocks": [
+          "Chill Touch",
+          "Poison Spray",
+          "Spare the Dying",
+          "Hideous Laughter",
+          "Dark Illumination"
+        ],
+        "system_upgrade": "Apply the starting curated D&D level 5-equivalent Necromancer package."
+      },
+      "game_level_2": {
+        "dnd_equivalent_level": 9,
+        "named_power_unlocks": [
+          "Undead Warrior",
+          "Senseless"
+        ],
+        "system_upgrade": "Jump directly to the curated D&D level 9-equivalent Necromancer package; limited-power uses become 2."
+      },
+      "game_level_3": {
+        "dnd_equivalent_level": 13,
+        "named_power_unlocks": [
+          "Vampiric Touch",
+          "Revivify"
+        ],
+        "system_upgrade": "Jump directly to the curated D&D level 13-equivalent Necromancer package; limited-power uses become 3."
+      },
+      "game_level_4": {
+        "dnd_equivalent_level": 17,
+        "named_power_unlocks": [],
+        "system_upgrade": "Jump directly to the curated D&D level 17-equivalent Necromancer package, including a major class-feature, combat-stat, armor/resource, and existing-power upgrade; limited-power uses become 4."
+      },
+      "game_level_5": {
+        "dnd_equivalent_level": 20,
+        "named_power_unlocks": [
+          "Blight",
+          "Phantasmal Killer"
+        ],
+        "system_upgrade": "Jump directly to the curated D&D level 20-equivalent Necromancer capstone package; limited-power uses become 5 and no further in-session levels are allowed."
+      }
+    },
+    "monk": {
+      "game_level_1": {
+        "dnd_equivalent_level": 5,
+        "named_power_unlocks": [
+          "Whirlwind",
+          "Paralyzing Blow",
+          "Crushing Grip",
+          "Scorched Soul",
+          "Fiery Whips of Vengeance"
+        ],
+        "system_upgrade": "Apply the starting curated D&D level 5-equivalent Monk package."
+      },
+      "game_level_2": {
+        "dnd_equivalent_level": 9,
+        "named_power_unlocks": [
+          "Wind of the Mighty",
+          "WindForce Punch"
+        ],
+        "system_upgrade": "Jump directly to the curated D&D level 9-equivalent Monk package; limited-power uses become 2."
+      },
+      "game_level_3": {
+        "dnd_equivalent_level": 13,
+        "named_power_unlocks": [
+          "Chi Heal",
+          "Chi Shield",
+          "Dragon's Breath"
+        ],
+        "system_upgrade": "Jump directly to the curated D&D level 13-equivalent Monk package; limited-power uses become 3."
+      },
+      "game_level_4": {
+        "dnd_equivalent_level": 17,
+        "named_power_unlocks": [],
+        "system_upgrade": "Jump directly to the curated D&D level 17-equivalent Monk package, including a major class-feature, combat-stat, armor/resource, and existing-power upgrade; limited-power uses become 4."
+      },
+      "game_level_5": {
+        "dnd_equivalent_level": 20,
+        "named_power_unlocks": [
+          "Stone Flesh",
+          "Heart-Halting Assault"
+        ],
+        "system_upgrade": "Jump directly to the curated D&D level 20-equivalent Monk capstone package; limited-power uses become 5 and no further in-session levels are allowed."
+      }
+    }
+  },
+  "legacy_xp_thresholds": {
+    "game_level_2_threshold": 50,
+    "game_level_3_threshold": 150,
+    "game_level_4_threshold": 450,
+    "game_level_5_threshold": 1350,
+    "maximum_game_level": 5
+  },
+  "display_rule": "Always display Game Level first and D&D-equivalent level second.",
+  "hard_cap": "No XP, natural 20, clue discovery, or milestone can advance a hero beyond Game Level 5 during a mystery."
+}

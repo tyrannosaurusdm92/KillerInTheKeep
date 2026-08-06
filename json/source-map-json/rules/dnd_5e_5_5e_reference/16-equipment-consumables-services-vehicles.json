@@ -1,0 +1,170 @@
+{
+  "schema_version": "4.0.0",
+  "document_type": "killer_treasure_and_inventory",
+  "system": "Killer In The Keep",
+  "rules_profile": "Killer In The Keep 5E-Compatible Hybrid",
+  "scope": "Killer In The Keep only",
+  "build_date": "2026-08-05",
+  "source_basis": [
+    "KillerInTheKeep_5_Game_Level_Progression.json",
+    "System Reference Document 5.2.1"
+  ],
+  "srd_attribution": "This work includes material from the System Reference Document 5.2.1 (“SRD 5.2.1”) by Wizards of the Coast LLC, available at https://www.dndbeyond.com/srd. The SRD 5.2.1 is licensed under the Creative Commons Attribution 4.0 International License, available at https://creativecommons.org/licenses/by/4.0/legalcode.",
+  "publisher_affiliation": "Killer In The Keep is an independent project and is not endorsed by Wizards of the Coast.",
+  "record_count": 15,
+  "treasure_purpose": [
+    "Provide usable combat and exploration tools.",
+    "Create risk-versus-reward decisions.",
+    "Determine secondary placement by total recovered value.",
+    "Offer trade and betrayal opportunities in Work Separately."
+  ],
+  "chest_states": [
+    "Open",
+    "Locked",
+    "Trapped",
+    "Locked and trapped",
+    "Mimic or magical decoy in expanded content"
+  ],
+  "encumbrance_modes": {
+    "story": "Only large quest objects use carrying limits.",
+    "standard": "Weight affects movement after a generous threshold.",
+    "strict": "Full inventory weight and container management."
+  },
+  "records": [
+    {
+      "id": "kitk-item-healing-potions",
+      "name": "Healing potions",
+      "category": "consumable",
+      "activation": "Action or Bonus Action in quick-use mode",
+      "effect": "Restore 2d4 + 2 HP",
+      "tradeable": true,
+      "counts_toward_treasure_score": true
+    },
+    {
+      "id": "kitk-item-potion-of-darkvision",
+      "name": "Potion of Darkvision",
+      "category": "consumable",
+      "activation": "Bonus Action",
+      "effect": "Gain Darkvision 60 feet for 1 hour",
+      "tradeable": true,
+      "counts_toward_treasure_score": true
+    },
+    {
+      "id": "kitk-item-potion-of-energy",
+      "name": "Potion of Energy",
+      "category": "consumable",
+      "activation": "Bonus Action",
+      "effect": "Recover one expended limited-power use, maximum once per Game Level",
+      "tradeable": true,
+      "counts_toward_treasure_score": true
+    },
+    {
+      "id": "kitk-item-arcane-scroll-of-invisibility",
+      "name": "Arcane Scroll of Invisibility",
+      "category": "scroll",
+      "activation": "Action",
+      "effect": "Cast Invisibility once; consumed",
+      "tradeable": true,
+      "counts_toward_treasure_score": true
+    },
+    {
+      "id": "kitk-item-wand-of-magic-missile",
+      "name": "Wand of Magic Missile",
+      "category": "wand",
+      "activation": "Action",
+      "effect": "Spend 1 charge to create three darts, each dealing 1d4 + 1 force; 7 charges, regain 1d6+1 at dawn",
+      "tradeable": true,
+      "counts_toward_treasure_score": true
+    },
+    {
+      "id": "kitk-item-wand-of-delay-poison",
+      "name": "Wand of Delay Poison",
+      "category": "wand",
+      "activation": "Action",
+      "effect": "Suppress Poisoned and ongoing poison damage on one creature for 10 minutes",
+      "tradeable": true,
+      "counts_toward_treasure_score": true
+    },
+    {
+      "id": "kitk-item-ring-of-improved-jumping",
+      "name": "Ring of Improved Jumping",
+      "category": "worn item",
+      "activation": "Passive",
+      "effect": "Triple jump distance and ignore the first 10 feet of falling damage",
+      "tradeable": true,
+      "counts_toward_treasure_score": true
+    },
+    {
+      "id": "kitk-item-ring-of-invisibility",
+      "name": "Ring of Invisibility",
+      "category": "worn item",
+      "activation": "Action",
+      "effect": "Become Invisible for up to 1 minute; once per long rest or once per mystery",
+      "tradeable": true,
+      "counts_toward_treasure_score": true
+    },
+    {
+      "id": "kitk-item-brain-serum",
+      "name": "Brain Serum",
+      "category": "consumable",
+      "activation": "Action",
+      "effect": "Gain Advantage on Intelligence and Wisdom checks for 10 minutes; after it ends, make DC 12 Constitution save or become Stunned until end of next turn",
+      "tradeable": true,
+      "counts_toward_treasure_score": true
+    },
+    {
+      "id": "kitk-item-targeting-array",
+      "name": "Targeting Array",
+      "category": "worn or held device",
+      "activation": "Bonus Action",
+      "effect": "Gain Advantage on the next ranged attack before end of turn",
+      "tradeable": true,
+      "counts_toward_treasure_score": true
+    },
+    {
+      "id": "kitk-item-lockpicks",
+      "name": "Lockpicks",
+      "category": "tool",
+      "activation": "Action",
+      "effect": "Enable Dexterity checks with Thieves’ Tools to open locks and disarm mechanisms",
+      "tradeable": true,
+      "counts_toward_treasure_score": true
+    },
+    {
+      "id": "kitk-item-rations",
+      "name": "Rations",
+      "category": "supply",
+      "activation": "During a short rest",
+      "effect": "One ration prevents a storm-rest penalty for one hero",
+      "tradeable": true,
+      "counts_toward_treasure_score": true
+    },
+    {
+      "id": "kitk-item-rope-nets-grappling-hooks-and-portable-ram",
+      "name": "Rope, nets, grappling hooks, and portable ram",
+      "category": "utility kit",
+      "activation": "Action varies",
+      "effect": "Supports climbing, restraint, rescue, forced doors, pit recovery, and environmental counterplay",
+      "tradeable": true,
+      "counts_toward_treasure_score": true
+    },
+    {
+      "id": "kitk-evidence-card",
+      "name": "Evidence Card",
+      "category": "private deduction item",
+      "activation": "Automatic on deal or discovery",
+      "effect": "Excludes one suspect, weapon, or room from the sealed solution. Visibility follows the selected playstyle.",
+      "tradeable": "Only when the lobby explicitly allows evidence trading; the server retains ownership history."
+    },
+    {
+      "id": "kitk-case-notebook",
+      "name": "Case Notebook",
+      "category": "interface tool",
+      "activation": "Any time outside blocked cinematics",
+      "effect": "Tracks exclusions, possibilities, player holdings, unresolved sets, timeline notes, and evidence sources.",
+      "tradeable": false
+    }
+  ],
+  "vehicles": [],
+  "services": []
+}

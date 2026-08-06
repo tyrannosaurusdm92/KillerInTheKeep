@@ -1,0 +1,482 @@
+{
+  "schema_version": "2.0.0",
+  "document_type": "KillerInTheKeep_treasure_and_magic_item_deck",
+  "rules_version": "4.2.0",
+  "generated_on": "2026-08-05",
+  "display_name": "Treasure Deck",
+  "catalog_card_count": 37,
+  "magic_item_count": 29,
+  "mundane_item_count": 8,
+  "source_basis": "Magic items use SRD 5.2.1 names and mechanics, paraphrased for the Killer In The Keep runtime. Mundane gear uses SRD-compatible fifth-edition terminology.",
+  "draw_sources": [
+    "Chests after trap and lock resolution",
+    "Bookshelves and display cases after Search resolution",
+    "Monster rewards",
+    "Difficult trap rewards",
+    "Room objectives and authored fixed placements"
+  ],
+  "rarity_weights_standard": {
+    "Mundane": 35,
+    "Common": 25,
+    "Uncommon": 25,
+    "Rare": 13,
+    "Very Rare": 2,
+    "Legendary": 0
+  },
+  "high_magic_adjustment": "Hosts may increase Rare and Very Rare weight. Legendary treasure requires an authored final-act reward.",
+  "attunement_rule": "A living character can be attuned to no more than three items. The video-game runtime must clearly show attunement slots and prevent a fourth active attunement.",
+  "fixed_map_reference_rule": "When a map placement lists a specific treasure card ID, that fixed card overrides a random draw. Container card IDs define the chest wrapper and number of item draws.",
+  "death_return_rule": "On permanent death, deck-owned unconsumed Treasure cards return to this deck and are shuffled before the new ghost state begins.",
+  "container_cards": [
+    {
+      "card_id": "treasure-deck-large-iron-chest-treasure-card",
+      "name": "Large Iron Chest",
+      "loot_draws": 3,
+      "default_state": "Map-authored",
+      "magic_item_chance": "1 guaranteed magic draw in Standard mode"
+    },
+    {
+      "card_id": "treasure-deck-trapped-large-wooden-chest-treasure-card",
+      "name": "Trapped Large Wooden Chest",
+      "loot_draws": 3,
+      "default_state": "Trapped",
+      "magic_item_chance": "1 guaranteed magic draw after safe resolution"
+    },
+    {
+      "card_id": "treasure-deck-locked-medium-wooden-chest-treasure-card",
+      "name": "Locked Medium Wooden Chest",
+      "loot_draws": 2,
+      "default_state": "Locked",
+      "magic_item_chance": "Use rarity weights"
+    },
+    {
+      "card_id": "treasure-deck-trapped-small-ornate-chest-treasure-card",
+      "name": "Trapped Small Ornate Chest",
+      "loot_draws": 2,
+      "default_state": "Trapped",
+      "magic_item_chance": "At least Uncommon if trap is disarmed"
+    },
+    {
+      "card_id": "treasure-deck-medium-iron-chest-treasure-card",
+      "name": "Medium Iron Chest",
+      "loot_draws": 2,
+      "default_state": "Map-authored",
+      "magic_item_chance": "Use rarity weights"
+    },
+    {
+      "card_id": "treasure-deck-small-wooden-chest-treasure-card",
+      "name": "Small Wooden Chest",
+      "loot_draws": 1,
+      "default_state": "Map-authored",
+      "magic_item_chance": "Low"
+    }
+  ],
+  "cards": [
+    {
+      "card_id": "treasure-deck-potion-of-healing-treasure-card",
+      "name": "Potion of Healing",
+      "category": "Potion",
+      "rarity": "Common",
+      "magic": true,
+      "consumable": true,
+      "attunement": false,
+      "effect": "Drink or administer as a Bonus Action to restore 2d4 + 2 HP.",
+      "source_basis": "SRD 5.2.1"
+    },
+    {
+      "card_id": "treasure-deck-potion-of-healing-greater-treasure-card",
+      "name": "Potion of Healing (Greater)",
+      "category": "Potion",
+      "rarity": "Uncommon",
+      "magic": true,
+      "consumable": true,
+      "attunement": false,
+      "effect": "Drink or administer as a Bonus Action to restore 4d4 + 4 HP.",
+      "source_basis": "SRD 5.2.1"
+    },
+    {
+      "card_id": "treasure-deck-potion-of-heroism",
+      "name": "Potion of Heroism",
+      "category": "Potion",
+      "rarity": "Rare",
+      "magic": true,
+      "consumable": true,
+      "attunement": false,
+      "effect": "Gain 10 Temporary HP and the benefit of Bless for 1 hour without Concentration.",
+      "source_basis": "SRD 5.2.1"
+    },
+    {
+      "card_id": "treasure-deck-potion-of-invisibility",
+      "name": "Potion of Invisibility",
+      "category": "Potion",
+      "rarity": "Rare",
+      "magic": true,
+      "consumable": true,
+      "attunement": false,
+      "effect": "Become Invisible for 1 hour; the effect ends after attacking, dealing damage, or casting a spell.",
+      "source_basis": "SRD 5.2.1"
+    },
+    {
+      "card_id": "treasure-deck-potion-of-resistance",
+      "name": "Potion of Resistance",
+      "category": "Potion",
+      "rarity": "Uncommon",
+      "magic": true,
+      "consumable": true,
+      "attunement": false,
+      "effect": "Gain Resistance to one rolled damage type for 1 hour.",
+      "random_damage_types": [
+        "Acid",
+        "Cold",
+        "Fire",
+        "Force",
+        "Lightning",
+        "Necrotic",
+        "Poison",
+        "Psychic",
+        "Radiant",
+        "Thunder"
+      ],
+      "source_basis": "SRD 5.2.1"
+    },
+    {
+      "card_id": "treasure-deck-potion-of-climbing",
+      "name": "Potion of Climbing",
+      "category": "Potion",
+      "rarity": "Common",
+      "magic": true,
+      "consumable": true,
+      "attunement": false,
+      "effect": "For 1 hour, gain a Climb Speed equal to Speed and Advantage on Strength (Athletics) checks to climb.",
+      "source_basis": "SRD 5.2.1"
+    },
+    {
+      "card_id": "treasure-deck-potion-of-speed",
+      "name": "Potion of Speed",
+      "category": "Potion",
+      "rarity": "Very Rare",
+      "magic": true,
+      "consumable": true,
+      "attunement": false,
+      "effect": "Gain the Haste spell effect for 1 minute without Concentration and without the ending lethargy.",
+      "availability": "High Magic or boss chest only.",
+      "source_basis": "SRD 5.2.1"
+    },
+    {
+      "card_id": "treasure-deck-elixir-of-health",
+      "name": "Elixir of Health",
+      "category": "Potion",
+      "rarity": "Rare",
+      "magic": true,
+      "consumable": true,
+      "attunement": false,
+      "effect": "End magical contagions and the Blinded, Deafened, Paralyzed, and Poisoned conditions on the drinker.",
+      "source_basis": "SRD 5.2.1"
+    },
+    {
+      "card_id": "treasure-deck-bag-of-holding",
+      "name": "Bag of Holding",
+      "category": "Wondrous Item",
+      "rarity": "Uncommon",
+      "magic": true,
+      "consumable": false,
+      "attunement": false,
+      "effect": "Holds up to 500 pounds or 64 cubic feet while weighing 5 pounds. Retrieving an item uses a Utilize action.",
+      "game_rule": "It can store ordinary Treasure and usable gear, but cannot hide evidence cards or erase the incompatible-weapon hoarding penalty unless the weapon is explicitly stowed during a legal inventory action.",
+      "source_basis": "SRD 5.2.1"
+    },
+    {
+      "card_id": "treasure-deck-boots-of-elvenkind",
+      "name": "Boots of Elvenkind",
+      "category": "Wondrous Item",
+      "rarity": "Uncommon",
+      "magic": true,
+      "consumable": false,
+      "attunement": false,
+      "effect": "Your steps make no sound and you have Advantage on Dexterity (Stealth) checks.",
+      "source_basis": "SRD 5.2.1"
+    },
+    {
+      "card_id": "treasure-deck-boots-of-speed",
+      "name": "Boots of Speed",
+      "category": "Wondrous Item",
+      "rarity": "Rare",
+      "magic": true,
+      "consumable": false,
+      "attunement": true,
+      "effect": "Use a Bonus Action to double Speed and impose Disadvantage on Opportunity Attacks against you for up to 10 total minutes per Long Rest.",
+      "source_basis": "SRD 5.2.1"
+    },
+    {
+      "card_id": "treasure-deck-boots-of-striding-springing",
+      "name": "Boots of Striding and Springing",
+      "category": "Wondrous Item",
+      "rarity": "Uncommon",
+      "magic": true,
+      "consumable": false,
+      "attunement": true,
+      "effect": "Speed becomes at least 30 feet, excess carried weight and Heavy Armor do not reduce it, and once per turn you can jump up to 30 feet by spending 10 feet of movement.",
+      "source_basis": "SRD 5.2.1"
+    },
+    {
+      "card_id": "treasure-deck-cloak-of-protection",
+      "name": "Cloak of Protection",
+      "category": "Wondrous Item",
+      "rarity": "Uncommon",
+      "magic": true,
+      "consumable": false,
+      "attunement": true,
+      "effect": "Gain +1 AC and +1 to saving throws while worn.",
+      "source_basis": "SRD 5.2.1"
+    },
+    {
+      "card_id": "treasure-deck-gloves-of-thievery",
+      "name": "Gloves of Thievery",
+      "category": "Wondrous Item",
+      "rarity": "Uncommon",
+      "magic": true,
+      "consumable": false,
+      "attunement": false,
+      "effect": "The gloves are imperceptible while worn and grant +5 to Dexterity (Sleight of Hand) checks.",
+      "game_rule": "They do not automatically disarm traps; trap disarming still uses the game’s Dexterity + Thieves’ Tools procedure.",
+      "source_basis": "SRD 5.2.1"
+    },
+    {
+      "card_id": "treasure-deck-goggles-of-night",
+      "name": "Goggles of Night",
+      "category": "Wondrous Item",
+      "rarity": "Uncommon",
+      "magic": true,
+      "consumable": false,
+      "attunement": false,
+      "effect": "Gain Darkvision to 60 feet, or extend existing Darkvision by 60 feet.",
+      "source_basis": "SRD 5.2.1"
+    },
+    {
+      "card_id": "treasure-deck-immovable-rod",
+      "name": "Immovable Rod",
+      "category": "Rod",
+      "rarity": "Uncommon",
+      "magic": true,
+      "consumable": false,
+      "attunement": false,
+      "effect": "Activate or release the rod with a Utilize action. While fixed, it remains in place and can support up to 8,000 pounds; extraordinary force can move it.",
+      "game_rule": "May brace a door, anchor a rope, hold a pressure plate, or create an alternate trap counterplay when geometry permits.",
+      "source_basis": "SRD 5.2.1"
+    },
+    {
+      "card_id": "treasure-deck-lantern-of-revealing",
+      "name": "Lantern of Revealing",
+      "category": "Wondrous Item",
+      "rarity": "Uncommon",
+      "magic": true,
+      "consumable": false,
+      "attunement": false,
+      "effect": "While lit, Invisible creatures and objects are visible inside its 30-foot Bright Light.",
+      "source_basis": "SRD 5.2.1"
+    },
+    {
+      "card_id": "treasure-deck-periapt-of-wound-closure",
+      "name": "Periapt of Wound Closure",
+      "category": "Wondrous Item",
+      "rarity": "Uncommon",
+      "magic": true,
+      "consumable": false,
+      "attunement": true,
+      "effect": "A Death Save of 9 or lower can become a 10, and Hit Point Dice restore double HP.",
+      "game_rule": "Free For All death-save rules remain active; this item improves survival rather than removing the downed state.",
+      "source_basis": "SRD 5.2.1"
+    },
+    {
+      "card_id": "treasure-deck-ring-of-protection",
+      "name": "Ring of Protection",
+      "category": "Ring",
+      "rarity": "Rare",
+      "magic": true,
+      "consumable": false,
+      "attunement": true,
+      "effect": "Gain +1 AC and +1 to saving throws while worn.",
+      "source_basis": "SRD 5.2.1"
+    },
+    {
+      "card_id": "treasure-deck-ring-of-feather-falling",
+      "name": "Ring of Feather Falling",
+      "category": "Ring",
+      "rarity": "Rare",
+      "magic": true,
+      "consumable": false,
+      "attunement": true,
+      "effect": "While falling, descend 60 feet per round and take no falling damage.",
+      "source_basis": "SRD 5.2.1"
+    },
+    {
+      "card_id": "treasure-deck-rope-of-climbing",
+      "name": "Rope of Climbing",
+      "category": "Wondrous Item",
+      "rarity": "Uncommon",
+      "magic": true,
+      "consumable": false,
+      "attunement": false,
+      "effect": "A 60-foot rope that can animate toward a destination, fasten itself, and support up to 3,000 pounds.",
+      "game_rule": "Can create a legal vertical route only where the map exposes climbable geometry.",
+      "source_basis": "SRD 5.2.1"
+    },
+    {
+      "card_id": "treasure-deck-stone-of-good-luck",
+      "name": "Stone of Good Luck (Luckstone)",
+      "category": "Wondrous Item",
+      "rarity": "Uncommon",
+      "magic": true,
+      "consumable": false,
+      "attunement": true,
+      "effect": "Gain +1 to ability checks and saving throws while the stone is on your person.",
+      "source_basis": "SRD 5.2.1"
+    },
+    {
+      "card_id": "treasure-deck-wand-of-magic-detection",
+      "name": "Wand of Magic Detection",
+      "category": "Wand",
+      "rarity": "Uncommon",
+      "magic": true,
+      "consumable": false,
+      "attunement": false,
+      "effect": "Has 3 charges; expend 1 to cast Detect Magic. Regains 1d3 charges at dawn.",
+      "source_basis": "SRD 5.2.1"
+    },
+    {
+      "card_id": "treasure-deck-wand-of-secrets",
+      "name": "Wand of Secrets",
+      "category": "Wand",
+      "rarity": "Uncommon",
+      "magic": true,
+      "consumable": false,
+      "attunement": false,
+      "effect": "Has 3 charges; expend 1 as a Magic action to point toward the nearest secret door or trap within 60 feet. Regains 1d3 charges at dawn.",
+      "game_rule": "It reveals direction, not an automatic safe route or disable result.",
+      "source_basis": "SRD 5.2.1"
+    },
+    {
+      "card_id": "treasure-deck-wand-of-magic-missiles-treasure-card",
+      "name": "Wand of Magic Missiles",
+      "category": "Wand",
+      "rarity": "Uncommon",
+      "magic": true,
+      "consumable": false,
+      "attunement": false,
+      "effect": "Has 7 charges; expend up to 3 charges to cast Magic Missile at the corresponding spell level. Regains 1d6 + 1 charges at dawn; using the last charge risks destruction.",
+      "source_basis": "SRD 5.2.1"
+    },
+    {
+      "card_id": "treasure-deck-chime-of-opening",
+      "name": "Chime of Opening",
+      "category": "Wondrous Item",
+      "rarity": "Rare",
+      "magic": true,
+      "consumable": false,
+      "attunement": false,
+      "effect": "Can cast Knock up to 10 times, but its ringing is audible out to 300 feet. It breaks after the tenth use.",
+      "game_rule": "Opening a trapped entry does not disarm its trap; the loud tone may trigger nearby monsters.",
+      "source_basis": "SRD 5.2.1"
+    },
+    {
+      "card_id": "treasure-deck-gem-of-seeing",
+      "name": "Gem of Seeing",
+      "category": "Wondrous Item",
+      "rarity": "Rare",
+      "magic": true,
+      "consumable": false,
+      "attunement": true,
+      "effect": "Has 3 charges; expend 1 for 10 minutes of Truesight to 120 feet while looking through the gem. Regains 1d3 charges at dawn.",
+      "source_basis": "SRD 5.2.1"
+    },
+    {
+      "card_id": "treasure-deck-bracers-of-defense",
+      "name": "Bracers of Defense",
+      "category": "Wondrous Item",
+      "rarity": "Rare",
+      "magic": true,
+      "consumable": false,
+      "attunement": true,
+      "effect": "Gain +2 AC while wearing no armor and using no Shield.",
+      "source_basis": "SRD 5.2.1"
+    },
+    {
+      "card_id": "treasure-deck-oil-of-slipperiness",
+      "name": "Oil of Slipperiness",
+      "category": "Potion",
+      "rarity": "Uncommon",
+      "magic": true,
+      "consumable": true,
+      "attunement": false,
+      "effect": "Apply to a creature for Freedom of Movement for 8 hours, or pour it over a 10-foot square to create a Grease effect for 8 hours.",
+      "source_basis": "SRD 5.2.1"
+    },
+    {
+      "card_id": "treasure-deck-silver-pearl-treasure-card",
+      "name": "Silver Pearl",
+      "category": "Valuable",
+      "rarity": "Mundane",
+      "magic": false,
+      "value": "100 GP",
+      "effect": "Counts toward recovered treasure value and can be traded."
+    },
+    {
+      "card_id": "treasure-deck-lockpicks",
+      "name": "Lockpicks",
+      "category": "Tool",
+      "rarity": "Mundane",
+      "magic": false,
+      "effect": "A compact thieves’ tool component set. Enables lock and trap attempts when the character lacks another valid kit; proficiency is tracked separately."
+    },
+    {
+      "card_id": "treasure-deck-crowbar",
+      "name": "Crowbar",
+      "category": "Tool",
+      "rarity": "Mundane",
+      "magic": false,
+      "effect": "Grants Advantage on applicable Strength checks where leverage helps; noisy use can trigger encounters."
+    },
+    {
+      "card_id": "treasure-deck-healers-kit",
+      "name": "Healer’s Kit",
+      "category": "Adventuring Gear",
+      "rarity": "Mundane",
+      "magic": false,
+      "charges": 10,
+      "effect": "Spend a use to stabilize a creature at 0 HP without an ability check."
+    },
+    {
+      "card_id": "treasure-deck-antitoxin",
+      "name": "Antitoxin",
+      "category": "Consumable",
+      "rarity": "Mundane",
+      "magic": false,
+      "effect": "Grants Advantage for 1 hour on saving throws made to avoid or end the Poisoned condition."
+    },
+    {
+      "card_id": "treasure-deck-holy-water",
+      "name": "Holy Water",
+      "category": "Consumable",
+      "rarity": "Mundane",
+      "magic": false,
+      "effect": "Can damage Fiends and Undead according to the game’s SRD equipment action."
+    },
+    {
+      "card_id": "treasure-deck-rope-grappling-hook",
+      "name": "Rope and Grappling Hook",
+      "category": "Adventuring Gear",
+      "rarity": "Mundane",
+      "magic": false,
+      "effect": "Supports climbing, anchoring, rescue, and environmental trap counterplay where geometry permits."
+    },
+    {
+      "card_id": "treasure-deck-coin-purse",
+      "name": "Old Keep Coin Purse",
+      "category": "Currency",
+      "rarity": "Mundane",
+      "magic": false,
+      "effect": "Roll the configured coin table and add the result to recovered treasure value."
+    }
+  ],
+  "srd_license_notice_file": "NOTICE_SRD_5.2.1.md"
+}
