@@ -1,0 +1,50 @@
+{
+  "schema_version": "4.5.0",
+  "id": "gameplay-deck-first-floor-solar-gameplay-card",
+  "asset_type": "exact_map_room_gameplay_card",
+  "visibility": "public",
+  "room_number": 12,
+  "room_id": "first_floor_solar",
+  "title": "1st Floor Solar",
+  "floor": "first_floor",
+  "floor_display_name": "First Floor — Entrance Level",
+  "exact_map_crop": "room_cards/map_crops/12_first-floor-solar.png",
+  "html": "room_cards/html/12_first-floor-solar.html",
+  "css": "css/assets/gameplay-deck/gameplay-deck-first-floor-solar-gameplay-card.css",
+  "base_css": "css/assets/gameplay-deck/room-gameplay-card-base.css",
+  "room_json": "room_cards/json/12_first-floor-solar.json",
+  "coordinates": {
+    "feet_per_square": 5,
+    "pixels_per_square": 32,
+    "primary_ranges_inclusive": [
+      [
+        8,
+        12,
+        0,
+        8
+      ]
+    ],
+    "primary_bounds_inclusive": {
+      "min_x": 8,
+      "max_x": 12,
+      "min_y": 0,
+      "max_y": 8,
+      "min_label": "I1",
+      "max_label": "M9"
+    },
+    "additional_floor_areas": []
+  },
+  "visible_routes": [
+    "library",
+    "alchemists_quarters",
+    "alchemists_study",
+    "rear_service_corridor"
+  ],
+  "public_description": "Private first-floor withdrawing and planning chamber.",
+  "public_information_policy": "Room identity and exact public room artwork only. Hidden fixture and encounter states are not present in this card file.",
+  "click_action": "Open the corresponding exact-map room card and room inspection dialog.",
+  "deck": "evidence",
+  "evidence_category": "room",
+  "equippable": false,
+  "private_state_excluded": true
+}

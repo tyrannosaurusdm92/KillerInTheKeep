@@ -1,0 +1,48 @@
+{
+  "schema_version": "4.5.0",
+  "id": "gameplay-deck-alchemists-quarters-gameplay-card",
+  "asset_type": "exact_map_room_gameplay_card",
+  "visibility": "public",
+  "room_number": 13,
+  "room_id": "alchemists_quarters",
+  "title": "Alchemist’s Quarters",
+  "floor": "first_floor",
+  "floor_display_name": "First Floor — Entrance Level",
+  "exact_map_crop": "room_cards/map_crops/13_alchemists-quarters.png",
+  "html": "room_cards/html/13_alchemists-quarters.html",
+  "css": "css/assets/gameplay-deck/gameplay-deck-alchemists-quarters-gameplay-card.css",
+  "base_css": "css/assets/gameplay-deck/room-gameplay-card-base.css",
+  "room_json": "room_cards/json/13_alchemists-quarters.json",
+  "coordinates": {
+    "feet_per_square": 5,
+    "pixels_per_square": 32,
+    "primary_ranges_inclusive": [
+      [
+        0,
+        7,
+        0,
+        9
+      ]
+    ],
+    "primary_bounds_inclusive": {
+      "min_x": 0,
+      "max_x": 7,
+      "min_y": 0,
+      "max_y": 9,
+      "min_label": "A1",
+      "max_label": "H10"
+    },
+    "additional_floor_areas": []
+  },
+  "visible_routes": [
+    "first_floor_solar",
+    "rear_service_corridor"
+  ],
+  "public_description": "Private bedchamber adjoining the Solar and Study.",
+  "public_information_policy": "Room identity and exact public room artwork only. Hidden fixture and encounter states are not present in this card file.",
+  "click_action": "Open the corresponding exact-map room card and room inspection dialog.",
+  "deck": "evidence",
+  "evidence_category": "room",
+  "equippable": false,
+  "private_state_excluded": true
+}

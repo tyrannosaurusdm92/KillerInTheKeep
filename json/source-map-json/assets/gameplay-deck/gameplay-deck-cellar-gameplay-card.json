@@ -1,0 +1,47 @@
+{
+  "schema_version": "4.5.0",
+  "id": "gameplay-deck-cellar-gameplay-card",
+  "asset_type": "exact_map_room_gameplay_card",
+  "visibility": "public",
+  "room_number": 1,
+  "room_id": "cellar",
+  "title": "Cellar",
+  "floor": "cellar",
+  "floor_display_name": "Cellar Level",
+  "exact_map_crop": "room_cards/map_crops/01_cellar.png",
+  "html": "room_cards/html/01_cellar.html",
+  "css": "css/assets/gameplay-deck/gameplay-deck-cellar-gameplay-card.css",
+  "base_css": "css/assets/gameplay-deck/room-gameplay-card-base.css",
+  "room_json": "room_cards/json/01_cellar.json",
+  "coordinates": {
+    "feet_per_square": 5,
+    "pixels_per_square": 32,
+    "primary_ranges_inclusive": [
+      [
+        6,
+        41,
+        6,
+        25
+      ]
+    ],
+    "primary_bounds_inclusive": {
+      "min_x": 6,
+      "max_x": 41,
+      "min_y": 6,
+      "max_y": 25,
+      "min_label": "G7",
+      "max_label": "AP26"
+    },
+    "additional_floor_areas": []
+  },
+  "visible_routes": [
+    "pantry"
+  ],
+  "public_description": "Lower-level storage chamber beneath the keep.",
+  "public_information_policy": "Room identity and exact public room artwork only. Hidden fixture and encounter states are not present in this card file.",
+  "click_action": "Open the corresponding exact-map room card and room inspection dialog.",
+  "deck": "evidence",
+  "evidence_category": "room",
+  "equippable": false,
+  "private_state_excluded": true
+}

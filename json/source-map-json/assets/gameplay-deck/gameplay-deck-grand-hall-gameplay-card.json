@@ -1,0 +1,52 @@
+{
+  "schema_version": "4.5.0",
+  "id": "gameplay-deck-grand-hall-gameplay-card",
+  "asset_type": "exact_map_room_gameplay_card",
+  "visibility": "public",
+  "room_number": 3,
+  "room_id": "grand_hall",
+  "title": "Grand Hall",
+  "floor": "first_floor",
+  "floor_display_name": "First Floor — Entrance Level",
+  "exact_map_crop": "room_cards/map_crops/03_grand-hall.png",
+  "html": "room_cards/html/03_grand-hall.html",
+  "css": "css/assets/gameplay-deck/gameplay-deck-grand-hall-gameplay-card.css",
+  "base_css": "css/assets/gameplay-deck/room-gameplay-card-base.css",
+  "room_json": "room_cards/json/03_grand-hall.json",
+  "coordinates": {
+    "feet_per_square": 5,
+    "pixels_per_square": 32,
+    "primary_ranges_inclusive": [
+      [
+        16,
+        30,
+        9,
+        25
+      ]
+    ],
+    "primary_bounds_inclusive": {
+      "min_x": 16,
+      "max_x": 30,
+      "min_y": 9,
+      "max_y": 25,
+      "min_label": "Q10",
+      "max_label": "AE26"
+    },
+    "additional_floor_areas": []
+  },
+  "visible_routes": [
+    "foyer",
+    "game_room",
+    "dining_room",
+    "sitting_room",
+    "library",
+    "grand_staircase"
+  ],
+  "public_description": "Central double-height gathering chamber with the keep’s main staircase.",
+  "public_information_policy": "Room identity and exact public room artwork only. Hidden fixture and encounter states are not present in this card file.",
+  "click_action": "Open the corresponding exact-map room card and room inspection dialog.",
+  "deck": "evidence",
+  "evidence_category": "room",
+  "equippable": false,
+  "private_state_excluded": true
+}

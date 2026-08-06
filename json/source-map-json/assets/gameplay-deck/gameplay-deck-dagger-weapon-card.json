@@ -1,0 +1,64 @@
+{
+  "id": "gameplay-deck-dagger-weapon-card",
+  "original": {
+    "path": "Gameplay Deck/AddText_06-18-12.19.41.jpg",
+    "filename": "AddText_06-18-12.19.41.jpg",
+    "extension": ".jpg",
+    "mimeType": "image/jpeg",
+    "byteLength": 202855,
+    "sha256": "546eec2cbf2dbfe3b4e31592f700026c2033cb8553fa1692ea60c84f81becbd2",
+    "sourceArchive": "To Save Just In Case (3).zip"
+  },
+  "image": {
+    "width": 530,
+    "height": 684,
+    "format": "JPEG",
+    "mode": "RGB",
+    "frames": 1
+  },
+  "embedded": {
+    "mimeType": "image/jpeg",
+    "byteLength": 202855,
+    "sha256": "546eec2cbf2dbfe3b4e31592f700026c2033cb8553fa1692ea60c84f81becbd2",
+    "method": "original-bytes",
+    "pixelVerifiedLossless": true,
+    "dataLocation": "css/assets/gameplay-deck/gameplay-deck-dagger-weapon-card.css"
+  },
+  "css": {
+    "file": "css/assets/gameplay-deck/gameplay-deck-dagger-weapon-card.css",
+    "variable": "--asset-gameplay-deck-dagger-weapon-card",
+    "class": "asset-gameplay-deck-dagger-weapon-card",
+    "usage": "<div class=\"asset-gameplay-deck-dagger-weapon-card\" role=\"img\" aria-label=\"Dagger\"></div>"
+  },
+  "json": {
+    "file": "json/assets/gameplay-deck/gameplay-deck-dagger-weapon-card.json"
+  },
+  "category": "Gameplay Deck",
+  "compliance": {
+    "status": "preserved",
+    "reason": "Generic visual retained; its JSON record now contains SRD 5.2.1 equipment data or an SRD reference.",
+    "rulesBasis": "Not applicable or supplemented by structured SRD metadata.",
+    "artBasis": "User-supplied asset; copyright provenance was not independently verified."
+  },
+  "rulesData": {
+    "title": "Dagger",
+    "type": "Simple melee weapon",
+    "damage": "1d4 Piercing",
+    "properties": [
+      "Finesse",
+      "Light",
+      "Thrown (20/60)"
+    ],
+    "mastery": "Nick",
+    "cost": "2 GP",
+    "weight": "1 lb."
+  },
+  "schema_version": "4.5.0",
+  "deck": "evidence",
+  "asset_type": "murder_weapon_evidence_card",
+  "evidence_category": "murder_weapon",
+  "evidence_name": "Dagger",
+  "equippable": false,
+  "loot_card": false,
+  "separation_rule": "This is a Clue-style murder evidence card. It never becomes an inventory weapon and is never drawn from a weapon rack."
+}

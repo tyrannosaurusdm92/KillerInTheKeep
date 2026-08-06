@@ -1,0 +1,50 @@
+{
+  "id": "korbin-sacred-flame-spell-card",
+  "original": {
+    "path": "Korbin/AddText_06-02-01.05.27.jpg",
+    "filename": "AddText_06-02-01.05.27.jpg",
+    "extension": ".jpg",
+    "mimeType": "image/jpeg",
+    "byteLength": 414330,
+    "sha256": "28391b0139e3d391618a7fbb0f2f00e0e2ad1b958fdee6041652add5e50efd9a",
+    "sourceArchive": "To Save Just In Case (4).zip"
+  },
+  "image": {
+    "width": 1200,
+    "height": 1200,
+    "format": "SVG",
+    "mode": "vector",
+    "frames": 1
+  },
+  "embedded": {
+    "mimeType": "image/svg+xml",
+    "byteLength": 1300,
+    "sha256": "f5d3e9de81b43160ce551d77021e1ef7daea8ba01a4d6c924ed82ce1924749b5",
+    "method": "srd-compliant-card-substitute",
+    "pixelVerifiedLossless": false,
+    "dataLocation": "css/assets/korbin/korbin-sacred-flame-spell-card.css"
+  },
+  "css": {
+    "file": "css/assets/korbin/korbin-sacred-flame-spell-card.css",
+    "variable": "--asset-korbin-sacred-flame-spell-card",
+    "class": "asset-korbin-sacred-flame-spell-card",
+    "usage": "<div class=\"asset-korbin-sacred-flame-spell-card\" role=\"img\" aria-label=\"Sacred Flame\"></div>"
+  },
+  "json": {
+    "file": "json/assets/korbin/korbin-sacred-flame-spell-card.json"
+  },
+  "category": "Korbin",
+  "compliance": {
+    "status": "replaced",
+    "reason": "Original card used mixed-edition, non-SRD, or rules-inaccurate mechanics; replaced with an SRD 5.2.1 entry or SRD-only example build.",
+    "replacementTitle": "Sacred Flame",
+    "replacementKind": "spell",
+    "rulesBasis": "SRD 5.2.1 or original 5E-compatible mechanics",
+    "artBasis": "New vector/CSS asset or original layout; no D&D logo or publisher trade dress used."
+  },
+  "rulesData": {
+    "type": "Evocation cantrip",
+    "meta": "Action • 60 ft. • Instantaneous",
+    "summary": "One creature makes a Dexterity save or takes 1d8 radiant damage. The target gains no benefit from cover for this save."
+  }
+}

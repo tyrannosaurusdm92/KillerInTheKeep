@@ -1,0 +1,955 @@
+{
+  "schema_version": "4.5.0",
+  "id": "gameplay-deck-library-gameplay-card",
+  "asset_type": "exact_map_room_gameplay_card",
+  "visibility": "public",
+  "room_number": 11,
+  "room_id": "library",
+  "title": "Library",
+  "floor": "first_floor",
+  "floor_display_name": "First Floor — Entrance Level",
+  "exact_map_crop": "room_cards/map_crops/11_library_lower.png",
+  "html": "room_cards/html/11_library.html",
+  "css": "css/assets/gameplay-deck/gameplay-deck-library-gameplay-card.css",
+  "base_css": "css/assets/gameplay-deck/room-gameplay-card-base.css",
+  "room_json": "room_cards/json/11_library.json",
+  "coordinates": {
+    "feet_per_square": 5,
+    "pixels_per_square": 32,
+    "primary_ranges_inclusive": [
+      [
+        8,
+        15,
+        10,
+        19
+      ]
+    ],
+    "primary_bounds_inclusive": {
+      "min_x": 8,
+      "max_x": 15,
+      "min_y": 10,
+      "max_y": 19,
+      "min_label": "I11",
+      "max_label": "P20"
+    },
+    "additional_floor_areas": [
+      {
+        "floor": "second_floor",
+        "ranges": [
+          [
+            8,
+            15,
+            21,
+            31
+          ]
+        ],
+        "area_name": "Upper Gallery",
+        "bounds": {
+          "min_x": 8,
+          "max_x": 15,
+          "min_y": 21,
+          "max_y": 31,
+          "min_label": "I22",
+          "max_label": "P32"
+        },
+        "coordinates": [
+          {
+            "floor": "second_floor",
+            "x": 8,
+            "y": 21,
+            "label": "I22",
+            "feet": {
+              "x": 40,
+              "y": 105
+            }
+          },
+          {
+            "floor": "second_floor",
+            "x": 9,
+            "y": 21,
+            "label": "J22",
+            "feet": {
+              "x": 45,
+              "y": 105
+            }
+          },
+          {
+            "floor": "second_floor",
+            "x": 10,
+            "y": 21,
+            "label": "K22",
+            "feet": {
+              "x": 50,
+              "y": 105
+            }
+          },
+          {
+            "floor": "second_floor",
+            "x": 11,
+            "y": 21,
+            "label": "L22",
+            "feet": {
+              "x": 55,
+              "y": 105
+            }
+          },
+          {
+            "floor": "second_floor",
+            "x": 12,
+            "y": 21,
+            "label": "M22",
+            "feet": {
+              "x": 60,
+              "y": 105
+            }
+          },
+          {
+            "floor": "second_floor",
+            "x": 13,
+            "y": 21,
+            "label": "N22",
+            "feet": {
+              "x": 65,
+              "y": 105
+            }
+          },
+          {
+            "floor": "second_floor",
+            "x": 14,
+            "y": 21,
+            "label": "O22",
+            "feet": {
+              "x": 70,
+              "y": 105
+            }
+          },
+          {
+            "floor": "second_floor",
+            "x": 15,
+            "y": 21,
+            "label": "P22",
+            "feet": {
+              "x": 75,
+              "y": 105
+            }
+          },
+          {
+            "floor": "second_floor",
+            "x": 8,
+            "y": 22,
+            "label": "I23",
+            "feet": {
+              "x": 40,
+              "y": 110
+            }
+          },
+          {
+            "floor": "second_floor",
+            "x": 9,
+            "y": 22,
+            "label": "J23",
+            "feet": {
+              "x": 45,
+              "y": 110
+            }
+          },
+          {
+            "floor": "second_floor",
+            "x": 10,
+            "y": 22,
+            "label": "K23",
+            "feet": {
+              "x": 50,
+              "y": 110
+            }
+          },
+          {
+            "floor": "second_floor",
+            "x": 11,
+            "y": 22,
+            "label": "L23",
+            "feet": {
+              "x": 55,
+              "y": 110
+            }
+          },
+          {
+            "floor": "second_floor",
+            "x": 12,
+            "y": 22,
+            "label": "M23",
+            "feet": {
+              "x": 60,
+              "y": 110
+            }
+          },
+          {
+            "floor": "second_floor",
+            "x": 13,
+            "y": 22,
+            "label": "N23",
+            "feet": {
+              "x": 65,
+              "y": 110
+            }
+          },
+          {
+            "floor": "second_floor",
+            "x": 14,
+            "y": 22,
+            "label": "O23",
+            "feet": {
+              "x": 70,
+              "y": 110
+            }
+          },
+          {
+            "floor": "second_floor",
+            "x": 15,
+            "y": 22,
+            "label": "P23",
+            "feet": {
+              "x": 75,
+              "y": 110
+            }
+          },
+          {
+            "floor": "second_floor",
+            "x": 8,
+            "y": 23,
+            "label": "I24",
+            "feet": {
+              "x": 40,
+              "y": 115
+            }
+          },
+          {
+            "floor": "second_floor",
+            "x": 9,
+            "y": 23,
+            "label": "J24",
+            "feet": {
+              "x": 45,
+              "y": 115
+            }
+          },
+          {
+            "floor": "second_floor",
+            "x": 10,
+            "y": 23,
+            "label": "K24",
+            "feet": {
+              "x": 50,
+              "y": 115
+            }
+          },
+          {
+            "floor": "second_floor",
+            "x": 11,
+            "y": 23,
+            "label": "L24",
+            "feet": {
+              "x": 55,
+              "y": 115
+            }
+          },
+          {
+            "floor": "second_floor",
+            "x": 12,
+            "y": 23,
+            "label": "M24",
+            "feet": {
+              "x": 60,
+              "y": 115
+            }
+          },
+          {
+            "floor": "second_floor",
+            "x": 13,
+            "y": 23,
+            "label": "N24",
+            "feet": {
+              "x": 65,
+              "y": 115
+            }
+          },
+          {
+            "floor": "second_floor",
+            "x": 14,
+            "y": 23,
+            "label": "O24",
+            "feet": {
+              "x": 70,
+              "y": 115
+            }
+          },
+          {
+            "floor": "second_floor",
+            "x": 15,
+            "y": 23,
+            "label": "P24",
+            "feet": {
+              "x": 75,
+              "y": 115
+            }
+          },
+          {
+            "floor": "second_floor",
+            "x": 8,
+            "y": 24,
+            "label": "I25",
+            "feet": {
+              "x": 40,
+              "y": 120
+            }
+          },
+          {
+            "floor": "second_floor",
+            "x": 9,
+            "y": 24,
+            "label": "J25",
+            "feet": {
+              "x": 45,
+              "y": 120
+            }
+          },
+          {
+            "floor": "second_floor",
+            "x": 10,
+            "y": 24,
+            "label": "K25",
+            "feet": {
+              "x": 50,
+              "y": 120
+            }
+          },
+          {
+            "floor": "second_floor",
+            "x": 11,
+            "y": 24,
+            "label": "L25",
+            "feet": {
+              "x": 55,
+              "y": 120
+            }
+          },
+          {
+            "floor": "second_floor",
+            "x": 12,
+            "y": 24,
+            "label": "M25",
+            "feet": {
+              "x": 60,
+              "y": 120
+            }
+          },
+          {
+            "floor": "second_floor",
+            "x": 13,
+            "y": 24,
+            "label": "N25",
+            "feet": {
+              "x": 65,
+              "y": 120
+            }
+          },
+          {
+            "floor": "second_floor",
+            "x": 14,
+            "y": 24,
+            "label": "O25",
+            "feet": {
+              "x": 70,
+              "y": 120
+            }
+          },
+          {
+            "floor": "second_floor",
+            "x": 15,
+            "y": 24,
+            "label": "P25",
+            "feet": {
+              "x": 75,
+              "y": 120
+            }
+          },
+          {
+            "floor": "second_floor",
+            "x": 8,
+            "y": 25,
+            "label": "I26",
+            "feet": {
+              "x": 40,
+              "y": 125
+            }
+          },
+          {
+            "floor": "second_floor",
+            "x": 9,
+            "y": 25,
+            "label": "J26",
+            "feet": {
+              "x": 45,
+              "y": 125
+            }
+          },
+          {
+            "floor": "second_floor",
+            "x": 10,
+            "y": 25,
+            "label": "K26",
+            "feet": {
+              "x": 50,
+              "y": 125
+            }
+          },
+          {
+            "floor": "second_floor",
+            "x": 11,
+            "y": 25,
+            "label": "L26",
+            "feet": {
+              "x": 55,
+              "y": 125
+            }
+          },
+          {
+            "floor": "second_floor",
+            "x": 12,
+            "y": 25,
+            "label": "M26",
+            "feet": {
+              "x": 60,
+              "y": 125
+            }
+          },
+          {
+            "floor": "second_floor",
+            "x": 13,
+            "y": 25,
+            "label": "N26",
+            "feet": {
+              "x": 65,
+              "y": 125
+            }
+          },
+          {
+            "floor": "second_floor",
+            "x": 14,
+            "y": 25,
+            "label": "O26",
+            "feet": {
+              "x": 70,
+              "y": 125
+            }
+          },
+          {
+            "floor": "second_floor",
+            "x": 15,
+            "y": 25,
+            "label": "P26",
+            "feet": {
+              "x": 75,
+              "y": 125
+            }
+          },
+          {
+            "floor": "second_floor",
+            "x": 8,
+            "y": 26,
+            "label": "I27",
+            "feet": {
+              "x": 40,
+              "y": 130
+            }
+          },
+          {
+            "floor": "second_floor",
+            "x": 9,
+            "y": 26,
+            "label": "J27",
+            "feet": {
+              "x": 45,
+              "y": 130
+            }
+          },
+          {
+            "floor": "second_floor",
+            "x": 10,
+            "y": 26,
+            "label": "K27",
+            "feet": {
+              "x": 50,
+              "y": 130
+            }
+          },
+          {
+            "floor": "second_floor",
+            "x": 11,
+            "y": 26,
+            "label": "L27",
+            "feet": {
+              "x": 55,
+              "y": 130
+            }
+          },
+          {
+            "floor": "second_floor",
+            "x": 12,
+            "y": 26,
+            "label": "M27",
+            "feet": {
+              "x": 60,
+              "y": 130
+            }
+          },
+          {
+            "floor": "second_floor",
+            "x": 13,
+            "y": 26,
+            "label": "N27",
+            "feet": {
+              "x": 65,
+              "y": 130
+            }
+          },
+          {
+            "floor": "second_floor",
+            "x": 14,
+            "y": 26,
+            "label": "O27",
+            "feet": {
+              "x": 70,
+              "y": 130
+            }
+          },
+          {
+            "floor": "second_floor",
+            "x": 15,
+            "y": 26,
+            "label": "P27",
+            "feet": {
+              "x": 75,
+              "y": 130
+            }
+          },
+          {
+            "floor": "second_floor",
+            "x": 8,
+            "y": 27,
+            "label": "I28",
+            "feet": {
+              "x": 40,
+              "y": 135
+            }
+          },
+          {
+            "floor": "second_floor",
+            "x": 9,
+            "y": 27,
+            "label": "J28",
+            "feet": {
+              "x": 45,
+              "y": 135
+            }
+          },
+          {
+            "floor": "second_floor",
+            "x": 10,
+            "y": 27,
+            "label": "K28",
+            "feet": {
+              "x": 50,
+              "y": 135
+            }
+          },
+          {
+            "floor": "second_floor",
+            "x": 11,
+            "y": 27,
+            "label": "L28",
+            "feet": {
+              "x": 55,
+              "y": 135
+            }
+          },
+          {
+            "floor": "second_floor",
+            "x": 12,
+            "y": 27,
+            "label": "M28",
+            "feet": {
+              "x": 60,
+              "y": 135
+            }
+          },
+          {
+            "floor": "second_floor",
+            "x": 13,
+            "y": 27,
+            "label": "N28",
+            "feet": {
+              "x": 65,
+              "y": 135
+            }
+          },
+          {
+            "floor": "second_floor",
+            "x": 14,
+            "y": 27,
+            "label": "O28",
+            "feet": {
+              "x": 70,
+              "y": 135
+            }
+          },
+          {
+            "floor": "second_floor",
+            "x": 15,
+            "y": 27,
+            "label": "P28",
+            "feet": {
+              "x": 75,
+              "y": 135
+            }
+          },
+          {
+            "floor": "second_floor",
+            "x": 8,
+            "y": 28,
+            "label": "I29",
+            "feet": {
+              "x": 40,
+              "y": 140
+            }
+          },
+          {
+            "floor": "second_floor",
+            "x": 9,
+            "y": 28,
+            "label": "J29",
+            "feet": {
+              "x": 45,
+              "y": 140
+            }
+          },
+          {
+            "floor": "second_floor",
+            "x": 10,
+            "y": 28,
+            "label": "K29",
+            "feet": {
+              "x": 50,
+              "y": 140
+            }
+          },
+          {
+            "floor": "second_floor",
+            "x": 11,
+            "y": 28,
+            "label": "L29",
+            "feet": {
+              "x": 55,
+              "y": 140
+            }
+          },
+          {
+            "floor": "second_floor",
+            "x": 12,
+            "y": 28,
+            "label": "M29",
+            "feet": {
+              "x": 60,
+              "y": 140
+            }
+          },
+          {
+            "floor": "second_floor",
+            "x": 13,
+            "y": 28,
+            "label": "N29",
+            "feet": {
+              "x": 65,
+              "y": 140
+            }
+          },
+          {
+            "floor": "second_floor",
+            "x": 14,
+            "y": 28,
+            "label": "O29",
+            "feet": {
+              "x": 70,
+              "y": 140
+            }
+          },
+          {
+            "floor": "second_floor",
+            "x": 15,
+            "y": 28,
+            "label": "P29",
+            "feet": {
+              "x": 75,
+              "y": 140
+            }
+          },
+          {
+            "floor": "second_floor",
+            "x": 8,
+            "y": 29,
+            "label": "I30",
+            "feet": {
+              "x": 40,
+              "y": 145
+            }
+          },
+          {
+            "floor": "second_floor",
+            "x": 9,
+            "y": 29,
+            "label": "J30",
+            "feet": {
+              "x": 45,
+              "y": 145
+            }
+          },
+          {
+            "floor": "second_floor",
+            "x": 10,
+            "y": 29,
+            "label": "K30",
+            "feet": {
+              "x": 50,
+              "y": 145
+            }
+          },
+          {
+            "floor": "second_floor",
+            "x": 11,
+            "y": 29,
+            "label": "L30",
+            "feet": {
+              "x": 55,
+              "y": 145
+            }
+          },
+          {
+            "floor": "second_floor",
+            "x": 12,
+            "y": 29,
+            "label": "M30",
+            "feet": {
+              "x": 60,
+              "y": 145
+            }
+          },
+          {
+            "floor": "second_floor",
+            "x": 13,
+            "y": 29,
+            "label": "N30",
+            "feet": {
+              "x": 65,
+              "y": 145
+            }
+          },
+          {
+            "floor": "second_floor",
+            "x": 14,
+            "y": 29,
+            "label": "O30",
+            "feet": {
+              "x": 70,
+              "y": 145
+            }
+          },
+          {
+            "floor": "second_floor",
+            "x": 15,
+            "y": 29,
+            "label": "P30",
+            "feet": {
+              "x": 75,
+              "y": 145
+            }
+          },
+          {
+            "floor": "second_floor",
+            "x": 8,
+            "y": 30,
+            "label": "I31",
+            "feet": {
+              "x": 40,
+              "y": 150
+            }
+          },
+          {
+            "floor": "second_floor",
+            "x": 9,
+            "y": 30,
+            "label": "J31",
+            "feet": {
+              "x": 45,
+              "y": 150
+            }
+          },
+          {
+            "floor": "second_floor",
+            "x": 10,
+            "y": 30,
+            "label": "K31",
+            "feet": {
+              "x": 50,
+              "y": 150
+            }
+          },
+          {
+            "floor": "second_floor",
+            "x": 11,
+            "y": 30,
+            "label": "L31",
+            "feet": {
+              "x": 55,
+              "y": 150
+            }
+          },
+          {
+            "floor": "second_floor",
+            "x": 12,
+            "y": 30,
+            "label": "M31",
+            "feet": {
+              "x": 60,
+              "y": 150
+            }
+          },
+          {
+            "floor": "second_floor",
+            "x": 13,
+            "y": 30,
+            "label": "N31",
+            "feet": {
+              "x": 65,
+              "y": 150
+            }
+          },
+          {
+            "floor": "second_floor",
+            "x": 14,
+            "y": 30,
+            "label": "O31",
+            "feet": {
+              "x": 70,
+              "y": 150
+            }
+          },
+          {
+            "floor": "second_floor",
+            "x": 15,
+            "y": 30,
+            "label": "P31",
+            "feet": {
+              "x": 75,
+              "y": 150
+            }
+          },
+          {
+            "floor": "second_floor",
+            "x": 8,
+            "y": 31,
+            "label": "I32",
+            "feet": {
+              "x": 40,
+              "y": 155
+            }
+          },
+          {
+            "floor": "second_floor",
+            "x": 9,
+            "y": 31,
+            "label": "J32",
+            "feet": {
+              "x": 45,
+              "y": 155
+            }
+          },
+          {
+            "floor": "second_floor",
+            "x": 10,
+            "y": 31,
+            "label": "K32",
+            "feet": {
+              "x": 50,
+              "y": 155
+            }
+          },
+          {
+            "floor": "second_floor",
+            "x": 11,
+            "y": 31,
+            "label": "L32",
+            "feet": {
+              "x": 55,
+              "y": 155
+            }
+          },
+          {
+            "floor": "second_floor",
+            "x": 12,
+            "y": 31,
+            "label": "M32",
+            "feet": {
+              "x": 60,
+              "y": 155
+            }
+          },
+          {
+            "floor": "second_floor",
+            "x": 13,
+            "y": 31,
+            "label": "N32",
+            "feet": {
+              "x": 65,
+              "y": 155
+            }
+          },
+          {
+            "floor": "second_floor",
+            "x": 14,
+            "y": 31,
+            "label": "O32",
+            "feet": {
+              "x": 70,
+              "y": 155
+            }
+          },
+          {
+            "floor": "second_floor",
+            "x": 15,
+            "y": 31,
+            "label": "P32",
+            "feet": {
+              "x": 75,
+              "y": 155
+            }
+          }
+        ],
+        "area_cells": 88,
+        "area_square_feet": 2200
+      }
+    ]
+  },
+  "visible_routes": [
+    "grand_hall",
+    "first_floor_solar",
+    "library_spiral_stair",
+    "rear_service_corridor"
+  ],
+  "public_description": "Two-level library with a lower room and upper gallery.",
+  "public_information_policy": "Room identity and exact public room artwork only. Hidden fixture and encounter states are not present in this card file.",
+  "click_action": "Open the corresponding exact-map room card and room inspection dialog.",
+  "deck": "evidence",
+  "evidence_category": "room",
+  "equippable": false,
+  "private_state_excluded": true
+}

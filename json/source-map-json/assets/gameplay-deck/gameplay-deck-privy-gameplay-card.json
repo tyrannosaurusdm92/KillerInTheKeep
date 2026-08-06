@@ -1,0 +1,48 @@
+{
+  "schema_version": "4.5.0",
+  "id": "gameplay-deck-privy-gameplay-card",
+  "asset_type": "exact_map_room_gameplay_card",
+  "visibility": "public",
+  "room_number": 10,
+  "room_id": "privy",
+  "title": "Privy",
+  "floor": "first_floor",
+  "floor_display_name": "First Floor — Entrance Level",
+  "exact_map_crop": "room_cards/map_crops/10_privy.png",
+  "html": "room_cards/html/10_privy.html",
+  "css": "css/assets/gameplay-deck/gameplay-deck-privy-gameplay-card.css",
+  "base_css": "css/assets/gameplay-deck/room-gameplay-card-base.css",
+  "room_json": "room_cards/json/10_privy.json",
+  "coordinates": {
+    "feet_per_square": 5,
+    "pixels_per_square": 32,
+    "primary_ranges_inclusive": [
+      [
+        0,
+        2,
+        10,
+        16
+      ]
+    ],
+    "primary_bounds_inclusive": {
+      "min_x": 0,
+      "max_x": 2,
+      "min_y": 10,
+      "max_y": 16,
+      "min_label": "A11",
+      "max_label": "C17"
+    },
+    "additional_floor_areas": []
+  },
+  "visible_routes": [
+    "music_room",
+    "rear_service_corridor"
+  ],
+  "public_description": "Exterior-wall garderobe connected to the Music Room.",
+  "public_information_policy": "Room identity and exact public room artwork only. Hidden fixture and encounter states are not present in this card file.",
+  "click_action": "Open the corresponding exact-map room card and room inspection dialog.",
+  "deck": "evidence",
+  "evidence_category": "room",
+  "equippable": false,
+  "private_state_excluded": true
+}

@@ -1,0 +1,51 @@
+{
+  "id": "gameplay-deck-wand-gameplay-card",
+  "original": {
+    "path": "Gameplay Deck/AddText_06-18-12.22.22.jpg",
+    "filename": "AddText_06-18-12.22.22.jpg",
+    "extension": ".jpg",
+    "mimeType": "image/jpeg",
+    "byteLength": 204768,
+    "sha256": "6cd3392e2306315c932ebb3747626b35924ee749e467b0a741fb06cc8aa4d071",
+    "sourceArchive": "To Save Just In Case (3).zip"
+  },
+  "image": {
+    "width": 530,
+    "height": 684,
+    "format": "JPEG",
+    "mode": "RGB",
+    "frames": 1
+  },
+  "embedded": {
+    "mimeType": "image/jpeg",
+    "byteLength": 204768,
+    "sha256": "6cd3392e2306315c932ebb3747626b35924ee749e467b0a741fb06cc8aa4d071",
+    "method": "original-bytes",
+    "pixelVerifiedLossless": true,
+    "dataLocation": "css/assets/gameplay-deck/gameplay-deck-wand-gameplay-card.css"
+  },
+  "css": {
+    "file": "css/assets/gameplay-deck/gameplay-deck-wand-gameplay-card.css",
+    "variable": "--asset-gameplay-deck-wand-gameplay-card",
+    "class": "asset-gameplay-deck-wand-gameplay-card",
+    "usage": "<div class=\"asset-gameplay-deck-wand-gameplay-card\" role=\"img\" aria-label=\"Wand\"></div>"
+  },
+  "json": {
+    "file": "json/assets/gameplay-deck/gameplay-deck-wand-gameplay-card.json"
+  },
+  "category": "Gameplay Deck",
+  "compliance": {
+    "status": "preserved",
+    "reason": "No non-SRD rules text or official D&D branding was detected in this generic/custom visual asset. Original bytes were retained.",
+    "rulesBasis": "Not applicable or supplemented by structured SRD metadata.",
+    "artBasis": "User-supplied asset; copyright provenance was not independently verified."
+  },
+  "schema_version": "4.5.0",
+  "deck": "evidence",
+  "asset_type": "murder_weapon_evidence_card",
+  "evidence_category": "murder_weapon",
+  "evidence_name": "Wand",
+  "equippable": false,
+  "loot_card": false,
+  "separation_rule": "This is a Clue-style murder evidence card. It never becomes an inventory weapon and is never drawn from a weapon rack."
+}

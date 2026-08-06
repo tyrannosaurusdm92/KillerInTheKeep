@@ -1,0 +1,56 @@
+{
+  "id": "gameplay-deck-basic-poison-item-card",
+  "original": {
+    "path": "Gameplay Deck/AddText_06-18-12.20.20.jpg",
+    "filename": "AddText_06-18-12.20.20.jpg",
+    "extension": ".jpg",
+    "mimeType": "image/jpeg",
+    "byteLength": 218467,
+    "sha256": "bf18e2677af166252e3a4986519bf0ada5a59702ffa52395bcbce4c002f3e4c2",
+    "sourceArchive": "To Save Just In Case.zip"
+  },
+  "image": {
+    "width": 530,
+    "height": 684,
+    "format": "JPEG",
+    "mode": "RGB",
+    "frames": 1
+  },
+  "embedded": {
+    "mimeType": "image/jpeg",
+    "byteLength": 218467,
+    "sha256": "bf18e2677af166252e3a4986519bf0ada5a59702ffa52395bcbce4c002f3e4c2",
+    "method": "original-bytes",
+    "pixelVerifiedLossless": true,
+    "dataLocation": "css/assets/gameplay-deck/gameplay-deck-basic-poison-item-card.css"
+  },
+  "css": {
+    "file": "css/assets/gameplay-deck/gameplay-deck-basic-poison-item-card.css",
+    "variable": "--asset-gameplay-deck-basic-poison-item-card",
+    "class": "asset-gameplay-deck-basic-poison-item-card",
+    "usage": "<div class=\"asset-gameplay-deck-basic-poison-item-card\" role=\"img\" aria-label=\"Basic Poison\"></div>"
+  },
+  "json": {
+    "file": "json/assets/gameplay-deck/gameplay-deck-basic-poison-item-card.json"
+  },
+  "category": "Gameplay Deck",
+  "compliance": {
+    "status": "preserved",
+    "reason": "Generic visual retained; its JSON record now contains SRD 5.2.1 equipment data or an SRD reference.",
+    "rulesBasis": "Not applicable or supplemented by structured SRD metadata.",
+    "artBasis": "User-supplied asset; copyright provenance was not independently verified."
+  },
+  "rulesData": {
+    "title": "Basic Poison",
+    "type": "Adventuring gear",
+    "rules": "Use the Basic Poison entry in SRD 5.2.1."
+  },
+  "schema_version": "4.5.0",
+  "deck": "evidence",
+  "asset_type": "murder_weapon_evidence_card",
+  "evidence_category": "murder_weapon",
+  "evidence_name": "Poison",
+  "equippable": false,
+  "loot_card": false,
+  "separation_rule": "This is a Clue-style murder evidence card. It never becomes an inventory weapon and is never drawn from a weapon rack."
+}

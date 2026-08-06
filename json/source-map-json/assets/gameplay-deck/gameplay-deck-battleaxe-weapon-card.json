@@ -1,0 +1,62 @@
+{
+  "id": "gameplay-deck-battleaxe-weapon-card",
+  "original": {
+    "path": "Gameplay Deck/battle axe.jpg",
+    "filename": "battle axe.jpg",
+    "extension": ".jpg",
+    "mimeType": "image/jpeg",
+    "byteLength": 214730,
+    "sha256": "e8fb284b2a52a7d9f7afc21c31a5370fd7a48165328306208efd9b6b7aa66930",
+    "sourceArchive": "To Save Just In Case (2).zip"
+  },
+  "image": {
+    "width": 530,
+    "height": 684,
+    "format": "JPEG",
+    "mode": "RGB",
+    "frames": 1
+  },
+  "embedded": {
+    "mimeType": "image/jpeg",
+    "byteLength": 214730,
+    "sha256": "e8fb284b2a52a7d9f7afc21c31a5370fd7a48165328306208efd9b6b7aa66930",
+    "method": "original-bytes",
+    "pixelVerifiedLossless": true,
+    "dataLocation": "css/assets/gameplay-deck/gameplay-deck-battleaxe-weapon-card.css"
+  },
+  "css": {
+    "file": "css/assets/gameplay-deck/gameplay-deck-battleaxe-weapon-card.css",
+    "variable": "--asset-gameplay-deck-battleaxe-weapon-card",
+    "class": "asset-gameplay-deck-battleaxe-weapon-card",
+    "usage": "<div class=\"asset-gameplay-deck-battleaxe-weapon-card\" role=\"img\" aria-label=\"Battleaxe\"></div>"
+  },
+  "json": {
+    "file": "json/assets/gameplay-deck/gameplay-deck-battleaxe-weapon-card.json"
+  },
+  "category": "Gameplay Deck",
+  "compliance": {
+    "status": "preserved",
+    "reason": "Generic visual retained; its JSON record now contains SRD 5.2.1 equipment data or an SRD reference.",
+    "rulesBasis": "Not applicable or supplemented by structured SRD metadata.",
+    "artBasis": "User-supplied asset; copyright provenance was not independently verified."
+  },
+  "rulesData": {
+    "title": "Battleaxe",
+    "type": "Martial melee weapon",
+    "damage": "1d8 Slashing",
+    "properties": [
+      "Versatile (1d10)"
+    ],
+    "mastery": "Topple",
+    "cost": "10 GP",
+    "weight": "4 lb."
+  },
+  "schema_version": "4.5.0",
+  "deck": "evidence",
+  "asset_type": "murder_weapon_evidence_card",
+  "evidence_category": "murder_weapon",
+  "evidence_name": "Battleaxe",
+  "equippable": false,
+  "loot_card": false,
+  "separation_rule": "This is a Clue-style murder evidence card. It never becomes an inventory weapon and is never drawn from a weapon rack."
+}

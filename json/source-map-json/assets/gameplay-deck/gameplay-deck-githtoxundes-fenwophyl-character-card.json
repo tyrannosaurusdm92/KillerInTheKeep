@@ -1,0 +1,92 @@
+{
+  "schema_version": "4.5.0",
+  "id": "gameplay-deck-githtoxundes-fenwophyl-character-card",
+  "asset_type": "playable_character_gameplay_card",
+  "visibility": "public",
+  "character_id": "githtoxundes_fenwophyl",
+  "display_name": "Githtoxundes Xun Fenwophyl",
+  "pronouns": "she/her",
+  "public_class": "Cleric (Life Domain)",
+  "public_role_summary": "Life-focused healer and support caster",
+  "game_level_system": {
+    "canonicalName": "Five Game Level Session Progression",
+    "startingGameLevel": 1,
+    "maximumGameLevel": 5,
+    "maximumLevelUpEventsPerSession": 4,
+    "dndEquivalentSequence": [
+      5,
+      9,
+      13,
+      17,
+      20
+    ],
+    "legacyXpThresholds": [
+      0,
+      50,
+      150,
+      450,
+      1350
+    ],
+    "terminology": "Game Level is the playable in-session level. D&D Level is only the equivalent destination snapshot."
+  },
+  "controller_modes": [
+    "player",
+    "autonomous"
+  ],
+  "sheets": {
+    "player": "character_sheets/player/xun_character_sheet.html",
+    "autonomous": "character_sheets/autonomous/xun_character_sheet.html"
+  },
+  "starter_positions": {
+    "work_together": {
+      "room_id": "foyer",
+      "floor": "first_floor",
+      "cell": {
+        "floor": "first_floor",
+        "x": 23,
+        "y": 30,
+        "label": "X31",
+        "feet": {
+          "x": 115,
+          "y": 150
+        }
+      }
+    },
+    "full_pvp": {
+      "room_id": "dining_room",
+      "room_area": null,
+      "floor": "first_floor",
+      "cell": {
+        "floor": "first_floor",
+        "x": 35,
+        "y": 14,
+        "label": "AJ15",
+        "feet": {
+          "x": 175,
+          "y": 70
+        }
+      }
+    }
+  },
+  "offscreen_first_victim": {
+    "starts_as_ghost": true,
+    "uses_assigned_start_as_nonblocking_ghost_origin": true,
+    "living_token_is_not_placed": true
+  },
+  "art": {
+    "css": "css/assets/xun/githtoxundes-xun-fenwophyl-character-art.css",
+    "class": "asset-githtoxundes-xun-fenwophyl-character-art"
+  },
+  "card_assets": {
+    "html": "character_cards/html/githtoxundes-fenwophyl.html",
+    "css": "character_cards/css/githtoxundes-fenwophyl.css",
+    "json": "json/assets/gameplay-deck/gameplay-deck-githtoxundes-fenwophyl-character-card.json",
+    "base_css": "character_cards/css/character-card-base.css"
+  },
+  "public_information_policy": "The card shows character identity, role summary, sheet choices, and assigned starting spaces only.",
+  "deck": "evidence",
+  "evidence_category": "character",
+  "equippable": false,
+  "private_role_excluded": true,
+  "opening_victim_rule": "When selected as the off-screen opening victim, this character starts dead as a ghost and receives no evidence hand."
+}

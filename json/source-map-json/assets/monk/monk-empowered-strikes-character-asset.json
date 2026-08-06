@@ -1,0 +1,50 @@
+{
+  "id": "monk-empowered-strikes-character-asset",
+  "original": {
+    "path": "Monk/AddText_06-02-03.40.31.jpg",
+    "filename": "AddText_06-02-03.40.31.jpg",
+    "extension": ".jpg",
+    "mimeType": "image/jpeg",
+    "byteLength": 512144,
+    "sha256": "5d8db144a8197c2e54cef3634d9ea1ab650612e705e2b211d109b0186a2d25d8",
+    "sourceArchive": "To Save Just In Case (4).zip"
+  },
+  "image": {
+    "width": 1200,
+    "height": 1200,
+    "format": "SVG",
+    "mode": "vector",
+    "frames": 1
+  },
+  "embedded": {
+    "mimeType": "image/svg+xml",
+    "byteLength": 1265,
+    "sha256": "aa246cb30f01ad07b0291ddfe6c30666ce97b16090c7b9b814af74f00b77cf3c",
+    "method": "srd-compliant-card-substitute",
+    "pixelVerifiedLossless": false,
+    "dataLocation": "css/assets/monk/monk-empowered-strikes-character-asset.css"
+  },
+  "css": {
+    "file": "css/assets/monk/monk-empowered-strikes-character-asset.css",
+    "variable": "--asset-monk-empowered-strikes-character-asset",
+    "class": "asset-monk-empowered-strikes-character-asset",
+    "usage": "<div class=\"asset-monk-empowered-strikes-character-asset\" role=\"img\" aria-label=\"Empowered Strikes\"></div>"
+  },
+  "json": {
+    "file": "json/assets/monk/monk-empowered-strikes-character-asset.json"
+  },
+  "category": "Monk",
+  "compliance": {
+    "status": "replaced",
+    "reason": "Original card used mixed-edition, non-SRD, or rules-inaccurate mechanics; replaced with an SRD 5.2.1 entry or SRD-only example build.",
+    "replacementTitle": "Empowered Strikes",
+    "replacementKind": "feature",
+    "rulesBasis": "SRD 5.2.1 or original 5E-compatible mechanics",
+    "artBasis": "New vector/CSS asset or original layout; no D&D logo or publisher trade dress used."
+  },
+  "rulesData": {
+    "type": "Monk feature",
+    "meta": "Passive",
+    "summary": "Your Unarmed Strikes can deal Force damage instead of their normal damage type, following the SRD Monk feature."
+  }
+}

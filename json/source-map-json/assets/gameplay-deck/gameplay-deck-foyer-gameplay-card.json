@@ -1,0 +1,48 @@
+{
+  "schema_version": "4.5.0",
+  "id": "gameplay-deck-foyer-gameplay-card",
+  "asset_type": "exact_map_room_gameplay_card",
+  "visibility": "public",
+  "room_number": 2,
+  "room_id": "foyer",
+  "title": "Foyer",
+  "floor": "first_floor",
+  "floor_display_name": "First Floor — Entrance Level",
+  "exact_map_crop": "room_cards/map_crops/02_foyer.png",
+  "html": "room_cards/html/02_foyer.html",
+  "css": "css/assets/gameplay-deck/gameplay-deck-foyer-gameplay-card.css",
+  "base_css": "css/assets/gameplay-deck/room-gameplay-card-base.css",
+  "room_json": "room_cards/json/02_foyer.json",
+  "coordinates": {
+    "feet_per_square": 5,
+    "pixels_per_square": 32,
+    "primary_ranges_inclusive": [
+      [
+        20,
+        28,
+        26,
+        31
+      ]
+    ],
+    "primary_bounds_inclusive": {
+      "min_x": 20,
+      "max_x": 28,
+      "min_y": 26,
+      "max_y": 31,
+      "min_label": "U27",
+      "max_label": "AC32"
+    },
+    "additional_floor_areas": []
+  },
+  "visible_routes": [
+    "grand_hall",
+    "main_entrance"
+  ],
+  "public_description": "Fortified entrance chamber and shared cooperative starting room.",
+  "public_information_policy": "Room identity and exact public room artwork only. Hidden fixture and encounter states are not present in this card file.",
+  "click_action": "Open the corresponding exact-map room card and room inspection dialog.",
+  "deck": "evidence",
+  "evidence_category": "room",
+  "equippable": false,
+  "private_state_excluded": true
+}

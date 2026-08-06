@@ -1,0 +1,48 @@
+{
+  "schema_version": "4.5.0",
+  "id": "gameplay-deck-servants-quarters-gameplay-card",
+  "asset_type": "exact_map_room_gameplay_card",
+  "visibility": "public",
+  "room_number": 22,
+  "room_id": "servants_quarters",
+  "title": "Servant’s Quarters",
+  "floor": "attic",
+  "floor_display_name": "Attic and Roof Level",
+  "exact_map_crop": "room_cards/map_crops/22_servants-quarters.png",
+  "html": "room_cards/html/22_servants-quarters.html",
+  "css": "css/assets/gameplay-deck/gameplay-deck-servants-quarters-gameplay-card.css",
+  "base_css": "css/assets/gameplay-deck/room-gameplay-card-base.css",
+  "room_json": "room_cards/json/22_servants-quarters.json",
+  "coordinates": {
+    "feet_per_square": 5,
+    "pixels_per_square": 32,
+    "primary_ranges_inclusive": [
+      [
+        32,
+        47,
+        10,
+        25
+      ]
+    ],
+    "primary_bounds_inclusive": {
+      "min_x": 32,
+      "max_x": 47,
+      "min_y": 10,
+      "max_y": 25,
+      "min_label": "AG11",
+      "max_label": "AV26"
+    },
+    "additional_floor_areas": []
+  },
+  "visible_routes": [
+    "attic_service_passage",
+    "servants_staircase"
+  ],
+  "public_description": "Enclosed roof-level sleeping area for household staff.",
+  "public_information_policy": "Room identity and exact public room artwork only. Hidden fixture and encounter states are not present in this card file.",
+  "click_action": "Open the corresponding exact-map room card and room inspection dialog.",
+  "deck": "evidence",
+  "evidence_category": "room",
+  "equippable": false,
+  "private_state_excluded": true
+}

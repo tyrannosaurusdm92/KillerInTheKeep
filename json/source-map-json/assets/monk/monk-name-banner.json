@@ -1,0 +1,43 @@
+{
+  "id": "monk-name-banner",
+  "original": {
+    "path": "Monk/AddText_05-26-03.34.38.png",
+    "filename": "AddText_05-26-03.34.38.png",
+    "extension": ".png",
+    "mimeType": "image/png",
+    "byteLength": 132610,
+    "sha256": "d20d92159c57543ad1397a98fe224f45d064bd4610d46eda25fc0f25b1053f1a",
+    "sourceArchive": "To Save Just In Case (3).zip"
+  },
+  "image": {
+    "width": 1440,
+    "height": 1440,
+    "format": "PNG",
+    "mode": "RGBA",
+    "frames": 1
+  },
+  "embedded": {
+    "mimeType": "image/png",
+    "byteLength": 132610,
+    "sha256": "d20d92159c57543ad1397a98fe224f45d064bd4610d46eda25fc0f25b1053f1a",
+    "method": "original-bytes",
+    "pixelVerifiedLossless": true,
+    "dataLocation": "css/assets/monk/monk-name-banner.css"
+  },
+  "css": {
+    "file": "css/assets/monk/monk-name-banner.css",
+    "variable": "--asset-monk-name-banner",
+    "class": "asset-monk-name-banner",
+    "usage": "<div class=\"asset-monk-name-banner\" role=\"img\" aria-label=\"Monk Name Banner\"></div>"
+  },
+  "json": {
+    "file": "json/assets/monk/monk-name-banner.json"
+  },
+  "category": "Monk",
+  "compliance": {
+    "status": "preserved",
+    "reason": "No non-SRD rules text or official D&D branding was detected in this generic/custom visual asset. Original bytes were retained.",
+    "rulesBasis": "Not applicable or supplemented by structured SRD metadata.",
+    "artBasis": "User-supplied asset; copyright provenance was not independently verified."
+  }
+}

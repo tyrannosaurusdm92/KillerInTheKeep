@@ -1,0 +1,50 @@
+{
+  "id": "monk-deflect-attacks-character-asset",
+  "original": {
+    "path": "Monk/AddText_06-02-03.33.55.jpg",
+    "filename": "AddText_06-02-03.33.55.jpg",
+    "extension": ".jpg",
+    "mimeType": "image/jpeg",
+    "byteLength": 317658,
+    "sha256": "64f561f043fa1081d2f387894cb95adf49eb5759bea4e5d2e3d592911c84ab3c",
+    "sourceArchive": "To Save Just In Case (2).zip"
+  },
+  "image": {
+    "width": 1200,
+    "height": 1200,
+    "format": "SVG",
+    "mode": "vector",
+    "frames": 1
+  },
+  "embedded": {
+    "mimeType": "image/svg+xml",
+    "byteLength": 1329,
+    "sha256": "0440b268d743aee9e3ab996de38e798f1f04d99deb0830e33f259c318aea9fec",
+    "method": "srd-compliant-card-substitute",
+    "pixelVerifiedLossless": false,
+    "dataLocation": "css/assets/monk/monk-deflect-attacks-character-asset.css"
+  },
+  "css": {
+    "file": "css/assets/monk/monk-deflect-attacks-character-asset.css",
+    "variable": "--asset-monk-deflect-attacks-character-asset",
+    "class": "asset-monk-deflect-attacks-character-asset",
+    "usage": "<div class=\"asset-monk-deflect-attacks-character-asset\" role=\"img\" aria-label=\"Deflect Attacks\"></div>"
+  },
+  "json": {
+    "file": "json/assets/monk/monk-deflect-attacks-character-asset.json"
+  },
+  "category": "Monk",
+  "compliance": {
+    "status": "replaced",
+    "reason": "Original card used mixed-edition, non-SRD, or rules-inaccurate mechanics; replaced with an SRD 5.2.1 entry or SRD-only example build.",
+    "replacementTitle": "Deflect Attacks",
+    "replacementKind": "feature",
+    "rulesBasis": "SRD 5.2.1 or original 5E-compatible mechanics",
+    "artBasis": "New vector/CSS asset or original layout; no D&D logo or publisher trade dress used."
+  },
+  "rulesData": {
+    "type": "Monk feature",
+    "meta": "Reaction • Requires an incoming attack",
+    "summary": "Use the SRD Monk feature to reduce damage from an attack. At higher Monk levels, the feature can redirect some attacks by spending Focus Points."
+  }
+}

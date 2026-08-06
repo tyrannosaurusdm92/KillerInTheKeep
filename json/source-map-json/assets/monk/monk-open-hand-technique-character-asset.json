@@ -1,0 +1,50 @@
+{
+  "id": "monk-open-hand-technique-character-asset",
+  "original": {
+    "path": "Monk/AddText_06-02-03.24.59.jpg",
+    "filename": "AddText_06-02-03.24.59.jpg",
+    "extension": ".jpg",
+    "mimeType": "image/jpeg",
+    "byteLength": 416311,
+    "sha256": "9c6fcc00874f6d3e2ac0032e57fb974fc430891cfe8b4ec133f3f3786d27abaf",
+    "sourceArchive": "To Save Just In Case (3).zip"
+  },
+  "image": {
+    "width": 1200,
+    "height": 1200,
+    "format": "SVG",
+    "mode": "vector",
+    "frames": 1
+  },
+  "embedded": {
+    "mimeType": "image/svg+xml",
+    "byteLength": 1325,
+    "sha256": "7bf629efbf4686dabb732e35fabc9e861dca41611955f21727283e00d8b416b4",
+    "method": "srd-compliant-card-substitute",
+    "pixelVerifiedLossless": false,
+    "dataLocation": "css/assets/monk/monk-open-hand-technique-character-asset.css"
+  },
+  "css": {
+    "file": "css/assets/monk/monk-open-hand-technique-character-asset.css",
+    "variable": "--asset-monk-open-hand-technique-character-asset",
+    "class": "asset-monk-open-hand-technique-character-asset",
+    "usage": "<div class=\"asset-monk-open-hand-technique-character-asset\" role=\"img\" aria-label=\"Open Hand Technique\"></div>"
+  },
+  "json": {
+    "file": "json/assets/monk/monk-open-hand-technique-character-asset.json"
+  },
+  "category": "Monk",
+  "compliance": {
+    "status": "replaced",
+    "reason": "Original card used mixed-edition, non-SRD, or rules-inaccurate mechanics; replaced with an SRD 5.2.1 entry or SRD-only example build.",
+    "replacementTitle": "Open Hand Technique",
+    "replacementKind": "feature",
+    "rulesBasis": "SRD 5.2.1 or original 5E-compatible mechanics",
+    "artBasis": "New vector/CSS asset or original layout; no D&D logo or publisher trade dress used."
+  },
+  "rulesData": {
+    "type": "Warrior of the Open Hand feature",
+    "meta": "When Flurry of Blows hits",
+    "summary": "Choose an Open Hand effect from the SRD subclass, such as preventing Opportunity Attacks, pushing the target, or knocking it Prone."
+  }
+}

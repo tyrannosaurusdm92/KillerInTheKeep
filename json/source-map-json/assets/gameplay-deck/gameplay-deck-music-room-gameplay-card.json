@@ -1,0 +1,49 @@
+{
+  "schema_version": "4.5.0",
+  "id": "gameplay-deck-music-room-gameplay-card",
+  "asset_type": "exact_map_room_gameplay_card",
+  "visibility": "public",
+  "room_number": 9,
+  "room_id": "music_room",
+  "title": "Music Room",
+  "floor": "first_floor",
+  "floor_display_name": "First Floor — Entrance Level",
+  "exact_map_crop": "room_cards/map_crops/09_music-room.png",
+  "html": "room_cards/html/09_music-room.html",
+  "css": "css/assets/gameplay-deck/gameplay-deck-music-room-gameplay-card.css",
+  "base_css": "css/assets/gameplay-deck/room-gameplay-card-base.css",
+  "room_json": "room_cards/json/09_music-room.json",
+  "coordinates": {
+    "feet_per_square": 5,
+    "pixels_per_square": 32,
+    "primary_ranges_inclusive": [
+      [
+        0,
+        7,
+        17,
+        24
+      ]
+    ],
+    "primary_bounds_inclusive": {
+      "min_x": 0,
+      "max_x": 7,
+      "min_y": 17,
+      "max_y": 24,
+      "min_label": "A18",
+      "max_label": "H25"
+    },
+    "additional_floor_areas": []
+  },
+  "visible_routes": [
+    "sitting_room",
+    "privy",
+    "rear_service_corridor"
+  ],
+  "public_description": "Performance chamber beside the Sitting Room.",
+  "public_information_policy": "Room identity and exact public room artwork only. Hidden fixture and encounter states are not present in this card file.",
+  "click_action": "Open the corresponding exact-map room card and room inspection dialog.",
+  "deck": "evidence",
+  "evidence_category": "room",
+  "equippable": false,
+  "private_state_excluded": true
+}

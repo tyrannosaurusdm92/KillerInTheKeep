@@ -1,0 +1,60 @@
+{
+  "schema_version": "4.5.0",
+  "id": "gameplay-deck-attic-gameplay-card",
+  "asset_type": "exact_map_room_gameplay_card",
+  "visibility": "public",
+  "room_number": 21,
+  "room_id": "attic",
+  "title": "Attic",
+  "floor": "attic",
+  "floor_display_name": "Attic and Roof Level",
+  "exact_map_crop": "room_cards/map_crops/21_attic.png",
+  "html": "room_cards/html/21_attic.html",
+  "css": "css/assets/gameplay-deck/gameplay-deck-attic-gameplay-card.css",
+  "base_css": "css/assets/gameplay-deck/room-gameplay-card-base.css",
+  "room_json": "room_cards/json/21_attic.json",
+  "coordinates": {
+    "feet_per_square": 5,
+    "pixels_per_square": 32,
+    "primary_ranges_inclusive": [
+      [
+        0,
+        31,
+        0,
+        31
+      ],
+      [
+        32,
+        47,
+        0,
+        9
+      ],
+      [
+        32,
+        47,
+        26,
+        31
+      ]
+    ],
+    "primary_bounds_inclusive": {
+      "min_x": 0,
+      "max_x": 47,
+      "min_y": 0,
+      "max_y": 31,
+      "min_label": "A1",
+      "max_label": "AV32"
+    },
+    "additional_floor_areas": []
+  },
+  "visible_routes": [
+    "attic_service_passage",
+    "roof_access"
+  ],
+  "public_description": "General roof-level storage and circulation area.",
+  "public_information_policy": "Room identity and exact public room artwork only. Hidden fixture and encounter states are not present in this card file.",
+  "click_action": "Open the corresponding exact-map room card and room inspection dialog.",
+  "deck": "evidence",
+  "evidence_category": "room",
+  "equippable": false,
+  "private_state_excluded": true
+}

@@ -1,0 +1,45 @@
+{
+  "id": "korbin-silverdew-character-art",
+  "original": {
+    "path": "Characters_Art_Transparent/Korbin_Silverdew.png",
+    "filename": "Korbin_Silverdew.png",
+    "extension": ".png",
+    "mimeType": "image/png",
+    "byteLength": 2658146,
+    "sha256": "8fbf57c48ef6de18af3b3893035acc19b3794292c58b888a02dee676532249c7",
+    "sourceArchive": "Characters_Art_Transparent(1).zip"
+  },
+  "image": {
+    "width": 1024,
+    "height": 1536,
+    "format": "PNG",
+    "mode": "RGBA",
+    "frames": 1
+  },
+  "embedded": {
+    "mimeType": "image/png",
+    "byteLength": 2658146,
+    "sha256": "8fbf57c48ef6de18af3b3893035acc19b3794292c58b888a02dee676532249c7",
+    "method": "original-transparent-bytes",
+    "pixelVerifiedLossless": true,
+    "dataLocation": "css/assets/korbin/korbin-silverdew-character-art.css"
+  },
+  "css": {
+    "file": "css/assets/korbin/korbin-silverdew-character-art.css",
+    "variable": "--asset-korbin-silverdew-character-art",
+    "class": "asset-korbin-silverdew-character-art",
+    "usage": "<div class=\"asset-korbin-silverdew-character-art\" role=\"img\" aria-label=\"Korbin Silverdew character art\"></div>"
+  },
+  "json": {
+    "file": "json/assets/korbin/korbin-silverdew-character-art.json"
+  },
+  "category": "Korbin",
+  "compliance": {
+    "status": "preserved",
+    "reason": "Original user-provided transparent character artwork embedded directly in CSS.",
+    "replacementTitle": null,
+    "replacementKind": "character-art",
+    "rulesBasis": "Not a rules asset.",
+    "artBasis": "User-provided original transparent character art."
+  }
+}

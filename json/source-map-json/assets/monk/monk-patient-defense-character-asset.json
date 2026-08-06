@@ -1,0 +1,50 @@
+{
+  "id": "monk-patient-defense-character-asset",
+  "original": {
+    "path": "Monk/AddText_06-02-03.27.20.jpg",
+    "filename": "AddText_06-02-03.27.20.jpg",
+    "extension": ".jpg",
+    "mimeType": "image/jpeg",
+    "byteLength": 475006,
+    "sha256": "9335f48b3d2abf0530531b7435da77f132a99d0d0f04088756967c02d5907348",
+    "sourceArchive": "To Save Just In Case (4).zip"
+  },
+  "image": {
+    "width": 1200,
+    "height": 1200,
+    "format": "SVG",
+    "mode": "vector",
+    "frames": 1
+  },
+  "embedded": {
+    "mimeType": "image/svg+xml",
+    "byteLength": 1216,
+    "sha256": "1e7734d840dbb4296ce78309a3c159f6eb7808d153699e111c56ad60b41a9a8b",
+    "method": "srd-compliant-card-substitute",
+    "pixelVerifiedLossless": false,
+    "dataLocation": "css/assets/monk/monk-patient-defense-character-asset.css"
+  },
+  "css": {
+    "file": "css/assets/monk/monk-patient-defense-character-asset.css",
+    "variable": "--asset-monk-patient-defense-character-asset",
+    "class": "asset-monk-patient-defense-character-asset",
+    "usage": "<div class=\"asset-monk-patient-defense-character-asset\" role=\"img\" aria-label=\"Patient Defense\"></div>"
+  },
+  "json": {
+    "file": "json/assets/monk/monk-patient-defense-character-asset.json"
+  },
+  "category": "Monk",
+  "compliance": {
+    "status": "replaced",
+    "reason": "Original card used mixed-edition, non-SRD, or rules-inaccurate mechanics; replaced with an SRD 5.2.1 entry or SRD-only example build.",
+    "replacementTitle": "Patient Defense",
+    "replacementKind": "feature",
+    "rulesBasis": "SRD 5.2.1 or original 5E-compatible mechanics",
+    "artBasis": "New vector/CSS asset or original layout; no D&D logo or publisher trade dress used."
+  },
+  "rulesData": {
+    "type": "Monk Focus feature",
+    "meta": "Bonus Action • Spend 1 Focus Point",
+    "summary": "Take the Disengage and Dodge actions as a Bonus Action, following the SRD Monk feature."
+  }
+}

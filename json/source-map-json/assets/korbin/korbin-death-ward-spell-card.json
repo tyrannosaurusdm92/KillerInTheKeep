@@ -1,0 +1,50 @@
+{
+  "id": "korbin-death-ward-spell-card",
+  "original": {
+    "path": "Korbin/AddText_06-02-12.44.35.jpg",
+    "filename": "AddText_06-02-12.44.35.jpg",
+    "extension": ".jpg",
+    "mimeType": "image/jpeg",
+    "byteLength": 435910,
+    "sha256": "6b05f292c4326ef4e53144983b66499af099e2bf922fe24716b00da8e6f38d00",
+    "sourceArchive": "To Save Just In Case (2).zip"
+  },
+  "image": {
+    "width": 1200,
+    "height": 1200,
+    "format": "SVG",
+    "mode": "vector",
+    "frames": 1
+  },
+  "embedded": {
+    "mimeType": "image/svg+xml",
+    "byteLength": 1308,
+    "sha256": "66da3db9996aa26bdd9f7be06cd3a9fa5ffe38a576857a75d84b6646cf9fbf7e",
+    "method": "srd-compliant-card-substitute",
+    "pixelVerifiedLossless": false,
+    "dataLocation": "css/assets/korbin/korbin-death-ward-spell-card.css"
+  },
+  "css": {
+    "file": "css/assets/korbin/korbin-death-ward-spell-card.css",
+    "variable": "--asset-korbin-death-ward-spell-card",
+    "class": "asset-korbin-death-ward-spell-card",
+    "usage": "<div class=\"asset-korbin-death-ward-spell-card\" role=\"img\" aria-label=\"Death Ward\"></div>"
+  },
+  "json": {
+    "file": "json/assets/korbin/korbin-death-ward-spell-card.json"
+  },
+  "category": "Korbin",
+  "compliance": {
+    "status": "replaced",
+    "reason": "Original card used mixed-edition, non-SRD, or rules-inaccurate mechanics; replaced with an SRD 5.2.1 entry or SRD-only example build.",
+    "replacementTitle": "Death Ward",
+    "replacementKind": "spell",
+    "rulesBasis": "SRD 5.2.1 or original 5E-compatible mechanics",
+    "artBasis": "New vector/CSS asset or original layout; no D&D logo or publisher trade dress used."
+  },
+  "rulesData": {
+    "type": "Level 4 Abjuration spell",
+    "meta": "Action • Touch • 8 hours",
+    "summary": "The first time the target would drop to 0 Hit Points, it drops to 1 instead. The spell can also negate one instant-death effect."
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "schema_version": "4.5.0",
+  "id": "gameplay-deck-sitting-room-gameplay-card",
+  "asset_type": "exact_map_room_gameplay_card",
+  "visibility": "public",
+  "room_number": 8,
+  "room_id": "sitting_room",
+  "title": "Sitting Room",
+  "floor": "first_floor",
+  "floor_display_name": "First Floor — Entrance Level",
+  "exact_map_crop": "room_cards/map_crops/08_sitting-room.png",
+  "html": "room_cards/html/08_sitting-room.html",
+  "css": "css/assets/gameplay-deck/gameplay-deck-sitting-room-gameplay-card.css",
+  "base_css": "css/assets/gameplay-deck/room-gameplay-card-base.css",
+  "room_json": "room_cards/json/08_sitting-room.json",
+  "coordinates": {
+    "feet_per_square": 5,
+    "pixels_per_square": 32,
+    "primary_ranges_inclusive": [
+      [
+        8,
+        15,
+        20,
+        31
+      ]
+    ],
+    "primary_bounds_inclusive": {
+      "min_x": 8,
+      "max_x": 15,
+      "min_y": 20,
+      "max_y": 31,
+      "min_label": "I21",
+      "max_label": "P32"
+    },
+    "additional_floor_areas": []
+  },
+  "visible_routes": [
+    "grand_hall",
+    "music_room",
+    "rear_service_corridor"
+  ],
+  "public_description": "Quiet reception and conversation chamber.",
+  "public_information_policy": "Room identity and exact public room artwork only. Hidden fixture and encounter states are not present in this card file.",
+  "click_action": "Open the corresponding exact-map room card and room inspection dialog.",
+  "deck": "evidence",
+  "evidence_category": "room",
+  "equippable": false,
+  "private_state_excluded": true
+}

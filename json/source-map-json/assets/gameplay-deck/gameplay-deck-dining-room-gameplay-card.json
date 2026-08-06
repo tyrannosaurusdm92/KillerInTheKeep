@@ -1,0 +1,49 @@
+{
+  "schema_version": "4.5.0",
+  "id": "gameplay-deck-dining-room-gameplay-card",
+  "asset_type": "exact_map_room_gameplay_card",
+  "visibility": "public",
+  "room_number": 5,
+  "room_id": "dining_room",
+  "title": "Dining Room",
+  "floor": "first_floor",
+  "floor_display_name": "First Floor — Entrance Level",
+  "exact_map_crop": "room_cards/map_crops/05_dining-room.png",
+  "html": "room_cards/html/05_dining-room.html",
+  "css": "css/assets/gameplay-deck/gameplay-deck-dining-room-gameplay-card.css",
+  "base_css": "css/assets/gameplay-deck/room-gameplay-card-base.css",
+  "room_json": "room_cards/json/05_dining-room.json",
+  "coordinates": {
+    "feet_per_square": 5,
+    "pixels_per_square": 32,
+    "primary_ranges_inclusive": [
+      [
+        31,
+        39,
+        9,
+        19
+      ]
+    ],
+    "primary_bounds_inclusive": {
+      "min_x": 31,
+      "max_x": 39,
+      "min_y": 9,
+      "max_y": 19,
+      "min_label": "AF10",
+      "max_label": "AN20"
+    },
+    "additional_floor_areas": []
+  },
+  "visible_routes": [
+    "grand_hall",
+    "kitchen",
+    "screens_passage"
+  ],
+  "public_description": "Everyday dining chamber connected to the household service wing.",
+  "public_information_policy": "Room identity and exact public room artwork only. Hidden fixture and encounter states are not present in this card file.",
+  "click_action": "Open the corresponding exact-map room card and room inspection dialog.",
+  "deck": "evidence",
+  "evidence_category": "room",
+  "equippable": false,
+  "private_state_excluded": true
+}

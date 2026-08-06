@@ -1,0 +1,50 @@
+{
+  "schema_version": "4.5.0",
+  "id": "gameplay-deck-kitchen-gameplay-card",
+  "asset_type": "exact_map_room_gameplay_card",
+  "visibility": "public",
+  "room_number": 6,
+  "room_id": "kitchen",
+  "title": "Kitchen",
+  "floor": "first_floor",
+  "floor_display_name": "First Floor — Entrance Level",
+  "exact_map_crop": "room_cards/map_crops/06_kitchen.png",
+  "html": "room_cards/html/06_kitchen.html",
+  "css": "css/assets/gameplay-deck/gameplay-deck-kitchen-gameplay-card.css",
+  "base_css": "css/assets/gameplay-deck/room-gameplay-card-base.css",
+  "room_json": "room_cards/json/06_kitchen.json",
+  "coordinates": {
+    "feet_per_square": 5,
+    "pixels_per_square": 32,
+    "primary_ranges_inclusive": [
+      [
+        31,
+        38,
+        0,
+        8
+      ]
+    ],
+    "primary_bounds_inclusive": {
+      "min_x": 31,
+      "max_x": 38,
+      "min_y": 0,
+      "max_y": 8,
+      "min_label": "AF1",
+      "max_label": "AM9"
+    },
+    "additional_floor_areas": []
+  },
+  "visible_routes": [
+    "dining_room",
+    "pantry",
+    "screens_passage",
+    "servants_staircase"
+  ],
+  "public_description": "Primary household cooking chamber.",
+  "public_information_policy": "Room identity and exact public room artwork only. Hidden fixture and encounter states are not present in this card file.",
+  "click_action": "Open the corresponding exact-map room card and room inspection dialog.",
+  "deck": "evidence",
+  "evidence_category": "room",
+  "equippable": false,
+  "private_state_excluded": true
+}
