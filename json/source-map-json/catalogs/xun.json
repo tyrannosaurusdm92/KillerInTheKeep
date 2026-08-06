@@ -1,0 +1,86 @@
+{
+  "category": "Xun",
+  "assetCount": 10,
+  "assets": [
+    {
+      "id": "githtoxundes-xun-fenwophyl-character-art",
+      "originalPath": "Characters_Art_Transparent/Githtoxundes_Xun_Fenwophyl.png",
+      "css": "css/assets/xun/githtoxundes-xun-fenwophyl-character-art.css",
+      "json": "json/assets/xun/githtoxundes-xun-fenwophyl-character-art.json",
+      "complianceStatus": "preserved",
+      "replacementTitle": null
+    },
+    {
+      "id": "xun-cure-wounds-spell-card",
+      "originalPath": "Xun/AddText_06-02-02.08.00.jpg",
+      "css": "css/assets/xun/xun-cure-wounds-spell-card.css",
+      "json": "json/assets/xun/xun-cure-wounds-spell-card.json",
+      "complianceStatus": "replaced",
+      "replacementTitle": "Cure Wounds"
+    },
+    {
+      "id": "xun-githtoxundes-fenwophyl-character-sheet",
+      "originalPath": "Xun/AddText_06-08-05.30.35.jpg",
+      "css": "css/assets/xun/xun-githtoxundes-fenwophyl-character-sheet.css",
+      "json": "json/assets/xun/xun-githtoxundes-fenwophyl-character-sheet.json",
+      "complianceStatus": "replaced",
+      "replacementTitle": "Githtoxundes Fenwophyl"
+    },
+    {
+      "id": "xun-githtoxundes-fenwophyl-name-banner",
+      "originalPath": "Xun/AddText_05-26-03.25.58.png",
+      "css": "css/assets/xun/xun-githtoxundes-fenwophyl-name-banner.css",
+      "json": "json/assets/xun/xun-githtoxundes-fenwophyl-name-banner.json",
+      "complianceStatus": "preserved",
+      "replacementTitle": null
+    },
+    {
+      "id": "xun-guidance-spell-card",
+      "originalPath": "Xun/AddText_06-02-02.01.56.jpg",
+      "css": "css/assets/xun/xun-guidance-spell-card.css",
+      "json": "json/assets/xun/xun-guidance-spell-card.json",
+      "complianceStatus": "replaced",
+      "replacementTitle": "Guidance"
+    },
+    {
+      "id": "xun-guiding-bolt-spell-card",
+      "originalPath": "Xun/AddText_06-02-02.05.17.jpg",
+      "css": "css/assets/xun/xun-guiding-bolt-spell-card.css",
+      "json": "json/assets/xun/xun-guiding-bolt-spell-card.json",
+      "complianceStatus": "replaced",
+      "replacementTitle": "Guiding Bolt"
+    },
+    {
+      "id": "xun-hold-person-spell-card",
+      "originalPath": "Xun/AddText_07-27-01.32.54.jpg",
+      "css": "css/assets/xun/xun-hold-person-spell-card.css",
+      "json": "json/assets/xun/xun-hold-person-spell-card.json",
+      "complianceStatus": "replaced",
+      "replacementTitle": "Hold Person"
+    },
+    {
+      "id": "xun-lesser-restoration-spell-card",
+      "originalPath": "Xun/AddText_06-02-02.22.27.jpg",
+      "css": "css/assets/xun/xun-lesser-restoration-spell-card.css",
+      "json": "json/assets/xun/xun-lesser-restoration-spell-card.json",
+      "complianceStatus": "replaced",
+      "replacementTitle": "Lesser Restoration"
+    },
+    {
+      "id": "xun-mass-healing-word-spell-card",
+      "originalPath": "Xun/AddText_06-02-02.17.22.jpg",
+      "css": "css/assets/xun/xun-mass-healing-word-spell-card.css",
+      "json": "json/assets/xun/xun-mass-healing-word-spell-card.json",
+      "complianceStatus": "replaced",
+      "replacementTitle": "Mass Healing Word"
+    },
+    {
+      "id": "xun-spare-the-dying-spell-card",
+      "originalPath": "Xun/AddText_06-02-01.59.54.jpg",
+      "css": "css/assets/xun/xun-spare-the-dying-spell-card.css",
+      "json": "json/assets/xun/xun-spare-the-dying-spell-card.json",
+      "complianceStatus": "replaced",
+      "replacementTitle": "Spare the Dying"
+    }
+  ]
+}

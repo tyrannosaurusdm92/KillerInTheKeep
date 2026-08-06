@@ -1,0 +1,70 @@
+{
+  "category": "Monsters/Art",
+  "assetCount": 8,
+  "assets": [
+    {
+      "id": "monsters-art-giant-spider-monster-art",
+      "originalPath": "Monsters/Art/AddText_06-01-07.17.06.png",
+      "css": "css/assets/monsters/art/monsters-art-giant-spider-monster-art.css",
+      "json": "json/assets/monsters/art/monsters-art-giant-spider-monster-art.json",
+      "complianceStatus": "replaced",
+      "replacementTitle": "Giant Spider"
+    },
+    {
+      "id": "monsters-art-giant-spider-monster-art-2",
+      "originalPath": "Monsters/Art/received_1087618778456533.webp",
+      "css": "css/assets/monsters/art/monsters-art-giant-spider-monster-art-2.css",
+      "json": "json/assets/monsters/art/monsters-art-giant-spider-monster-art-2.json",
+      "complianceStatus": "replaced",
+      "replacementTitle": "Giant Spider"
+    },
+    {
+      "id": "monsters-art-giant-wolf-spider-monster-art",
+      "originalPath": "Monsters/Art/received_693123208466700.webp",
+      "css": "css/assets/monsters/art/monsters-art-giant-wolf-spider-monster-art.css",
+      "json": "json/assets/monsters/art/monsters-art-giant-wolf-spider-monster-art.json",
+      "complianceStatus": "replaced",
+      "replacementTitle": "Giant Wolf Spider"
+    },
+    {
+      "id": "monsters-art-spider-monster-art",
+      "originalPath": "Monsters/Art/received_732916878016111.webp",
+      "css": "css/assets/monsters/art/monsters-art-spider-monster-art.css",
+      "json": "json/assets/monsters/art/monsters-art-spider-monster-art.json",
+      "complianceStatus": "replaced",
+      "replacementTitle": "Spider"
+    },
+    {
+      "id": "monsters-art-swarm-of-insects-monster-art",
+      "originalPath": "Monsters/Art/received_1434114433719338.webp",
+      "css": "css/assets/monsters/art/monsters-art-swarm-of-insects-monster-art.css",
+      "json": "json/assets/monsters/art/monsters-art-swarm-of-insects-monster-art.json",
+      "complianceStatus": "replaced",
+      "replacementTitle": "Swarm of Insects"
+    },
+    {
+      "id": "monsters-art-swarm-of-insects-monster-art-2",
+      "originalPath": "Monsters/Art/received_689132005492663.webp",
+      "css": "css/assets/monsters/art/monsters-art-swarm-of-insects-monster-art-2.css",
+      "json": "json/assets/monsters/art/monsters-art-swarm-of-insects-monster-art-2.json",
+      "complianceStatus": "replaced",
+      "replacementTitle": "Swarm of Insects"
+    },
+    {
+      "id": "monsters-art-swarm-of-insects-monster-art-3",
+      "originalPath": "Monsters/Art/received_759653265030873.webp",
+      "css": "css/assets/monsters/art/monsters-art-swarm-of-insects-monster-art-3.css",
+      "json": "json/assets/monsters/art/monsters-art-swarm-of-insects-monster-art-3.json",
+      "complianceStatus": "replaced",
+      "replacementTitle": "Swarm of Insects"
+    },
+    {
+      "id": "monsters-art-zombie-monster-art",
+      "originalPath": "Monsters/Art/received_2795844054058229.webp",
+      "css": "css/assets/monsters/art/monsters-art-zombie-monster-art.css",
+      "json": "json/assets/monsters/art/monsters-art-zombie-monster-art.json",
+      "complianceStatus": "replaced",
+      "replacementTitle": "Zombie"
+    }
+  ]
+}

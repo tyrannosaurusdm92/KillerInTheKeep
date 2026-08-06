@@ -1,0 +1,111 @@
+{
+  "category": "Trap Deck",
+  "assetCount": 7,
+  "assets": [
+    {
+      "id": "trap-deck-acid-pit-trap-card",
+      "originalPath": "Trap Deck/acid pit.jpg",
+      "css": "css/assets/trap-deck/trap-deck-acid-pit-trap-card.css",
+      "json": "json/assets/trap-deck/trap-deck-acid-pit-trap-card.json",
+      "complianceStatus": "replaced",
+      "replacementTitle": "Acid Pit"
+    },
+    {
+      "id": "trap-deck-collapsing-roof-trap-card",
+      "originalPath": "Trap Deck/collapsing roof.jpg",
+      "css": "css/assets/trap-deck/trap-deck-collapsing-roof-trap-card.css",
+      "json": "json/assets/trap-deck/trap-deck-collapsing-roof-trap-card.json",
+      "complianceStatus": "replaced",
+      "replacementTitle": "Collapsing Roof"
+    },
+    {
+      "id": "trap-deck-falling-net-trap-card",
+      "originalPath": "Trap Deck/falling net.jpg",
+      "css": "css/assets/trap-deck/trap-deck-falling-net-trap-card.css",
+      "json": "json/assets/trap-deck/trap-deck-falling-net-trap-card.json",
+      "complianceStatus": "replaced",
+      "replacementTitle": "Falling Net"
+    },
+    {
+      "id": "trap-deck-green-slime-trap-card",
+      "originalPath": "Trap Deck/Green slime trap.jpg",
+      "css": "css/assets/trap-deck/trap-deck-green-slime-trap-card.css",
+      "json": "json/assets/trap-deck/trap-deck-green-slime-trap-card.json",
+      "complianceStatus": "replaced",
+      "replacementTitle": "Green Slime"
+    },
+    {
+      "id": "trap-deck-locking-pit-trap-card",
+      "originalPath": "Trap Deck/locking pit.jpg",
+      "css": "css/assets/trap-deck/trap-deck-locking-pit-trap-card.css",
+      "json": "json/assets/trap-deck/trap-deck-locking-pit-trap-card.json",
+      "complianceStatus": "replaced",
+      "replacementTitle": "Locking Pit"
+    },
+    {
+      "id": "trap-deck-poison-darts-trap-card",
+      "originalPath": "Trap Deck/poison darts.jpg",
+      "css": "css/assets/trap-deck/trap-deck-poison-darts-trap-card.css",
+      "json": "json/assets/trap-deck/trap-deck-poison-darts-trap-card.json",
+      "complianceStatus": "replaced",
+      "replacementTitle": "Poison Darts"
+    },
+    {
+      "id": "trap-deck-poison-spiked-pit-trap-card",
+      "originalPath": "Trap Deck/poison spiked trap.jpg",
+      "css": "css/assets/trap-deck/trap-deck-poison-spiked-pit-trap-card.css",
+      "json": "json/assets/trap-deck/trap-deck-poison-spiked-pit-trap-card.json",
+      "complianceStatus": "replaced",
+      "replacementTitle": "Poison-Spiked Pit"
+    }
+  ],
+  "schema_version": "4.5.0",
+  "runtime_rules": {
+    "purpose": "Represent fixed trap cards referenced by the map and random temporary traps.",
+    "draw_triggers": [
+      "interact with an authored trapped door, passage, chest, or bookshelf",
+      "random trapped fixture",
+      "failed dangerous objective",
+      "killer trap ability",
+      "ghost Set New Trap haunt",
+      "dungeon-director pressure"
+    ],
+    "screen_behavior": "The card pops up, places a legal temporary hazard, displays counters, and starts a synchronized countdown.",
+    "timer": {
+      "exploration_default_seconds": 30,
+      "combat_default_rounds": 5,
+      "difficulty_seconds_range": [
+        15,
+        60
+      ],
+      "difficulty_rounds_range": [
+        3,
+        8
+      ],
+      "pause_only_for": [
+        "connection recovery",
+        "accessibility pause",
+        "server-authorized interruption"
+      ]
+    },
+    "disarm": "Use a D&D-style Search and tool sequence: detect with Passive Perception or a Search action using Wisdom (Perception), study mechanisms with Intelligence (Investigation) when useful, and disarm a mechanical trap with a Dexterity check using Thieves’ Tools against the trap disable DC. Tool proficiency adds Proficiency Bonus; matching skill proficiency grants Advantage under the revised tool rule. Magical traps may instead allow Intelligence (Arcana), Dispel Magic, a listed spell, or a card-specific counter.",
+    "success": "Disable the trap, gain XP, and receive configured Treasure or Gameplay rewards.",
+    "failure": "Apply damage, conditions, alarm, separation, lockdown, monster draw, or environmental effects.",
+    "ghost_interaction": "Every ghost can trigger an armed trap or spend Haunt Energy to draw and place a new legal Trap card.",
+    "fairness": "No random trap may spawn on a protected starting cell, meeting zone, inaccessible tile, or unavoidable no-counterplay route.",
+    "permanent_death": "Unused held Trap cards return to the Trap deck. Resolved cards enter discard and reshuffle when needed.",
+    "monster_trigger_cards": {
+      "enabled": true,
+      "rule": "Some Trap cards do not deal their main effect directly. They instruct the active seat to draw a Monster card, spawn that monster on a valid adjacent or room spawn cell, show its HP bar, and begin initiative."
+    },
+    "resolution_types": [
+      "hazard",
+      "door_or_container_hazard",
+      "room_lockdown",
+      "monster_ambush"
+    ],
+    "monster_ambush": "Instead of placing a normal hazard, draw the top Monster card and spawn that monster on the nearest legal unoccupied cell.",
+    "detection_and_disarm": "Use the D&D interaction procedure defined in dnd_video_game_engine.search_locks_and_traps."
+  },
+  "revealPolicy": "Details become visible only when legally drawn, spawned, discovered, or triggered."
+}

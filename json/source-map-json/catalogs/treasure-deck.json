@@ -1,0 +1,284 @@
+{
+  "category": "Treasure Deck",
+  "assetCount": 34,
+  "assets": [
+    {
+      "id": "treasure-deck-azurite-treasure-card",
+      "originalPath": "Treasure Deck/AddText_05-25-09.17.07.jpg",
+      "css": "css/assets/treasure-deck/treasure-deck-azurite-treasure-card.css",
+      "json": "json/assets/treasure-deck/treasure-deck-azurite-treasure-card.json",
+      "complianceStatus": "replaced",
+      "replacementTitle": "Azurite"
+    },
+    {
+      "id": "treasure-deck-brass-ewer-with-blue-quartz-treasure-card",
+      "originalPath": "Treasure Deck/AddText_05-25-08.23.16.jpg",
+      "css": "css/assets/treasure-deck/treasure-deck-brass-ewer-with-blue-quartz-treasure-card.css",
+      "json": "json/assets/treasure-deck/treasure-deck-brass-ewer-with-blue-quartz-treasure-card.json",
+      "complianceStatus": "replaced",
+      "replacementTitle": "Brass Ewer with Blue Quartz"
+    },
+    {
+      "id": "treasure-deck-brass-falcon-with-elven-script-treasure-card",
+      "originalPath": "Treasure Deck/AddText_05-25-08.22.46.jpg",
+      "css": "css/assets/treasure-deck/treasure-deck-brass-falcon-with-elven-script-treasure-card.css",
+      "json": "json/assets/treasure-deck/treasure-deck-brass-falcon-with-elven-script-treasure-card.json",
+      "complianceStatus": "replaced",
+      "replacementTitle": "Brass Falcon with Elven Script"
+    },
+    {
+      "id": "treasure-deck-brass-ring-brooch-with-thorned-vines-treasure-card",
+      "originalPath": "Treasure Deck/AddText_05-25-08.26.37.jpg",
+      "css": "css/assets/treasure-deck/treasure-deck-brass-ring-brooch-with-thorned-vines-treasure-card.css",
+      "json": "json/assets/treasure-deck/treasure-deck-brass-ring-brooch-with-thorned-vines-treasure-card.json",
+      "complianceStatus": "replaced",
+      "replacementTitle": "Brass Ring Brooch with Thorned Vines"
+    },
+    {
+      "id": "treasure-deck-brown-green-garnet-treasure-card",
+      "originalPath": "Treasure Deck/AddText_05-25-09.19.52.jpg",
+      "css": "css/assets/treasure-deck/treasure-deck-brown-green-garnet-treasure-card.css",
+      "json": "json/assets/treasure-deck/treasure-deck-brown-green-garnet-treasure-card.json",
+      "complianceStatus": "replaced",
+      "replacementTitle": "Brown-Green Garnet"
+    },
+    {
+      "id": "treasure-deck-cloth-cloak-trimmed-with-fur-treasure-card",
+      "originalPath": "Treasure Deck/AddText_05-25-08.24.06.jpg",
+      "css": "css/assets/treasure-deck/treasure-deck-cloth-cloak-trimmed-with-fur-treasure-card.css",
+      "json": "json/assets/treasure-deck/treasure-deck-cloth-cloak-trimmed-with-fur-treasure-card.json",
+      "complianceStatus": "replaced",
+      "replacementTitle": "Cloth Cloak Trimmed with Fur"
+    },
+    {
+      "id": "treasure-deck-earthenware-vase-with-elven-script-treasure-card",
+      "originalPath": "Treasure Deck/AddText_05-25-08.26.58.jpg",
+      "css": "css/assets/treasure-deck/treasure-deck-earthenware-vase-with-elven-script-treasure-card.css",
+      "json": "json/assets/treasure-deck/treasure-deck-earthenware-vase-with-elven-script-treasure-card.json",
+      "complianceStatus": "replaced",
+      "replacementTitle": "Earthenware Vase with Elven Script"
+    },
+    {
+      "id": "treasure-deck-goggles-of-night-treasure-card",
+      "originalPath": "Treasure Deck/AddText_05-25-08.51.00.jpg",
+      "css": "css/assets/treasure-deck/treasure-deck-goggles-of-night-treasure-card.css",
+      "json": "json/assets/treasure-deck/treasure-deck-goggles-of-night-treasure-card.json",
+      "complianceStatus": "replaced",
+      "replacementTitle": "Goggles of Night"
+    },
+    {
+      "id": "treasure-deck-golden-pearl-treasure-card",
+      "originalPath": "Treasure Deck/AddText_05-25-09.17.37.jpg",
+      "css": "css/assets/treasure-deck/treasure-deck-golden-pearl-treasure-card.css",
+      "json": "json/assets/treasure-deck/treasure-deck-golden-pearl-treasure-card.json",
+      "complianceStatus": "replaced",
+      "replacementTitle": "Golden Pearl"
+    },
+    {
+      "id": "treasure-deck-jet-treasure-card",
+      "originalPath": "Treasure Deck/AddText_05-25-09.20.25.jpg",
+      "css": "css/assets/treasure-deck/treasure-deck-jet-treasure-card.css",
+      "json": "json/assets/treasure-deck/treasure-deck-jet-treasure-card.json",
+      "complianceStatus": "replaced",
+      "replacementTitle": "Jet"
+    },
+    {
+      "id": "treasure-deck-large-iron-chest-treasure-card",
+      "originalPath": "Treasure Deck/AddText_05-25-08.20.48.jpg",
+      "css": "css/assets/treasure-deck/treasure-deck-large-iron-chest-treasure-card.css",
+      "json": "json/assets/treasure-deck/treasure-deck-large-iron-chest-treasure-card.json",
+      "complianceStatus": "replaced",
+      "replacementTitle": "Large Iron Chest"
+    },
+    {
+      "id": "treasure-deck-locked-medium-wooden-chest-treasure-card",
+      "originalPath": "Treasure Deck/AddText_05-25-08.17.51.jpg",
+      "css": "css/assets/treasure-deck/treasure-deck-locked-medium-wooden-chest-treasure-card.css",
+      "json": "json/assets/treasure-deck/treasure-deck-locked-medium-wooden-chest-treasure-card.json",
+      "complianceStatus": "replaced",
+      "replacementTitle": "Locked Medium Wooden Chest"
+    },
+    {
+      "id": "treasure-deck-locked-small-iron-chest-treasure-card",
+      "originalPath": "Treasure Deck/AddText_05-25-08.04.22.jpg",
+      "css": "css/assets/treasure-deck/treasure-deck-locked-small-iron-chest-treasure-card.css",
+      "json": "json/assets/treasure-deck/treasure-deck-locked-small-iron-chest-treasure-card.json",
+      "complianceStatus": "replaced",
+      "replacementTitle": "Locked Small Iron Chest"
+    },
+    {
+      "id": "treasure-deck-marble-plate-with-silver-scrollwork-treasure-card",
+      "originalPath": "Treasure Deck/AddText_05-25-08.24.35.jpg",
+      "css": "css/assets/treasure-deck/treasure-deck-marble-plate-with-silver-scrollwork-treasure-card.css",
+      "json": "json/assets/treasure-deck/treasure-deck-marble-plate-with-silver-scrollwork-treasure-card.json",
+      "complianceStatus": "replaced",
+      "replacementTitle": "Marble Plate with Silver Scrollwork"
+    },
+    {
+      "id": "treasure-deck-medium-iron-chest-treasure-card",
+      "originalPath": "Treasure Deck/AddText_05-25-08.13.33.jpg",
+      "css": "css/assets/treasure-deck/treasure-deck-medium-iron-chest-treasure-card.css",
+      "json": "json/assets/treasure-deck/treasure-deck-medium-iron-chest-treasure-card.json",
+      "complianceStatus": "replaced",
+      "replacementTitle": "Medium Iron Chest"
+    },
+    {
+      "id": "treasure-deck-moss-agate-treasure-card",
+      "originalPath": "Treasure Deck/AddText_05-25-09.22.23.jpg",
+      "css": "css/assets/treasure-deck/treasure-deck-moss-agate-treasure-card.css",
+      "json": "json/assets/treasure-deck/treasure-deck-moss-agate-treasure-card.json",
+      "complianceStatus": "replaced",
+      "replacementTitle": "Moss Agate"
+    },
+    {
+      "id": "treasure-deck-potion-of-healing-greater-treasure-card",
+      "originalPath": "Treasure Deck/AddText_05-25-08.49.32.jpg",
+      "css": "css/assets/treasure-deck/treasure-deck-potion-of-healing-greater-treasure-card.css",
+      "json": "json/assets/treasure-deck/treasure-deck-potion-of-healing-greater-treasure-card.json",
+      "complianceStatus": "replaced",
+      "replacementTitle": "Potion of Healing (Greater)"
+    },
+    {
+      "id": "treasure-deck-potion-of-healing-treasure-card",
+      "originalPath": "Treasure Deck/AddText_05-25-08.47.43.jpg",
+      "css": "css/assets/treasure-deck/treasure-deck-potion-of-healing-treasure-card.css",
+      "json": "json/assets/treasure-deck/treasure-deck-potion-of-healing-treasure-card.json",
+      "complianceStatus": "replaced",
+      "replacementTitle": "Potion of Healing"
+    },
+    {
+      "id": "treasure-deck-potion-of-speed-treasure-card",
+      "originalPath": "Treasure Deck/AddText_05-25-09.02.09.jpg",
+      "css": "css/assets/treasure-deck/treasure-deck-potion-of-speed-treasure-card.css",
+      "json": "json/assets/treasure-deck/treasure-deck-potion-of-speed-treasure-card.json",
+      "complianceStatus": "replaced",
+      "replacementTitle": "Potion of Speed"
+    },
+    {
+      "id": "treasure-deck-ring-of-invisibility-treasure-card",
+      "originalPath": "Treasure Deck/AddText_05-25-09.00.23.jpg",
+      "css": "css/assets/treasure-deck/treasure-deck-ring-of-invisibility-treasure-card.css",
+      "json": "json/assets/treasure-deck/treasure-deck-ring-of-invisibility-treasure-card.json",
+      "complianceStatus": "replaced",
+      "replacementTitle": "Ring of Invisibility"
+    },
+    {
+      "id": "treasure-deck-silver-pearl-treasure-card",
+      "originalPath": "Treasure Deck/AddText_05-25-09.16.21.jpg",
+      "css": "css/assets/treasure-deck/treasure-deck-silver-pearl-treasure-card.css",
+      "json": "json/assets/treasure-deck/treasure-deck-silver-pearl-treasure-card.json",
+      "complianceStatus": "replaced",
+      "replacementTitle": "Silver Pearl"
+    },
+    {
+      "id": "treasure-deck-small-wooden-chest-treasure-card",
+      "originalPath": "Treasure Deck/AddText_05-25-08.08.15.jpg",
+      "css": "css/assets/treasure-deck/treasure-deck-small-wooden-chest-treasure-card.css",
+      "json": "json/assets/treasure-deck/treasure-deck-small-wooden-chest-treasure-card.json",
+      "complianceStatus": "replaced",
+      "replacementTitle": "Small Wooden Chest"
+    },
+    {
+      "id": "treasure-deck-spell-scroll-invisibility-treasure-card",
+      "originalPath": "Treasure Deck/AddText_05-25-08.30.13.jpg",
+      "css": "css/assets/treasure-deck/treasure-deck-spell-scroll-invisibility-treasure-card.css",
+      "json": "json/assets/treasure-deck/treasure-deck-spell-scroll-invisibility-treasure-card.json",
+      "complianceStatus": "replaced",
+      "replacementTitle": "Spell Scroll: Invisibility"
+    },
+    {
+      "id": "treasure-deck-sturdy-leather-boots-treasure-card",
+      "originalPath": "Treasure Deck/AddText_05-25-09.12.01.jpg",
+      "css": "css/assets/treasure-deck/treasure-deck-sturdy-leather-boots-treasure-card.css",
+      "json": "json/assets/treasure-deck/treasure-deck-sturdy-leather-boots-treasure-card.json",
+      "complianceStatus": "replaced",
+      "replacementTitle": "Sturdy Leather Boots"
+    },
+    {
+      "id": "treasure-deck-trapped-large-wooden-chest-treasure-card",
+      "originalPath": "Treasure Deck/AddText_05-25-08.19.22.jpg",
+      "css": "css/assets/treasure-deck/treasure-deck-trapped-large-wooden-chest-treasure-card.css",
+      "json": "json/assets/treasure-deck/treasure-deck-trapped-large-wooden-chest-treasure-card.json",
+      "complianceStatus": "replaced",
+      "replacementTitle": "Trapped Large Wooden Chest"
+    },
+    {
+      "id": "treasure-deck-trapped-small-ornate-chest-treasure-card",
+      "originalPath": "Treasure Deck/AddText_05-25-08.06.17.jpg",
+      "css": "css/assets/treasure-deck/treasure-deck-trapped-small-ornate-chest-treasure-card.css",
+      "json": "json/assets/treasure-deck/treasure-deck-trapped-small-ornate-chest-treasure-card.json",
+      "complianceStatus": "replaced",
+      "replacementTitle": "Trapped Small Ornate Chest"
+    },
+    {
+      "id": "treasure-deck-turquoise-treasure-card",
+      "originalPath": "Treasure Deck/AddText_05-25-09.22.54.jpg",
+      "css": "css/assets/treasure-deck/treasure-deck-turquoise-treasure-card.css",
+      "json": "json/assets/treasure-deck/treasure-deck-turquoise-treasure-card.json",
+      "complianceStatus": "replaced",
+      "replacementTitle": "Turquoise"
+    },
+    {
+      "id": "treasure-deck-violet-garnet-treasure-card",
+      "originalPath": "Treasure Deck/AddText_05-25-09.23.35.jpg",
+      "css": "css/assets/treasure-deck/treasure-deck-violet-garnet-treasure-card.css",
+      "json": "json/assets/treasure-deck/treasure-deck-violet-garnet-treasure-card.json",
+      "complianceStatus": "replaced",
+      "replacementTitle": "Violet Garnet"
+    },
+    {
+      "id": "treasure-deck-wand-of-magic-missiles-treasure-card",
+      "originalPath": "Treasure Deck/AddText_05-25-08.40.47.jpg",
+      "css": "css/assets/treasure-deck/treasure-deck-wand-of-magic-missiles-treasure-card.css",
+      "json": "json/assets/treasure-deck/treasure-deck-wand-of-magic-missiles-treasure-card.json",
+      "complianceStatus": "replaced",
+      "replacementTitle": "Wand of Magic Missiles"
+    },
+    {
+      "id": "treasure-deck-wand-of-magic-missiles-treasure-card-2",
+      "originalPath": "Treasure Deck/AddText_05-25-09.07.07.jpg",
+      "css": "css/assets/treasure-deck/treasure-deck-wand-of-magic-missiles-treasure-card-2.css",
+      "json": "json/assets/treasure-deck/treasure-deck-wand-of-magic-missiles-treasure-card-2.json",
+      "complianceStatus": "replaced",
+      "replacementTitle": "Wand of Magic Missiles"
+    },
+    {
+      "id": "treasure-deck-wand-of-web-treasure-card",
+      "originalPath": "Treasure Deck/AddText_05-25-08.37.38.jpg",
+      "css": "css/assets/treasure-deck/treasure-deck-wand-of-web-treasure-card.css",
+      "json": "json/assets/treasure-deck/treasure-deck-wand-of-web-treasure-card.json",
+      "complianceStatus": "replaced",
+      "replacementTitle": "Wand of Web"
+    },
+    {
+      "id": "treasure-deck-wooden-rod-with-arcane-runes-treasure-card",
+      "originalPath": "Treasure Deck/AddText_05-25-08.25.55.jpg",
+      "css": "css/assets/treasure-deck/treasure-deck-wooden-rod-with-arcane-runes-treasure-card.css",
+      "json": "json/assets/treasure-deck/treasure-deck-wooden-rod-with-arcane-runes-treasure-card.json",
+      "complianceStatus": "replaced",
+      "replacementTitle": "Wooden Rod with Arcane Runes"
+    },
+    {
+      "id": "treasure-deck-wool-cloak-treasure-card",
+      "originalPath": "Treasure Deck/AddText_05-25-09.11.25.jpg",
+      "css": "css/assets/treasure-deck/treasure-deck-wool-cloak-treasure-card.css",
+      "json": "json/assets/treasure-deck/treasure-deck-wool-cloak-treasure-card.json",
+      "complianceStatus": "replaced",
+      "replacementTitle": "Wool Cloak"
+    },
+    {
+      "id": "treasure-deck-zircon-treasure-card",
+      "originalPath": "Treasure Deck/AddText_05-25-09.24.03.jpg",
+      "css": "css/assets/treasure-deck/treasure-deck-zircon-treasure-card.css",
+      "json": "json/assets/treasure-deck/treasure-deck-zircon-treasure-card.json",
+      "complianceStatus": "replaced",
+      "replacementTitle": "Zircon"
+    }
+  ],
+  "schema_version": "4.5.0",
+  "rulesVersion": "4.5.0",
+  "runtimeRules": "json/decks/treasure-deck-v2.0.0.json",
+  "catalogCardCount": 37,
+  "magicItemCount": 29,
+  "revealPolicy": "Card details appear only after a legal draw or authored reveal."
+}

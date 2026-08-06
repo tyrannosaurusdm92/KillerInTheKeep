@@ -1,0 +1,102 @@
+{
+  "category": "Monk",
+  "assetCount": 12,
+  "assets": [
+    {
+      "id": "monk-character-art",
+      "originalPath": "Characters_Art_Transparent/Monk.png",
+      "css": "css/assets/monk/monk-character-art.css",
+      "json": "json/assets/monk/monk-character-art.json",
+      "complianceStatus": "preserved",
+      "replacementTitle": null
+    },
+    {
+      "id": "monk-character-sheet",
+      "originalPath": "Monk/AddText_06-08-05.29.56.jpg",
+      "css": "css/assets/monk/monk-character-sheet.css",
+      "json": "json/assets/monk/monk-character-sheet.json",
+      "complianceStatus": "replaced",
+      "replacementTitle": "Monk"
+    },
+    {
+      "id": "monk-deflect-attacks-character-asset",
+      "originalPath": "Monk/AddText_06-02-03.33.55.jpg",
+      "css": "css/assets/monk/monk-deflect-attacks-character-asset.css",
+      "json": "json/assets/monk/monk-deflect-attacks-character-asset.json",
+      "complianceStatus": "replaced",
+      "replacementTitle": "Deflect Attacks"
+    },
+    {
+      "id": "monk-empowered-strikes-character-asset",
+      "originalPath": "Monk/AddText_06-02-03.40.31.jpg",
+      "css": "css/assets/monk/monk-empowered-strikes-character-asset.css",
+      "json": "json/assets/monk/monk-empowered-strikes-character-asset.json",
+      "complianceStatus": "replaced",
+      "replacementTitle": "Empowered Strikes"
+    },
+    {
+      "id": "monk-fleet-step-character-asset",
+      "originalPath": "Monk/AddText_06-02-03.48.41.jpg",
+      "css": "css/assets/monk/monk-fleet-step-character-asset.css",
+      "json": "json/assets/monk/monk-fleet-step-character-asset.json",
+      "complianceStatus": "replaced",
+      "replacementTitle": "Fleet Step"
+    },
+    {
+      "id": "monk-flurry-of-blows-character-asset",
+      "originalPath": "Monk/AddText_06-02-03.43.32.jpg",
+      "css": "css/assets/monk/monk-flurry-of-blows-character-asset.css",
+      "json": "json/assets/monk/monk-flurry-of-blows-character-asset.json",
+      "complianceStatus": "replaced",
+      "replacementTitle": "Flurry of Blows"
+    },
+    {
+      "id": "monk-grapple-character-asset",
+      "originalPath": "Monk/AddText_06-02-03.45.10.jpg",
+      "css": "css/assets/monk/monk-grapple-character-asset.css",
+      "json": "json/assets/monk/monk-grapple-character-asset.json",
+      "complianceStatus": "replaced",
+      "replacementTitle": "Grapple"
+    },
+    {
+      "id": "monk-name-banner",
+      "originalPath": "Monk/AddText_05-26-03.34.38.png",
+      "css": "css/assets/monk/monk-name-banner.css",
+      "json": "json/assets/monk/monk-name-banner.json",
+      "complianceStatus": "preserved",
+      "replacementTitle": null
+    },
+    {
+      "id": "monk-open-hand-technique-character-asset",
+      "originalPath": "Monk/AddText_06-02-03.24.59.jpg",
+      "css": "css/assets/monk/monk-open-hand-technique-character-asset.css",
+      "json": "json/assets/monk/monk-open-hand-technique-character-asset.json",
+      "complianceStatus": "replaced",
+      "replacementTitle": "Open Hand Technique"
+    },
+    {
+      "id": "monk-patient-defense-character-asset",
+      "originalPath": "Monk/AddText_06-02-03.27.20.jpg",
+      "css": "css/assets/monk/monk-patient-defense-character-asset.css",
+      "json": "json/assets/monk/monk-patient-defense-character-asset.json",
+      "complianceStatus": "replaced",
+      "replacementTitle": "Patient Defense"
+    },
+    {
+      "id": "monk-step-of-the-wind-character-asset",
+      "originalPath": "Monk/AddText_06-02-03.38.49.jpg",
+      "css": "css/assets/monk/monk-step-of-the-wind-character-asset.css",
+      "json": "json/assets/monk/monk-step-of-the-wind-character-asset.json",
+      "complianceStatus": "replaced",
+      "replacementTitle": "Step of the Wind"
+    },
+    {
+      "id": "monk-stunning-strike-character-asset",
+      "originalPath": "Monk/AddText_06-02-03.46.58.jpg",
+      "css": "css/assets/monk/monk-stunning-strike-character-asset.css",
+      "json": "json/assets/monk/monk-stunning-strike-character-asset.json",
+      "complianceStatus": "replaced",
+      "replacementTitle": "Stunning Strike"
+    }
+  ]
+}

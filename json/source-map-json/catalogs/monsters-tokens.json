@@ -1,0 +1,102 @@
+{
+  "category": "Monsters/Tokens",
+  "assetCount": 12,
+  "assets": [
+    {
+      "id": "monsters-tokens-daltu-character-token",
+      "originalPath": "Monsters/Tokens/AddText_06-08-10.19.21.jpg",
+      "css": "css/assets/monsters/tokens/monsters-tokens-daltu-character-token.css",
+      "json": "json/assets/monsters/tokens/monsters-tokens-daltu-character-token.json",
+      "complianceStatus": "preserved",
+      "replacementTitle": null
+    },
+    {
+      "id": "monsters-tokens-giant-spider-monster-token",
+      "originalPath": "Monsters/Tokens/AddText_05-26-05.04.30.jpg",
+      "css": "css/assets/monsters/tokens/monsters-tokens-giant-spider-monster-token.css",
+      "json": "json/assets/monsters/tokens/monsters-tokens-giant-spider-monster-token.json",
+      "complianceStatus": "replaced",
+      "replacementTitle": "Giant Spider"
+    },
+    {
+      "id": "monsters-tokens-giant-spider-monster-token-2",
+      "originalPath": "Monsters/Tokens/AddText_06-01-07.41.18.jpg",
+      "css": "css/assets/monsters/tokens/monsters-tokens-giant-spider-monster-token-2.css",
+      "json": "json/assets/monsters/tokens/monsters-tokens-giant-spider-monster-token-2.json",
+      "complianceStatus": "replaced",
+      "replacementTitle": "Giant Spider"
+    },
+    {
+      "id": "monsters-tokens-giant-wolf-spider-monster-token",
+      "originalPath": "Monsters/Tokens/AddText_06-01-06.43.56.jpg",
+      "css": "css/assets/monsters/tokens/monsters-tokens-giant-wolf-spider-monster-token.css",
+      "json": "json/assets/monsters/tokens/monsters-tokens-giant-wolf-spider-monster-token.json",
+      "complianceStatus": "replaced",
+      "replacementTitle": "Giant Wolf Spider"
+    },
+    {
+      "id": "monsters-tokens-pile-of-clothes-token",
+      "originalPath": "Monsters/Tokens/AddText_07-27-02.28.28.jpg",
+      "css": "css/assets/monsters/tokens/monsters-tokens-pile-of-clothes-token.css",
+      "json": "json/assets/monsters/tokens/monsters-tokens-pile-of-clothes-token.json",
+      "complianceStatus": "preserved",
+      "replacementTitle": null
+    },
+    {
+      "id": "monsters-tokens-skeleton-monster-token",
+      "originalPath": "Monsters/Tokens/received_1378106846040936.jpeg",
+      "css": "css/assets/monsters/tokens/monsters-tokens-skeleton-monster-token.css",
+      "json": "json/assets/monsters/tokens/monsters-tokens-skeleton-monster-token.json",
+      "complianceStatus": "replaced",
+      "replacementTitle": "Skeleton"
+    },
+    {
+      "id": "monsters-tokens-skeleton-monster-token-2",
+      "originalPath": "Monsters/Tokens/received_1518175645306076.jpeg",
+      "css": "css/assets/monsters/tokens/monsters-tokens-skeleton-monster-token-2.css",
+      "json": "json/assets/monsters/tokens/monsters-tokens-skeleton-monster-token-2.json",
+      "complianceStatus": "replaced",
+      "replacementTitle": "Skeleton"
+    },
+    {
+      "id": "monsters-tokens-spider-monster-token",
+      "originalPath": "Monsters/Tokens/AddText_05-26-05.00.28.jpg",
+      "css": "css/assets/monsters/tokens/monsters-tokens-spider-monster-token.css",
+      "json": "json/assets/monsters/tokens/monsters-tokens-spider-monster-token.json",
+      "complianceStatus": "replaced",
+      "replacementTitle": "Spider"
+    },
+    {
+      "id": "monsters-tokens-swarm-of-insects-monster-token",
+      "originalPath": "Monsters/Tokens/AddText_05-26-04.59.12.jpg",
+      "css": "css/assets/monsters/tokens/monsters-tokens-swarm-of-insects-monster-token.css",
+      "json": "json/assets/monsters/tokens/monsters-tokens-swarm-of-insects-monster-token.json",
+      "complianceStatus": "replaced",
+      "replacementTitle": "Swarm of Insects"
+    },
+    {
+      "id": "monsters-tokens-swarm-of-insects-monster-token-2",
+      "originalPath": "Monsters/Tokens/AddText_06-01-06.49.47.jpg",
+      "css": "css/assets/monsters/tokens/monsters-tokens-swarm-of-insects-monster-token-2.css",
+      "json": "json/assets/monsters/tokens/monsters-tokens-swarm-of-insects-monster-token-2.json",
+      "complianceStatus": "replaced",
+      "replacementTitle": "Swarm of Insects"
+    },
+    {
+      "id": "monsters-tokens-swarm-of-insects-monster-token-3",
+      "originalPath": "Monsters/Tokens/AddText_06-02-10.55.45.jpg",
+      "css": "css/assets/monsters/tokens/monsters-tokens-swarm-of-insects-monster-token-3.css",
+      "json": "json/assets/monsters/tokens/monsters-tokens-swarm-of-insects-monster-token-3.json",
+      "complianceStatus": "replaced",
+      "replacementTitle": "Swarm of Insects"
+    },
+    {
+      "id": "monsters-tokens-zombie-monster-token",
+      "originalPath": "Monsters/Tokens/AddText_06-01-06.41.24.jpg",
+      "css": "css/assets/monsters/tokens/monsters-tokens-zombie-monster-token.css",
+      "json": "json/assets/monsters/tokens/monsters-tokens-zombie-monster-token.json",
+      "complianceStatus": "replaced",
+      "replacementTitle": "Zombie"
+    }
+  ]
+}

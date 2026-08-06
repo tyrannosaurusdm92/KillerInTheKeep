@@ -1,0 +1,393 @@
+{
+  "schema_version": "4.5.0",
+  "category": "Gameplay Deck",
+  "assetCount": 38,
+  "roomCardCount": 22,
+  "nonRoomAssetCount": 16,
+  "fourFloorRuntime": "json/keep-4-floor-runtime.json",
+  "assets": [
+    {
+      "id": "gameplay-deck-cellar-gameplay-card",
+      "roomId": "cellar",
+      "roomNumber": 1,
+      "title": "Cellar",
+      "css": "css/assets/gameplay-deck/gameplay-deck-cellar-gameplay-card.css",
+      "json": "json/assets/gameplay-deck/gameplay-deck-cellar-gameplay-card.json",
+      "html": "room_cards/html/01_cellar.html",
+      "exactMapCrop": "room_cards/map_crops/01_cellar.png",
+      "complianceStatus": "updated-four-floor-exact-map"
+    },
+    {
+      "id": "gameplay-deck-foyer-gameplay-card",
+      "roomId": "foyer",
+      "roomNumber": 2,
+      "title": "Foyer",
+      "css": "css/assets/gameplay-deck/gameplay-deck-foyer-gameplay-card.css",
+      "json": "json/assets/gameplay-deck/gameplay-deck-foyer-gameplay-card.json",
+      "html": "room_cards/html/02_foyer.html",
+      "exactMapCrop": "room_cards/map_crops/02_foyer.png",
+      "complianceStatus": "updated-four-floor-exact-map"
+    },
+    {
+      "id": "gameplay-deck-grand-hall-gameplay-card",
+      "roomId": "grand_hall",
+      "roomNumber": 3,
+      "title": "Grand Hall",
+      "css": "css/assets/gameplay-deck/gameplay-deck-grand-hall-gameplay-card.css",
+      "json": "json/assets/gameplay-deck/gameplay-deck-grand-hall-gameplay-card.json",
+      "html": "room_cards/html/03_grand-hall.html",
+      "exactMapCrop": "room_cards/map_crops/03_grand-hall.png",
+      "complianceStatus": "updated-four-floor-exact-map"
+    },
+    {
+      "id": "gameplay-deck-game-room-gameplay-card",
+      "roomId": "game_room",
+      "roomNumber": 4,
+      "title": "Game Room",
+      "css": "css/assets/gameplay-deck/gameplay-deck-game-room-gameplay-card.css",
+      "json": "json/assets/gameplay-deck/gameplay-deck-game-room-gameplay-card.json",
+      "html": "room_cards/html/04_game-room.html",
+      "exactMapCrop": "room_cards/map_crops/04_game-room.png",
+      "complianceStatus": "updated-four-floor-exact-map"
+    },
+    {
+      "id": "gameplay-deck-dining-room-gameplay-card",
+      "roomId": "dining_room",
+      "roomNumber": 5,
+      "title": "Dining Room",
+      "css": "css/assets/gameplay-deck/gameplay-deck-dining-room-gameplay-card.css",
+      "json": "json/assets/gameplay-deck/gameplay-deck-dining-room-gameplay-card.json",
+      "html": "room_cards/html/05_dining-room.html",
+      "exactMapCrop": "room_cards/map_crops/05_dining-room.png",
+      "complianceStatus": "updated-four-floor-exact-map"
+    },
+    {
+      "id": "gameplay-deck-kitchen-gameplay-card",
+      "roomId": "kitchen",
+      "roomNumber": 6,
+      "title": "Kitchen",
+      "css": "css/assets/gameplay-deck/gameplay-deck-kitchen-gameplay-card.css",
+      "json": "json/assets/gameplay-deck/gameplay-deck-kitchen-gameplay-card.json",
+      "html": "room_cards/html/06_kitchen.html",
+      "exactMapCrop": "room_cards/map_crops/06_kitchen.png",
+      "complianceStatus": "updated-four-floor-exact-map"
+    },
+    {
+      "id": "gameplay-deck-pantry-gameplay-card",
+      "roomId": "pantry",
+      "roomNumber": 7,
+      "title": "Pantry",
+      "css": "css/assets/gameplay-deck/gameplay-deck-pantry-gameplay-card.css",
+      "json": "json/assets/gameplay-deck/gameplay-deck-pantry-gameplay-card.json",
+      "html": "room_cards/html/07_pantry.html",
+      "exactMapCrop": "room_cards/map_crops/07_pantry.png",
+      "complianceStatus": "updated-four-floor-exact-map"
+    },
+    {
+      "id": "gameplay-deck-sitting-room-gameplay-card",
+      "roomId": "sitting_room",
+      "roomNumber": 8,
+      "title": "Sitting Room",
+      "css": "css/assets/gameplay-deck/gameplay-deck-sitting-room-gameplay-card.css",
+      "json": "json/assets/gameplay-deck/gameplay-deck-sitting-room-gameplay-card.json",
+      "html": "room_cards/html/08_sitting-room.html",
+      "exactMapCrop": "room_cards/map_crops/08_sitting-room.png",
+      "complianceStatus": "updated-four-floor-exact-map"
+    },
+    {
+      "id": "gameplay-deck-music-room-gameplay-card",
+      "roomId": "music_room",
+      "roomNumber": 9,
+      "title": "Music Room",
+      "css": "css/assets/gameplay-deck/gameplay-deck-music-room-gameplay-card.css",
+      "json": "json/assets/gameplay-deck/gameplay-deck-music-room-gameplay-card.json",
+      "html": "room_cards/html/09_music-room.html",
+      "exactMapCrop": "room_cards/map_crops/09_music-room.png",
+      "complianceStatus": "updated-four-floor-exact-map"
+    },
+    {
+      "id": "gameplay-deck-privy-gameplay-card",
+      "roomId": "privy",
+      "roomNumber": 10,
+      "title": "Privy",
+      "css": "css/assets/gameplay-deck/gameplay-deck-privy-gameplay-card.css",
+      "json": "json/assets/gameplay-deck/gameplay-deck-privy-gameplay-card.json",
+      "html": "room_cards/html/10_privy.html",
+      "exactMapCrop": "room_cards/map_crops/10_privy.png",
+      "complianceStatus": "updated-four-floor-exact-map"
+    },
+    {
+      "id": "gameplay-deck-library-gameplay-card",
+      "roomId": "library",
+      "roomNumber": 11,
+      "title": "Library",
+      "css": "css/assets/gameplay-deck/gameplay-deck-library-gameplay-card.css",
+      "json": "json/assets/gameplay-deck/gameplay-deck-library-gameplay-card.json",
+      "html": "room_cards/html/11_library.html",
+      "exactMapCrop": "room_cards/map_crops/11_library_lower.png",
+      "complianceStatus": "updated-four-floor-exact-map"
+    },
+    {
+      "id": "gameplay-deck-first-floor-solar-gameplay-card",
+      "roomId": "first_floor_solar",
+      "roomNumber": 12,
+      "title": "1st Floor Solar",
+      "css": "css/assets/gameplay-deck/gameplay-deck-first-floor-solar-gameplay-card.css",
+      "json": "json/assets/gameplay-deck/gameplay-deck-first-floor-solar-gameplay-card.json",
+      "html": "room_cards/html/12_first-floor-solar.html",
+      "exactMapCrop": "room_cards/map_crops/12_first-floor-solar.png",
+      "complianceStatus": "updated-four-floor-exact-map"
+    },
+    {
+      "id": "gameplay-deck-alchemists-quarters-gameplay-card",
+      "roomId": "alchemists_quarters",
+      "roomNumber": 13,
+      "title": "Alchemist’s Quarters",
+      "css": "css/assets/gameplay-deck/gameplay-deck-alchemists-quarters-gameplay-card.css",
+      "json": "json/assets/gameplay-deck/gameplay-deck-alchemists-quarters-gameplay-card.json",
+      "html": "room_cards/html/13_alchemists-quarters.html",
+      "exactMapCrop": "room_cards/map_crops/13_alchemists-quarters.png",
+      "complianceStatus": "updated-four-floor-exact-map"
+    },
+    {
+      "id": "gameplay-deck-alchemists-study-gameplay-card",
+      "roomId": "alchemists_study",
+      "roomNumber": 14,
+      "title": "Alchemist’s Study",
+      "css": "css/assets/gameplay-deck/gameplay-deck-alchemists-study-gameplay-card.css",
+      "json": "json/assets/gameplay-deck/gameplay-deck-alchemists-study-gameplay-card.json",
+      "html": "room_cards/html/14_alchemists-study.html",
+      "exactMapCrop": "room_cards/map_crops/14_alchemists-study.png",
+      "complianceStatus": "updated-four-floor-exact-map"
+    },
+    {
+      "id": "gameplay-deck-armory-gameplay-card",
+      "roomId": "armory",
+      "roomNumber": 15,
+      "title": "Armory",
+      "css": "css/assets/gameplay-deck/gameplay-deck-armory-gameplay-card.css",
+      "json": "json/assets/gameplay-deck/gameplay-deck-armory-gameplay-card.json",
+      "html": "room_cards/html/15_armory.html",
+      "exactMapCrop": "room_cards/map_crops/15_armory.png",
+      "complianceStatus": "updated-four-floor-exact-map"
+    },
+    {
+      "id": "gameplay-deck-main-guest-quarters-gameplay-card",
+      "roomId": "main_guest_quarters",
+      "roomNumber": 16,
+      "title": "Main Guest Quarters",
+      "css": "css/assets/gameplay-deck/gameplay-deck-main-guest-quarters-gameplay-card.css",
+      "json": "json/assets/gameplay-deck/gameplay-deck-main-guest-quarters-gameplay-card.json",
+      "html": "room_cards/html/16_main-guest-quarters.html",
+      "exactMapCrop": "room_cards/map_crops/16_main-guest-quarters.png",
+      "complianceStatus": "updated-four-floor-exact-map"
+    },
+    {
+      "id": "gameplay-deck-den-gameplay-card",
+      "roomId": "den",
+      "roomNumber": 17,
+      "title": "Den",
+      "css": "css/assets/gameplay-deck/gameplay-deck-den-gameplay-card.css",
+      "json": "json/assets/gameplay-deck/gameplay-deck-den-gameplay-card.json",
+      "html": "room_cards/html/17_den.html",
+      "exactMapCrop": "room_cards/map_crops/17_den.png",
+      "complianceStatus": "updated-four-floor-exact-map"
+    },
+    {
+      "id": "gameplay-deck-secondary-guest-quarters-gameplay-card",
+      "roomId": "secondary_guest_quarters",
+      "roomNumber": 18,
+      "title": "Secondary Guest Quarters",
+      "css": "css/assets/gameplay-deck/gameplay-deck-secondary-guest-quarters-gameplay-card.css",
+      "json": "json/assets/gameplay-deck/gameplay-deck-secondary-guest-quarters-gameplay-card.json",
+      "html": "room_cards/html/18_secondary-guest-quarters.html",
+      "exactMapCrop": "room_cards/map_crops/18_secondary-guest-quarters.png",
+      "complianceStatus": "updated-four-floor-exact-map"
+    },
+    {
+      "id": "gameplay-deck-second-floor-solar-gameplay-card",
+      "roomId": "second_floor_solar",
+      "roomNumber": 19,
+      "title": "2nd Floor Solar",
+      "css": "css/assets/gameplay-deck/gameplay-deck-second-floor-solar-gameplay-card.css",
+      "json": "json/assets/gameplay-deck/gameplay-deck-second-floor-solar-gameplay-card.json",
+      "html": "room_cards/html/19_second-floor-solar.html",
+      "exactMapCrop": "room_cards/map_crops/19_second-floor-solar.png",
+      "complianceStatus": "updated-four-floor-exact-map"
+    },
+    {
+      "id": "gameplay-deck-chapel-gameplay-card",
+      "roomId": "chapel",
+      "roomNumber": 20,
+      "title": "Chapel",
+      "css": "css/assets/gameplay-deck/gameplay-deck-chapel-gameplay-card.css",
+      "json": "json/assets/gameplay-deck/gameplay-deck-chapel-gameplay-card.json",
+      "html": "room_cards/html/20_chapel.html",
+      "exactMapCrop": "room_cards/map_crops/20_chapel.png",
+      "complianceStatus": "updated-four-floor-exact-map"
+    },
+    {
+      "id": "gameplay-deck-attic-gameplay-card",
+      "roomId": "attic",
+      "roomNumber": 21,
+      "title": "Attic",
+      "css": "css/assets/gameplay-deck/gameplay-deck-attic-gameplay-card.css",
+      "json": "json/assets/gameplay-deck/gameplay-deck-attic-gameplay-card.json",
+      "html": "room_cards/html/21_attic.html",
+      "exactMapCrop": "room_cards/map_crops/21_attic.png",
+      "complianceStatus": "updated-four-floor-exact-map"
+    },
+    {
+      "id": "gameplay-deck-servants-quarters-gameplay-card",
+      "roomId": "servants_quarters",
+      "roomNumber": 22,
+      "title": "Servant’s Quarters",
+      "css": "css/assets/gameplay-deck/gameplay-deck-servants-quarters-gameplay-card.css",
+      "json": "json/assets/gameplay-deck/gameplay-deck-servants-quarters-gameplay-card.json",
+      "html": "room_cards/html/22_servants-quarters.html",
+      "exactMapCrop": "room_cards/map_crops/22_servants-quarters.png",
+      "complianceStatus": "updated-four-floor-exact-map"
+    },
+    {
+      "id": "gameplay-deck-arrows-20-gameplay-card",
+      "originalPath": "Gameplay Deck/arrows.jpg",
+      "css": "css/assets/gameplay-deck/gameplay-deck-arrows-20-gameplay-card.css",
+      "json": "json/assets/gameplay-deck/gameplay-deck-arrows-20-gameplay-card.json",
+      "complianceStatus": "preserved",
+      "replacementTitle": null
+    },
+    {
+      "id": "gameplay-deck-basic-poison-item-card",
+      "originalPath": "Gameplay Deck/AddText_06-18-12.20.20.jpg",
+      "css": "css/assets/gameplay-deck/gameplay-deck-basic-poison-item-card.css",
+      "json": "json/assets/gameplay-deck/gameplay-deck-basic-poison-item-card.json",
+      "complianceStatus": "preserved",
+      "replacementTitle": null
+    },
+    {
+      "id": "gameplay-deck-battleaxe-weapon-card",
+      "originalPath": "Gameplay Deck/battle axe.jpg",
+      "css": "css/assets/gameplay-deck/gameplay-deck-battleaxe-weapon-card.css",
+      "json": "json/assets/gameplay-deck/gameplay-deck-battleaxe-weapon-card.json",
+      "complianceStatus": "preserved",
+      "replacementTitle": null
+    },
+    {
+      "id": "gameplay-deck-dagger-weapon-card",
+      "originalPath": "Gameplay Deck/AddText_06-18-12.19.41.jpg",
+      "css": "css/assets/gameplay-deck/gameplay-deck-dagger-weapon-card.css",
+      "json": "json/assets/gameplay-deck/gameplay-deck-dagger-weapon-card.json",
+      "complianceStatus": "preserved",
+      "replacementTitle": null
+    },
+    {
+      "id": "gameplay-deck-mace-weapon-card",
+      "originalPath": "Gameplay Deck/AddText_06-18-12.21.29.jpg",
+      "css": "css/assets/gameplay-deck/gameplay-deck-mace-weapon-card.css",
+      "json": "json/assets/gameplay-deck/gameplay-deck-mace-weapon-card.json",
+      "complianceStatus": "preserved",
+      "replacementTitle": null
+    },
+    {
+      "id": "gameplay-deck-quarterstaff-weapon-card",
+      "originalPath": "Gameplay Deck/magical staff.jpg",
+      "css": "css/assets/gameplay-deck/gameplay-deck-quarterstaff-weapon-card.css",
+      "json": "json/assets/gameplay-deck/gameplay-deck-quarterstaff-weapon-card.json",
+      "complianceStatus": "preserved",
+      "replacementTitle": null
+    },
+    {
+      "id": "gameplay-deck-rapier-weapon-card",
+      "originalPath": "Gameplay Deck/rapier.jpg",
+      "css": "css/assets/gameplay-deck/gameplay-deck-rapier-weapon-card.css",
+      "json": "json/assets/gameplay-deck/gameplay-deck-rapier-weapon-card.json",
+      "complianceStatus": "preserved",
+      "replacementTitle": null
+    },
+    {
+      "id": "gameplay-deck-wand-gameplay-card",
+      "originalPath": "Gameplay Deck/AddText_06-18-12.22.22.jpg",
+      "css": "css/assets/gameplay-deck/gameplay-deck-wand-gameplay-card.css",
+      "json": "json/assets/gameplay-deck/gameplay-deck-wand-gameplay-card.json",
+      "complianceStatus": "preserved",
+      "replacementTitle": null
+    },
+    {
+      "id": "gameplay-deck-daltu-character-card",
+      "characterId": "daltu",
+      "title": "Daltu",
+      "css": "character_cards/css/daltu.css",
+      "json": "json/assets/gameplay-deck/gameplay-deck-daltu-character-card.json",
+      "html": "character_cards/html/daltu.html",
+      "complianceStatus": "integrated-character-sheet-card-v4.4"
+    },
+    {
+      "id": "gameplay-deck-noldrack-goldblade-character-card",
+      "characterId": "noldrack_goldblade",
+      "title": "Noldrack Goldblade",
+      "css": "character_cards/css/noldrack-goldblade.css",
+      "json": "json/assets/gameplay-deck/gameplay-deck-noldrack-goldblade-character-card.json",
+      "html": "character_cards/html/noldrack-goldblade.html",
+      "complianceStatus": "integrated-character-sheet-card-v4.4"
+    },
+    {
+      "id": "gameplay-deck-eilvyre-astath-character-card",
+      "characterId": "eilvyre_astath",
+      "title": "Eilvyre Astath",
+      "css": "character_cards/css/eilvyre-astath.css",
+      "json": "json/assets/gameplay-deck/gameplay-deck-eilvyre-astath-character-card.json",
+      "html": "character_cards/html/eilvyre-astath.html",
+      "complianceStatus": "integrated-character-sheet-card-v4.4"
+    },
+    {
+      "id": "gameplay-deck-korbin-silverdew-character-card",
+      "characterId": "korbin_silverdew",
+      "title": "Korbin Silverdew",
+      "css": "character_cards/css/korbin-silverdew.css",
+      "json": "json/assets/gameplay-deck/gameplay-deck-korbin-silverdew-character-card.json",
+      "html": "character_cards/html/korbin-silverdew.html",
+      "complianceStatus": "integrated-character-sheet-card-v4.4"
+    },
+    {
+      "id": "gameplay-deck-joknos-jock-character-card",
+      "characterId": "joknos_jock",
+      "title": "Joknos Jock",
+      "css": "character_cards/css/joknos-jock.css",
+      "json": "json/assets/gameplay-deck/gameplay-deck-joknos-jock-character-card.json",
+      "html": "character_cards/html/joknos-jock.html",
+      "complianceStatus": "integrated-character-sheet-card-v4.4"
+    },
+    {
+      "id": "gameplay-deck-githtoxundes-fenwophyl-character-card",
+      "characterId": "githtoxundes_fenwophyl",
+      "title": "Githtoxundes Xun Fenwophyl",
+      "css": "character_cards/css/githtoxundes-fenwophyl.css",
+      "json": "json/assets/gameplay-deck/gameplay-deck-githtoxundes-fenwophyl-character-card.json",
+      "html": "character_cards/html/githtoxundes-fenwophyl.html",
+      "complianceStatus": "integrated-character-sheet-card-v4.4"
+    },
+    {
+      "id": "gameplay-deck-gunnus-character-card",
+      "characterId": "gunnus",
+      "title": "Gunnus",
+      "css": "character_cards/css/gunnus.css",
+      "json": "json/assets/gameplay-deck/gameplay-deck-gunnus-character-card.json",
+      "html": "character_cards/html/gunnus.html",
+      "complianceStatus": "integrated-character-sheet-card-v4.4"
+    },
+    {
+      "id": "gameplay-deck-monk-character-card",
+      "characterId": "monk",
+      "title": "Monk",
+      "css": "character_cards/css/monk.css",
+      "json": "json/assets/gameplay-deck/gameplay-deck-monk-character-card.json",
+      "html": "character_cards/html/monk.html",
+      "complianceStatus": "integrated-character-sheet-card-v4.4"
+    }
+  ],
+  "characterCardCount": 8,
+  "murderWeaponEvidenceCardCount": 8,
+  "deckRole": "Evidence Deck only: 8 Character + 8 murder-evidence Weapon + 22 Room cards.",
+  "runtimeRules": "json/decks/evidence-deck-v4.5.0.json",
+  "informationSafety": "No location or character card may expose traps, locks, concealed passages, loot, findable items, or hidden monsters."
+}

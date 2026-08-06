@@ -1,0 +1,110 @@
+{
+  "category": "Gunnus",
+  "assetCount": 13,
+  "assets": [
+    {
+      "id": "gunnus-animate-dead-spell-card",
+      "originalPath": "Gunnus/AddText_06-02-04.23.38.jpg",
+      "css": "css/assets/gunnus/gunnus-animate-dead-spell-card.css",
+      "json": "json/assets/gunnus/gunnus-animate-dead-spell-card.json",
+      "complianceStatus": "replaced",
+      "replacementTitle": "Animate Dead"
+    },
+    {
+      "id": "gunnus-blight-spell-card",
+      "originalPath": "Gunnus/AddText_06-02-04.20.14.jpg",
+      "css": "css/assets/gunnus/gunnus-blight-spell-card.css",
+      "json": "json/assets/gunnus/gunnus-blight-spell-card.json",
+      "complianceStatus": "replaced",
+      "replacementTitle": "Blight"
+    },
+    {
+      "id": "gunnus-character-art",
+      "originalPath": "Characters_Art_Transparent/Gunnus.png",
+      "css": "css/assets/gunnus/gunnus-character-art.css",
+      "json": "json/assets/gunnus/gunnus-character-art.json",
+      "complianceStatus": "preserved",
+      "replacementTitle": null
+    },
+    {
+      "id": "gunnus-character-sheet",
+      "originalPath": "Gunnus/AddText_06-08-05.27.39.jpg",
+      "css": "css/assets/gunnus/gunnus-character-sheet.css",
+      "json": "json/assets/gunnus/gunnus-character-sheet.json",
+      "complianceStatus": "replaced",
+      "replacementTitle": "Gunnus"
+    },
+    {
+      "id": "gunnus-darkness-spell-card",
+      "originalPath": "Gunnus/AddText_06-02-05.14.24.jpg",
+      "css": "css/assets/gunnus/gunnus-darkness-spell-card.css",
+      "json": "json/assets/gunnus/gunnus-darkness-spell-card.json",
+      "complianceStatus": "replaced",
+      "replacementTitle": "Darkness"
+    },
+    {
+      "id": "gunnus-hideous-laughter-spell-card",
+      "originalPath": "Gunnus/AddText_06-02-05.17.52.jpg",
+      "css": "css/assets/gunnus/gunnus-hideous-laughter-spell-card.css",
+      "json": "json/assets/gunnus/gunnus-hideous-laughter-spell-card.json",
+      "complianceStatus": "replaced",
+      "replacementTitle": "Hideous Laughter"
+    },
+    {
+      "id": "gunnus-name-banner",
+      "originalPath": "Gunnus/AddText_05-26-03.33.38.png",
+      "css": "css/assets/gunnus/gunnus-name-banner.css",
+      "json": "json/assets/gunnus/gunnus-name-banner.json",
+      "complianceStatus": "preserved",
+      "replacementTitle": null
+    },
+    {
+      "id": "gunnus-phantasmal-killer-spell-card",
+      "originalPath": "Gunnus/AddText_06-02-04.17.36.jpg",
+      "css": "css/assets/gunnus/gunnus-phantasmal-killer-spell-card.css",
+      "json": "json/assets/gunnus/gunnus-phantasmal-killer-spell-card.json",
+      "complianceStatus": "replaced",
+      "replacementTitle": "Phantasmal Killer"
+    },
+    {
+      "id": "gunnus-poison-spray-spell-card",
+      "originalPath": "Gunnus/AddText_06-02-05.22.40.jpg",
+      "css": "css/assets/gunnus/gunnus-poison-spray-spell-card.css",
+      "json": "json/assets/gunnus/gunnus-poison-spray-spell-card.json",
+      "complianceStatus": "replaced",
+      "replacementTitle": "Poison Spray"
+    },
+    {
+      "id": "gunnus-skeleton-creature-card",
+      "originalPath": "Gunnus/skeleton gunnus.jpg",
+      "css": "css/assets/gunnus/gunnus-skeleton-creature-card.css",
+      "json": "json/assets/gunnus/gunnus-skeleton-creature-card.json",
+      "complianceStatus": "replaced",
+      "replacementTitle": "Skeleton"
+    },
+    {
+      "id": "gunnus-spare-the-dying-spell-card",
+      "originalPath": "Gunnus/AddText_06-02-05.19.51.jpg",
+      "css": "css/assets/gunnus/gunnus-spare-the-dying-spell-card.css",
+      "json": "json/assets/gunnus/gunnus-spare-the-dying-spell-card.json",
+      "complianceStatus": "replaced",
+      "replacementTitle": "Spare the Dying"
+    },
+    {
+      "id": "gunnus-vampiric-touch-spell-card",
+      "originalPath": "Gunnus/AddText_06-02-04.26.11.jpg",
+      "css": "css/assets/gunnus/gunnus-vampiric-touch-spell-card.css",
+      "json": "json/assets/gunnus/gunnus-vampiric-touch-spell-card.json",
+      "complianceStatus": "replaced",
+      "replacementTitle": "Vampiric Touch"
+    },
+    {
+      "id": "gunnus-zombie-creature-card",
+      "originalPath": "Gunnus/zombie gunnus.jpg",
+      "css": "css/assets/gunnus/gunnus-zombie-creature-card.css",
+      "json": "json/assets/gunnus/gunnus-zombie-creature-card.json",
+      "complianceStatus": "replaced",
+      "replacementTitle": "Zombie"
+    }
+  ]
+}

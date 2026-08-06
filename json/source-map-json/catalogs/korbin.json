@@ -1,0 +1,70 @@
+{
+  "category": "Korbin",
+  "assetCount": 8,
+  "assets": [
+    {
+      "id": "korbin-bless-spell-card",
+      "originalPath": "Korbin/AddText_06-02-01.02.14.jpg",
+      "css": "css/assets/korbin/korbin-bless-spell-card.css",
+      "json": "json/assets/korbin/korbin-bless-spell-card.json",
+      "complianceStatus": "replaced",
+      "replacementTitle": "Bless"
+    },
+    {
+      "id": "korbin-death-ward-spell-card",
+      "originalPath": "Korbin/AddText_06-02-12.44.35.jpg",
+      "css": "css/assets/korbin/korbin-death-ward-spell-card.css",
+      "json": "json/assets/korbin/korbin-death-ward-spell-card.json",
+      "complianceStatus": "replaced",
+      "replacementTitle": "Death Ward"
+    },
+    {
+      "id": "korbin-fire-bolt-spell-card",
+      "originalPath": "Korbin/AddText_06-02-01.07.47.jpg",
+      "css": "css/assets/korbin/korbin-fire-bolt-spell-card.css",
+      "json": "json/assets/korbin/korbin-fire-bolt-spell-card.json",
+      "complianceStatus": "replaced",
+      "replacementTitle": "Fire Bolt"
+    },
+    {
+      "id": "korbin-friends-spell-card",
+      "originalPath": "Korbin/AddText_06-02-01.14.20.jpg",
+      "css": "css/assets/korbin/korbin-friends-spell-card.css",
+      "json": "json/assets/korbin/korbin-friends-spell-card.json",
+      "complianceStatus": "replaced",
+      "replacementTitle": "Friends"
+    },
+    {
+      "id": "korbin-hold-person-spell-card",
+      "originalPath": "Korbin/AddText_07-27-01.32.09.jpg",
+      "css": "css/assets/korbin/korbin-hold-person-spell-card.css",
+      "json": "json/assets/korbin/korbin-hold-person-spell-card.json",
+      "complianceStatus": "replaced",
+      "replacementTitle": "Hold Person"
+    },
+    {
+      "id": "korbin-sacred-flame-spell-card",
+      "originalPath": "Korbin/AddText_06-02-01.05.27.jpg",
+      "css": "css/assets/korbin/korbin-sacred-flame-spell-card.css",
+      "json": "json/assets/korbin/korbin-sacred-flame-spell-card.json",
+      "complianceStatus": "replaced",
+      "replacementTitle": "Sacred Flame"
+    },
+    {
+      "id": "korbin-silverdew-character-art",
+      "originalPath": "Characters_Art_Transparent/Korbin_Silverdew.png",
+      "css": "css/assets/korbin/korbin-silverdew-character-art.css",
+      "json": "json/assets/korbin/korbin-silverdew-character-art.json",
+      "complianceStatus": "preserved",
+      "replacementTitle": null
+    },
+    {
+      "id": "korbin-silverdew-name-banner",
+      "originalPath": "Korbin/AddText_05-26-03.31.19.png",
+      "css": "css/assets/korbin/korbin-silverdew-name-banner.css",
+      "json": "json/assets/korbin/korbin-silverdew-name-banner.json",
+      "complianceStatus": "preserved",
+      "replacementTitle": null
+    }
+  ]
+}

@@ -1,0 +1,94 @@
+{
+  "category": "Jock",
+  "assetCount": 11,
+  "assets": [
+    {
+      "id": "jock-bestow-curse-spell-card",
+      "originalPath": "Jock/AddText_06-02-10.15.40.jpg",
+      "css": "css/assets/jock/jock-bestow-curse-spell-card.css",
+      "json": "json/assets/jock/jock-bestow-curse-spell-card.json",
+      "complianceStatus": "replaced",
+      "replacementTitle": "Bestow Curse"
+    },
+    {
+      "id": "jock-charm-person-spell-card",
+      "originalPath": "Jock/AddText_06-02-09.59.00.jpg",
+      "css": "css/assets/jock/jock-charm-person-spell-card.css",
+      "json": "json/assets/jock/jock-charm-person-spell-card.json",
+      "complianceStatus": "replaced",
+      "replacementTitle": "Charm Person"
+    },
+    {
+      "id": "jock-dimension-door-spell-card",
+      "originalPath": "Jock/AddText_06-02-10.03.06.jpg",
+      "css": "css/assets/jock/jock-dimension-door-spell-card.css",
+      "json": "json/assets/jock/jock-dimension-door-spell-card.json",
+      "complianceStatus": "replaced",
+      "replacementTitle": "Dimension Door"
+    },
+    {
+      "id": "jock-heroism-spell-card",
+      "originalPath": "Jock/AddText_06-02-10.06.25.jpg",
+      "css": "css/assets/jock/jock-heroism-spell-card.css",
+      "json": "json/assets/jock/jock-heroism-spell-card.json",
+      "complianceStatus": "replaced",
+      "replacementTitle": "Heroism"
+    },
+    {
+      "id": "jock-hideous-laughter-spell-card",
+      "originalPath": "Jock/AddText_06-02-12.00.04.jpg",
+      "css": "css/assets/jock/jock-hideous-laughter-spell-card.css",
+      "json": "json/assets/jock/jock-hideous-laughter-spell-card.json",
+      "complianceStatus": "replaced",
+      "replacementTitle": "Hideous Laughter"
+    },
+    {
+      "id": "jock-invisibility-spell-card",
+      "originalPath": "Jock/AddText_06-02-10.18.17.jpg",
+      "css": "css/assets/jock/jock-invisibility-spell-card.css",
+      "json": "json/assets/jock/jock-invisibility-spell-card.json",
+      "complianceStatus": "replaced",
+      "replacementTitle": "Invisibility"
+    },
+    {
+      "id": "jock-joknos-name-banner",
+      "originalPath": "Jock/AddText_05-26-03.32.29.png",
+      "css": "css/assets/jock/jock-joknos-name-banner.css",
+      "json": "json/assets/jock/jock-joknos-name-banner.json",
+      "complianceStatus": "preserved",
+      "replacementTitle": null
+    },
+    {
+      "id": "jock-shatter-spell-card",
+      "originalPath": "Jock/AddText_06-02-11.56.28.jpg",
+      "css": "css/assets/jock/jock-shatter-spell-card.css",
+      "json": "json/assets/jock/jock-shatter-spell-card.json",
+      "complianceStatus": "replaced",
+      "replacementTitle": "Shatter"
+    },
+    {
+      "id": "jock-suggestion-spell-card",
+      "originalPath": "Jock/AddText_06-02-10.29.14.jpg",
+      "css": "css/assets/jock/jock-suggestion-spell-card.css",
+      "json": "json/assets/jock/jock-suggestion-spell-card.json",
+      "complianceStatus": "replaced",
+      "replacementTitle": "Suggestion"
+    },
+    {
+      "id": "jock-thunderwave-spell-card",
+      "originalPath": "Jock/AddText_06-02-12.06.13.jpg",
+      "css": "css/assets/jock/jock-thunderwave-spell-card.css",
+      "json": "json/assets/jock/jock-thunderwave-spell-card.json",
+      "complianceStatus": "replaced",
+      "replacementTitle": "Thunderwave"
+    },
+    {
+      "id": "joknos-jock-character-art",
+      "originalPath": "Characters_Art_Transparent/Joknos_Jock.png",
+      "css": "css/assets/jock/joknos-jock-character-art.css",
+      "json": "json/assets/jock/joknos-jock-character-art.json",
+      "complianceStatus": "preserved",
+      "replacementTitle": null
+    }
+  ]
+}
