@@ -1,0 +1,86 @@
+{
+  "category": "Noldrack",
+  "assetCount": 10,
+  "assets": [
+    {
+      "id": "noldrack-charm-person-spell-card",
+      "originalPath": "Noldrack/AddText_06-02-04.12.08.jpg",
+      "css": "css/assets/noldrack/noldrack-charm-person-spell-card.css",
+      "json": "json/assets/noldrack/noldrack-charm-person-spell-card.json",
+      "complianceStatus": "replaced",
+      "replacementTitle": "Charm Person"
+    },
+    {
+      "id": "noldrack-find-traps-spell-card",
+      "originalPath": "Noldrack/AddText_06-02-03.55.47.jpg",
+      "css": "css/assets/noldrack/noldrack-find-traps-spell-card.css",
+      "json": "json/assets/noldrack/noldrack-find-traps-spell-card.json",
+      "complianceStatus": "replaced",
+      "replacementTitle": "Find Traps"
+    },
+    {
+      "id": "noldrack-flaming-sphere-spell-card",
+      "originalPath": "Noldrack/AddText_06-02-03.47.01.jpg",
+      "css": "css/assets/noldrack/noldrack-flaming-sphere-spell-card.css",
+      "json": "json/assets/noldrack/noldrack-flaming-sphere-spell-card.json",
+      "complianceStatus": "replaced",
+      "replacementTitle": "Flaming Sphere"
+    },
+    {
+      "id": "noldrack-goldblade-character-art",
+      "originalPath": "Characters_Art_Transparent/Noldrack_Goldblade.png",
+      "css": "css/assets/noldrack/noldrack-goldblade-character-art.css",
+      "json": "json/assets/noldrack/noldrack-goldblade-character-art.json",
+      "complianceStatus": "preserved",
+      "replacementTitle": null
+    },
+    {
+      "id": "noldrack-goldhide-character-sheet",
+      "originalPath": "Noldrack/AddText_06-08-05.30.27.jpg",
+      "css": "css/assets/noldrack/noldrack-goldhide-character-sheet.css",
+      "json": "json/assets/noldrack/noldrack-goldhide-character-sheet.json",
+      "complianceStatus": "replaced",
+      "replacementTitle": "Noldrack Goldhide"
+    },
+    {
+      "id": "noldrack-gust-of-wind-spell-card",
+      "originalPath": "Noldrack/AddText_06-02-03.59.11.jpg",
+      "css": "css/assets/noldrack/noldrack-gust-of-wind-spell-card.css",
+      "json": "json/assets/noldrack/noldrack-gust-of-wind-spell-card.json",
+      "complianceStatus": "replaced",
+      "replacementTitle": "Gust of Wind"
+    },
+    {
+      "id": "noldrack-gust-of-wind-spell-card-2",
+      "originalPath": "Noldrack/AddText_06-02-04.18.04.jpg",
+      "css": "css/assets/noldrack/noldrack-gust-of-wind-spell-card-2.css",
+      "json": "json/assets/noldrack/noldrack-gust-of-wind-spell-card-2.json",
+      "complianceStatus": "replaced",
+      "replacementTitle": "Gust of Wind"
+    },
+    {
+      "id": "noldrack-poison-spray-spell-card",
+      "originalPath": "Noldrack/AddText_06-02-12.22.05.jpg",
+      "css": "css/assets/noldrack/noldrack-poison-spray-spell-card.css",
+      "json": "json/assets/noldrack/noldrack-poison-spray-spell-card.json",
+      "complianceStatus": "replaced",
+      "replacementTitle": "Poison Spray"
+    },
+    {
+      "id": "noldrack-ray-of-frost-spell-card",
+      "originalPath": "Noldrack/AddText_06-02-04.03.45.jpg",
+      "css": "css/assets/noldrack/noldrack-ray-of-frost-spell-card.css",
+      "json": "json/assets/noldrack/noldrack-ray-of-frost-spell-card.json",
+      "complianceStatus": "replaced",
+      "replacementTitle": "Ray of Frost"
+    },
+    {
+      "id": "noldrack-thorn-whip-spell-card",
+      "originalPath": "Noldrack/AddText_06-02-12.52.23.jpg",
+      "css": "css/assets/noldrack/noldrack-thorn-whip-spell-card.css",
+      "json": "json/assets/noldrack/noldrack-thorn-whip-spell-card.json",
+      "complianceStatus": "replaced",
+      "replacementTitle": "Thorn Whip"
+    }
+  ]
+}

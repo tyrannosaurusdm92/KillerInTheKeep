@@ -1,0 +1,78 @@
+{
+  "category": "Monsters/Deck",
+  "assetCount": 9,
+  "assets": [
+    {
+      "id": "monsters-deck-giant-spider-monster-card",
+      "originalPath": "Monsters/Deck/huge spider.jpg",
+      "css": "css/assets/monsters/deck/monsters-deck-giant-spider-monster-card.css",
+      "json": "json/assets/monsters/deck/monsters-deck-giant-spider-monster-card.json",
+      "complianceStatus": "replaced",
+      "replacementTitle": "Giant Spider"
+    },
+    {
+      "id": "monsters-deck-giant-spider-monster-card-2",
+      "originalPath": "Monsters/Deck/large spider.jpg",
+      "css": "css/assets/monsters/deck/monsters-deck-giant-spider-monster-card-2.css",
+      "json": "json/assets/monsters/deck/monsters-deck-giant-spider-monster-card-2.json",
+      "complianceStatus": "replaced",
+      "replacementTitle": "Giant Spider"
+    },
+    {
+      "id": "monsters-deck-giant-wolf-spider-monster-card",
+      "originalPath": "Monsters/Deck/medium spider.jpg",
+      "css": "css/assets/monsters/deck/monsters-deck-giant-wolf-spider-monster-card.css",
+      "json": "json/assets/monsters/deck/monsters-deck-giant-wolf-spider-monster-card.json",
+      "complianceStatus": "replaced",
+      "replacementTitle": "Giant Wolf Spider"
+    },
+    {
+      "id": "monsters-deck-skeleton-monster-card",
+      "originalPath": "Monsters/Deck/skeleton monster.jpg",
+      "css": "css/assets/monsters/deck/monsters-deck-skeleton-monster-card.css",
+      "json": "json/assets/monsters/deck/monsters-deck-skeleton-monster-card.json",
+      "complianceStatus": "replaced",
+      "replacementTitle": "Skeleton"
+    },
+    {
+      "id": "monsters-deck-spider-monster-card",
+      "originalPath": "Monsters/Deck/small spider.jpg",
+      "css": "css/assets/monsters/deck/monsters-deck-spider-monster-card.css",
+      "json": "json/assets/monsters/deck/monsters-deck-spider-monster-card.json",
+      "complianceStatus": "replaced",
+      "replacementTitle": "Spider"
+    },
+    {
+      "id": "monsters-deck-swarm-of-insects-monster-card",
+      "originalPath": "Monsters/Deck/fire Ant Swarm.jpg",
+      "css": "css/assets/monsters/deck/monsters-deck-swarm-of-insects-monster-card.css",
+      "json": "json/assets/monsters/deck/monsters-deck-swarm-of-insects-monster-card.json",
+      "complianceStatus": "replaced",
+      "replacementTitle": "Swarm of Insects"
+    },
+    {
+      "id": "monsters-deck-swarm-of-insects-monster-card-2",
+      "originalPath": "Monsters/Deck/Horsefly Swarm.jpg",
+      "css": "css/assets/monsters/deck/monsters-deck-swarm-of-insects-monster-card-2.css",
+      "json": "json/assets/monsters/deck/monsters-deck-swarm-of-insects-monster-card-2.json",
+      "complianceStatus": "replaced",
+      "replacementTitle": "Swarm of Insects"
+    },
+    {
+      "id": "monsters-deck-swarm-of-insects-monster-card-3",
+      "originalPath": "Monsters/Deck/Mosquito Swarm.jpg",
+      "css": "css/assets/monsters/deck/monsters-deck-swarm-of-insects-monster-card-3.css",
+      "json": "json/assets/monsters/deck/monsters-deck-swarm-of-insects-monster-card-3.json",
+      "complianceStatus": "replaced",
+      "replacementTitle": "Swarm of Insects"
+    },
+    {
+      "id": "monsters-deck-zombie-monster-card",
+      "originalPath": "Monsters/Deck/zombie monster.jpg",
+      "css": "css/assets/monsters/deck/monsters-deck-zombie-monster-card.css",
+      "json": "json/assets/monsters/deck/monsters-deck-zombie-monster-card.json",
+      "complianceStatus": "replaced",
+      "replacementTitle": "Zombie"
+    }
+  ]
+}

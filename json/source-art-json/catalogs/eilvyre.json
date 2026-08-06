@@ -1,0 +1,86 @@
+{
+  "category": "Eilvyre",
+  "assetCount": 10,
+  "assets": [
+    {
+      "id": "eilvyre-acid-splash-spell-card",
+      "originalPath": "Eilvyre/AddText_06-02-05.03.52.jpg",
+      "css": "css/assets/eilvyre/eilvyre-acid-splash-spell-card.css",
+      "json": "json/assets/eilvyre/eilvyre-acid-splash-spell-card.json",
+      "complianceStatus": "replaced",
+      "replacementTitle": "Acid Splash"
+    },
+    {
+      "id": "eilvyre-astath-character-art",
+      "originalPath": "Characters_Art_Transparent/Eilvyre_Astath.png",
+      "css": "css/assets/eilvyre/eilvyre-astath-character-art.css",
+      "json": "json/assets/eilvyre/eilvyre-astath-character-art.json",
+      "complianceStatus": "preserved",
+      "replacementTitle": null
+    },
+    {
+      "id": "eilvyre-astath-character-sheet",
+      "originalPath": "Eilvyre/AddText_06-08-05.29.45.jpg",
+      "css": "css/assets/eilvyre/eilvyre-astath-character-sheet.css",
+      "json": "json/assets/eilvyre/eilvyre-astath-character-sheet.json",
+      "complianceStatus": "replaced",
+      "replacementTitle": "Eilvyre Astath"
+    },
+    {
+      "id": "eilvyre-astath-name-banner",
+      "originalPath": "Eilvyre/AddText_05-26-03.30.10.png",
+      "css": "css/assets/eilvyre/eilvyre-astath-name-banner.css",
+      "json": "json/assets/eilvyre/eilvyre-astath-name-banner.json",
+      "complianceStatus": "preserved",
+      "replacementTitle": null
+    },
+    {
+      "id": "eilvyre-dancing-lights-spell-card",
+      "originalPath": "Eilvyre/AddText_06-02-04.50.56.jpg",
+      "css": "css/assets/eilvyre/eilvyre-dancing-lights-spell-card.css",
+      "json": "json/assets/eilvyre/eilvyre-dancing-lights-spell-card.json",
+      "complianceStatus": "replaced",
+      "replacementTitle": "Dancing Lights"
+    },
+    {
+      "id": "eilvyre-lightning-bolt-spell-card",
+      "originalPath": "Eilvyre/AddText_06-02-05.18.58.jpg",
+      "css": "css/assets/eilvyre/eilvyre-lightning-bolt-spell-card.css",
+      "json": "json/assets/eilvyre/eilvyre-lightning-bolt-spell-card.json",
+      "complianceStatus": "replaced",
+      "replacementTitle": "Lightning Bolt"
+    },
+    {
+      "id": "eilvyre-mage-armor-spell-card",
+      "originalPath": "Eilvyre/AddText_06-02-05.00.15.jpg",
+      "css": "css/assets/eilvyre/eilvyre-mage-armor-spell-card.css",
+      "json": "json/assets/eilvyre/eilvyre-mage-armor-spell-card.json",
+      "complianceStatus": "replaced",
+      "replacementTitle": "Mage Armor"
+    },
+    {
+      "id": "eilvyre-misty-step-spell-card",
+      "originalPath": "Eilvyre/AddText_06-02-05.09.36.jpg",
+      "css": "css/assets/eilvyre/eilvyre-misty-step-spell-card.css",
+      "json": "json/assets/eilvyre/eilvyre-misty-step-spell-card.json",
+      "complianceStatus": "replaced",
+      "replacementTitle": "Misty Step"
+    },
+    {
+      "id": "eilvyre-ray-of-frost-spell-card",
+      "originalPath": "Eilvyre/AddText_06-02-04.53.53.jpg",
+      "css": "css/assets/eilvyre/eilvyre-ray-of-frost-spell-card.css",
+      "json": "json/assets/eilvyre/eilvyre-ray-of-frost-spell-card.json",
+      "complianceStatus": "replaced",
+      "replacementTitle": "Ray of Frost"
+    },
+    {
+      "id": "eilvyre-shatter-spell-card",
+      "originalPath": "Eilvyre/AddText_06-02-05.12.48.jpg",
+      "css": "css/assets/eilvyre/eilvyre-shatter-spell-card.css",
+      "json": "json/assets/eilvyre/eilvyre-shatter-spell-card.json",
+      "complianceStatus": "replaced",
+      "replacementTitle": "Shatter"
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "category": "Trap Deck",
+  "assetCount": 7,
+  "assets": [
+    {
+      "id": "trap-deck-acid-pit-trap-card",
+      "originalPath": "Trap Deck/acid pit.jpg",
+      "css": "css/assets/trap-deck/trap-deck-acid-pit-trap-card.css",
+      "json": "json/assets/trap-deck/trap-deck-acid-pit-trap-card.json",
+      "complianceStatus": "replaced",
+      "replacementTitle": "Acid Pit"
+    },
+    {
+      "id": "trap-deck-collapsing-roof-trap-card",
+      "originalPath": "Trap Deck/collapsing roof.jpg",
+      "css": "css/assets/trap-deck/trap-deck-collapsing-roof-trap-card.css",
+      "json": "json/assets/trap-deck/trap-deck-collapsing-roof-trap-card.json",
+      "complianceStatus": "replaced",
+      "replacementTitle": "Collapsing Roof"
+    },
+    {
+      "id": "trap-deck-falling-net-trap-card",
+      "originalPath": "Trap Deck/falling net.jpg",
+      "css": "css/assets/trap-deck/trap-deck-falling-net-trap-card.css",
+      "json": "json/assets/trap-deck/trap-deck-falling-net-trap-card.json",
+      "complianceStatus": "replaced",
+      "replacementTitle": "Falling Net"
+    },
+    {
+      "id": "trap-deck-green-slime-trap-card",
+      "originalPath": "Trap Deck/Green slime trap.jpg",
+      "css": "css/assets/trap-deck/trap-deck-green-slime-trap-card.css",
+      "json": "json/assets/trap-deck/trap-deck-green-slime-trap-card.json",
+      "complianceStatus": "replaced",
+      "replacementTitle": "Green Slime"
+    },
+    {
+      "id": "trap-deck-locking-pit-trap-card",
+      "originalPath": "Trap Deck/locking pit.jpg",
+      "css": "css/assets/trap-deck/trap-deck-locking-pit-trap-card.css",
+      "json": "json/assets/trap-deck/trap-deck-locking-pit-trap-card.json",
+      "complianceStatus": "replaced",
+      "replacementTitle": "Locking Pit"
+    },
+    {
+      "id": "trap-deck-poison-darts-trap-card",
+      "originalPath": "Trap Deck/poison darts.jpg",
+      "css": "css/assets/trap-deck/trap-deck-poison-darts-trap-card.css",
+      "json": "json/assets/trap-deck/trap-deck-poison-darts-trap-card.json",
+      "complianceStatus": "replaced",
+      "replacementTitle": "Poison Darts"
+    },
+    {
+      "id": "trap-deck-poison-spiked-pit-trap-card",
+      "originalPath": "Trap Deck/poison spiked trap.jpg",
+      "css": "css/assets/trap-deck/trap-deck-poison-spiked-pit-trap-card.css",
+      "json": "json/assets/trap-deck/trap-deck-poison-spiked-pit-trap-card.json",
+      "complianceStatus": "replaced",
+      "replacementTitle": "Poison-Spiked Pit"
+    }
+  ]
+}

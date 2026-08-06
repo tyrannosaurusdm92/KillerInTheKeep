@@ -1,0 +1,182 @@
+{
+  "category": "Gameplay Deck",
+  "assetCount": 22,
+  "assets": [
+    {
+      "id": "gameplay-deck-alchemists-study-gameplay-card",
+      "originalPath": "Gameplay Deck/alcheimists study.png",
+      "css": "css/assets/gameplay-deck/gameplay-deck-alchemists-study-gameplay-card.css",
+      "json": "json/assets/gameplay-deck/gameplay-deck-alchemists-study-gameplay-card.json",
+      "complianceStatus": "preserved",
+      "replacementTitle": null
+    },
+    {
+      "id": "gameplay-deck-armory-gameplay-card",
+      "originalPath": "Gameplay Deck/armory.png",
+      "css": "css/assets/gameplay-deck/gameplay-deck-armory-gameplay-card.css",
+      "json": "json/assets/gameplay-deck/gameplay-deck-armory-gameplay-card.json",
+      "complianceStatus": "preserved",
+      "replacementTitle": null
+    },
+    {
+      "id": "gameplay-deck-arrows-20-gameplay-card",
+      "originalPath": "Gameplay Deck/arrows.jpg",
+      "css": "css/assets/gameplay-deck/gameplay-deck-arrows-20-gameplay-card.css",
+      "json": "json/assets/gameplay-deck/gameplay-deck-arrows-20-gameplay-card.json",
+      "complianceStatus": "preserved",
+      "replacementTitle": null
+    },
+    {
+      "id": "gameplay-deck-basic-poison-item-card",
+      "originalPath": "Gameplay Deck/AddText_06-18-12.20.20.jpg",
+      "css": "css/assets/gameplay-deck/gameplay-deck-basic-poison-item-card.css",
+      "json": "json/assets/gameplay-deck/gameplay-deck-basic-poison-item-card.json",
+      "complianceStatus": "preserved",
+      "replacementTitle": null
+    },
+    {
+      "id": "gameplay-deck-battleaxe-weapon-card",
+      "originalPath": "Gameplay Deck/battle axe.jpg",
+      "css": "css/assets/gameplay-deck/gameplay-deck-battleaxe-weapon-card.css",
+      "json": "json/assets/gameplay-deck/gameplay-deck-battleaxe-weapon-card.json",
+      "complianceStatus": "preserved",
+      "replacementTitle": null
+    },
+    {
+      "id": "gameplay-deck-chapel-gameplay-card",
+      "originalPath": "Gameplay Deck/chapel.png",
+      "css": "css/assets/gameplay-deck/gameplay-deck-chapel-gameplay-card.css",
+      "json": "json/assets/gameplay-deck/gameplay-deck-chapel-gameplay-card.json",
+      "complianceStatus": "preserved",
+      "replacementTitle": null
+    },
+    {
+      "id": "gameplay-deck-dagger-weapon-card",
+      "originalPath": "Gameplay Deck/AddText_06-18-12.19.41.jpg",
+      "css": "css/assets/gameplay-deck/gameplay-deck-dagger-weapon-card.css",
+      "json": "json/assets/gameplay-deck/gameplay-deck-dagger-weapon-card.json",
+      "complianceStatus": "preserved",
+      "replacementTitle": null
+    },
+    {
+      "id": "gameplay-deck-dining-room-gameplay-card",
+      "originalPath": "Gameplay Deck/dining room.png",
+      "css": "css/assets/gameplay-deck/gameplay-deck-dining-room-gameplay-card.css",
+      "json": "json/assets/gameplay-deck/gameplay-deck-dining-room-gameplay-card.json",
+      "complianceStatus": "preserved",
+      "replacementTitle": null
+    },
+    {
+      "id": "gameplay-deck-foyer-gameplay-card",
+      "originalPath": "Gameplay Deck/foyer.png",
+      "css": "css/assets/gameplay-deck/gameplay-deck-foyer-gameplay-card.css",
+      "json": "json/assets/gameplay-deck/gameplay-deck-foyer-gameplay-card.json",
+      "complianceStatus": "preserved",
+      "replacementTitle": null
+    },
+    {
+      "id": "gameplay-deck-kitchen-gameplay-card",
+      "originalPath": "Gameplay Deck/kitchen.png",
+      "css": "css/assets/gameplay-deck/gameplay-deck-kitchen-gameplay-card.css",
+      "json": "json/assets/gameplay-deck/gameplay-deck-kitchen-gameplay-card.json",
+      "complianceStatus": "preserved",
+      "replacementTitle": null
+    },
+    {
+      "id": "gameplay-deck-ladys-solar-gameplay-card",
+      "originalPath": "Gameplay Deck/ladies solar.png",
+      "css": "css/assets/gameplay-deck/gameplay-deck-ladys-solar-gameplay-card.css",
+      "json": "json/assets/gameplay-deck/gameplay-deck-ladys-solar-gameplay-card.json",
+      "complianceStatus": "preserved",
+      "replacementTitle": null
+    },
+    {
+      "id": "gameplay-deck-library-gameplay-card",
+      "originalPath": "Gameplay Deck/library.png",
+      "css": "css/assets/gameplay-deck/gameplay-deck-library-gameplay-card.css",
+      "json": "json/assets/gameplay-deck/gameplay-deck-library-gameplay-card.json",
+      "complianceStatus": "preserved",
+      "replacementTitle": null
+    },
+    {
+      "id": "gameplay-deck-mace-weapon-card",
+      "originalPath": "Gameplay Deck/AddText_06-18-12.21.29.jpg",
+      "css": "css/assets/gameplay-deck/gameplay-deck-mace-weapon-card.css",
+      "json": "json/assets/gameplay-deck/gameplay-deck-mace-weapon-card.json",
+      "complianceStatus": "preserved",
+      "replacementTitle": null
+    },
+    {
+      "id": "gameplay-deck-master-bedroom-gameplay-card",
+      "originalPath": "Gameplay Deck/master bedroom.png",
+      "css": "css/assets/gameplay-deck/gameplay-deck-master-bedroom-gameplay-card.css",
+      "json": "json/assets/gameplay-deck/gameplay-deck-master-bedroom-gameplay-card.json",
+      "complianceStatus": "preserved",
+      "replacementTitle": null
+    },
+    {
+      "id": "gameplay-deck-music-room-gameplay-card",
+      "originalPath": "Gameplay Deck/music room.png",
+      "css": "css/assets/gameplay-deck/gameplay-deck-music-room-gameplay-card.css",
+      "json": "json/assets/gameplay-deck/gameplay-deck-music-room-gameplay-card.json",
+      "complianceStatus": "preserved",
+      "replacementTitle": null
+    },
+    {
+      "id": "gameplay-deck-pantry-gameplay-card",
+      "originalPath": "Gameplay Deck/pantry.png",
+      "css": "css/assets/gameplay-deck/gameplay-deck-pantry-gameplay-card.css",
+      "json": "json/assets/gameplay-deck/gameplay-deck-pantry-gameplay-card.json",
+      "complianceStatus": "preserved",
+      "replacementTitle": null
+    },
+    {
+      "id": "gameplay-deck-privy-gameplay-card",
+      "originalPath": "Gameplay Deck/privy.png",
+      "css": "css/assets/gameplay-deck/gameplay-deck-privy-gameplay-card.css",
+      "json": "json/assets/gameplay-deck/gameplay-deck-privy-gameplay-card.json",
+      "complianceStatus": "preserved",
+      "replacementTitle": null
+    },
+    {
+      "id": "gameplay-deck-quarterstaff-weapon-card",
+      "originalPath": "Gameplay Deck/magical staff.jpg",
+      "css": "css/assets/gameplay-deck/gameplay-deck-quarterstaff-weapon-card.css",
+      "json": "json/assets/gameplay-deck/gameplay-deck-quarterstaff-weapon-card.json",
+      "complianceStatus": "preserved",
+      "replacementTitle": null
+    },
+    {
+      "id": "gameplay-deck-rapier-weapon-card",
+      "originalPath": "Gameplay Deck/rapier.jpg",
+      "css": "css/assets/gameplay-deck/gameplay-deck-rapier-weapon-card.css",
+      "json": "json/assets/gameplay-deck/gameplay-deck-rapier-weapon-card.json",
+      "complianceStatus": "preserved",
+      "replacementTitle": null
+    },
+    {
+      "id": "gameplay-deck-servants-quarters-gameplay-card",
+      "originalPath": "Gameplay Deck/servants quarters.png",
+      "css": "css/assets/gameplay-deck/gameplay-deck-servants-quarters-gameplay-card.css",
+      "json": "json/assets/gameplay-deck/gameplay-deck-servants-quarters-gameplay-card.json",
+      "complianceStatus": "preserved",
+      "replacementTitle": null
+    },
+    {
+      "id": "gameplay-deck-sitting-room-gameplay-card",
+      "originalPath": "Gameplay Deck/sitting room.png",
+      "css": "css/assets/gameplay-deck/gameplay-deck-sitting-room-gameplay-card.css",
+      "json": "json/assets/gameplay-deck/gameplay-deck-sitting-room-gameplay-card.json",
+      "complianceStatus": "preserved",
+      "replacementTitle": null
+    },
+    {
+      "id": "gameplay-deck-wand-gameplay-card",
+      "originalPath": "Gameplay Deck/AddText_06-18-12.22.22.jpg",
+      "css": "css/assets/gameplay-deck/gameplay-deck-wand-gameplay-card.css",
+      "json": "json/assets/gameplay-deck/gameplay-deck-wand-gameplay-card.json",
+      "complianceStatus": "preserved",
+      "replacementTitle": null
+    }
+  ]
+}

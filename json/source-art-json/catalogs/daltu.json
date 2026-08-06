@@ -1,0 +1,102 @@
+{
+  "category": "Daltu",
+  "assetCount": 12,
+  "assets": [
+    {
+      "id": "daltu-blight-spell-card",
+      "originalPath": "Daltu/AddText_06-01-05.51.04.jpg",
+      "css": "css/assets/daltu/daltu-blight-spell-card.css",
+      "json": "json/assets/daltu/daltu-blight-spell-card.json",
+      "complianceStatus": "replaced",
+      "replacementTitle": "Blight"
+    },
+    {
+      "id": "daltu-burning-hands-spell-card",
+      "originalPath": "Daltu/AddText_06-01-05.46.09.jpg",
+      "css": "css/assets/daltu/daltu-burning-hands-spell-card.css",
+      "json": "json/assets/daltu/daltu-burning-hands-spell-card.json",
+      "complianceStatus": "replaced",
+      "replacementTitle": "Burning Hands"
+    },
+    {
+      "id": "daltu-character-art",
+      "originalPath": "Characters_Art_Transparent/Daltu.png",
+      "css": "css/assets/daltu/daltu-character-art.css",
+      "json": "json/assets/daltu/daltu-character-art.json",
+      "complianceStatus": "preserved",
+      "replacementTitle": null
+    },
+    {
+      "id": "daltu-character-reference-sheet",
+      "originalPath": "Daltu/received_709324696988155.webp",
+      "css": "css/assets/daltu/daltu-character-reference-sheet.css",
+      "json": "json/assets/daltu/daltu-character-reference-sheet.json",
+      "complianceStatus": "preserved",
+      "replacementTitle": null
+    },
+    {
+      "id": "daltu-character-sheet",
+      "originalPath": "Daltu/AddText_06-08-10.00.04.jpg",
+      "css": "css/assets/daltu/daltu-character-sheet.css",
+      "json": "json/assets/daltu/daltu-character-sheet.json",
+      "complianceStatus": "replaced",
+      "replacementTitle": "Daltu"
+    },
+    {
+      "id": "daltu-darkness-spell-card",
+      "originalPath": "Daltu/AddText_06-01-02.29.37.jpg",
+      "css": "css/assets/daltu/daltu-darkness-spell-card.css",
+      "json": "json/assets/daltu/daltu-darkness-spell-card.json",
+      "complianceStatus": "replaced",
+      "replacementTitle": "Darkness"
+    },
+    {
+      "id": "daltu-eldritch-blast-spell-card",
+      "originalPath": "Daltu/AddText_05-31-07.42.40.jpg",
+      "css": "css/assets/daltu/daltu-eldritch-blast-spell-card.css",
+      "json": "json/assets/daltu/daltu-eldritch-blast-spell-card.json",
+      "complianceStatus": "replaced",
+      "replacementTitle": "Eldritch Blast"
+    },
+    {
+      "id": "daltu-hellish-rebuke-spell-card",
+      "originalPath": "Daltu/AddText_06-01-02.25.56.jpg",
+      "css": "css/assets/daltu/daltu-hellish-rebuke-spell-card.css",
+      "json": "json/assets/daltu/daltu-hellish-rebuke-spell-card.json",
+      "complianceStatus": "replaced",
+      "replacementTitle": "Hellish Rebuke"
+    },
+    {
+      "id": "daltu-hold-person-spell-card",
+      "originalPath": "Daltu/AddText_06-01-05.40.57.jpg",
+      "css": "css/assets/daltu/daltu-hold-person-spell-card.css",
+      "json": "json/assets/daltu/daltu-hold-person-spell-card.json",
+      "complianceStatus": "replaced",
+      "replacementTitle": "Hold Person"
+    },
+    {
+      "id": "daltu-mage-hand-spell-card",
+      "originalPath": "Daltu/AddText_06-01-02.20.56.jpg",
+      "css": "css/assets/daltu/daltu-mage-hand-spell-card.css",
+      "json": "json/assets/daltu/daltu-mage-hand-spell-card.json",
+      "complianceStatus": "replaced",
+      "replacementTitle": "Mage Hand"
+    },
+    {
+      "id": "daltu-misty-step-spell-card",
+      "originalPath": "Daltu/AddText_06-01-02.32.26.jpg",
+      "css": "css/assets/daltu/daltu-misty-step-spell-card.css",
+      "json": "json/assets/daltu/daltu-misty-step-spell-card.json",
+      "complianceStatus": "replaced",
+      "replacementTitle": "Misty Step"
+    },
+    {
+      "id": "daltu-name-banner",
+      "originalPath": "Daltu/AddText_05-26-03.26.46.png",
+      "css": "css/assets/daltu/daltu-name-banner.css",
+      "json": "json/assets/daltu/daltu-name-banner.json",
+      "complianceStatus": "preserved",
+      "replacementTitle": null
+    }
+  ]
+}

@@ -1,0 +1,126 @@
+{
+  "category": "Etc",
+  "assetCount": 15,
+  "assets": [
+    {
+      "id": "etc-blue-circle-player-marker",
+      "originalPath": "Etc/1656271819963.png",
+      "css": "css/assets/etc/etc-blue-circle-player-marker.css",
+      "json": "json/assets/etc/etc-blue-circle-player-marker.json",
+      "complianceStatus": "preserved",
+      "replacementTitle": null
+    },
+    {
+      "id": "etc-blue-diamond-player-marker",
+      "originalPath": "Etc/1656271806706.png",
+      "css": "css/assets/etc/etc-blue-diamond-player-marker.css",
+      "json": "json/assets/etc/etc-blue-diamond-player-marker.json",
+      "complianceStatus": "preserved",
+      "replacementTitle": null
+    },
+    {
+      "id": "etc-board-finished",
+      "originalPath": "Etc/board finished.png",
+      "css": "css/assets/etc/etc-board-finished.css",
+      "json": "json/assets/etc/etc-board-finished.json",
+      "complianceStatus": "preserved",
+      "replacementTitle": null
+    },
+    {
+      "id": "etc-board-key",
+      "originalPath": "Etc/board key.jpg",
+      "css": "css/assets/etc/etc-board-key.css",
+      "json": "json/assets/etc/etc-board-key.json",
+      "complianceStatus": "replaced",
+      "replacementTitle": "Board Key"
+    },
+    {
+      "id": "etc-cyan-circle-player-marker",
+      "originalPath": "Etc/1656271727319.png",
+      "css": "css/assets/etc/etc-cyan-circle-player-marker.css",
+      "json": "json/assets/etc/etc-cyan-circle-player-marker.json",
+      "complianceStatus": "preserved",
+      "replacementTitle": null
+    },
+    {
+      "id": "etc-cyan-diamond-player-marker",
+      "originalPath": "Etc/1656271709217.png",
+      "css": "css/assets/etc/etc-cyan-diamond-player-marker.css",
+      "json": "json/assets/etc/etc-cyan-diamond-player-marker.json",
+      "complianceStatus": "preserved",
+      "replacementTitle": null
+    },
+    {
+      "id": "etc-green-circle-player-marker",
+      "originalPath": "Etc/1656271757010.png",
+      "css": "css/assets/etc/etc-green-circle-player-marker.css",
+      "json": "json/assets/etc/etc-green-circle-player-marker.json",
+      "complianceStatus": "preserved",
+      "replacementTitle": null
+    },
+    {
+      "id": "etc-orange-circle-player-marker",
+      "originalPath": "Etc/1656271914823.png",
+      "css": "css/assets/etc/etc-orange-circle-player-marker.css",
+      "json": "json/assets/etc/etc-orange-circle-player-marker.json",
+      "complianceStatus": "preserved",
+      "replacementTitle": null
+    },
+    {
+      "id": "etc-orange-diamond-player-marker",
+      "originalPath": "Etc/1656271900584.png",
+      "css": "css/assets/etc/etc-orange-diamond-player-marker.css",
+      "json": "json/assets/etc/etc-orange-diamond-player-marker.json",
+      "complianceStatus": "preserved",
+      "replacementTitle": null
+    },
+    {
+      "id": "etc-pink-circle-player-marker",
+      "originalPath": "Etc/1656271940795.png",
+      "css": "css/assets/etc/etc-pink-circle-player-marker.css",
+      "json": "json/assets/etc/etc-pink-circle-player-marker.json",
+      "complianceStatus": "preserved",
+      "replacementTitle": null
+    },
+    {
+      "id": "etc-pink-diamond-player-marker",
+      "originalPath": "Etc/1656271928042.png",
+      "css": "css/assets/etc/etc-pink-diamond-player-marker.css",
+      "json": "json/assets/etc/etc-pink-diamond-player-marker.json",
+      "complianceStatus": "preserved",
+      "replacementTitle": null
+    },
+    {
+      "id": "etc-purple-circle-player-marker",
+      "originalPath": "Etc/1656271975404.png",
+      "css": "css/assets/etc/etc-purple-circle-player-marker.css",
+      "json": "json/assets/etc/etc-purple-circle-player-marker.json",
+      "complianceStatus": "preserved",
+      "replacementTitle": null
+    },
+    {
+      "id": "etc-purple-diamond-player-marker",
+      "originalPath": "Etc/1656271958557.png",
+      "css": "css/assets/etc/etc-purple-diamond-player-marker.css",
+      "json": "json/assets/etc/etc-purple-diamond-player-marker.json",
+      "complianceStatus": "preserved",
+      "replacementTitle": null
+    },
+    {
+      "id": "etc-red-circle-player-marker",
+      "originalPath": "Etc/1656271885697.png",
+      "css": "css/assets/etc/etc-red-circle-player-marker.css",
+      "json": "json/assets/etc/etc-red-circle-player-marker.json",
+      "complianceStatus": "preserved",
+      "replacementTitle": null
+    },
+    {
+      "id": "etc-the-great-hall-label",
+      "originalPath": "Etc/AddText_06-26-04.35.49.png",
+      "css": "css/assets/etc/etc-the-great-hall-label.css",
+      "json": "json/assets/etc/etc-the-great-hall-label.json",
+      "complianceStatus": "preserved",
+      "replacementTitle": null
+    }
+  ]
+}
