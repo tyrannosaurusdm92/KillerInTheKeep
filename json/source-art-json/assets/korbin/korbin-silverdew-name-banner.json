@@ -1,0 +1,43 @@
+{
+  "id": "korbin-silverdew-name-banner",
+  "original": {
+    "path": "Korbin/AddText_05-26-03.31.19.png",
+    "filename": "AddText_05-26-03.31.19.png",
+    "extension": ".png",
+    "mimeType": "image/png",
+    "byteLength": 203230,
+    "sha256": "cca197493bdc1cb31c60815c8d0b1633cfc6b5249b5486213cb04da93675d182",
+    "sourceArchive": "To Save Just In Case.zip"
+  },
+  "image": {
+    "width": 1440,
+    "height": 1440,
+    "format": "PNG",
+    "mode": "RGBA",
+    "frames": 1
+  },
+  "embedded": {
+    "mimeType": "image/png",
+    "byteLength": 203230,
+    "sha256": "cca197493bdc1cb31c60815c8d0b1633cfc6b5249b5486213cb04da93675d182",
+    "method": "original-bytes",
+    "pixelVerifiedLossless": true,
+    "dataLocation": "css/assets/korbin/korbin-silverdew-name-banner.css"
+  },
+  "css": {
+    "file": "css/assets/korbin/korbin-silverdew-name-banner.css",
+    "variable": "--asset-korbin-silverdew-name-banner",
+    "class": "asset-korbin-silverdew-name-banner",
+    "usage": "<div class=\"asset-korbin-silverdew-name-banner\" role=\"img\" aria-label=\"Korbin Silverdew Name Banner\"></div>"
+  },
+  "json": {
+    "file": "json/assets/korbin/korbin-silverdew-name-banner.json"
+  },
+  "category": "Korbin",
+  "compliance": {
+    "status": "preserved",
+    "reason": "No non-SRD rules text or official D&D branding was detected in this generic/custom visual asset. Original bytes were retained.",
+    "rulesBasis": "Not applicable or supplemented by structured SRD metadata.",
+    "artBasis": "User-supplied asset; copyright provenance was not independently verified."
+  }
+}

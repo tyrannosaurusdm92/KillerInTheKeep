@@ -1,0 +1,50 @@
+{
+  "id": "korbin-bless-spell-card",
+  "original": {
+    "path": "Korbin/AddText_06-02-01.02.14.jpg",
+    "filename": "AddText_06-02-01.02.14.jpg",
+    "extension": ".jpg",
+    "mimeType": "image/jpeg",
+    "byteLength": 316392,
+    "sha256": "52a3dbdb53ca0201790665738021c598ad596a5b20ef55af6ab2cc36b86966a7",
+    "sourceArchive": "To Save Just In Case.zip"
+  },
+  "image": {
+    "width": 1200,
+    "height": 1200,
+    "format": "SVG",
+    "mode": "vector",
+    "frames": 1
+  },
+  "embedded": {
+    "mimeType": "image/svg+xml",
+    "byteLength": 1222,
+    "sha256": "4ea0ea051ce1d9fa83f352e59925d860365876fad4e65359a571b469eb1abd94",
+    "method": "srd-compliant-card-substitute",
+    "pixelVerifiedLossless": false,
+    "dataLocation": "css/assets/korbin/korbin-bless-spell-card.css"
+  },
+  "css": {
+    "file": "css/assets/korbin/korbin-bless-spell-card.css",
+    "variable": "--asset-korbin-bless-spell-card",
+    "class": "asset-korbin-bless-spell-card",
+    "usage": "<div class=\"asset-korbin-bless-spell-card\" role=\"img\" aria-label=\"Bless\"></div>"
+  },
+  "json": {
+    "file": "json/assets/korbin/korbin-bless-spell-card.json"
+  },
+  "category": "Korbin",
+  "compliance": {
+    "status": "replaced",
+    "reason": "Original card used mixed-edition, non-SRD, or rules-inaccurate mechanics; replaced with an SRD 5.2.1 entry or SRD-only example build.",
+    "replacementTitle": "Bless",
+    "replacementKind": "spell",
+    "rulesBasis": "SRD 5.2.1 or original 5E-compatible mechanics",
+    "artBasis": "New vector/CSS asset or original layout; no D&D logo or publisher trade dress used."
+  },
+  "rulesData": {
+    "type": "Level 1 Enchantment spell",
+    "meta": "Action • 30 ft. • Concentration, up to 1 minute",
+    "summary": "Up to three creatures add 1d4 to attack rolls and saving throws for the duration."
+  }
+}

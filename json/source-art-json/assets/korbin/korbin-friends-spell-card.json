@@ -1,0 +1,50 @@
+{
+  "id": "korbin-friends-spell-card",
+  "original": {
+    "path": "Korbin/AddText_06-02-01.14.20.jpg",
+    "filename": "AddText_06-02-01.14.20.jpg",
+    "extension": ".jpg",
+    "mimeType": "image/jpeg",
+    "byteLength": 354094,
+    "sha256": "42b8b3cba850d40f57df8ac3adfb463ad80abf4a441c8011bbab20a90bfb0779",
+    "sourceArchive": "To Save Just In Case (2).zip"
+  },
+  "image": {
+    "width": 1200,
+    "height": 1200,
+    "format": "SVG",
+    "mode": "vector",
+    "frames": 1
+  },
+  "embedded": {
+    "mimeType": "image/svg+xml",
+    "byteLength": 1306,
+    "sha256": "7d2b3c4226dc381dfa1f2453b504acc3f4cb2085c82ab070b32dcfe6b1d9e451",
+    "method": "srd-compliant-card-substitute",
+    "pixelVerifiedLossless": false,
+    "dataLocation": "css/assets/korbin/korbin-friends-spell-card.css"
+  },
+  "css": {
+    "file": "css/assets/korbin/korbin-friends-spell-card.css",
+    "variable": "--asset-korbin-friends-spell-card",
+    "class": "asset-korbin-friends-spell-card",
+    "usage": "<div class=\"asset-korbin-friends-spell-card\" role=\"img\" aria-label=\"Friends\"></div>"
+  },
+  "json": {
+    "file": "json/assets/korbin/korbin-friends-spell-card.json"
+  },
+  "category": "Korbin",
+  "compliance": {
+    "status": "replaced",
+    "reason": "Original card used mixed-edition, non-SRD, or rules-inaccurate mechanics; replaced with an SRD 5.2.1 entry or SRD-only example build.",
+    "replacementTitle": "Friends",
+    "replacementKind": "spell",
+    "rulesBasis": "SRD 5.2.1 or original 5E-compatible mechanics",
+    "artBasis": "New vector/CSS asset or original layout; no D&D logo or publisher trade dress used."
+  },
+  "rulesData": {
+    "type": "Enchantment cantrip",
+    "meta": "Action • 10 ft. • Concentration, up to 1 minute",
+    "summary": "One visible Humanoid makes a Wisdom save or is Charmed for the duration. The spell ends early if you damage it."
+  }
+}

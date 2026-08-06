@@ -1,0 +1,50 @@
+{
+  "id": "jock-thunderwave-spell-card",
+  "original": {
+    "path": "Jock/AddText_06-02-12.06.13.jpg",
+    "filename": "AddText_06-02-12.06.13.jpg",
+    "extension": ".jpg",
+    "mimeType": "image/jpeg",
+    "byteLength": 467885,
+    "sha256": "653c5745e63a2e61846e1260101e2680f965bd5e53513183c1f71ecaaba59eda",
+    "sourceArchive": "To Save Just In Case (3).zip"
+  },
+  "image": {
+    "width": 1200,
+    "height": 1200,
+    "format": "SVG",
+    "mode": "vector",
+    "frames": 1
+  },
+  "embedded": {
+    "mimeType": "image/svg+xml",
+    "byteLength": 1312,
+    "sha256": "70c6575403fdfe24f1f870d997803e674f77dd71866dd9a1ab32f6f0b4ff247b",
+    "method": "srd-compliant-card-substitute",
+    "pixelVerifiedLossless": false,
+    "dataLocation": "css/assets/jock/jock-thunderwave-spell-card.css"
+  },
+  "css": {
+    "file": "css/assets/jock/jock-thunderwave-spell-card.css",
+    "variable": "--asset-jock-thunderwave-spell-card",
+    "class": "asset-jock-thunderwave-spell-card",
+    "usage": "<div class=\"asset-jock-thunderwave-spell-card\" role=\"img\" aria-label=\"Thunderwave\"></div>"
+  },
+  "json": {
+    "file": "json/assets/jock/jock-thunderwave-spell-card.json"
+  },
+  "category": "Jock",
+  "compliance": {
+    "status": "replaced",
+    "reason": "Original card used mixed-edition, non-SRD, or rules-inaccurate mechanics; replaced with an SRD 5.2.1 entry or SRD-only example build.",
+    "replacementTitle": "Thunderwave",
+    "replacementKind": "spell",
+    "rulesBasis": "SRD 5.2.1 or original 5E-compatible mechanics",
+    "artBasis": "New vector/CSS asset or original layout; no D&D logo or publisher trade dress used."
+  },
+  "rulesData": {
+    "type": "Level 1 Evocation spell",
+    "meta": "Action • Self (15-foot cube) • Instantaneous",
+    "summary": "Creatures in the cube make a Constitution save, taking 2d8 thunder damage and being pushed 10 feet on a failure."
+  }
+}

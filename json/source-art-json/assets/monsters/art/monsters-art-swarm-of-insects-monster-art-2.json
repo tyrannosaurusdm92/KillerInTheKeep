@@ -1,0 +1,50 @@
+{
+  "id": "monsters-art-swarm-of-insects-monster-art-2",
+  "original": {
+    "path": "Monsters/Art/received_689132005492663.webp",
+    "filename": "received_689132005492663.webp",
+    "extension": ".webp",
+    "mimeType": "image/webp",
+    "byteLength": 14242,
+    "sha256": "5746940926e3f98302d2fbf78e059bba40b9833659d54a6bcf45415be90df91d",
+    "sourceArchive": "To Save Just In Case (4).zip"
+  },
+  "image": {
+    "width": 1200,
+    "height": 1200,
+    "format": "SVG",
+    "mode": "vector",
+    "frames": 1
+  },
+  "embedded": {
+    "mimeType": "image/svg+xml",
+    "byteLength": 2132,
+    "sha256": "d0101c2eb9d169f5d7f4093d3011868e5c427e7ac416d6da1f8b3b5a0f235514",
+    "method": "original-vector-monster-substitute",
+    "pixelVerifiedLossless": false,
+    "dataLocation": "css/assets/monsters/art/monsters-art-swarm-of-insects-monster-art-2.css"
+  },
+  "css": {
+    "file": "css/assets/monsters/art/monsters-art-swarm-of-insects-monster-art-2.css",
+    "variable": "--asset-monsters-art-swarm-of-insects-monster-art-2",
+    "class": "asset-monsters-art-swarm-of-insects-monster-art-2",
+    "usage": "<div class=\"asset-monsters-art-swarm-of-insects-monster-art-2\" role=\"img\" aria-label=\"Swarm of Insects\"></div>"
+  },
+  "json": {
+    "file": "json/assets/monsters/art/monsters-art-swarm-of-insects-monster-art-2.json"
+  },
+  "category": "Monsters/Art",
+  "compliance": {
+    "status": "replaced",
+    "reason": "Unverified or social-media-sourced monster art was replaced with a new generic vector silhouette to avoid publisher or third-party artwork concerns.",
+    "replacementTitle": "Swarm of Insects",
+    "replacementKind": "monster-art",
+    "rulesBasis": "SRD 5.2.1 or original 5E-compatible mechanics",
+    "artBasis": "New vector/CSS asset or original layout; no D&D logo or publisher trade dress used."
+  },
+  "rulesData": {
+    "type": "Medium Swarm of Tiny Beasts, Unaligned",
+    "meta": "AC 11 • HP 19 (3d8 + 6) • Speed 20 ft., Climb or Fly 20 ft. • CR 1/2",
+    "summary": "Bites: +3 to hit, 6 (2d4 + 1) poison, or 3 (1d4 + 1) while Bloodied. The swarm resists bludgeoning, piercing, and slashing damage and has standard swarm immunities."
+  }
+}

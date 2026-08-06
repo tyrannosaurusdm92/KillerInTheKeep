@@ -1,0 +1,50 @@
+{
+  "id": "jock-shatter-spell-card",
+  "original": {
+    "path": "Jock/AddText_06-02-11.56.28.jpg",
+    "filename": "AddText_06-02-11.56.28.jpg",
+    "extension": ".jpg",
+    "mimeType": "image/jpeg",
+    "byteLength": 520878,
+    "sha256": "db3d62e540e4d99cb008b984d94351bbe757b7c0b0b1cf2e7162994e50adafed",
+    "sourceArchive": "To Save Just In Case (4).zip"
+  },
+  "image": {
+    "width": 1200,
+    "height": 1200,
+    "format": "SVG",
+    "mode": "vector",
+    "frames": 1
+  },
+  "embedded": {
+    "mimeType": "image/svg+xml",
+    "byteLength": 1322,
+    "sha256": "929c6e5c9d4ca98434cad2b24fc113c91357ebbbbef95d07653818ad020be0aa",
+    "method": "srd-compliant-card-substitute",
+    "pixelVerifiedLossless": false,
+    "dataLocation": "css/assets/jock/jock-shatter-spell-card.css"
+  },
+  "css": {
+    "file": "css/assets/jock/jock-shatter-spell-card.css",
+    "variable": "--asset-jock-shatter-spell-card",
+    "class": "asset-jock-shatter-spell-card",
+    "usage": "<div class=\"asset-jock-shatter-spell-card\" role=\"img\" aria-label=\"Shatter\"></div>"
+  },
+  "json": {
+    "file": "json/assets/jock/jock-shatter-spell-card.json"
+  },
+  "category": "Jock",
+  "compliance": {
+    "status": "replaced",
+    "reason": "Original card used mixed-edition, non-SRD, or rules-inaccurate mechanics; replaced with an SRD 5.2.1 entry or SRD-only example build.",
+    "replacementTitle": "Shatter",
+    "replacementKind": "spell",
+    "rulesBasis": "SRD 5.2.1 or original 5E-compatible mechanics",
+    "artBasis": "New vector/CSS asset or original layout; no D&D logo or publisher trade dress used."
+  },
+  "rulesData": {
+    "type": "Level 2 Evocation spell",
+    "meta": "Action • 60 ft. • Instantaneous",
+    "summary": "A 10-foot-radius sphere erupts with sound. Creatures make a Constitution save, taking 3d8 thunder damage on a failure or half on a success."
+  }
+}

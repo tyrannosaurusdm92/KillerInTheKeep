@@ -1,0 +1,50 @@
+{
+  "id": "jock-invisibility-spell-card",
+  "original": {
+    "path": "Jock/AddText_06-02-10.18.17.jpg",
+    "filename": "AddText_06-02-10.18.17.jpg",
+    "extension": ".jpg",
+    "mimeType": "image/jpeg",
+    "byteLength": 358709,
+    "sha256": "23b2e153462859d7a9e351213ec64eb9950d17bc0dcfc2e7eeda1bbcf7722393",
+    "sourceArchive": "To Save Just In Case (2).zip"
+  },
+  "image": {
+    "width": 1200,
+    "height": 1200,
+    "format": "SVG",
+    "mode": "vector",
+    "frames": 1
+  },
+  "embedded": {
+    "mimeType": "image/svg+xml",
+    "byteLength": 1329,
+    "sha256": "59ee0fd457b162d9bfd4a241fc161a3ceb000432d35d2d136d1b985cf0ae156f",
+    "method": "srd-compliant-card-substitute",
+    "pixelVerifiedLossless": false,
+    "dataLocation": "css/assets/jock/jock-invisibility-spell-card.css"
+  },
+  "css": {
+    "file": "css/assets/jock/jock-invisibility-spell-card.css",
+    "variable": "--asset-jock-invisibility-spell-card",
+    "class": "asset-jock-invisibility-spell-card",
+    "usage": "<div class=\"asset-jock-invisibility-spell-card\" role=\"img\" aria-label=\"Invisibility\"></div>"
+  },
+  "json": {
+    "file": "json/assets/jock/jock-invisibility-spell-card.json"
+  },
+  "category": "Jock",
+  "compliance": {
+    "status": "replaced",
+    "reason": "Original card used mixed-edition, non-SRD, or rules-inaccurate mechanics; replaced with an SRD 5.2.1 entry or SRD-only example build.",
+    "replacementTitle": "Invisibility",
+    "replacementKind": "spell",
+    "rulesBasis": "SRD 5.2.1 or original 5E-compatible mechanics",
+    "artBasis": "New vector/CSS asset or original layout; no D&D logo or publisher trade dress used."
+  },
+  "rulesData": {
+    "type": "Level 2 Illusion spell",
+    "meta": "Action • Touch • Concentration, up to 1 hour",
+    "summary": "A willing creature becomes Invisible. The spell ends early after the target makes an attack roll, deals damage, or casts a spell."
+  }
+}

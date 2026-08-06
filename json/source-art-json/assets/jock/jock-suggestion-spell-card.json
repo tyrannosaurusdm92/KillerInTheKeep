@@ -1,0 +1,50 @@
+{
+  "id": "jock-suggestion-spell-card",
+  "original": {
+    "path": "Jock/AddText_06-02-10.29.14.jpg",
+    "filename": "AddText_06-02-10.29.14.jpg",
+    "extension": ".jpg",
+    "mimeType": "image/jpeg",
+    "byteLength": 489681,
+    "sha256": "2cd06b682403b972d2d26acdcd005e9888a90f4f1e3c1054ad8f1c748f45a1d6",
+    "sourceArchive": "To Save Just In Case (4).zip"
+  },
+  "image": {
+    "width": 1200,
+    "height": 1200,
+    "format": "SVG",
+    "mode": "vector",
+    "frames": 1
+  },
+  "embedded": {
+    "mimeType": "image/svg+xml",
+    "byteLength": 1327,
+    "sha256": "19985a5a349104f5f3fa5b1a84d4e90c1adcc76e53449366c134d590d4a10361",
+    "method": "srd-compliant-card-substitute",
+    "pixelVerifiedLossless": false,
+    "dataLocation": "css/assets/jock/jock-suggestion-spell-card.css"
+  },
+  "css": {
+    "file": "css/assets/jock/jock-suggestion-spell-card.css",
+    "variable": "--asset-jock-suggestion-spell-card",
+    "class": "asset-jock-suggestion-spell-card",
+    "usage": "<div class=\"asset-jock-suggestion-spell-card\" role=\"img\" aria-label=\"Suggestion\"></div>"
+  },
+  "json": {
+    "file": "json/assets/jock/jock-suggestion-spell-card.json"
+  },
+  "category": "Jock",
+  "compliance": {
+    "status": "replaced",
+    "reason": "Original card used mixed-edition, non-SRD, or rules-inaccurate mechanics; replaced with an SRD 5.2.1 entry or SRD-only example build.",
+    "replacementTitle": "Suggestion",
+    "replacementKind": "spell",
+    "rulesBasis": "SRD 5.2.1 or original 5E-compatible mechanics",
+    "artBasis": "New vector/CSS asset or original layout; no D&D logo or publisher trade dress used."
+  },
+  "rulesData": {
+    "type": "Level 2 Enchantment spell",
+    "meta": "Action • 30 ft. • Concentration, up to 8 hours",
+    "summary": "Magically suggest a reasonable course of activity to one creature that can understand you. A Wisdom save negates the effect."
+  }
+}

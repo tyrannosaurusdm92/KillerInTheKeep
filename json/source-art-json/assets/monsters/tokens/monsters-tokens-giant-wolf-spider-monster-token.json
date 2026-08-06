@@ -1,0 +1,50 @@
+{
+  "id": "monsters-tokens-giant-wolf-spider-monster-token",
+  "original": {
+    "path": "Monsters/Tokens/AddText_06-01-06.43.56.jpg",
+    "filename": "AddText_06-01-06.43.56.jpg",
+    "extension": ".jpg",
+    "mimeType": "image/jpeg",
+    "byteLength": 247767,
+    "sha256": "ff2b3d907c62712bef1378d728897ab49326e6dfaca225648c18feabb44e6220",
+    "sourceArchive": "To Save Just In Case (4).zip"
+  },
+  "image": {
+    "width": 1200,
+    "height": 1200,
+    "format": "SVG",
+    "mode": "vector",
+    "frames": 1
+  },
+  "embedded": {
+    "mimeType": "image/svg+xml",
+    "byteLength": 1508,
+    "sha256": "9d9b1fb7ac444be6a2d6fd984484cc411b9a635c1cf3dc02e006f3270f60c4f4",
+    "method": "original-vector-monster-substitute",
+    "pixelVerifiedLossless": false,
+    "dataLocation": "css/assets/monsters/tokens/monsters-tokens-giant-wolf-spider-monster-token.css"
+  },
+  "css": {
+    "file": "css/assets/monsters/tokens/monsters-tokens-giant-wolf-spider-monster-token.css",
+    "variable": "--asset-monsters-tokens-giant-wolf-spider-monster-token",
+    "class": "asset-monsters-tokens-giant-wolf-spider-monster-token",
+    "usage": "<div class=\"asset-monsters-tokens-giant-wolf-spider-monster-token\" role=\"img\" aria-label=\"Giant Wolf Spider\"></div>"
+  },
+  "json": {
+    "file": "json/assets/monsters/tokens/monsters-tokens-giant-wolf-spider-monster-token.json"
+  },
+  "category": "Monsters/Tokens",
+  "compliance": {
+    "status": "replaced",
+    "reason": "Monster token art was replaced with a new generic vector token using an SRD creature or closest SRD substitute.",
+    "replacementTitle": "Giant Wolf Spider",
+    "replacementKind": "monster-token",
+    "rulesBasis": "SRD 5.2.1 or original 5E-compatible mechanics",
+    "artBasis": "New vector/CSS asset or original layout; no D&D logo or publisher trade dress used."
+  },
+  "rulesData": {
+    "type": "Medium Beast, Unaligned",
+    "meta": "AC 13 • HP 11 (2d8 + 2) • Speed 40 ft., Climb 40 ft. • CR 1/4",
+    "summary": "Bite: +5 to hit, 5 (1d4 + 3) piercing plus 5 (2d4) poison. Spider Climb."
+  }
+}

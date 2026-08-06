@@ -1,0 +1,50 @@
+{
+  "id": "jock-heroism-spell-card",
+  "original": {
+    "path": "Jock/AddText_06-02-10.06.25.jpg",
+    "filename": "AddText_06-02-10.06.25.jpg",
+    "extension": ".jpg",
+    "mimeType": "image/jpeg",
+    "byteLength": 447888,
+    "sha256": "15bf4950aa731f549a75a75b833a82a1fc1e3d79f5c17cc2c2b5e39e60a717d7",
+    "sourceArchive": "To Save Just In Case (4).zip"
+  },
+  "image": {
+    "width": 1200,
+    "height": 1200,
+    "format": "SVG",
+    "mode": "vector",
+    "frames": 1
+  },
+  "embedded": {
+    "mimeType": "image/svg+xml",
+    "byteLength": 1322,
+    "sha256": "46d02e93d38cf9b6a2f17a6af3f8c520359c322536aaccfcbd292b7c9b0b84ce",
+    "method": "srd-compliant-card-substitute",
+    "pixelVerifiedLossless": false,
+    "dataLocation": "css/assets/jock/jock-heroism-spell-card.css"
+  },
+  "css": {
+    "file": "css/assets/jock/jock-heroism-spell-card.css",
+    "variable": "--asset-jock-heroism-spell-card",
+    "class": "asset-jock-heroism-spell-card",
+    "usage": "<div class=\"asset-jock-heroism-spell-card\" role=\"img\" aria-label=\"Heroism\"></div>"
+  },
+  "json": {
+    "file": "json/assets/jock/jock-heroism-spell-card.json"
+  },
+  "category": "Jock",
+  "compliance": {
+    "status": "replaced",
+    "reason": "Original card used mixed-edition, non-SRD, or rules-inaccurate mechanics; replaced with an SRD 5.2.1 entry or SRD-only example build.",
+    "replacementTitle": "Heroism",
+    "replacementKind": "spell",
+    "rulesBasis": "SRD 5.2.1 or original 5E-compatible mechanics",
+    "artBasis": "New vector/CSS asset or original layout; no D&D logo or publisher trade dress used."
+  },
+  "rulesData": {
+    "type": "Level 1 Enchantment spell",
+    "meta": "Action • Touch • Concentration, up to 1 minute",
+    "summary": "A willing creature is immune to the Frightened condition and gains temporary Hit Points at the start of each of its turns."
+  }
+}

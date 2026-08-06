@@ -1,0 +1,50 @@
+{
+  "id": "monk-stunning-strike-character-asset",
+  "original": {
+    "path": "Monk/AddText_06-02-03.46.58.jpg",
+    "filename": "AddText_06-02-03.46.58.jpg",
+    "extension": ".jpg",
+    "mimeType": "image/jpeg",
+    "byteLength": 523281,
+    "sha256": "9786ad2d4b0438ce112d40177247d4894b769a81403e13727ac0f1802d753ab4",
+    "sourceArchive": "To Save Just In Case (2).zip"
+  },
+  "image": {
+    "width": 1200,
+    "height": 1200,
+    "format": "SVG",
+    "mode": "vector",
+    "frames": 1
+  },
+  "embedded": {
+    "mimeType": "image/svg+xml",
+    "byteLength": 1317,
+    "sha256": "e9914ee14b4cb932eef2d449fc505d112c626b6f026a79537ca8593d7b498d4a",
+    "method": "srd-compliant-card-substitute",
+    "pixelVerifiedLossless": false,
+    "dataLocation": "css/assets/monk/monk-stunning-strike-character-asset.css"
+  },
+  "css": {
+    "file": "css/assets/monk/monk-stunning-strike-character-asset.css",
+    "variable": "--asset-monk-stunning-strike-character-asset",
+    "class": "asset-monk-stunning-strike-character-asset",
+    "usage": "<div class=\"asset-monk-stunning-strike-character-asset\" role=\"img\" aria-label=\"Stunning Strike\"></div>"
+  },
+  "json": {
+    "file": "json/assets/monk/monk-stunning-strike-character-asset.json"
+  },
+  "category": "Monk",
+  "compliance": {
+    "status": "replaced",
+    "reason": "Original card used mixed-edition, non-SRD, or rules-inaccurate mechanics; replaced with an SRD 5.2.1 entry or SRD-only example build.",
+    "replacementTitle": "Stunning Strike",
+    "replacementKind": "feature",
+    "rulesBasis": "SRD 5.2.1 or original 5E-compatible mechanics",
+    "artBasis": "New vector/CSS asset or original layout; no D&D logo or publisher trade dress used."
+  },
+  "rulesData": {
+    "type": "Monk feature",
+    "meta": "Once per turn after a hit • Spend 1 Focus Point",
+    "summary": "Force the target to make a Constitution save. On a failure, it has the Stunned condition until the start of your next turn."
+  }
+}

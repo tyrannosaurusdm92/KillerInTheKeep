@@ -1,0 +1,50 @@
+{
+  "id": "monk-grapple-character-asset",
+  "original": {
+    "path": "Monk/AddText_06-02-03.45.10.jpg",
+    "filename": "AddText_06-02-03.45.10.jpg",
+    "extension": ".jpg",
+    "mimeType": "image/jpeg",
+    "byteLength": 498412,
+    "sha256": "5c9f1ba479c6189a94a964954200a259fd869c18424e5c269daff2dc03dc1f5c",
+    "sourceArchive": "To Save Just In Case (2).zip"
+  },
+  "image": {
+    "width": 1200,
+    "height": 1200,
+    "format": "SVG",
+    "mode": "vector",
+    "frames": 1
+  },
+  "embedded": {
+    "mimeType": "image/svg+xml",
+    "byteLength": 1314,
+    "sha256": "5a7acf19deb31c4b377f8e987558dce7a98aa8d2c1d24d13f7237049be81df18",
+    "method": "srd-compliant-card-substitute",
+    "pixelVerifiedLossless": false,
+    "dataLocation": "css/assets/monk/monk-grapple-character-asset.css"
+  },
+  "css": {
+    "file": "css/assets/monk/monk-grapple-character-asset.css",
+    "variable": "--asset-monk-grapple-character-asset",
+    "class": "asset-monk-grapple-character-asset",
+    "usage": "<div class=\"asset-monk-grapple-character-asset\" role=\"img\" aria-label=\"Grapple\"></div>"
+  },
+  "json": {
+    "file": "json/assets/monk/monk-grapple-character-asset.json"
+  },
+  "category": "Monk",
+  "compliance": {
+    "status": "replaced",
+    "reason": "Original card used mixed-edition, non-SRD, or rules-inaccurate mechanics; replaced with an SRD 5.2.1 entry or SRD-only example build.",
+    "replacementTitle": "Grapple",
+    "replacementKind": "feature",
+    "rulesBasis": "SRD 5.2.1 or original 5E-compatible mechanics",
+    "artBasis": "New vector/CSS asset or original layout; no D&D logo or publisher trade dress used."
+  },
+  "rulesData": {
+    "type": "Unarmed Strike option",
+    "meta": "Attack action • Strength or Dexterity save",
+    "summary": "Use an Unarmed Strike to impose the Grappled condition. The target uses the save and escape rules in the SRD Rules Glossary."
+  }
+}

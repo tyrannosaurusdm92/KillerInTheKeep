@@ -1,0 +1,45 @@
+{
+  "id": "joknos-jock-character-art",
+  "original": {
+    "path": "Characters_Art_Transparent/Joknos_Jock.png",
+    "filename": "Joknos_Jock.png",
+    "extension": ".png",
+    "mimeType": "image/png",
+    "byteLength": 2688217,
+    "sha256": "f3de9317c3f21be59c31bc9f5ab69ed3d9eaa7f9ad51f6da3010fef7dd8639c1",
+    "sourceArchive": "Characters_Art_Transparent(1).zip"
+  },
+  "image": {
+    "width": 1024,
+    "height": 1536,
+    "format": "PNG",
+    "mode": "RGBA",
+    "frames": 1
+  },
+  "embedded": {
+    "mimeType": "image/png",
+    "byteLength": 2688217,
+    "sha256": "f3de9317c3f21be59c31bc9f5ab69ed3d9eaa7f9ad51f6da3010fef7dd8639c1",
+    "method": "original-transparent-bytes",
+    "pixelVerifiedLossless": true,
+    "dataLocation": "css/assets/jock/joknos-jock-character-art.css"
+  },
+  "css": {
+    "file": "css/assets/jock/joknos-jock-character-art.css",
+    "variable": "--asset-joknos-jock-character-art",
+    "class": "asset-joknos-jock-character-art",
+    "usage": "<div class=\"asset-joknos-jock-character-art\" role=\"img\" aria-label=\"Joknos Jock character art\"></div>"
+  },
+  "json": {
+    "file": "json/assets/jock/joknos-jock-character-art.json"
+  },
+  "category": "Jock",
+  "compliance": {
+    "status": "preserved",
+    "reason": "Original user-provided transparent character artwork embedded directly in CSS.",
+    "replacementTitle": null,
+    "replacementKind": "character-art",
+    "rulesBasis": "Not a rules asset.",
+    "artBasis": "User-provided original transparent character art."
+  }
+}

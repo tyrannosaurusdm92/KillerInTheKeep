@@ -1,0 +1,50 @@
+{
+  "id": "monk-character-sheet",
+  "original": {
+    "path": "Monk/AddText_06-08-05.29.56.jpg",
+    "filename": "AddText_06-08-05.29.56.jpg",
+    "extension": ".jpg",
+    "mimeType": "image/jpeg",
+    "byteLength": 843465,
+    "sha256": "e9d6535e3829717b7c2cc7be47d83f5b1ec68f13ba697a6744e1f04f30b35602",
+    "sourceArchive": "To Save Just In Case (2).zip"
+  },
+  "image": {
+    "width": 1200,
+    "height": 1200,
+    "format": "SVG",
+    "mode": "vector",
+    "frames": 1
+  },
+  "embedded": {
+    "mimeType": "image/svg+xml",
+    "byteLength": 1366,
+    "sha256": "c38dce38c272b8c813ecfbc80c8a59e61a1cdef2457a84ffd3d35ddf32634181",
+    "method": "srd-compliant-card-substitute",
+    "pixelVerifiedLossless": false,
+    "dataLocation": "css/assets/monk/monk-character-sheet.css"
+  },
+  "css": {
+    "file": "css/assets/monk/monk-character-sheet.css",
+    "variable": "--asset-monk-character-sheet",
+    "class": "asset-monk-character-sheet",
+    "usage": "<div class=\"asset-monk-character-sheet\" role=\"img\" aria-label=\"Monk\"></div>"
+  },
+  "json": {
+    "file": "json/assets/monk/monk-character-sheet.json"
+  },
+  "category": "Monk",
+  "compliance": {
+    "status": "replaced",
+    "reason": "Original card used mixed-edition, non-SRD, or rules-inaccurate mechanics; replaced with an SRD 5.2.1 entry or SRD-only example build.",
+    "replacementTitle": "Monk",
+    "replacementKind": "character",
+    "rulesBasis": "SRD 5.2.1 or original 5E-compatible mechanics",
+    "artBasis": "New vector/CSS asset or original layout; no D&D logo or publisher trade dress used."
+  },
+  "rulesData": {
+    "type": "Example Level 5 Monk (Warrior of the Open Hand)",
+    "meta": "AC 16 • HP 38 • Speed 40 ft. • PB +3 • Focus Points 5 • Focus DC 14",
+    "summary": "Example ability scores: Str 10, Dex 18, Con 14, Int 8, Wis 16, Cha 10. Uses Focus Points and SRD 5.2.1 Monk terminology."
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "id": "monsters-deck-spider-monster-card",
+  "original": {
+    "path": "Monsters/Deck/small spider.jpg",
+    "filename": "small spider.jpg",
+    "extension": ".jpg",
+    "mimeType": "image/jpeg",
+    "byteLength": 1060465,
+    "sha256": "905397471cb98238e83d2ea2b55aa48ad6e2942e8049ed0f76cbd3c3ade4e773",
+    "sourceArchive": "To Save Just In Case (4).zip"
+  },
+  "image": {
+    "width": 1200,
+    "height": 1200,
+    "format": "SVG",
+    "mode": "vector",
+    "frames": 1
+  },
+  "embedded": {
+    "mimeType": "image/svg+xml",
+    "byteLength": 1218,
+    "sha256": "31b57557ef2f5cbd6279b89d92b5910fa8fbc3b56b4edcf690377b3637396822",
+    "method": "srd-compliant-card-substitute",
+    "pixelVerifiedLossless": false,
+    "dataLocation": "css/assets/monsters/deck/monsters-deck-spider-monster-card.css"
+  },
+  "css": {
+    "file": "css/assets/monsters/deck/monsters-deck-spider-monster-card.css",
+    "variable": "--asset-monsters-deck-spider-monster-card",
+    "class": "asset-monsters-deck-spider-monster-card",
+    "usage": "<div class=\"asset-monsters-deck-spider-monster-card\" role=\"img\" aria-label=\"Spider\"></div>"
+  },
+  "json": {
+    "file": "json/assets/monsters/deck/monsters-deck-spider-monster-card.json"
+  },
+  "category": "Monsters/Deck",
+  "compliance": {
+    "status": "replaced",
+    "reason": "Original monster card did not use the SRD 5.2.1 stat block and included unverified third-party/watermarked art; replaced with an original-layout SRD stat card.",
+    "replacementTitle": "Spider",
+    "replacementKind": "monster-card",
+    "rulesBasis": "SRD 5.2.1 or original 5E-compatible mechanics",
+    "artBasis": "New vector/CSS asset or original layout; no D&D logo or publisher trade dress used."
+  },
+  "rulesData": {
+    "type": "Tiny Beast, Unaligned",
+    "meta": "AC 12 • HP 1 • Speed 20 ft., Climb 20 ft. • CR 0",
+    "summary": "Bite: +4 to hit, 1 piercing plus 2 (1d4) poison. Spider Climb and Web Walker."
+  }
+}
