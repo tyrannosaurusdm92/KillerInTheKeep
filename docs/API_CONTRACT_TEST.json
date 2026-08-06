@@ -1,0 +1,6 @@
+{
+  "reachableCellsNormalized": true,
+  "diceExpressionNormalized": true,
+  "actionPreservesRoll": true,
+  "actionRefreshesState": true
+}

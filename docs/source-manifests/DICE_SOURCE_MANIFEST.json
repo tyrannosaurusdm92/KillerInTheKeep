@@ -1,0 +1,195 @@
+{
+  "schema_version": "1.0.1",
+  "project": "Killer In The Keep Pre-Video-Game Dice Roller",
+  "entry_html": "killer_dice.html",
+  "html_file_count": 1,
+  "folders": [
+    "js",
+    "css",
+    "json",
+    "assets/images",
+    "assets/svg",
+    "assets/audio",
+    "docs"
+  ],
+  "path_policy": {
+    "ascii_only": true,
+    "relative_only": true,
+    "maximum_file_depth_below_root": 2,
+    "no_batch_files": true
+  },
+  "runtime": {
+    "network_required": false,
+    "webgl_renderer": true,
+    "animated_fallback_when_webgl_unavailable": true,
+    "file_protocol_compatible": true
+  },
+  "rules_counts": {
+    "heroes": 8,
+    "game_levels": 5,
+    "powers": 69,
+    "skills": 18,
+    "weapons": 14,
+    "traps": 12,
+    "rooms": 23,
+    "map_squares": 1536
+  },
+  "manifest_note": "The manifest does not hash itself.",
+  "files": [
+    {
+      "path": "assets/audio/roll_classic.mp3",
+      "bytes": 29927,
+      "sha256": "dbdc92cfa2a3fad32dca45c17ba28f470181b53330dd843d427ce5e90dc8f5d6"
+    },
+    {
+      "path": "assets/audio/roll_light.mp3",
+      "bytes": 44544,
+      "sha256": "6a3d37146a9e0a116dc2c8a6663fe9a35c91642d2775eab239ceecdf065688e1"
+    },
+    {
+      "path": "assets/audio/roll_rpg.mp3",
+      "bytes": 15840,
+      "sha256": "a0874599e7b53b2043bed860f048d0bb2e407630beee8b4e0d5ab8ce956512c1"
+    },
+    {
+      "path": "assets/audio/roll_throw.mp3",
+      "bytes": 79680,
+      "sha256": "d3984ac3ffdee31d7d72dcb79781ad5f6ab57d5b722f7d4b8c7e06ae96ed32b2"
+    },
+    {
+      "path": "assets/images/keep_map.png",
+      "bytes": 2515287,
+      "sha256": "fc54a475419c82238323b7c5c70a909acfebfc14dd4b9d91307703ba7cca7cae"
+    },
+    {
+      "path": "assets/images/kitk_icon.png",
+      "bytes": 2444853,
+      "sha256": "c76a42e3afd083bc929948c1e0cde0a5830e17dba362da2233ccbfecd2042393"
+    },
+    {
+      "path": "assets/svg/clue_mark.svg",
+      "bytes": 430,
+      "sha256": "ef08a1313dd69ad15b124e7b983aa87bb71a17c78422af64e313c46852c92caf"
+    },
+    {
+      "path": "assets/svg/die_mark.svg",
+      "bytes": 598,
+      "sha256": "989d8a5c58c9918118c23c711ac191595512792d11c343bdcbf310eb60204291"
+    },
+    {
+      "path": "css/app.css",
+      "bytes": 13231,
+      "sha256": "70bb36209c31349300aeba4831695c1ed4eee6e43245db0779c164ecde9d2268"
+    },
+    {
+      "path": "docs/LICENSES.md",
+      "bytes": 1083,
+      "sha256": "92afb8c8a3c68daaea4720782789f5f62671053cbfe38d05810e94957e3f90d3"
+    },
+    {
+      "path": "docs/README.md",
+      "bytes": 1791,
+      "sha256": "55d6eada3e07e8c8d3f9e6da745e7fbb31a42cbb7f3b0494ed4ef5a7c31e2a0e"
+    },
+    {
+      "path": "docs/RULES_SCOPE.md",
+      "bytes": 552,
+      "sha256": "52c8171f9bfd99442cdbfd65c8254c67e6ec4259c54d638f3b988ab6b65aeda8"
+    },
+    {
+      "path": "docs/VALIDATION.md",
+      "bytes": 644,
+      "sha256": "d1db4068d5bb208a14f375cac3882483f4d196d3275144b8e1f3b1084277e361"
+    },
+    {
+      "path": "docs/WINDOWS_PATHS.md",
+      "bytes": 482,
+      "sha256": "e6be2c5c960354a914ad70b4271eacb6735d3d49447229f961ef9c0dc123cdb2"
+    },
+    {
+      "path": "js/app.js",
+      "bytes": 29693,
+      "sha256": "c9abfe5296681738dbe40e0b6655862cab8145d0e2c52fab192f7e5b7158a9c4"
+    },
+    {
+      "path": "js/cannon.min.js",
+      "bytes": 67549,
+      "sha256": "75a41584e675275cc6199f3affbe1f0138fe48ef3a80ef81ed855c861a4d81b3"
+    },
+    {
+      "path": "js/dice.js",
+      "bytes": 48775,
+      "sha256": "e3c9c450efa5de8e34ff74a4872301b0da46b2c23be5478de084e46336cee816"
+    },
+    {
+      "path": "js/dice_surface.js",
+      "bytes": 5057,
+      "sha256": "41e20f248ab89651e710529e004897072c3f0dd98c3f1ee4f4fb061b7d4346d8"
+    },
+    {
+      "path": "js/rules_data.js",
+      "bytes": 119959,
+      "sha256": "44ebf6c0ac0297eb3022250ef77e93255283e25c1a5aee47a75bc2b28500db2b"
+    },
+    {
+      "path": "js/teal.js",
+      "bytes": 6684,
+      "sha256": "cdd73e16b955afa7eb8a73dc310e33443165de7c3e4d7fa3dfff46c655cd0819"
+    },
+    {
+      "path": "js/three.min.js",
+      "bytes": 430630,
+      "sha256": "bd7a7dc2b5f582aed0339efae4d1ed034f1c138b7c8820c579257ba3b3d4adba"
+    },
+    {
+      "path": "json/combat.json",
+      "bytes": 5382,
+      "sha256": "8478cd04e900d446dc0293bdde2e096d4f7d4969ab77253e197f0c987bd0f990"
+    },
+    {
+      "path": "json/core_rules.json",
+      "bytes": 162469,
+      "sha256": "cd22dd93f12d640077ad2ba6f21002319071efb1ee8d0e1cf82057d0f54ff68f"
+    },
+    {
+      "path": "json/heroes.json",
+      "bytes": 28683,
+      "sha256": "2211b5ac12f294a3cae0b86a78db3f3c08d6affd38049b3094a1b171aec0dc73"
+    },
+    {
+      "path": "json/license.json",
+      "bytes": 734,
+      "sha256": "7ad314e07d15d7eb668295aafe667fffd4f80f5076b02ff1d6fdb08bdf540104"
+    },
+    {
+      "path": "json/powers.json",
+      "bytes": 82392,
+      "sha256": "c86a99f56ee5c7ae2054286fe396fe6ba856e78fa80fe942ef653d949e1c1094"
+    },
+    {
+      "path": "json/rooms.json",
+      "bytes": 4457,
+      "sha256": "60a965fac0fee5d97c5f7c1cb180fd572f594d2cf1c9ef1244ac30cd3529c81a"
+    },
+    {
+      "path": "json/skills.json",
+      "bytes": 7242,
+      "sha256": "3625f445780da7107623fb60794e95cc50de6bf8e5ee656e3c319d3cb921b260"
+    },
+    {
+      "path": "json/traps.json",
+      "bytes": 9734,
+      "sha256": "b6988e86ae298d0e916388d4f95e408bc3bae54df5683c5ed2d6ac1ace7a0920"
+    },
+    {
+      "path": "json/weapons.json",
+      "bytes": 4577,
+      "sha256": "818d88f5ca92900a5d67b21b44e15d30ca41c02c8caffb2cf18b81a69ee24dee"
+    },
+    {
+      "path": "killer_dice.html",
+      "bytes": 8665,
+      "sha256": "639daa6f163515a8a4113c1e9a14b0319a37f570c89758f248a69281ff315031"
+    }
+  ]
+}
