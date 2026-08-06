@@ -1,0 +1,50 @@
+{
+  "id": "eilvyre-acid-splash-spell-card",
+  "original": {
+    "path": "Eilvyre/AddText_06-02-05.03.52.jpg",
+    "filename": "AddText_06-02-05.03.52.jpg",
+    "extension": ".jpg",
+    "mimeType": "image/jpeg",
+    "byteLength": 392385,
+    "sha256": "82a03e21575be094594e9d92a645ffdfaf41173a6677e5f1ffaf172a02cced36",
+    "sourceArchive": "To Save Just In Case (2).zip"
+  },
+  "image": {
+    "width": 1200,
+    "height": 1200,
+    "format": "SVG",
+    "mode": "vector",
+    "frames": 1
+  },
+  "embedded": {
+    "mimeType": "image/svg+xml",
+    "byteLength": 1294,
+    "sha256": "1ab85e17025755e4add00fceaf5bd9796b01bf9e8031b6036dba844d57911383",
+    "method": "srd-compliant-card-substitute",
+    "pixelVerifiedLossless": false,
+    "dataLocation": "css/assets/eilvyre/eilvyre-acid-splash-spell-card.css"
+  },
+  "css": {
+    "file": "css/assets/eilvyre/eilvyre-acid-splash-spell-card.css",
+    "variable": "--asset-eilvyre-acid-splash-spell-card",
+    "class": "asset-eilvyre-acid-splash-spell-card",
+    "usage": "<div class=\"asset-eilvyre-acid-splash-spell-card\" role=\"img\" aria-label=\"Acid Splash\"></div>"
+  },
+  "json": {
+    "file": "json/assets/eilvyre/eilvyre-acid-splash-spell-card.json"
+  },
+  "category": "Eilvyre",
+  "compliance": {
+    "status": "replaced",
+    "reason": "Original card used mixed-edition, non-SRD, or rules-inaccurate mechanics; replaced with an SRD 5.2.1 entry or SRD-only example build.",
+    "replacementTitle": "Acid Splash",
+    "replacementKind": "spell",
+    "rulesBasis": "SRD 5.2.1 or original 5E-compatible mechanics",
+    "artBasis": "New vector/CSS asset or original layout; no D&D logo or publisher trade dress used."
+  },
+  "rulesData": {
+    "type": "Evocation cantrip",
+    "meta": "Action • 60 ft. • Instantaneous",
+    "summary": "An acidic bubble bursts in a 5-foot-radius sphere. Creatures there make a Dexterity save or take 1d6 acid damage."
+  }
+}

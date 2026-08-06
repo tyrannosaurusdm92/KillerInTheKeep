@@ -1,0 +1,50 @@
+{
+  "id": "daltu-hellish-rebuke-spell-card",
+  "original": {
+    "path": "Daltu/AddText_06-01-02.25.56.jpg",
+    "filename": "AddText_06-01-02.25.56.jpg",
+    "extension": ".jpg",
+    "mimeType": "image/jpeg",
+    "byteLength": 580568,
+    "sha256": "9e37440755ddb0bd64532e79a027ee3a5e479bb0ba64697b43a379d560061f45",
+    "sourceArchive": "To Save Just In Case (2).zip"
+  },
+  "image": {
+    "width": 1200,
+    "height": 1200,
+    "format": "SVG",
+    "mode": "vector",
+    "frames": 1
+  },
+  "embedded": {
+    "mimeType": "image/svg+xml",
+    "byteLength": 1318,
+    "sha256": "920a20b3ab650049e7c957c7b6f5ac31f3ea113d205e68010f45e0176c073087",
+    "method": "srd-compliant-card-substitute",
+    "pixelVerifiedLossless": false,
+    "dataLocation": "css/assets/daltu/daltu-hellish-rebuke-spell-card.css"
+  },
+  "css": {
+    "file": "css/assets/daltu/daltu-hellish-rebuke-spell-card.css",
+    "variable": "--asset-daltu-hellish-rebuke-spell-card",
+    "class": "asset-daltu-hellish-rebuke-spell-card",
+    "usage": "<div class=\"asset-daltu-hellish-rebuke-spell-card\" role=\"img\" aria-label=\"Hellish Rebuke\"></div>"
+  },
+  "json": {
+    "file": "json/assets/daltu/daltu-hellish-rebuke-spell-card.json"
+  },
+  "category": "Daltu",
+  "compliance": {
+    "status": "replaced",
+    "reason": "Original card used mixed-edition, non-SRD, or rules-inaccurate mechanics; replaced with an SRD 5.2.1 entry or SRD-only example build.",
+    "replacementTitle": "Hellish Rebuke",
+    "replacementKind": "spell",
+    "rulesBasis": "SRD 5.2.1 or original 5E-compatible mechanics",
+    "artBasis": "New vector/CSS asset or original layout; no D&D logo or publisher trade dress used."
+  },
+  "rulesData": {
+    "type": "Level 1 Evocation spell",
+    "meta": "Reaction • 60 ft. • Instantaneous",
+    "summary": "When a creature you can see damages you, it makes a Dexterity save, taking 2d10 fire damage on a failure or half on a success."
+  }
+}

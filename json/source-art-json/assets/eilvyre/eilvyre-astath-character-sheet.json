@@ -1,0 +1,50 @@
+{
+  "id": "eilvyre-astath-character-sheet",
+  "original": {
+    "path": "Eilvyre/AddText_06-08-05.29.45.jpg",
+    "filename": "AddText_06-08-05.29.45.jpg",
+    "extension": ".jpg",
+    "mimeType": "image/jpeg",
+    "byteLength": 1078300,
+    "sha256": "54de40e6d41fc7219fe433a05dd5134531ae26fb127517c12ace96281e614dd0",
+    "sourceArchive": "To Save Just In Case (4).zip"
+  },
+  "image": {
+    "width": 1200,
+    "height": 1200,
+    "format": "SVG",
+    "mode": "vector",
+    "frames": 1
+  },
+  "embedded": {
+    "mimeType": "image/svg+xml",
+    "byteLength": 1412,
+    "sha256": "6dade604e8009d3aa02d4d3e6e9eb7751821a4e0ddb1c3413975164b8210778b",
+    "method": "srd-compliant-card-substitute",
+    "pixelVerifiedLossless": false,
+    "dataLocation": "css/assets/eilvyre/eilvyre-astath-character-sheet.css"
+  },
+  "css": {
+    "file": "css/assets/eilvyre/eilvyre-astath-character-sheet.css",
+    "variable": "--asset-eilvyre-astath-character-sheet",
+    "class": "asset-eilvyre-astath-character-sheet",
+    "usage": "<div class=\"asset-eilvyre-astath-character-sheet\" role=\"img\" aria-label=\"Eilvyre Astath\"></div>"
+  },
+  "json": {
+    "file": "json/assets/eilvyre/eilvyre-astath-character-sheet.json"
+  },
+  "category": "Eilvyre",
+  "compliance": {
+    "status": "replaced",
+    "reason": "Original card used mixed-edition, non-SRD, or rules-inaccurate mechanics; replaced with an SRD 5.2.1 entry or SRD-only example build.",
+    "replacementTitle": "Eilvyre Astath",
+    "replacementKind": "character",
+    "rulesBasis": "SRD 5.2.1 or original 5E-compatible mechanics",
+    "artBasis": "New vector/CSS asset or original layout; no D&D logo or publisher trade dress used."
+  },
+  "rulesData": {
+    "type": "Example Level 3 Elf Sorcerer (Draconic Sorcery)",
+    "meta": "AC 15 with Mage Armor • HP 20 • Speed 30 ft. • PB +2 • Spell DC 13 • Spell attack +5",
+    "summary": "Example ability scores: Str 8, Dex 14, Con 14, Int 12, Wis 10, Cha 17. Wild Magic was replaced because it is not the SRD Sorcerer subclass."
+  }
+}

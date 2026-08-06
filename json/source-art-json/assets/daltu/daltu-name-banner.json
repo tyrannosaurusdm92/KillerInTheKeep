@@ -1,0 +1,43 @@
+{
+  "id": "daltu-name-banner",
+  "original": {
+    "path": "Daltu/AddText_05-26-03.26.46.png",
+    "filename": "AddText_05-26-03.26.46.png",
+    "extension": ".png",
+    "mimeType": "image/png",
+    "byteLength": 148083,
+    "sha256": "485ed46e83f1cf40bb516a0f39c34d04575be02ae6343f68953ec3769866c095",
+    "sourceArchive": "To Save Just In Case (4).zip"
+  },
+  "image": {
+    "width": 1440,
+    "height": 1440,
+    "format": "PNG",
+    "mode": "RGBA",
+    "frames": 1
+  },
+  "embedded": {
+    "mimeType": "image/png",
+    "byteLength": 148083,
+    "sha256": "485ed46e83f1cf40bb516a0f39c34d04575be02ae6343f68953ec3769866c095",
+    "method": "original-bytes",
+    "pixelVerifiedLossless": true,
+    "dataLocation": "css/assets/daltu/daltu-name-banner.css"
+  },
+  "css": {
+    "file": "css/assets/daltu/daltu-name-banner.css",
+    "variable": "--asset-daltu-name-banner",
+    "class": "asset-daltu-name-banner",
+    "usage": "<div class=\"asset-daltu-name-banner\" role=\"img\" aria-label=\"Daltu Name Banner\"></div>"
+  },
+  "json": {
+    "file": "json/assets/daltu/daltu-name-banner.json"
+  },
+  "category": "Daltu",
+  "compliance": {
+    "status": "preserved",
+    "reason": "No non-SRD rules text or official D&D branding was detected in this generic/custom visual asset. Original bytes were retained.",
+    "rulesBasis": "Not applicable or supplemented by structured SRD metadata.",
+    "artBasis": "User-supplied asset; copyright provenance was not independently verified."
+  }
+}

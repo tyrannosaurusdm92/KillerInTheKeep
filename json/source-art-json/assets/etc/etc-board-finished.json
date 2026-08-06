@@ -1,0 +1,43 @@
+{
+  "id": "etc-board-finished",
+  "original": {
+    "path": "Etc/board finished.png",
+    "filename": "board finished.png",
+    "extension": ".png",
+    "mimeType": "image/png",
+    "byteLength": 20149785,
+    "sha256": "9f32d9842df02c09895ab127aebb1bae69d89988385d16647d47d51a21fef06a",
+    "sourceArchive": "To Save Just In Case (3).zip"
+  },
+  "image": {
+    "width": 3500,
+    "height": 3500,
+    "format": "PNG",
+    "mode": "RGBA",
+    "frames": 1
+  },
+  "embedded": {
+    "mimeType": "image/webp",
+    "byteLength": 10101822,
+    "sha256": "d4a3abc82ec98ec6d7c28da902210636af20d10aaa79d40d7bff30f7350b57a7",
+    "method": "lossless-webp",
+    "pixelVerifiedLossless": true,
+    "dataLocation": "css/assets/etc/etc-board-finished.css"
+  },
+  "css": {
+    "file": "css/assets/etc/etc-board-finished.css",
+    "variable": "--asset-etc-board-finished",
+    "class": "asset-etc-board-finished",
+    "usage": "<div class=\"asset-etc-board-finished\" role=\"img\" aria-label=\"Board Finished\"></div>"
+  },
+  "json": {
+    "file": "json/assets/etc/etc-board-finished.json"
+  },
+  "category": "Etc",
+  "compliance": {
+    "status": "preserved",
+    "reason": "No non-SRD rules text or official D&D branding was detected in this generic/custom visual asset. Original bytes were retained.",
+    "rulesBasis": "Not applicable or supplemented by structured SRD metadata.",
+    "artBasis": "User-supplied asset; copyright provenance was not independently verified."
+  }
+}

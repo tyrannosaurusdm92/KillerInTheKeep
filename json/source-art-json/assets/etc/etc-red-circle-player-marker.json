@@ -1,0 +1,43 @@
+{
+  "id": "etc-red-circle-player-marker",
+  "original": {
+    "path": "Etc/1656271885697.png",
+    "filename": "1656271885697.png",
+    "extension": ".png",
+    "mimeType": "image/png",
+    "byteLength": 48951,
+    "sha256": "ccadaf6e5b295859edea46d2bd2fbf622e9bd2d2e25c8ca1c55fc0345db8e490",
+    "sourceArchive": "To Save Just In Case (3).zip"
+  },
+  "image": {
+    "width": 1085,
+    "height": 1085,
+    "format": "PNG",
+    "mode": "RGBA",
+    "frames": 1
+  },
+  "embedded": {
+    "mimeType": "image/png",
+    "byteLength": 48951,
+    "sha256": "ccadaf6e5b295859edea46d2bd2fbf622e9bd2d2e25c8ca1c55fc0345db8e490",
+    "method": "original-bytes",
+    "pixelVerifiedLossless": true,
+    "dataLocation": "css/assets/etc/etc-red-circle-player-marker.css"
+  },
+  "css": {
+    "file": "css/assets/etc/etc-red-circle-player-marker.css",
+    "variable": "--asset-etc-red-circle-player-marker",
+    "class": "asset-etc-red-circle-player-marker",
+    "usage": "<div class=\"asset-etc-red-circle-player-marker\" role=\"img\" aria-label=\"Red Circle Player Marker\"></div>"
+  },
+  "json": {
+    "file": "json/assets/etc/etc-red-circle-player-marker.json"
+  },
+  "category": "Etc",
+  "compliance": {
+    "status": "preserved",
+    "reason": "No non-SRD rules text or official D&D branding was detected in this generic/custom visual asset. Original bytes were retained.",
+    "rulesBasis": "Not applicable or supplemented by structured SRD metadata.",
+    "artBasis": "User-supplied asset; copyright provenance was not independently verified."
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "id": "etc-blue-circle-player-marker",
+  "original": {
+    "path": "Etc/1656271819963.png",
+    "filename": "1656271819963.png",
+    "extension": ".png",
+    "mimeType": "image/png",
+    "byteLength": 46712,
+    "sha256": "8838c78abefcc9ff70ecbb924c00cc7ebeb76fd95ba79e3b36308c031b4ea574",
+    "sourceArchive": "To Save Just In Case (3).zip"
+  },
+  "image": {
+    "width": 1085,
+    "height": 1085,
+    "format": "PNG",
+    "mode": "RGBA",
+    "frames": 1
+  },
+  "embedded": {
+    "mimeType": "image/png",
+    "byteLength": 46712,
+    "sha256": "8838c78abefcc9ff70ecbb924c00cc7ebeb76fd95ba79e3b36308c031b4ea574",
+    "method": "original-bytes",
+    "pixelVerifiedLossless": true,
+    "dataLocation": "css/assets/etc/etc-blue-circle-player-marker.css"
+  },
+  "css": {
+    "file": "css/assets/etc/etc-blue-circle-player-marker.css",
+    "variable": "--asset-etc-blue-circle-player-marker",
+    "class": "asset-etc-blue-circle-player-marker",
+    "usage": "<div class=\"asset-etc-blue-circle-player-marker\" role=\"img\" aria-label=\"Blue Circle Player Marker\"></div>"
+  },
+  "json": {
+    "file": "json/assets/etc/etc-blue-circle-player-marker.json"
+  },
+  "category": "Etc",
+  "compliance": {
+    "status": "preserved",
+    "reason": "No non-SRD rules text or official D&D branding was detected in this generic/custom visual asset. Original bytes were retained.",
+    "rulesBasis": "Not applicable or supplemented by structured SRD metadata.",
+    "artBasis": "User-supplied asset; copyright provenance was not independently verified."
+  }
+}

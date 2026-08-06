@@ -1,0 +1,50 @@
+{
+  "id": "daltu-blight-spell-card",
+  "original": {
+    "path": "Daltu/AddText_06-01-05.51.04.jpg",
+    "filename": "AddText_06-01-05.51.04.jpg",
+    "extension": ".jpg",
+    "mimeType": "image/jpeg",
+    "byteLength": 436621,
+    "sha256": "d5ddfe9490e562c907da4009b91f822c8d434532ce867f2c4822012b8f5ac729",
+    "sourceArchive": "To Save Just In Case.zip"
+  },
+  "image": {
+    "width": 1200,
+    "height": 1200,
+    "format": "SVG",
+    "mode": "vector",
+    "frames": 1
+  },
+  "embedded": {
+    "mimeType": "image/svg+xml",
+    "byteLength": 1311,
+    "sha256": "6dc48124a1a9435b6205009a15d22825aaad9b785f372345cba2fef4790b7614",
+    "method": "srd-compliant-card-substitute",
+    "pixelVerifiedLossless": false,
+    "dataLocation": "css/assets/daltu/daltu-blight-spell-card.css"
+  },
+  "css": {
+    "file": "css/assets/daltu/daltu-blight-spell-card.css",
+    "variable": "--asset-daltu-blight-spell-card",
+    "class": "asset-daltu-blight-spell-card",
+    "usage": "<div class=\"asset-daltu-blight-spell-card\" role=\"img\" aria-label=\"Blight\"></div>"
+  },
+  "json": {
+    "file": "json/assets/daltu/daltu-blight-spell-card.json"
+  },
+  "category": "Daltu",
+  "compliance": {
+    "status": "replaced",
+    "reason": "Original card used mixed-edition, non-SRD, or rules-inaccurate mechanics; replaced with an SRD 5.2.1 entry or SRD-only example build.",
+    "replacementTitle": "Blight",
+    "replacementKind": "spell",
+    "rulesBasis": "SRD 5.2.1 or original 5E-compatible mechanics",
+    "artBasis": "New vector/CSS asset or original layout; no D&D logo or publisher trade dress used."
+  },
+  "rulesData": {
+    "type": "Level 4 Necromancy spell",
+    "meta": "Action • 30 ft. • Instantaneous",
+    "summary": "One creature makes a Constitution save, taking 8d8 necrotic damage on a failure or half on a success. Plants automatically fail."
+  }
+}

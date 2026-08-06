@@ -1,0 +1,43 @@
+{
+  "id": "etc-cyan-diamond-player-marker",
+  "original": {
+    "path": "Etc/1656271709217.png",
+    "filename": "1656271709217.png",
+    "extension": ".png",
+    "mimeType": "image/png",
+    "byteLength": 52502,
+    "sha256": "a3d2b92c06f14da61c6ff2aedb118bd6c91ece62c5545f46a71fa2257e1bb3d4",
+    "sourceArchive": "To Save Just In Case.zip"
+  },
+  "image": {
+    "width": 1085,
+    "height": 1085,
+    "format": "PNG",
+    "mode": "RGBA",
+    "frames": 1
+  },
+  "embedded": {
+    "mimeType": "image/png",
+    "byteLength": 52502,
+    "sha256": "a3d2b92c06f14da61c6ff2aedb118bd6c91ece62c5545f46a71fa2257e1bb3d4",
+    "method": "original-bytes",
+    "pixelVerifiedLossless": true,
+    "dataLocation": "css/assets/etc/etc-cyan-diamond-player-marker.css"
+  },
+  "css": {
+    "file": "css/assets/etc/etc-cyan-diamond-player-marker.css",
+    "variable": "--asset-etc-cyan-diamond-player-marker",
+    "class": "asset-etc-cyan-diamond-player-marker",
+    "usage": "<div class=\"asset-etc-cyan-diamond-player-marker\" role=\"img\" aria-label=\"Cyan Diamond Player Marker\"></div>"
+  },
+  "json": {
+    "file": "json/assets/etc/etc-cyan-diamond-player-marker.json"
+  },
+  "category": "Etc",
+  "compliance": {
+    "status": "preserved",
+    "reason": "No non-SRD rules text or official D&D branding was detected in this generic/custom visual asset. Original bytes were retained.",
+    "rulesBasis": "Not applicable or supplemented by structured SRD metadata.",
+    "artBasis": "User-supplied asset; copyright provenance was not independently verified."
+  }
+}

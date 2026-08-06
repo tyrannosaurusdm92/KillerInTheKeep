@@ -1,0 +1,43 @@
+{
+  "id": "etc-purple-circle-player-marker",
+  "original": {
+    "path": "Etc/1656271975404.png",
+    "filename": "1656271975404.png",
+    "extension": ".png",
+    "mimeType": "image/png",
+    "byteLength": 46488,
+    "sha256": "cbf2a1c38113fb0229f6040d98dc5c889e3aee034e86e5c6969befd76bcaf4de",
+    "sourceArchive": "To Save Just In Case (4).zip"
+  },
+  "image": {
+    "width": 1085,
+    "height": 1085,
+    "format": "PNG",
+    "mode": "RGBA",
+    "frames": 1
+  },
+  "embedded": {
+    "mimeType": "image/png",
+    "byteLength": 46488,
+    "sha256": "cbf2a1c38113fb0229f6040d98dc5c889e3aee034e86e5c6969befd76bcaf4de",
+    "method": "original-bytes",
+    "pixelVerifiedLossless": true,
+    "dataLocation": "css/assets/etc/etc-purple-circle-player-marker.css"
+  },
+  "css": {
+    "file": "css/assets/etc/etc-purple-circle-player-marker.css",
+    "variable": "--asset-etc-purple-circle-player-marker",
+    "class": "asset-etc-purple-circle-player-marker",
+    "usage": "<div class=\"asset-etc-purple-circle-player-marker\" role=\"img\" aria-label=\"Purple Circle Player Marker\"></div>"
+  },
+  "json": {
+    "file": "json/assets/etc/etc-purple-circle-player-marker.json"
+  },
+  "category": "Etc",
+  "compliance": {
+    "status": "preserved",
+    "reason": "No non-SRD rules text or official D&D branding was detected in this generic/custom visual asset. Original bytes were retained.",
+    "rulesBasis": "Not applicable or supplemented by structured SRD metadata.",
+    "artBasis": "User-supplied asset; copyright provenance was not independently verified."
+  }
+}

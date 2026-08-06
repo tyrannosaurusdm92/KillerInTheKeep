@@ -1,0 +1,43 @@
+{
+  "id": "daltu-character-reference-sheet",
+  "original": {
+    "path": "Daltu/received_709324696988155.webp",
+    "filename": "received_709324696988155.webp",
+    "extension": ".webp",
+    "mimeType": "image/webp",
+    "byteLength": 71532,
+    "sha256": "c9097d1c4eca0d3484cc4061e51269fd0d17919e7d27674f1c8dfb6c10b62232",
+    "sourceArchive": "To Save Just In Case.zip"
+  },
+  "image": {
+    "width": 852,
+    "height": 1000,
+    "format": "WEBP",
+    "mode": "RGBA",
+    "frames": 1
+  },
+  "embedded": {
+    "mimeType": "image/webp",
+    "byteLength": 71532,
+    "sha256": "c9097d1c4eca0d3484cc4061e51269fd0d17919e7d27674f1c8dfb6c10b62232",
+    "method": "original-bytes",
+    "pixelVerifiedLossless": true,
+    "dataLocation": "css/assets/daltu/daltu-character-reference-sheet.css"
+  },
+  "css": {
+    "file": "css/assets/daltu/daltu-character-reference-sheet.css",
+    "variable": "--asset-daltu-character-reference-sheet",
+    "class": "asset-daltu-character-reference-sheet",
+    "usage": "<div class=\"asset-daltu-character-reference-sheet\" role=\"img\" aria-label=\"Daltu Character Reference Sheet\"></div>"
+  },
+  "json": {
+    "file": "json/assets/daltu/daltu-character-reference-sheet.json"
+  },
+  "category": "Daltu",
+  "compliance": {
+    "status": "preserved",
+    "reason": "No non-SRD rules text or official D&D branding was detected in this generic/custom visual asset. Original bytes were retained.",
+    "rulesBasis": "Not applicable or supplemented by structured SRD metadata.",
+    "artBasis": "User-supplied asset; copyright provenance was not independently verified."
+  }
+}
