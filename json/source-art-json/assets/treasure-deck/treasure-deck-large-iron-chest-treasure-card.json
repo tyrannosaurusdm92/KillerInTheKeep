@@ -1,0 +1,50 @@
+{
+  "id": "treasure-deck-large-iron-chest-treasure-card",
+  "original": {
+    "path": "Treasure Deck/AddText_05-25-08.20.48.jpg",
+    "filename": "AddText_05-25-08.20.48.jpg",
+    "extension": ".jpg",
+    "mimeType": "image/jpeg",
+    "byteLength": 320315,
+    "sha256": "da40f26b5fe50bc19d3ae34e960b145333493c49331d339d0a445b1594dfdff9",
+    "sourceArchive": "To Save Just In Case (4).zip"
+  },
+  "image": {
+    "width": 1200,
+    "height": 1200,
+    "format": "SVG",
+    "mode": "vector",
+    "frames": 1
+  },
+  "embedded": {
+    "mimeType": "image/svg+xml",
+    "byteLength": 1174,
+    "sha256": "27f808f67788eb773e0e9250ea6368275ecbc48f6d54d60c8083a3934e5badfd",
+    "method": "srd-compliant-card-substitute",
+    "pixelVerifiedLossless": false,
+    "dataLocation": "css/assets/treasure-deck/treasure-deck-large-iron-chest-treasure-card.css"
+  },
+  "css": {
+    "file": "css/assets/treasure-deck/treasure-deck-large-iron-chest-treasure-card.css",
+    "variable": "--asset-treasure-deck-large-iron-chest-treasure-card",
+    "class": "asset-treasure-deck-large-iron-chest-treasure-card",
+    "usage": "<div class=\"asset-treasure-deck-large-iron-chest-treasure-card\" role=\"img\" aria-label=\"Large Iron Chest\"></div>"
+  },
+  "json": {
+    "file": "json/assets/treasure-deck/treasure-deck-large-iron-chest-treasure-card.json"
+  },
+  "category": "Treasure Deck",
+  "compliance": {
+    "status": "replaced",
+    "reason": "Original treasure card used mixed-edition item names, nonstandard effects, irregular prices, or incomplete rules; replaced with an SRD item reference or system-neutral treasure.",
+    "replacementTitle": "Large Iron Chest",
+    "replacementKind": "treasure",
+    "rulesBasis": "SRD 5.2.1 or original 5E-compatible mechanics",
+    "artBasis": "New vector/CSS asset or original layout; no D&D logo or publisher trade dress used."
+  },
+  "rulesData": {
+    "type": "Treasure container",
+    "meta": "5E-compatible treasure card",
+    "summary": "Coins and gear chosen by the GM; optional lock DC 15."
+  }
+}

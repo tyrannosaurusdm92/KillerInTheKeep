@@ -1,0 +1,50 @@
+{
+  "id": "treasure-deck-wand-of-magic-missiles-treasure-card",
+  "original": {
+    "path": "Treasure Deck/AddText_05-25-08.40.47.jpg",
+    "filename": "AddText_05-25-08.40.47.jpg",
+    "extension": ".jpg",
+    "mimeType": "image/jpeg",
+    "byteLength": 500421,
+    "sha256": "fbd419c702de5fa024fdcb0af40e4dad3be9b0714830b6a63d428895d3a27277",
+    "sourceArchive": "To Save Just In Case.zip"
+  },
+  "image": {
+    "width": 1200,
+    "height": 1200,
+    "format": "SVG",
+    "mode": "vector",
+    "frames": 1
+  },
+  "embedded": {
+    "mimeType": "image/svg+xml",
+    "byteLength": 1196,
+    "sha256": "1138324298667c97ac50fe4249ccc765a41f7a61d604138fcdbca6a77eeba4a1",
+    "method": "srd-compliant-card-substitute",
+    "pixelVerifiedLossless": false,
+    "dataLocation": "css/assets/treasure-deck/treasure-deck-wand-of-magic-missiles-treasure-card.css"
+  },
+  "css": {
+    "file": "css/assets/treasure-deck/treasure-deck-wand-of-magic-missiles-treasure-card.css",
+    "variable": "--asset-treasure-deck-wand-of-magic-missiles-treasure-card",
+    "class": "asset-treasure-deck-wand-of-magic-missiles-treasure-card",
+    "usage": "<div class=\"asset-treasure-deck-wand-of-magic-missiles-treasure-card\" role=\"img\" aria-label=\"Wand of Magic Missiles\"></div>"
+  },
+  "json": {
+    "file": "json/assets/treasure-deck/treasure-deck-wand-of-magic-missiles-treasure-card.json"
+  },
+  "category": "Treasure Deck",
+  "compliance": {
+    "status": "replaced",
+    "reason": "Original treasure card used mixed-edition item names, nonstandard effects, irregular prices, or incomplete rules; replaced with an SRD item reference or system-neutral treasure.",
+    "replacementTitle": "Wand of Magic Missiles",
+    "replacementKind": "treasure",
+    "rulesBasis": "SRD 5.2.1 or original 5E-compatible mechanics",
+    "artBasis": "New vector/CSS asset or original layout; no D&D logo or publisher trade dress used."
+  },
+  "rulesData": {
+    "type": "Magic item • SRD reference",
+    "meta": "5E-compatible treasure card",
+    "summary": "Use the complete Wand of Magic Missiles entry in SRD 5.2.1."
+  }
+}

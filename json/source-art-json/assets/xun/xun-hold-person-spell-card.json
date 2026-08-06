@@ -1,0 +1,50 @@
+{
+  "id": "xun-hold-person-spell-card",
+  "original": {
+    "path": "Xun/AddText_07-27-01.32.54.jpg",
+    "filename": "AddText_07-27-01.32.54.jpg",
+    "extension": ".jpg",
+    "mimeType": "image/jpeg",
+    "byteLength": 565415,
+    "sha256": "da83c65282b8bbd9c269f1bca903ae98957efa3ca2656535ae2b8b358584390b",
+    "sourceArchive": "To Save Just In Case (4).zip"
+  },
+  "image": {
+    "width": 1200,
+    "height": 1200,
+    "format": "SVG",
+    "mode": "vector",
+    "frames": 1
+  },
+  "embedded": {
+    "mimeType": "image/svg+xml",
+    "byteLength": 1252,
+    "sha256": "adba11ad35c315128bd63ed7b33ad18b5a37a8448b35151d196678e799c77291",
+    "method": "srd-compliant-card-substitute",
+    "pixelVerifiedLossless": false,
+    "dataLocation": "css/assets/xun/xun-hold-person-spell-card.css"
+  },
+  "css": {
+    "file": "css/assets/xun/xun-hold-person-spell-card.css",
+    "variable": "--asset-xun-hold-person-spell-card",
+    "class": "asset-xun-hold-person-spell-card",
+    "usage": "<div class=\"asset-xun-hold-person-spell-card\" role=\"img\" aria-label=\"Hold Person\"></div>"
+  },
+  "json": {
+    "file": "json/assets/xun/xun-hold-person-spell-card.json"
+  },
+  "category": "Xun",
+  "compliance": {
+    "status": "replaced",
+    "reason": "Original card used mixed-edition, non-SRD, or rules-inaccurate mechanics; replaced with an SRD 5.2.1 entry or SRD-only example build.",
+    "replacementTitle": "Hold Person",
+    "replacementKind": "spell",
+    "rulesBasis": "SRD 5.2.1 or original 5E-compatible mechanics",
+    "artBasis": "New vector/CSS asset or original layout; no D&D logo or publisher trade dress used."
+  },
+  "rulesData": {
+    "type": "Level 2 Enchantment spell",
+    "meta": "Action • 60 ft. • Concentration, up to 1 minute",
+    "summary": "A Humanoid makes a Wisdom save or becomes Paralyzed. It repeats the save at the end of each of its turns."
+  }
+}

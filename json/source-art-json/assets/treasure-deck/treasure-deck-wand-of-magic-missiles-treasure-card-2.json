@@ -1,0 +1,50 @@
+{
+  "id": "treasure-deck-wand-of-magic-missiles-treasure-card-2",
+  "original": {
+    "path": "Treasure Deck/AddText_05-25-09.07.07.jpg",
+    "filename": "AddText_05-25-09.07.07.jpg",
+    "extension": ".jpg",
+    "mimeType": "image/jpeg",
+    "byteLength": 265292,
+    "sha256": "f67446ef13e24d3452cc97f67c68e317c82b9998ae22c58bca8c96e076bf94f8",
+    "sourceArchive": "To Save Just In Case (3).zip"
+  },
+  "image": {
+    "width": 1200,
+    "height": 1200,
+    "format": "SVG",
+    "mode": "vector",
+    "frames": 1
+  },
+  "embedded": {
+    "mimeType": "image/svg+xml",
+    "byteLength": 1301,
+    "sha256": "0354d0e5b2f04e180ed40f45797f890543a94b5543ac29b2db14dc274fdaba4f",
+    "method": "srd-compliant-card-substitute",
+    "pixelVerifiedLossless": false,
+    "dataLocation": "css/assets/treasure-deck/treasure-deck-wand-of-magic-missiles-treasure-card-2.css"
+  },
+  "css": {
+    "file": "css/assets/treasure-deck/treasure-deck-wand-of-magic-missiles-treasure-card-2.css",
+    "variable": "--asset-treasure-deck-wand-of-magic-missiles-treasure-card-2",
+    "class": "asset-treasure-deck-wand-of-magic-missiles-treasure-card-2",
+    "usage": "<div class=\"asset-treasure-deck-wand-of-magic-missiles-treasure-card-2\" role=\"img\" aria-label=\"Wand of Magic Missiles\"></div>"
+  },
+  "json": {
+    "file": "json/assets/treasure-deck/treasure-deck-wand-of-magic-missiles-treasure-card-2.json"
+  },
+  "category": "Treasure Deck",
+  "compliance": {
+    "status": "replaced",
+    "reason": "Original treasure card used mixed-edition item names, nonstandard effects, irregular prices, or incomplete rules; replaced with an SRD item reference or system-neutral treasure.",
+    "replacementTitle": "Wand of Magic Missiles",
+    "replacementKind": "treasure",
+    "rulesBasis": "SRD 5.2.1 or original 5E-compatible mechanics",
+    "artBasis": "New vector/CSS asset or original layout; no D&D logo or publisher trade dress used."
+  },
+  "rulesData": {
+    "type": "Magic item • SRD reference",
+    "meta": "5E-compatible treasure card",
+    "summary": "Closest SRD substitute for the nonstandard Targeting Array. Use the complete Wand of Magic Missiles entry."
+  }
+}

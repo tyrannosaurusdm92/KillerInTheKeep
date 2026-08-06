@@ -1,0 +1,50 @@
+{
+  "id": "treasure-deck-brass-ewer-with-blue-quartz-treasure-card",
+  "original": {
+    "path": "Treasure Deck/AddText_05-25-08.23.16.jpg",
+    "filename": "AddText_05-25-08.23.16.jpg",
+    "extension": ".jpg",
+    "mimeType": "image/jpeg",
+    "byteLength": 218219,
+    "sha256": "036d1195f88333a1cb78dd6e448b9871f2be5177331e6388d5f4d7598cbf3a4c",
+    "sourceArchive": "To Save Just In Case.zip"
+  },
+  "image": {
+    "width": 1200,
+    "height": 1200,
+    "format": "SVG",
+    "mode": "vector",
+    "frames": 1
+  },
+  "embedded": {
+    "mimeType": "image/svg+xml",
+    "byteLength": 1209,
+    "sha256": "ec3a45bf6992dd7503dfc48981d2e5c610094763d0da6a530460e8e948b2deb8",
+    "method": "srd-compliant-card-substitute",
+    "pixelVerifiedLossless": false,
+    "dataLocation": "css/assets/treasure-deck/treasure-deck-brass-ewer-with-blue-quartz-treasure-card.css"
+  },
+  "css": {
+    "file": "css/assets/treasure-deck/treasure-deck-brass-ewer-with-blue-quartz-treasure-card.css",
+    "variable": "--asset-treasure-deck-brass-ewer-with-blue-quartz-treasure-card",
+    "class": "asset-treasure-deck-brass-ewer-with-blue-quartz-treasure-card",
+    "usage": "<div class=\"asset-treasure-deck-brass-ewer-with-blue-quartz-treasure-card\" role=\"img\" aria-label=\"Brass Ewer with Blue Quartz\"></div>"
+  },
+  "json": {
+    "file": "json/assets/treasure-deck/treasure-deck-brass-ewer-with-blue-quartz-treasure-card.json"
+  },
+  "category": "Treasure Deck",
+  "compliance": {
+    "status": "replaced",
+    "reason": "Original treasure card used mixed-edition item names, nonstandard effects, irregular prices, or incomplete rules; replaced with an SRD item reference or system-neutral treasure.",
+    "replacementTitle": "Brass Ewer with Blue Quartz",
+    "replacementKind": "treasure",
+    "rulesBasis": "SRD 5.2.1 or original 5E-compatible mechanics",
+    "artBasis": "New vector/CSS asset or original layout; no D&D logo or publisher trade dress used."
+  },
+  "rulesData": {
+    "type": "Art object • 25 GP",
+    "meta": "5E-compatible treasure card",
+    "summary": "A nonmagical art object; value is campaign treasure, not a magic-item rule."
+  }
+}

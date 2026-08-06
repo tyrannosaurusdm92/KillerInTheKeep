@@ -1,0 +1,50 @@
+{
+  "id": "trap-deck-poison-spiked-pit-trap-card",
+  "original": {
+    "path": "Trap Deck/poison spiked trap.jpg",
+    "filename": "poison spiked trap.jpg",
+    "extension": ".jpg",
+    "mimeType": "image/jpeg",
+    "byteLength": 435076,
+    "sha256": "0f6e55775a66190d6627834590b4d20ffe822189dcd6e73d39bbf040eae97458",
+    "sourceArchive": "To Save Just In Case (2).zip"
+  },
+  "image": {
+    "width": 1200,
+    "height": 1200,
+    "format": "SVG",
+    "mode": "vector",
+    "frames": 1
+  },
+  "embedded": {
+    "mimeType": "image/svg+xml",
+    "byteLength": 1344,
+    "sha256": "042864695082b4e418a9d45784154f5b8e68df7e3309ed4d8fd6bf3f5bc32016",
+    "method": "srd-compliant-card-substitute",
+    "pixelVerifiedLossless": false,
+    "dataLocation": "css/assets/trap-deck/trap-deck-poison-spiked-pit-trap-card.css"
+  },
+  "css": {
+    "file": "css/assets/trap-deck/trap-deck-poison-spiked-pit-trap-card.css",
+    "variable": "--asset-trap-deck-poison-spiked-pit-trap-card",
+    "class": "asset-trap-deck-poison-spiked-pit-trap-card",
+    "usage": "<div class=\"asset-trap-deck-poison-spiked-pit-trap-card\" role=\"img\" aria-label=\"Poison-Spiked Pit\"></div>"
+  },
+  "json": {
+    "file": "json/assets/trap-deck/trap-deck-poison-spiked-pit-trap-card.json"
+  },
+  "category": "Trap Deck",
+  "compliance": {
+    "status": "replaced",
+    "reason": "Original trap used inconsistent board-game checks, turn language, or damage. Rewritten with 5E-compatible actions, checks, saves, conditions, and damage.",
+    "replacementTitle": "Poison-Spiked Pit",
+    "replacementKind": "trap",
+    "rulesBasis": "SRD 5.2.1 or original 5E-compatible mechanics",
+    "artBasis": "New vector/CSS asset or original layout; no D&D logo or publisher trade dress used."
+  },
+  "rulesData": {
+    "type": "Pit trap • 5E-compatible",
+    "meta": "Notice DC 15 • Dexterity save DC 13",
+    "summary": "On a failed save, take 2d6 bludgeoning and 1d10 piercing damage, then make a DC 13 Constitution save against 2d6 poison damage, half on a success."
+  }
+}

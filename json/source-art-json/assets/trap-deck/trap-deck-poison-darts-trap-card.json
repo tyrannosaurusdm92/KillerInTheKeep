@@ -1,0 +1,50 @@
+{
+  "id": "trap-deck-poison-darts-trap-card",
+  "original": {
+    "path": "Trap Deck/poison darts.jpg",
+    "filename": "poison darts.jpg",
+    "extension": ".jpg",
+    "mimeType": "image/jpeg",
+    "byteLength": 384976,
+    "sha256": "1670848269a5d9d78aa3a440b52962c9a5f676afb18682689921e8663c97fd6a",
+    "sourceArchive": "To Save Just In Case (2).zip"
+  },
+  "image": {
+    "width": 1200,
+    "height": 1200,
+    "format": "SVG",
+    "mode": "vector",
+    "frames": 1
+  },
+  "embedded": {
+    "mimeType": "image/svg+xml",
+    "byteLength": 1357,
+    "sha256": "2a1d7773c14c93657886d1f9420bdcc76c521fa92e20aa4ef29abe782b32a9e4",
+    "method": "srd-compliant-card-substitute",
+    "pixelVerifiedLossless": false,
+    "dataLocation": "css/assets/trap-deck/trap-deck-poison-darts-trap-card.css"
+  },
+  "css": {
+    "file": "css/assets/trap-deck/trap-deck-poison-darts-trap-card.css",
+    "variable": "--asset-trap-deck-poison-darts-trap-card",
+    "class": "asset-trap-deck-poison-darts-trap-card",
+    "usage": "<div class=\"asset-trap-deck-poison-darts-trap-card\" role=\"img\" aria-label=\"Poison Darts\"></div>"
+  },
+  "json": {
+    "file": "json/assets/trap-deck/trap-deck-poison-darts-trap-card.json"
+  },
+  "category": "Trap Deck",
+  "compliance": {
+    "status": "replaced",
+    "reason": "Original trap used inconsistent board-game checks, turn language, or damage. Rewritten with 5E-compatible actions, checks, saves, conditions, and damage.",
+    "replacementTitle": "Poison Darts",
+    "replacementKind": "trap",
+    "rulesBasis": "SRD 5.2.1 or original 5E-compatible mechanics",
+    "artBasis": "New vector/CSS asset or original layout; no D&D logo or publisher trade dress used."
+  },
+  "rulesData": {
+    "type": "Mechanical trap • 5E-compatible",
+    "meta": "Notice DC 15 • Disable DC 15 • Dexterity save DC 15",
+    "summary": "On a failed save, take 1d4 piercing damage and make a DC 13 Constitution save, taking 2d10 poison damage on a failure or half on a success."
+  }
+}

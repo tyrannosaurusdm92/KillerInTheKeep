@@ -1,0 +1,50 @@
+{
+  "id": "treasure-deck-trapped-large-wooden-chest-treasure-card",
+  "original": {
+    "path": "Treasure Deck/AddText_05-25-08.19.22.jpg",
+    "filename": "AddText_05-25-08.19.22.jpg",
+    "extension": ".jpg",
+    "mimeType": "image/jpeg",
+    "byteLength": 504715,
+    "sha256": "d4d4945ca86e5c75ed96547944ca3c063a941b8b194bf71bc49d12f9a1cbbe69",
+    "sourceArchive": "To Save Just In Case (3).zip"
+  },
+  "image": {
+    "width": 1200,
+    "height": 1200,
+    "format": "SVG",
+    "mode": "vector",
+    "frames": 1
+  },
+  "embedded": {
+    "mimeType": "image/svg+xml",
+    "byteLength": 1193,
+    "sha256": "7c2a638f68be535d76918f6ffc2bf678f5bdac12f6598fe15c676d3b1969ba87",
+    "method": "srd-compliant-card-substitute",
+    "pixelVerifiedLossless": false,
+    "dataLocation": "css/assets/treasure-deck/treasure-deck-trapped-large-wooden-chest-treasure-card.css"
+  },
+  "css": {
+    "file": "css/assets/treasure-deck/treasure-deck-trapped-large-wooden-chest-treasure-card.css",
+    "variable": "--asset-treasure-deck-trapped-large-wooden-chest-treasure-card",
+    "class": "asset-treasure-deck-trapped-large-wooden-chest-treasure-card",
+    "usage": "<div class=\"asset-treasure-deck-trapped-large-wooden-chest-treasure-card\" role=\"img\" aria-label=\"Trapped Large Wooden Chest\"></div>"
+  },
+  "json": {
+    "file": "json/assets/treasure-deck/treasure-deck-trapped-large-wooden-chest-treasure-card.json"
+  },
+  "category": "Treasure Deck",
+  "compliance": {
+    "status": "replaced",
+    "reason": "Original treasure card used mixed-edition item names, nonstandard effects, irregular prices, or incomplete rules; replaced with an SRD item reference or system-neutral treasure.",
+    "replacementTitle": "Trapped Large Wooden Chest",
+    "replacementKind": "treasure",
+    "rulesBasis": "SRD 5.2.1 or original 5E-compatible mechanics",
+    "artBasis": "New vector/CSS asset or original layout; no D&D logo or publisher trade dress used."
+  },
+  "rulesData": {
+    "type": "Treasure container",
+    "meta": "5E-compatible treasure card",
+    "summary": "Choose an SRD-compatible trap; suggested notice/disable DC 15."
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "id": "xun-guiding-bolt-spell-card",
+  "original": {
+    "path": "Xun/AddText_06-02-02.05.17.jpg",
+    "filename": "AddText_06-02-02.05.17.jpg",
+    "extension": ".jpg",
+    "mimeType": "image/jpeg",
+    "byteLength": 402770,
+    "sha256": "8ef11b577639028bc60cb415765ba34c6a54257df632de776a17a1025e18a3ea",
+    "sourceArchive": "To Save Just In Case (3).zip"
+  },
+  "image": {
+    "width": 1200,
+    "height": 1200,
+    "format": "SVG",
+    "mode": "vector",
+    "frames": 1
+  },
+  "embedded": {
+    "mimeType": "image/svg+xml",
+    "byteLength": 1310,
+    "sha256": "5fbc79aa0d79fcbe48cc6bfb588ebc9d8634e78a6bd0d757c68300b02057573b",
+    "method": "srd-compliant-card-substitute",
+    "pixelVerifiedLossless": false,
+    "dataLocation": "css/assets/xun/xun-guiding-bolt-spell-card.css"
+  },
+  "css": {
+    "file": "css/assets/xun/xun-guiding-bolt-spell-card.css",
+    "variable": "--asset-xun-guiding-bolt-spell-card",
+    "class": "asset-xun-guiding-bolt-spell-card",
+    "usage": "<div class=\"asset-xun-guiding-bolt-spell-card\" role=\"img\" aria-label=\"Guiding Bolt\"></div>"
+  },
+  "json": {
+    "file": "json/assets/xun/xun-guiding-bolt-spell-card.json"
+  },
+  "category": "Xun",
+  "compliance": {
+    "status": "replaced",
+    "reason": "Original card used mixed-edition, non-SRD, or rules-inaccurate mechanics; replaced with an SRD 5.2.1 entry or SRD-only example build.",
+    "replacementTitle": "Guiding Bolt",
+    "replacementKind": "spell",
+    "rulesBasis": "SRD 5.2.1 or original 5E-compatible mechanics",
+    "artBasis": "New vector/CSS asset or original layout; no D&D logo or publisher trade dress used."
+  },
+  "rulesData": {
+    "type": "Level 1 Evocation spell",
+    "meta": "Action • 120 ft. • Instantaneous",
+    "summary": "Make a ranged spell attack. On a hit, the target takes radiant damage, and the next attack roll against it has Advantage."
+  }
+}

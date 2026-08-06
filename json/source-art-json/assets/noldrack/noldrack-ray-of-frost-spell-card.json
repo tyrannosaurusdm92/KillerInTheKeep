@@ -1,0 +1,50 @@
+{
+  "id": "noldrack-ray-of-frost-spell-card",
+  "original": {
+    "path": "Noldrack/AddText_06-02-04.03.45.jpg",
+    "filename": "AddText_06-02-04.03.45.jpg",
+    "extension": ".jpg",
+    "mimeType": "image/jpeg",
+    "byteLength": 362744,
+    "sha256": "7ebcdeaf7faf85f13fe36c600587a4797e30f34159ded065d24a97d1ad0bf08a",
+    "sourceArchive": "To Save Just In Case (4).zip"
+  },
+  "image": {
+    "width": 1200,
+    "height": 1200,
+    "format": "SVG",
+    "mode": "vector",
+    "frames": 1
+  },
+  "embedded": {
+    "mimeType": "image/svg+xml",
+    "byteLength": 1310,
+    "sha256": "0485f67ebf3573bf4ba48237e4760597924f25506621097d77588b25e2ef44af",
+    "method": "srd-compliant-card-substitute",
+    "pixelVerifiedLossless": false,
+    "dataLocation": "css/assets/noldrack/noldrack-ray-of-frost-spell-card.css"
+  },
+  "css": {
+    "file": "css/assets/noldrack/noldrack-ray-of-frost-spell-card.css",
+    "variable": "--asset-noldrack-ray-of-frost-spell-card",
+    "class": "asset-noldrack-ray-of-frost-spell-card",
+    "usage": "<div class=\"asset-noldrack-ray-of-frost-spell-card\" role=\"img\" aria-label=\"Ray of Frost\"></div>"
+  },
+  "json": {
+    "file": "json/assets/noldrack/noldrack-ray-of-frost-spell-card.json"
+  },
+  "category": "Noldrack",
+  "compliance": {
+    "status": "replaced",
+    "reason": "Original card used mixed-edition, non-SRD, or rules-inaccurate mechanics; replaced with an SRD 5.2.1 entry or SRD-only example build.",
+    "replacementTitle": "Ray of Frost",
+    "replacementKind": "spell",
+    "rulesBasis": "SRD 5.2.1 or original 5E-compatible mechanics",
+    "artBasis": "New vector/CSS asset or original layout; no D&D logo or publisher trade dress used."
+  },
+  "rulesData": {
+    "type": "Evocation cantrip",
+    "meta": "Action • 60 ft. • Instantaneous",
+    "summary": "Make a ranged spell attack. On a hit, the target takes 1d8 cold damage and its Speed is reduced by 10 feet until your next turn."
+  }
+}

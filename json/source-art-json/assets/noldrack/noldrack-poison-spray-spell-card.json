@@ -1,0 +1,50 @@
+{
+  "id": "noldrack-poison-spray-spell-card",
+  "original": {
+    "path": "Noldrack/AddText_06-02-12.22.05.jpg",
+    "filename": "AddText_06-02-12.22.05.jpg",
+    "extension": ".jpg",
+    "mimeType": "image/jpeg",
+    "byteLength": 355121,
+    "sha256": "4942ec8049a882b4f63685e28b2c779feb5afee0a0e8254745dd9ec33ae07ff9",
+    "sourceArchive": "To Save Just In Case (4).zip"
+  },
+  "image": {
+    "width": 1200,
+    "height": 1200,
+    "format": "SVG",
+    "mode": "vector",
+    "frames": 1
+  },
+  "embedded": {
+    "mimeType": "image/svg+xml",
+    "byteLength": 1192,
+    "sha256": "1b60cbacfac0088090acc3c65e9b351f91593e153b44394238c3f5a176d56f6c",
+    "method": "srd-compliant-card-substitute",
+    "pixelVerifiedLossless": false,
+    "dataLocation": "css/assets/noldrack/noldrack-poison-spray-spell-card.css"
+  },
+  "css": {
+    "file": "css/assets/noldrack/noldrack-poison-spray-spell-card.css",
+    "variable": "--asset-noldrack-poison-spray-spell-card",
+    "class": "asset-noldrack-poison-spray-spell-card",
+    "usage": "<div class=\"asset-noldrack-poison-spray-spell-card\" role=\"img\" aria-label=\"Poison Spray\"></div>"
+  },
+  "json": {
+    "file": "json/assets/noldrack/noldrack-poison-spray-spell-card.json"
+  },
+  "category": "Noldrack",
+  "compliance": {
+    "status": "replaced",
+    "reason": "Original card used mixed-edition, non-SRD, or rules-inaccurate mechanics; replaced with an SRD 5.2.1 entry or SRD-only example build.",
+    "replacementTitle": "Poison Spray",
+    "replacementKind": "spell",
+    "rulesBasis": "SRD 5.2.1 or original 5E-compatible mechanics",
+    "artBasis": "New vector/CSS asset or original layout; no D&D logo or publisher trade dress used."
+  },
+  "rulesData": {
+    "type": "Necromancy cantrip",
+    "meta": "Action • 30 ft. • Instantaneous",
+    "summary": "One creature makes a Constitution save or takes 1d12 poison damage."
+  }
+}

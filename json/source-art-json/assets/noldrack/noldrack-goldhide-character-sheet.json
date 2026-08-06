@@ -1,0 +1,50 @@
+{
+  "id": "noldrack-goldhide-character-sheet",
+  "original": {
+    "path": "Noldrack/AddText_06-08-05.30.27.jpg",
+    "filename": "AddText_06-08-05.30.27.jpg",
+    "extension": ".jpg",
+    "mimeType": "image/jpeg",
+    "byteLength": 825181,
+    "sha256": "84b8705a6c4f49d26d4cefed87602db552a37de0feb09c69058ce3c5436e6c78",
+    "sourceArchive": "To Save Just In Case (4).zip"
+  },
+  "image": {
+    "width": 1200,
+    "height": 1200,
+    "format": "SVG",
+    "mode": "vector",
+    "frames": 1
+  },
+  "embedded": {
+    "mimeType": "image/svg+xml",
+    "byteLength": 1367,
+    "sha256": "675619f16a0a70cd440dea784d0a749e00877b57378c8f7931271e46fba2c5a4",
+    "method": "srd-compliant-card-substitute",
+    "pixelVerifiedLossless": false,
+    "dataLocation": "css/assets/noldrack/noldrack-goldhide-character-sheet.css"
+  },
+  "css": {
+    "file": "css/assets/noldrack/noldrack-goldhide-character-sheet.css",
+    "variable": "--asset-noldrack-goldhide-character-sheet",
+    "class": "asset-noldrack-goldhide-character-sheet",
+    "usage": "<div class=\"asset-noldrack-goldhide-character-sheet\" role=\"img\" aria-label=\"Noldrack Goldhide\"></div>"
+  },
+  "json": {
+    "file": "json/assets/noldrack/noldrack-goldhide-character-sheet.json"
+  },
+  "category": "Noldrack",
+  "compliance": {
+    "status": "replaced",
+    "reason": "Original card used mixed-edition, non-SRD, or rules-inaccurate mechanics; replaced with an SRD 5.2.1 entry or SRD-only example build.",
+    "replacementTitle": "Noldrack Goldhide",
+    "replacementKind": "character",
+    "rulesBasis": "SRD 5.2.1 or original 5E-compatible mechanics",
+    "artBasis": "New vector/CSS asset or original layout; no D&D logo or publisher trade dress used."
+  },
+  "rulesData": {
+    "type": "Example Level 3 Druid (Circle of the Land)",
+    "meta": "AC 15 • HP 24 • Speed 30 ft. • PB +2 • Spell DC 13 • Spell attack +5",
+    "summary": "Example ability scores: Str 12, Dex 14, Con 14, Int 10, Wis 17, Cha 8. Uses the SRD Circle of the Land subclass."
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "id": "treasure-deck-spell-scroll-invisibility-treasure-card",
+  "original": {
+    "path": "Treasure Deck/AddText_05-25-08.30.13.jpg",
+    "filename": "AddText_05-25-08.30.13.jpg",
+    "extension": ".jpg",
+    "mimeType": "image/jpeg",
+    "byteLength": 288707,
+    "sha256": "be22cb835631824444de6c4f548080f6f0dfcb1caea1814fb24caa60ff3779c0",
+    "sourceArchive": "To Save Just In Case (4).zip"
+  },
+  "image": {
+    "width": 1200,
+    "height": 1200,
+    "format": "SVG",
+    "mode": "vector",
+    "frames": 1
+  },
+  "embedded": {
+    "mimeType": "image/svg+xml",
+    "byteLength": 1240,
+    "sha256": "30c7fed981f92923c83254c5ec05b91669e6d77f7c3a3c0abe13cc6681d49f27",
+    "method": "srd-compliant-card-substitute",
+    "pixelVerifiedLossless": false,
+    "dataLocation": "css/assets/treasure-deck/treasure-deck-spell-scroll-invisibility-treasure-card.css"
+  },
+  "css": {
+    "file": "css/assets/treasure-deck/treasure-deck-spell-scroll-invisibility-treasure-card.css",
+    "variable": "--asset-treasure-deck-spell-scroll-invisibility-treasure-card",
+    "class": "asset-treasure-deck-spell-scroll-invisibility-treasure-card",
+    "usage": "<div class=\"asset-treasure-deck-spell-scroll-invisibility-treasure-card\" role=\"img\" aria-label=\"Spell Scroll: Invisibility\"></div>"
+  },
+  "json": {
+    "file": "json/assets/treasure-deck/treasure-deck-spell-scroll-invisibility-treasure-card.json"
+  },
+  "category": "Treasure Deck",
+  "compliance": {
+    "status": "replaced",
+    "reason": "Original treasure card used mixed-edition item names, nonstandard effects, irregular prices, or incomplete rules; replaced with an SRD item reference or system-neutral treasure.",
+    "replacementTitle": "Spell Scroll: Invisibility",
+    "replacementKind": "treasure",
+    "rulesBasis": "SRD 5.2.1 or original 5E-compatible mechanics",
+    "artBasis": "New vector/CSS asset or original layout; no D&D logo or publisher trade dress used."
+  },
+  "rulesData": {
+    "type": "Magic item • SRD reference",
+    "meta": "5E-compatible treasure card",
+    "summary": "A Spell Scroll containing Invisibility. Use the Spell Scroll and Invisibility entries in SRD 5.2.1."
+  }
+}

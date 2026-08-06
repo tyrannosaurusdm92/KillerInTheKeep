@@ -1,0 +1,50 @@
+{
+  "id": "treasure-deck-marble-plate-with-silver-scrollwork-treasure-card",
+  "original": {
+    "path": "Treasure Deck/AddText_05-25-08.24.35.jpg",
+    "filename": "AddText_05-25-08.24.35.jpg",
+    "extension": ".jpg",
+    "mimeType": "image/jpeg",
+    "byteLength": 224018,
+    "sha256": "bb14cd38f93e1498b18cbfc5f59caf0a549964bc21c33753c065bb3c3e1446ed",
+    "sourceArchive": "To Save Just In Case (2).zip"
+  },
+  "image": {
+    "width": 1200,
+    "height": 1200,
+    "format": "SVG",
+    "mode": "vector",
+    "frames": 1
+  },
+  "embedded": {
+    "mimeType": "image/svg+xml",
+    "byteLength": 1108,
+    "sha256": "22b7e1fdc4589bf0cb45af35012d7599c43bb1e036d3f5ac6ea76e248149b325",
+    "method": "srd-compliant-card-substitute",
+    "pixelVerifiedLossless": false,
+    "dataLocation": "css/assets/treasure-deck/treasure-deck-marble-plate-with-silver-scrollwork-treasure-card.css"
+  },
+  "css": {
+    "file": "css/assets/treasure-deck/treasure-deck-marble-plate-with-silver-scrollwork-treasure-card.css",
+    "variable": "--asset-treasure-deck-marble-plate-with-silver-scrollwork-treasure-card",
+    "class": "asset-treasure-deck-marble-plate-with-silver-scrollwork-treasure-card",
+    "usage": "<div class=\"asset-treasure-deck-marble-plate-with-silver-scrollwork-treasure-card\" role=\"img\" aria-label=\"Marble Plate with Silver Scrollwork\"></div>"
+  },
+  "json": {
+    "file": "json/assets/treasure-deck/treasure-deck-marble-plate-with-silver-scrollwork-treasure-card.json"
+  },
+  "category": "Treasure Deck",
+  "compliance": {
+    "status": "replaced",
+    "reason": "Original treasure card used mixed-edition item names, nonstandard effects, irregular prices, or incomplete rules; replaced with an SRD item reference or system-neutral treasure.",
+    "replacementTitle": "Marble Plate with Silver Scrollwork",
+    "replacementKind": "treasure",
+    "rulesBasis": "SRD 5.2.1 or original 5E-compatible mechanics",
+    "artBasis": "New vector/CSS asset or original layout; no D&D logo or publisher trade dress used."
+  },
+  "rulesData": {
+    "type": "Art object • 25 GP",
+    "meta": "5E-compatible treasure card",
+    "summary": "A nonmagical art object."
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "id": "treasure-deck-sturdy-leather-boots-treasure-card",
+  "original": {
+    "path": "Treasure Deck/AddText_05-25-09.12.01.jpg",
+    "filename": "AddText_05-25-09.12.01.jpg",
+    "extension": ".jpg",
+    "mimeType": "image/jpeg",
+    "byteLength": 206985,
+    "sha256": "ce69823bf3c8eaadeb47a304943072195cc46f9e94ccfd2582f5b10117152ee7",
+    "sourceArchive": "To Save Just In Case (3).zip"
+  },
+  "image": {
+    "width": 1200,
+    "height": 1200,
+    "format": "SVG",
+    "mode": "vector",
+    "frames": 1
+  },
+  "embedded": {
+    "mimeType": "image/svg+xml",
+    "byteLength": 1120,
+    "sha256": "7ea3b669dfd4182499d778f6beea8c6dcc7ea11016241ce109af5d2c4a74a78d",
+    "method": "srd-compliant-card-substitute",
+    "pixelVerifiedLossless": false,
+    "dataLocation": "css/assets/treasure-deck/treasure-deck-sturdy-leather-boots-treasure-card.css"
+  },
+  "css": {
+    "file": "css/assets/treasure-deck/treasure-deck-sturdy-leather-boots-treasure-card.css",
+    "variable": "--asset-treasure-deck-sturdy-leather-boots-treasure-card",
+    "class": "asset-treasure-deck-sturdy-leather-boots-treasure-card",
+    "usage": "<div class=\"asset-treasure-deck-sturdy-leather-boots-treasure-card\" role=\"img\" aria-label=\"Sturdy Leather Boots\"></div>"
+  },
+  "json": {
+    "file": "json/assets/treasure-deck/treasure-deck-sturdy-leather-boots-treasure-card.json"
+  },
+  "category": "Treasure Deck",
+  "compliance": {
+    "status": "replaced",
+    "reason": "Original treasure card used mixed-edition item names, nonstandard effects, irregular prices, or incomplete rules; replaced with an SRD item reference or system-neutral treasure.",
+    "replacementTitle": "Sturdy Leather Boots",
+    "replacementKind": "treasure",
+    "rulesBasis": "SRD 5.2.1 or original 5E-compatible mechanics",
+    "artBasis": "New vector/CSS asset or original layout; no D&D logo or publisher trade dress used."
+  },
+  "rulesData": {
+    "type": "Adventuring clothing • 2 GP",
+    "meta": "5E-compatible treasure card",
+    "summary": "Nonmagical footwear; no attack-roll bonus."
+  }
+}

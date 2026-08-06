@@ -1,0 +1,50 @@
+{
+  "id": "xun-lesser-restoration-spell-card",
+  "original": {
+    "path": "Xun/AddText_06-02-02.22.27.jpg",
+    "filename": "AddText_06-02-02.22.27.jpg",
+    "extension": ".jpg",
+    "mimeType": "image/jpeg",
+    "byteLength": 468347,
+    "sha256": "9251c3a6d8643512759959fa32fc5f8edefe9f083629b2bcc40720abf416f30d",
+    "sourceArchive": "To Save Just In Case (2).zip"
+  },
+  "image": {
+    "width": 1200,
+    "height": 1200,
+    "format": "SVG",
+    "mode": "vector",
+    "frames": 1
+  },
+  "embedded": {
+    "mimeType": "image/svg+xml",
+    "byteLength": 1242,
+    "sha256": "96322734c00921a304a9d0aa1776db3dc9bff8cfdccb4a54899c0713070ce081",
+    "method": "srd-compliant-card-substitute",
+    "pixelVerifiedLossless": false,
+    "dataLocation": "css/assets/xun/xun-lesser-restoration-spell-card.css"
+  },
+  "css": {
+    "file": "css/assets/xun/xun-lesser-restoration-spell-card.css",
+    "variable": "--asset-xun-lesser-restoration-spell-card",
+    "class": "asset-xun-lesser-restoration-spell-card",
+    "usage": "<div class=\"asset-xun-lesser-restoration-spell-card\" role=\"img\" aria-label=\"Lesser Restoration\"></div>"
+  },
+  "json": {
+    "file": "json/assets/xun/xun-lesser-restoration-spell-card.json"
+  },
+  "category": "Xun",
+  "compliance": {
+    "status": "replaced",
+    "reason": "Original card used mixed-edition, non-SRD, or rules-inaccurate mechanics; replaced with an SRD 5.2.1 entry or SRD-only example build.",
+    "replacementTitle": "Lesser Restoration",
+    "replacementKind": "spell",
+    "rulesBasis": "SRD 5.2.1 or original 5E-compatible mechanics",
+    "artBasis": "New vector/CSS asset or original layout; no D&D logo or publisher trade dress used."
+  },
+  "rulesData": {
+    "type": "Level 2 Abjuration spell",
+    "meta": "Bonus Action • Touch • Instantaneous",
+    "summary": "End one disease or one of these conditions on the target: Blinded, Deafened, Paralyzed, or Poisoned."
+  }
+}

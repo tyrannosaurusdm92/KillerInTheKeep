@@ -1,0 +1,43 @@
+{
+  "id": "xun-githtoxundes-fenwophyl-name-banner",
+  "original": {
+    "path": "Xun/AddText_05-26-03.25.58.png",
+    "filename": "AddText_05-26-03.25.58.png",
+    "extension": ".png",
+    "mimeType": "image/png",
+    "byteLength": 199778,
+    "sha256": "21f47caa486eeacffbe299515d296c06d8cbc3f84fecea5f7ad7c867cf11c170",
+    "sourceArchive": "To Save Just In Case (4).zip"
+  },
+  "image": {
+    "width": 1440,
+    "height": 1440,
+    "format": "PNG",
+    "mode": "RGBA",
+    "frames": 1
+  },
+  "embedded": {
+    "mimeType": "image/png",
+    "byteLength": 199778,
+    "sha256": "21f47caa486eeacffbe299515d296c06d8cbc3f84fecea5f7ad7c867cf11c170",
+    "method": "original-bytes",
+    "pixelVerifiedLossless": true,
+    "dataLocation": "css/assets/xun/xun-githtoxundes-fenwophyl-name-banner.css"
+  },
+  "css": {
+    "file": "css/assets/xun/xun-githtoxundes-fenwophyl-name-banner.css",
+    "variable": "--asset-xun-githtoxundes-fenwophyl-name-banner",
+    "class": "asset-xun-githtoxundes-fenwophyl-name-banner",
+    "usage": "<div class=\"asset-xun-githtoxundes-fenwophyl-name-banner\" role=\"img\" aria-label=\"Githtoxundes Fenwophyl Name Banner\"></div>"
+  },
+  "json": {
+    "file": "json/assets/xun/xun-githtoxundes-fenwophyl-name-banner.json"
+  },
+  "category": "Xun",
+  "compliance": {
+    "status": "preserved",
+    "reason": "No non-SRD rules text or official D&D branding was detected in this generic/custom visual asset. Original bytes were retained.",
+    "rulesBasis": "Not applicable or supplemented by structured SRD metadata.",
+    "artBasis": "User-supplied asset; copyright provenance was not independently verified."
+  }
+}
